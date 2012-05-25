@@ -179,7 +179,7 @@ border-bottom-right-radius: 4px;
         <enum>QFrame::Raised</enum>
        </property>
        <property name="text">
-        <string>To install and remove programs to Pardus, use Package-Manager. Package-Manager also can automatically install the latest updates available. You can set the period for checking new updates.</string>
+        <string>To install and remove programs to Chakra, use Package-Manager. Package-Manager also can automatically install the latest updates available. You can set the period for checking new updates.</string>
        </property>
        <property name="wordWrap">
         <bool>true</bool>

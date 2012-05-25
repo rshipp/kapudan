@@ -47,7 +47,7 @@
       <string notr="true"/>
      </property>
      <property name="text">
-      <string>&lt;b&gt;Your settings have been applied.&lt;/b&gt; Now you can start enjoying Pardus or you can checkout the following links and applications for more settings or for help and support. Don't forget to &lt;b&gt;join our community!&lt;/b&gt;</string>
+      <string>&lt;b&gt;Your settings have been applied.&lt;/b&gt; Now you can start enjoying Chakra or you can checkout the following links and applications for more settings or for help and support. Don't forget to &lt;b&gt;join our community!&lt;/b&gt;</string>
      </property>
      <property name="wordWrap">
       <bool>true</bool>

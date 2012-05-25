@@ -23,7 +23,7 @@ msgid "Kaptan"
 msgstr "Kaptan"
 
 #: .tmp/ui_kaptan.py:358
-msgid "Welcome to Pardus"
+msgid "Welcome to Chakra"
 msgstr "Ласкаво просимо"
 
 #: .tmp/ui_kaptan.py:359
@@ -51,8 +51,8 @@ msgid "Smolt"
 msgstr "Smolt"
 
 #: .tmp/scrSmolt.py:32
-msgid "Help Pardus Improve!"
-msgstr "Допоможіть покращити Pardus!"
+msgid "Help Chakra Improve!"
+msgstr "Допоможіть покращити Chakra!"
 
 #: .tmp/scrSmolt.py:68
 msgid "Label"
@@ -172,10 +172,10 @@ msgstr "Теми"
 
 #: .tmp/ui_scrStyle.py:237
 msgid ""
-"Choose your favorite theme and desktop type. Customize Pardus with colorful "
+"Choose your favorite theme and desktop type. Customize Chakra with colorful "
 "styles and themes."
 msgstr ""
-"Виберіть улюлену тему і тип стільниці. Облаштуйте Pardus кольоровими стилями "
+"Виберіть улюлену тему і тип стільниці. Облаштуйте Chakra кольоровими стилями "
 "і темами."
 
 #: .tmp/ui_scrStyle.py:238
@@ -191,8 +191,8 @@ msgid "Oxygen - The official icon set of KDE"
 msgstr "Oxygen — офіційні піктограми KDE"
 
 #: .tmp/ui_scrStyle.py:243
-msgid "Milky - The official icon set of Pardus"
-msgstr "Milky — офіційні піктограми Pardus"
+msgid "Milky - The official icon set of Chakra"
+msgstr "Milky — офіційні піктограми Chakra"
 
 #: .tmp/ui_scrStyle.py:245
 msgid "Desktop Type"
@@ -226,11 +226,11 @@ msgstr "Підсумок"
 msgid ""
 "You have successfully finished all steps. Here's a summary of the settings "
 "you want to apply. Click <b>Apply Settings</b> to save them now. You are now "
-"ready to enjoy Pardus!"
+"ready to enjoy Chakra!"
 msgstr ""
 "Ви успішно використали усі кроки. Тут є підсумки налаштувань, які ви бажаєте "
 "застосувати. Нитисніть <b>Застосувати налаштування</b>, щоб їх зберегти. "
-"Тепер ви готові до використання Pardus!"
+"Тепер ви готові до використання Chakra!"
 
 #: .tmp/ui_scrSummary.py:87
 msgid "The following settings will be applied"
@@ -305,10 +305,10 @@ msgstr "Стартове меню"
 
 #: .tmp/scrMenu.py:43
 msgid ""
-"Kick-off menu is the default menu of Pardus.<br><br>The program shortcuts "
+"Kick-off menu is the default menu of Chakra.<br><br>The program shortcuts "
 "are easy to access and well organized."
 msgstr ""
-"Стартове меню — типове меню Pardus.<br><br>Скорочення програми легкодоступні "
+"Стартове меню — типове меню Chakra.<br><br>Скорочення програми легкодоступні "
 "та добре організовані."
 
 #: .tmp/scrMenu.py:47 .tmp/ui_scrMenu.py:126
@@ -329,10 +329,10 @@ msgstr "Меню Lancelot"
 
 #: .tmp/scrMenu.py:55
 msgid ""
-"Lancelot is an advanced and highly customizable menu for Pardus.<br><br>The "
+"Lancelot is an advanced and highly customizable menu for Chakra.<br><br>The "
 "program shortcuts are easy to access and well organized."
 msgstr ""
-"Lancelot — розширене й гарно пристосоване меню для Pardus.<br><br>Скорочення "
+"Lancelot — розширене й гарно пристосоване меню для Chakra.<br><br>Скорочення "
 "програми легкодоступні та добре організовані."
 
 #: .tmp/scrAvatar.py:36
@@ -346,11 +346,11 @@ msgstr "Створіть свою користувацьку картинку"
 #: .tmp/ui_scrSmolt.py:155
 msgid ""
 "<b>Smolt</b> is a tool that collects the information in the following table "
-"and sends it to us for which lets us improve Pardus according to the user "
+"and sends it to us for which lets us improve Chakra according to the user "
 "profile statistics."
 msgstr ""
 "<b>Smolt</b> — інструмент, який збирає інформацію з цих таблиць і відправляє "
-"нам, щоб ми могли покращити Pardus відповідно до статистики користувачів."
+"нам, щоб ми могли покращити Chakra відповідно до статистики користувачів."
 
 #: .tmp/ui_scrSmolt.py:156 .tmp/ui_scrGoodbye.py:327 .tmp/ui_scrGoodbye.py:328
 msgid "My Smolt Page"
@@ -371,7 +371,7 @@ msgid ""
 "weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\">   Smolt will only send "
-"hardware and basic operating system information to the Pardus smolt server "
+"hardware and basic operating system information to the Chakra smolt server "
 "(smoon).  The only tie from the database to a submitters machine is the "
 "UUID.  As long as the submitter does not give out this UUID the submission "
 "is anonymous.  If at any point in time a user wants to delete their profile "
@@ -389,16 +389,16 @@ msgid ""
 "better support in general.</p>\n"
 "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" text-"
-"decoration: underline;\">IP Logging:</span>  In Pardus's smolt install all "
+"decoration: underline;\">IP Logging:</span>  In Chakra's smolt install all "
 "web traffic goes through a proxy server first.  This is the only place IP "
 "addresses are being logged and they are kept on that server for a period of "
-"4 weeks at which time log rotation removes these logs.  The Pardus Project "
+"4 weeks at which time log rotation removes these logs.  The Chakra Project "
 "does not aggregate ip addresses in the smolt database.  These logs are "
 "private and will not be available to the general public.</p>\n"
 "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\">   Users unhappy with this "
 "policy should simply not use smolt.  Users with questions about this policy "
-"should contact the Pardus Infrastructure Team at admin [at] pardus.org.tr  "
+"should contact the Chakra Infrastructure Team at admin [at] pardus.org.tr  "
 "Also remember that users can delete their profiles at any time using &quot;"
 "<span style=\" font-style:italic;\">smoltDeleteProfile</span>&quot;</p></"
 "body></html>"
@@ -412,7 +412,7 @@ msgstr ""
 "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\">   Smolt відправить лише "
 "інформацію про апаратуру і базові інформацію про операційну систему до "
-"сервера Pardus (smoon).  Зв'язок між базою даних і відправником — UUID.  "
+"сервера Chakra (smoon).  Зв'язок між базою даних і відправником — UUID.  "
 "Поки відправник не надасть цей UUID, відправлення анонімне.  Якщо користувач "
 "збажає вилучити згадку з бази даних, потрібно тільки виконати</p>\n"
 "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
@@ -427,17 +427,17 @@ msgstr ""
 "покращення підтримки відкритих драйверів і кращої підтримки загалом.</p>\n"
 "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" text-"
-"decoration: underline;\">Реєстрація через IP :</span>  У сервері Pardus "
+"decoration: underline;\">Реєстрація через IP :</span>  У сервері Chakra "
 "установлено, що ввесь трафік іде спочатку через проксі-сервер.  Лише там "
 "реєструються адреси IP і вони зберігаються на сервері протягом чотирьох "
-"тижнів, після чого вони вилучаються з журналу.  Проект Pardus не збирає "
+"тижнів, після чого вони вилучаються з журналу.  Проект Chakra не збирає "
 "адреси IP у базі даних.  Цей реєстр приватний і недоступний сторонім "
 "особам.</p>\n"
 "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\">   Користувачі,  нераді "
 "такій політиці, повинні напросто не користуватись цим сервером.  Користувачі "
 "із запитаннями щодо цієї політики повинні з'єднатись з командою "
-"інфраструктури Pardus через admin [собачка] pardus.org.tr  Також не "
+"інфраструктури Chakra через admin [собачка] pardus.org.tr  Також не "
 "забувайте, що користувачі можуть вилучити свій запис у будь-який момент, "
 "скориставшись &quot;<span style=\" font-style:italic;\">Вилучити "
 "запис</span>&quot;</p></body></html>"
@@ -529,20 +529,20 @@ msgid "Welcome"
 msgstr "Ласкаво просимо"
 
 #: .tmp/ui_scrWelcome.py:78
-msgid "What is Pardus?"
-msgstr "Що таке Pardus?"
+msgid "What is Chakra?"
+msgstr "Що таке Chakra?"
 
 #: .tmp/ui_scrWelcome.py:79
 msgid ""
-"<b>Pardus</b> is a reliable, secure, fast and user friendly operating "
-"system. <br /><br />With Pardus, you can connect to the internet, read your "
+"<b>Chakra</b> is a reliable, secure, fast and user friendly operating "
+"system. <br /><br />With Chakra, you can connect to the internet, read your "
 "e-mails, work with your office documents, watch movies, play music, develop "
 "applications, play games and much more! <br /><br /><b>Kaptan</b> will help "
-"you personalize your Pardus workspace easily and quickly. Please click "
+"you personalize your Chakra workspace easily and quickly. Please click "
 "<b>next</b> in order to begin."
 msgstr ""
-"<b>Pardus</b> — надійна, безпечна, шивдка і дружелюбна система. <br /><br "
-"/>З Pardus ви зможете під'єднатись до інтернету, читати пошту, працювати з "
+"<b>Chakra</b> — надійна, безпечна, шивдка і дружелюбна система. <br /><br "
+"/>З Chakra ви зможете під'єднатись до інтернету, читати пошту, працювати з "
 "офісними документами, переглядати фільми, слухати музику, розробляти "
 "програми, бавитись ігри і багато-пребагато всього іншого! <br /><br "
 "/><b>Kaptan</b> допоможе вам усе це налаштувати під себе, щоб досягнути "
@@ -563,11 +563,11 @@ msgstr " годин"
 
 #: .tmp/ui_scrPackage.py:136
 msgid ""
-"To install and remove programs to Pardus, use Package-Manager. Package-"
+"To install and remove programs to Chakra, use Package-Manager. Package-"
 "Manager also can automatically install the latest updates available. You can "
 "set the period for checking new updates."
 msgstr ""
-"Щоб установляти і вилучати програми в Pardus, використайте керування "
+"Щоб установляти і вилучати програми в Chakra, використайте керування "
 "пакунками. Він також може автоматично встановлювати останні доступні "
 "оновлення. Ви можете вказати проміжок перевіряння."
 
@@ -640,11 +640,11 @@ msgstr "Вибрати шпалери"
 
 #: .tmp/ui_scrGoodbye.py:326
 msgid ""
-"<b>Your settings have been applied.</b> Now you can start enjoying Pardus or "
+"<b>Your settings have been applied.</b> Now you can start enjoying Chakra or "
 "you can checkout the following links and applications for more settings or "
 "for help and support. Don't forget to <b>join our community!</b>"
 msgstr ""
-"<b>Ваші налаштування застосовано.</b> Тепер можете користуватись Pardus, або "
+"<b>Ваші налаштування застосовано.</b> Тепер можете користуватись Chakra, або "
 "перевірити ці посилання та програми для подальших налаштувань, або "
 "звернутись по довідку та підтримку. Не забудьте <b>долучитись до нашої "
 "спільноти!</b>"
@@ -659,10 +659,10 @@ msgstr "Системні параметри"
 
 #: .tmp/ui_scrGoodbye.py:331
 msgid ""
-"Configuration tools for Pardus such as the display, firewall, keyboard, user "
+"Configuration tools for Chakra such as the display, firewall, keyboard, user "
 "manager..."
 msgstr ""
-"Інструмент налаштування для Pardus таких речей, як екран, мережева безпека, "
+"Інструмент налаштування для Chakra таких речей, як екран, мережева безпека, "
 "клавіатура, керування користувачами…"
 
 #: .tmp/ui_scrGoodbye.py:333 .tmp/ui_scrGoodbye.py:335
@@ -671,10 +671,10 @@ msgstr "Довідка і підтримка"
 
 #: .tmp/ui_scrGoodbye.py:334
 msgid ""
-"Pardus community, mailing lists, chat rooms, Wiki documents, help and "
+"Chakra community, mailing lists, chat rooms, Wiki documents, help and "
 "support pages..."
 msgstr ""
-"Спільнота Pardus, список листування, кімнати балачок, документи Wiki, "
+"Спільнота Chakra, список листування, кімнати балачок, документи Wiki, "
 "сторінка довідки і підтримки…"
 
 #: .tmp/ui_scrMouse.py:203
@@ -729,10 +729,10 @@ msgstr "Мова розкладки клавіатури"
 
 #: .tmp/ui_scrWallpaper.py:132
 msgid ""
-"Choose your favorite wallpaper for Pardus. Don't forget to check out "
+"Choose your favorite wallpaper for Chakra. Don't forget to check out "
 "<b>Desktop Settings</b> for downloading new and cool wallpapers."
 msgstr ""
-"Виберіть улюблену шпалеру для Pardus. Не забудьте перевірити <b>Налаштування "
+"Виберіть улюблену шпалеру для Chakra. Не забудьте перевірити <b>Налаштування "
 "стільниці</b> для звантаження нових і гарних шпалерів. "
 
 #: .tmp/ui_scrWallpaper.py:133

@@ -61,7 +61,7 @@ msgid "Kick-off Menu"
 msgstr ""
 
 #: .tmp/scrMenu.py:43
-msgid "Kick-off menu is the default menu of Pardus.<br><br>The program shortcuts are easy to access and well organized."
+msgid "Kick-off menu is the default menu of Chakra.<br><br>The program shortcuts are easy to access and well organized."
 msgstr ""
 
 #: .tmp/scrMenu.py:47 .tmp/ui_scrMenu.py:126
@@ -77,7 +77,7 @@ msgid "Lancelot Menu"
 msgstr ""
 
 #: .tmp/scrMenu.py:55
-msgid "Lancelot is an advanced and highly customizable menu for Pardus.<br><br>The program shortcuts are easy to access and well organized."
+msgid "Lancelot is an advanced and highly customizable menu for Chakra.<br><br>The program shortcuts are easy to access and well organized."
 msgstr ""
 
 #: .tmp/scrMouse.py:29 .tmp/ui_scrMouse.py:202
@@ -117,7 +117,7 @@ msgid "Smolt"
 msgstr ""
 
 #: .tmp/scrSmolt.py:32
-msgid "Help Pardus Improve!"
+msgid "Help Chakra Improve!"
 msgstr ""
 
 #: .tmp/scrSmolt.py:68
@@ -332,7 +332,7 @@ msgid "Welcome to %s"
 msgstr ""
 
 #: .tmp/ui_kaptan.py:358
-msgid "Welcome to Pardus"
+msgid "Welcome to Chakra"
 msgstr ""
 
 #: .tmp/ui_kaptan.py:359
@@ -381,7 +381,7 @@ msgid "Recapture"
 msgstr ""
 
 #: .tmp/ui_scrGoodbye.py:326
-msgid "<b>Your settings have been applied.</b> Now you can start enjoying Pardus or you can checkout the following links and applications for more settings or for help and support. Don't forget to <b>join our community!</b>"
+msgid "<b>Your settings have been applied.</b> Now you can start enjoying Chakra or you can checkout the following links and applications for more settings or for help and support. Don't forget to <b>join our community!</b>"
 msgstr ""
 
 #: .tmp/ui_scrGoodbye.py:327 .tmp/ui_scrGoodbye.py:328 .tmp/ui_scrSmolt.py:156
@@ -397,7 +397,7 @@ msgid "System Settings"
 msgstr ""
 
 #: .tmp/ui_scrGoodbye.py:331
-msgid "Configuration tools for Pardus such as the display, firewall, keyboard, user manager..."
+msgid "Configuration tools for Chakra such as the display, firewall, keyboard, user manager..."
 msgstr ""
 
 #: .tmp/ui_scrGoodbye.py:333 .tmp/ui_scrGoodbye.py:335
@@ -405,7 +405,7 @@ msgid "Help and Support"
 msgstr ""
 
 #: .tmp/ui_scrGoodbye.py:334
-msgid "Pardus community, mailing lists, chat rooms, Wiki documents, help and support pages..."
+msgid "Chakra community, mailing lists, chat rooms, Wiki documents, help and support pages..."
 msgstr ""
 
 #: .tmp/ui_scrKeyboard.py:94
@@ -469,7 +469,7 @@ msgid " hours"
 msgstr ""
 
 #: .tmp/ui_scrPackage.py:136
-msgid "To install and remove programs to Pardus, use Package-Manager. Package-Manager also can automatically install the latest updates available. You can set the period for checking new updates."
+msgid "To install and remove programs to Chakra, use Package-Manager. Package-Manager also can automatically install the latest updates available. You can set the period for checking new updates."
 msgstr ""
 
 #: .tmp/ui_scrPackage.py:137
@@ -493,7 +493,7 @@ msgid "Search Options"
 msgstr ""
 
 #: .tmp/ui_scrSmolt.py:155
-msgid "<b>Smolt</b> is a tool that collects the information in the following table and sends it to us for which lets us improve Pardus according to the user profile statistics."
+msgid "<b>Smolt</b> is a tool that collects the information in the following table and sends it to us for which lets us improve Chakra according to the user profile statistics."
 msgstr ""
 
 #: .tmp/ui_scrSmolt.py:157
@@ -506,15 +506,15 @@ msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   Smolt will only send hardware and basic operating system information to the Pardus smolt server (smoon).  The only tie from the database to a submitters machine is the UUID.  As long as the submitter does not give out this UUID the submission is anonymous.  If at any point in time a user wants to delete their profile from the database they need only run</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   Smolt will only send hardware and basic operating system information to the Chakra smolt server (smoon).  The only tie from the database to a submitters machine is the UUID.  As long as the submitter does not give out this UUID the submission is anonymous.  If at any point in time a user wants to delete their profile from the database they need only run</p>\n"
 "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">    <span style=\" font-style:italic;\">smoltDeleteProfile</span></p>\n"
 "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   The information sent to the smolt database server should be considered public in that anyone can view the statistics, data and share machine profiles.  In  many ways smolt is designed to get hardware vendors and other 3rd parties attention.  As such, not only will this information be shared with 3rd parties, we will be using smolt as leverage to gain better support for open source drivers and better support in general.</p>\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" text-decoration: underline;\">IP Logging:</span>  In Pardus's smolt install all web traffic goes through a proxy server first.  This is the only place IP addresses are being logged and they are kept on that server for a period of 4 weeks at which time log rotation removes these logs.  The Pardus Project does not aggregate ip addresses in the smolt database.  These logs are private and will not be available to the general public.</p>\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   Users unhappy with this policy should simply not use smolt.  Users with questions about this policy should contact the Pardus Infrastructure Team at admin [at] pardus.org.tr  Also remember that users can delete their profiles at any time using &quot;<span style=\" font-style:italic;\">smoltDeleteProfile</span>&quot;</p></body></html>"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" text-decoration: underline;\">IP Logging:</span>  In Chakra's smolt install all web traffic goes through a proxy server first.  This is the only place IP addresses are being logged and they are kept on that server for a period of 4 weeks at which time log rotation removes these logs.  The Chakra Project does not aggregate ip addresses in the smolt database.  These logs are private and will not be available to the general public.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   Users unhappy with this policy should simply not use smolt.  Users with questions about this policy should contact the Chakra Infrastructure Team at admin [at] pardus.org.tr  Also remember that users can delete their profiles at any time using &quot;<span style=\" font-style:italic;\">smoltDeleteProfile</span>&quot;</p></body></html>"
 msgstr ""
 
 #: .tmp/ui_scrStyle.py:237
-msgid "Choose your favorite theme and desktop type. Customize Pardus with colorful styles and themes."
+msgid "Choose your favorite theme and desktop type. Customize Chakra with colorful styles and themes."
 msgstr ""
 
 #: .tmp/ui_scrStyle.py:238
@@ -530,7 +530,7 @@ msgid "Oxygen - The official icon set of KDE"
 msgstr ""
 
 #: .tmp/ui_scrStyle.py:243
-msgid "Milky - The official icon set of Pardus"
+msgid "Milky - The official icon set of Chakra"
 msgstr ""
 
 #: .tmp/ui_scrStyle.py:245
@@ -558,7 +558,7 @@ msgid "styleDesc"
 msgstr ""
 
 #: .tmp/ui_scrSummary.py:86
-msgid "You have successfully finished all steps. Here's a summary of the settings you want to apply. Click <b>Apply Settings</b> to save them now. You are now ready to enjoy Pardus!"
+msgid "You have successfully finished all steps. Here's a summary of the settings you want to apply. Click <b>Apply Settings</b> to save them now. You are now ready to enjoy Chakra!"
 msgstr ""
 
 #: .tmp/ui_scrSummary.py:87
@@ -566,7 +566,7 @@ msgid "The following settings will be applied"
 msgstr ""
 
 #: .tmp/ui_scrWallpaper.py:132
-msgid "Choose your favorite wallpaper for Pardus. Don't forget to check out <b>Desktop Settings</b> for downloading new and cool wallpapers."
+msgid "Choose your favorite wallpaper for Chakra. Don't forget to check out <b>Desktop Settings</b> for downloading new and cool wallpapers."
 msgstr ""
 
 #: .tmp/ui_scrWallpaper.py:133
@@ -582,11 +582,11 @@ msgid "Don't change wallpaper"
 msgstr ""
 
 #: .tmp/ui_scrWelcome.py:78
-msgid "What is Pardus?"
+msgid "What is Chakra?"
 msgstr ""
 
 #: .tmp/ui_scrWelcome.py:79
-msgid "<b>Pardus</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Pardus, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kaptan</b> will help you personalize your Pardus workspace easily and quickly. Please click <b>next</b> in order to begin."
+msgid "<b>Chakra</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Chakra, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kaptan</b> will help you personalize your Chakra workspace easily and quickly. Please click <b>next</b> in order to begin."
 msgstr ""
 
 #: .tmp/ui_wallpaperItem.py:73

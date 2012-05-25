@@ -40,7 +40,7 @@ class Widget(QtGui.QWidget, Screen):
                 "menuIndex": 0,
                 "summaryMessage": ki18n("Kick-off Menu"),
                 "image": QtGui.QPixmap(':/raw/pixmap/kickoff.png'),
-                "description": ki18n("Kick-off menu is the default menu of Pardus.<br><br>The program shortcuts are easy to access and well organized.")
+                "description": ki18n("Kick-off menu is the default menu of Chakra.<br><br>The program shortcuts are easy to access and well organized.")
                 }
         self.menuNames["simplelauncher"] = {
                 "menuIndex": 1,
@@ -52,7 +52,7 @@ class Widget(QtGui.QWidget, Screen):
                 "menuIndex": 2,
                 "summaryMessage": ki18n("Lancelot Menu"),
                 "image": QtGui.QPixmap(':/raw/pixmap/lancelot.png'),
-                "description": ki18n("Lancelot is an advanced and highly customizable menu for Pardus.<br><br>The program shortcuts are easy to access and well organized.")
+                "description": ki18n("Lancelot is an advanced and highly customizable menu for Chakra.<br><br>The program shortcuts are easy to access and well organized.")
                 }
 
         for each in list(group.groupList()):

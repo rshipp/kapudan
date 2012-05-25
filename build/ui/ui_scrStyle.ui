@@ -73,7 +73,7 @@
       <string notr="true"/>
      </property>
      <property name="text">
-      <string>Choose your favorite theme and desktop type. Customize Pardus with colorful styles and themes.</string>
+      <string>Choose your favorite theme and desktop type. Customize Chakra with colorful styles and themes.</string>
      </property>
      <property name="wordWrap">
       <bool>true</bool>

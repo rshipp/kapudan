@@ -2,7 +2,7 @@ Kaptan
 ------
 
 **Kaptan** is a wizard that helps user to customize desktop enviroment after 
-installing Pardus. While Kaptan is giving some information about Pardus, it also 
+installing Chakra. While Kaptan is giving some information about Chakra, it also 
 sets basic configures such as internet connection, wallpaper and so on.
 
 Mouse
@@ -41,10 +41,10 @@ Net
 ---
 
 Highly recommended to use this setting page to connect internet for newly installed 
-Pardus.
+Chakra.
 
 Click **Create Profile** and select hardware that you want to configure. Fill blank 
-areas like profile name, password, etc. and then click **OK**. Pardus may ask your 
+areas like profile name, password, etc. and then click **OK**. Chakra may ask your 
 password for controlling authorization.
 
 To connect created profile you have to check the box near the profile that you named 
@@ -61,7 +61,7 @@ Smolt
 
 This screen helps us to make statistic about system configurations. While checking 
 **Send Hardware Information** you can allow to send your hardware configuration to 
-Pardus server.
+Chakra server.
 
 Summary
 -------
@@ -72,4 +72,4 @@ Other
 -----
 
 ın this screen, you can run **System Settings** to configure many options about 
-your system. Also you can connect Pardus support website.
+your system. Also you can connect Chakra support website.
