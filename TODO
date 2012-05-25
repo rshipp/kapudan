@@ -26,4 +26,6 @@ TODO:
 / Fix package management page, use spun
 - Decide whether to show keyboad page always, or only on livecd
 - Fix livecd-detection function
-- Add security page, set up kufw, clamav, etc
+- Add security page- set up kufw, clamav, etc
+? Add an 'install software' page, using pacman and cinstall, just
+      offering a few often-used packages. Use python-ccr as well?
