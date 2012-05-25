@@ -6,7 +6,7 @@ Legend:
 + Accomplished
 
 TODO:
-- Choose a name. Suggestions:
+/ Choose a name. Suggestions:
     Krown (As in Crown Chakra, plus a K)
     Dharma (dharma designates those behaviours considered necessary for
             the maintenance of the natural order of things)
@@ -16,11 +16,14 @@ TODO:
     developers. 
 / Fork everything.
 - Create custom Chakra artwork to replace the Kaptan logos
-- Add page for creating folders in $HOME (Pictures, Documents, etc)
-- Add page for choosing services to add to rc.conf, like cups
-- Add page for choosing KDM
-- Fix Themes page, add screenshots for Ronak and Ronak-light, as well as
+- Add page for creating folders in $HOME (Pictures, Documents, Music,
+                                          Downloads, Videos, custom)
+- Add page for choosing services to add to rc.conf, like cups (have a
+        few default options, and a button to open rcconf-kdm)
+- Add page for choosing KDM theme, with ronak/ronak light/others
+- Fix Themes/Style page, add screenshots for Ronak and Ronak-light, as well as
   any others included on the livecd by default
-- Fix package management page, use spun?
+/ Fix package management page, use spun
 - Decide whether to show keyboad page always, or only on livecd
 - Fix livecd-detection function
+- Add security page, set up kufw, clamav, etc
