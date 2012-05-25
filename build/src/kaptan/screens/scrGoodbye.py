@@ -32,10 +32,10 @@ class Widget(QtGui.QWidget, Screen):
         self.ui.setupUi(self)
 
         lang = KGlobal.locale().language()
-        if lang == "tr":
-            self.helpPageUrl = "http://www.pardus.org.tr/destek"
+        if lang in ["de", "el", "es", "it", "uz"]:
+            self.helpPageUrl = "http://chakra-linux.org/wiki/index.php/Help/" + lang
         else:
-            self.helpPageUrl = "http://www.pardus.org.tr/eng/support"
+            self.helpPageUrl = "http://chakra-linux.org/wiki/index.php/Help"
 
     def on_buttonSystemSettings_clicked(self):
         self.procSettings = QProcess()
