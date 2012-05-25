@@ -71,7 +71,7 @@ class Widget(QtGui.QWidget, Screen):
         config.setUpdateCheckInterval(QVariant(self.ui.updateInterval.value() * 60))
 
         if self.ui.showTray.isChecked():
-            p = subprocess.Popen(["package-manager"], stdout=subprocess.PIPE)
+            p = subprocess.Popen(["spun"], stdout=subprocess.PIPE)
 
     def shown(self):
         pass
