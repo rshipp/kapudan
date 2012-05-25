@@ -48,7 +48,7 @@
         <string notr="true">color: white;</string>
        </property>
        <property name="text">
-        <string>What is Pardus?</string>
+        <string>What is Chakra?</string>
        </property>
       </widget>
      </item>
@@ -101,7 +101,7 @@
         <enum>QFrame::Raised</enum>
        </property>
        <property name="text">
-        <string>&lt;b&gt;Pardus&lt;/b&gt; is a reliable, secure, fast and user friendly operating system. &lt;br /&gt;&lt;br /&gt;With Pardus, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! &lt;br /&gt;&lt;br /&gt;&lt;b&gt;Kaptan&lt;/b&gt; will help you personalize your Pardus workspace easily and quickly. Please click &lt;b&gt;next&lt;/b&gt; in order to begin.</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Chakra&lt;/span&gt; brings a ground-up Linux distribution, a free software showcase project created by a bunch of people who like the KISS principles, the elegance of the Plasma Desktop and a bundlesystem to support well known Gtk applications.&lt;br/&gt;&lt;br/&gt;Our main goal is provide a fast, user-friendly and extremely powerful Live CD and/or Linux distribution specially made for the award winning KDE Software Compilation and the beautiful Plasma desktop.&lt;br/&gt;&lt;br/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Kaptan&lt;/span&gt; will help you personalize your Chakra workspace easily and quickly. Please click &lt;span style=&quot; font-weight:600;&quot;&gt;next&lt;/span&gt; in order to begin.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>

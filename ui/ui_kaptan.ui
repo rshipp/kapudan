@@ -178,7 +178,7 @@ color:rgb(240, 240, 240)</string>
            <number>0</number>
           </property>
           <property name="text">
-           <string>Welcome to Pardus</string>
+           <string>Welcome to Chakra</string>
           </property>
           <property name="alignment">
            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
