@@ -25,7 +25,7 @@ Building & Installation
 
 Testing (for Developers)
 ------------------------
-* Build and run the source in a seperate dir
+* Build and run the source in a seperate dir:
 
     ./go
 
