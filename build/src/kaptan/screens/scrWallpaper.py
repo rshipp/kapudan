@@ -84,7 +84,8 @@ class Widget(QtGui.QWidget, Screen):
             # Insert wallpapers to listWidget.
             item = QtGui.QListWidgetItem(self.ui.listWallpaper)
             # Each wallpaper item is a widget. Look at widgets.py for more information.
-            widget = WallpaperItemWidget(unicode(wallpaperTitle), unicode(wallpaperDesc), wallpaperThumb, self.ui.listWallpaper)
+            #widget = WallpaperItemWidget(unicode(wallpaperTitle), unicode(wallpaperDesc), wallpaperThumb, self.ui.listWallpaper)
+            widget = WallpaperItemWidget(wallpaperTitle, wallpaperDesc, wallpaperThumb, self.ui.listWallpaper)
             item.setSizeHint(QSize(120,170))
             self.ui.listWallpaper.setItemWidget(item, widget)
             # Add a hidden value to each item for detecting selected wallpaper's path.

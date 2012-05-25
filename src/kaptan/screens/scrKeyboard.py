@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
 #
+# Copyright (C) 2012, The Chakra Developers
+#
+# This is a fork of Pardus' Kaptan, which is
 # Copyright (C) 2005-2009, TUBITAK/UEKAE
 #
 # This program is free software; you can redistribute it and/or modify it under
@@ -21,7 +24,7 @@ from kaptan.screens.ui_scrKeyboard import Ui_keyboardWidget
 
 import subprocess
 
-from pardus import localedata
+from kaptan.tools import localedata
 
 class Widget(QtGui.QWidget, Screen):
     screenSettings = {}

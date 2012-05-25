@@ -51,16 +51,6 @@ def killPlasma(self):
 def startPlasma(self):
     p = subprocess.Popen(["plasma-desktop"], stdout=subprocess.PIPE)
 
-def smoltProfileSent():
-    ''' Do not show smolt screen if profile was already sended.'''
-    smolt_uuid_path = "/etc/smolt/pub-uuid-smolt.pardus.org.tr"
-
-    if os.path.exists(smolt_uuid_path):
-        if os.path.getsize(smolt_uuid_path) > 0:
-            return True
-
-    return False
-
 def centerWindow(window):
     rect   = QDesktopWidget().screenGeometry()
     width  = 0

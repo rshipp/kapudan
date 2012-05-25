@@ -80,7 +80,6 @@ class Kaptan(QtGui.QWidget):
         otherScreens = list((set(allScreens) - set(headScreens)) - set(tailScreens))
         otherScreens.remove(scrKeyboard)
         otherScreens.remove(scrPackage)
-        otherScreens.remove(scrSmolt)
 
         screens.extend(headScreens)
         screens.extend(otherScreens)
@@ -91,9 +90,6 @@ class Kaptan(QtGui.QWidget):
 
         else:
             screens.append(scrPackage)
-
-            if not tools.smoltProfileSent():
-                screens.append(scrSmolt)
 
         screens.extend(tailScreens)
 

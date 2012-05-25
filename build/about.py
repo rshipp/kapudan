@@ -1,6 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 #
+# Copyright (C) 2012 The Chakra Project
+#
+# This is a fork of Pardus' Kaptan, which is
 # Copyright (C) 2006-2009 TUBITAK/UEKAE
 #
 # This program is free software; you can redistribute it and/or modify it under
@@ -18,15 +21,15 @@ from PyKDE4.kdecore import KAboutData, ki18n
 appName     = "kaptan"
 programName = ki18n("Kaptan")
 modName     = "kaptan"
-version     = "5.0.4"
+version     = "0.0.1"
 description = ki18n("Kaptan")
 license     = KAboutData.License_GPL
 copyright   = ki18n("(c) 2005-2011 TUBITAK/UEKAE")
 text        = ki18n(" ")
 homePage    = "http://developer.pardus.org.tr/projects/kaptan"
-bugEmail    = "renan@pardus.org.tr"
+bugEmail    = "george@chakra-project.org"
 catalog     = appName
 aboutData   = KAboutData(appName, catalog, programName, version, description, license, copyright, text, homePage, bugEmail)
 
 # Author(s)
-aboutData.addAuthor(ki18n("Renan Çakırerk"), ki18n("Current Maintainer"))
+aboutData.addAuthor(ki18n("george"), ki18n("Current Maintainer"))

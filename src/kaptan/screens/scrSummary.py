@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
 #
+# Copyright (C) 2012, The Chakra Developers
+#
+# This is a fork of Pardus' Kaptan, which is
 # Copyright (C) 2005-2009, TUBITAK/UEKAE
 #
 # This program is free software; you can redistribute it and/or modify it under
@@ -26,7 +29,6 @@ import kaptan.screens.scrWallpaper as wallpaperWidget
 import kaptan.screens.scrMouse as mouseWidget
 import kaptan.screens.scrStyle as styleWidget
 import kaptan.screens.scrMenu as menuWidget
-import kaptan.screens.scrSmolt  as smoltWidget
 import kaptan.screens.scrAvatar  as avatarWidget
 
 from kaptan.tools import tools
@@ -45,7 +47,6 @@ class Widget(QtGui.QWidget, Screen):
         self.mouseSettings = mouseWidget.Widget.screenSettings
         self.menuSettings = menuWidget.Widget.screenSettings
         self.styleSettings = styleWidget.Widget.screenSettings
-        self.smoltSettings = smoltWidget.Widget.screenSettings
         self.avatarSettings = avatarWidget.Widget.screenSettings
 
         subject = "<p><li><b>%s</b></li><ul>"
@@ -84,19 +85,6 @@ class Widget(QtGui.QWidget, Screen):
             content.append(item % ki18n("Selected Style: <b>%s</b>").toString() % unicode(self.styleSettings["summaryMessage"]))
 
         content.append(end)
-
-        # Smolt Settings
-        try:
-            if self.smoltSettings["summaryMessage"]:
-                content.append(subject %ki18n("Smolt Settings").toString())
-                content.append(item % ki18n("Send my profile: <b>%s</b>").toString() % self.smoltSettings["summaryMessage"])
-                #content.append(ki18n("(<i><u>Warning:</u> Sending profile requires to set up communication with Smolt server and can take between 30 seconds to a minute. Kaptan may freeze during this time.</i>)").toString())
-                content.append(end)
-        except:
-            print "WARNING: Your Smolt profile is already sent."
-
-        content.append("""</ul></body></html>""")
-        self.ui.textSummary.setHtml(content)
 
     def killPlasma(self):
         try:
@@ -310,13 +298,6 @@ class Widget(QtGui.QWidget, Screen):
                 proxy.reconfigure()
             except dbus.DBusException:
                 pass
-
-        # Smolt Settings
-        if self.smoltSettings["profileSend"]:
-            self.procSettings = QProcess()
-            command = "smoltSendProfile"
-            arguments = ["-a", "--submitOnly"]
-            self.procSettings.startDetached(command, arguments)
 
         # Avatar Settings
         if self.avatarSettings["hasChanged"]:

@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
 #
+# Copyright (C) 2012, The Chakra Developers
+#
+# This is a fork of Pardus' Kaptan, which is
 # Copyright (C) 2005-2009, TUBITAK/UEKAE
 #
 # This program is free software; you can redistribute it and/or modify it under
@@ -18,7 +21,6 @@ import subprocess, sys
 
 from kaptan.screen import Screen
 from kaptan.screens.ui_scrGoodbye import Ui_goodbyeWidget
-import kaptan.screens.scrSmolt as smoltWidget
 
 class Widget(QtGui.QWidget, Screen):
     title = ki18n("More")
@@ -35,8 +37,6 @@ class Widget(QtGui.QWidget, Screen):
         else:
             self.helpPageUrl = "http://www.pardus.org.tr/eng/support"
 
-        self.smoltUrl = "http://smolt.pardus.org.tr:8090"
-
     def on_buttonSystemSettings_clicked(self):
         self.procSettings = QProcess()
         self.procSettings.start("systemsettings")
@@ -46,21 +46,6 @@ class Widget(QtGui.QWidget, Screen):
         command = "kfmclient openURL " + self.helpPageUrl
         self.procSettings.start(command)
 
-    def on_buttonSystemSettings_2_clicked(self):
-        self.procSettings = QProcess()
-        command = "kfmclient openURL " + self.smoltUrl
-        self.procSettings.start(command)
-
-    def setSmolt(self):
-        if not self.smoltSettings["profileSend"]:
-            self.ui.smoltGroupBox.hide()
-            self.ui.label.hide()
-
-    def shown(self):
-       self.smoltSettings = smoltWidget.Widget.screenSettings
-       self.setSmolt()
-
     def execute(self):
        return True
-
 
