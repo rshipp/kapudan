@@ -6,4 +6,18 @@ Legend:
 + Accomplished
 
 TODO:
+- Choose a name. Suggestions:
+    Krown
+    Anja (Brow or Third Eye Chakra)
+    Phuna (Thai, Captain/Leader)
+    Nayaka (Sanskrit, guide/leader)
 / Fork everything.
+- Create custom Chakra artwork to replace the Kaptan logos
+- Add page for creating folders in $HOME (Pictures, Documents, etc)
+- Add page for choosing services to add to rc.conf, like cups
+- Add page for choosing KDM
+- Fix Themes page, add screenshots for Ronak and Ronak-light, as well as
+  any others included on the livecd by default
+- Fix package management page, use spun?
+- Decide whether to show keyboad page always, or only on livecd
+- Fix livecd-detection function
