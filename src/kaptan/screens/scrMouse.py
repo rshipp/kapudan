@@ -34,8 +34,8 @@ class Widget(QtGui.QWidget, Screen):
         self.ui = Ui_mouseWidget()
         self.ui.setupUi(self)
 
-        # Our default click behavior is double click. So make SingleClick = false (kdeglobals)
-        self.clickBehavior = False
+        # Our default click behavior is single click. So make SingleClick = true (kdeglobals)
+        self.clickBehavior = True
 
         # read default settings
         try:
@@ -47,6 +47,8 @@ class Widget(QtGui.QWidget, Screen):
             group = config.group("KDE")
 
             self.__class__.screenSettings["selectedBehavior"] = str(group.readEntry("SingleClick"))
+            # TODO: change this, put single click on top in the ui
+            self.ui.singleClick.setChecked(True)
 
             self.ui.singleClick.setChecked(self.str2bool(self.__class__.screenSettings["selectedBehavior"]))
             self.clickBehavior = self.str2bool(self.__class__.screenSettings["selectedBehavior"])
