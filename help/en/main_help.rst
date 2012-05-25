@@ -56,13 +56,6 @@ profile line. You may either save the changes or cancel all.
 To delete a profile, click the right button on the right side of profile line (the 
 red cross button).
 
-Smolt
------
-
-This screen helps us to make statistic about system configurations. While checking 
-**Send Hardware Information** you can allow to send your hardware configuration to 
-Chakra server.
-
 Summary
 -------
 

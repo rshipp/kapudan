@@ -1,6 +1,0 @@
-Deps:
-python
-kdebindings-pykde4
-pyqt
-python-xlib
-python2-v4l2capture

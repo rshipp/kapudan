@@ -85,6 +85,8 @@ class Kaptan(QtGui.QWidget):
         screens.extend(otherScreens)
 
         # Append other screens depending on the following cases
+        # TODO: decide if this should be removed in favor of having
+        # this always enabled.
         if tools.isLiveCD():
             screens.append(scrKeyboard)
 
@@ -96,7 +98,7 @@ class Kaptan(QtGui.QWidget):
         return screens
 
     def getCur(self, d):
-        ''' returns the id of current stack '''
+        ''' returns the id of current stack '''
         new   = self.ui.mainStack.currentIndex() + d
         total = self.ui.mainStack.count()
         if new < 0: new = 0
@@ -104,11 +106,11 @@ class Kaptan(QtGui.QWidget):
         return new
 
     def setCurrent(self, id=None):
-        ''' move to id numbered step '''
+        ''' move to id numbered step '''
         if id: self.stackMove(id)
 
     def slotNext(self,dryRun=False):
-        ''' execute next step '''
+        ''' execute next step '''
         self.menuText = ""
         curIndex = self.ui.mainStack.currentIndex() + 1
 
@@ -216,13 +218,13 @@ if __name__ == "__main__":
     appName     = "kaptan"
     catalog     = ""
     programName = ki18n("kaptan")
-    version     = "5.0.1"
+    version     = "0.0.1"
     description = ki18n("Kaptan lets you configure your Chakra workspace at first login")
     license     = KAboutData.License_GPL
-    copyright   = ki18n("(c) 2011 Chakra")
+    copyright   = ki18n("(c) 2012 The Chakra Developers")
     text        = ki18n("none")
     homePage    = "http://developer.pardus.org.tr/projects/kaptan"
-    bugEmail    = "renan@pardus.org.tr"
+    bugEmail    = "george@chakra-project.org"
 
     aboutData   = KAboutData(appName,catalog, programName, version, description,
                                 license, copyright,text, homePage, bugEmail)
