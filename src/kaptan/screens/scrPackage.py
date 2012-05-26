@@ -29,7 +29,7 @@ class Widget(QtGui.QWidget, Screen):
     desc = ki18n("Install / Remove Programs")
 
     # min update time
-    updateTime = 12
+    updateTime = 30
 
     def __init__(self, *args):
         QtGui.QWidget.__init__(self,None)

@@ -84,14 +84,8 @@ class Kaptan(QtGui.QWidget):
         screens.extend(headScreens)
         screens.extend(otherScreens)
 
-        # Append other screens depending on the following cases
-        # TODO: decide if this should be removed in favor of having
-        # this always enabled.
-        if tools.isLiveCD():
-            screens.append(scrKeyboard)
-
-        else:
-            screens.append(scrPackage)
+        screens.append(scrKeyboard)
+        screens.append(scrPackage)
 
         screens.extend(tailScreens)
 
