@@ -41,7 +41,7 @@
       <string notr="true"/>
      </property>
      <property name="text">
-      <string>You have successfully finished all steps. Here's a summary of the settings you want to apply. Click &lt;b&gt;Apply Settings&lt;/b&gt; to save them now. You are now ready to enjoy Chakra!</string>
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You have successfully finished all steps. Here's a summary of the settings you want to apply. Click &lt;span style=&quot; font-weight:600;&quot;&gt;Apply Settings&lt;/span&gt; if they look good, or go back and make more changes. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
      <property name="wordWrap">
       <bool>true</bool>

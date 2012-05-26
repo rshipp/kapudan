@@ -63,7 +63,7 @@
       <string notr="true"/>
      </property>
      <property name="text">
-      <string>Choose your favorite wallpaper for Chakra. Don't forget to check out &lt;b&gt;Desktop Settings&lt;/b&gt; for downloading new and cool wallpapers.</string>
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Choose your favorite wallpaper for your Chakra desktop. Don't forget to check out &lt;span style=&quot; font-weight:600;&quot;&gt;Desktop Settings&lt;/span&gt; to download cool new wallpapers.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
      <property name="wordWrap">
       <bool>true</bool>

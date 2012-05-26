@@ -63,7 +63,7 @@
       <string notr="true"/>
      </property>
      <property name="text">
-      <string>This screen helps you set your &lt;b&gt;user picture&lt;/b&gt;. You can either choose an image from a file or you can capture an image from your camera. Select an option from the &lt;b&gt;options&lt;/b&gt; menu.</string>
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This screen helps you set your &lt;span style=&quot; font-weight:600;&quot;&gt;user picture&lt;/span&gt;. You can either choose an image from a file, or you can capture an image from your camera, if you have one. Select an option from the &lt;span style=&quot; font-weight:600;&quot;&gt;options&lt;/span&gt; menu.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
      <property name="wordWrap">
       <bool>true</bool>
@@ -229,7 +229,7 @@ background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0
               </property>
               <property name="minimumSize">
                <size>
-                <width>113</width>
+                <width>137</width>
                 <height>24</height>
                </size>
               </property>

@@ -72,7 +72,7 @@
       <enum>QFrame::Raised</enum>
      </property>
      <property name="text">
-      <string>Strigi Desktop Search indexes your frequently used files. This gives you very fast file search results. Strigi also can search for files based on their contents.</string>
+      <string>Strigi Desktop Search indexes your frequently used files. This gives you very fast file search results. Strigi also can search for files based on their contents. On older computers, this can use a lot of resources.</string>
      </property>
      <property name="wordWrap">
       <bool>true</bool>

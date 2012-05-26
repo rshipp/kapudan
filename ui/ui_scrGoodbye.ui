@@ -47,7 +47,7 @@
       <string notr="true"/>
      </property>
      <property name="text">
-      <string>&lt;b&gt;Your settings have been applied.&lt;/b&gt; Now you can start enjoying Chakra or you can checkout the following links and applications for more settings or for help and support. Don't forget to &lt;b&gt;join our community!&lt;/b&gt;</string>
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Your settings have been applied.&lt;/span&gt; Now you can start enjoying Chakra, or check out the following links and applications for more settings, or for help and support. Don't forget to &lt;span style=&quot; font-weight:600;&quot;&gt;join our community!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
      <property name="wordWrap">
       <bool>true</bool>
@@ -207,7 +207,7 @@ border-bottom-right-radius: 4px;
                <string notr="true">color: rgb(30, 43, 51)</string>
               </property>
               <property name="text">
-               <string>Configuration tools for Chakra such as the display, firewall, keyboard, user manager...</string>
+               <string>Configuration tools for Chakra, such as the display settings, firewall, keyboard layout, user management...</string>
               </property>
               <property name="scaledContents">
                <bool>true</bool>
@@ -366,7 +366,7 @@ border-bottom-right-radius: 4px;
                <string notr="true">color: rgb(30, 43, 51)</string>
               </property>
               <property name="text">
-               <string>Chakra community, mailing lists, chat rooms, Wiki documents, help and support pages...</string>
+               <string>Chakra community: mailing lists, chat rooms, Wiki documents, help and support pages...</string>
               </property>
               <property name="scaledContents">
                <bool>true</bool>

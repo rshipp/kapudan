@@ -60,7 +60,7 @@
       <string notr="true"/>
      </property>
      <property name="text">
-      <string>Kaptan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly.</string>
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Kaptan tries to automatically select the best keyboard layout according to your system language. If you want to use another layout, just make a selection below.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
      <property name="wordWrap">
       <bool>true</bool>

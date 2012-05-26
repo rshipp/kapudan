@@ -108,13 +108,16 @@ border-bottom-right-radius: 4px;
              <string notr="true">color: rgb(30, 43, 51)</string>
             </property>
             <property name="suffix">
-             <string> hours</string>
+             <string> minutes</string>
             </property>
             <property name="minimum">
-             <number>2</number>
+             <number>5</number>
+            </property>
+            <property name="maximum">
+             <number>10080</number>
             </property>
             <property name="value">
-             <number>2</number>
+             <number>30</number>
             </property>
            </widget>
           </item>
@@ -179,7 +182,7 @@ border-bottom-right-radius: 4px;
         <enum>QFrame::Raised</enum>
        </property>
        <property name="text">
-        <string>To install and remove programs to Chakra, use Package-Manager. Package-Manager also can automatically install the latest updates available. You can set the period for checking new updates.</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To install and remove programs on Chakra, use the command-line &lt;a href=&quot;http://chakra-linux.org/wiki/index.php/Pacman&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;pacman&lt;/span&gt;&lt;/a&gt; program. You can run 'sudo pacman -Syu' to update, 'pacman -Ss keyword' to search through the repos, and 'sudo pacman -S package' to install packages. &lt;/p&gt;&lt;p&gt;Pacman does not have any sort of graphical interface, so another small app, spun, was created to provide update notifications. When updates are available, spun will show a notification in your system tray. The options below allow you to enable or disble spun, and set the update interval.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="wordWrap">
         <bool>true</bool>
