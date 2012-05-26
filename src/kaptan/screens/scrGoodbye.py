@@ -36,6 +36,10 @@ class Widget(QtGui.QWidget, Screen):
             self.helpPageUrl = "http://chakra-linux.org/wiki/index.php/Help/" + lang
         else:
             self.helpPageUrl = "http://chakra-linux.org/wiki/index.php/Help"
+        if lang in ["de", "es", "eu", "fr", "it", "pl", "pt-br", "sv", "ru", "uz", "zh-hant"]:
+            self.beginnersGuideUrl = "http://chakra-linux.org/wiki/index.php/Beginners_Guide/" + lang
+        else:
+            self.beginnersGuideUrl = "http://chakra-linux.org/wiki/index.php/Beginners_Guide"
 
     def on_buttonSystemSettings_clicked(self):
         self.procSettings = QProcess()
@@ -44,6 +48,11 @@ class Widget(QtGui.QWidget, Screen):
     def on_buttonHelpPages_clicked(self):
         self.procSettings = QProcess()
         command = "kfmclient openURL " + self.helpPageUrl
+        self.procSettings.start(command)
+
+    def on_buttonBeginnersGuide_clicked(self):
+        self.procSettings = QProcess()
+        command = "kfmclient openURL " + self.beginnersGuideUrl
         self.procSettings.start(command)
 
     def execute(self):
