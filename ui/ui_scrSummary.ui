@@ -139,14 +139,14 @@ padding: 20px;
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="../data/kaptan.qrc">:/raw/pixmap/basket.png</pixmap>
+      <pixmap resource="../data/kapudan.qrc">:/raw/pixmap/basket.png</pixmap>
      </property>
     </widget>
    </item>
   </layout>
  </widget>
  <resources>
-  <include location="../data/kaptan.qrc"/>
+  <include location="../data/kapudan.qrc"/>
  </resources>
  <connections/>
 </ui>

@@ -18,31 +18,31 @@ msgstr ""
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: .tmp/ui_kaptan.py:357 .tmp/kaptan.desktop.in.h:1
-msgid "Kaptan"
-msgstr "Kaptan"
+#: .tmp/ui_kapudan.py:357 .tmp/kapudan.desktop.in.h:1
+msgid "Kapudan"
+msgstr "Kapudan"
 
-#: .tmp/ui_kaptan.py:358
+#: .tmp/ui_kapudan.py:358
 msgid "Welcome to Chakra"
 msgstr "Welkom bij Chakra"
 
-#: .tmp/ui_kaptan.py:359
+#: .tmp/ui_kapudan.py:359
 msgid "Cancel"
 msgstr "Annuleren"
 
-#: .tmp/ui_kaptan.py:360
+#: .tmp/ui_kapudan.py:360
 msgid "Back"
 msgstr "Terug"
 
-#: .tmp/ui_kaptan.py:361
+#: .tmp/ui_kapudan.py:361
 msgid "Next"
 msgstr "Volgende"
 
-#: .tmp/ui_kaptan.py:362
+#: .tmp/ui_kapudan.py:362
 msgid "Finish"
 msgstr "Voltooien"
 
-#: .tmp/ui_kaptan.py:363
+#: .tmp/ui_kapudan.py:363
 msgid "Apply Settings"
 msgstr "Instellingen toepassen"
 
@@ -446,7 +446,7 @@ msgstr ""
 "door het starten van &quot;<span style=\" font style:italic;"
 "\">smoltDeleteProfile</span>&quot;</p></body></html>"
 
-#: .tmp/kaptan.desktop.in.h:2
+#: .tmp/kapudan.desktop.in.h:2
 msgid "Welcome Wizard"
 msgstr "Welkomassistent"
 
@@ -525,9 +525,9 @@ msgid "Error"
 msgstr "Fout"
 
 #: .tmp/scrSummary.py:117
-msgid "Cannot restart plasma-desktop. Kaptan will now shutdown."
+msgid "Cannot restart plasma-desktop. Kapudan will now shutdown."
 msgstr ""
-"Kan het Plasma-bureaublad niet herstarten. Kaptan zal nu afgesloten worden."
+"Kan het Plasma-bureaublad niet herstarten. Kapudan zal nu afgesloten worden."
 
 #: .tmp/ui_scrWelcome.py:77 .tmp/scrWelcome.py:27
 msgid "Welcome"
@@ -542,7 +542,7 @@ msgid ""
 "<b>Chakra</b> is a reliable, secure, fast and user friendly operating "
 "system. <br /><br />With Chakra, you can connect to the internet, read your "
 "e-mails, work with your office documents, watch movies, play music, develop "
-"applications, play games and much more! <br /><br /><b>Kaptan</b> will help "
+"applications, play games and much more! <br /><br /><b>Kapudan</b> will help "
 "you personalize your Chakra workspace easily and quickly. Please click "
 "<b>next</b> in order to begin."
 msgstr ""
@@ -550,7 +550,7 @@ msgstr ""
 "besturingssysteem.<br /><br />Met Chakra kunt u verbinding met het internet "
 "maken, uw emails lezen, met office-documenten werken, films kijken, muziek "
 "afspelen, toepassingen maken, games spelen en nog veel meer! <br /><br /"
-"><b>Kaptan</b> zal behulpzaam zijn bij het snel en gemakkelijk aanpassen van "
+"><b>Kapudan</b> zal behulpzaam zijn bij het snel en gemakkelijk aanpassen van "
 "het Chakra systeem. Selecteer <b>Volgende</b> om te starten."
 
 #: .tmp/ui_scrPackage.py:133
@@ -754,11 +754,11 @@ msgstr "Achtergrond niet wijzigen"
 
 #: .tmp/ui_scrKeyboard.py:94
 msgid ""
-"Kaptan automatically selects the best keyboard layout according to your "
+"Kapudan automatically selects the best keyboard layout according to your "
 "system language. If you want to use another layout other than the default "
 "keyboard layout, you can make your selection and test it instantly."
 msgstr ""
-"Kaptan selecteert automatisch de beste bij de systeemtaal bijbehorende "
+"Kapudan selecteert automatisch de beste bij de systeemtaal bijbehorende "
 "toetsenborduitvoering. Indien een andere dan de standaard gewenst is, "
 "selecteer een andere en test deze ook hier."
 
@@ -803,12 +803,12 @@ msgstr "Testweergave"
 #~ "Een assistent voor het overzetten van bestanden en instellingen van het "
 #~ "huidige besturingsysteem (bijv. Windows) naar Chakra."
 
-#~ msgid "Kaptan Desktop"
-#~ msgstr "Kaptan Desktop"
+#~ msgid "Kapudan Desktop"
+#~ msgstr "Kapudan Desktop"
 
 #, fuzzy
-#~ msgid "Welcome to Kaptan 2009.2"
-#~ msgstr "Welkom bij Kaptan"
+#~ msgid "Welcome to Kapudan 2009.2"
+#~ msgstr "Welkom bij Kapudan"
 
 #~ msgid "Insert some catchy title about keyboards.."
 #~ msgstr "Voeg een enigzins pakkende titel over toetsenborden toe.."

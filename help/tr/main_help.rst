@@ -1,9 +1,9 @@
-Kaptan
+Kapudan
 ------
 
-**Kaptan**, Chakra kurulumu sonrasında kullanıcıyı masaüstünde karşılayan ve 
+**Kapudan**, Chakra kurulumu sonrasında kullanıcıyı masaüstünde karşılayan ve 
 daha sonra masaüstünüzü kişiselleştirmek için kullanabileceğiniz bir ayar 
-sihirbazıdır. Kaptan, Chakra hakkında genel bilgiler verirken, kullanıcının 
+sihirbazıdır. Kapudan, Chakra hakkında genel bilgiler verirken, kullanıcının 
 masaüstünü daha rahat kullanabilmesi için, ağ bağlantıları gibi temel 
 yapılandırma seçeneklerini sunar ve aynı zamanda kullanıcının masaüstünü 
 kişiselleştirmesine de yardımcı olur.

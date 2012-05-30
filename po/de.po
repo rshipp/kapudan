@@ -1,7 +1,7 @@
 # translation of de.po to German
-# Kaptan
+# Kapudan
 # Copyright (C) 2009
-# This file is distributed under the same license as the Kaptan package.
+# This file is distributed under the same license as the Kapudan package.
 # 
 # Pınar Yanardağ <pinar@pardus.org.tr>, 2009.
 # Klemens Häckel <click3d at linuxmail dot org>, 2009.
@@ -22,31 +22,31 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 0.3\n"
 
-#: .tmp/ui_kaptan.py:357 .tmp/kaptan.desktop.in.h:1
-msgid "Kaptan"
-msgstr "Kaptan"
+#: .tmp/ui_kapudan.py:357 .tmp/kapudan.desktop.in.h:1
+msgid "Kapudan"
+msgstr "Kapudan"
 
-#: .tmp/ui_kaptan.py:358
+#: .tmp/ui_kapudan.py:358
 msgid "Welcome to Chakra"
 msgstr "Willkommen bei Chakra"
 
-#: .tmp/ui_kaptan.py:359
+#: .tmp/ui_kapudan.py:359
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: .tmp/ui_kaptan.py:360
+#: .tmp/ui_kapudan.py:360
 msgid "Back"
 msgstr "Zurück"
 
-#: .tmp/ui_kaptan.py:361
+#: .tmp/ui_kapudan.py:361
 msgid "Next"
 msgstr "Weiter"
 
-#: .tmp/ui_kaptan.py:362
+#: .tmp/ui_kapudan.py:362
 msgid "Finish"
 msgstr "Fertigstellen"
 
-#: .tmp/ui_kaptan.py:363
+#: .tmp/ui_kapudan.py:363
 msgid "Apply Settings"
 msgstr "Einstellungen übernehmen"
 
@@ -353,7 +353,7 @@ msgstr ""
 "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" text-decoration: underline;\">IP Speicherung:</span> In den Chakra Einrichtungen geht der gesamte Web-Verkehr zu Smolt über einen Proxy-Server. Dieser Proxy Server ist der einzige Punkt, wo die IP-Adressen im Log gespeichert werden, wo sie dann nach 4 Wochen durch Logrotation wieder gelöscht werden. Das Chakra Projekt speichert die IP-Adresse nicht in der smolt-Datenbank. Diese Logs sind privat und werden nicht öffentlich zugänglich sein.</p>\n"
 "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> Benutzer denen diese Politik nicht gefällt, sollten ganz einfach smolt nicht verwenden. Anwender mit Fragen können sich an das Chakra Infrastructure-Team wenden: admin [at] pardus.org.tr. Hier nochmals die Erinnerung, dass jederzeit das eigene Profil mit dem folgenden Befehl gelöscht werden kann: quot;<span style=\" font-style:italic;\">smoltDeleteProfile</span>&quot;</p></body></html>"
 
-#: .tmp/kaptan.desktop.in.h:2
+#: .tmp/kapudan.desktop.in.h:2
 msgid "Welcome Wizard"
 msgstr "Willkommens-Assistent"
 
@@ -432,8 +432,8 @@ msgid "Error"
 msgstr "Fehler"
 
 #: .tmp/scrSummary.py:117
-msgid "Cannot restart plasma-desktop. Kaptan will now shutdown."
-msgstr "Neustart von plasma-desktop nicht möglich. Kaptan wird jetzt den PC herunterfahren."
+msgid "Cannot restart plasma-desktop. Kapudan will now shutdown."
+msgstr "Neustart von plasma-desktop nicht möglich. Kapudan wird jetzt den PC herunterfahren."
 
 #: .tmp/ui_scrWelcome.py:77 .tmp/scrWelcome.py:27
 msgid "Welcome"
@@ -444,8 +444,8 @@ msgid "What is Chakra?"
 msgstr "Was ist Chakra?"
 
 #: .tmp/ui_scrWelcome.py:79
-msgid "<b>Chakra</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Chakra, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kaptan</b> will help you personalize your Chakra workspace easily and quickly. Please click <b>next</b> in order to begin."
-msgstr "<b>Chakra</b> ist ein sicheres, schnelles und benutzerfreundliches Betriebssystem. <br /> <br />Mit Chakra können Sie sich mit dem Internet verbinden, Ihre Emails lesen, Office-Dokumente bearbeiten, Filme anschauen, Musik hören, Programme entwickeln, Spiele spielen und vieles mehr! <br /><br /><b>Kaptan</b> wird Ihnen nach der Installation schnell und einfach helfen das System den eigenen Wünschen anzupassen. Um fortzufahren, klicken Sie bitte auf <b>weiter</b>."
+msgid "<b>Chakra</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Chakra, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kapudan</b> will help you personalize your Chakra workspace easily and quickly. Please click <b>next</b> in order to begin."
+msgstr "<b>Chakra</b> ist ein sicheres, schnelles und benutzerfreundliches Betriebssystem. <br /> <br />Mit Chakra können Sie sich mit dem Internet verbinden, Ihre Emails lesen, Office-Dokumente bearbeiten, Filme anschauen, Musik hören, Programme entwickeln, Spiele spielen und vieles mehr! <br /><br /><b>Kapudan</b> wird Ihnen nach der Installation schnell und einfach helfen das System den eigenen Wünschen anzupassen. Um fortzufahren, klicken Sie bitte auf <b>weiter</b>."
 
 #: .tmp/ui_scrPackage.py:133
 msgid "Show updates in the system tray"
@@ -606,8 +606,8 @@ msgid "Don't change wallpaper"
 msgstr "Hintergrundbild nicht ändern"
 
 #: .tmp/ui_scrKeyboard.py:94
-msgid "Kaptan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
-msgstr "Kaptan wählt automatisch das beste Tastaturlayout entsprechend der Spracheinstellung Ihres Systems. Wenn Sie stattdessen eine andere Tastaturanordnung benutzen möchten, können Sie nun Ihre Wahl treffen und sofort ausprobieren."
+msgid "Kapudan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
+msgstr "Kapudan wählt automatisch das beste Tastaturlayout entsprechend der Spracheinstellung Ihres Systems. Wenn Sie stattdessen eine andere Tastaturanordnung benutzen möchten, können Sie nun Ihre Wahl treffen und sofort ausprobieren."
 
 #: .tmp/ui_scrKeyboard.py:95
 msgid "Test Layout"
@@ -662,11 +662,11 @@ msgstr "Testfeld"
 #~ msgstr "Kick-off Menü"
 
 #~ msgid ""
-#~ "This application, called Kaptan Desktop, will help you with your basic but sufficient setup for your Chakra desktop in a quick manner. Please click Next to personalize your desktop. \n"
+#~ "This application, called Kapudan Desktop, will help you with your basic but sufficient setup for your Chakra desktop in a quick manner. Please click Next to personalize your desktop. \n"
 #~ "\n"
 #~ "Chakra is a GNU/Linux distribution, targeting at computer literate users' basic desktop needs; helps you connect to internet, read e-mails, work with office documents and more!"
 #~ msgstr ""
-#~ "Kaptan Desktop wird Ihnen helfen grundlegende Einstellungen am System vorzunehmen. Klicken Sie auf 'Weiter', um das System nach Ihren Wünschen zu konfigurieren. \n"
+#~ "Kapudan Desktop wird Ihnen helfen grundlegende Einstellungen am System vorzunehmen. Klicken Sie auf 'Weiter', um das System nach Ihren Wünschen zu konfigurieren. \n"
 #~ "\n"
 #~ "Chakra ist eine GNU/Linux-Distribution, die auf die grundlegenden Bedürfnisse von Computernutzern zugeschnitten ist. Chakra ist ausgestattet, um sich mit dem Internet zu verbinden, Emails und Office-Dokumente zu lesen und noch vieles mehr!"
 
@@ -682,8 +682,8 @@ msgstr "Testfeld"
 #~ msgid "An old style menu from KDE 3."
 #~ msgstr "Ein Menü im Stil von KDE 3."
 
-#~ msgid "Goodbye from Kaptan Wizard :)"
-#~ msgstr "Kaptan verabschiedet sich :)"
+#~ msgid "Goodbye from Kapudan Wizard :)"
+#~ msgstr "Kapudan verabschiedet sich :)"
 
 #~ msgid "Repo"
 #~ msgstr "Depot"
@@ -965,11 +965,11 @@ msgstr "Testfeld"
 #~ msgid "Insert some catchy title about keyboards.."
 #~ msgstr "Tastaturlayout einstellen.."
 
-#~ msgid "Welcome to Kaptan 2009.2"
-#~ msgstr "Willkommen bei Kaptan"
+#~ msgid "Welcome to Kapudan 2009.2"
+#~ msgstr "Willkommen bei Kapudan"
 
-#~ msgid "Kaptan Desktop"
-#~ msgstr "Kaptan Desktop"
+#~ msgid "Kapudan Desktop"
+#~ msgstr "Kapudan Desktop"
 
 #~ msgid "Network Manager (Press Apply to save your settings)"
 #~ msgstr "Netzwerkverbindungen (klicken Sie auf Okay, um die Einstellungen zu speichern)"

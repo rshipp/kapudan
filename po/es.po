@@ -1,7 +1,7 @@
 # translation of es.po to spanish
-# Kaptan
+# Kapudan
 # Copyright (C) 2009
-# This file is distributed under the same license as the Kaptan package.
+# This file is distributed under the same license as the Kapudan package.
 #
 # Pınar Yanardağ <pinar@pardus.org.tr>, 2009.
 # Klemens Häckel <click3d at linuxmail dot org>, 2009.
@@ -24,11 +24,11 @@ msgstr ""
 # i am not sure if it is good to translate this, maybe it should remain in
 # english (for the spanish version at least)
 # favor revisar
-#: .tmp/kaptan.desktop.in.h:1 .tmp/ui_kaptan.py:357
-msgid "Kaptan"
-msgstr "Kaptan"
+#: .tmp/kapudan.desktop.in.h:1 .tmp/ui_kapudan.py:357
+msgid "Kapudan"
+msgstr "Kapudan"
 
-#: .tmp/kaptan.desktop.in.h:2
+#: .tmp/kapudan.desktop.in.h:2
 msgid "Welcome Wizard"
 msgstr "Asistente de Bienvenida"
 
@@ -315,8 +315,8 @@ msgid "Send my profile: <b>%s</b>"
 msgstr "Enviar mi perfil: <b>%s</b>"
 
 #: .tmp/scrSummary.py:117
-msgid "Cannot restart plasma-desktop. Kaptan will now shutdown."
-msgstr "No posible reiniciar plasma-desktop. Kaptan terminará ahora."
+msgid "Cannot restart plasma-desktop. Kapudan will now shutdown."
+msgstr "No posible reiniciar plasma-desktop. Kapudan terminará ahora."
 
 #: .tmp/scrSummary.py:117
 msgid "Error"
@@ -339,29 +339,29 @@ msgstr "Bienvenido"
 msgid "Welcome to %s"
 msgstr "Bienvenido a %s"
 
-#: .tmp/ui_kaptan.py:358
+#: .tmp/ui_kapudan.py:358
 msgid "Welcome to Chakra"
 msgstr "Bienvenido a Chakra"
 
-#: .tmp/ui_kaptan.py:359
+#: .tmp/ui_kapudan.py:359
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: .tmp/ui_kaptan.py:360
+#: .tmp/ui_kapudan.py:360
 msgid "Back"
 msgstr "Retroceder"
 
-#: .tmp/ui_kaptan.py:361
+#: .tmp/ui_kapudan.py:361
 msgid "Next"
 msgstr "Siguiente"
 
 # is this in the sense "end" (position) or "finish" (do - action) ?
 # favor revisar..
-#: .tmp/ui_kaptan.py:362
+#: .tmp/ui_kapudan.py:362
 msgid "Finish"
 msgstr "Terminar"
 
-#: .tmp/ui_kaptan.py:363
+#: .tmp/ui_kapudan.py:363
 msgid "Apply Settings"
 msgstr "Aplicar Configuración"
 
@@ -420,8 +420,8 @@ msgid "Chakra community, mailing lists, chat rooms, Wiki documents, help and sup
 msgstr "Comunidad de Chakra, listas de correo, salas de chat, wikis, paginas de ayuda y de soporte.."
 
 #: .tmp/ui_scrKeyboard.py:94
-msgid "Kaptan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
-msgstr "Kaptan automaticamente selecciona la mejor distribución de teclado de acuerdo al idioma de su sistema. Si desea utilizar otra distribución de teclas, puede elegirlo y probarlo al instante."
+msgid "Kapudan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
+msgstr "Kapudan automaticamente selecciona la mejor distribución de teclado de acuerdo al idioma de su sistema. Si desea utilizar otra distribución de teclas, puede elegirlo y probarlo al instante."
 
 #: .tmp/ui_scrKeyboard.py:95
 msgid "Test Layout"
@@ -606,8 +606,8 @@ msgid "What is Chakra?"
 msgstr "Que es Chakra ?"
 
 #: .tmp/ui_scrWelcome.py:79
-msgid "<b>Chakra</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Chakra, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kaptan</b> will help you personalize your Chakra workspace easily and quickly. Please click <b>next</b> in order to begin."
-msgstr "<b>Chakra</b> es un sistema operativo confiable, seguro, rápido y amigable. <br /><br />Con Chakra puede conectar a internet, leer sus emails, trabajar con sus documentos de office, ver videos, tocar musica, desarrollar programas, jugar, y mucho más! <br /><br /><b>Kaptan</b> le ayudará personalizar su espacio de trabajo en Chakra de manera fácil y rápido. Por favor presione <b>siguiente</b> para empezar."
+msgid "<b>Chakra</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Chakra, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kapudan</b> will help you personalize your Chakra workspace easily and quickly. Please click <b>next</b> in order to begin."
+msgstr "<b>Chakra</b> es un sistema operativo confiable, seguro, rápido y amigable. <br /><br />Con Chakra puede conectar a internet, leer sus emails, trabajar con sus documentos de office, ver videos, tocar musica, desarrollar programas, jugar, y mucho más! <br /><br /><b>Kapudan</b> le ayudará personalizar su espacio de trabajo en Chakra de manera fácil y rápido. Por favor presione <b>siguiente</b> para empezar."
 
 #: .tmp/ui_wallpaperItem.py:73
 msgid "wallPaperName"
@@ -639,11 +639,11 @@ msgstr ""
 #~ msgstr "Busqueda de Escritorio: <b>%s</b>"
 
 #~ msgid ""
-#~ "This application, called Kaptan Desktop, will help you with your basic but sufficient setup for your Chakra desktop in a quick manner. Please click Next to personalize your desktop. \n"
+#~ "This application, called Kapudan Desktop, will help you with your basic but sufficient setup for your Chakra desktop in a quick manner. Please click Next to personalize your desktop. \n"
 #~ "\n"
 #~ "Chakra is a GNU/Linux distribution, targeting at computer literate users' basic desktop needs; helps you connect to internet, read e-mails, work with office documents and more!"
 #~ msgstr ""
-#~ "El presente programa, llamado Kaptan Desktop, le ayudará realizar una configuración básica pero funcional para su escritorio Chakra de manera sencilla. Por favor presione siguiente para personalizar su escritorio. \n"
+#~ "El presente programa, llamado Kapudan Desktop, le ayudará realizar una configuración básica pero funcional para su escritorio Chakra de manera sencilla. Por favor presione siguiente para personalizar su escritorio. \n"
 #~ "\n"
 #~ "Chakra es una distribución GNU/Linux, que cubre las necesidades de un escritorio básico para un usuario de PC; Le ayuda conectar a internet, leer e-mails, trabajar con documentos de oficina y más!"
 
@@ -662,8 +662,8 @@ msgstr ""
 #~ msgid "Default menu of Chakra GNU/Linux."
 #~ msgstr "Menú por defecto de Chakra GNU/Linux."
 
-#~ msgid "Goodbye from Kaptan Wizard :)"
-#~ msgstr "Kaptan Wizard se despide :)"
+#~ msgid "Goodbye from Kapudan Wizard :)"
+#~ msgstr "Kapudan Wizard se despide :)"
 
 #~ msgid "Repo"
 #~ msgstr "Repositorio"
@@ -714,7 +714,7 @@ msgstr ""
 #~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:10pt; color:#5f2234;\"></p>\n"
 #~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; color:#5f2234;\">With Chakra, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more!</span></p>\n"
 #~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:10pt; color:#5f2234;\"></p>\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">Kaptan </span><span style=\" font-size:10pt; color:#5f2234;\">will help you personalize your Chakra workspace easily and quickly. </span></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">Kapudan </span><span style=\" font-size:10pt; color:#5f2234;\">will help you personalize your Chakra workspace easily and quickly. </span></p>\n"
 #~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:10pt; color:#5f2234;\"></p>\n"
 #~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; color:#5f2234;\">Please click </span><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">next</span><span style=\" font-size:10pt; color:#5f2234;\"> in order to begin.</span></p></body></html>"
 #~ msgstr ""
@@ -726,7 +726,7 @@ msgstr ""
 #~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:10pt; color:#5f2234;\"></p>\n"
 #~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; color:#5f2234;\">Con Chakra puede conectar con internet, leer sus emails, trabajar con documentos de oficina, ver peliculas, tocar música, desarrollar programas, jugar y mucho más!</span></p>\n"
 #~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:10pt; color:#5f2234;\"></p>\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">Kaptan </span><span style=\" font-size:10pt; color:#5f2234;\">le ayudará a personalizar fácilmente el área de trabajo de Chakra. </span></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">Kapudan </span><span style=\" font-size:10pt; color:#5f2234;\">le ayudará a personalizar fácilmente el área de trabajo de Chakra. </span></p>\n"
 #~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:10pt; color:#5f2234;\"></p>\n"
 #~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; color:#5f2234;\">Por favor presione </span><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">Siguiente</span><span style=\" font-size:10pt; color:#5f2234;\"> para empezar.</span></p></body></html>"
 
@@ -970,8 +970,8 @@ msgstr ""
 #~ msgid "Insert some catchy title about keyboards.."
 #~ msgstr "Elija el teclado de su sistema"
 
-#~ msgid "Welcome to Kaptan 2009.2"
-#~ msgstr "Bienvenido al Asistente Kaptan"
+#~ msgid "Welcome to Kapudan 2009.2"
+#~ msgstr "Bienvenido al Asistente Kapudan"
 
 #~ msgid "A wizard to transfer files and settings from existing operating systems (e.g. Windows) to Chakra."
 #~ msgstr "Un asistente que le ayuda transferir archivos y configuraciones de sistemas operativos existentes (p.ej. Windows) a Chakra."

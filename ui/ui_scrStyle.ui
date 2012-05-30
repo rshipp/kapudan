@@ -49,7 +49,7 @@
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="../data/kaptan.qrc">:/raw/pixmap/preferences-desktop-color.png</pixmap>
+      <pixmap resource="../data/kapudan.qrc">:/raw/pixmap/preferences-desktop-color.png</pixmap>
      </property>
     </widget>
    </item>
@@ -346,7 +346,7 @@ border-bottom-right-radius: 4px;
   </layout>
  </widget>
  <resources>
-  <include location="../data/kaptan.qrc"/>
+  <include location="../data/kapudan.qrc"/>
  </resources>
  <connections/>
 </ui>

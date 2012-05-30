@@ -16,11 +16,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .tmp/kaptan.desktop.in.h:1 .tmp/ui_kaptan.py:357
-msgid "Kaptan"
-msgstr "Kaptan"
+#: .tmp/kapudan.desktop.in.h:1 .tmp/ui_kapudan.py:357
+msgid "Kapudan"
+msgstr "Kapudan"
 
-#: .tmp/kaptan.desktop.in.h:2
+#: .tmp/kapudan.desktop.in.h:2
 msgid "Welcome Wizard"
 msgstr "Assistente de Boas-Vindas"
 
@@ -307,7 +307,7 @@ msgid "Send my profile: <b>%s</b>"
 msgstr "Enviar o meu perfil: <b>%s</b>"
 
 #: .tmp/scrSummary.py:117
-msgid "Cannot restart plasma-desktop. Kaptan will now shutdown."
+msgid "Cannot restart plasma-desktop. Kapudan will now shutdown."
 msgstr ""
 
 #: .tmp/scrSummary.py:117
@@ -332,27 +332,27 @@ msgstr "Bem Vindo"
 msgid "Welcome to %s"
 msgstr "Bem Vindo ao Chakra"
 
-#: .tmp/ui_kaptan.py:358
+#: .tmp/ui_kapudan.py:358
 msgid "Welcome to Chakra"
 msgstr "Bem Vindo ao Chakra"
 
-#: .tmp/ui_kaptan.py:359
+#: .tmp/ui_kapudan.py:359
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: .tmp/ui_kaptan.py:360
+#: .tmp/ui_kapudan.py:360
 msgid "Back"
 msgstr "Voltar"
 
-#: .tmp/ui_kaptan.py:361
+#: .tmp/ui_kapudan.py:361
 msgid "Next"
 msgstr "Próximo"
 
-#: .tmp/ui_kaptan.py:362
+#: .tmp/ui_kapudan.py:362
 msgid "Finish"
 msgstr "Finalizar"
 
-#: .tmp/ui_kaptan.py:363
+#: .tmp/ui_kapudan.py:363
 msgid "Apply Settings"
 msgstr "Aplicar Configurações"
 
@@ -410,8 +410,8 @@ msgid "Chakra community, mailing lists, chat rooms, Wiki documents, help and sup
 msgstr "Comunidade do Chakra, lista de emails, chats, Wikis, ajuda e páginas de suporte"
 
 #: .tmp/ui_scrKeyboard.py:94
-msgid "Kaptan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
-msgstr "O Kaptan automaticamente seleciona o melhor layout de teclado de acordo com a língua do seu sistema. Se você quer selecionar outro layout senão o padrão, você pode fazer a seleção e testar instantaneamente."
+msgid "Kapudan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
+msgstr "O Kapudan automaticamente seleciona o melhor layout de teclado de acordo com a língua do seu sistema. Se você quer selecionar outro layout senão o padrão, você pode fazer a seleção e testar instantaneamente."
 
 #: .tmp/ui_scrKeyboard.py:95
 msgid "Test Layout"
@@ -596,8 +596,8 @@ msgid "What is Chakra?"
 msgstr "O que é Chakra?"
 
 #: .tmp/ui_scrWelcome.py:79
-msgid "<b>Chakra</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Chakra, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kaptan</b> will help you personalize your Chakra workspace easily and quickly. Please click <b>next</b> in order to begin."
-msgstr "<b>Chakra</b> é um sustema operacional confiável, segura, rápido e fácil de usar. <br /><br />Com o Chakra, você pode se conectar à Internet, ler o seus emails, trabalhar com documentos de escritório, assistir a filmes, tocar músicas, desenvolver aplicativos, jogar jogos e muito mais! <br /><br />O <b>Kaptan</b> ajudará você a personalizar a sua área de trabalho do Chakra de forma rápida e fácil. Por favor clique em <b>Próximo</b> para iniciar."
+msgid "<b>Chakra</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Chakra, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kapudan</b> will help you personalize your Chakra workspace easily and quickly. Please click <b>next</b> in order to begin."
+msgstr "<b>Chakra</b> é um sustema operacional confiável, segura, rápido e fácil de usar. <br /><br />Com o Chakra, você pode se conectar à Internet, ler o seus emails, trabalhar com documentos de escritório, assistir a filmes, tocar músicas, desenvolver aplicativos, jogar jogos e muito mais! <br /><br />O <b>Kapudan</b> ajudará você a personalizar a sua área de trabalho do Chakra de forma rápida e fácil. Por favor clique em <b>Próximo</b> para iniciar."
 
 #: .tmp/ui_wallpaperItem.py:73
 msgid "wallPaperName"
@@ -734,11 +734,11 @@ msgstr "wallpaperDesc"
 #~ msgid "Insert some catchy title about keyboards.."
 #~ msgstr "Inserir um título cativante sobre teclados.."
 
-#~ msgid "Welcome to Kaptan 2009.2"
-#~ msgstr "Bem Vindo ao Kaptan"
+#~ msgid "Welcome to Kapudan 2009.2"
+#~ msgstr "Bem Vindo ao Kapudan"
 
-#~ msgid "Kaptan Desktop"
-#~ msgstr "Área de Trabalho do Kaptan"
+#~ msgid "Kapudan Desktop"
+#~ msgstr "Área de Trabalho do Kapudan"
 
 #~ msgid "To create a new connection click on <b>Create Profile</b> and select your adapter from the list. If your connection is wireless then choose and access point. After saving your profile click the checkbox to establish the connection."
 #~ msgstr "Para criar uma nova conexão clique em <b>Criar Perfil</b> e você seleciona o seu adaptador pela lista. Se a sua conexão é uma rede sem fio então escolha o ponto de acesso. Depois de salvar o seu perfil, clique no quadro de seleção para estabelecer a conexão."

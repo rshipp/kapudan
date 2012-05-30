@@ -16,31 +16,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: \n"
 
-#: .tmp/ui_kaptan.py:357 .tmp/kaptan.desktop.in.h:1
-msgid "Kaptan"
-msgstr "Kaptan"
+#: .tmp/ui_kapudan.py:357 .tmp/kapudan.desktop.in.h:1
+msgid "Kapudan"
+msgstr "Kapudan"
 
-#: .tmp/ui_kaptan.py:358
+#: .tmp/ui_kapudan.py:358
 msgid "Welcome to Chakra"
 msgstr "Zapraszamy do korzystania z Chakra"
 
-#: .tmp/ui_kaptan.py:359
+#: .tmp/ui_kapudan.py:359
 msgid "Cancel"
 msgstr "Koniec"
 
-#: .tmp/ui_kaptan.py:360
+#: .tmp/ui_kapudan.py:360
 msgid "Back"
 msgstr "Wstecz"
 
-#: .tmp/ui_kaptan.py:361
+#: .tmp/ui_kapudan.py:361
 msgid "Next"
 msgstr "Dalej"
 
-#: .tmp/ui_kaptan.py:362
+#: .tmp/ui_kapudan.py:362
 msgid "Finish"
 msgstr "Koniec"
 
-#: .tmp/ui_kaptan.py:363
+#: .tmp/ui_kapudan.py:363
 msgid "Apply Settings"
 msgstr "Akceptuj ustawienia"
 
@@ -338,7 +338,7 @@ msgid ""
 "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   Users unhappy with this policy should simply not use smolt.  Users with questions about this policy should contact the Chakra Infrastructure Team at admin [at] pardus.org.tr  Also remember that users can delete their profiles at any time using &quot;<span style=\" font-style:italic;\">smoltDeleteProfile</span>&quot;</p></body></html>"
 msgstr ""
 
-#: .tmp/kaptan.desktop.in.h:2
+#: .tmp/kapudan.desktop.in.h:2
 msgid "Welcome Wizard"
 msgstr "Witamy w kreatorze"
 
@@ -417,8 +417,8 @@ msgid "Error"
 msgstr "Błąd"
 
 #: .tmp/scrSummary.py:117
-msgid "Cannot restart plasma-desktop. Kaptan will now shutdown."
-msgstr "Nie można ponownie uruchomić plasma-desktop. Kaptan zostanie teraz zamknięty."
+msgid "Cannot restart plasma-desktop. Kapudan will now shutdown."
+msgstr "Nie można ponownie uruchomić plasma-desktop. Kapudan zostanie teraz zamknięty."
 
 #: .tmp/ui_scrWelcome.py:77 .tmp/scrWelcome.py:27
 msgid "Welcome"
@@ -429,7 +429,7 @@ msgid "What is Chakra?"
 msgstr "Czym jest Chakra"
 
 #: .tmp/ui_scrWelcome.py:79
-msgid "<b>Chakra</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Chakra, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kaptan</b> will help you personalize your Chakra workspace easily and quickly. Please click <b>next</b> in order to begin."
+msgid "<b>Chakra</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Chakra, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kapudan</b> will help you personalize your Chakra workspace easily and quickly. Please click <b>next</b> in order to begin."
 msgstr ""
 
 #: .tmp/ui_scrPackage.py:133
@@ -591,7 +591,7 @@ msgid "Don't change wallpaper"
 msgstr ""
 
 #: .tmp/ui_scrKeyboard.py:94
-msgid "Kaptan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
+msgid "Kapudan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
 msgstr ""
 
 #: .tmp/ui_scrKeyboard.py:95

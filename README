@@ -10,15 +10,15 @@ Python, PyQt4, PyKDE4, KDE4, Python-Xlib, Python-v4l2capture
 
 Building & Installation
 -----------------------
-* Build Kaptan "without installing" to your system:
+* Build Kapudan "without installing" to your system:
 
     ./setup build
 
-* Running Kaptan after building:
+* Running Kapudan after building:
 
-    python build/kaptan.py
+    python build/kapudan.py
 
-* Build and "install" Kaptan to your system:
+* Build and "install" Kapudan to your system:
 
     ./setup install
 

@@ -1,11 +1,11 @@
-# Croatian translation for kaptan package.
+# Croatian translation for kapudan package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the kaptan package.
+# This file is distributed under the same license as the kapudan package.
 # Ivica Kolić<ikoli@yahoo.com>, 2011.
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: kaptan\n"
+"Project-Id-Version: kapudan\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-01-14 15:16+0200\n"
 "PO-Revision-Date: 2011-06-09 23:30+0100\n"
@@ -20,31 +20,31 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Country: CROATIA\n"
 
-#: .tmp/ui_kaptan.py:357 .tmp/kaptan.desktop.in.h:1
-msgid "Kaptan"
-msgstr "Kaptan"
+#: .tmp/ui_kapudan.py:357 .tmp/kapudan.desktop.in.h:1
+msgid "Kapudan"
+msgstr "Kapudan"
 
-#: .tmp/ui_kaptan.py:358
+#: .tmp/ui_kapudan.py:358
 msgid "Welcome to Chakra"
 msgstr "Dobrodošli u Chakra"
 
-#: .tmp/ui_kaptan.py:359
+#: .tmp/ui_kapudan.py:359
 msgid "Cancel"
 msgstr "Odgodi"
 
-#: .tmp/ui_kaptan.py:360
+#: .tmp/ui_kapudan.py:360
 msgid "Back"
 msgstr "Nazad"
 
-#: .tmp/ui_kaptan.py:361
+#: .tmp/ui_kapudan.py:361
 msgid "Next"
 msgstr "Slijedeće"
 
-#: .tmp/ui_kaptan.py:362
+#: .tmp/ui_kapudan.py:362
 msgid "Finish"
 msgstr "Završi"
 
-#: .tmp/ui_kaptan.py:363
+#: .tmp/ui_kapudan.py:363
 msgid "Apply Settings"
 msgstr "Primjeni postavke"
 
@@ -351,7 +351,7 @@ msgstr ""
 "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" text-decoration: underline;\">IP Logging:</span> U Chakraovom smoltu sav internetski promet ide najprije preko proxy poslužitelja. Ovo je jedino mjesto gdje se IP adrese zapisuju i zadržavaju na poslužitelju 4 tjedna,nakon čega se brišu. Chakra projekt ne prikuplja ip adrese u smolt bazi podataka. Ovi zapisi su privatni i neće biti dostupni javnosti.</p>\n"
 "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> Korisnici koji su nezadovoljni ovom politikom mogu jednostavno ne koristiti smolt. Korisnici koji imaju pitanja u svezi ovepolitike mogu kontaktirati Chakra Infrastructure Team na admin [at] pardus.org.tr Također zapamtite da korisnik može bilo kada izbrisati svoj profil koristeći &quot;<span style=\" font-style:italic;\">smoltIzbrišiprofil</span>&quot;</p></body></html>"
 
-#: .tmp/kaptan.desktop.in.h:2
+#: .tmp/kapudan.desktop.in.h:2
 msgid "Welcome Wizard"
 msgstr "Čarobnjak dobrodošlice"
 
@@ -430,8 +430,8 @@ msgid "Error"
 msgstr "Greška"
 
 #: .tmp/scrSummary.py:117
-msgid "Cannot restart plasma-desktop. Kaptan will now shutdown."
-msgstr "Ne mogu ponovno pokrenuti plazma-radnu površinu.Kaptan će se sada isključiti."
+msgid "Cannot restart plasma-desktop. Kapudan will now shutdown."
+msgstr "Ne mogu ponovno pokrenuti plazma-radnu površinu.Kapudan će se sada isključiti."
 
 #: .tmp/ui_scrWelcome.py:77 .tmp/scrWelcome.py:27
 msgid "Welcome"
@@ -442,8 +442,8 @@ msgid "What is Chakra?"
 msgstr "Što je Chakra?"
 
 #: .tmp/ui_scrWelcome.py:79
-msgid "<b>Chakra</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Chakra, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kaptan</b> will help you personalize your Chakra workspace easily and quickly. Please click <b>next</b> in order to begin."
-msgstr "<b>Chakra</b> je pouzdan,siguran,brz i lagan za rukovanje operativni sustav. <br /><br />Sa Chakraom možete se spojiti na internet,čitati vašeu elektroničku poštu,raditi sa vašim uredskim dokumentima,gledati filmove,slušati glazbu,razvijati progrme,igrati igre i puno više! <br /><br /><b>Kaptan</b> će vam pomoći da personalizirate vaš Chakra radni prostor lako i brzo. Molim kliknite <b>slijedeće</b> da biste započeli."
+msgid "<b>Chakra</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Chakra, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kapudan</b> will help you personalize your Chakra workspace easily and quickly. Please click <b>next</b> in order to begin."
+msgstr "<b>Chakra</b> je pouzdan,siguran,brz i lagan za rukovanje operativni sustav. <br /><br />Sa Chakraom možete se spojiti na internet,čitati vašeu elektroničku poštu,raditi sa vašim uredskim dokumentima,gledati filmove,slušati glazbu,razvijati progrme,igrati igre i puno više! <br /><br /><b>Kapudan</b> će vam pomoći da personalizirate vaš Chakra radni prostor lako i brzo. Molim kliknite <b>slijedeće</b> da biste započeli."
 
 #: .tmp/ui_scrPackage.py:133
 msgid "Show updates in the system tray"
@@ -603,8 +603,8 @@ msgid "Don't change wallpaper"
 msgstr "Ne mjenjaj pozadinu"
 
 #: .tmp/ui_scrKeyboard.py:94
-msgid "Kaptan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
-msgstr "Kaptan automatski bira najbolji raspored tipkovnice prema vašem jeziku sustava.Ako želite koristiti drugi raspored osim zadanog,možete napraviti odabir i odmah ga testirati."
+msgid "Kapudan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
+msgstr "Kapudan automatski bira najbolji raspored tipkovnice prema vašem jeziku sustava.Ako želite koristiti drugi raspored osim zadanog,možete napraviti odabir i odmah ga testirati."
 
 #: .tmp/ui_scrKeyboard.py:95
 msgid "Test Layout"

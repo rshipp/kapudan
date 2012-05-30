@@ -19,31 +19,31 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 1.0\n"
 
-#: .tmp/ui_kaptan.py:357 .tmp/kaptan.desktop.in.h:1
-msgid "Kaptan"
-msgstr "Kaptan"
+#: .tmp/ui_kapudan.py:357 .tmp/kapudan.desktop.in.h:1
+msgid "Kapudan"
+msgstr "Kapudan"
 
-#: .tmp/ui_kaptan.py:358
+#: .tmp/ui_kapudan.py:358
 msgid "Welcome to Chakra"
 msgstr "Benvenuto a Chakra"
 
-#: .tmp/ui_kaptan.py:359
+#: .tmp/ui_kapudan.py:359
 msgid "Cancel"
 msgstr "Annulla"
 
-#: .tmp/ui_kaptan.py:360
+#: .tmp/ui_kapudan.py:360
 msgid "Back"
 msgstr "Indietro"
 
-#: .tmp/ui_kaptan.py:361
+#: .tmp/ui_kapudan.py:361
 msgid "Next"
 msgstr "Avanti"
 
-#: .tmp/ui_kaptan.py:362
+#: .tmp/ui_kapudan.py:362
 msgid "Finish"
 msgstr "Fine"
 
-#: .tmp/ui_kaptan.py:363
+#: .tmp/ui_kapudan.py:363
 msgid "Apply Settings"
 msgstr "Applica Impostazioni"
 
@@ -351,9 +351,9 @@ msgstr ""
 "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" text-decoration: underline;\">IP Logging:</span> In Chakra's smolt install all web traffic goes through a proxy server first. This is the only place IP addresses are being logged and they are kept on that server for a period of 4 weeks at which time log rotation removes these logs. The Chakra Project does not aggregate ip addresses in the smolt database. These logs are private and will not be available to the general public.</p>\n"
 "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> Users unhappy with this policy should simply not use smolt. Users with questions about this policy should contact the Chakra Infrastructure Team at admin [at] pardus.org.tr Also remember that users can delete their profiles at any time using &quot;<span style=\" font-style:italic;\">smoltDeleteProfile</span>&quot;</p></body></html>"
 
-#: .tmp/kaptan.desktop.in.h:2
+#: .tmp/kapudan.desktop.in.h:2
 msgid "Welcome Wizard"
-msgstr "Benvenuto nel Wizard di Kaptan :)"
+msgstr "Benvenuto nel Wizard di Kapudan :)"
 
 #: .tmp/ui_wallpaperItem.py:73
 msgid "wallPaperName"
@@ -430,8 +430,8 @@ msgid "Error"
 msgstr "Errore"
 
 #: .tmp/scrSummary.py:117
-msgid "Cannot restart plasma-desktop. Kaptan will now shutdown."
-msgstr "Impossibile riavviare plasma-desktop. Kaptan verrà chiuso."
+msgid "Cannot restart plasma-desktop. Kapudan will now shutdown."
+msgstr "Impossibile riavviare plasma-desktop. Kapudan verrà chiuso."
 
 #: .tmp/ui_scrWelcome.py:77 .tmp/scrWelcome.py:27
 msgid "Welcome"
@@ -442,8 +442,8 @@ msgid "What is Chakra?"
 msgstr "Che cosa è Chakra?"
 
 #: .tmp/ui_scrWelcome.py:79
-msgid "<b>Chakra</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Chakra, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kaptan</b> will help you personalize your Chakra workspace easily and quickly. Please click <b>next</b> in order to begin."
-msgstr "Chakra è un sistema operativo sicuro, veloce e user friendly. <br /><br /> Con Chakra puoi connetterti a Internet, leggere e-mail, lavorare, fruire di contenuti multimediali, sviluppare apllicazioni, giocare e molto altro! <br /> <br /><br /><b>Kaptan</b> ti aiuterà a personalizzare Chakra semplicemente e con velocità. Fai click su Avanti per cominciare."
+msgid "<b>Chakra</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Chakra, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kapudan</b> will help you personalize your Chakra workspace easily and quickly. Please click <b>next</b> in order to begin."
+msgstr "Chakra è un sistema operativo sicuro, veloce e user friendly. <br /><br /> Con Chakra puoi connetterti a Internet, leggere e-mail, lavorare, fruire di contenuti multimediali, sviluppare apllicazioni, giocare e molto altro! <br /> <br /><br /><b>Kapudan</b> ti aiuterà a personalizzare Chakra semplicemente e con velocità. Fai click su Avanti per cominciare."
 
 #: .tmp/ui_scrPackage.py:133
 msgid "Show updates in the system tray"
@@ -603,8 +603,8 @@ msgid "Don't change wallpaper"
 msgstr "Non cambiare lo sfondo"
 
 #: .tmp/ui_scrKeyboard.py:94
-msgid "Kaptan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
-msgstr "Kaptan seleziona automaticamente la tastiera in base alla lingua. Se vuoi usare un'altro tipo di tastiera, selezionane uno qui e provalo."
+msgid "Kapudan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
+msgstr "Kapudan seleziona automaticamente la tastiera in base alla lingua. Se vuoi usare un'altro tipo di tastiera, selezionane uno qui e provalo."
 
 #: .tmp/ui_scrKeyboard.py:95
 msgid "Test Layout"
@@ -689,11 +689,11 @@ msgstr "Prova il tipo di tastiera"
 #~ msgstr "Menù Kick-off"
 
 #~ msgid ""
-#~ "This application, called Kaptan Desktop, will help you with your basic but sufficient setup for your Chakra desktop in a quick manner. Please click Next to personalize your desktop. \n"
+#~ "This application, called Kapudan Desktop, will help you with your basic but sufficient setup for your Chakra desktop in a quick manner. Please click Next to personalize your desktop. \n"
 #~ "\n"
 #~ "Chakra is a GNU/Linux distribution, targeting at computer literate users' basic desktop needs; helps you connect to internet, read e-mails, work with office documents and more!"
 #~ msgstr ""
-#~ "Questa applicazione, chiamata Kaptan Desktop, ti aiuterà a configurare Chakra in maniera basica(ma comunque sufficiente). Clicca su Avanti per personalizzare il tuo desktop. \n"
+#~ "Questa applicazione, chiamata Kapudan Desktop, ti aiuterà a configurare Chakra in maniera basica(ma comunque sufficiente). Clicca su Avanti per personalizzare il tuo desktop. \n"
 #~ "\n"
 #~ "Chakra è una distribuzione GNU/Linux, ideata per un uso di base del computer; con Chakra puoi connetterti a Internet, leggere le tue e-mail, lavorare sui tuoi documenti, e molto, molto altro!"
 
@@ -703,8 +703,8 @@ msgstr "Prova il tipo di tastiera"
 #~ msgid "An old style menu from KDE 3."
 #~ msgstr "Un menù vecchio stile da KDE3"
 
-#~ msgid "Goodbye from Kaptan Wizard :)"
-#~ msgstr "Arrivederci da Kaptan Wizard :)"
+#~ msgid "Goodbye from Kapudan Wizard :)"
+#~ msgstr "Arrivederci da Kapudan Wizard :)"
 
 #~ msgid "Repo"
 #~ msgstr "Repository"
@@ -1009,11 +1009,11 @@ msgstr "Prova il tipo di tastiera"
 #~ msgid "Select your keyboard layout"
 #~ msgstr "Seleziona il tuo tipo di tastiera"
 
-#~ msgid "Welcome to Kaptan 2009.2"
-#~ msgstr "Benvenuto in Kaptan!"
+#~ msgid "Welcome to Kapudan 2009.2"
+#~ msgstr "Benvenuto in Kapudan!"
 
-#~ msgid "Kaptan Desktop"
-#~ msgstr "Kaptan Desktop"
+#~ msgid "Kapudan Desktop"
+#~ msgstr "Kapudan Desktop"
 
 #~ msgid "Network Manager (Press Apply to save your settings)"
 #~ msgstr "Gestore di Rete (Premi applica per salvare le modifiche)"

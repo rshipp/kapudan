@@ -18,11 +18,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 1.0\n"
 
-#: .tmp/kaptan.desktop.in.h:1 .tmp/ui_kaptan.py:357
-msgid "Kaptan"
-msgstr "Kaptan"
+#: .tmp/kapudan.desktop.in.h:1 .tmp/ui_kapudan.py:357
+msgid "Kapudan"
+msgstr "Kapudan"
 
-#: .tmp/kaptan.desktop.in.h:2
+#: .tmp/kapudan.desktop.in.h:2
 msgid "Welcome Wizard"
 msgstr "Мастер приветствия"
 
@@ -309,8 +309,8 @@ msgid "Send my profile: <b>%s</b>"
 msgstr "Отправить мой профиль: <b>%s</b>"
 
 #: .tmp/scrSummary.py:117
-msgid "Cannot restart plasma-desktop. Kaptan will now shutdown."
-msgstr "Невозможно рестартовать plasma. Kaptan сейчас закончит свою работу."
+msgid "Cannot restart plasma-desktop. Kapudan will now shutdown."
+msgstr "Невозможно рестартовать plasma. Kapudan сейчас закончит свою работу."
 
 #: .tmp/scrSummary.py:117
 msgid "Error"
@@ -333,27 +333,27 @@ msgstr "Добро пожаловать"
 msgid "Welcome to %s"
 msgstr "Добро пожаловать в %s"
 
-#: .tmp/ui_kaptan.py:358
+#: .tmp/ui_kapudan.py:358
 msgid "Welcome to Chakra"
 msgstr "Добро пожаловать в Chakra"
 
-#: .tmp/ui_kaptan.py:359
+#: .tmp/ui_kapudan.py:359
 msgid "Cancel"
 msgstr "Отмена"
 
-#: .tmp/ui_kaptan.py:360
+#: .tmp/ui_kapudan.py:360
 msgid "Back"
 msgstr "Назад"
 
-#: .tmp/ui_kaptan.py:361
+#: .tmp/ui_kapudan.py:361
 msgid "Next"
 msgstr "Вперед"
 
-#: .tmp/ui_kaptan.py:362
+#: .tmp/ui_kapudan.py:362
 msgid "Finish"
 msgstr "Закончить"
 
-#: .tmp/ui_kaptan.py:363
+#: .tmp/ui_kapudan.py:363
 msgid "Apply Settings"
 msgstr "Применить настройки"
 
@@ -411,8 +411,8 @@ msgid "Chakra community, mailing lists, chat rooms, Wiki documents, help and sup
 msgstr "Сообщество Chakra, списки рассылки, чаты, Wiki-документы, справки и страницы поддержки..."
 
 #: .tmp/ui_scrKeyboard.py:94
-msgid "Kaptan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
-msgstr "Kaptan автоматически выбирает лучшую раскладки клавиатуры в зависимости от языка вашей системы. Если вы хотите использовать другую раскладку, кроме раскладки клавиатуры по-умолчанию, вы можете сделать свой выбор и протестировать его мгновенно."
+msgid "Kapudan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
+msgstr "Kapudan автоматически выбирает лучшую раскладки клавиатуры в зависимости от языка вашей системы. Если вы хотите использовать другую раскладку, кроме раскладки клавиатуры по-умолчанию, вы можете сделать свой выбор и протестировать его мгновенно."
 
 #: .tmp/ui_scrKeyboard.py:95
 msgid "Test Layout"
@@ -597,8 +597,8 @@ msgid "What is Chakra?"
 msgstr "Что такое Chakra?"
 
 #: .tmp/ui_scrWelcome.py:79
-msgid "<b>Chakra</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Chakra, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kaptan</b> will help you personalize your Chakra workspace easily and quickly. Please click <b>next</b> in order to begin."
-msgstr "<b>Chakra</b> это надежная, быстрая, безопасная и дружелюбная операционная система.<br /><br />С Chakra вы можете подключиться к интернету, читать ваши сообщения по e-mail, работать с документами, смотреть видео, слушать музыку, разрабатывать приложения, играть в игры и многое другое!<br /><br /><b>Kaptan</b> поможет вам настроить рабочее пространство Chakra быстро и легко. Пожалуйста, нажмите <b>Дальше</b> для запуска."
+msgid "<b>Chakra</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Chakra, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kapudan</b> will help you personalize your Chakra workspace easily and quickly. Please click <b>next</b> in order to begin."
+msgstr "<b>Chakra</b> это надежная, быстрая, безопасная и дружелюбная операционная система.<br /><br />С Chakra вы можете подключиться к интернету, читать ваши сообщения по e-mail, работать с документами, смотреть видео, слушать музыку, разрабатывать приложения, играть в игры и многое другое!<br /><br /><b>Kapudan</b> поможет вам настроить рабочее пространство Chakra быстро и легко. Пожалуйста, нажмите <b>Дальше</b> для запуска."
 
 #: .tmp/ui_wallpaperItem.py:73
 msgid "wallPaperName"

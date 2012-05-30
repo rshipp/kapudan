@@ -14,7 +14,7 @@ TODO:
             the maintenance of the natural order of things)
     Anja (Brow or Third Eye Chakra)
     Nayaka (Sanskrit, guide/leader)
-    Or, just keep the same name (Kaptan), with permission from Pardus
+    Or, just keep the same name (Kapudan), with permission from Pardus
     developers. 
 / Fork everything.
 - Fix Themes/Style page, add screenshots for Ronak and Ronak-light, as well as
@@ -24,7 +24,8 @@ TODO:
       (have a few default options, and a button to open rcconf-kdm)
 - Add page for creating folders in $HOME (Pictures, Documents, Music,
                                           Downloads, Videos, custom)
-- Create custom Chakra artwork to replace the Kaptan logos
+- Create custom Chakra artwork to replace the Kapudan logos
 - Add page for choosing KDM theme, with ronak/ronak light/others
+- Add workspace chooser - Desktop, Netbook, Active
 - Fix livecd-detection function
 - Add security page- set up kufw, clamav, etc

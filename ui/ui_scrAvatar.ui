@@ -35,7 +35,7 @@
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="../data/kaptan.qrc">:/raw/pixmap/preferences-desktop-personal.png</pixmap>
+      <pixmap resource="../data/kapudan.qrc">:/raw/pixmap/preferences-desktop-personal.png</pixmap>
      </property>
     </widget>
    </item>
@@ -294,7 +294,7 @@ background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0
                <string>Capture</string>
               </property>
               <property name="icon">
-               <iconset resource="../data/kaptan.qrc">
+               <iconset resource="../data/kapudan.qrc">
                 <normaloff>:/raw/pixmap/webcamreceive.png</normaloff>:/raw/pixmap/webcamreceive.png</iconset>
               </property>
               <property name="default">
@@ -311,7 +311,7 @@ background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0
                <string>Recapture</string>
               </property>
               <property name="icon">
-               <iconset resource="../data/kaptan.qrc">
+               <iconset resource="../data/kapudan.qrc">
                 <normaloff>:/raw/pixmap/view-refresh.png</normaloff>:/raw/pixmap/view-refresh.png</iconset>
               </property>
               <property name="flat">
@@ -419,7 +419,7 @@ border: 4px solid gray;</string>
   </layout>
  </widget>
  <resources>
-  <include location="../data/kaptan.qrc"/>
+  <include location="../data/kapudan.qrc"/>
  </resources>
  <connections/>
 </ui>

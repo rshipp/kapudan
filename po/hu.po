@@ -1,7 +1,7 @@
 # Attila Siposs <sipiatti@gmail.com>, 2010, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: Kaptan.trunk.hu.po\n"
+"Project-Id-Version: Kapudan.trunk.hu.po\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-01-14 15:16+0200\n"
 "PO-Revision-Date: 2011-01-04 20:30+0100\n"
@@ -17,11 +17,11 @@ msgstr ""
 "X-Poedit-Country: HUNGARY\n"
 "X-Generator: Lokalize 1.0\n"
 
-#: .tmp/kaptan.desktop.in.h:1 .tmp/ui_kaptan.py:357
-msgid "Kaptan"
-msgstr "Kaptan"
+#: .tmp/kapudan.desktop.in.h:1 .tmp/ui_kapudan.py:357
+msgid "Kapudan"
+msgstr "Kapudan"
 
-#: .tmp/kaptan.desktop.in.h:2
+#: .tmp/kapudan.desktop.in.h:2
 msgid "Welcome Wizard"
 msgstr "Első Indítás Varázsló"
 
@@ -308,8 +308,8 @@ msgid "Send my profile: <b>%s</b>"
 msgstr "Küldje el a profilomat: <b>%s</b>"
 
 #: .tmp/scrSummary.py:117
-msgid "Cannot restart plasma-desktop. Kaptan will now shutdown."
-msgstr "Plasma desktop újraindítása sikertelen. A Kaptan most leáll."
+msgid "Cannot restart plasma-desktop. Kapudan will now shutdown."
+msgstr "Plasma desktop újraindítása sikertelen. A Kapudan most leáll."
 
 #: .tmp/scrSummary.py:117
 msgid "Error"
@@ -332,27 +332,27 @@ msgstr "Üdvözöljük"
 msgid "Welcome to %s"
 msgstr "%s üdvözli Önt!"
 
-#: .tmp/ui_kaptan.py:358
+#: .tmp/ui_kapudan.py:358
 msgid "Welcome to Chakra"
 msgstr "Üdvözöljük a Chakraban!"
 
-#: .tmp/ui_kaptan.py:359
+#: .tmp/ui_kapudan.py:359
 msgid "Cancel"
 msgstr "Mégsem"
 
-#: .tmp/ui_kaptan.py:360
+#: .tmp/ui_kapudan.py:360
 msgid "Back"
 msgstr "Vissza"
 
-#: .tmp/ui_kaptan.py:361
+#: .tmp/ui_kapudan.py:361
 msgid "Next"
 msgstr "Következő"
 
-#: .tmp/ui_kaptan.py:362
+#: .tmp/ui_kapudan.py:362
 msgid "Finish"
 msgstr "Befejezés"
 
-#: .tmp/ui_kaptan.py:363
+#: .tmp/ui_kapudan.py:363
 msgid "Apply Settings"
 msgstr "Beállítások alkalmazása"
 
@@ -410,8 +410,8 @@ msgid "Chakra community, mailing lists, chat rooms, Wiki documents, help and sup
 msgstr "Chakra közösség, levelező listák, chat szobák, Wiki dokumentációk, segítségnyújtó és támogató oldalak..."
 
 #: .tmp/ui_scrKeyboard.py:94
-msgid "Kaptan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
-msgstr "Kaptan automatikusan kiválasztja az Ön számára legjobb billentyűzetkiosztást a rendszer nyelvének megfelelően. Amennyiben az alapértelmezettől eltérő billentyűzetkiosztást szeretne használni, kiválaszthatja és a lenti mezőben ellenőrizheti."
+msgid "Kapudan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
+msgstr "Kapudan automatikusan kiválasztja az Ön számára legjobb billentyűzetkiosztást a rendszer nyelvének megfelelően. Amennyiben az alapértelmezettől eltérő billentyűzetkiosztást szeretne használni, kiválaszthatja és a lenti mezőben ellenőrizheti."
 
 #: .tmp/ui_scrKeyboard.py:95
 msgid "Test Layout"
@@ -595,8 +595,8 @@ msgid "What is Chakra?"
 msgstr "Mi a Chakra?"
 
 #: .tmp/ui_scrWelcome.py:79
-msgid "<b>Chakra</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Chakra, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kaptan</b> will help you personalize your Chakra workspace easily and quickly. Please click <b>next</b> in order to begin."
-msgstr "<b>Chakra</b> egy megbízható, biztonságos. gyors és felhasználóbarát operációs rendszer. <br /><br />Chakra-szal csatlakozhat az internetre, olvashatja e-mailjeit, dolgozhat dokumentumaival, filmet nézhet, zenét hallgathat, alkalmazásokat fejleszthet, játékokkal játszhat és ímég sok mást is tehet! <br /><br />A <b>Kaptan</b> segít abban, hogy könnyen és gyorsan személyessé tegye a Chakra rendszerét. Kérem kattintson a <b>tovább</b> gombra a kezdéshez."
+msgid "<b>Chakra</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Chakra, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kapudan</b> will help you personalize your Chakra workspace easily and quickly. Please click <b>next</b> in order to begin."
+msgstr "<b>Chakra</b> egy megbízható, biztonságos. gyors és felhasználóbarát operációs rendszer. <br /><br />Chakra-szal csatlakozhat az internetre, olvashatja e-mailjeit, dolgozhat dokumentumaival, filmet nézhet, zenét hallgathat, alkalmazásokat fejleszthet, játékokkal játszhat és ímég sok mást is tehet! <br /><br />A <b>Kapudan</b> segít abban, hogy könnyen és gyorsan személyessé tegye a Chakra rendszerét. Kérem kattintson a <b>tovább</b> gombra a kezdéshez."
 
 #: .tmp/ui_wallpaperItem.py:73
 msgid "wallPaperName"

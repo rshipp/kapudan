@@ -38,7 +38,7 @@
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="../data/kaptan.qrc">:/raw/pixmap/preferences-desktop-keyboard.png</pixmap>
+      <pixmap resource="../data/kapudan.qrc">:/raw/pixmap/preferences-desktop-keyboard.png</pixmap>
      </property>
     </widget>
    </item>
@@ -60,7 +60,7 @@
       <string notr="true"/>
      </property>
      <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Kaptan tries to automatically select the best keyboard layout according to your system language. If you want to use another layout, just make a selection below.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Kapudan tries to automatically select the best keyboard layout according to your system language. If you want to use another layout, just make a selection below.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
      <property name="wordWrap">
       <bool>true</bool>
@@ -179,7 +179,7 @@ border: 1px solid rgb(236, 236, 236, 80);
   </layout>
  </widget>
  <resources>
-  <include location="../data/kaptan.qrc"/>
+  <include location="../data/kapudan.qrc"/>
  </resources>
  <connections/>
 </ui>

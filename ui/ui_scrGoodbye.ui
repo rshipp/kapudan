@@ -185,7 +185,7 @@ border-bottom-right-radius: 4px;
                <string/>
               </property>
               <property name="pixmap">
-               <pixmap resource="../data/kaptan.qrc">:/raw/pixmap/preferences-system.png</pixmap>
+               <pixmap resource="../data/kapudan.qrc">:/raw/pixmap/preferences-system.png</pixmap>
               </property>
               <property name="scaledContents">
                <bool>false</bool>
@@ -446,7 +446,7 @@ border-bottom-right-radius: 4px;
                <string/>
               </property>
               <property name="pixmap">
-               <pixmap resource="../data/kaptan.qrc">:/raw/pixmap/system-help.png</pixmap>
+               <pixmap resource="../data/kapudan.qrc">:/raw/pixmap/system-help.png</pixmap>
               </property>
               <property name="scaledContents">
                <bool>false</bool>
@@ -586,7 +586,7 @@ border-bottom-right-radius: 4px;
                <string/>
               </property>
               <property name="pixmap">
-               <pixmap resource="../data/kaptan.qrc">:/raw/pixmap/preferences-system.png</pixmap>
+               <pixmap resource="../data/kapudan.qrc">:/raw/pixmap/preferences-system.png</pixmap>
               </property>
               <property name="scaledContents">
                <bool>false</bool>
@@ -667,7 +667,7 @@ border-bottom-right-radius: 4px;
   </layout>
  </widget>
  <resources>
-  <include location="../data/kaptan.qrc"/>
+  <include location="../data/kapudan.qrc"/>
  </resources>
  <connections/>
 </ui>

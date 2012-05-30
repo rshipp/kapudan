@@ -5,7 +5,7 @@
 # Patrik Karlsson <patrik@trixon.se>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: kaptan\n"
+"Project-Id-Version: kapudan\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-01-14 15:16+0200\n"
 "PO-Revision-Date: 2010-05-23 11:31+0200\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 1.0\n"
 
-#: .tmp/kaptan.desktop.in.h:1 .tmp/ui_kaptan.py:357
-msgid "Kaptan"
-msgstr "Kaptan"
+#: .tmp/kapudan.desktop.in.h:1 .tmp/ui_kapudan.py:357
+msgid "Kapudan"
+msgstr "Kapudan"
 
-#: .tmp/kaptan.desktop.in.h:2
+#: .tmp/kapudan.desktop.in.h:2
 msgid "Welcome Wizard"
 msgstr "Välkomstguide"
 
@@ -309,8 +309,8 @@ msgid "Send my profile: <b>%s</b>"
 msgstr "Skicka min profil: <b>%s</b>"
 
 #: .tmp/scrSummary.py:117
-msgid "Cannot restart plasma-desktop. Kaptan will now shutdown."
-msgstr "Kan inte start om plasmaskrivbordet. Kaptan avslutas."
+msgid "Cannot restart plasma-desktop. Kapudan will now shutdown."
+msgstr "Kan inte start om plasmaskrivbordet. Kapudan avslutas."
 
 #: .tmp/scrSummary.py:117
 msgid "Error"
@@ -333,27 +333,27 @@ msgstr "Välkommen"
 msgid "Welcome to %s"
 msgstr "Välkommen till %s"
 
-#: .tmp/ui_kaptan.py:358
+#: .tmp/ui_kapudan.py:358
 msgid "Welcome to Chakra"
 msgstr "Välkommen till Chakra"
 
-#: .tmp/ui_kaptan.py:359
+#: .tmp/ui_kapudan.py:359
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: .tmp/ui_kaptan.py:360
+#: .tmp/ui_kapudan.py:360
 msgid "Back"
 msgstr "Bakåt"
 
-#: .tmp/ui_kaptan.py:361
+#: .tmp/ui_kapudan.py:361
 msgid "Next"
 msgstr "Nästa"
 
-#: .tmp/ui_kaptan.py:362
+#: .tmp/ui_kapudan.py:362
 msgid "Finish"
 msgstr "Avsluta"
 
-#: .tmp/ui_kaptan.py:363
+#: .tmp/ui_kapudan.py:363
 msgid "Apply Settings"
 msgstr "Verkställ"
 
@@ -411,8 +411,8 @@ msgid "Chakra community, mailing lists, chat rooms, Wiki documents, help and sup
 msgstr "Chakra gemenskap, sändlistor, IRC-kanaler, Wikis och hjälpsidor..."
 
 #: .tmp/ui_scrKeyboard.py:94
-msgid "Kaptan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
-msgstr "Kaptan väljer automatiskt bästa teckenuppsättning baserat på ditt systemspråk. Om du vill använda en annan kan du göra ditt val och testa det direkt."
+msgid "Kapudan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
+msgstr "Kapudan väljer automatiskt bästa teckenuppsättning baserat på ditt systemspråk. Om du vill använda en annan kan du göra ditt val och testa det direkt."
 
 #: .tmp/ui_scrKeyboard.py:95
 msgid "Test Layout"
@@ -597,8 +597,8 @@ msgid "What is Chakra?"
 msgstr "Vad är Chakra?"
 
 #: .tmp/ui_scrWelcome.py:79
-msgid "<b>Chakra</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Chakra, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kaptan</b> will help you personalize your Chakra workspace easily and quickly. Please click <b>next</b> in order to begin."
-msgstr "<b>Chakra</b> är ett pålitligt, säkert, snabbt och användarvänligt operativsystem.  <br /><br />Med Chakra kan du enkelt surfa, eposta, använda kontorsprogram, se filmer, spela musik, utveckla program, spela spel och mycket mer! <br /><br /> <b>Kaptan</b> låter dig enkelt och snabbt anpassa Chakra för att möta dina behov. Klicka <b>Nästa</b> för att börja."
+msgid "<b>Chakra</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Chakra, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kapudan</b> will help you personalize your Chakra workspace easily and quickly. Please click <b>next</b> in order to begin."
+msgstr "<b>Chakra</b> är ett pålitligt, säkert, snabbt och användarvänligt operativsystem.  <br /><br />Med Chakra kan du enkelt surfa, eposta, använda kontorsprogram, se filmer, spela musik, utveckla program, spela spel och mycket mer! <br /><br /> <b>Kapudan</b> låter dig enkelt och snabbt anpassa Chakra för att möta dina behov. Klicka <b>Nästa</b> för att börja."
 
 #: .tmp/ui_wallpaperItem.py:73
 msgid "wallPaperName"
@@ -653,8 +653,8 @@ msgstr "wallpaperDesc"
 #~ msgid "Nepomuk  Semantic Desktop enables tagging and rating of files integrated with the Desktop Search."
 #~ msgstr "Nepomuk semantiskt skrivbord möjliggör märkning och klassificering integrerad med skrivbordssökningen."
 
-#~ msgid "(<i><u>Warning:</u> Sending profile requires to set up communication with Smolt server and can take between 30 seconds to a minute. Kaptan may freeze during this time.</i>)"
-#~ msgstr "(<i><u>Varning:</u> Att skicka profilen kräver kräver uppkopling mot smoltservern  och kan ta mellan 30 sekunder och en minut. Kaptan kan låsa sig under tiden.</i>)"
+#~ msgid "(<i><u>Warning:</u> Sending profile requires to set up communication with Smolt server and can take between 30 seconds to a minute. Kapudan may freeze during this time.</i>)"
+#~ msgstr "(<i><u>Varning:</u> Att skicka profilen kräver kräver uppkopling mot smoltservern  och kan ta mellan 30 sekunder och en minut. Kapudan kan låsa sig under tiden.</i>)"
 
 #~ msgid "Folderview"
 #~ msgstr "Katalogvy"
@@ -675,11 +675,11 @@ msgstr "wallpaperDesc"
 #~ msgstr "Kick-off-menyn"
 
 #~ msgid ""
-#~ "This application, called Kaptan Desktop, will help you with your basic but sufficient setup for your Chakra desktop in a quick manner. Please click Next to personalize your desktop. \n"
+#~ "This application, called Kapudan Desktop, will help you with your basic but sufficient setup for your Chakra desktop in a quick manner. Please click Next to personalize your desktop. \n"
 #~ "\n"
 #~ "Chakra is a GNU/Linux distribution, targeting at computer literate users' basic desktop needs; helps you connect to internet, read e-mails, work with office documents and more!"
 #~ msgstr ""
-#~ "Detta program, Kaptan Skrivbord, hjälper dig snabbt och enkelt sätt med de grundläggande men tillräckliga inställningarna för ditt Chakraskrivbord. Klicka på Nästa för att anpassa skrivbordet.\n"
+#~ "Detta program, Kapudan Skrivbord, hjälper dig snabbt och enkelt sätt med de grundläggande men tillräckliga inställningarna för ditt Chakraskrivbord. Klicka på Nästa för att anpassa skrivbordet.\n"
 #~ "\n"
 #~ "Chakra är en GNU/Linux- distribution med inriktning på datoranvändarens grundläggande behov, du kan bland annat ansluta till Internet, läsa e-post och arbeta med Office-dokument!"
 
@@ -698,8 +698,8 @@ msgstr "wallpaperDesc"
 #~ msgid "Default menu of Chakra GNU/Linux."
 #~ msgstr "Standardmeny för Chakra GNU/Linux."
 
-#~ msgid "Goodbye from Kaptan Wizard :)"
-#~ msgstr "Hej då från Kaptan :)"
+#~ msgid "Goodbye from Kapudan Wizard :)"
+#~ msgstr "Hej då från Kapudan :)"
 
 #~ msgid "Repo"
 #~ msgstr "Förråd"
@@ -1030,11 +1030,11 @@ msgstr "wallpaperDesc"
 #~ msgid "Insert some catchy title about keyboards.."
 #~ msgstr "Insert some catchy title about keyboards.."
 
-#~ msgid "Welcome to Kaptan 2009.2"
-#~ msgstr "Välkommen till Kaptan!"
+#~ msgid "Welcome to Kapudan 2009.2"
+#~ msgstr "Välkommen till Kapudan!"
 
-#~ msgid "Kaptan Desktop"
-#~ msgstr "Kaptan Skrivbord"
+#~ msgid "Kapudan Desktop"
+#~ msgstr "Kapudan Skrivbord"
 
 #~ msgid "A wizard to transfer files and settings from existing operating systems (e.g. Windows) to Chakra."
 #~ msgstr "En guide som överför filer och inställningar från befintliga operativsystem (t.ex. Windows) till Chakra."

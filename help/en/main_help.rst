@@ -1,8 +1,8 @@
-Kaptan
+Kapudan
 ------
 
-**Kaptan** is a wizard that helps user to customize desktop enviroment after 
-installing Chakra. While Kaptan is giving some information about Chakra, it also 
+**Kapudan** is a wizard that helps user to customize desktop enviroment after 
+installing Chakra. While Kapudan is giving some information about Chakra, it also 
 sets basic configures such as internet connection, wallpaper and so on.
 
 Mouse
