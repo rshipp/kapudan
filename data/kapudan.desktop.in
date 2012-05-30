@@ -1,0 +1,12 @@
+[Desktop Entry]
+Exec=kapudan
+Icon=kapudan
+Type=Application
+
+X-KDE-StartupNotify=true
+X-KDE-autostart-after=plasma-desktop
+X-KDE-autostart-condition=kapudanrc:General:RunOnStart:true
+
+_Name=Kapudan
+_GenericName=Welcome Wizard
+

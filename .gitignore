@@ -1,2 +1,5 @@
 *~
 *.pyc
+*.old.png
+*.png.old
+*kaptan*
