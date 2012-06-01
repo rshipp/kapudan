@@ -3,7 +3,7 @@
 #
 # Copyright (C) 2012 The Chakra Project
 #
-# This is a fork of Pardus'ss Kapudan, which is
+# This is a fork of Pardus's Kapudan, which is
 # Copyright (C) 2006-2009 TUBITAK/UEKAE
 #
 # This program is free software; you can redistribute it and/or modify it under
