@@ -8,16 +8,20 @@ Legend:
 + Accomplished
 
 TODO:
-/ Fork everything.
+/ Fork everything. (Change paths, etc.)
+- Fix summary page- make it actually show the changes
 - Fix Themes/Style page, add screenshots for Ronak and Ronak-light, as well as
   any others included on the livecd by default
-/ Fix package management page, use spun
+/ Fix package management page, use spun (check if spun is running, if
+       so, don't start it again; fix config stuff to work with .spunrc)
 - Add page for choosing services to add to rc.conf, like cups, bluetooth
-      (have a few default options, and a button to open rcconf-kdm)
+      (have a few default options, and a button to open rcconf_settings)
+- Fix Search page, have it actually configure akonadi/nepomuk, add other
+       options if possible
 - Add page for creating folders in $HOME (Pictures, Documents, Music,
-                                          Downloads, Videos, custom)
-- Create custom Chakra artwork to replace the Kapudan logos
+       Downloads, Videos, custom; if a dir already exists, hide option)
+- Create custom Chakra/Kapudan artwork to replace the Kaptan logos
 - Add page for choosing KDM theme, with ronak/ronak light/others
 - Add workspace chooser - Desktop, Netbook, Active
-- Fix livecd-detection function
-- Add security page- set up kufw, clamav, etc
+- Fix livecd-detection function (disable spun page, avatar, others on livecd)
+- Add security page- set up ufw, clamav, etc

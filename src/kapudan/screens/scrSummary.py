@@ -29,7 +29,7 @@ import kapudan.screens.scrWallpaper as wallpaperWidget
 import kapudan.screens.scrMouse as mouseWidget
 import kapudan.screens.scrStyle as styleWidget
 import kapudan.screens.scrMenu as menuWidget
-import kapudan.screens.scrAvatar  as avatarWidget
+import kapudan.screens.scrAvatar as avatarWidget
 
 from kapudan.tools import tools
 
@@ -102,7 +102,7 @@ class Widget(QtGui.QWidget, Screen):
             finally:
                 self.startPlasma()
         except:
-            QMessageBox.critical(self, ki18n("Error").toString(), ki18n("Cannot restart plasma-desktop. Kapudan will now shutdown.").toString())
+            QMessageBox.critical(self, ki18n("Error").toString(), ki18n("Cannot restart plasma-desktop. Kapudan will now shut down.").toString())
             from PyKDE4 import kdeui
             kdeui.KApplication.kApplication().quit()
 
