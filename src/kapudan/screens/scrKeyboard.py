@@ -71,11 +71,13 @@ class Widget(QtGui.QWidget, Screen):
     def getCurrentSystemLanguage(self):
         lang = "en"
 
+        # FIXME: This file does not exist on Chakra, find its equivalent.
+        # Until then, I am commenting out the overly-verbose error printing.
         try:
             langFile = open('/etc/mudur/language', 'r')
             lang = langFile.readline().rstrip('\n').strip()
         except IOError:
-            print "Cannot read /etc/mudur/language file"
+            pass #print "Cannot read /etc/mudur/language file"
 
         return lang
 
