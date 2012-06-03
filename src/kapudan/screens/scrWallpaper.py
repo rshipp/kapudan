@@ -84,8 +84,7 @@ class Widget(QtGui.QWidget, Screen):
             # Insert wallpapers to listWidget.
             item = QtGui.QListWidgetItem(self.ui.listWallpaper)
             # Each wallpaper item is a widget. Look at widgets.py for more information.
-            #widget = WallpaperItemWidget(unicode(wallpaperTitle), unicode(wallpaperDesc), wallpaperThumb, self.ui.listWallpaper)
-            widget = WallpaperItemWidget(wallpaperTitle, wallpaperDesc, wallpaperThumb, self.ui.listWallpaper)
+            widget = WallpaperItemWidget(unicode(wallpaperTitle, "utf8", "replace"), unicode(wallpaperDesc, "utf8", "replace"), wallpaperThumb, self.ui.listWallpaper)
             item.setSizeHint(QSize(120,170))
             self.ui.listWallpaper.setItemWidget(item, widget)
             # Add a hidden value to each item for detecting selected wallpaper's path.
@@ -110,14 +109,14 @@ class Widget(QtGui.QWidget, Screen):
         self.__class__.screenSettings["hasChanged"] = True
 
     def selectWallpaper(self):
-        selectedFile = QFileDialog.getOpenFileName(None,"Open Image", os.environ["HOME"], 'Image Files (*.png *.jpg *bmp)')
+        selectedFile = QFileDialog.getOpenFileName(None,"Open Image", os.environ["HOME"], 'Image Files (*.png *.jpg *.bmp)')
 
         if selectedFile.isNull():
             return
         else:
             item = QtGui.QListWidgetItem(self.ui.listWallpaper)
             wallpaperName = os.path.splitext(os.path.split(str(selectedFile))[1])[0]
-            widget = WallpaperItemWidget(unicode(wallpaperName), unicode("Unknown"), selectedFile, self.ui.listWallpaper)
+            widget = WallpaperItemWidget(unicode(wallpaperName, "utf8", "replace"), unicode("Unknown"), selectedFile, self.ui.listWallpaper)
             item.setSizeHint(QSize(120,170))
             self.ui.listWallpaper.setItemWidget(item, widget)
             item.setStatusTip(selectedFile)
