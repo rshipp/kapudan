@@ -62,7 +62,10 @@ class Widget(QtGui.QWidget, Screen):
                 wallpaperDesc = "Unknown"
 
             # Get all files in the wallpaper's directory
-            thumbFolder = os.listdir(os.path.join(os.path.split(str(desktopFiles))[0], "contents"))
+            try:
+                thumbFolder = os.listdir(os.path.join(os.path.split(str(desktopFiles))[0], "contents"))
+            except OSError:
+                thumbFolder = os.listdir(os.path.join(os.path.split(str(desktopFiles))[0], "content"))
 
             """
             Appearantly the thumbnail names doesn't have a standart.
