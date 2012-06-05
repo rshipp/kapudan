@@ -51,11 +51,13 @@ class Widget(QtGui.QWidget, Screen):
         defaultDesktopNumber = int(group.readEntry('Number'))
 
         self.ui.spinBoxDesktopNumbers.setValue(defaultDesktopNumber)
-        lst2 = glob.glob1("/usr/share/kde4/apps/kapudan/kapudan/kde-themes", "*.style")
+        #lst2 = glob.glob1("/usr/share/kde4/apps/kapudan/kapudan/kde-themes", "*.style")
+        lst2 = glob.glob1("data/kde-themes", "*.style")
 
         for desktopFiles in lst2:
             parser = DesktopParser()
-            parser.read("/usr/share/kde4/apps/kapudan/kapudan/kde-themes/" +str(desktopFiles))
+            #parser.read("/usr/share/kde4/apps/kapudan/kapudan/kde-themes/" +str(desktopFiles))
+            parser.read("data/kde-themes/" +str(desktopFiles))
             try:
                 styleName = unicode(parser.get_locale('Style', 'name[%s]'%self.catLang, ''))
             except:
@@ -74,10 +76,11 @@ class Widget(QtGui.QWidget, Screen):
                 colorScheme = unicode(parser.get_locale('Style', 'colorScheme', ''))
 
                 windowDecoration = unicode(parser.get_locale('Style', 'windowDecoration', ''))
-                styleThumb = unicode(os.path.join("/usr/share/kde4/apps/kapudan/kapudan/kde-themes/",  parser.get_locale('Style', 'thumbnail','')))
+                #styleThumb = unicode(os.path.join("/usr/share/kde4/apps/kapudan/kapudan/kde-themes/",  parser.get_locale('Style', 'thumbnail','')))
+                styleThumb = unicode(os.path.join("data/kde-themes/",  parser.get_locale('Style', 'thumbnail','')))
 
                 colorDict = {}
-                colorDir = "/usr/share/kde4/apps/color-schemes/"
+                colorDir = "/usr/share/apps/color-schemes/"
                 self.Config = ConfigParser()
                 self.Config.optionxform = str
                 color = colorDir + colorScheme + ".colors"
