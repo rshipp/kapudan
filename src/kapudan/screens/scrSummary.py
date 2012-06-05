@@ -85,6 +85,9 @@ class Widget(QtGui.QWidget, Screen):
             content.append(item % ki18n("Selected Style: <b>%s</b>").toString() % unicode(self.styleSettings["summaryMessage"]))
 
         content.append(end)
+        
+        self.ui.textSummary.setText(content)
+
 
     def killPlasma(self):
         try:
