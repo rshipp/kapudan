@@ -12,15 +12,15 @@ Building & Installation
 -----------------------
 * Build Kapudan "without installing" to your system:
 
-    ./setup build
+    python2 setup.py build
 
 * Running Kapudan after building:
 
-    python build/kapudan.py
+    python2 build/kapudan.py
 
 * Build and "install" Kapudan to your system:
 
-    ./setup install
+    python2 setup.py install
 
 
 Testing (for Developers)
