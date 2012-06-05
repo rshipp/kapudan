@@ -1,0 +1,14 @@
+[Style]
+name = Caledonia
+name[tr] = Caledonia
+
+description = A very minimalistic theme. 
+description[tr] = Paneli beyaz ve altta olan açık mavi ve gri renkli bir tema
+
+panelPosition = 4
+widgetStyle = oxygen
+colorScheme = Caledonia
+desktopTheme = caledonia
+thumbnail = caledonia.png
+iconTheme = caledonia
+windowDecoration = caledonia
