@@ -13,6 +13,7 @@ TODO:
   any others included on the livecd by default
 / Fix package management page, use spun (check if spun is running, if
        so, don't start it again; fix config stuff to work with .spunrc)
+- Add all new screens to scrSummary as we go
 - Add page for choosing services to add to rc.conf, like cups, bluetooth
       (have a few default options, and a button to open rcconf_settings)
 - Fix Search page, have it actually configure akonadi/nepomuk, add other
@@ -23,4 +24,5 @@ TODO:
 - Add page for choosing KDM theme, with ronak/ronak light/others
 - Add workspace chooser - Desktop, Netbook, Active
 - Fix livecd-detection function (disable spun page, avatar, others on livecd)
+- Add icon-choosing back, only once we have Caledonia on the ISO
 - Add security page- set up ufw, clamav, etc
