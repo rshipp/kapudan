@@ -16,9 +16,9 @@
 from PyQt4 import QtGui
 from PyQt4.QtCore import *
 
-from PyKDE4.kdecore import ki18n, KConfig, KProcess
+from PyKDE4.kdecore import ki18n, KConfig
 
-from PyKDE4 import kdeui
+#from PyKDE4 import kdeui
 
 from kapudan.screen import Screen
 from kapudan.screens.ui_scrPackage import Ui_packageWidget
@@ -26,6 +26,7 @@ from kapudan.screens.ui_scrPackage import Ui_packageWidget
 import subprocess
 
 isUpdateOn = False
+
 
 class Widget(QtGui.QWidget, Screen):
     title = ki18n("Packages")
@@ -35,7 +36,7 @@ class Widget(QtGui.QWidget, Screen):
     updateTime = 30
 
     def __init__(self, *args):
-        QtGui.QWidget.__init__(self,None)
+        QtGui.QWidget.__init__(self, None)
         self.ui = Ui_packageWidget()
         self.ui.setupUi(self)
 
@@ -74,7 +75,11 @@ class Widget(QtGui.QWidget, Screen):
         config.setUpdateCheckInterval(QVariant(self.ui.updateInterval.value() * 60))
 
         if self.ui.showTray.isChecked():
-            p = subprocess.Popen(["spun"], stdout=subprocess.PIPE)
+            # check if spun is already running
+            # checks if spun is not in the output of ps -Af
+            if "spun" not in subprocess.Popen("ps -Af",
+                   shell=True, stdout=subprocess.PIPE).stdout.read():
+                subprocess.Popen(["spun"], stdout=subprocess.PIPE)
 
     def shown(self):
         pass
@@ -82,6 +87,7 @@ class Widget(QtGui.QWidget, Screen):
     def execute(self):
         self.applySettings()
         return True
+
 
 class Config:
     def __init__(self, config):
@@ -92,6 +98,7 @@ class Config:
         self.group = self.config.group("General")
         self.group.writeEntry(option, QVariant(value))
         self.config.sync()
+
 
 class PMConfig(Config):
     def __init__(self):
