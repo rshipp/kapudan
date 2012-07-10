@@ -14,10 +14,10 @@ TODO:
 / Fix package management page, use spun (enable/disable audio
        notifications; fix config stuff to work with .spunrc)
 / Fix Themes/Style page, add screenshots for Ronak and Ronak-light, as well as
-  any others included on the livecd by default
+       any others included on the livecd by default
 - Add all new screens to scrSummary as we go
 - Add page for choosing services to add to rc.conf, like cups, bluetooth
-      (have a few default options, and a button to open rcconf_settings)
+       (have a few default options, and a button to open rcconf_settings)
 - Add page for creating folders in $HOME (Pictures, Documents, Music,
        Downloads, Videos, custom; if a dir already exists, hide option)
 - Create custom Chakra/Kapudan artwork to replace the Kaptan logos
