@@ -22,6 +22,7 @@ from PyKDE4.kdecore import ki18n, KConfig
 
 from kapudan.screen import Screen
 from kapudan.screens.ui_scrPackage import Ui_packageWidget
+from kapudan.tools.spunrc import spunrc
 
 import subprocess
 
