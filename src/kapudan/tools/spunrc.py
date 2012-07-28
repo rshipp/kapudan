@@ -14,7 +14,7 @@ class spunrc():
     def setaudio(state):
         if state == True:
             os.system("/bin/sed -i 's/^#playwith=/playwith=/' ~/.spunrc")
-        else if state == False:
+        elif state == False:
             os.system("/bin/sed -i 's/^#audio=/audio=/' ~/.spunrc")
 
     def setwaittime(time):
