@@ -73,7 +73,7 @@ border-bottom-right-radius: 4px;
              <string notr="true">color: rgb(30, 43, 51)</string>
             </property>
             <property name="text">
-             <string>Check updates automatically every</string>
+             <string>Check for updates automatically every</string>
             </property>
            </widget>
           </item>

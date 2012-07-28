@@ -46,13 +46,13 @@ class Widget(QtGui.QWidget, Screen):
 
         # set initial states
         self.ui.checkUpdate.setChecked(True)
-        self.ui.showTray.setChecked(True)
+        self.ui.playAudio.setChecked(False)
 
         # set signals
-        self.ui.showTray.connect(self.ui.showTray, SIGNAL("toggled(bool)"), self.enableCheckTime)
         self.ui.checkUpdate.connect(self.ui.checkUpdate, SIGNAL("toggled(bool)"), self.updateSelected)
+        self.ui.playAudio.connect(self.ui.playAudio, SIGNAL("toggled(bool)"), self.enableAudio)
 
-    def enableCheckTime(self):
+    def enableAudio(self):
         if self.ui.showTray.isChecked():
             self.ui.checkUpdate.setVisible(True)
             self.ui.updateInterval.setVisible(True)
