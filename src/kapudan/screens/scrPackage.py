@@ -22,61 +22,50 @@ from PyKDE4.kdecore import ki18n, KConfig
 
 from kapudan.screen import Screen
 from kapudan.screens.ui_scrPackage import Ui_packageWidget
-from kapudan.tools.spunrc import spunrc
+from kapudan.tools.spunrc import SpunRC
 
 import subprocess
 
 isUpdateOn = False
 
-
 class Widget(QtGui.QWidget, Screen):
     title = ki18n("Packages")
     desc = ki18n("Install / Remove Programs")
-
-    # min update time
-    updateTime = 30
 
     def __init__(self, *args):
         QtGui.QWidget.__init__(self, None)
         self.ui = Ui_packageWidget()
         self.ui.setupUi(self)
 
-        # set updateTime
+        # initialize the config object, set updateTime
+        self.config = SpunRC()
+        self.updateTime = self.config.getWaitTime()
+
+        # set updateInterval
         self.ui.updateInterval.setValue(self.updateTime)
 
         # set initial states
         self.ui.checkUpdate.setChecked(True)
-        self.ui.playAudio.setChecked(False)
+        self.ui.updateInterval.setEnabled(True)
+        self.ui.playAudio.setChecked(self.config.getAudio())
 
         # set signals
         self.ui.checkUpdate.connect(self.ui.checkUpdate, SIGNAL("toggled(bool)"), self.updateSelected)
-        self.ui.playAudio.connect(self.ui.playAudio, SIGNAL("toggled(bool)"), self.enableAudio)
-
-    def enableAudio(self):
-        if self.ui.showTray.isChecked():
-            self.ui.checkUpdate.setVisible(True)
-            self.ui.updateInterval.setVisible(True)
-        else:
-            self.ui.checkUpdate.setChecked(False)
-            self.ui.checkUpdate.setVisible(False)
-            self.ui.checkUpdate.setCheckState(Qt.Unchecked)
-            self.ui.updateInterval.setVisible(False)
 
     def updateSelected(self):
         if self.ui.checkUpdate.isChecked():
             self.ui.updateInterval.setEnabled(True)
+            self.ui.playAudio.setEnabled(True)
         else:
             self.ui.updateInterval.setEnabled(False)
+            self.ui.playAudio.setEnabled(False)
 
     def applySettings(self):
-        # write selected configurations to future package-managerrc
-        config = PMConfig()
-        config.setSystemTray(QVariant(self.ui.showTray.isChecked()))
-        config.setUpdateCheck(QVariant(self.ui.checkUpdate.isChecked()))
-        config.setUpdateCheckInterval(QVariant(self.ui.updateInterval.value() * 60))
+        # write selected configurations to spunrc
+        self.config.setWaitTime(self.ui.updateInterval.value())
+        self.config.setAudio(QVariant(self.ui.playAudio.isChecked()))
 
-        if self.ui.showTray.isChecked():
-            # check if spun is already running
+        if self.ui.checkUpdate.isChecked():
             # checks if spun is not in the output of ps -Af
             if "spun" not in subprocess.Popen("ps -Af",
                    shell=True, stdout=subprocess.PIPE).stdout.read():

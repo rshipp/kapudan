@@ -2,20 +2,54 @@
 # -*- coding: utf-8 -*-
 
 import os
+import shutil
 
-class spunrc():
+class SpunRC():
 
-    def _min2sec(minutes):
-        return minutes * 60
+    def __init__(self):
+        self.mintime = 5
+        self.maxtime = 10080
+        self.spunrc = os.getenv("HOME") + "/.spunrc"
+        self.spunconf = "/etc/spun.conf"
+        self._create()
 
-    def creat():
-        os.system("/bin/cp /etc/spun.conf ~/.spunrc")
+    def _create(self):
+        if os.path.isfile(self.spunrc):
+            return True
+        else:
+            try:
+                shutil.copyfile(self.spunconf, self.spunrc)
+                return True
+            except shutil.Error as e:
+                print e
+                return False
 
-    def setaudio(state):
+    def getAudio(self):
+        state = os.system("/bin/bash -c '. " + self.spunrc + " && [[ -n $audio && -n $playwith ]]'")
+        if state == 0:
+            return True
+        else:
+            return False
+
+    def getWaitTime(self):
+        time = os.system("/bin/bash -c '. " + self.spunrc + " && exit $waittime'") / 256
+        if time < self.mintime:
+            time = self.mintime
+        elif time > self.maxtime:
+            time = self.maxtime
+        return int(time)
+
+    def setAudio(self, state):
         if state == True:
-            os.system("/bin/sed -i 's/^#playwith=/playwith=/' ~/.spunrc")
+            os.system("/bin/sed -i 's/^#playwith=/playwith=/' " + self.spunrc)
+            os.system("/bin/sed -i 's/^#audio=/audio=/' " + self.spunrc)
         elif state == False:
-            os.system("/bin/sed -i 's/^#audio=/audio=/' ~/.spunrc")
+            os.system("/bin/sed -i 's/^playwith=/#playwith=/' " + self.spunrc)
+            os.system("/bin/sed -i 's/^audio=/#audio=/' " + self.spunrc)
 
-    def setwaittime(time):
-        os.system("/bin/sed -i 's/^waittime=.*/waittime=" + _min2sec(time) + "' ~/.spunrc")
+    def setWaitTime(self, time):
+        if time < self.mintime:
+            time = self.mintime
+        elif time > self.maxtime:
+            time = self.maxtime
+        os.system("/bin/sed -i 's/^waittime=.*$/waittime=" + str(time) + "/' " + self.spunrc)
