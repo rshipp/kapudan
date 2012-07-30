@@ -60,7 +60,7 @@ class Widget(QtGui.QWidget, Screen):
         self.menuNames["takeoff"] = {
                 "menuIndex": 3,
                 "summaryMessage": ki18n("Takeoff Menu"),
-                "image": QtGui.QPixmap(':/raw/pixmap/kickoff.png'),  # FIXME: png
+                "image": QtGui.QPixmap(':/raw/pixmap/takeoff.png'),
                 "description": ki18n("Takeoff is a full screen menu.<br><br> Inspired in the aspect of Slingshot and the OS X Launchpad menu but adapted to the KDE users in a plasmoid.")
                 }
 
