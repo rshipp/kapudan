@@ -240,20 +240,20 @@ class Widget(QtGui.QWidget, Screen):
 
         # Theme Settings
         if self.styleSettings["hasChanged"]:
-            if self.styleSettings["iconChanged"]:
-                hasChanged = True
-                configKdeGlobals = KConfig("kdeglobals")
-                group = configKdeGlobals.group("General")
-
-                groupIconTheme = configKdeGlobals.group("Icons")
-                groupIconTheme.writeEntry("Theme", self.styleSettings["iconTheme"])
-
-                configKdeGlobals.sync()
-
-                # Change Icon theme
-                kdeui.KIconTheme.reconfigure()
-                kdeui.KIconCache.deleteCache()
-                deleteIconCache()
+#            if self.styleSettings["iconChanged"]:
+#                hasChanged = True
+#                configKdeGlobals = KConfig("kdeglobals")
+#                group = configKdeGlobals.group("General")
+#
+#                groupIconTheme = configKdeGlobals.group("Icons")
+#                groupIconTheme.writeEntry("Theme", self.styleSettings["iconTheme"])
+#
+#                configKdeGlobals.sync()
+#
+#                # Change Icon theme
+#                kdeui.KIconTheme.reconfigure()
+#                kdeui.KIconCache.deleteCache()
+#                deleteIconCache()
 
             if self.styleSettings["styleChanged"]:
                 hasChanged = True

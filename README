@@ -5,7 +5,8 @@ GPLv2 (please read the COPYING file)
 
 Dependencies
 ------------
-Python, PyQt4, PyKDE4, KDE4, Python-Xlib, Python-v4l2capture
+Python, PyQt4, PyKDE4, KDE4, Python-Xlib, Python-v4l2capture,
+Python-imaging
 
 
 Building & Installation
