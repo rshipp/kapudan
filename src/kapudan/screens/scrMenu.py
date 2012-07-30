@@ -57,6 +57,12 @@ class Widget(QtGui.QWidget, Screen):
                 "image": QtGui.QPixmap(':/raw/pixmap/lancelot.png'),
                 "description": ki18n("Lancelot is an advanced and highly customizable menu for Chakra.<br><br>The program shortcuts are easy to access and well organized.")
                 }
+        self.menuNames["takeoff"] = {
+                "menuIndex": 3,
+                "summaryMessage": ki18n("Takeoff Menu"),
+                "image": QtGui.QPixmap(':/raw/pixmap/kickoff.png'),  # FIXME: png
+                "description": ki18n("Takeoff is a full screen menu.<br><br> Inspired in the aspect of Slingshot and the OS X Launchpad menu but adapted to the KDE users in a plasmoid.")
+                }
 
         for each in list(group.groupList()):
             subgroup = group.group(each)
@@ -95,11 +101,16 @@ class Widget(QtGui.QWidget, Screen):
             self.ui.pictureMenuStyles.setPixmap(self.menuNames["simplelauncher"]["image"])
             self.ui.labelMenuDescription.setText(self.menuNames["simplelauncher"]["description"].toString())
 
-        else:
+        elif currentIndex == 2:
             self.__class__.screenSettings["selectedMenu"] = 'lancelot_launcher'
 
             self.ui.pictureMenuStyles.setPixmap(self.menuNames["lancelot_launcher"]["image"])
             self.ui.labelMenuDescription.setText(self.menuNames["lancelot_launcher"]["description"].toString())
+        elif currentIndex == 3:
+            self.__class__.screenSettings["selectedMenu"] = 'takeoff'
+
+            self.ui.pictureMenuStyles.setPixmap(self.menuNames["takeoff"]["image"])
+            self.ui.labelMenuDescription.setText(self.menuNames["takeoff"]["description"].toString())
 
     def shown(self):
         pass
