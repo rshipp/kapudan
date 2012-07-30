@@ -261,16 +261,16 @@ class Widget(QtGui.QWidget, Screen):
                 group = configKdeGlobals.group("General")
                 group.writeEntry("widgetStyle", self.styleSettings["styleDetails"][unicode(self.styleSettings["styleName"])]["widgetStyle"])
 
-                groupIconTheme = configKdeGlobals.group("Icons")
-                groupIconTheme.writeEntry("Theme", self.styleSettings["iconTheme"])
+                #groupIconTheme = configKdeGlobals.group("Icons")
+                #groupIconTheme.writeEntry("Theme", self.styleSettings["iconTheme"])
                 #groupIconTheme.writeEntry("Theme", self.styleSettings["styleDetails"][unicode(self.styleSettings["styleName"])]["iconTheme"])
 
                 configKdeGlobals.sync()
 
                 # Change Icon theme
-                kdeui.KIconTheme.reconfigure()
-                kdeui.KIconCache.deleteCache()
-                deleteIconCache()
+#                kdeui.KIconTheme.reconfigure()
+#                kdeui.KIconCache.deleteCache()
+#                deleteIconCache()
 
                 for i in range(kdeui.KIconLoader.LastGroup):
                     kdeui.KGlobalSettings.self().emitChange(kdeui.KGlobalSettings.IconChanged, i)
