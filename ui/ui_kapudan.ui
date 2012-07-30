@@ -158,9 +158,10 @@ border-bottom: 1px solid rgba(0,0,0,10)</string>
           </property>
           <property name="font">
            <font>
-            <family>URW Gothic L</family>
-            <pointsize>17</pointsize>
+            <family>DejaVu Sans</family>
+            <pointsize>20</pointsize>
             <weight>75</weight>
+            <italic>false</italic>
             <bold>true</bold>
            </font>
           </property>
@@ -215,7 +216,7 @@ border-bottom: 1px solid rgba(0,0,0,10)</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap resource="../data/kapudan.qrc">:/raw/pixmap/kapudan-logo.png</pixmap>
+           <pixmap>:/raw/pixmap/kapudan-logo.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -459,7 +460,7 @@ QPushButton{
 QPushButton::flat:hover{
 	border:1px solid  rgba(34, 49, 60, 100);
 	border-radius:2px;
-	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(13, 0, 157), stop:0.0192308 rgba(25, 35, 160, 255), stop:0.521739 rgb(5, 0, 86), stop:0.531585 rgba(40, 46, 184, 255), stop:0.983696 rgba(74, 78, 168, 255), stop:1 rgba(110, 110, 210, 255))
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(35, 80, 153), /* stop:0.0192308 rgba(25, 35, 160, 255), stop:0.521739 rgb(5, 0, 86), stop:0.531585 rgba(40, 46, 184, 255), stop:0.983696 rgba(16, 185, 230, 255), */ stop:1 rgba(50, 173, 241, 255));
 }
 
 QPushButton::flat{
