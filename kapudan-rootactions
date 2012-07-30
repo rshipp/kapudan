@@ -1,0 +1,115 @@
+#!/bin/bash
+
+echo "==>        KAPUDAN        <=="
+echo "Performing root actions..."
+
+enable_spun() {
+    echo " Adding spun to autostart apps..."
+    cat > /usr/share/autostart/spun.desktop << EOF
+[Desktop Entry]
+Exec=spun
+Icon=system-software-update
+Type=Application
+Terminal=false
+X-KDE-autostart-after=panel
+X-KDE-StartupNotify=false
+X-DBUS-StartupType=Unique
+X-KDE-UniqueApplet=true
+Categories=KDE;System;
+Name=spun
+GenericName=Update Notifier
+EOF
+    echo "  Done."
+}
+
+disable_spun() {
+    echo " Removing spun from autostart apps..."
+        echo 2> /usr/share/autostart/spun.desktop
+    echo "  Done."
+}
+
+enable_daemon() {
+    # internal function, $1 is daemon to enable
+    if ! grep -q "^DAEMONS=(.*$1.*)" /etc/rc.conf; then
+        sed -i "s/^\(DAEMONS=(.*\)\s*)/\1 $1)/g" /etc/rc.conf
+    fi
+}
+
+disable_daemon() {
+    # internal function, $1 is daemon to disable
+    if grep -q "^DAEMONS=(.*$1.*)" /etc/rc.conf; then
+        sed -i "s/^\(DAEMONS=(.*\)\s*$1\(.*)\)/\1\2/g" /etc/rc.conf
+    fi
+}
+
+enable_cups() {
+    echo " Enabling the CUPS printing service..."
+    enable_daemon cups
+    echo "  Done."
+}
+
+disable_cups() {
+    echo " Disabling the CUPS printing service..."
+    disable_daemon cups
+    echo "  Done."
+}
+
+enable_blue() {
+    echo " Enabling the Bluetooth service..."
+    enable_daemon bluetooth
+    echo "  Done."
+}
+
+disable_blue() {
+    echo " Disabling the Bluetooth service..."
+    disable_daemon bluetooth
+    echo "  Done."
+}
+
+enable_clam() {
+    echo " Enabling the ClamAV service..."
+    enable_daemon clamav
+    echo "  Done."
+}
+
+disable_clam() {
+    echo " Disabling the ClamAV service..."
+    disable_daemon clamav
+    echo "  Done."
+}
+
+enable_fire() {
+    echo " Enabling the UFW firewall..."
+    ufw enable
+    echo "  Done."
+}
+
+disable_fire() {
+    echo " Disabling the UFW firewall..."
+    ufw disable
+    echo "  Done."
+}
+
+if ! [[ $UID == 0 || $EUID == 0 ]]; then
+    # not root
+    echo "must be root"
+    exit 1
+fi
+
+# argument parsing
+echo "$@" | grep -q "enable_spun"  && enable_spun
+echo "$@" | grep -q "disable_spun" && disable_spun
+echo "$@" | grep -q "enable_cups"  && enable_cups
+echo "$@" | grep -q "disable_cups" && disable_cups
+echo "$@" | grep -q "enable_blue"  && enable_blue
+echo "$@" | grep -q "disable_blue" && disable_blue
+echo "$@" | grep -q "enable_clam"  && enable_clam
+echo "$@" | grep -q "disable_clam" && disable_clam
+echo "$@" | grep -q "enable_fire"  && enable_fire
+echo "$@" | grep -q "disable_fire" && disable_fire
+
+# all done
+echo "All done!"
+echo "Press Enter to continue."
+read me
+exit

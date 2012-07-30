@@ -33,6 +33,7 @@ import kapudan.screens.scrAvatar as avatarWidget
 import kapudan.screens.scrPackage as packageWidget
 
 from kapudan.tools import tools
+from kapudan.tools.spunrc import SpunRC
 
 class Widget(QtGui.QWidget, Screen):
     title = ki18n("Summary")
@@ -124,6 +125,7 @@ class Widget(QtGui.QWidget, Screen):
 
     def execute(self):
         hasChanged = False
+        rootActions = ""
 
         # Wallpaper Settings
         if self.wallpaperSettings["hasChanged"]:
@@ -315,14 +317,17 @@ class Widget(QtGui.QWidget, Screen):
         if self.avatarSettings["hasChanged"]:
             hasChanged = True
 
+        if self.packageSettings["hasChanged"]:
+            spun = SpunRC()
+            if spun.isEnabled():
+                rootActions += "disable_spun "
+            else:
+                rootActions += "enable_spun "
+
         if hasChanged:
             self.killPlasma()
 
+        if not rootActions == "":
+            os.system("kdesu konsole -e kapudan-rootactions " + rootActions)
+
         return True
-
-# Enable/Disable Spun in KDE startup
-def disableSpun():
-    os.system("kdesu konsole -e spun-autostart disable")
-
-def enableSpun():
-    os.system("kdesu konsole -e spun-autostart enable")

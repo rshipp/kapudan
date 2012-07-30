@@ -9,8 +9,10 @@ class SpunRC():
     def __init__(self):
         self.mintime = 5
         self.maxtime = 10080
+        self.spun = "/usr/bin/spun"
         self.spunrc = os.getenv("HOME") + "/.spunrc"
         self.spunconf = "/etc/spun.conf"
+        self.spunstart = "/usr/share/autostart/spun.desktop"
         self._create()
 
     def _create(self):
@@ -23,6 +25,16 @@ class SpunRC():
             except shutil.Error as e:
                 print e
                 return False
+
+    def isInstalled(self):
+        return os.path.isfile(self.spun)
+
+    def isEnabled(self):
+        state = os.path.getsize(self.spunstart)
+        if state > 2:
+            return True
+        else:
+            return False
 
     def getAudio(self):
         state = os.system("/bin/bash -c '. " + self.spunrc + " && [[ -n $audio && -n $playwith ]]'")

@@ -25,7 +25,7 @@ from kapudan.screens.ui_scrPackage import Ui_packageWidget
 from kapudan.tools.spunrc import SpunRC
 
 import subprocess
-import shutil
+import os
 
 isUpdateOn = False
 
@@ -49,8 +49,9 @@ class Widget(QtGui.QWidget, Screen):
         self.ui.updateInterval.setValue(self.updateTime)
 
         # set initial states
-        self.ui.checkUpdate.setChecked(True)
-        self.ui.updateInterval.setEnabled(True)
+        self.ui.checkUpdate.setChecked(self.config.isEnabled())
+        self.ui.updateInterval.setEnabled(self.config.isEnabled())
+        self.ui.playAudio.setEnabled(self.config.isEnabled())
         self.ui.playAudio.setChecked(self.config.getAudio())
 
         # set signals
@@ -75,15 +76,21 @@ class Widget(QtGui.QWidget, Screen):
                    shell=True, stdout=subprocess.PIPE).stdout.read():
                 subprocess.Popen(["spun"], stdout=subprocess.PIPE)
 
-            if not os.path.isfile("/usr/share/autostart/spun.desktop"):
+            # was spun disabled before?
+            if not self.config.isEnabled():
                 self.__class__.screenSettings["hasChanged"] = True
+            else:
+                self.__class__.screenSettings["hasChanged"] = False
 
         else:
             # don't care if this fails
             os.system("killall spun")
 
-            if os.path.isfile("/usr/share/autostart/spun.desktop"):
+            # was spun enabled to begin with?
+            if self.config.isEnabled():
                 self.__class__.screenSettings["hasChanged"] = True
+            else:
+                self.__class__.screenSettings["hasChanged"] = False
 
 
     def shown(self):

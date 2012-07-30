@@ -3,20 +3,15 @@
 
 import os
 
-class RCDaemons():
+class RCDaemon():
 
-    def status(daemon):
-        os.system("grep ^DAEMONS=\( /etc/rc.conf | 
-                   grep \"[( ]" + daemon + "[ )]\"")
-
-    def add(daemon):
-        if status(daemon) == True:
+    def isEnabled(daemon):
+        state = os.system("grep ^DAEMONS=\( /etc/rc.conf | grep \"[( ]" + daemon + "[ )]\"")
+        if state = 0:
             return True
         else:
-            # Add the Daemon
+            return False
 
-    def delete(daemon):
-        if status(daemon) == True:
-            # Delete the daemon
-        else:
-            return True
+    def isInstalled(daemon):
+        return os.path.isfile("/etc/rc.d/" + daemon)
+
