@@ -31,9 +31,11 @@ import kapudan.screens.scrStyle as styleWidget
 import kapudan.screens.scrMenu as menuWidget
 import kapudan.screens.scrAvatar as avatarWidget
 import kapudan.screens.scrPackage as packageWidget
+import kapudan.screens.scrServices as servicesWidget
 
 from kapudan.tools import tools
 from kapudan.tools.spunrc import SpunRC
+from kapudan.tools.rcconf import RCDaemon
 
 class Widget(QtGui.QWidget, Screen):
     title = ki18n("Summary")
@@ -51,6 +53,7 @@ class Widget(QtGui.QWidget, Screen):
         self.styleSettings = styleWidget.Widget.screenSettings
         self.avatarSettings = avatarWidget.Widget.screenSettings
         self.packageSettings = packageWidget.Widget.screenSettings
+        self.servicesSettings = servicesWidget.Widget.screenSettings
 
         subject = "<p><li><b>%s</b></li><ul>"
         item    = "<li>%s</li>"
@@ -94,8 +97,30 @@ class Widget(QtGui.QWidget, Screen):
             content.append(subject % ki18n("Package Management Settings").toString())
             content.append(item % ki18n("You have enabled or disabled spun.").toString()) 
 
-        content.append(end)
+            content.append(end)
         
+        # Services Settings
+        if self.servicesSettings["hasChanged"]:
+            self.rcdaemon = RCDaemon()
+            self.rctext = "You have: "
+            content.append(subject % ki18n("Services Settings").toString())
+
+            if self.servicesSettings["enableCups"] and not self.rcdaemon.isEnabled("cups"):
+                self.rctext += "enabled cups; "
+            elif not self.servicesSettings["enableCups"] and self.rcdaemon.isEnabled("cups"):
+                self.rctext += "disabled cups; "
+            if self.servicesSettings["enableBluetooth"] and not self.rcdaemon.isEnabled("bluetooth"):
+                self.rctext += "enabled bluetooth; "
+            elif not self.servicesSettings["enableBluetooth"] and self.rcdaemon.isEnabled("bluetooth"):
+                self.rctext += "disabled bluetooth; "
+
+            if self.rctext == "You have: ":
+                self.rctext = "You have made no changes."
+
+            content.append(item % ki18n(self.rctext).toString())
+
+            content.append(end)
+
         self.ui.textSummary.setText(content)
 
 
@@ -317,12 +342,24 @@ class Widget(QtGui.QWidget, Screen):
         if self.avatarSettings["hasChanged"]:
             hasChanged = True
 
+        # Spun Settings
         if self.packageSettings["hasChanged"]:
             spun = SpunRC()
             if spun.isEnabled():
                 rootActions += "disable_spun "
             else:
                 rootActions += "enable_spun "
+
+        # Services Settings
+        if self.servicesSettings["hasChanged"] and not self.rctext == "You have made no changes.":
+            if self.servicesSettings["enableCups"] and not self.rcdaemon.isEnabled("cups"):
+                rootActions += "enable_cups "
+            elif not self.servicesSettings["enableCups"] and self.rcdaemon.isEnabled("cups"):
+                rootActions += "disable_cups "
+            if self.servicesSettings["enableBluetooth"] and not self.rcdaemon.isEnabled("bluetooth"):
+                rootActions += "enable_blue "
+            elif not self.servicesSettings["enableBluetooth"] and self.rcdaemon.isEnabled("bluetooth"):
+                rootActions += "disable_blue "
 
         if hasChanged:
             self.killPlasma()
