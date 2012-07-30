@@ -25,12 +25,16 @@ from kapudan.screens.ui_scrPackage import Ui_packageWidget
 from kapudan.tools.spunrc import SpunRC
 
 import subprocess
+import shutil
 
 isUpdateOn = False
 
 class Widget(QtGui.QWidget, Screen):
     title = ki18n("Packages")
     desc = ki18n("Install / Remove Programs")
+
+    screenSettings = {}
+    screenSettings["hasChanged"] = False
 
     def __init__(self, *args):
         QtGui.QWidget.__init__(self, None)
@@ -71,6 +75,17 @@ class Widget(QtGui.QWidget, Screen):
                    shell=True, stdout=subprocess.PIPE).stdout.read():
                 subprocess.Popen(["spun"], stdout=subprocess.PIPE)
 
+            if not os.path.isfile("/usr/share/autostart/spun.desktop"):
+                self.__class__.screenSettings["hasChanged"] = True
+
+        else:
+            # don't care if this fails
+            os.system("killall spun")
+
+            if os.path.isfile("/usr/share/autostart/spun.desktop"):
+                self.__class__.screenSettings["hasChanged"] = True
+
+
     def shown(self):
         pass
 
@@ -94,11 +109,12 @@ class PMConfig(Config):
     def __init__(self):
         Config.__init__(self, "package-managerrc")
 
-    def setSystemTray(self, enabled):
-        self.setValue("SystemTray", enabled)
-
     def setUpdateCheck(self, enabled):
         self.setValue("UpdateCheck", enabled)
 
     def setUpdateCheckInterval(self, value):
         self.setValue("UpdateCheckInterval", value)
+
+    #def setAudio(self, enabled):
+    #    self.setValue("SetAudio", enabled)
+    # TODO: Find out what this ^ is for...

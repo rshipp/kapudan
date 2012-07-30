@@ -71,7 +71,7 @@ class Widget(QtGui.QWidget, Screen):
                 thumbFolder = os.listdir(os.path.join(os.path.split(str(desktopFiles))[0], "content"))
 
             """
-            Appearantly the thumbnail names doesn't have a standart.
+            Appearantly the thumbnail names doesn't have a standard.
             So we get the file list from the contents folder and
             choose the file which has a name that starts with "scre".
 

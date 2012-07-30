@@ -30,6 +30,7 @@ import kapudan.screens.scrMouse as mouseWidget
 import kapudan.screens.scrStyle as styleWidget
 import kapudan.screens.scrMenu as menuWidget
 import kapudan.screens.scrAvatar as avatarWidget
+import kapudan.screens.scrPackage as packageWidget
 
 from kapudan.tools import tools
 
@@ -48,6 +49,7 @@ class Widget(QtGui.QWidget, Screen):
         self.menuSettings = menuWidget.Widget.screenSettings
         self.styleSettings = styleWidget.Widget.screenSettings
         self.avatarSettings = avatarWidget.Widget.screenSettings
+        self.packageSettings = packageWidget.Widget.screenSettings
 
         subject = "<p><li><b>%s</b></li><ul>"
         item    = "<li>%s</li>"
@@ -83,6 +85,13 @@ class Widget(QtGui.QWidget, Screen):
             content.append(item % ki18n("You haven't selected any style.").toString())
         else:
             content.append(item % ki18n("Selected Style: <b>%s</b>").toString() % unicode(self.styleSettings["summaryMessage"]))
+
+        content.append(end)
+
+        # Spun Settings
+        if self.packageSettings["hasChanged"]:
+            content.append(subject % ki18n("Package Management Settings").toString())
+            content.append(item % ki18n("You have enabled or disabled spun.").toString()) 
 
         content.append(end)
         
@@ -310,3 +319,10 @@ class Widget(QtGui.QWidget, Screen):
             self.killPlasma()
 
         return True
+
+# Enable/Disable Spun in KDE startup
+def disableSpun():
+    os.system("kdesu konsole -e spun-autostart disable")
+
+def enableSpun():
+    os.system("kdesu konsole -e spun-autostart enable")

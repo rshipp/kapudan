@@ -10,19 +10,27 @@ Legend:
 TODO:
 / Fork everything. (Change paths, etc.)
 / Fix package management page, use spun (enable/disable audio
-       notifications; fix config stuff to work with .spunrc)
-/ Fix Themes/Style page, add screenshots for Ronak and Ronak-light, as well as
-       any others included on the livecd by default
+        notifications; fix config stuff to work with .spunrc)
+        Still incomplete: disable spun at startup
+? Fix Themes/Style page, add screenshots for Caledonia as well as
+        any others included on the livecd by default
+        Still imcomplete: 
 - Add all new screens to scrSummary as we go
 - Add page for choosing services to add to rc.conf, like cups, bluetooth
-       (have a few default options, and a button to open rcconf_settings)
+        (have a few default options, and a button to open rcconf_settings)
+        Still incomplete: rc daemons editong module for python
+        Unless systemd is ready, then it will be easy.
 - Add page for creating folders in $HOME (Pictures, Documents, Music,
-       Downloads, Videos, custom; if a dir already exists, hide option)
-- Create custom Chakra/Kapudan artwork to replace the Kaptan logos
-- Add page for choosing KDM theme, with ronak/ronak light/others
+        Downloads, Videos, custom; if a dir already exists, hide option)
+/ Create custom Chakra/Kapudan artwork to replace the Kaptan logos
+        In progress by artists???
+- Add page for choosing KDM theme, with whatever the current theme is
 - Add workspace chooser - Desktop, Netbook, Active
 - Fix livecd-detection function (disable spun page, avatar, others on livecd)
-- Add icon-choosing back, in seperate branch for Claire
+? Add icon-choosing back, in seperate branch for Caledonia/Oxygen
 - Add security page- set up ufw, clamav, etc
-- Fix Search page, have it actually configure akonadi/nepomuk, add other
-       options if possible
+? Fix Search page, have it actually configure akonadi/nepomuk, add other
+        options if possible
+
+FIX KNOWN BUGS:
+
