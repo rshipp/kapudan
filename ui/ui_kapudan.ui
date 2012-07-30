@@ -215,7 +215,7 @@ border-bottom: 1px solid rgba(0,0,0,10)</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap resource="../data/kapudan.qrc">:/raw/pixmap/kapudan-logo.png</pixmap>
+           <pixmap>:/raw/pixmap/kapudan-logo.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
