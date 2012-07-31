@@ -32,6 +32,7 @@ import kapudan.screens.scrMenu as menuWidget
 import kapudan.screens.scrAvatar as avatarWidget
 import kapudan.screens.scrPackage as packageWidget
 import kapudan.screens.scrServices as servicesWidget
+import kapudan.screens.scrSecurity as securityWidget
 
 from kapudan.tools import tools
 from kapudan.tools.spunrc import SpunRC
@@ -54,6 +55,7 @@ class Widget(QtGui.QWidget, Screen):
         self.avatarSettings = avatarWidget.Widget.screenSettings
         self.packageSettings = packageWidget.Widget.screenSettings
         self.servicesSettings = servicesWidget.Widget.screenSettings
+        self.securitySettings = securityWidget.Widget.screenSettings
 
         subject = "<p><li><b>%s</b></li><ul>"
         item    = "<li>%s</li>"
@@ -102,22 +104,56 @@ class Widget(QtGui.QWidget, Screen):
         # Services Settings
         if self.servicesSettings["hasChanged"]:
             self.rcdaemon = RCDaemon()
-            self.rctext = "You have: "
+            self.svctext = ki18n("You have: ").toString()
+            self.svcissset = False
             content.append(subject % ki18n("Services Settings").toString())
 
             if self.servicesSettings["enableCups"] and not self.rcdaemon.isEnabled("cups"):
-                self.rctext += "enabled cups; "
+                self.svctext += ki18n("enabled cups; ").toString()
+                self.svcisset = True
             elif not self.servicesSettings["enableCups"] and self.rcdaemon.isEnabled("cups"):
-                self.rctext += "disabled cups; "
+                self.svctext += ki18n("disabled cups; ").toString()
+                self.svcisset = True
             if self.servicesSettings["enableBluetooth"] and not self.rcdaemon.isEnabled("bluetooth"):
-                self.rctext += "enabled bluetooth; "
+                self.svctext += ki18n("enabled bluetooth; ").toString()
+                self.svcisset = True
             elif not self.servicesSettings["enableBluetooth"] and self.rcdaemon.isEnabled("bluetooth"):
-                self.rctext += "disabled bluetooth; "
+                self.svctext += ki18n("disabled bluetooth; ").toString()
+                self.svcisset = True
 
-            if self.rctext == "You have: ":
-                self.rctext = "You have made no changes."
+            if not self.svcisset:
+                self.svctext = ki18n("You have made no changes.").toString()
+                self.servicesSettings["hasChanged"] = False
 
-            content.append(item % ki18n(self.rctext).toString())
+            content.append(item % ki18n(self.svctext).toString())
+
+            content.append(end)
+
+        # Security Settings
+        if self.securitySettings["hasChanged"]:
+            self.rcdaemon = RCDaemon()
+            self.sectext = ki18n("You have: ").toString()
+            self.secisset = False
+            content.append(subject % ki18n("Security Settings").toString())
+
+            if self.securitySettings["enableClam"] and not self.rcdaemon.isEnabled("clamav"):
+                self.sectext += ki18n("enabled ClamAV; ").toString()
+                self.secisset = True
+            elif not self.securitySettings["enableClam"] and self.rcdaemon.isEnabled("ufw"):
+                self.sectext += ki18n("disabled ClamAV; ").toString()
+                self.secisset = True
+            if self.securitySettings["enableFire"] and not self.rcdaemon.isEnabled("clamav"):
+                self.sectext += ki18n("enabled the firewall; ").toString()
+                self.secisset = True
+            elif not self.securitySettings["enableFire"] and self.rcdaemon.isEnabled("ufw"):
+                self.sectext += ki18n("disabled the firewall; ").toString()
+                self.secisset = True
+
+            if not self.secisset:
+                self.sectext = ki18n("You have made no changes.").toString()
+                self.securitySettings["hasChanged"] = False
+
+            content.append(item % ki18n(self.sectext).toString())
 
             content.append(end)
 
@@ -351,7 +387,7 @@ class Widget(QtGui.QWidget, Screen):
                 rootActions += "enable_spun "
 
         # Services Settings
-        if self.servicesSettings["hasChanged"] and not self.rctext == "You have made no changes.":
+        if self.servicesSettings["hasChanged"]:
             if self.servicesSettings["enableCups"] and not self.rcdaemon.isEnabled("cups"):
                 rootActions += "enable_cups "
             elif not self.servicesSettings["enableCups"] and self.rcdaemon.isEnabled("cups"):
@@ -360,6 +396,18 @@ class Widget(QtGui.QWidget, Screen):
                 rootActions += "enable_blue "
             elif not self.servicesSettings["enableBluetooth"] and self.rcdaemon.isEnabled("bluetooth"):
                 rootActions += "disable_blue "
+
+        # Security Settings
+        if self.securitySettings["hasChanged"]:
+            if self.securitySettings["enableClam"] and not self.rcdaemon.isEnabled("clamav"):
+                rootActions += "enable_clam "
+            elif not self.securitySettings["enableClam"] and self.rcdaemon.isEnabled("clamav"):
+                rootActions += "disable_clam "
+            if self.securitySettings["enableFire"] and not self.rcdaemon.isEnabled("ufw"):
+                rootActions += "enable_fire "
+            elif not self.securitySettings["enableFire"] and self.rcdaemon.isEnabled("ufw"):
+                rootActions += "disable_fire "
+ 
 
         if hasChanged:
             self.killPlasma()

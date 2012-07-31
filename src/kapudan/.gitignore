@@ -1,0 +1,9 @@
+*~
+*.pyc
+*.old.png
+*.png.old
+*kaptan*
+*.e4p
+__init__.py
+.eric4project/*
+.ropeproject

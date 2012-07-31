@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Kapudan
+Comment=Allows new users to configure various aspects of the system
+Exec=/usr/bin/kapudan
+Icon=kapudan
+Terminal=false
+Encoding=UTF-8
+Type=Application
+Categories=KDE;System
+GenericName=Desktop Greeter
