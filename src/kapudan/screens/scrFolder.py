@@ -36,17 +36,30 @@ class Widget(QtGui.QWidget, Screen):
         self.ui.setupUi(self)
 
         # read default settings
-        self.download_path  = os.path.expanduser("~/Downloads")
-        self.documents_path = os.path.expanduser("~/Documents")
-        self.video_path     = os.path.expanduser("~/Video")
-        self.music_path     = os.path.expanduser("~/Music")
-        self.image_path     = os.path.expanduser("~/Images")
+        self.folder_paths = dict()
+        self.folder_paths["download"]  = os.path.expanduser("~/Downloads")
+        self.folder_paths["documents"] = os.path.expanduser("~/Documents")
+        self.folder_paths["video"]     = os.path.expanduser("~/Video")
+        self.folder_paths["music"]     = os.path.expanduser("~/Music")
+        self.folder_paths["image"]     = os.path.expanduser("~/Images")
 
-        self.download  = os.path.isdir(self.download_path)
-        self.documents = os.path.isdir(self.download_path)
-        self.video     = os.path.isdir(self.download_path)
-        self.music     = os.path.isdir(self.download_path)
-        self.image     = os.path.isdir(self.download_path)
+        self.folder = dict()
+        self.folder["download"]  = os.path.isdir(self.folder_paths["download"])
+        self.folder["documents"] = os.path.isdir(self.folder_paths["documents"])
+        self.folder["video"]     = os.path.isdir(self.folder_paths["video"])
+        self.folder["music"]     = os.path.isdir(self.folder_paths["music"])
+        self.folder["image"]     = os.path.isdir(self.folder_paths["image"])
+
+        self.folder2button = dict()
+        self.folder2button["download"]  = self.ui.downloadFolderButton
+        self.folder2button["documents"] = self.ui.documentsFolderButton
+        self.folder2button["video"]     = self.ui.videoFolderButton
+        self.folder2button["music"]     = self.ui.musicFolderButton
+        self.folder2button["image"]     = self.ui.imageFolderButton
+
+        for key, value in self.folder.iteritems():
+            if value:
+                self.folder2button[key].setChecked()
 
         # set signals
         self.connect(self.ui.documentsFolderButton, SIGNAL("toggled(bool)"), self.addFolder)
@@ -56,11 +69,11 @@ class Widget(QtGui.QWidget, Screen):
         self.connect(self.ui.videoFolderButton, SIGNAL("toggled(bool)"), self.addFolder)
 
     def addFolder(self, item):
-        self.download  = self.ui.downloadFolderButton.isChecked()
-        self.image     = self.ui.imageFolderButton.isChecked()
-        self.documents = self.ui.documentsFolderButton.isChecked()
-        self.music     = self.ui.musicFolderButton.isChecked()
-        self.video     = self.ui.videoFolderButton.isChecked()
+        self.folder["download"]  = self.ui.downloadFolderButton.isChecked()
+        self.folder["documents"] = self.ui.documentsFolderButton.isChecked()
+        self.folder["video"]     = self.ui.imageFolderButton.isChecked()
+        self.folder["music"]     = self.ui.musicFolderButton.isChecked()
+        self.folder["image"]     = self.ui.videoFolderButton.isChecked()
 
     def shown(self):
         pass
@@ -68,7 +81,7 @@ class Widget(QtGui.QWidget, Screen):
     def execute(self):
         #self.__class__.screenSettings["summaryMessage"] = {}
 
-        #self.__class__.screenSettings["summaryMessage"].update({"selectedMouse": ki18n("Left Handed") if self.__class__.screenSettings["selectedMouse"] == "LeftHanded" else ki18n("Right Handed")})
-        #self.__class__.screenSettings["summaryMessage"].update({"clickBehavior": ki18n("Single Click ") if self.clickBehavior else ki18n("Double Click")})
-
+        for key, value in self.folder.iteritems():
+            if value:
+                os.mkdir(self.folder_paths[key])
         return True
