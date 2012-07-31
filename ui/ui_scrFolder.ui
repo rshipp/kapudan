@@ -19,11 +19,11 @@
      <x>50</x>
      <y>10</y>
      <width>471</width>
-     <height>71</height>
+     <height>111</height>
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default Chakra doesn't create any special folders in the user's home directory, as we believe that this would be a violation of the KISS principle. However, in this screen we give you the ability to create the most commonly used folders, as well as custom folders.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;By default Chakra doesn't create any special folders in the user's home directory, as Chakra leaves these kind of choices up to the user. However, in this screen we give you the ability to create the most commonly used folders, as well as custom folders.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
    <property name="wordWrap">
     <bool>true</bool>
@@ -32,8 +32,8 @@
   <widget class="QWidget" name="horizontalLayoutWidget">
    <property name="geometry">
     <rect>
-     <x>27</x>
-     <y>100</y>
+     <x>20</x>
+     <y>130</y>
      <width>511</width>
      <height>171</height>
     </rect>
@@ -45,7 +45,9 @@
        <string>Download Folder</string>
       </property>
       <property name="icon">
-       <iconset theme="folder-downloads"/>
+       <iconset theme="folder-downloads">
+        <normaloff/>
+       </iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -64,7 +66,9 @@
        <string>Document Folder</string>
       </property>
       <property name="icon">
-       <iconset theme="folder-documents"/>
+       <iconset theme="folder-documents">
+        <normaloff/>
+       </iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -83,7 +87,9 @@
        <string>Video Folder</string>
       </property>
       <property name="icon">
-       <iconset theme="folder-video"/>
+       <iconset theme="folder-video">
+        <normaloff/>
+       </iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -102,7 +108,9 @@
        <string>Music Folder</string>
       </property>
       <property name="icon">
-       <iconset theme="folder-sound"/>
+       <iconset theme="folder-sound">
+        <normaloff/>
+       </iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -121,7 +129,9 @@
        <string>Image Folder</string>
       </property>
       <property name="icon">
-       <iconset theme="folder-image"/>
+       <iconset theme="folder-image">
+        <normaloff/>
+       </iconset>
       </property>
       <property name="iconSize">
        <size>
