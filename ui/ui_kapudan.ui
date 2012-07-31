@@ -196,7 +196,7 @@ color:rgb(240, 240, 240)</string>
          <widget class="QLabel" name="label_4">
           <property name="maximumSize">
            <size>
-            <width>90</width>
+            <width>129</width>
             <height>50</height>
            </size>
           </property>
@@ -204,7 +204,7 @@ color:rgb(240, 240, 240)</string>
            <bool>false</bool>
           </property>
           <property name="styleSheet">
-           <string notr="true">padding: 13px 15px 13px 15px;
+           <string notr="true">padding: 10px 0px 10px 0px; /*13px 15px 13px 15px;*/
 border:0px;
     background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 rgba(132, 132, 132, 255), stop:0.501481 rgba(70, 70, 70, 255), stop:0.503057 rgba(62, 62, 62, 255), stop:1 rgba(16, 16, 16, 255));
 border-bottom: 1px solid rgba(0,0,0,10)</string>
@@ -563,6 +563,19 @@ QPushButton::flat:pressed{
            </property>
           </widget>
          </item>
+         <item row="0" column="1">
+          <spacer name="horizontalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
          <item row="0" column="4">
           <widget class="QPushButton" name="buttonNext">
            <property name="layoutDirection">
@@ -597,19 +610,6 @@ QPushButton::flat:pressed{
             <bool>true</bool>
            </property>
           </widget>
-         </item>
-         <item row="0" column="1">
-          <spacer name="horizontalSpacer_3">
-           <property name="orientation">
-            <enum>Qt::Horizontal</enum>
-           </property>
-           <property name="sizeHint" stdset="0">
-            <size>
-             <width>40</width>
-             <height>20</height>
-            </size>
-           </property>
-          </spacer>
          </item>
          <item row="0" column="6">
           <widget class="QPushButton" name="buttonFinish">
@@ -646,7 +646,7 @@ QPushButton::flat:pressed{
             <enum>Qt::RightToLeft</enum>
            </property>
            <property name="text">
-            <string>Apply Settings</string>
+            <string>Apply</string>
            </property>
            <property name="icon">
             <iconset resource="../data/kapudan.qrc">
