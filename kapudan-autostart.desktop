@@ -1,0 +1,12 @@
+[Desktop Entry]
+Exec=kapudan
+Icon=kapudan
+Type=Application
+Terminal=false
+X-KDE-autostart-after=panel
+X-KDE-StartupNotify=false
+X-DBUS-StartupType=Unique
+X-KDE-UniqueApplet=true
+Categories=KDE;System;
+Name=Kapudan
+GenericName=Desktop Greeter

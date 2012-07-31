@@ -21,7 +21,7 @@ from PyKDE4.kdecore import KAboutData, ki18n
 appName     = "kapudan"
 programName = ki18n("Kapudan")
 modName     = "kapudan"
-version     = "0.0.1"
+version     = "0.2"
 description = ki18n("Kapudan")
 license     = KAboutData.License_GPL
 copyright   = ki18n("(c) 2012 The Chakra Develpers")

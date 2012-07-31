@@ -6,7 +6,7 @@ import os
 class RCDaemon():
 
     def isEnabled(self, daemon):
-        state = os.system("grep -q ^DAEMONS=\( /etc/rc.conf | grep -q \"[( ]" + daemon + "[ )]\"")
+        state = os.system("grep ^DAEMONS=\( /etc/rc.conf | grep -q \"[( @]" + daemon + "[ )]\"")
         if state == 0:
             return True
         else:
