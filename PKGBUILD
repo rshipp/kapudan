@@ -16,7 +16,8 @@ depends=('python2' 'kde-baseapps-konsole' 'kde-runtime'
          'kdebindings-pykde4' 'pyqt' 'python2-xlib'
          'python2-v4l2capture' 'python-imaging')
 makedepends=('python-distribute' 'git')
-optdepends=('spun: update notifications')
+optdepends=('spun: update notifications'
+            'clamav: for the security page')
 source=("${pkgname}-${pkgver}.tar.xz")
 md5sums=('32ebd1d801e5ab2fe5f6196718507735')
 
@@ -24,6 +25,7 @@ mksource() {
     git clone git://gitorious.org/chakra/${pkgname}.git ${pkgname}
     pushd ${pkgname}
     popd
+    rm ${pkgname}/PKGBUILD
     tar -cvJf ${pkgname}-${pkgver}.tar.xz ${pkgname}
     md5sum ${pkgname}-${pkgver}.tar.xz
 }
