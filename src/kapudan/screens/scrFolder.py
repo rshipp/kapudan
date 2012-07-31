@@ -27,7 +27,7 @@ class Widget(QtGui.QWidget, Screen):
     screenSettings["hasChanged"] = False
 
     # title and description at the top of the dialog window
-    title = ki18n("Folder")
+    title = ki18n("Folders")
     desc = ki18n("Create folders in the home directory")
 
     def __init__(self, *args):
@@ -39,7 +39,7 @@ class Widget(QtGui.QWidget, Screen):
         self.folder_paths = dict()
         self.folder_paths["download"]  = os.path.expanduser("~/Downloads")
         self.folder_paths["documents"] = os.path.expanduser("~/Documents")
-        self.folder_paths["video"]     = os.path.expanduser("~/Video")
+        self.folder_paths["video"]     = os.path.expanduser("~/Videos")
         self.folder_paths["music"]     = os.path.expanduser("~/Music")
         self.folder_paths["image"]     = os.path.expanduser("~/Images")
 
