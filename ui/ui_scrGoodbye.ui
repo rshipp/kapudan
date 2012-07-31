@@ -109,7 +109,7 @@
           <widget class="QLabel" name="label_3">
            <property name="font">
             <font>
-             <family>URW Gothic L</family>
+             <family>DejaVu Sans</family>
              <pointsize>9</pointsize>
              <weight>75</weight>
              <bold>true</bold>
@@ -292,7 +292,7 @@ border-bottom-right-radius: 4px;
           <widget class="QLabel" name="label_4">
            <property name="font">
             <font>
-             <family>URW Gothic L</family>
+             <family>DejaVu Sans</family>
              <pointsize>9</pointsize>
              <weight>75</weight>
              <bold>true</bold>
@@ -467,7 +467,7 @@ border-bottom-right-radius: 4px;
           <widget class="QLabel" name="label_5">
            <property name="font">
             <font>
-             <family>URW Gothic L</family>
+             <family>DejaVu Sans</family>
              <pointsize>9</pointsize>
              <weight>75</weight>
              <bold>true</bold>

@@ -81,6 +81,7 @@ class Kapudan(QtGui.QWidget):
         otherScreens = list((set(allScreens) - set(headScreens)) - set(tailScreens))
         otherScreens.remove(scrKeyboard)
         otherScreens.remove(scrPackage)
+        otherScreens.remove(scrServices)
 
         screens.extend(headScreens)
         screens.extend(otherScreens)
@@ -90,6 +91,8 @@ class Kapudan(QtGui.QWidget):
         spun = SpunRC()
         if spun.isInstalled():
             screens.append(scrPackage)
+
+        screens.append(scrServices)
 
         screens.extend(tailScreens)
 
@@ -216,7 +219,7 @@ if __name__ == "__main__":
     appName     = "kapudan"
     catalog     = ""
     programName = ki18n("kapudan")
-    version     = "0.0.1"
+    version     = "0.1"
     description = ki18n("Kapudan lets you configure your Chakra workspace at first login")
     license     = KAboutData.License_GPL
     copyright   = ki18n("(c) 2012 The Chakra Developers")

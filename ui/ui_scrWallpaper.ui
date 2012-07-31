@@ -98,7 +98,7 @@
       <widget class="QLabel" name="label">
        <property name="font">
         <font>
-         <family>URW Gothic L</family>
+         <family>DejaVu Sans</family>
          <pointsize>9</pointsize>
          <weight>75</weight>
          <bold>true</bold>

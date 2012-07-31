@@ -5,13 +5,13 @@ import os
 
 class RCDaemon():
 
-    def isEnabled(daemon):
-        state = os.system("grep ^DAEMONS=\( /etc/rc.conf | grep \"[( ]" + daemon + "[ )]\"")
-        if state = 0:
+    def isEnabled(self, daemon):
+        state = os.system("grep -q ^DAEMONS=\( /etc/rc.conf | grep -q \"[( ]" + daemon + "[ )]\"")
+        if state == 0:
             return True
         else:
             return False
 
-    def isInstalled(daemon):
+    def isInstalled(self, daemon):
         return os.path.isfile("/etc/rc.d/" + daemon)
 

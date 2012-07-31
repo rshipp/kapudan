@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>packageWidget</class>
- <widget class="QWidget" name="packageWidget">
+ <class>servicesWidget</class>
+ <widget class="QWidget" name="servicesWidget">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Packages</string>
+   <string>Services</string>
   </property>
   <property name="styleSheet">
    <string notr="true"/>
@@ -60,55 +60,7 @@ border-bottom-right-radius: 4px;
          <number>10</number>
         </property>
         <item>
-         <layout class="QHBoxLayout" name="horizontalLayout">
-          <item>
-           <widget class="QCheckBox" name="checkUpdate">
-            <property name="font">
-             <font>
-              <family>Sans Serif</family>
-              <pointsize>9</pointsize>
-             </font>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">color: rgb(30, 43, 51)</string>
-            </property>
-            <property name="text">
-             <string>Check for updates automatically every</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QSpinBox" name="updateInterval">
-            <property name="enabled">
-             <bool>false</bool>
-            </property>
-            <property name="font">
-             <font>
-              <family>Sans Serif</family>
-              <pointsize>10</pointsize>
-             </font>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">color: rgb(30, 43, 51)</string>
-            </property>
-            <property name="suffix">
-             <string> minutes</string>
-            </property>
-            <property name="minimum">
-             <number>5</number>
-            </property>
-            <property name="maximum">
-             <number>10080</number>
-            </property>
-            <property name="value">
-             <number>30</number>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </item>
-        <item>
-         <widget class="QCheckBox" name="playAudio">
+         <widget class="QCheckBox" name="enableCups">
           <property name="font">
            <font>
             <family>Sans Serif</family>
@@ -119,7 +71,23 @@ border-bottom-right-radius: 4px;
            <string notr="true">color: rgb(30, 43, 51)</string>
           </property>
           <property name="text">
-           <string>Use audio along with the visual notification</string>
+           <string>cups: The Common Unix Printing Service</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="enableBluetooth">
+          <property name="font">
+           <font>
+            <family>Sans Serif</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(30, 43, 51)</string>
+          </property>
+          <property name="text">
+           <string>bluetooth: Enable Bluetooth communication</string>
           </property>
          </widget>
         </item>
@@ -157,7 +125,7 @@ border-bottom-right-radius: 4px;
         <string/>
        </property>
        <property name="pixmap">
-        <pixmap resource="../data/kapudan.qrc">:/raw/pixmap/applications-other.png</pixmap>
+        <pixmap resource="../data/kapudan.qrc">:/raw/pixmap/preferences-services.png</pixmap>
        </property>
       </widget>
      </item>
@@ -182,7 +150,7 @@ border-bottom-right-radius: 4px;
         <enum>QFrame::Raised</enum>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To install and remove programs on Chakra, use the command-line program, &lt;a href=&quot;http://chakra-linux.org/wiki/index.php/Pacman&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;pacman&lt;/span&gt;&lt;/a&gt;. You can run &lt;span style=&quot; font-weight:600;&quot;&gt;sudo pacman -Syu&lt;/span&gt; to update, &lt;span style=&quot; font-weight:600;&quot;&gt;pacman -Ss &lt;/span&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;keyword&lt;/span&gt; to search through the repos, and &lt;span style=&quot; font-weight:600;&quot;&gt;sudo pacman -S &lt;/span&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;package&lt;/span&gt; to install packages.&lt;/p&gt;&lt;p&gt;Pacman does not have any sort of graphical interface, so another small app, spun, was created to provide update notifications. When updates are available, spun will show a notification in your system tray. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, new installations of Chakra have only a bare minimum of required services (also called &amp;quot;daemons&amp;quot;) enabled. Not only does this reflect Chakra's principle of not making decisions for its users, it also adds to a new installation's security, by decreasing the number of active services that might be vulnerable to an attack.&lt;/p&gt;&lt;p&gt;If you wish, you can use the options below to tell some of the more widely used daemons to start automatically at boot time. To enable or disable any service you would like to start on bootup, you can run &lt;span style=&quot; font-weight:600;&quot;&gt;kdesu kate /etc/rc.conf&lt;/span&gt; and add new services to the &lt;span style=&quot; font-style:italic;&quot;&gt;DAEMONS&lt;/span&gt; line. Or, if you just want to start daemons manually, try &lt;span style=&quot; font-weight:600;&quot;&gt;sudo rc.d start &lt;/span&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;daemon-name&lt;/span&gt;. (Eg, &lt;span style=&quot; font-weight:600;&quot;&gt;sudo rc.d start cups&lt;/span&gt;).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="wordWrap">
         <bool>true</bool>
@@ -230,7 +198,7 @@ border-bottom-right-radius: 4px;
     <widget class="QLabel" name="label">
      <property name="font">
       <font>
-       <family>DejaVu Sans</family>
+       <family>URW Gothic L</family>
        <pointsize>9</pointsize>
        <weight>75</weight>
        <bold>true</bold>
@@ -245,7 +213,7 @@ border-top-left-radius: 4px;
 border-top-right-radius: 4px;</string>
      </property>
      <property name="text">
-      <string>Updates</string>
+      <string>Daemons to start at boot time</string>
      </property>
      <property name="margin">
       <number>5</number>

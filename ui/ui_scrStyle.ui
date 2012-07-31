@@ -12,7 +12,7 @@
   </property>
   <property name="font">
    <font>
-    <family>URW Gothic L</family>
+    <family>DejaVu Sans</family>
     <pointsize>11</pointsize>
    </font>
   </property>
@@ -108,7 +108,7 @@
       <widget class="QLabel" name="label">
        <property name="font">
         <font>
-         <family>URW Gothic L</family>
+         <family>DejaVu Sans</family>
          <pointsize>9</pointsize>
          <weight>75</weight>
          <bold>true</bold>
@@ -144,7 +144,7 @@ border-top-right-radius: 4px;</string>
        </property>
        <property name="font">
         <font>
-         <family>URW Gothic L</family>
+         <family>DejaVu Sans</family>
          <pointsize>8</pointsize>
          <weight>50</weight>
          <bold>false</bold>
