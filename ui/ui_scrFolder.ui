@@ -13,30 +13,132 @@
   <property name="windowTitle">
    <string>Home Folder</string>
   </property>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QLabel" name="description">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>322</y>
-     <width>111</width>
-     <height>41</height>
+     <x>50</x>
+     <y>10</y>
+     <width>471</width>
+     <height>71</height>
     </rect>
    </property>
    <property name="text">
-    <string>add custom folder</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default Chakra doesn't create any special folders in the user's home directory, as we believe that this would be a violation of the KISS principle. However, in this screen we give you the ability to create the most commonly used folders, as well as custom folders.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
    </property>
   </widget>
-  <widget class="QLineEdit" name="folderName">
+  <widget class="QWidget" name="horizontalLayoutWidget">
    <property name="geometry">
     <rect>
-     <x>150</x>
-     <y>330</y>
-     <width>113</width>
-     <height>22</height>
+     <x>27</x>
+     <y>100</y>
+     <width>511</width>
+     <height>171</height>
     </rect>
    </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QToolButton" name="downloadFolderButon">
+      <property name="text">
+       <string>Download Folder</string>
+      </property>
+      <property name="icon">
+       <iconset theme="folder-downloads"/>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>64</width>
+        <height>64</height>
+       </size>
+      </property>
+      <property name="toolButtonStyle">
+       <enum>Qt::ToolButtonTextUnderIcon</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QToolButton" name="documentsFolderButton">
+      <property name="text">
+       <string>Document Folder</string>
+      </property>
+      <property name="icon">
+       <iconset theme="folder-documents"/>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>64</width>
+        <height>64</height>
+       </size>
+      </property>
+      <property name="toolButtonStyle">
+       <enum>Qt::ToolButtonTextUnderIcon</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QToolButton" name="videoFolderButton">
+      <property name="text">
+       <string>Video Folder</string>
+      </property>
+      <property name="icon">
+       <iconset theme="folder-video"/>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>64</width>
+        <height>64</height>
+       </size>
+      </property>
+      <property name="toolButtonStyle">
+       <enum>Qt::ToolButtonTextUnderIcon</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QToolButton" name="musicFolderButton">
+      <property name="text">
+       <string>Music Folder</string>
+      </property>
+      <property name="icon">
+       <iconset theme="folder-sound"/>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>64</width>
+        <height>64</height>
+       </size>
+      </property>
+      <property name="toolButtonStyle">
+       <enum>Qt::ToolButtonTextUnderIcon</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QToolButton" name="imageFolderButton">
+      <property name="text">
+       <string>Image Folder</string>
+      </property>
+      <property name="icon">
+       <iconset theme="folder-image"/>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>64</width>
+        <height>64</height>
+       </size>
+      </property>
+      <property name="toolButtonStyle">
+       <enum>Qt::ToolButtonTextUnderIcon</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="../data/kapudan.qrc"/>
+ </resources>
  <connections/>
 </ui>
