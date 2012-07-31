@@ -139,10 +139,10 @@ class Widget(QtGui.QWidget, Screen):
             if self.securitySettings["enableClam"] and not self.rcdaemon.isEnabled("clamav"):
                 self.sectext += ki18n("enabled ClamAV; ").toString()
                 self.secisset = True
-            elif not self.securitySettings["enableClam"] and self.rcdaemon.isEnabled("ufw"):
+            elif not self.securitySettings["enableClam"] and self.rcdaemon.isEnabled("clamav"):
                 self.sectext += ki18n("disabled ClamAV; ").toString()
                 self.secisset = True
-            if self.securitySettings["enableFire"] and not self.rcdaemon.isEnabled("clamav"):
+            if self.securitySettings["enableFire"] and not self.rcdaemon.isEnabled("ufw"):
                 self.sectext += ki18n("enabled the firewall; ").toString()
                 self.secisset = True
             elif not self.securitySettings["enableFire"] and self.rcdaemon.isEnabled("ufw"):

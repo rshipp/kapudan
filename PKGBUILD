@@ -18,7 +18,7 @@ depends=('python2' 'kde-baseapps-konsole' 'kde-runtime'
 makedepends=('python-distribute' 'git')
 optdepends=('spun: update notifications')
 source=("${pkgname}-${pkgver}.tar.xz")
-md5sums=('fad4c9a4707d509be1fe334a04043fdc')
+md5sums=('32ebd1d801e5ab2fe5f6196718507735')
 
 mksource() {
     git clone git://gitorious.org/chakra/${pkgname}.git ${pkgname}
@@ -31,7 +31,7 @@ mksource() {
 package() {
     cd "${srcdir}/${pkgname}"
     python2 setup.py install --root="${pkgdir}" #--prefix="/usr"
-    install -Dm755 kapudan-rootactions "${pkgdir}/usr/bin/"
-    install -Dm755 kapudan.desktop "${pkgdir}/usr/share/applications/"
+    install -Dm755 kapudan-rootactions "${pkgdir}/usr/bin/kapudan-rootactions"
+    install -Dm755 kapudan.desktop "${pkgdir}/usr/share/applications/kapudan.desktop"
     install -Dm755 data/kapudan.svgz "${pkgdir}/usr/share/icons/hicolor/scalable/apps/kapudan.svgz"
 }
