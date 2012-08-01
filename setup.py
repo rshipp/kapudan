@@ -93,7 +93,7 @@ class Build(build):
             if not "ui_scrFolder" in filename:
                 os.system("pykdeuic4 -o build/kapudan/screens/%s.py ui/%s" % (filename.split(".")[0], filename))
             else:
-                shutil.move("ui/ui_scrFolder.py", "build/kapudan/screens/ui_scrFolder.py")
+                shutil.copy("ui/ui_scrFolder.py", "build/kapudan/screens/ui_scrFolder.py")
         print "Generating RCs..."
         for filename in glob.glob1("data", "*.qrc"):
             os.system("pyrcc4 data/%s -o build/kapudan/%s_rc.py" % (filename, filename.split(".")[0]))
