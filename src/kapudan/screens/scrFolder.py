@@ -71,7 +71,7 @@ class Widget(QtGui.QWidget, Screen):
     def addFolder(self, item):
         self.folder["download"]  = self.ui.downloadFolderButton.isChecked()
         self.folder["documents"] = self.ui.documentsFolderButton.isChecked()
-        self.folder["video"]     = self.ui.videFolderButton.isChecked()
+        self.folder["video"]     = self.ui.videoFolderButton.isChecked()
         self.folder["music"]     = self.ui.musicFolderButton.isChecked()
         self.folder["image"]     = self.ui.imageFolderButton.isChecked()
 
