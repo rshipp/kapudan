@@ -79,7 +79,6 @@ class Widget(QtGui.QWidget, Screen):
         pass
 
     def execute(self):
-        #self.__class__.screenSettings["summaryMessage"] = {}
 
         for key, value in self.folder.iteritems():
             try:
@@ -97,5 +96,7 @@ class Widget(QtGui.QWidget, Screen):
                 # either the directory exists when we try to create it,
                 # or it is not empty when we try to delete it
                 pass
+
+        self.__class__.screenSettings["summaryMessage"] = "Created folders in home directory"
 
         return True
