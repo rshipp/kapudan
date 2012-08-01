@@ -59,7 +59,7 @@ class Widget(QtGui.QWidget, Screen):
 
         for key, value in self.folder.iteritems():
             if value:
-                self.folder2button[key].setChecked()
+                self.folder2button[key].setChecked(True)
 
         # set signals
         self.connect(self.ui.documentsFolderButton, SIGNAL("toggled(bool)"), self.addFolder)
@@ -82,6 +82,14 @@ class Widget(QtGui.QWidget, Screen):
         #self.__class__.screenSettings["summaryMessage"] = {}
 
         for key, value in self.folder.iteritems():
-            if value:
-                os.mkdir(self.folder_paths[key])
+            try:
+                if value:
+                    os.mkdir(self.folder_paths[key])
+                else:
+                    os.rmdir(self.folder_paths[key])
+            except OSError:
+                # either the directory exists when we try to create it,
+                # or it is not empty when we try to delete it
+                pass
+
         return True

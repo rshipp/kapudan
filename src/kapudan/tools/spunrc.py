@@ -22,7 +22,7 @@ class SpunRC():
             try:
                 shutil.copyfile(self.spunconf, self.spunrc)
                 return True
-            except shutil.Error as e:
+            except IOError as e:
                 print e
                 return False
 
