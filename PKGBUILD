@@ -4,7 +4,7 @@
 # Maintainer: george <george[at]chakra-project.org>
 
 pkgname=kapudan
-pkgver=20120731
+pkgver=20120802
 pkgrel=1
 pkgdesc="Chakra's desktop greeter, a fork of Pardus's Kaptan."
 arch=('i686' 'x86_64')
@@ -35,5 +35,10 @@ package() {
     python2 setup.py install --root="${pkgdir}" #--prefix="/usr"
     install -Dm755 kapudan-rootactions "${pkgdir}/usr/bin/kapudan-rootactions"
     install -Dm755 kapudan.desktop "${pkgdir}/usr/share/applications/kapudan.desktop"
-    install -Dm755 data/kapudan.svgz "${pkgdir}/usr/share/icons/hicolor/scalable/apps/kapudan.svgz"
+    install -Dm755 data/kapudan.svgz \
+        "${pkgdir}/usr/share/icons/hicolor/scalable/apps/kapudan.svgz"
+    install -dm755 \
+        "${pkgdir}/usr/share/kde4/apps/kapudan/kapudan/kde-themes/"
+    install -Dm755 data/kde-themes/* \
+        "${pkgdir}/usr/share/kde4/apps/kapudan/kapudan/kde-themes"
 }
