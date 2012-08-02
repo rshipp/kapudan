@@ -19,7 +19,7 @@ makedepends=('python-distribute' 'git')
 optdepends=('spun: update notifications'
             'clamav: for the security page')
 source=("${pkgname}-${pkgver}.tar.xz")
-md5sums=('32ebd1d801e5ab2fe5f6196718507735')
+md5sums=('c9bd8288f6e572c6ca1c64ebf2279921')
 
 mksource() {
     git clone git://gitorious.org/chakra/${pkgname}.git ${pkgname}
