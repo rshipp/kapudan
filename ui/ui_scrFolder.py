@@ -47,7 +47,7 @@ class Ui_folderWidget(object):
         self.groupBoxFolders.setFlat(True)
         self.groupBoxFolders.setObjectName(_fromUtf8("groupBoxFolders"))
         self.verticalLayout = QtGui.QVBoxLayout(self.groupBoxFolders)
-        self.verticalLayout.setMargin(0)
+        self.verticalLayout.setMargin(10)
         self.verticalLayout.setObjectName(_fromUtf8("verticalLayout"))
         self.horizontalLayout_3 = QtGui.QHBoxLayout()
         self.horizontalLayout_3.setObjectName(_fromUtf8("horizontalLayout_3"))
