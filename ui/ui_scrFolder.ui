@@ -45,7 +45,7 @@
         <bool>true</bool>
        </property>
        <property name="styleSheet">
-        <string notr="true">#groupBoxUpdates{
+        <string notr="true">#groupBoxFolders{
 background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:0, y2:0, stop:0 rgba(219, 219, 219, 100), stop:1 rgba(255, 255, 255, 100));
 border: 1px solid rgba(255,255,255,50);
 border-bottom-left-radius: 4px;
