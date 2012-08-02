@@ -17,7 +17,7 @@ from PyQt4 import QtGui
 from PyQt4.QtCore import *
 from PyKDE4.kdecore import ki18n, KGlobal, KConfig
 
-import subprocess, sys
+import subprocess, sys, os, shutil
 
 from kapudan.screen import Screen
 from kapudan.screens.ui_scrGoodbye import Ui_goodbyeWidget
@@ -40,6 +40,22 @@ class Widget(QtGui.QWidget, Screen):
             self.beginnersGuideUrl = "http://chakra-linux.org/wiki/index.php/Beginners_Guide/" + lang
         else:
             self.beginnersGuideUrl = "http://chakra-linux.org/wiki/index.php/Beginners_Guide"
+        
+        self.autofile = os.path.expanduser("~/.kde4/Autostart/kapudan.desktop")
+        self.gautofile = "/usr/share/kde4/apps/kapudan/kapudan/kapudan-autostart.desktop"
+
+        self.ui.autostart.setChecked(False)
+
+
+    def on_autostart_toggled(self):
+        # Remove/set autostart entry
+        if self.ui.autostart.isChecked():
+            if not os.path.isfile(self.autofile):
+                shutil.copyfile(self.gautofile, self.autofile)
+        else:
+            if os.path.isfile(self.autofile):
+                shutil.remove(self.autofile)
+
 
     def on_buttonSystemSettings_clicked(self):
         self.procSettings = QProcess()

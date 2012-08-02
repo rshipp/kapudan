@@ -41,4 +41,6 @@ package() {
         "${pkgdir}/usr/share/kde4/apps/kapudan/kapudan/kde-themes/"
     install -Dm755 data/kde-themes/* \
         "${pkgdir}/usr/share/kde4/apps/kapudan/kapudan/kde-themes"
+    install -Dm755 kapudan-autostart.desktop \
+        "${pkgdir}/usr/share/kde4/apps/kapudan/kapudan/kapudan-autostart.desktop"
 }
