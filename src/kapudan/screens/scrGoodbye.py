@@ -54,7 +54,7 @@ class Widget(QtGui.QWidget, Screen):
                 shutil.copyfile(self.gautofile, self.autofile)
         else:
             if os.path.isfile(self.autofile):
-                shutil.remove(self.autofile)
+                os.remove(self.autofile)
 
 
     def on_buttonSystemSettings_clicked(self):
