@@ -1,0 +1,12 @@
+[Style]
+name = Inversion
+
+description = A dark theme, with a panel at the top.
+
+panelPosition = 3
+widgetStyle = oxygen
+colorScheme = ZionReversed
+desktopTheme = Oxygen
+thumbnail = inversion.png
+iconTheme = oxygen
+windowDecoration = kwin3_oxygen

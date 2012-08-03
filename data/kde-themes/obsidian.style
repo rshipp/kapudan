@@ -1,14 +1,12 @@
 [Style]
 name = Obsidian
-name[tr] = Lav Taşı
 
-description = A light colored theme with a panel on bottom
-description[tr]= Paneli altta olan açık renkli bir tema
+description = A light colored theme with a dark panel on the bottom.
 
 panelPosition = 4
 widgetStyle = oxygen
 colorScheme = Norway
-desktopTheme = slim-glow
+desktopTheme = oxygen
 thumbnail = obsidian.png
 iconTheme = oxygen
 windowDecoration = kwin3_oxygen

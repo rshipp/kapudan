@@ -1,9 +1,7 @@
 [Style]
 name = KDE
-name[tr] = KDE
 
-description = A light blue and gray colored theme with a white panel on bottom
-description[tr] = Paneli beyaz ve altta olan açık mavi ve gri renkli bir tema
+description = The default light KDE4 look, with a panel on the bottom.
 
 panelPosition = 4
 widgetStyle = oxygen

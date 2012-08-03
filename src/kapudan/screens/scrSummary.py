@@ -25,6 +25,7 @@ from kapudan.screens.ui_scrSummary import Ui_summaryWidget
 from PyKDE4 import kdeui
 
 # import other widgets to get the latest configuration
+import kapudan.screens.scrFolder as folderWidget
 import kapudan.screens.scrWallpaper as wallpaperWidget
 import kapudan.screens.scrMouse as mouseWidget
 import kapudan.screens.scrStyle as styleWidget
@@ -97,10 +98,10 @@ class Widget(QtGui.QWidget, Screen):
         # Spun Settings
         if self.packageSettings["hasChanged"]:
             content.append(subject % ki18n("Package Management Settings").toString())
-            content.append(item % ki18n("You have enabled or disabled spun.").toString()) 
+            content.append(item % ki18n("You have enabled or disabled spun.").toString())
 
             content.append(end)
-        
+
         # Services Settings
         if self.servicesSettings["hasChanged"]:
             self.rcdaemon = RCDaemon()
@@ -329,9 +330,9 @@ class Widget(QtGui.QWidget, Screen):
                 configKdeGlobals.sync()
 
                 # Change Icon theme
-#                kdeui.KIconTheme.reconfigure()
-#                kdeui.KIconCache.deleteCache()
-#                deleteIconCache()
+                kdeui.KIconTheme.reconfigure()
+                kdeui.KIconCache.deleteCache()
+                deleteIconCache()
 
                 for i in range(kdeui.KIconLoader.LastGroup):
                     kdeui.KGlobalSettings.self().emitChange(kdeui.KGlobalSettings.IconChanged, i)
@@ -407,7 +408,7 @@ class Widget(QtGui.QWidget, Screen):
                 rootActions += "enable_fire "
             elif not self.securitySettings["enableFire"] and self.rcdaemon.isEnabled("ufw"):
                 rootActions += "disable_fire "
- 
+
 
         if hasChanged:
             self.killPlasma()
