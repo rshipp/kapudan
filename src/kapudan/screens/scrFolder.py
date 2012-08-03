@@ -57,6 +57,9 @@ class Widget(QtGui.QWidget, Screen):
         self.folder2button["music"]     = self.ui.musicFolderButton
         self.folder2button["image"]     = self.ui.imageFolderButton
 
+        for key in self. folder2button:
+            self.folder2button[key].setStyleSheet("QToolButton:checked {background-color: rgb(0, 128, 0);}")
+
         for key, value in self.folder.iteritems():
             if value:
                 self.folder2button[key].setChecked(True)
@@ -69,11 +72,8 @@ class Widget(QtGui.QWidget, Screen):
         self.connect(self.ui.videoFolderButton, SIGNAL("toggled(bool)"), self.addFolder)
 
     def addFolder(self, item):
-        self.folder["download"]  = self.ui.downloadFolderButton.isChecked()
-        self.folder["documents"] = self.ui.documentsFolderButton.isChecked()
-        self.folder["video"]     = self.ui.videoFolderButton.isChecked()
-        self.folder["music"]     = self.ui.musicFolderButton.isChecked()
-        self.folder["image"]     = self.ui.imageFolderButton.isChecked()
+        for key in self.folder:
+            self.folder[key]  = self.folder2button[key].isChecked()
 
     def shown(self):
         pass

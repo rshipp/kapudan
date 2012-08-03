@@ -245,7 +245,7 @@ border-bottom-right-radius: 4px;
         <enum>QFrame::Raised</enum>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default Chakra doesn't create any special folders in the user's home directory, as Chakra leaves these kind of choices up to the user. However, in this screen we give you the ability to create the most commonly used folders, as well as custom folders.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default Chakra doesn't create any special folders in the user's home directory, as Chakra leaves these kind of choices up to the user. However, in this screen we give you the ability to create the most commonly used folders.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="wordWrap">
         <bool>true</bool>
