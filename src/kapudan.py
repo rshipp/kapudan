@@ -221,7 +221,7 @@ if __name__ == "__main__":
     appName     = "kapudan"
     catalog     = ""
     programName = ki18n("kapudan")
-    version     = "0.2"
+    version     = "0.1"
     description = ki18n("Kapudan lets you configure your Chakra workspace at first login")
     license     = KAboutData.License_GPL
     copyright   = ki18n("(c) 2012 The Chakra Developers")

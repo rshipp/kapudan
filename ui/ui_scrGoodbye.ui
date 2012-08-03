@@ -645,6 +645,54 @@ border-bottom-right-radius: 4px;
         </layout>
        </item>
        <item>
+        <widget class="QGroupBox" name="groupBox_4">
+         <property name="font">
+          <font>
+           <family>Sans Serif</family>
+           <pointsize>11</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+           <underline>false</underline>
+           <strikeout>false</strikeout>
+          </font>
+         </property>
+         <property name="acceptDrops">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#groupBox_4{
+background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:0, y2:0, stop:0 rgba(219, 219, 219, 100), stop:1 rgba(255, 255, 255, 100));
+border: 1px solid rgba(255,255,255,50);
+border-radius: 4px;
+}</string>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+         <property name="checkable">
+          <bool>false</bool>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_10">
+          <property name="margin">
+           <number>10</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QCheckBox" name="autostart">
+            <property name="text">
+             <string>Run Kapudan on system startup?</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
         <spacer name="verticalSpacer">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
