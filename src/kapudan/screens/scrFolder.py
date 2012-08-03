@@ -58,7 +58,7 @@ class Widget(QtGui.QWidget, Screen):
         self.folder2button["image"]     = self.ui.imageFolderButton
 
         for key in self. folder2button:
-            self.folder2button[key].setStyleSheet("QToolButton:checked {background-color: rgb(0, 128, 0);}")
+            self.folder2button[key].setStyleSheet("QToolButton:checked {background-color: rgb(119, 183, 83);}")
 
         for key, value in self.folder.iteritems():
             if value:

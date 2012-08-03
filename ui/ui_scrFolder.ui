@@ -45,7 +45,7 @@
         <bool>true</bool>
        </property>
        <property name="styleSheet">
-        <string notr="true">#groupBoxFolders{
+        <string notr="true">#groupBoxUpdates{
 background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:0, y2:0, stop:0 rgba(219, 219, 219, 100), stop:1 rgba(255, 255, 255, 100));
 border: 1px solid rgba(255,255,255,50);
 border-bottom-left-radius: 4px;
@@ -60,7 +60,7 @@ border-bottom-right-radius: 4px;
        </property>
        <layout class="QVBoxLayout" name="verticalLayout">
         <property name="margin">
-         <number>10</number>
+         <number>0</number>
         </property>
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout_3">
@@ -71,8 +71,8 @@ border-bottom-right-radius: 4px;
             </property>
             <property name="icon">
              <iconset theme="folder-downloads">
-              <normaloff/>
-             </iconset>
+              <normaloff>../../../../.designer/backup</normaloff>
+              <normalon>:/raw/pixmap/tick.png</normalon>../../../../.designer/backup</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -95,8 +95,8 @@ border-bottom-right-radius: 4px;
             </property>
             <property name="icon">
              <iconset theme="folder-documents">
-              <normaloff/>
-             </iconset>
+              <normaloff>../../../../.designer/backup</normaloff>
+              <normalon>:/raw/pixmap/tick.png</normalon>../../../../.designer/backup</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -119,8 +119,8 @@ border-bottom-right-radius: 4px;
             </property>
             <property name="icon">
              <iconset theme="folder-video">
-              <normaloff/>
-             </iconset>
+              <normaloff>../../../../.designer/backup</normaloff>
+              <normalon>:/raw/pixmap/tick.png</normalon>../../../../.designer/backup</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -143,8 +143,8 @@ border-bottom-right-radius: 4px;
             </property>
             <property name="icon">
              <iconset theme="folder-sound">
-              <normaloff/>
-             </iconset>
+              <normaloff>../../../../.designer/backup</normaloff>
+              <normalon>:/raw/pixmap/tick.png</normalon>../../../../.designer/backup</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -167,8 +167,8 @@ border-bottom-right-radius: 4px;
             </property>
             <property name="icon">
              <iconset theme="folder-image">
-              <normaloff/>
-             </iconset>
+              <normaloff>../../../../.designer/backup</normaloff>
+              <normalon>:/raw/pixmap/tick.png</normalon>../../../../.designer/backup</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -197,7 +197,7 @@ border-bottom-right-radius: 4px;
       <number>0</number>
      </property>
      <item>
-      <widget class="QLabel" name="label_4">
+      <widget class="QLabel" name="screen_icon">
        <property name="minimumSize">
         <size>
          <width>64</width>
@@ -220,7 +220,7 @@ border-bottom-right-radius: 4px;
         <string/>
        </property>
        <property name="pixmap">
-        <pixmap resource="../data/kapudan.qrc">:/raw/pixmap/applications-other.png</pixmap>
+        <pixmap>../../../../../../usr/share/icons/oxygen/64x64/places/folder-bookmark.png</pixmap>
        </property>
       </widget>
      </item>
@@ -319,6 +319,7 @@ border-top-right-radius: 4px;</string>
  </widget>
  <resources>
   <include location="../data/kapudan.qrc"/>
+  <include location="../../../../.designer/data/kapudan.qrc"/>
  </resources>
  <connections/>
 </ui>
