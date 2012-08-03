@@ -2,13 +2,13 @@
 name = Dark Night
 name[tr] = Alaca Karanlık
 
-description = A dark colored theme with a panel on bottom
+description = A dark colored theme with a panel on the bottom.
 description[tr]= Paneli allta olan koyu renkli bir tema
 
 panelPosition = 4
-widgetStyle = qtcurve
+widgetStyle = oxygen
 colorScheme = ObsidianCoast
-desktopTheme = Elegance
+desktopTheme = Oxygen
 thumbnail = dark.png
 iconTheme = oxygen
 windowDecoration = kwin3_oxygen

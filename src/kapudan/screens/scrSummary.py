@@ -329,9 +329,9 @@ class Widget(QtGui.QWidget, Screen):
                 configKdeGlobals.sync()
 
                 # Change Icon theme
-#                kdeui.KIconTheme.reconfigure()
-#                kdeui.KIconCache.deleteCache()
-#                deleteIconCache()
+                kdeui.KIconTheme.reconfigure()
+                kdeui.KIconCache.deleteCache()
+                deleteIconCache()
 
                 for i in range(kdeui.KIconLoader.LastGroup):
                     kdeui.KGlobalSettings.self().emitChange(kdeui.KGlobalSettings.IconChanged, i)

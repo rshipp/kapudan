@@ -1,0 +1,12 @@
+[Style]
+name = Simply White
+
+description = A light, minimalistic style, with a panel on the bottom.
+
+panelPosition = 4
+widgetStyle = oxygen
+colorScheme = Zion
+desktopTheme = air-netbook
+thumbnail = white.png
+iconTheme = oxygen
+windowDecoration = kwin3_oxygen

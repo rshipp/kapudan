@@ -2,13 +2,13 @@
 name = North
 name[tr] = Kuzey
 
-description = A blue and gray colored shiny theme with a panel on bottom
+description = A blue and gray colored shiny theme with a panel on the bottom.
 description[tr]= Paneli altta olan mavi ve gri renkli parlak bir tema
 
 panelPosition = 4
 widgetStyle = oxygen
 colorScheme = Steel
-desktopTheme = Aya
+desktopTheme = default
 thumbnail = north.png
 iconTheme = oxygen
 windowDecoration = kwin3_oxygen
