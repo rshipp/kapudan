@@ -37,7 +37,7 @@ class Ui_folderWidget(object):
         font.setWeight(75)
         self.groupBoxFolders.setFont(font)
         self.groupBoxFolders.setAutoFillBackground(True)
-        self.groupBoxFolders.setStyleSheet(_fromUtf8("#groupBoxUpdates{\n"
+        self.groupBoxFolders.setStyleSheet(_fromUtf8("#groupBoxFolders{\n"
 "background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:0, y2:0, stop:0 rgba(219, 219, 219, 100), stop:1 rgba(255, 255, 255, 100));\n"
 "border: 1px solid rgba(255,255,255,50);\n"
 "border-bottom-left-radius: 4px;\n"
@@ -47,7 +47,7 @@ class Ui_folderWidget(object):
         self.groupBoxFolders.setFlat(True)
         self.groupBoxFolders.setObjectName(_fromUtf8("groupBoxFolders"))
         self.verticalLayout = QtGui.QVBoxLayout(self.groupBoxFolders)
-        self.verticalLayout.setMargin(0)
+        self.verticalLayout.setMargin(10)
         self.verticalLayout.setObjectName(_fromUtf8("verticalLayout"))
         self.horizontalLayout_3 = QtGui.QHBoxLayout()
         self.horizontalLayout_3.setObjectName(_fromUtf8("horizontalLayout_3"))
