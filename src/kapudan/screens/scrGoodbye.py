@@ -63,12 +63,12 @@ class Widget(QtGui.QWidget, Screen):
 
     def on_buttonHelpPages_clicked(self):
         self.procSettings = QProcess()
-        command = "kfmclient openURL " + self.helpPageUrl
+        command = "xdg-open " + self.helpPageUrl
         self.procSettings.start(command)
 
     def on_buttonBeginnersGuide_clicked(self):
         self.procSettings = QProcess()
-        command = "kfmclient openURL " + self.beginnersGuideUrl
+        command = "xdg-open " + self.beginnersGuideUrl
         self.procSettings.start(command)
 
     def execute(self):

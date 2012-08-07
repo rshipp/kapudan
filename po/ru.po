@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nl\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-06 15:44-0600\n"
+"POT-Creation-Date: 2012-08-07 16:10-0600\n"
 "PO-Revision-Date: 2010-10-20 15:46+0300\n"
 "Last-Translator: Yasirov Vasia zaG <zag@vspu.ru>\n"
 "Language-Team: Russian <LL@li.org>\n"
@@ -26,158 +26,158 @@ msgstr "Поиск"
 msgid "Enable / Disable Strigi Desktop Search"
 msgstr ""
 
-#: .tmp/localedata.py:49
+#: .tmp/localedata.py:53
 msgid "Turkish"
 msgstr ""
 
-#: .tmp/localedata.py:54
+#: .tmp/localedata.py:58
 msgid "Turkish Q"
 msgstr ""
 
-#: .tmp/localedata.py:55
+#: .tmp/localedata.py:59
 msgid "Turkish F"
 msgstr ""
 
-#: .tmp/localedata.py:60
+#: .tmp/localedata.py:64
 msgid "English"
 msgstr ""
 
-#: .tmp/localedata.py:65
+#: .tmp/localedata.py:69
 msgid "English GB"
 msgstr ""
 
-#: .tmp/localedata.py:71
+#: .tmp/localedata.py:75
 msgid "Afrikaans"
 msgstr ""
 
-#: .tmp/localedata.py:77
+#: .tmp/localedata.py:81
 msgid "Arabic"
 msgstr ""
 
-#: .tmp/localedata.py:83
+#: .tmp/localedata.py:87
 msgid "Belgium"
 msgstr ""
 
-#: .tmp/localedata.py:89
+#: .tmp/localedata.py:93
 msgid "Bulgarian"
 msgstr ""
 
-#: .tmp/localedata.py:95
+#: .tmp/localedata.py:99
 msgid "Catalan"
 msgstr ""
 
-#: .tmp/localedata.py:101
+#: .tmp/localedata.py:105
 msgid "Welsh"
 msgstr ""
 
-#: .tmp/localedata.py:107
+#: .tmp/localedata.py:111
 msgid "Czech"
 msgstr ""
 
-#: .tmp/localedata.py:113
+#: .tmp/localedata.py:117
 #, fuzzy
 msgid "Danish"
 msgstr "Закончить"
 
-#: .tmp/localedata.py:119
+#: .tmp/localedata.py:123
 msgid "German"
 msgstr ""
 
-#: .tmp/localedata.py:125
+#: .tmp/localedata.py:129
 #, fuzzy
 msgid "Spanish"
 msgstr "Закончить"
 
-#: .tmp/localedata.py:131
+#: .tmp/localedata.py:135
 msgid "Estonian"
 msgstr ""
 
-#: .tmp/localedata.py:137
+#: .tmp/localedata.py:141
 #, fuzzy
 msgid "Finnish"
 msgstr "Закончить"
 
-#: .tmp/localedata.py:143
+#: .tmp/localedata.py:147
 msgid "French"
 msgstr ""
 
-#: .tmp/localedata.py:149
+#: .tmp/localedata.py:153
 msgid "Greek"
 msgstr ""
 
-#: .tmp/localedata.py:155
+#: .tmp/localedata.py:159
 msgid "Croatian"
 msgstr ""
 
-#: .tmp/localedata.py:161
+#: .tmp/localedata.py:165
 msgid "Hungarian"
 msgstr ""
 
-#: .tmp/localedata.py:169
+#: .tmp/localedata.py:173
 msgid "Icelandic"
 msgstr ""
 
-#: .tmp/localedata.py:175
+#: .tmp/localedata.py:179
 msgid "Italian"
 msgstr ""
 
-#: .tmp/localedata.py:181
+#: .tmp/localedata.py:185
 msgid "Japanese"
 msgstr ""
 
-#: .tmp/localedata.py:187
+#: .tmp/localedata.py:191
 msgid "Macedonian"
 msgstr ""
 
-#: .tmp/localedata.py:193
+#: .tmp/localedata.py:197
 msgid "Malayalam"
 msgstr ""
 
-#: .tmp/localedata.py:199
+#: .tmp/localedata.py:203
 msgid "Norwegian"
 msgstr ""
 
-#: .tmp/localedata.py:205
+#: .tmp/localedata.py:209
 msgid "Dutch"
 msgstr ""
 
-#: .tmp/localedata.py:211
+#: .tmp/localedata.py:215
 msgid "Polish"
 msgstr ""
 
-#: .tmp/localedata.py:217
+#: .tmp/localedata.py:221
 msgid "Portuguese"
 msgstr ""
 
-#: .tmp/localedata.py:223
+#: .tmp/localedata.py:227
 msgid "Brazilian"
 msgstr ""
 
-#: .tmp/localedata.py:229
+#: .tmp/localedata.py:233
 msgid "Russian"
 msgstr ""
 
-#: .tmp/localedata.py:237
+#: .tmp/localedata.py:241
 msgid "Slovak"
 msgstr ""
 
-#: .tmp/localedata.py:243
+#: .tmp/localedata.py:247
 msgid "Slovenian"
 msgstr ""
 
-#: .tmp/localedata.py:249
+#: .tmp/localedata.py:253
 msgid "Serbian"
 msgstr ""
 
-#: .tmp/localedata.py:255
+#: .tmp/localedata.py:259
 msgid "Swedish"
 msgstr ""
 
-#: .tmp/localedata.py:262
+#: .tmp/localedata.py:266
 msgid "Ukrainian"
 msgstr ""
 
-#: .tmp/localedata.py:268
+#: .tmp/localedata.py:272
 msgid "Vietnamese"
 msgstr ""
 
@@ -452,77 +452,227 @@ msgstr "Добро пожаловать"
 msgid "Welcome to %s"
 msgstr "Добро пожаловать в %s"
 
-#~ msgid "Contrib repository includes extra and handy programs."
-#~ msgstr "Репозиторий Contrib содержит дополнительные приложения."
+#~ msgid "Kapudan"
+#~ msgstr "Kapudan"
 
-#~ msgid "Add contrib repository"
-#~ msgstr "Добавить репозиторий Contrib"
+#~ msgid "Welcome Wizard"
+#~ msgstr "Мастер приветствия"
 
-#~ msgid "Repositories"
-#~ msgstr "Репозитории"
+#~ msgid "Smolt"
+#~ msgstr "Smolt"
 
-#~ msgid "wallpaperDesc"
-#~ msgstr "Описание рабочего стола"
+#~ msgid "Help Chakra Improve!"
+#~ msgstr "Помочь улучшить Chakra!"
 
-#~ msgid "wallPaperName"
-#~ msgstr "Имя рабочего стола"
+#~ msgid "Label"
+#~ msgstr "Метка"
 
-#~ msgid "<b>Chakra</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Chakra, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kapudan</b> will help you personalize your Chakra workspace easily and quickly. Please click <b>next</b> in order to begin."
-#~ msgstr "<b>Chakra</b> это надежная, быстрая, безопасная и дружелюбная операционная система.<br /><br />С Chakra вы можете подключиться к интернету, читать ваши сообщения по e-mail, работать с документами, смотреть видео, слушать музыку, разрабатывать приложения, играть в игры и многое другое!<br /><br /><b>Kapudan</b> поможет вам настроить рабочее пространство Chakra быстро и легко. Пожалуйста, нажмите <b>Дальше</b> для запуска."
+#~ msgid "Data"
+#~ msgstr "Данные"
 
-#~ msgid "What is Chakra?"
-#~ msgstr "Что такое Chakra?"
+#~ msgid "&Host Information"
+#~ msgstr "&Информация о хосте"
 
-#~ msgid "Don't change wallpaper"
-#~ msgstr "Не менять обои рабочего стола"
+#~ msgid "&Privacy policy"
+#~ msgstr "&Политика конфиденциальности"
 
-#~ msgid "Choose wallpaper from file"
-#~ msgstr "Выбрать обои из файла"
+#~ msgid "UUID"
+#~ msgstr "UUID"
 
-#~ msgid "Wallpapers"
-#~ msgstr "Обои рабочего стола"
+#~ msgid "OS"
+#~ msgstr "ОС"
 
-#~ msgid "Choose your favorite wallpaper for Chakra. Don't forget to check out <b>Desktop Settings</b> for downloading new and cool wallpapers."
-#~ msgstr "Выбери свои любимые обои для рабочего стола Chakra. Не забудьте проверить <b>Настройки рабочего стола</b> для загрузки новых и отличных обоев для рабочего стола."
+#~ msgid "Default Run Level"
+#~ msgstr "Уровень запуска по умолчанию"
 
-#~ msgid "The following settings will be applied"
-#~ msgstr "Следующие параметры будут применены"
+#~ msgid "Language"
+#~ msgstr "Язык"
 
-#~ msgid "You have successfully finished all steps. Here's a summary of the settings you want to apply. Click <b>Apply Settings</b> to save them now. You are now ready to enjoy Chakra!"
-#~ msgstr "Вы успешно закончили все этапы настройки. Вот суммарный список настроек, которые вы хотите применить. Нажмите <b>Применить настройки</b> чтобы сохранить их сейчас. Теперь вы готовы использовать ваш новый Chakra!"
+#~ msgid "Platform"
+#~ msgstr "Платформа"
 
-#~ msgid "styleDesc"
-#~ msgstr "styleDesc"
+#~ msgid "BogoMIPS"
+#~ msgstr "BogoMIPS"
 
-#~ msgid "styleName"
-#~ msgstr "styleName"
+#~ msgid "CPU Vendor"
+#~ msgstr "Производитель ЦПУ"
 
-#~ msgid "Number of Desktops"
-#~ msgstr "Число рабочих столов"
+#~ msgid "CPU Model"
+#~ msgstr "Модель ЦПУ"
 
-#~ msgid "Folder view (KDE3 Style)"
-#~ msgstr "Просмотр папки (стиль KDE3)"
+#~ msgid "CPU Stepping"
+#~ msgstr "Частота ЦПУ"
 
-#~ msgid "Desktop view (KDE4 Style)"
-#~ msgstr "Рабочий стол KDE4 (стиль KDE4)"
+#~ msgid "CPU Family"
+#~ msgstr "Тип ЦПУ"
 
-#~ msgid "Desktop Type"
-#~ msgstr "Тип рабочего стола"
+#~ msgid "CPU Model Num"
+#~ msgstr "Номер модели ЦПУ"
 
-#~ msgid "Milky - The official icon set of Chakra"
-#~ msgstr "Milky - официальный набор значков Chakra"
+#~ msgid "Number of CPUs"
+#~ msgstr "Число ЦПУ"
 
-#~ msgid "Oxygen - The official icon set of KDE"
-#~ msgstr "Oxygen - официальный набор значков KDE"
+#~ msgid "CPU Speed"
+#~ msgstr "Скорость ЦПУ"
 
-#~ msgid "Icons"
-#~ msgstr "Значки"
+#~ msgid "System Memory"
+#~ msgstr "Системная память"
 
-#~ msgid "KDE Themes"
-#~ msgstr "KDE темы"
+#~ msgid "System Swap"
+#~ msgstr "Системный swap"
 
-#~ msgid "Choose your favorite theme and desktop type. Customize Chakra with colorful styles and themes."
-#~ msgstr "Выберите вашу любимую тему оформления и тип рабочего стола. Настройте Chakra с цветовыми схемами и темами."
+#~ msgid "Vendor"
+#~ msgstr "Производитель"
+
+#~ msgid "System"
+#~ msgstr "Система"
+
+#~ msgid "Form Factor"
+#~ msgstr "Форм-фактор"
+
+#~ msgid "Kernel"
+#~ msgstr "Ядро"
+
+#~ msgid "SELinux Enabled"
+#~ msgstr "SELinux включено"
+
+#~ msgid "SELinux Policy"
+#~ msgstr "Политика SELinux"
+
+#~ msgid "SELinux Enforce"
+#~ msgstr "Обеспечение SELinux"
+
+#~ msgid "Yes"
+#~ msgstr "Да"
+
+#~ msgid "No"
+#~ msgstr "Нет"
+
+#~ msgid "Smolt Settings"
+#~ msgstr "Параметры Smolt"
+
+#~ msgid "Send my profile: <b>%s</b>"
+#~ msgstr "Отправить мой профиль: <b>%s</b>"
+
+#~ msgid "Welcome to Chakra"
+#~ msgstr "Добро пожаловать в Chakra"
+
+#~ msgid "Cancel"
+#~ msgstr "Отмена"
+
+#~ msgid "Back"
+#~ msgstr "Назад"
+
+#~ msgid "Next"
+#~ msgstr "Вперед"
+
+#~ msgid "Apply Settings"
+#~ msgstr "Применить настройки"
+
+#~ msgid "Form"
+#~ msgstr "Форма"
+
+#~ msgid "This screen helps you set your <b>user picture</b>. You can either choose an image from a file or you can capture an image from your camera. Select an option from the <b>options</b> menu."
+#~ msgstr "Это окно поможет установить вашу <b>изображение пользователя</b>. Вы можете выбрать изображение из файла или вы можете захватить изображение с камеры. Выберите один из вариантов из меню <b>Опции</b>."
+
+#~ msgid "Options"
+#~ msgstr "Опции"
+
+#~ msgid "Choose an image"
+#~ msgstr "Выберите изображение"
+
+#~ msgid "Capture"
+#~ msgstr "Захватить"
+
+#~ msgid "Recapture"
+#~ msgstr "Захватить снова"
+
+#~ msgid "<b>Your settings have been applied.</b> Now you can start enjoying Chakra or you can checkout the following links and applications for more settings or for help and support. Don't forget to <b>join our community!</b>"
+#~ msgstr "<b>Ваши настройки были применены.</b> Теперь вы можете начать пользоваться Chakra или вы можете проследовать по следующим ссылкам и приложениям для настройки, либо за помощью и поддержки. Не забудьте <b>вступить в наше сообщество!</b>"
+
+#~ msgid "My Smolt Page"
+#~ msgstr "Моя страница Smolt"
+
+#~ msgid "Go to your Smolt page and rate your hardware components."
+#~ msgstr "Перейти на страницу Smolt и оценить ваши аппаратных компоненты."
+
+#~ msgid "System Settings"
+#~ msgstr "Параметры системы"
+
+#~ msgid "Configuration tools for Chakra such as the display, firewall, keyboard, user manager..."
+#~ msgstr "Инструмент конфигурации различных компонентов для Chakra, таких как дисплей, брандмауэр, клавиатуры, пользователь менеджер ..."
+
+#~ msgid "Help and Support"
+#~ msgstr "Помощь и поддержка"
+
+#~ msgid "Chakra community, mailing lists, chat rooms, Wiki documents, help and support pages..."
+#~ msgstr "Сообщество Chakra, списки рассылки, чаты, Wiki-документы, справки и страницы поддержки..."
+
+#~ msgid "Kapudan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
+#~ msgstr "Kapudan автоматически выбирает лучшую раскладки клавиатуры в зависимости от языка вашей системы. Если вы хотите использовать другую раскладку, кроме раскладки клавиатуры по-умолчанию, вы можете сделать свой выбор и протестировать его мгновенно."
+
+#~ msgid "Test Layout"
+#~ msgstr "Тест раскладки"
+
+#~ msgid "You can also customize your <b>KDE menu</b> as you like. Please choose one from the following styles."
+#~ msgstr "Вы так же можете настроить ваше <b>меню KDE</b> как вам нравится. Пожалуйста выберите один из предлагаемых стилей."
+
+#~ msgid "Sample"
+#~ msgstr "Пример"
+
+#~ msgid "The <b>clicking behavior</b> defines how many times you want to click when you are opening a file. If you are <b>left handed</b>, you may prefer to swap the left and right buttons of your pointing device."
+#~ msgstr "<b>Поведение нажатия</b> определяет, сколько раз вы хотите кликнуть по файлу, чтобы его открыть. Если вы <b>левша</b>, то возможно вы захотите поменять левую и правую кнопки мыши."
+
+#~ msgid "Clicking Behaviour"
+#~ msgstr "Поведение нажатия"
+
+#~ msgid "Single-click to open files and folders"
+#~ msgstr "Один клик для открытия файлов и папок"
+
+#~ msgid "Dou&ble-click to open files and folders"
+#~ msgstr "&Двойной клик для открытия файлов и папок"
+
+#~ msgid "Button Order"
+#~ msgstr "Расположение кнопок"
+
+#~ msgid "Right Hand"
+#~ msgstr "Правша"
+
+#~ msgid "Left Hand"
+#~ msgstr "Левша"
+
+#~ msgid "Reverse scrolling"
+#~ msgstr "Обратная прокрутка"
+
+#~ msgid "Show updates in the system tray"
+#~ msgstr "Показать обновления в системном трее"
+
+#~ msgid "Check updates automatically every"
+#~ msgstr "Проверять обновления автоматически каждые"
+
+#~ msgid " hours"
+#~ msgstr " часов"
+
+#~ msgid "To install and remove programs to Chakra, use Package-Manager. Package-Manager also can automatically install the latest updates available. You can set the period for checking new updates."
+#~ msgstr "Для установки и удаления программ в Chakra, используйте Менеджер Пакетов. Менеджер Пакетов также может автоматически устанавливать последние обновления. Вы можете установить период для проверки обновлений."
+
+#~ msgid "Updates"
+#~ msgstr "Обновления"
+
+#~ msgid "Strigi Desktop Search indexes your frequently used files. This gives you very fast file search results. Strigi also can search for files based on their contents."
+#~ msgstr "Strigi Desktop Search индексирует часто используемых файлов. Это позволяет вам очень быстро получить результаты поиска по файлам. Strigi также можете искать файлы на основе их содержимого."
+
+#~ msgid "Allow Strigi to index my files"
+#~ msgstr "Позволить Strigi индексировать мои файлы"
+
+#~ msgid "Search Options"
+#~ msgstr "Параметры поиска"
+
+#~ msgid "<b>Smolt</b> is a tool that collects the information in the following table and sends it to us for which lets us improve Chakra according to the user profile statistics."
+#~ msgstr "<b>Smolt</b> является инструментом, который собирает информацию в следующей таблице и направляет ее к нам, что позволяет нам улучшать Chakra, согласно статистике профиля пользователя."
+
+#~ msgid "&Send my profile"
+#~ msgstr "&Отправить мой профиль"
 
 #~ msgid ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
@@ -545,224 +695,74 @@ msgstr "Добро пожаловать в %s"
 #~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" text-decoration: underline;\">IP Logging:</span>  При установке сервера smolt в Chakra весь web-трафик будет идти через прокси-сервер. Это единственное место, где IP адреса будут сохраняться в течении 4 недель, после чего записи будут удаляться.  Проект The Chakra  не собирает IP адреса в базе данных smolt. Они являются частными и не будут доступны для публики.</p>\n"
 #~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   Пользователи, которые недовольны этой политикой, могут просто не использовать smolt.  Пользователи, которые хотят задать вопросы, могут связаться с Chakra Infrastructure Team по адресу admin [at] pardus.org.tr  Так же помните, что в любой момент можно удалить свой профиль, используя &quot;<span style=\" font-style:italic;\">smoltDeleteProfile</span>&quot;</p></body></html>"
 
-#~ msgid "&Send my profile"
-#~ msgstr "&Отправить мой профиль"
+#~ msgid "Choose your favorite theme and desktop type. Customize Chakra with colorful styles and themes."
+#~ msgstr "Выберите вашу любимую тему оформления и тип рабочего стола. Настройте Chakra с цветовыми схемами и темами."
 
-#~ msgid "<b>Smolt</b> is a tool that collects the information in the following table and sends it to us for which lets us improve Chakra according to the user profile statistics."
-#~ msgstr "<b>Smolt</b> является инструментом, который собирает информацию в следующей таблице и направляет ее к нам, что позволяет нам улучшать Chakra, согласно статистике профиля пользователя."
+#~ msgid "KDE Themes"
+#~ msgstr "KDE темы"
 
-#~ msgid "Search Options"
-#~ msgstr "Параметры поиска"
+#~ msgid "Icons"
+#~ msgstr "Значки"
 
-#~ msgid "Allow Strigi to index my files"
-#~ msgstr "Позволить Strigi индексировать мои файлы"
+#~ msgid "Oxygen - The official icon set of KDE"
+#~ msgstr "Oxygen - официальный набор значков KDE"
 
-#~ msgid "Strigi Desktop Search indexes your frequently used files. This gives you very fast file search results. Strigi also can search for files based on their contents."
-#~ msgstr "Strigi Desktop Search индексирует часто используемых файлов. Это позволяет вам очень быстро получить результаты поиска по файлам. Strigi также можете искать файлы на основе их содержимого."
+#~ msgid "Milky - The official icon set of Chakra"
+#~ msgstr "Milky - официальный набор значков Chakra"
 
-#~ msgid "Updates"
-#~ msgstr "Обновления"
+#~ msgid "Desktop Type"
+#~ msgstr "Тип рабочего стола"
 
-#~ msgid "To install and remove programs to Chakra, use Package-Manager. Package-Manager also can automatically install the latest updates available. You can set the period for checking new updates."
-#~ msgstr "Для установки и удаления программ в Chakra, используйте Менеджер Пакетов. Менеджер Пакетов также может автоматически устанавливать последние обновления. Вы можете установить период для проверки обновлений."
+#~ msgid "Desktop view (KDE4 Style)"
+#~ msgstr "Рабочий стол KDE4 (стиль KDE4)"
 
-#~ msgid " hours"
-#~ msgstr " часов"
+#~ msgid "Folder view (KDE3 Style)"
+#~ msgstr "Просмотр папки (стиль KDE3)"
 
-#~ msgid "Check updates automatically every"
-#~ msgstr "Проверять обновления автоматически каждые"
+#~ msgid "Number of Desktops"
+#~ msgstr "Число рабочих столов"
 
-#~ msgid "Show updates in the system tray"
-#~ msgstr "Показать обновления в системном трее"
+#~ msgid "styleName"
+#~ msgstr "styleName"
 
-#~ msgid "Reverse scrolling"
-#~ msgstr "Обратная прокрутка"
+#~ msgid "styleDesc"
+#~ msgstr "styleDesc"
 
-#~ msgid "Left Hand"
-#~ msgstr "Левша"
+#~ msgid "You have successfully finished all steps. Here's a summary of the settings you want to apply. Click <b>Apply Settings</b> to save them now. You are now ready to enjoy Chakra!"
+#~ msgstr "Вы успешно закончили все этапы настройки. Вот суммарный список настроек, которые вы хотите применить. Нажмите <b>Применить настройки</b> чтобы сохранить их сейчас. Теперь вы готовы использовать ваш новый Chakra!"
 
-#~ msgid "Right Hand"
-#~ msgstr "Правша"
+#~ msgid "The following settings will be applied"
+#~ msgstr "Следующие параметры будут применены"
 
-#~ msgid "Button Order"
-#~ msgstr "Расположение кнопок"
+#~ msgid "Choose your favorite wallpaper for Chakra. Don't forget to check out <b>Desktop Settings</b> for downloading new and cool wallpapers."
+#~ msgstr "Выбери свои любимые обои для рабочего стола Chakra. Не забудьте проверить <b>Настройки рабочего стола</b> для загрузки новых и отличных обоев для рабочего стола."
 
-#~ msgid "Dou&ble-click to open files and folders"
-#~ msgstr "&Двойной клик для открытия файлов и папок"
+#~ msgid "Wallpapers"
+#~ msgstr "Обои рабочего стола"
 
-#~ msgid "Single-click to open files and folders"
-#~ msgstr "Один клик для открытия файлов и папок"
+#~ msgid "Choose wallpaper from file"
+#~ msgstr "Выбрать обои из файла"
 
-#~ msgid "Clicking Behaviour"
-#~ msgstr "Поведение нажатия"
+#~ msgid "Don't change wallpaper"
+#~ msgstr "Не менять обои рабочего стола"
 
-#~ msgid "The <b>clicking behavior</b> defines how many times you want to click when you are opening a file. If you are <b>left handed</b>, you may prefer to swap the left and right buttons of your pointing device."
-#~ msgstr "<b>Поведение нажатия</b> определяет, сколько раз вы хотите кликнуть по файлу, чтобы его открыть. Если вы <b>левша</b>, то возможно вы захотите поменять левую и правую кнопки мыши."
+#~ msgid "What is Chakra?"
+#~ msgstr "Что такое Chakra?"
 
-#~ msgid "Sample"
-#~ msgstr "Пример"
+#~ msgid "<b>Chakra</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Chakra, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kapudan</b> will help you personalize your Chakra workspace easily and quickly. Please click <b>next</b> in order to begin."
+#~ msgstr "<b>Chakra</b> это надежная, быстрая, безопасная и дружелюбная операционная система.<br /><br />С Chakra вы можете подключиться к интернету, читать ваши сообщения по e-mail, работать с документами, смотреть видео, слушать музыку, разрабатывать приложения, играть в игры и многое другое!<br /><br /><b>Kapudan</b> поможет вам настроить рабочее пространство Chakra быстро и легко. Пожалуйста, нажмите <b>Дальше</b> для запуска."
 
-#~ msgid "You can also customize your <b>KDE menu</b> as you like. Please choose one from the following styles."
-#~ msgstr "Вы так же можете настроить ваше <b>меню KDE</b> как вам нравится. Пожалуйста выберите один из предлагаемых стилей."
+#~ msgid "wallPaperName"
+#~ msgstr "Имя рабочего стола"
 
-#~ msgid "Test Layout"
-#~ msgstr "Тест раскладки"
+#~ msgid "wallpaperDesc"
+#~ msgstr "Описание рабочего стола"
 
-#~ msgid "Kapudan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
-#~ msgstr "Kapudan автоматически выбирает лучшую раскладки клавиатуры в зависимости от языка вашей системы. Если вы хотите использовать другую раскладку, кроме раскладки клавиатуры по-умолчанию, вы можете сделать свой выбор и протестировать его мгновенно."
+#~ msgid "Repositories"
+#~ msgstr "Репозитории"
 
-#~ msgid "Chakra community, mailing lists, chat rooms, Wiki documents, help and support pages..."
-#~ msgstr "Сообщество Chakra, списки рассылки, чаты, Wiki-документы, справки и страницы поддержки..."
+#~ msgid "Add contrib repository"
+#~ msgstr "Добавить репозиторий Contrib"
 
-#~ msgid "Help and Support"
-#~ msgstr "Помощь и поддержка"
-
-#~ msgid "Configuration tools for Chakra such as the display, firewall, keyboard, user manager..."
-#~ msgstr "Инструмент конфигурации различных компонентов для Chakra, таких как дисплей, брандмауэр, клавиатуры, пользователь менеджер ..."
-
-#~ msgid "System Settings"
-#~ msgstr "Параметры системы"
-
-#~ msgid "Go to your Smolt page and rate your hardware components."
-#~ msgstr "Перейти на страницу Smolt и оценить ваши аппаратных компоненты."
-
-#~ msgid "My Smolt Page"
-#~ msgstr "Моя страница Smolt"
-
-#~ msgid "<b>Your settings have been applied.</b> Now you can start enjoying Chakra or you can checkout the following links and applications for more settings or for help and support. Don't forget to <b>join our community!</b>"
-#~ msgstr "<b>Ваши настройки были применены.</b> Теперь вы можете начать пользоваться Chakra или вы можете проследовать по следующим ссылкам и приложениям для настройки, либо за помощью и поддержки. Не забудьте <b>вступить в наше сообщество!</b>"
-
-#~ msgid "Recapture"
-#~ msgstr "Захватить снова"
-
-#~ msgid "Capture"
-#~ msgstr "Захватить"
-
-#~ msgid "Choose an image"
-#~ msgstr "Выберите изображение"
-
-#~ msgid "Options"
-#~ msgstr "Опции"
-
-#~ msgid "This screen helps you set your <b>user picture</b>. You can either choose an image from a file or you can capture an image from your camera. Select an option from the <b>options</b> menu."
-#~ msgstr "Это окно поможет установить вашу <b>изображение пользователя</b>. Вы можете выбрать изображение из файла или вы можете захватить изображение с камеры. Выберите один из вариантов из меню <b>Опции</b>."
-
-#~ msgid "Form"
-#~ msgstr "Форма"
-
-#~ msgid "Apply Settings"
-#~ msgstr "Применить настройки"
-
-#~ msgid "Next"
-#~ msgstr "Вперед"
-
-#~ msgid "Back"
-#~ msgstr "Назад"
-
-#~ msgid "Cancel"
-#~ msgstr "Отмена"
-
-#~ msgid "Welcome to Chakra"
-#~ msgstr "Добро пожаловать в Chakra"
-
-#~ msgid "Send my profile: <b>%s</b>"
-#~ msgstr "Отправить мой профиль: <b>%s</b>"
-
-#~ msgid "Smolt Settings"
-#~ msgstr "Параметры Smolt"
-
-#~ msgid "No"
-#~ msgstr "Нет"
-
-#~ msgid "Yes"
-#~ msgstr "Да"
-
-#~ msgid "SELinux Enforce"
-#~ msgstr "Обеспечение SELinux"
-
-#~ msgid "SELinux Policy"
-#~ msgstr "Политика SELinux"
-
-#~ msgid "SELinux Enabled"
-#~ msgstr "SELinux включено"
-
-#~ msgid "Kernel"
-#~ msgstr "Ядро"
-
-#~ msgid "Form Factor"
-#~ msgstr "Форм-фактор"
-
-#~ msgid "System"
-#~ msgstr "Система"
-
-#~ msgid "Vendor"
-#~ msgstr "Производитель"
-
-#~ msgid "System Swap"
-#~ msgstr "Системный swap"
-
-#~ msgid "System Memory"
-#~ msgstr "Системная память"
-
-#~ msgid "CPU Speed"
-#~ msgstr "Скорость ЦПУ"
-
-#~ msgid "Number of CPUs"
-#~ msgstr "Число ЦПУ"
-
-#~ msgid "CPU Model Num"
-#~ msgstr "Номер модели ЦПУ"
-
-#~ msgid "CPU Family"
-#~ msgstr "Тип ЦПУ"
-
-#~ msgid "CPU Stepping"
-#~ msgstr "Частота ЦПУ"
-
-#~ msgid "CPU Model"
-#~ msgstr "Модель ЦПУ"
-
-#~ msgid "CPU Vendor"
-#~ msgstr "Производитель ЦПУ"
-
-#~ msgid "BogoMIPS"
-#~ msgstr "BogoMIPS"
-
-#~ msgid "Platform"
-#~ msgstr "Платформа"
-
-#~ msgid "Language"
-#~ msgstr "Язык"
-
-#~ msgid "Default Run Level"
-#~ msgstr "Уровень запуска по умолчанию"
-
-#~ msgid "OS"
-#~ msgstr "ОС"
-
-#~ msgid "UUID"
-#~ msgstr "UUID"
-
-#~ msgid "&Privacy policy"
-#~ msgstr "&Политика конфиденциальности"
-
-#~ msgid "&Host Information"
-#~ msgstr "&Информация о хосте"
-
-#~ msgid "Data"
-#~ msgstr "Данные"
-
-#~ msgid "Label"
-#~ msgstr "Метка"
-
-#~ msgid "Help Chakra Improve!"
-#~ msgstr "Помочь улучшить Chakra!"
-
-#~ msgid "Smolt"
-#~ msgstr "Smolt"
-
-#~ msgid "Welcome Wizard"
-#~ msgstr "Мастер приветствия"
-
-#~ msgid "Kapudan"
-#~ msgstr "Kapudan"
+#~ msgid "Contrib repository includes extra and handy programs."
+#~ msgstr "Репозиторий Contrib содержит дополнительные приложения."

@@ -73,11 +73,17 @@ class Widget(QtGui.QWidget, Screen):
 
         # FIXME: This file does not exist on Chakra, find its equivalent.
         # Until then, I am commenting out the overly-verbose error printing.
+#        try:
+#            langFile = open('/etc/mudur/language', 'r')
+#            lang = langFile.readline().rstrip('\n').strip()
+#        except IOError:
+#            pass #print "Cannot read /etc/mudur/language file"
         try:
-            langFile = open('/etc/mudur/language', 'r')
-            lang = langFile.readline().rstrip('\n').strip()
-        except IOError:
-            pass #print "Cannot read /etc/mudur/language file"
+            lang = subprocess.Popen(["setxkbmap -print | grep xkb_symbols | cut -d+ -f2"],
+                    shell=True, stdout=subprocess.PIPE).stdout.read()
+        except OSError as e:
+            lang = "en"
+            print e
 
         return lang
 

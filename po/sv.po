@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kapudan\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-06 15:44-0600\n"
+"POT-Creation-Date: 2012-08-07 16:10-0600\n"
 "PO-Revision-Date: 2010-05-23 11:31+0200\n"
 "Last-Translator: Patrik Karlsson <patrik@trixon.se>\n"
 "Language-Team: Swedish <pardus-translators@pardus.org.tr>\n"
@@ -27,158 +27,158 @@ msgstr "Sök"
 msgid "Enable / Disable Strigi Desktop Search"
 msgstr "Aktivera Strigi skrivbordssökning"
 
-#: .tmp/localedata.py:49
+#: .tmp/localedata.py:53
 msgid "Turkish"
 msgstr ""
 
-#: .tmp/localedata.py:54
+#: .tmp/localedata.py:58
 msgid "Turkish Q"
 msgstr ""
 
-#: .tmp/localedata.py:55
+#: .tmp/localedata.py:59
 msgid "Turkish F"
 msgstr ""
 
-#: .tmp/localedata.py:60
+#: .tmp/localedata.py:64
 msgid "English"
 msgstr ""
 
-#: .tmp/localedata.py:65
+#: .tmp/localedata.py:69
 msgid "English GB"
 msgstr ""
 
-#: .tmp/localedata.py:71
+#: .tmp/localedata.py:75
 msgid "Afrikaans"
 msgstr ""
 
-#: .tmp/localedata.py:77
+#: .tmp/localedata.py:81
 msgid "Arabic"
 msgstr ""
 
-#: .tmp/localedata.py:83
+#: .tmp/localedata.py:87
 msgid "Belgium"
 msgstr ""
 
-#: .tmp/localedata.py:89
+#: .tmp/localedata.py:93
 msgid "Bulgarian"
 msgstr ""
 
-#: .tmp/localedata.py:95
+#: .tmp/localedata.py:99
 msgid "Catalan"
 msgstr ""
 
-#: .tmp/localedata.py:101
+#: .tmp/localedata.py:105
 msgid "Welsh"
 msgstr ""
 
-#: .tmp/localedata.py:107
+#: .tmp/localedata.py:111
 msgid "Czech"
 msgstr ""
 
-#: .tmp/localedata.py:113
+#: .tmp/localedata.py:117
 #, fuzzy
 msgid "Danish"
 msgstr "Avsluta"
 
-#: .tmp/localedata.py:119
+#: .tmp/localedata.py:123
 msgid "German"
 msgstr ""
 
-#: .tmp/localedata.py:125
+#: .tmp/localedata.py:129
 #, fuzzy
 msgid "Spanish"
 msgstr "Avsluta"
 
-#: .tmp/localedata.py:131
+#: .tmp/localedata.py:135
 msgid "Estonian"
 msgstr ""
 
-#: .tmp/localedata.py:137
+#: .tmp/localedata.py:141
 #, fuzzy
 msgid "Finnish"
 msgstr "Avsluta"
 
-#: .tmp/localedata.py:143
+#: .tmp/localedata.py:147
 msgid "French"
 msgstr ""
 
-#: .tmp/localedata.py:149
+#: .tmp/localedata.py:153
 msgid "Greek"
 msgstr ""
 
-#: .tmp/localedata.py:155
+#: .tmp/localedata.py:159
 msgid "Croatian"
 msgstr ""
 
-#: .tmp/localedata.py:161
+#: .tmp/localedata.py:165
 msgid "Hungarian"
 msgstr ""
 
-#: .tmp/localedata.py:169
+#: .tmp/localedata.py:173
 msgid "Icelandic"
 msgstr ""
 
-#: .tmp/localedata.py:175
+#: .tmp/localedata.py:179
 msgid "Italian"
 msgstr ""
 
-#: .tmp/localedata.py:181
+#: .tmp/localedata.py:185
 msgid "Japanese"
 msgstr ""
 
-#: .tmp/localedata.py:187
+#: .tmp/localedata.py:191
 msgid "Macedonian"
 msgstr ""
 
-#: .tmp/localedata.py:193
+#: .tmp/localedata.py:197
 msgid "Malayalam"
 msgstr ""
 
-#: .tmp/localedata.py:199
+#: .tmp/localedata.py:203
 msgid "Norwegian"
 msgstr ""
 
-#: .tmp/localedata.py:205
+#: .tmp/localedata.py:209
 msgid "Dutch"
 msgstr ""
 
-#: .tmp/localedata.py:211
+#: .tmp/localedata.py:215
 msgid "Polish"
 msgstr ""
 
-#: .tmp/localedata.py:217
+#: .tmp/localedata.py:221
 msgid "Portuguese"
 msgstr ""
 
-#: .tmp/localedata.py:223
+#: .tmp/localedata.py:227
 msgid "Brazilian"
 msgstr ""
 
-#: .tmp/localedata.py:229
+#: .tmp/localedata.py:233
 msgid "Russian"
 msgstr ""
 
-#: .tmp/localedata.py:237
+#: .tmp/localedata.py:241
 msgid "Slovak"
 msgstr ""
 
-#: .tmp/localedata.py:243
+#: .tmp/localedata.py:247
 msgid "Slovenian"
 msgstr ""
 
-#: .tmp/localedata.py:249
+#: .tmp/localedata.py:253
 msgid "Serbian"
 msgstr ""
 
-#: .tmp/localedata.py:255
+#: .tmp/localedata.py:259
 msgid "Swedish"
 msgstr ""
 
-#: .tmp/localedata.py:262
+#: .tmp/localedata.py:266
 msgid "Ukrainian"
 msgstr ""
 
-#: .tmp/localedata.py:268
+#: .tmp/localedata.py:272
 msgid "Vietnamese"
 msgstr ""
 
@@ -454,162 +454,445 @@ msgstr "Välkommen"
 msgid "Welcome to %s"
 msgstr "Välkommen till %s"
 
-#~ msgid "Contrib repository includes extra and handy programs."
-#~ msgstr "Contrib-förrådet innehåller flera behjälpliga program."
+#~ msgid "Kapudan"
+#~ msgstr "Kapudan"
 
-#~ msgid "Add contrib repository"
-#~ msgstr "Lägg till contrib-förrådet"
+#~ msgid "Welcome Wizard"
+#~ msgstr "Välkomstguide"
 
-#~ msgid "Repositories"
+#~ msgid "Smolt"
+#~ msgstr "Smolt"
+
+#~ msgid "Help Chakra Improve!"
+#~ msgstr "Hjälp till att förbättra Chakra!"
+
+#~ msgid "Label"
+#~ msgstr "Etikett"
+
+#~ msgid "Data"
+#~ msgstr "Data"
+
+#~ msgid "&Host Information"
+#~ msgstr "&Värdinformation"
+
+#~ msgid "&Privacy policy"
+#~ msgstr "Integritetspolicy"
+
+#~ msgid "UUID"
+#~ msgstr "UUID"
+
+#~ msgid "OS"
+#~ msgstr "OS"
+
+#~ msgid "Default Run Level"
+#~ msgstr "Standard körnivå"
+
+#~ msgid "Language"
+#~ msgstr "Språk"
+
+#~ msgid "Platform"
+#~ msgstr "Plattform"
+
+#~ msgid "BogoMIPS"
+#~ msgstr "BogoMIPS"
+
+#~ msgid "CPU Vendor"
+#~ msgstr "CPU-tillverkare"
+
+#~ msgid "CPU Model"
+#~ msgstr "CPU-modell"
+
+#~ msgid "CPU Stepping"
+#~ msgstr "Processorskalning"
+
+#~ msgid "CPU Family"
+#~ msgstr "Processorfamilj"
+
+#~ msgid "CPU Model Num"
+#~ msgstr "Processormodell"
+
+#~ msgid "Number of CPUs"
+#~ msgstr "Antal CPU"
+
+#~ msgid "CPU Speed"
+#~ msgstr "CPU-hastighet"
+
+#~ msgid "System Memory"
+#~ msgstr "Systemminne"
+
+#~ msgid "System Swap"
+#~ msgstr "Växling"
+
+#~ msgid "Vendor"
+#~ msgstr "Tillverkare"
+
+#~ msgid "System"
+#~ msgstr "System"
+
+#~ msgid "Form Factor"
+#~ msgstr "Formfaktor"
+
+#~ msgid "Kernel"
+#~ msgstr "Kärna"
+
+#~ msgid "SELinux Enabled"
+#~ msgstr "SELinux Enabled"
+
+#~ msgid "SELinux Policy"
+#~ msgstr "SELinux Policy"
+
+#~ msgid "SELinux Enforce"
+#~ msgstr "SELinux Enforce"
+
+#~ msgid "Yes"
+#~ msgstr "Ja"
+
+#~ msgid "No"
+#~ msgstr "Nej"
+
+#~ msgid "Smolt Settings"
+#~ msgstr "Smoltinställning"
+
+#~ msgid "Send my profile: <b>%s</b>"
+#~ msgstr "Skicka min profil: <b>%s</b>"
+
+#~ msgid "Welcome to Chakra"
+#~ msgstr "Välkommen till Chakra"
+
+#~ msgid "Cancel"
+#~ msgstr "Avbryt"
+
+#~ msgid "Back"
+#~ msgstr "Bakåt"
+
+#~ msgid "Next"
+#~ msgstr "Nästa"
+
+#~ msgid "Apply Settings"
+#~ msgstr "Verkställ"
+
+#~ msgid "Form"
+#~ msgstr "Form"
+
+#~ msgid "This screen helps you set your <b>user picture</b>. You can either choose an image from a file or you can capture an image from your camera. Select an option from the <b>options</b> menu."
+#~ msgstr "Den här skärmen hjälper dig välja <b>användarbild</b>. Du kan antingen välja en bild från en fil eller så kan du ta en bild med din kamera. Välj ett av alternativen."
+
+#~ msgid "Options"
+#~ msgstr "Alternativ"
+
+#~ msgid "Choose an image"
+#~ msgstr "Välj en bild"
+
+#~ msgid "Capture"
+#~ msgstr "Fånga"
+
+#~ msgid "Recapture"
+#~ msgstr "Fånga på nytt"
+
+#~ msgid "<b>Your settings have been applied.</b> Now you can start enjoying Chakra or you can checkout the following links and applications for more settings or for help and support. Don't forget to <b>join our community!</b>"
+#~ msgstr "<b>Dina inställningar har verkställts.</b> Nu kan du njuta av Chakra eller så kan du följa dessa länkar och program för ytterligare inställningar och hjälp. Glöm inte bort <b>att gå med i vår gemenskap!</b>"
+
+#~ msgid "My Smolt Page"
+#~ msgstr "Min Smoltsida"
+
+#~ msgid "Go to your Smolt page and rate your hardware components."
+#~ msgstr "Gå till din Smoltsida och betygsätt din hårdvara."
+
+#~ msgid "System Settings"
+#~ msgstr "Systeminställningar"
+
+#~ msgid "Configuration tools for Chakra such as the display, firewall, keyboard, user manager..."
+#~ msgstr "Inställningsverktyg för Chakra så som för bildskärm, brandvägg, tangentbord användarhantering..."
+
+#~ msgid "Help and Support"
+#~ msgstr "Hjälp och stöd"
+
+#~ msgid "Chakra community, mailing lists, chat rooms, Wiki documents, help and support pages..."
+#~ msgstr "Chakra gemenskap, sändlistor, IRC-kanaler, Wikis och hjälpsidor..."
+
+#~ msgid "Kapudan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
+#~ msgstr "Kapudan väljer automatiskt bästa teckenuppsättning baserat på ditt systemspråk. Om du vill använda en annan kan du göra ditt val och testa det direkt."
+
+#~ msgid "Test Layout"
+#~ msgstr "Testa layout"
+
+#~ msgid "You can also customize your <b>KDE menu</b> as you like. Please choose one from the following styles."
+#~ msgstr "Du kan också anpassa din <b>KDE-meny</b> som du vill. Välj en av följande stilar."
+
+#~ msgid "Sample"
+#~ msgstr "Smakprov"
+
+#~ msgid "The <b>clicking behavior</b> defines how many times you want to click when you are opening a file. If you are <b>left handed</b>, you may prefer to swap the left and right buttons of your pointing device."
+#~ msgstr "<b>Klickbeteendet</b> definierar hur många gånger du vill klicka för att öppna en fil. Om du är <b>vänsterhänt</b>, kanska du föredrar att växla funktion mellan höger och vänster knapp på ditt pekdon."
+
+#~ msgid "Clicking Behaviour"
+#~ msgstr "Klickbeteende"
+
+#~ msgid "Single-click to open files and folders"
+#~ msgstr "Enkelklicka för att öppna filer och dialoger"
+
+#~ msgid "Dou&ble-click to open files and folders"
+#~ msgstr "Dubbelklicka för att öppna filer och dialoger"
+
+#~ msgid "Button Order"
+#~ msgstr "Knappordning"
+
+#~ msgid "Right Hand"
+#~ msgstr "Högerhänt"
+
+#~ msgid "Left Hand"
+#~ msgstr "Vänsterhänt"
+
+#~ msgid "Reverse scrolling"
+#~ msgstr "Omvänd rullningsriktning"
+
+#~ msgid "Show updates in the system tray"
+#~ msgstr "Visa uppdateringar i systembrickan"
+
+#~ msgid "Check updates automatically every"
+#~ msgstr "Automatisk kontroll av uppdateringar var"
+
+#~ msgid " hours"
+#~ msgstr ":e timme"
+
+#~ msgid "To install and remove programs to Chakra, use Package-Manager. Package-Manager also can automatically install the latest updates available. You can set the period for checking new updates."
+#~ msgstr "Använd Pakethanteraren för att installera och ta bort program i Chakra. Pakethanteraren kan automatiskt installera de senaste uppdateringarna. Du kan välja uppdateringsintervall för det."
+
+#~ msgid "Updates"
+#~ msgstr "Uppdateringar"
+
+#~ msgid "Strigi Desktop Search indexes your frequently used files. This gives you very fast file search results. Strigi also can search for files based on their contents."
+#~ msgstr "Strigi skrivbordssökning indexerar dina mest använda filer. Det ger dig ett mycket snabbt filsökningsresultat. Strigi kan också söka filer beroende på deras innehåll."
+
+#~ msgid "Allow Strigi to index my files"
+#~ msgstr "Tillåt Strigi att indexera mina filer"
+
+#~ msgid "Search Options"
+#~ msgstr "Sökinställningar"
+
+#~ msgid "<b>Smolt</b> is a tool that collects the information in the following table and sends it to us for which lets us improve Chakra according to the user profile statistics."
+#~ msgstr "<b>Smolt</b> är ett verktyg som samlar in information i tabellen och skickar det till oss. Det låter oss förbättra Chakra enligt statistiken för användarprofilen."
+
+#~ msgid "&Send my profile"
+#~ msgstr "&Skicka min profil"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   Smolt will only send hardware and basic operating system information to the Chakra smolt server (smoon).  The only tie from the database to a submitters machine is the UUID.  As long as the submitter does not give out this UUID the submission is anonymous.  If at any point in time a user wants to delete their profile from the database they need only run</p>\n"
+#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">    <span style=\" font-style:italic;\">smoltDeleteProfile</span></p>\n"
+#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   The information sent to the smolt database server should be considered public in that anyone can view the statistics, data and share machine profiles.  In  many ways smolt is designed to get hardware vendors and other 3rd parties attention.  As such, not only will this information be shared with 3rd parties, we will be using smolt as leverage to gain better support for open source drivers and better support in general.</p>\n"
+#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" text-decoration: underline;\">IP Logging:</span>  In Chakra's smolt install all web traffic goes through a proxy server first.  This is the only place IP addresses are being logged and they are kept on that server for a period of 4 weeks at which time log rotation removes these logs.  The Chakra Project does not aggregate ip addresses in the smolt database.  These logs are private and will not be available to the general public.</p>\n"
+#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   Users unhappy with this policy should simply not use smolt.  Users with questions about this policy should contact the Chakra Infrastructure Team at admin [at] pardus.org.tr  Also remember that users can delete their profiles at any time using &quot;<span style=\" font-style:italic;\">smoltDeleteProfile</span>&quot;</p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   Smolt kommer bara att skickahårdvaru- och grundläggande operativsystemet information till Chakra smolt server (smoon). Det enda koppling från databasen till en klientmaskin är UUID. Så länge klienten inte ger ut detta UUID är datat anonymt. Om en användare vid något tillfälle vill ta bort sin profilfrån databasen behöver denne bara köra</p>\n"
+#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">    <span style=\" font-style:italic;\">smoltDeleteProfile</span></p>\n"
+#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   The information sent to the smolt database server should be considered public in that anyone can view the statistics, data and share machine profiles.  In  many ways smolt is designed to get hardware vendors and other 3rd parties attention.  As such, not only will this information be shared with 3rd parties, we will be using smolt as leverage to gain better support for open source drivers and better support in general.</p>\n"
+#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" text-decoration: underline;\">IP Logging:</span>  In Chakra's smolt install all web traffic goes through a proxy server first.  This is the only place IP addresses are being logged and they are kept on that server for a period of 4 weeks at which time log rotation removes these logs.  The Chakra Project does not aggregate ip addresses in the smolt database.  These logs are private and will not be available to the general public.</p>\n"
+#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   Users unhappy with this policy should simply not use smolt.  Users with questions about this policy should contact the Chakra Infrastructure Team at admin [at] pardus.org.tr  Also remember that users can delete their profiles at any time using &quot;<span style=\" font-style:italic;\">smoltDeleteProfile</span>&quot;</p></body></html>"
+
+#~ msgid "Choose your favorite theme and desktop type. Customize Chakra with colorful styles and themes."
+#~ msgstr "Välj ditt favorittema och skrivbordstyp. Anpassa Chakra med färgstarka stilar och teman."
+
+#~ msgid "KDE Themes"
+#~ msgstr "KDE-teman"
+
+#~ msgid "Icons"
+#~ msgstr "Ikoner"
+
+#~ msgid "Oxygen - The official icon set of KDE"
+#~ msgstr "Oxygen - Standardikontema för KDE"
+
+#~ msgid "Milky - The official icon set of Chakra"
+#~ msgstr "Milky - Standardikontema för Chakra"
+
+#~ msgid "Desktop Type"
+#~ msgstr "Skrivbordstyp"
+
+#~ msgid "Desktop view (KDE4 Style)"
+#~ msgstr "Skrivbordsvy (KDE4-stil)"
+
+#~ msgid "Folder view (KDE3 Style)"
+#~ msgstr "Katalogvy (KDE3-stil)"
+
+#~ msgid "Number of Desktops"
+#~ msgstr "Antal skrivbord"
+
+#~ msgid "styleName"
+#~ msgstr "styleName"
+
+#~ msgid "styleDesc"
+#~ msgstr "styleDesc"
+
+#~ msgid "You have successfully finished all steps. Here's a summary of the settings you want to apply. Click <b>Apply Settings</b> to save them now. You are now ready to enjoy Chakra!"
+#~ msgstr "Du har nu framgångsrikt fullföljt alla steg. Här är en sammanställning över de inställningar du valt, klicka <b>Nästa</b> för att spara dem. Du är nu redo för att ha roligt med Chakra."
+
+#~ msgid "The following settings will be applied"
+#~ msgstr "Följande inställningar kommer att tillämpas"
+
+#~ msgid "Choose your favorite wallpaper for Chakra. Don't forget to check out <b>Desktop Settings</b> for downloading new and cool wallpapers."
+#~ msgstr "Välj ditt favoritskrivbordsunderlägg till Chakra. Kom ihåg att kontrollera <b>Skrivbordsinställningarna</b> för hämtning av nya tuffa bilder."
+
+#~ msgid "Wallpapers"
+#~ msgstr "Skrivbordsunderlägg"
+
+#~ msgid "Choose wallpaper from file"
+#~ msgstr "Välj skrivbordsunderlägg från en fil"
+
+#~ msgid "Don't change wallpaper"
+#~ msgstr "Ändra inte skrivbordsunderlägg"
+
+#~ msgid "What is Chakra?"
+#~ msgstr "Vad är Chakra?"
+
+#~ msgid "<b>Chakra</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Chakra, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kapudan</b> will help you personalize your Chakra workspace easily and quickly. Please click <b>next</b> in order to begin."
+#~ msgstr "<b>Chakra</b> är ett pålitligt, säkert, snabbt och användarvänligt operativsystem.  <br /><br />Med Chakra kan du enkelt surfa, eposta, använda kontorsprogram, se filmer, spela musik, utveckla program, spela spel och mycket mer! <br /><br /> <b>Kapudan</b> låter dig enkelt och snabbt anpassa Chakra för att möta dina behov. Klicka <b>Nästa</b> för att börja."
+
+#~ msgid "wallPaperName"
+#~ msgstr "wallPaperName"
+
+#~ msgid "wallpaperDesc"
+#~ msgstr "wallpaperDesc"
+
+#~ msgid "Welcome to Chakra 2011 Alpha 1"
+#~ msgstr "Välkommen till Chakra 2009.2"
+
+#~ msgid "Connect to the Internet"
+#~ msgstr "Anslut till internet"
+
+#~ msgid "color: #642437;"
+#~ msgstr "color: #642437;"
+
+#~ msgid "Desktop search: <b>%s</b>"
+#~ msgstr "Skrivbordssökning: <b>%s</b>"
+
+#~ msgid "color: rgb(95, 34, 52);"
+#~ msgstr "color: rgb(95, 34, 52);"
+
+#~ msgid "color: rgb(234, 225, 228);"
+#~ msgstr "color: rgb(234, 225, 228);"
+
+#~ msgid "color:rgb(95, 34, 52)"
+#~ msgstr "color:rgb(95, 34, 52)"
+
+#~ msgid "&Back"
+#~ msgstr "Bakåt"
+
+#~ msgid "Easy Desktop Search"
+#~ msgstr "Enkel skrivbordssökning"
+
+#~ msgid "On"
+#~ msgstr "På"
+
+#~ msgid "Off"
+#~ msgstr "Av"
+
+#~ msgid "color: rgb(100, 36, 55);"
+#~ msgstr "color: rgb(100, 36, 55);"
+
+#~ msgid "Info about Pisi"
+#~ msgstr "Information om Pisi"
+
+#~ msgid "Enable Nepomuk Semantic Desktop"
+#~ msgstr "Aktivera Nepomuk semantiskt skrivbord"
+
+#~ msgid "Nepomuk  Semantic Desktop enables tagging and rating of files integrated with the Desktop Search."
+#~ msgstr "Nepomuk semantiskt skrivbord möjliggör märkning och klassificering integrerad med skrivbordssökningen."
+
+#~ msgid "(<i><u>Warning:</u> Sending profile requires to set up communication with Smolt server and can take between 30 seconds to a minute. Kapudan may freeze during this time.</i>)"
+#~ msgstr "(<i><u>Varning:</u> Att skicka profilen kräver kräver uppkopling mot smoltservern  och kan ta mellan 30 sekunder och en minut. Kapudan kan låsa sig under tiden.</i>)"
+
+#~ msgid "Desktop"
+#~ msgstr "Skrivbord"
+
+#~ msgid "No name"
+#~ msgstr "Inget namn"
+
+#~ msgid "An experimental menu for KDE4"
+#~ msgstr "En experimentell meny för KDE 4"
+
+#~ msgid "Lancelot"
+#~ msgstr "Menyn Lancelot"
+
+#~ msgid "Kick-off "
+#~ msgstr "Kick-off-menyn"
+
+#~ msgid ""
+#~ "This application, called Kapudan Desktop, will help you with your basic but sufficient setup for your Chakra desktop in a quick manner. Please click Next to personalize your desktop. \n"
+#~ "\n"
+#~ "Chakra is a GNU/Linux distribution, targeting at computer literate users' basic desktop needs; helps you connect to internet, read e-mails, work with office documents and more!"
+#~ msgstr ""
+#~ "Detta program, Kapudan Skrivbord, hjälper dig snabbt och enkelt sätt med de grundläggande men tillräckliga inställningarna för ditt Chakraskrivbord. Klicka på Nästa för att anpassa skrivbordet.\n"
+#~ "\n"
+#~ "Chakra är en GNU/Linux- distribution med inriktning på datoranvändarens grundläggande behov, du kan bland annat ansluta till Internet, läsa e-post och arbeta med Office-dokument!"
+
+#~ msgid "Strigi desktop search allows searching for files by content instead of just by name."
+#~ msgstr "Strigi skrivbordssökning möjliggör filsökning baserat på innehåll i stället för på namn."
+
+#~ msgid "An advanced menu for KDE4."
+#~ msgstr "En sofistikerad meny för KDE4."
+
+#~ msgid "An old style menu from KDE 3."
+#~ msgstr "En äldre typ av meny från KDE 3."
+
+#~ msgid "Default menu of Chakra GNU/Linux."
+#~ msgstr "Standardmeny för Chakra GNU/Linux."
+
+#~ msgid "Goodbye from Kapudan Wizard :)"
+#~ msgstr "Hej då från Kapudan :)"
+
+#~ msgid "Repo"
 #~ msgstr "Förråd"
 
-#~ msgid "Network"
-#~ msgstr "Nätverk"
-
-#~ msgid "To create a new connection click on <b>Create Profile</b> and select your adapter from the list. If your connection is wireless then choose and access point. After saving your profile click the checkbox to establish the connection."
-#~ msgstr "För att skapa en ny anslutning klickar du på <b>Skapa profil</b> och välj din adapter ur listan. Om din anslutning är trådlös väljer du också en accesspunkt. Efter det att du har sparat din profil, klicka i kryssrutan för att etablera anslutningen."
-
-#~ msgid "Network Manager (Press Apply to save your settings)"
-#~ msgstr "Nätverkshanteraren (Tryck Verkställ för att spara dina inställningar)"
-
-#~ msgid "Migration Wizard"
-#~ msgstr "Migreringsguiden"
-
-#~ msgid "A wizard to transfer files and settings from existing operating systems (e.g. Windows) to Chakra."
-#~ msgstr "En guide som överför filer och inställningar från befintliga operativsystem (t.ex. Windows) till Chakra."
-
-#~ msgid "Kapudan Desktop"
-#~ msgstr "Kapudan Skrivbord"
-
-#~ msgid "Welcome to Kapudan 2009.2"
-#~ msgstr "Välkommen till Kapudan!"
-
-#~ msgid "Insert some catchy title about keyboards.."
-#~ msgstr "Insert some catchy title about keyboards.."
-
-#~ msgid "Select your keyboard layout"
-#~ msgstr "Välj tangentbordslayout"
-
-#~ msgid "Some catchy title about styles"
-#~ msgstr "Some catchy title about styles"
-
-#~ msgid "Some catchy description about styles"
-#~ msgstr "Some catchy description about styles"
-
-#~ msgid "Configure your mouse"
-#~ msgstr "Anpassa mus"
-
-#~ msgid "Network Manager"
-#~ msgstr "Nätverkshanteraren"
-
-#~ msgid "Configure package manager settings"
-#~ msgstr "Anpassa Pakethanterarens inställningar"
-
-#~ msgid "Some catchy title about desktop search"
-#~ msgstr "Some catchy title about desktop search"
-
-#~ msgid "Some catchy description desktop search"
-#~ msgstr "Some catchy description desktop search"
-
-#~ msgid "Smolt Description"
-#~ msgstr "Beskrivning av Smolt"
-
-#~ msgid "Insert some catchy title about wallpapers.."
-#~ msgstr "Insert some catchy title about wallpapers.."
-
-#~ msgid "Wonderful, awesome, superb wallpapers! \\m/"
-#~ msgstr "Underbara, häftiga utsökta skrivbordsunderlägg! \\m/"
-
-#~ msgid ""
-#~ "#pictureMenuStyles{\n"
-#~ "border: 1px solid rgb(255, 255, 255);\n"
-#~ "}"
-#~ msgstr ""
-#~ "#pictureMenuStyles{\n"
-#~ "border: 1px solid rgb(255, 255, 255);\n"
-#~ "}"
-
-#~ msgid "Menu Styles"
-#~ msgstr "Menystil"
-
-#~ msgid "border: 1px solid rgb(236, 236, 236, 100);"
-#~ msgstr "border: 1px solid rgb(236, 236, 236, 100);"
-
-#~ msgid ""
-#~ "#listStyles{\n"
-#~ "background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 81), stop:0.00537634 rgba(95, 34, 52, 80), stop:1 rgba(255, 213, 230, 80));\n"
-#~ "\n"
-#~ "border: 1px solid rgb(236, 236, 236, 80);\n"
-#~ "\n"
-#~ "color: rgb(234, 225, 228);\n"
-#~ "}"
-#~ msgstr ""
-#~ "#listStyles{\n"
-#~ "background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 81), stop:0.00537634 rgba(95, 34, 52, 80), stop:1 rgba(255, 213, 230, 80));\n"
-#~ "\n"
-#~ "border: 1px solid rgb(236, 236, 236, 80);\n"
-#~ "\n"
-#~ "color: rgb(234, 225, 228);\n"
-#~ "}"
-
-#~ msgid ""
-#~ "#textSummary{background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 81), stop:0.00537634 rgba(95, 34, 52, 80), stop:1 rgba(255, 213, 230, 80));\n"
-#~ "\n"
-#~ "border: 1px solid rgb(236, 236, 236, 80);\n"
-#~ "padding: 20px}\n"
-#~ msgstr ""
-#~ "#textSummary{background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 81), stop:0.00537634 rgba(95, 34, 52, 80), stop:1 rgba(255, 213, 230, 80));\n"
-#~ "\n"
-#~ "border: 1px solid rgb(236, 236, 236, 80);\n"
-#~ "padding: 20px}\n"
-
-#~ msgid ""
-#~ "#listWallpaper{background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 81), stop:0.00537634 rgba(95, 34, 52, 80), stop:1 rgba(255, 213, 230, 80));\n"
-#~ "\n"
-#~ "border: 1px solid rgb(236, 236, 236, 80);}"
-#~ msgstr ""
-#~ "#listWallpaper{background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 81), stop:0.00537634 rgba(95, 34, 52, 80), stop:1 rgba(255, 213, 230, 80));\n"
-#~ "\n"
-#~ "border: 1px solid rgb(236, 236, 236, 80);}"
-
 #~ msgid ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 #~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 #~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">Your settings have been applied.</span><span style=\" font-size:10pt; color:#5f2234;\"> Now you can start enjoying Chakra or you can checkout the following links and applications for more settings or for help and support. Don't forget to </span><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">join our community!</span></p></body></html>"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Package-manager is the graphical front-end of PiSi. You can easily install new programs and upgrade your system and also can see new upgrades of the programs periodically from the system tray with package manager.</span></p></body></html>"
 #~ msgstr ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 #~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 #~ "p, li { white-space: pre-wrap; }\n"
 #~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt; font-weight:600;\">Dina inställningar kommer att sparas i nästa steg...</span></p></body></html>"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Pakethanteraren är Pisis grafiska framände. Du kan enkelt installera nya program och uppdatera ditt system. Du kan också se information om periodiska uppdateringar via systembrickan.</span></p></body></html>"
 
-#~ msgid "Try:"
-#~ msgstr "Testa:"
+#~ msgid "<p align=\"left\">If you are left-handed, you may prefer to swap the functions on the left and right buttons on your pointing device by choosing the \"Left handed\"option below. You can also select default click behaviour.</p>"
+#~ msgstr "<p align=\"left\">Om du är vänsterhänt kan du växla musknapparnas funktion genom att välja alternativet \"Vänsterhänt\" nedan. Du kan också välja klickbeteende.</p>"
 
-#~ msgid "Configure your keyboard layout."
-#~ msgstr "Anpassa tangentbordets layout."
+#~ msgid "Lancelot (Experimental Menu)"
+#~ msgstr "Lancelot (experimentell meny)"
+
+#~ msgid "Classic (Simple Menu)"
+#~ msgstr "Klassisk (enkel meny)"
+
+#~ msgid "Kick-off (Advanced Menu)"
+#~ msgstr "Kick-off (avancerad meny)"
+
+#~ msgid "User Groups and Help Pages"
+#~ msgstr "Användargrupper och hjälpsidor"
+
+#~ msgid "System Settings is a configuration tool for Chakra."
+#~ msgstr "Systeminställningar är ett verktyg för att anpassa Chakra."
+
+#~ msgid "Start"
+#~ msgstr "Kör"
+
+#~ msgid "Goodbye"
+#~ msgstr "Hej då"
 
 #~ msgid ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 #~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 #~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:#5f2234;\">You can also customize your </span><span style=\" font-weight:600; color:#5f2234;\">KDE menu</span><span style=\" color:#5f2234;\"> as you like. Please choose one from the following styles.</span></p></body></html>"
-#~ msgstr ""
-#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Välj en menystil:</span></p></body></html>"
-
-#~ msgid ""
-#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Droid Sans'; font-weight:600; color:#5f2234;\"> Menu Styles</span></p></body></html>"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:20pt; font-weight:600; color:#5f2234;\">Welcome to Chakra 2009.1 </span><span style=\" font-size:20pt; font-weight:600; color:#5f2234; vertical-align:super;\">beta</span></p></body></html>"
 #~ msgstr ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 #~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
@@ -622,27 +905,7 @@ msgstr "Välkommen till %s"
 #~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 #~ "p, li { white-space: pre-wrap; }\n"
 #~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; color:#5f2234;\">The </span><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">clicking behavior</span><span style=\" font-size:10pt; color:#5f2234;\"> defines how many times you want to click when you are opening a file.</span></p>\n"
-#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:10pt; color:#5f2234;\"></p>\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; color:#5f2234;\">If you are </span><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">left handed</span><span style=\" font-size:10pt; color:#5f2234;\">, you may prefer to swap the left and right buttons of your pointing device.</span></p></body></html>"
-#~ msgstr ""
-#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt; font-weight:600;\">Grattis! </span></p>\n"
-#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:11pt; font-weight:600;\"></p>\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:9pt; font-weight:600;\">Du har nu klarat av alla steg! Nu kan du fortsätta med att använda Chakra eller så kan du prova följande program:</span></p></body></html>"
-
-#~ msgid "mouse icon"
-#~ msgstr "Muspekare"
-
-#~ msgid ""
-#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; color:#5f2234;\">To create a new connection click on </span><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">Create Profile</span><span style=\" font-size:10pt; color:#5f2234;\"> and select your adapter from the list. If your connection is wireless then choose and access point. After saving your profile click the checkbox to establish the connection.</span></p></body></html>"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; color:#5f2234;\">Choose your favorite wallpaper for Chakra. Don't forget to check out </span><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">Desktop Settings</span><span style=\" font-size:10pt; color:#5f2234;\"> for downloading new and cool wallpapers.</span></p></body></html>"
 #~ msgstr ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 #~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
@@ -655,23 +918,7 @@ msgstr "Välkommen till %s"
 #~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 #~ "p, li { white-space: pre-wrap; }\n"
 #~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\"font-size:10pt; color:#5f2234;\">To install and remove programs to Chakra, use Package-Manager. Package-Manager also can automatically install the latest updates available. You can set the period for checking new updates.</span></p></body></html>"
-#~ msgstr ""
-#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt; font-weight:600;\">Dina inställningar kommer att sparas i nästa steg...</span></p></body></html>"
-
-#~ msgid "picture label"
-#~ msgstr "picture label"
-
-#~ msgid ""
-#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; color:#5f2234;\">Strigi Desktop Search indexes your frequently used files. This gives you very fast search results. Strigi also can search for files based on their contents.</span></p></body></html>"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; color:#5f2234;\">You have finished all steps successfully. Here's a summary of the settings you want to apply. Click </span><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">Apply Settings</span><span style=\" font-size:10pt; color:#5f2234;\"> to save them now. You are now ready to enjoy Chakra!</span></p></body></html>"
 #~ msgstr ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 #~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
@@ -684,20 +931,7 @@ msgstr "Välkommen till %s"
 #~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 #~ "p, li { white-space: pre-wrap; }\n"
 #~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">Smolt</span><span style=\" font-size:10pt; color:#5f2234;\"> is a tool that collects the information in the following table and sends it to us for which lets us improve Chakra according to the user profile statistics.</span></p></body></html>"
-#~ msgstr ""
-#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt; font-weight:600;\">Dina inställningar kommer att sparas i nästa steg...</span></p></body></html>"
-
-#~ msgid ""
-#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; color:#5f2234;\">Choose your favorite theme and desktop type. Customize Chakra with colorful styles and themes.</span></p></body></html>"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">Number of Desktops</span></p></body></html>"
 #~ msgstr ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 #~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
@@ -723,7 +957,7 @@ msgstr "Välkommen till %s"
 #~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 #~ "p, li { white-space: pre-wrap; }\n"
 #~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">Number of Desktops</span></p></body></html>"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; color:#5f2234;\">Choose your favorite theme and desktop type. Customize Chakra with colorful styles and themes.</span></p></body></html>"
 #~ msgstr ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 #~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
@@ -736,7 +970,7 @@ msgstr "Välkommen till %s"
 #~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 #~ "p, li { white-space: pre-wrap; }\n"
 #~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; color:#5f2234;\">You have finished all steps successfully. Here's a summary of the settings you want to apply. Click </span><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">Apply Settings</span><span style=\" font-size:10pt; color:#5f2234;\"> to save them now. You are now ready to enjoy Chakra!</span></p></body></html>"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">Smolt</span><span style=\" font-size:10pt; color:#5f2234;\"> is a tool that collects the information in the following table and sends it to us for which lets us improve Chakra according to the user profile statistics.</span></p></body></html>"
 #~ msgstr ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 #~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
@@ -749,7 +983,23 @@ msgstr "Välkommen till %s"
 #~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 #~ "p, li { white-space: pre-wrap; }\n"
 #~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; color:#5f2234;\">Choose your favorite wallpaper for Chakra. Don't forget to check out </span><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">Desktop Settings</span><span style=\" font-size:10pt; color:#5f2234;\"> for downloading new and cool wallpapers.</span></p></body></html>"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; color:#5f2234;\">Strigi Desktop Search indexes your frequently used files. This gives you very fast search results. Strigi also can search for files based on their contents.</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt; font-weight:600;\">Dina inställningar kommer att sparas i nästa steg...</span></p></body></html>"
+
+#~ msgid "picture label"
+#~ msgstr "picture label"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\"font-size:10pt; color:#5f2234;\">To install and remove programs to Chakra, use Package-Manager. Package-Manager also can automatically install the latest updates available. You can set the period for checking new updates.</span></p></body></html>"
 #~ msgstr ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 #~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
@@ -761,8 +1011,41 @@ msgstr "Välkommen till %s"
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 #~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 #~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:20pt; font-weight:600; color:#5f2234;\">Welcome to Chakra 2009.1 </span><span style=\" font-size:20pt; font-weight:600; color:#5f2234; vertical-align:super;\">beta</span></p></body></html>"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; color:#5f2234;\">To create a new connection click on </span><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">Create Profile</span><span style=\" font-size:10pt; color:#5f2234;\"> and select your adapter from the list. If your connection is wireless then choose and access point. After saving your profile click the checkbox to establish the connection.</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt; font-weight:600;\">Dina inställningar kommer att sparas i nästa steg...</span></p></body></html>"
+
+#~ msgid "mouse icon"
+#~ msgstr "Muspekare"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; color:#5f2234;\">The </span><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">clicking behavior</span><span style=\" font-size:10pt; color:#5f2234;\"> defines how many times you want to click when you are opening a file.</span></p>\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:10pt; color:#5f2234;\"></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; color:#5f2234;\">If you are </span><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">left handed</span><span style=\" font-size:10pt; color:#5f2234;\">, you may prefer to swap the left and right buttons of your pointing device.</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt; font-weight:600;\">Grattis! </span></p>\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:11pt; font-weight:600;\"></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:9pt; font-weight:600;\">Du har nu klarat av alla steg! Nu kan du fortsätta med att använda Chakra eller så kan du prova följande program:</span></p></body></html>"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Droid Sans'; font-weight:600; color:#5f2234;\"> Menu Styles</span></p></body></html>"
 #~ msgstr ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 #~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
@@ -770,435 +1053,152 @@ msgstr "Välkommen till %s"
 #~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 #~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Välj en menystil:</span></p></body></html>"
 
-#~ msgid "Goodbye"
-#~ msgstr "Hej då"
-
-#~ msgid "Start"
-#~ msgstr "Kör"
-
-#~ msgid "System Settings is a configuration tool for Chakra."
-#~ msgstr "Systeminställningar är ett verktyg för att anpassa Chakra."
-
-#~ msgid "User Groups and Help Pages"
-#~ msgstr "Användargrupper och hjälpsidor"
-
-#~ msgid "Kick-off (Advanced Menu)"
-#~ msgstr "Kick-off (avancerad meny)"
-
-#~ msgid "Classic (Simple Menu)"
-#~ msgstr "Klassisk (enkel meny)"
-
-#~ msgid "Lancelot (Experimental Menu)"
-#~ msgstr "Lancelot (experimentell meny)"
-
-#~ msgid "<p align=\"left\">If you are left-handed, you may prefer to swap the functions on the left and right buttons on your pointing device by choosing the \"Left handed\"option below. You can also select default click behaviour.</p>"
-#~ msgstr "<p align=\"left\">Om du är vänsterhänt kan du växla musknapparnas funktion genom att välja alternativet \"Vänsterhänt\" nedan. Du kan också välja klickbeteende.</p>"
-
 #~ msgid ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 #~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 #~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Package-manager is the graphical front-end of PiSi. You can easily install new programs and upgrade your system and also can see new upgrades of the programs periodically from the system tray with package manager.</span></p></body></html>"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:#5f2234;\">You can also customize your </span><span style=\" font-weight:600; color:#5f2234;\">KDE menu</span><span style=\" color:#5f2234;\"> as you like. Please choose one from the following styles.</span></p></body></html>"
 #~ msgstr ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 #~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 #~ "p, li { white-space: pre-wrap; }\n"
 #~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Pakethanteraren är Pisis grafiska framände. Du kan enkelt installera nya program och uppdatera ditt system. Du kan också se information om periodiska uppdateringar via systembrickan.</span></p></body></html>"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Välj en menystil:</span></p></body></html>"
 
-#~ msgid "Repo"
+#~ msgid "Configure your keyboard layout."
+#~ msgstr "Anpassa tangentbordets layout."
+
+#~ msgid "Try:"
+#~ msgstr "Testa:"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">Your settings have been applied.</span><span style=\" font-size:10pt; color:#5f2234;\"> Now you can start enjoying Chakra or you can checkout the following links and applications for more settings or for help and support. Don't forget to </span><span style=\" font-size:10pt; font-weight:600; color:#5f2234;\">join our community!</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt; font-weight:600;\">Dina inställningar kommer att sparas i nästa steg...</span></p></body></html>"
+
+#~ msgid ""
+#~ "#listWallpaper{background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 81), stop:0.00537634 rgba(95, 34, 52, 80), stop:1 rgba(255, 213, 230, 80));\n"
+#~ "\n"
+#~ "border: 1px solid rgb(236, 236, 236, 80);}"
+#~ msgstr ""
+#~ "#listWallpaper{background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 81), stop:0.00537634 rgba(95, 34, 52, 80), stop:1 rgba(255, 213, 230, 80));\n"
+#~ "\n"
+#~ "border: 1px solid rgb(236, 236, 236, 80);}"
+
+#~ msgid ""
+#~ "#textSummary{background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 81), stop:0.00537634 rgba(95, 34, 52, 80), stop:1 rgba(255, 213, 230, 80));\n"
+#~ "\n"
+#~ "border: 1px solid rgb(236, 236, 236, 80);\n"
+#~ "padding: 20px}\n"
+#~ msgstr ""
+#~ "#textSummary{background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 81), stop:0.00537634 rgba(95, 34, 52, 80), stop:1 rgba(255, 213, 230, 80));\n"
+#~ "\n"
+#~ "border: 1px solid rgb(236, 236, 236, 80);\n"
+#~ "padding: 20px}\n"
+
+#~ msgid ""
+#~ "#listStyles{\n"
+#~ "background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 81), stop:0.00537634 rgba(95, 34, 52, 80), stop:1 rgba(255, 213, 230, 80));\n"
+#~ "\n"
+#~ "border: 1px solid rgb(236, 236, 236, 80);\n"
+#~ "\n"
+#~ "color: rgb(234, 225, 228);\n"
+#~ "}"
+#~ msgstr ""
+#~ "#listStyles{\n"
+#~ "background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 81), stop:0.00537634 rgba(95, 34, 52, 80), stop:1 rgba(255, 213, 230, 80));\n"
+#~ "\n"
+#~ "border: 1px solid rgb(236, 236, 236, 80);\n"
+#~ "\n"
+#~ "color: rgb(234, 225, 228);\n"
+#~ "}"
+
+#~ msgid "border: 1px solid rgb(236, 236, 236, 100);"
+#~ msgstr "border: 1px solid rgb(236, 236, 236, 100);"
+
+#~ msgid "Menu Styles"
+#~ msgstr "Menystil"
+
+#~ msgid ""
+#~ "#pictureMenuStyles{\n"
+#~ "border: 1px solid rgb(255, 255, 255);\n"
+#~ "}"
+#~ msgstr ""
+#~ "#pictureMenuStyles{\n"
+#~ "border: 1px solid rgb(255, 255, 255);\n"
+#~ "}"
+
+#~ msgid "Wonderful, awesome, superb wallpapers! \\m/"
+#~ msgstr "Underbara, häftiga utsökta skrivbordsunderlägg! \\m/"
+
+#~ msgid "Insert some catchy title about wallpapers.."
+#~ msgstr "Insert some catchy title about wallpapers.."
+
+#~ msgid "Smolt Description"
+#~ msgstr "Beskrivning av Smolt"
+
+#~ msgid "Some catchy description desktop search"
+#~ msgstr "Some catchy description desktop search"
+
+#~ msgid "Some catchy title about desktop search"
+#~ msgstr "Some catchy title about desktop search"
+
+#~ msgid "Configure package manager settings"
+#~ msgstr "Anpassa Pakethanterarens inställningar"
+
+#~ msgid "Network Manager"
+#~ msgstr "Nätverkshanteraren"
+
+#~ msgid "Configure your mouse"
+#~ msgstr "Anpassa mus"
+
+#~ msgid "Some catchy description about styles"
+#~ msgstr "Some catchy description about styles"
+
+#~ msgid "Some catchy title about styles"
+#~ msgstr "Some catchy title about styles"
+
+#~ msgid "Select your keyboard layout"
+#~ msgstr "Välj tangentbordslayout"
+
+#~ msgid "Insert some catchy title about keyboards.."
+#~ msgstr "Insert some catchy title about keyboards.."
+
+#~ msgid "Welcome to Kapudan 2009.2"
+#~ msgstr "Välkommen till Kapudan!"
+
+#~ msgid "Kapudan Desktop"
+#~ msgstr "Kapudan Skrivbord"
+
+#~ msgid "A wizard to transfer files and settings from existing operating systems (e.g. Windows) to Chakra."
+#~ msgstr "En guide som överför filer och inställningar från befintliga operativsystem (t.ex. Windows) till Chakra."
+
+#~ msgid "Migration Wizard"
+#~ msgstr "Migreringsguiden"
+
+#~ msgid "Network Manager (Press Apply to save your settings)"
+#~ msgstr "Nätverkshanteraren (Tryck Verkställ för att spara dina inställningar)"
+
+#~ msgid "To create a new connection click on <b>Create Profile</b> and select your adapter from the list. If your connection is wireless then choose and access point. After saving your profile click the checkbox to establish the connection."
+#~ msgstr "För att skapa en ny anslutning klickar du på <b>Skapa profil</b> och välj din adapter ur listan. Om din anslutning är trådlös väljer du också en accesspunkt. Efter det att du har sparat din profil, klicka i kryssrutan för att etablera anslutningen."
+
+#~ msgid "Network"
+#~ msgstr "Nätverk"
+
+#~ msgid "Repositories"
 #~ msgstr "Förråd"
 
-#~ msgid "Goodbye from Kapudan Wizard :)"
-#~ msgstr "Hej då från Kapudan :)"
-
-#~ msgid "Default menu of Chakra GNU/Linux."
-#~ msgstr "Standardmeny för Chakra GNU/Linux."
-
-#~ msgid "An old style menu from KDE 3."
-#~ msgstr "En äldre typ av meny från KDE 3."
-
-#~ msgid "An advanced menu for KDE4."
-#~ msgstr "En sofistikerad meny för KDE4."
-
-#~ msgid "Strigi desktop search allows searching for files by content instead of just by name."
-#~ msgstr "Strigi skrivbordssökning möjliggör filsökning baserat på innehåll i stället för på namn."
-
-#~ msgid ""
-#~ "This application, called Kapudan Desktop, will help you with your basic but sufficient setup for your Chakra desktop in a quick manner. Please click Next to personalize your desktop. \n"
-#~ "\n"
-#~ "Chakra is a GNU/Linux distribution, targeting at computer literate users' basic desktop needs; helps you connect to internet, read e-mails, work with office documents and more!"
-#~ msgstr ""
-#~ "Detta program, Kapudan Skrivbord, hjälper dig snabbt och enkelt sätt med de grundläggande men tillräckliga inställningarna för ditt Chakraskrivbord. Klicka på Nästa för att anpassa skrivbordet.\n"
-#~ "\n"
-#~ "Chakra är en GNU/Linux- distribution med inriktning på datoranvändarens grundläggande behov, du kan bland annat ansluta till Internet, läsa e-post och arbeta med Office-dokument!"
-
-#~ msgid "Kick-off "
-#~ msgstr "Kick-off-menyn"
-
-#~ msgid "Lancelot"
-#~ msgstr "Menyn Lancelot"
-
-#~ msgid "An experimental menu for KDE4"
-#~ msgstr "En experimentell meny för KDE 4"
-
-#~ msgid "No name"
-#~ msgstr "Inget namn"
-
-#~ msgid "Desktop"
-#~ msgstr "Skrivbord"
-
-#~ msgid "(<i><u>Warning:</u> Sending profile requires to set up communication with Smolt server and can take between 30 seconds to a minute. Kapudan may freeze during this time.</i>)"
-#~ msgstr "(<i><u>Varning:</u> Att skicka profilen kräver kräver uppkopling mot smoltservern  och kan ta mellan 30 sekunder och en minut. Kapudan kan låsa sig under tiden.</i>)"
-
-#~ msgid "Nepomuk  Semantic Desktop enables tagging and rating of files integrated with the Desktop Search."
-#~ msgstr "Nepomuk semantiskt skrivbord möjliggör märkning och klassificering integrerad med skrivbordssökningen."
-
-#~ msgid "Enable Nepomuk Semantic Desktop"
-#~ msgstr "Aktivera Nepomuk semantiskt skrivbord"
-
-#~ msgid "Info about Pisi"
-#~ msgstr "Information om Pisi"
-
-#~ msgid "color: rgb(100, 36, 55);"
-#~ msgstr "color: rgb(100, 36, 55);"
-
-#~ msgid "Off"
-#~ msgstr "Av"
-
-#~ msgid "On"
-#~ msgstr "På"
-
-#~ msgid "Easy Desktop Search"
-#~ msgstr "Enkel skrivbordssökning"
-
-#~ msgid "&Back"
-#~ msgstr "Bakåt"
-
-#~ msgid "color:rgb(95, 34, 52)"
-#~ msgstr "color:rgb(95, 34, 52)"
-
-#~ msgid "color: rgb(234, 225, 228);"
-#~ msgstr "color: rgb(234, 225, 228);"
-
-#~ msgid "color: rgb(95, 34, 52);"
-#~ msgstr "color: rgb(95, 34, 52);"
-
-#~ msgid "Desktop search: <b>%s</b>"
-#~ msgstr "Skrivbordssökning: <b>%s</b>"
-
-#~ msgid "color: #642437;"
-#~ msgstr "color: #642437;"
-
-#~ msgid "Connect to the Internet"
-#~ msgstr "Anslut till internet"
-
-#~ msgid "Welcome to Chakra 2011 Alpha 1"
-#~ msgstr "Välkommen till Chakra 2009.2"
-
-#~ msgid "wallpaperDesc"
-#~ msgstr "wallpaperDesc"
-
-#~ msgid "wallPaperName"
-#~ msgstr "wallPaperName"
-
-#~ msgid "<b>Chakra</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Chakra, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kapudan</b> will help you personalize your Chakra workspace easily and quickly. Please click <b>next</b> in order to begin."
-#~ msgstr "<b>Chakra</b> är ett pålitligt, säkert, snabbt och användarvänligt operativsystem.  <br /><br />Med Chakra kan du enkelt surfa, eposta, använda kontorsprogram, se filmer, spela musik, utveckla program, spela spel och mycket mer! <br /><br /> <b>Kapudan</b> låter dig enkelt och snabbt anpassa Chakra för att möta dina behov. Klicka <b>Nästa</b> för att börja."
-
-#~ msgid "What is Chakra?"
-#~ msgstr "Vad är Chakra?"
-
-#~ msgid "Don't change wallpaper"
-#~ msgstr "Ändra inte skrivbordsunderlägg"
-
-#~ msgid "Choose wallpaper from file"
-#~ msgstr "Välj skrivbordsunderlägg från en fil"
-
-#~ msgid "Wallpapers"
-#~ msgstr "Skrivbordsunderlägg"
-
-#~ msgid "Choose your favorite wallpaper for Chakra. Don't forget to check out <b>Desktop Settings</b> for downloading new and cool wallpapers."
-#~ msgstr "Välj ditt favoritskrivbordsunderlägg till Chakra. Kom ihåg att kontrollera <b>Skrivbordsinställningarna</b> för hämtning av nya tuffa bilder."
-
-#~ msgid "The following settings will be applied"
-#~ msgstr "Följande inställningar kommer att tillämpas"
-
-#~ msgid "You have successfully finished all steps. Here's a summary of the settings you want to apply. Click <b>Apply Settings</b> to save them now. You are now ready to enjoy Chakra!"
-#~ msgstr "Du har nu framgångsrikt fullföljt alla steg. Här är en sammanställning över de inställningar du valt, klicka <b>Nästa</b> för att spara dem. Du är nu redo för att ha roligt med Chakra."
-
-#~ msgid "styleDesc"
-#~ msgstr "styleDesc"
-
-#~ msgid "styleName"
-#~ msgstr "styleName"
-
-#~ msgid "Number of Desktops"
-#~ msgstr "Antal skrivbord"
-
-#~ msgid "Folder view (KDE3 Style)"
-#~ msgstr "Katalogvy (KDE3-stil)"
-
-#~ msgid "Desktop view (KDE4 Style)"
-#~ msgstr "Skrivbordsvy (KDE4-stil)"
-
-#~ msgid "Desktop Type"
-#~ msgstr "Skrivbordstyp"
-
-#~ msgid "Milky - The official icon set of Chakra"
-#~ msgstr "Milky - Standardikontema för Chakra"
-
-#~ msgid "Oxygen - The official icon set of KDE"
-#~ msgstr "Oxygen - Standardikontema för KDE"
-
-#~ msgid "Icons"
-#~ msgstr "Ikoner"
-
-#~ msgid "KDE Themes"
-#~ msgstr "KDE-teman"
-
-#~ msgid "Choose your favorite theme and desktop type. Customize Chakra with colorful styles and themes."
-#~ msgstr "Välj ditt favorittema och skrivbordstyp. Anpassa Chakra med färgstarka stilar och teman."
-
-#~ msgid ""
-#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   Smolt will only send hardware and basic operating system information to the Chakra smolt server (smoon).  The only tie from the database to a submitters machine is the UUID.  As long as the submitter does not give out this UUID the submission is anonymous.  If at any point in time a user wants to delete their profile from the database they need only run</p>\n"
-#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">    <span style=\" font-style:italic;\">smoltDeleteProfile</span></p>\n"
-#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   The information sent to the smolt database server should be considered public in that anyone can view the statistics, data and share machine profiles.  In  many ways smolt is designed to get hardware vendors and other 3rd parties attention.  As such, not only will this information be shared with 3rd parties, we will be using smolt as leverage to gain better support for open source drivers and better support in general.</p>\n"
-#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" text-decoration: underline;\">IP Logging:</span>  In Chakra's smolt install all web traffic goes through a proxy server first.  This is the only place IP addresses are being logged and they are kept on that server for a period of 4 weeks at which time log rotation removes these logs.  The Chakra Project does not aggregate ip addresses in the smolt database.  These logs are private and will not be available to the general public.</p>\n"
-#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   Users unhappy with this policy should simply not use smolt.  Users with questions about this policy should contact the Chakra Infrastructure Team at admin [at] pardus.org.tr  Also remember that users can delete their profiles at any time using &quot;<span style=\" font-style:italic;\">smoltDeleteProfile</span>&quot;</p></body></html>"
-#~ msgstr ""
-#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   Smolt kommer bara att skickahårdvaru- och grundläggande operativsystemet information till Chakra smolt server (smoon). Det enda koppling från databasen till en klientmaskin är UUID. Så länge klienten inte ger ut detta UUID är datat anonymt. Om en användare vid något tillfälle vill ta bort sin profilfrån databasen behöver denne bara köra</p>\n"
-#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">    <span style=\" font-style:italic;\">smoltDeleteProfile</span></p>\n"
-#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   The information sent to the smolt database server should be considered public in that anyone can view the statistics, data and share machine profiles.  In  many ways smolt is designed to get hardware vendors and other 3rd parties attention.  As such, not only will this information be shared with 3rd parties, we will be using smolt as leverage to gain better support for open source drivers and better support in general.</p>\n"
-#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" text-decoration: underline;\">IP Logging:</span>  In Chakra's smolt install all web traffic goes through a proxy server first.  This is the only place IP addresses are being logged and they are kept on that server for a period of 4 weeks at which time log rotation removes these logs.  The Chakra Project does not aggregate ip addresses in the smolt database.  These logs are private and will not be available to the general public.</p>\n"
-#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   Users unhappy with this policy should simply not use smolt.  Users with questions about this policy should contact the Chakra Infrastructure Team at admin [at] pardus.org.tr  Also remember that users can delete their profiles at any time using &quot;<span style=\" font-style:italic;\">smoltDeleteProfile</span>&quot;</p></body></html>"
-
-#~ msgid "&Send my profile"
-#~ msgstr "&Skicka min profil"
-
-#~ msgid "<b>Smolt</b> is a tool that collects the information in the following table and sends it to us for which lets us improve Chakra according to the user profile statistics."
-#~ msgstr "<b>Smolt</b> är ett verktyg som samlar in information i tabellen och skickar det till oss. Det låter oss förbättra Chakra enligt statistiken för användarprofilen."
-
-#~ msgid "Search Options"
-#~ msgstr "Sökinställningar"
-
-#~ msgid "Allow Strigi to index my files"
-#~ msgstr "Tillåt Strigi att indexera mina filer"
-
-#~ msgid "Strigi Desktop Search indexes your frequently used files. This gives you very fast file search results. Strigi also can search for files based on their contents."
-#~ msgstr "Strigi skrivbordssökning indexerar dina mest använda filer. Det ger dig ett mycket snabbt filsökningsresultat. Strigi kan också söka filer beroende på deras innehåll."
-
-#~ msgid "Updates"
-#~ msgstr "Uppdateringar"
-
-#~ msgid "To install and remove programs to Chakra, use Package-Manager. Package-Manager also can automatically install the latest updates available. You can set the period for checking new updates."
-#~ msgstr "Använd Pakethanteraren för att installera och ta bort program i Chakra. Pakethanteraren kan automatiskt installera de senaste uppdateringarna. Du kan välja uppdateringsintervall för det."
-
-#~ msgid " hours"
-#~ msgstr ":e timme"
-
-#~ msgid "Check updates automatically every"
-#~ msgstr "Automatisk kontroll av uppdateringar var"
-
-#~ msgid "Show updates in the system tray"
-#~ msgstr "Visa uppdateringar i systembrickan"
-
-#~ msgid "Reverse scrolling"
-#~ msgstr "Omvänd rullningsriktning"
-
-#~ msgid "Left Hand"
-#~ msgstr "Vänsterhänt"
-
-#~ msgid "Right Hand"
-#~ msgstr "Högerhänt"
-
-#~ msgid "Button Order"
-#~ msgstr "Knappordning"
-
-#~ msgid "Dou&ble-click to open files and folders"
-#~ msgstr "Dubbelklicka för att öppna filer och dialoger"
-
-#~ msgid "Single-click to open files and folders"
-#~ msgstr "Enkelklicka för att öppna filer och dialoger"
-
-#~ msgid "Clicking Behaviour"
-#~ msgstr "Klickbeteende"
-
-#~ msgid "The <b>clicking behavior</b> defines how many times you want to click when you are opening a file. If you are <b>left handed</b>, you may prefer to swap the left and right buttons of your pointing device."
-#~ msgstr "<b>Klickbeteendet</b> definierar hur många gånger du vill klicka för att öppna en fil. Om du är <b>vänsterhänt</b>, kanska du föredrar att växla funktion mellan höger och vänster knapp på ditt pekdon."
-
-#~ msgid "Sample"
-#~ msgstr "Smakprov"
-
-#~ msgid "You can also customize your <b>KDE menu</b> as you like. Please choose one from the following styles."
-#~ msgstr "Du kan också anpassa din <b>KDE-meny</b> som du vill. Välj en av följande stilar."
-
-#~ msgid "Test Layout"
-#~ msgstr "Testa layout"
-
-#~ msgid "Kapudan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
-#~ msgstr "Kapudan väljer automatiskt bästa teckenuppsättning baserat på ditt systemspråk. Om du vill använda en annan kan du göra ditt val och testa det direkt."
-
-#~ msgid "Chakra community, mailing lists, chat rooms, Wiki documents, help and support pages..."
-#~ msgstr "Chakra gemenskap, sändlistor, IRC-kanaler, Wikis och hjälpsidor..."
-
-#~ msgid "Help and Support"
-#~ msgstr "Hjälp och stöd"
-
-#~ msgid "Configuration tools for Chakra such as the display, firewall, keyboard, user manager..."
-#~ msgstr "Inställningsverktyg för Chakra så som för bildskärm, brandvägg, tangentbord användarhantering..."
-
-#~ msgid "System Settings"
-#~ msgstr "Systeminställningar"
-
-#~ msgid "Go to your Smolt page and rate your hardware components."
-#~ msgstr "Gå till din Smoltsida och betygsätt din hårdvara."
-
-#~ msgid "My Smolt Page"
-#~ msgstr "Min Smoltsida"
-
-#~ msgid "<b>Your settings have been applied.</b> Now you can start enjoying Chakra or you can checkout the following links and applications for more settings or for help and support. Don't forget to <b>join our community!</b>"
-#~ msgstr "<b>Dina inställningar har verkställts.</b> Nu kan du njuta av Chakra eller så kan du följa dessa länkar och program för ytterligare inställningar och hjälp. Glöm inte bort <b>att gå med i vår gemenskap!</b>"
-
-#~ msgid "Recapture"
-#~ msgstr "Fånga på nytt"
-
-#~ msgid "Capture"
-#~ msgstr "Fånga"
-
-#~ msgid "Choose an image"
-#~ msgstr "Välj en bild"
-
-#~ msgid "Options"
-#~ msgstr "Alternativ"
-
-#~ msgid "This screen helps you set your <b>user picture</b>. You can either choose an image from a file or you can capture an image from your camera. Select an option from the <b>options</b> menu."
-#~ msgstr "Den här skärmen hjälper dig välja <b>användarbild</b>. Du kan antingen välja en bild från en fil eller så kan du ta en bild med din kamera. Välj ett av alternativen."
-
-#~ msgid "Form"
-#~ msgstr "Form"
-
-#~ msgid "Apply Settings"
-#~ msgstr "Verkställ"
-
-#~ msgid "Next"
-#~ msgstr "Nästa"
-
-#~ msgid "Back"
-#~ msgstr "Bakåt"
-
-#~ msgid "Cancel"
-#~ msgstr "Avbryt"
-
-#~ msgid "Welcome to Chakra"
-#~ msgstr "Välkommen till Chakra"
-
-#~ msgid "Send my profile: <b>%s</b>"
-#~ msgstr "Skicka min profil: <b>%s</b>"
-
-#~ msgid "Smolt Settings"
-#~ msgstr "Smoltinställning"
-
-#~ msgid "No"
-#~ msgstr "Nej"
-
-#~ msgid "Yes"
-#~ msgstr "Ja"
-
-#~ msgid "SELinux Enforce"
-#~ msgstr "SELinux Enforce"
-
-#~ msgid "SELinux Policy"
-#~ msgstr "SELinux Policy"
-
-#~ msgid "SELinux Enabled"
-#~ msgstr "SELinux Enabled"
-
-#~ msgid "Kernel"
-#~ msgstr "Kärna"
-
-#~ msgid "Form Factor"
-#~ msgstr "Formfaktor"
-
-#~ msgid "System"
-#~ msgstr "System"
-
-#~ msgid "Vendor"
-#~ msgstr "Tillverkare"
-
-#~ msgid "System Swap"
-#~ msgstr "Växling"
-
-#~ msgid "System Memory"
-#~ msgstr "Systemminne"
-
-#~ msgid "CPU Speed"
-#~ msgstr "CPU-hastighet"
-
-#~ msgid "Number of CPUs"
-#~ msgstr "Antal CPU"
-
-#~ msgid "CPU Model Num"
-#~ msgstr "Processormodell"
-
-#~ msgid "CPU Family"
-#~ msgstr "Processorfamilj"
-
-#~ msgid "CPU Stepping"
-#~ msgstr "Processorskalning"
-
-#~ msgid "CPU Model"
-#~ msgstr "CPU-modell"
-
-#~ msgid "CPU Vendor"
-#~ msgstr "CPU-tillverkare"
-
-#~ msgid "BogoMIPS"
-#~ msgstr "BogoMIPS"
-
-#~ msgid "Platform"
-#~ msgstr "Plattform"
-
-#~ msgid "Language"
-#~ msgstr "Språk"
-
-#~ msgid "Default Run Level"
-#~ msgstr "Standard körnivå"
-
-#~ msgid "OS"
-#~ msgstr "OS"
-
-#~ msgid "UUID"
-#~ msgstr "UUID"
-
-#~ msgid "&Privacy policy"
-#~ msgstr "Integritetspolicy"
-
-#~ msgid "&Host Information"
-#~ msgstr "&Värdinformation"
-
-#~ msgid "Data"
-#~ msgstr "Data"
-
-#~ msgid "Label"
-#~ msgstr "Etikett"
-
-#~ msgid "Help Chakra Improve!"
-#~ msgstr "Hjälp till att förbättra Chakra!"
-
-#~ msgid "Smolt"
-#~ msgstr "Smolt"
-
-#~ msgid "Welcome Wizard"
-#~ msgstr "Välkomstguide"
-
-#~ msgid "Kapudan"
-#~ msgstr "Kapudan"
+#~ msgid "Add contrib repository"
+#~ msgstr "Lägg till contrib-förrådet"
+
+#~ msgid "Contrib repository includes extra and handy programs."
+#~ msgstr "Contrib-förrådet innehåller flera behjälpliga program."

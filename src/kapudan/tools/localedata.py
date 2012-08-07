@@ -11,7 +11,7 @@
 # Software Foundation; either version 2 of the License, or (at your option)
 # any later version.
 #
-# Please read the COPYING file.
+# Please read the COPYING fileÇ
 #
 
 """localedata module provides locale information."""
@@ -44,6 +44,10 @@ class Language:
             if keymap.name is None:
                 keymap.name = self.name
 
+# FIXME: All or most languages probably must be changed now, because
+# Chakra doesn't have /etc/mudur/language. Collect as many languages
+# (output of setxkbmap pipe in scrKeyboard.py) as possible, and fix
+# these.
 languages = {
     "tr":   Language(
         name                = _("Turkish"),
@@ -56,12 +60,12 @@ languages = {
         ]
     ),
 
-    "en":   Language(
+    "us":   Language(
         name                = _("English"),
-        locale              = "en_US.UTF-8"
+        locale              = "en_US.UTF-8",
     ),
 
-    "en_GB":    Language(
+    "gb":    Language(
         name                = _("English GB"),
         locale              = "en_GB.UTF-8",
         keymaps             = [Keymap("uk", "gb")]
@@ -219,7 +223,7 @@ languages = {
         keymaps             = [Keymap("pt-latin1", "pt")]
     ),
 
-    "pt_BR":   Language(
+    "br":   Language(
         name                = _("Brazilian"),
         locale              = "pt_BR.UTF-8",
         keymaps             = [Keymap("br-abnt2", "br")]
