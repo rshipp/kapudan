@@ -4,7 +4,7 @@
 # Maintainer: george <george[at]chakra-project.org>
 
 pkgname=kapudan
-pkgver=20120806
+pkgver=20120807
 pkgrel=1
 pkgdesc="Chakra's desktop greeter, a fork of Pardus's Kaptan."
 arch=('i686' 'x86_64')
