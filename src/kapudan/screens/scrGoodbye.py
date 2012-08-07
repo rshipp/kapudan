@@ -40,8 +40,8 @@ class Widget(QtGui.QWidget, Screen):
             self.beginnersGuideUrl = "http://chakra-linux.org/wiki/index.php/Beginners_Guide/" + lang
         else:
             self.beginnersGuideUrl = "http://chakra-linux.org/wiki/index.php/Beginners_Guide"
-        
-        self.autofile = os.path.expanduser("~/.kde4/Autostart/kapudan.desktop")
+
+        self.autofile = os.path.expanduser("~/.config/autostart/kapudan.desktop")
         self.gautofile = "/usr/share/kde4/apps/kapudan/kapudan/kapudan-autostart.desktop"
 
         self.ui.autostart.setChecked(False)
