@@ -30,3 +30,16 @@ Testing (for Developers)
 
     ./go
 
+
+Translations
+------------
+* To generate translations (for developers):
+
+    python2 setup.py update_messages
+
+* To edit translations (for translators):
+    
+    Open the correct .po file for your language in Lokalize, and
+    correct/add the translated strings. Then save the file, and submit a
+    merge request on Gitorious (if you use git), or mail it to george at
+    chakra-project dot org.
