@@ -19,7 +19,9 @@ makedepends=('python-distribute' 'git')
 optdepends=('spun: update notifications'
             'clamav: for the security page')
 source=("http://chakra-linux.org/sources/${pkgname}/${pkgname}-${pkgver}.tar.xz")
-md5sums=('c9bd8288f6e572c6ca1c64ebf2279921')
+md5sums=('ad47fb92a8f863338b97aed0cee1f38d')
+
+# create tarball: source PKGBUILD && mksource
 
 mksource() {
     git clone git://gitorious.org/chakra/${pkgname}.git ${pkgname}
@@ -32,7 +34,7 @@ mksource() {
 
 package() {
     cd "${srcdir}/${pkgname}"
-    python2 setup.py install --root="${pkgdir}" #--prefix="/usr"
+    python2 setup.py install --root="${pkgdir}"
     install -Dm755 kapudan-rootactions "${pkgdir}/usr/bin/kapudan-rootactions"
     install -Dm755 kapudan.desktop "${pkgdir}/usr/share/applications/kapudan.desktop"
     install -Dm644 data/kapudan.svgz \
