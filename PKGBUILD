@@ -1,5 +1,5 @@
 #
-# Apps Packages for Chakra, part of chakra-project.org
+# Desktop Packages for Chakra, part of chakra-project.org
 # 
 # Maintainer: george <george[at]chakra-project.org>
 
