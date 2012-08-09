@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-07 16:10-0600\n"
+"POT-Creation-Date: 2012-08-09 17:23-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -249,7 +249,7 @@ msgid "Takeoff Menu"
 msgstr "Kick-off Menu"
 
 #: .tmp/scrMenu.py:64
-msgid "Takeoff is a full screen menu.<br><br> Inspired in the aspect of Slingshot and the OS X Launchpad menu but adapted to the KDE users in a plasmoid."
+msgid "Takeoff is a full screen menu, inspired by Slingshot and the OS X Launchpad menu but adapted to work with KDE as a plasmoid."
 msgstr ""
 
 #: .tmp/scrMouse.py:32
@@ -450,126 +450,126 @@ msgstr "Zapraszamy"
 msgid "Welcome to %s"
 msgstr "Zapraszamy do %s"
 
-#~ msgid "Kapudan"
-#~ msgstr "Kapudan"
+#~ msgid "Left Hand"
+#~ msgstr "Leworczni"
 
-#~ msgid "Welcome to Chakra"
-#~ msgstr "Zapraszamy do korzystania z Chakra"
+#~ msgid "Right Hand"
+#~ msgstr "Praworczni"
 
-#~ msgid "Cancel"
-#~ msgstr "Koniec"
+#~ msgid "Help and Support"
+#~ msgstr "Pomoc i wsparcie"
 
-#~ msgid "Back"
-#~ msgstr "Wstecz"
+#~ msgid "System Settings"
+#~ msgstr "Ustawienia systemu"
 
-#~ msgid "Next"
-#~ msgstr "Dalej"
+#~ msgid "Search Options"
+#~ msgstr "Opcje wyszukiwania"
 
-#~ msgid "Apply Settings"
-#~ msgstr "Akceptuj ustawienia"
+#~ msgid "Updates"
+#~ msgstr "Aktualizacje"
 
-#~ msgid "Data"
-#~ msgstr "Data"
-
-#~ msgid "UUID"
-#~ msgstr "UUID"
-
-#~ msgid "OS"
-#~ msgstr "OS"
-
-#~ msgid "Language"
-#~ msgstr "Jzyk"
-
-#~ msgid "Platform"
-#~ msgstr "Platforma"
-
-#~ msgid "CPU Vendor"
-#~ msgstr "Producent procesora"
-
-#~ msgid "CPU Model"
-#~ msgstr "Model Procesora"
-
-#~ msgid "Number of CPUs"
-#~ msgstr "Liczba procesorw"
-
-#~ msgid "CPU Speed"
-#~ msgstr "Czstotliwo procesora"
-
-#~ msgid "System Memory"
-#~ msgstr "Pami"
-
-#~ msgid "System Swap"
-#~ msgstr "Pami wymiany (SWAP)"
-
-#~ msgid "Vendor"
-#~ msgstr "Dostawca"
-
-#~ msgid "Kernel"
-#~ msgstr "Jdro"
-
-#~ msgid "Yes"
-#~ msgstr "Tak"
-
-#~ msgid "No"
-#~ msgstr "Nie"
-
-#~ msgid "KDE Themes"
-#~ msgstr "Wygld KDE"
-
-#~ msgid "Icons"
-#~ msgstr "Ikony"
-
-#~ msgid "Desktop Type"
-#~ msgstr "Typ pulpitu"
-
-#~ msgid "Number of Desktops"
-#~ msgstr "Liczba pulpitw"
-
-#~ msgid "Options"
-#~ msgstr "Opcje"
-
-#~ msgid "Choose an image"
-#~ msgstr "Wybierz obraz"
-
-#~ msgid "&Send my profile"
-#~ msgstr "&Wylij mj profil"
-
-#~ msgid "Welcome Wizard"
-#~ msgstr "Witamy w kreatorze"
-
-#~ msgid "wallpaperDesc"
-#~ msgstr "Tapeta"
-
-#~ msgid "Send my profile: <b>%s</b>"
-#~ msgstr "Wylij mj profile: <b>%s</b>"
-
-#~ msgid "What is Chakra?"
-#~ msgstr "Czym jest Chakra"
-
-#~ msgid "Show updates in the system tray"
-#~ msgstr "Poka aktualizacje w zasobniku systemowym"
+#~ msgid " hours"
+#~ msgstr "godziny"
 
 #, fuzzy
 #~ msgid "Check updates automatically every"
 #~ msgstr "Sprawd aktualizacje automatycznie co"
 
-#~ msgid " hours"
-#~ msgstr "godziny"
+#~ msgid "Show updates in the system tray"
+#~ msgstr "Poka aktualizacje w zasobniku systemowym"
 
-#~ msgid "Updates"
-#~ msgstr "Aktualizacje"
+#~ msgid "What is Chakra?"
+#~ msgstr "Czym jest Chakra"
 
-#~ msgid "Search Options"
-#~ msgstr "Opcje wyszukiwania"
+#~ msgid "Send my profile: <b>%s</b>"
+#~ msgstr "Wylij mj profile: <b>%s</b>"
 
-#~ msgid "System Settings"
-#~ msgstr "Ustawienia systemu"
+#~ msgid "wallpaperDesc"
+#~ msgstr "Tapeta"
 
-#~ msgid "Help and Support"
-#~ msgstr "Pomoc i wsparcie"
+#~ msgid "Welcome Wizard"
+#~ msgstr "Witamy w kreatorze"
 
-#~ msgid "Right Hand"
-#~ msgstr "Praworczni"
+#~ msgid "&Send my profile"
+#~ msgstr "&Wylij mj profil"
 
-#~ msgid "Left Hand"
-#~ msgstr "Leworczni"
+#~ msgid "Choose an image"
+#~ msgstr "Wybierz obraz"
+
+#~ msgid "Options"
+#~ msgstr "Opcje"
+
+#~ msgid "Number of Desktops"
+#~ msgstr "Liczba pulpitw"
+
+#~ msgid "Desktop Type"
+#~ msgstr "Typ pulpitu"
+
+#~ msgid "Icons"
+#~ msgstr "Ikony"
+
+#~ msgid "KDE Themes"
+#~ msgstr "Wygld KDE"
+
+#~ msgid "No"
+#~ msgstr "Nie"
+
+#~ msgid "Yes"
+#~ msgstr "Tak"
+
+#~ msgid "Kernel"
+#~ msgstr "Jdro"
+
+#~ msgid "Vendor"
+#~ msgstr "Dostawca"
+
+#~ msgid "System Swap"
+#~ msgstr "Pami wymiany (SWAP)"
+
+#~ msgid "System Memory"
+#~ msgstr "Pami"
+
+#~ msgid "CPU Speed"
+#~ msgstr "Czstotliwo procesora"
+
+#~ msgid "Number of CPUs"
+#~ msgstr "Liczba procesorw"
+
+#~ msgid "CPU Model"
+#~ msgstr "Model Procesora"
+
+#~ msgid "CPU Vendor"
+#~ msgstr "Producent procesora"
+
+#~ msgid "Platform"
+#~ msgstr "Platforma"
+
+#~ msgid "Language"
+#~ msgstr "Jzyk"
+
+#~ msgid "OS"
+#~ msgstr "OS"
+
+#~ msgid "UUID"
+#~ msgstr "UUID"
+
+#~ msgid "Data"
+#~ msgstr "Data"
+
+#~ msgid "Apply Settings"
+#~ msgstr "Akceptuj ustawienia"
+
+#~ msgid "Next"
+#~ msgstr "Dalej"
+
+#~ msgid "Back"
+#~ msgstr "Wstecz"
+
+#~ msgid "Cancel"
+#~ msgstr "Koniec"
+
+#~ msgid "Welcome to Chakra"
+#~ msgstr "Zapraszamy do korzystania z Chakra"
+
+#~ msgid "Kapudan"
+#~ msgstr "Kapudan"

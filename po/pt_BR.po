@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pt_BR\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-07 16:10-0600\n"
+"POT-Creation-Date: 2012-08-09 17:23-0600\n"
 "PO-Revision-Date: 2010-05-15 23:37-0300\n"
 "Last-Translator: Diogo Lima <diogo.urb@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <http://liste.uludag.org.tr/mailman/listinfo/pardus-translation-ptbr>\n"
@@ -250,7 +250,7 @@ msgid "Takeoff Menu"
 msgstr "Menu Kick-Off"
 
 #: .tmp/scrMenu.py:64
-msgid "Takeoff is a full screen menu.<br><br> Inspired in the aspect of Slingshot and the OS X Launchpad menu but adapted to the KDE users in a plasmoid."
+msgid "Takeoff is a full screen menu, inspired by Slingshot and the OS X Launchpad menu but adapted to work with KDE as a plasmoid."
 msgstr ""
 
 #: .tmp/scrMouse.py:32
@@ -451,218 +451,216 @@ msgstr "Bem Vindo"
 msgid "Welcome to %s"
 msgstr "Bem Vindo ao Chakra"
 
-#~ msgid "Kapudan"
-#~ msgstr "Kapudan"
+#~ msgid "Contrib repository includes extra and handy programs."
+#~ msgstr "Repositório de Contribuições inclui programas úteis e extras."
+
+#~ msgid "Add contrib repository"
+#~ msgstr "Adicionar repositório de contribuições"
+
+#~ msgid "Repositories"
+#~ msgstr "Repositórios"
+
+#~ msgid "Migration Wizard"
+#~ msgstr "Assistente de Migração"
+
+#~ msgid "A wizard to transfer files and settings from existing operating systems (e.g. Windows) to Chakra."
+#~ msgstr "Um assistente para transferir arquivos e configurações dos sistemas operacionais existentes (ex. Windows) para o Chakra."
+
+#~ msgid "Network"
+#~ msgstr "Rede"
+
+#~ msgid "To create a new connection click on <b>Create Profile</b> and select your adapter from the list. If your connection is wireless then choose and access point. After saving your profile click the checkbox to establish the connection."
+#~ msgstr "Para criar uma nova conexão clique em <b>Criar Perfil</b> e você seleciona o seu adaptador pela lista. Se a sua conexão é uma rede sem fio então escolha o ponto de acesso. Depois de salvar o seu perfil, clique no quadro de seleção para estabelecer a conexão."
+
+#~ msgid "Kapudan Desktop"
+#~ msgstr "Área de Trabalho do Kapudan"
+
+#~ msgid "Welcome to Kapudan 2009.2"
+#~ msgstr "Bem Vindo ao Kapudan"
+
+#~ msgid "Insert some catchy title about keyboards.."
+#~ msgstr "Inserir um título cativante sobre teclados.."
+
+#~ msgid "Select your keyboard layout"
+#~ msgstr "Selecionar o layout do seu teclado"
+
+#~ msgid "Some catchy title about styles"
+#~ msgstr "Algum título cativante sobre estilos"
+
+#~ msgid "Some catchy description about styles"
+#~ msgstr "Algum descrição cativante sobre estilos"
+
+#~ msgid "Configure your mouse"
+#~ msgstr "Configure o seu mouse"
+
+#~ msgid "Network Manager"
+#~ msgstr "Gerenciador de Rede"
 
-#~ msgid "Welcome Wizard"
-#~ msgstr "Assistente de Boas-Vindas"
+#~ msgid "Configure package manager settings"
+#~ msgstr "Configure as opções do gerenciador de pacote"
 
-#~ msgid "Smolt"
-#~ msgstr "Smolt"
+#~ msgid "Some catchy title about desktop search"
+#~ msgstr "Algum título cativante sobre a busca na área de trabalho"
 
-#~ msgid "Help Chakra Improve!"
-#~ msgstr "Ajude a Melhorar o Chakra"
+#~ msgid "Some catchy description desktop search"
+#~ msgstr "Alguma descrição cativante sobre a busca na área de trabalho"
 
-#~ msgid "Label"
-#~ msgstr "Etiqueta"
+#~ msgid "Smolt Description"
+#~ msgstr "Descrição do Smolt"
 
-#~ msgid "Data"
-#~ msgstr "Dados"
+#~ msgid "Insert some catchy title about wallpapers.."
+#~ msgstr "Inserir algum título cativante sobre papéis de parede.."
 
-#~ msgid "&Privacy policy"
-#~ msgstr "&Política de Privacidade"
+#~ msgid "Wonderful, awesome, superb wallpapers! \\m/"
+#~ msgstr "Maravilhosos, maneiros, ótimos papéis de parede! \\m/"
 
-#~ msgid "UUID"
-#~ msgstr "UUID"
+#~ msgid ""
+#~ "#pictureMenuStyles{\n"
+#~ "border: 1px solid rgb(255, 255, 255);\n"
+#~ "}"
+#~ msgstr ""
+#~ "#pictureMenuStyles{\n"
+#~ "border: 1px solid rgb(255, 255, 255);\n"
+#~ "}"
 
-#~ msgid "OS"
-#~ msgstr "SO"
+#~ msgid "Menu Styles"
+#~ msgstr "Estilos de Menu"
 
-#~ msgid "Default Run Level"
-#~ msgstr "Nível de execução padrão"
+#~ msgid "border: 1px solid rgb(236, 236, 236, 100);"
+#~ msgstr "border: 1px solid rgb(236, 236, 236, 100);"
 
-#~ msgid "Language"
-#~ msgstr "Língua"
+#~ msgid ""
+#~ "#listStyles{\n"
+#~ "background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 81), stop:0.00537634 rgba(95, 34, 52, 80), stop:1 rgba(255, 213, 230, 80));\n"
+#~ "\n"
+#~ "border: 1px solid rgb(236, 236, 236, 80);\n"
+#~ "\n"
+#~ "color: rgb(234, 225, 228);\n"
+#~ "}"
+#~ msgstr ""
+#~ "#listStyles{\n"
+#~ "background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 81), stop:0.00537634 rgba(95, 34, 52, 80), stop:1 rgba(255, 213, 230, 80));\n"
+#~ "\n"
+#~ "border: 1px solid rgb(236, 236, 236, 80);\n"
+#~ "\n"
+#~ "color: rgb(234, 225, 228);\n"
+#~ "}"
 
-#~ msgid "Platform"
-#~ msgstr "Plataforma"
+#~ msgid ""
+#~ "#textSummary{background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 81), stop:0.00537634 rgba(95, 34, 52, 80), stop:1 rgba(255, 213, 230, 80));\n"
+#~ "\n"
+#~ "border: 1px solid rgb(236, 236, 236, 80);\n"
+#~ "padding: 20px}\n"
+#~ msgstr ""
+#~ "#textSummary{background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 81), stop:0.00537634 rgba(95, 34, 52, 80), stop:1 rgba(255, 213, 230, 80));\n"
+#~ "\n"
+#~ "border: 1px solid rgb(236, 236, 236, 80);\n"
+#~ "padding: 20px}\n"
 
-#~ msgid "BogoMIPS"
-#~ msgstr "BogoMIPS"
+#~ msgid ""
+#~ "#listWallpaper{background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 81), stop:0.00537634 rgba(95, 34, 52, 80), stop:1 rgba(255, 213, 230, 80));\n"
+#~ "\n"
+#~ "border: 1px solid rgb(236, 236, 236, 80);}"
+#~ msgstr ""
+#~ "#listWallpaper{background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 81), stop:0.00537634 rgba(95, 34, 52, 80), stop:1 rgba(255, 213, 230, 80));\n"
+#~ "\n"
+#~ "border: 1px solid rgb(236, 236, 236, 80);}"
 
-#~ msgid "CPU Vendor"
-#~ msgstr "Vendedor do Processador"
+#~ msgid "color: rgb(100, 36, 55);"
+#~ msgstr "color: rgb(100, 36, 55);"
 
-#~ msgid "CPU Model"
-#~ msgstr "Modelo do Processador"
+#~ msgid "color:rgb(95, 34, 52)"
+#~ msgstr "color:rgb(95, 34, 52)"
 
-#~ msgid "CPU Model Num"
-#~ msgstr "Modelo do Processador"
+#~ msgid "color: rgb(234, 225, 228);"
+#~ msgstr "color: rgb(234, 225, 228);"
 
-#~ msgid "Number of CPUs"
-#~ msgstr "Número de Processadores"
+#~ msgid "color: rgb(95, 34, 52);"
+#~ msgstr "color: rgb(95, 34, 52);"
 
-#~ msgid "CPU Speed"
-#~ msgstr "Velocidade do Processador"
+#~ msgid "color: #642437;"
+#~ msgstr "color: #642437;"
 
-#~ msgid "System Memory"
-#~ msgstr "Memória do Sistema"
+#~ msgid "Desktop search: <b>%s</b>"
+#~ msgstr "Busca na área de trabalho: <b>%s</b>"
 
-#~ msgid "System Swap"
-#~ msgstr "Área de Troca (swap) do Sistema"
+#~ msgid "&Back"
+#~ msgstr "&Voltar"
 
-#~ msgid "Vendor"
-#~ msgstr "Vendedor"
+#~ msgid "Off"
+#~ msgstr "Desligado"
 
-#~ msgid "System"
-#~ msgstr "Sistema"
+#~ msgid "On"
+#~ msgstr "Ligado"
 
-#~ msgid "Form Factor"
-#~ msgstr "Form Factor"
+#~ msgid "Connect to the Internet"
+#~ msgstr "Conectar com a Internet"
 
-#~ msgid "Kernel"
-#~ msgstr "Kernel"
+#~ msgid "Welcome to Chakra 2011 Alpha 1"
+#~ msgstr "Bem Vindo ao Chakra 2009.2"
 
-#~ msgid "SELinux Enabled"
-#~ msgstr "SELinux Habilitado"
+#~ msgid "wallpaperDesc"
+#~ msgstr "wallpaperDesc"
 
-#~ msgid "SELinux Policy"
-#~ msgstr "Política do SELinux"
+#~ msgid "wallPaperName"
+#~ msgstr "wallPaperName"
 
-#~ msgid "SELinux Enforce"
-#~ msgstr "SELinux Forçado"
+#~ msgid "<b>Chakra</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Chakra, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kapudan</b> will help you personalize your Chakra workspace easily and quickly. Please click <b>next</b> in order to begin."
+#~ msgstr "<b>Chakra</b> é um sustema operacional confiável, segura, rápido e fácil de usar. <br /><br />Com o Chakra, você pode se conectar à Internet, ler o seus emails, trabalhar com documentos de escritório, assistir a filmes, tocar músicas, desenvolver aplicativos, jogar jogos e muito mais! <br /><br />O <b>Kapudan</b> ajudará você a personalizar a sua área de trabalho do Chakra de forma rápida e fácil. Por favor clique em <b>Próximo</b> para iniciar."
 
-#~ msgid "Yes"
-#~ msgstr "Sim"
+#~ msgid "What is Chakra?"
+#~ msgstr "O que é Chakra?"
 
-#~ msgid "No"
-#~ msgstr "Não"
+#~ msgid "Don't change wallpaper"
+#~ msgstr "Não modificar o papel de parede"
 
-#~ msgid "Smolt Settings"
-#~ msgstr "Configurações do Smolt"
+#~ msgid "Choose wallpaper from file"
+#~ msgstr "Escolha o papel de parede de um arquivo"
 
-#~ msgid "Send my profile: <b>%s</b>"
-#~ msgstr "Enviar o meu perfil: <b>%s</b>"
+#~ msgid "Wallpapers"
+#~ msgstr "Papeis de Parede"
 
-#~ msgid "Welcome to Chakra"
-#~ msgstr "Bem Vindo ao Chakra"
+#~ msgid "Choose your favorite wallpaper for Chakra. Don't forget to check out <b>Desktop Settings</b> for downloading new and cool wallpapers."
+#~ msgstr "Escolha o seu papel de parede favorito para o Paruds. Não esqueça de checar as <b>Configurações da Área de Trabalho</b> para fazer download de novos papéis de parede legais."
 
-#~ msgid "Cancel"
-#~ msgstr "Cancelar"
+#~ msgid "The following settings will be applied"
+#~ msgstr "As seguintes configurações serão aplicadas"
 
-#~ msgid "Back"
-#~ msgstr "Voltar"
+#~ msgid "You have successfully finished all steps. Here's a summary of the settings you want to apply. Click <b>Apply Settings</b> to save them now. You are now ready to enjoy Chakra!"
+#~ msgstr "Você terminou todos os passos com sucesso. Aqui está o resumo das configurações que você aplicou. Clique em <b>Aplicar Configurações</b> para salvá-las agora. Você agora está rpronto para usar o Chakra!"
 
-#~ msgid "Next"
-#~ msgstr "Próximo"
+#~ msgid "styleDesc"
+#~ msgstr "styleDesc"
 
-#~ msgid "Apply Settings"
-#~ msgstr "Aplicar Configurações"
+#~ msgid "styleName"
+#~ msgstr "styleName"
 
-#~ msgid "Form"
-#~ msgstr "Form"
+#~ msgid "Number of Desktops"
+#~ msgstr "Número de Áreas de Trabalho"
 
-#~ msgid "This screen helps you set your <b>user picture</b>. You can either choose an image from a file or you can capture an image from your camera. Select an option from the <b>options</b> menu."
-#~ msgstr "Esta tela ajuda você a configurar sua <b>foto de usuário</b>. Você pode escolher um arquivo de imagem do seu computador ou capturar uma imagem de sua câmera. Selecione uma opção do menu de <b>opções</b>"
+#~ msgid "Folder view (KDE3 Style)"
+#~ msgstr "Vista de Pasta (Estilo KDE3)"
 
-#~ msgid "Options"
-#~ msgstr "Opções"
+#~ msgid "Desktop view (KDE4 Style)"
+#~ msgstr "Vista da Área de Trabalho (Estilo KDE4)"
 
-#~ msgid "Choose an image"
-#~ msgstr "Escolha uma imagem"
+#~ msgid "Desktop Type"
+#~ msgstr "Tipo da Área de Trabalho"
 
-#~ msgid "Capture"
-#~ msgstr "Capture"
+#~ msgid "Milky - The official icon set of Chakra"
+#~ msgstr "Milky - O tema de ícones oficial do Chakra"
 
-#~ msgid "Recapture"
-#~ msgstr "Recapture"
+#~ msgid "Oxygen - The official icon set of KDE"
+#~ msgstr "Oxygen - O tema de ícones oficial do KDE"
 
-#~ msgid "<b>Your settings have been applied.</b> Now you can start enjoying Chakra or you can checkout the following links and applications for more settings or for help and support. Don't forget to <b>join our community!</b>"
-#~ msgstr "<b>Suas opções foram aplicadas.</b> Agora você pode começar a usar o Chakra ou você pode checar os seguintes atalhos e aplicativos para mais opções ou para ajuda e suporte. Não esqueça de <b>se juntar a comunidade!</b>"
+#~ msgid "Icons"
+#~ msgstr "Ícones"
 
-#~ msgid "My Smolt Page"
-#~ msgstr "Minha Página do Smolt"
+#~ msgid "KDE Themes"
+#~ msgstr "Temas do KDE"
 
-#~ msgid "Go to your Smolt page and rate your hardware components."
-#~ msgstr "Ir para a sua página do Smolt para avaliar os seus componentes de hardware"
-
-#~ msgid "System Settings"
-#~ msgstr "Configurações do Sistema"
-
-#~ msgid "Configuration tools for Chakra such as the display, firewall, keyboard, user manager..."
-#~ msgstr "Ferramentas de configurações para o Chakra como a tela, firewall, teclado, e gerenciador de usuários..."
-
-#~ msgid "Help and Support"
-#~ msgstr "Ajuda e Suporte"
-
-#~ msgid "Chakra community, mailing lists, chat rooms, Wiki documents, help and support pages..."
-#~ msgstr "Comunidade do Chakra, lista de emails, chats, Wikis, ajuda e páginas de suporte"
-
-#~ msgid "Kapudan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
-#~ msgstr "O Kapudan automaticamente seleciona o melhor layout de teclado de acordo com a língua do seu sistema. Se você quer selecionar outro layout senão o padrão, você pode fazer a seleção e testar instantaneamente."
-
-#~ msgid "Test Layout"
-#~ msgstr "Testar Layout"
-
-#~ msgid "You can also customize your <b>KDE menu</b> as you like. Please choose one from the following styles."
-#~ msgstr "Você pode também customizar o seu <b>menu do KDE</b> como você quiser. Por favor selecione um dos seguintes estilos."
-
-#~ msgid "Sample"
-#~ msgstr "Exemplo"
-
-#~ msgid "The <b>clicking behavior</b> defines how many times you want to click when you are opening a file. If you are <b>left handed</b>, you may prefer to swap the left and right buttons of your pointing device."
-#~ msgstr "O <b>comportamento de clique</b> define quantas vezes você quer clicar quando quiser abrir um arquivo. Se você é <b>canhoto</b>, você pode preferir inverter os botões esquerdo e direito do seu dispositivo de cursor."
-
-#~ msgid "Clicking Behaviour"
-#~ msgstr "Comportamento de Clique"
-
-#~ msgid "Single-click to open files and folders"
-#~ msgstr "Clique único para abrir arquivos e pastas"
-
-#~ msgid "Dou&ble-click to open files and folders"
-#~ msgstr "Clique &duplo para abrir arquivos e pastas"
-
-#~ msgid "Button Order"
-#~ msgstr "Ordem dos Butões"
-
-#~ msgid "Right Hand"
-#~ msgstr "Destro"
-
-#~ msgid "Left Hand"
-#~ msgstr "Canhoto"
-
-#~ msgid "Reverse scrolling"
-#~ msgstr "Scroll invertido"
-
-#~ msgid "Show updates in the system tray"
-#~ msgstr "Exibis as atualizações no ícone da bandeja do sistema"
-
-#~ msgid "Check updates automatically every"
-#~ msgstr "Procurar por atualizações automaticamente a cada"
-
-#~ msgid " hours"
-#~ msgstr " horas"
-
-#~ msgid "To install and remove programs to Chakra, use Package-Manager. Package-Manager also can automatically install the latest updates available. You can set the period for checking new updates."
-#~ msgstr "Para instalar e remover programas no Chakra, use o Gerenciador de Pacote. O Gerenciador de Pacote também pode instalar as últimas atualizações disponíveis automaticamente. Você pode configurar o período para checar por novas atualizações."
-
-#~ msgid "Updates"
-#~ msgstr "Atualizações"
-
-#~ msgid "Strigi Desktop Search indexes your frequently used files. This gives you very fast file search results. Strigi also can search for files based on their contents."
-#~ msgstr "A Busca na Área de Trabalho Strigi indexa os seus arquivos frequentemente usados. Isso lhe permite obter resultados de buscas muito rápidos. O Strigi também pode buscar por arquivos baseando-se no seus conteúdos."
-
-#~ msgid "Allow Strigi to index my files"
-#~ msgstr "Permitir que o Strigi indexe os seus arquivos"
-
-#~ msgid "Search Options"
-#~ msgstr "Opções de Busca"
-
-#~ msgid "<b>Smolt</b> is a tool that collects the information in the following table and sends it to us for which lets us improve Chakra according to the user profile statistics."
-#~ msgstr "<b>Smolt</b> é uma ferramenta que coleta a informação nas seguintes tabelas e as enviam para nós as quais permitem que melhoremos o Chakra de acordo com as estatísticas do perfil do usuário."
-
-#~ msgid "&Send my profile"
-#~ msgstr "&Enviar meu perfil"
+#~ msgid "Choose your favorite theme and desktop type. Customize Chakra with colorful styles and themes."
+#~ msgstr "Selecione seu tema favorito e o tipo de área de trabalho. Personalize o Chakra com estilos e temas coloridos"
 
 #~ msgid ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
@@ -685,213 +683,215 @@ msgstr "Bem Vindo ao Chakra"
 #~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:9pt; text-decoration: underline;\">IP Logging:</span><span style=\" font-size:9pt;\">  Na instalação do smolt do Chakra todo o tráfego de rede vai para o servidor de proxy primário. Este é o único local onde os endereços de IP estarão sendo registrados e eles serão mantidos nesse servidor por um período de 4 semanas até o horário da rotação do registro, que removerá esses endereços. O Projeto Chakra não agrega os endereços de IP à base de dados do smolt. Esses registros são privados e não estarão disponíveis para o público em geral.</span></p>\n"
 #~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:9pt;\">   Usuários não contentes com esta política podem simplesmente não usar o smolt. Usuários com questões sobre essa política deveriam contactar o Time de InfraEstrutura do Chakra em admin [arroba] pardus.org.tr . Também lembramos que os usuários podem apagar os seus perfis a qualquer momento usando \"</span><span style=\" font-size:9pt; font-style:italic;\">smoltDeleteProfile</span><span style=\" font-size:9pt;\">\"</span></p></body></html>"
 
-#~ msgid "Choose your favorite theme and desktop type. Customize Chakra with colorful styles and themes."
-#~ msgstr "Selecione seu tema favorito e o tipo de área de trabalho. Personalize o Chakra com estilos e temas coloridos"
+#~ msgid "&Send my profile"
+#~ msgstr "&Enviar meu perfil"
 
-#~ msgid "KDE Themes"
-#~ msgstr "Temas do KDE"
+#~ msgid "<b>Smolt</b> is a tool that collects the information in the following table and sends it to us for which lets us improve Chakra according to the user profile statistics."
+#~ msgstr "<b>Smolt</b> é uma ferramenta que coleta a informação nas seguintes tabelas e as enviam para nós as quais permitem que melhoremos o Chakra de acordo com as estatísticas do perfil do usuário."
 
-#~ msgid "Icons"
-#~ msgstr "Ícones"
+#~ msgid "Search Options"
+#~ msgstr "Opções de Busca"
 
-#~ msgid "Oxygen - The official icon set of KDE"
-#~ msgstr "Oxygen - O tema de ícones oficial do KDE"
+#~ msgid "Allow Strigi to index my files"
+#~ msgstr "Permitir que o Strigi indexe os seus arquivos"
 
-#~ msgid "Milky - The official icon set of Chakra"
-#~ msgstr "Milky - O tema de ícones oficial do Chakra"
+#~ msgid "Strigi Desktop Search indexes your frequently used files. This gives you very fast file search results. Strigi also can search for files based on their contents."
+#~ msgstr "A Busca na Área de Trabalho Strigi indexa os seus arquivos frequentemente usados. Isso lhe permite obter resultados de buscas muito rápidos. O Strigi também pode buscar por arquivos baseando-se no seus conteúdos."
 
-#~ msgid "Desktop Type"
-#~ msgstr "Tipo da Área de Trabalho"
+#~ msgid "Updates"
+#~ msgstr "Atualizações"
 
-#~ msgid "Desktop view (KDE4 Style)"
-#~ msgstr "Vista da Área de Trabalho (Estilo KDE4)"
+#~ msgid "To install and remove programs to Chakra, use Package-Manager. Package-Manager also can automatically install the latest updates available. You can set the period for checking new updates."
+#~ msgstr "Para instalar e remover programas no Chakra, use o Gerenciador de Pacote. O Gerenciador de Pacote também pode instalar as últimas atualizações disponíveis automaticamente. Você pode configurar o período para checar por novas atualizações."
 
-#~ msgid "Folder view (KDE3 Style)"
-#~ msgstr "Vista de Pasta (Estilo KDE3)"
+#~ msgid " hours"
+#~ msgstr " horas"
 
-#~ msgid "Number of Desktops"
-#~ msgstr "Número de Áreas de Trabalho"
+#~ msgid "Check updates automatically every"
+#~ msgstr "Procurar por atualizações automaticamente a cada"
 
-#~ msgid "styleName"
-#~ msgstr "styleName"
+#~ msgid "Show updates in the system tray"
+#~ msgstr "Exibis as atualizações no ícone da bandeja do sistema"
 
-#~ msgid "styleDesc"
-#~ msgstr "styleDesc"
+#~ msgid "Reverse scrolling"
+#~ msgstr "Scroll invertido"
 
-#~ msgid "You have successfully finished all steps. Here's a summary of the settings you want to apply. Click <b>Apply Settings</b> to save them now. You are now ready to enjoy Chakra!"
-#~ msgstr "Você terminou todos os passos com sucesso. Aqui está o resumo das configurações que você aplicou. Clique em <b>Aplicar Configurações</b> para salvá-las agora. Você agora está rpronto para usar o Chakra!"
+#~ msgid "Left Hand"
+#~ msgstr "Canhoto"
 
-#~ msgid "The following settings will be applied"
-#~ msgstr "As seguintes configurações serão aplicadas"
+#~ msgid "Right Hand"
+#~ msgstr "Destro"
 
-#~ msgid "Choose your favorite wallpaper for Chakra. Don't forget to check out <b>Desktop Settings</b> for downloading new and cool wallpapers."
-#~ msgstr "Escolha o seu papel de parede favorito para o Paruds. Não esqueça de checar as <b>Configurações da Área de Trabalho</b> para fazer download de novos papéis de parede legais."
+#~ msgid "Button Order"
+#~ msgstr "Ordem dos Butões"
 
-#~ msgid "Wallpapers"
-#~ msgstr "Papeis de Parede"
+#~ msgid "Dou&ble-click to open files and folders"
+#~ msgstr "Clique &duplo para abrir arquivos e pastas"
 
-#~ msgid "Choose wallpaper from file"
-#~ msgstr "Escolha o papel de parede de um arquivo"
+#~ msgid "Single-click to open files and folders"
+#~ msgstr "Clique único para abrir arquivos e pastas"
 
-#~ msgid "Don't change wallpaper"
-#~ msgstr "Não modificar o papel de parede"
+#~ msgid "Clicking Behaviour"
+#~ msgstr "Comportamento de Clique"
 
-#~ msgid "What is Chakra?"
-#~ msgstr "O que é Chakra?"
+#~ msgid "The <b>clicking behavior</b> defines how many times you want to click when you are opening a file. If you are <b>left handed</b>, you may prefer to swap the left and right buttons of your pointing device."
+#~ msgstr "O <b>comportamento de clique</b> define quantas vezes você quer clicar quando quiser abrir um arquivo. Se você é <b>canhoto</b>, você pode preferir inverter os botões esquerdo e direito do seu dispositivo de cursor."
 
-#~ msgid "<b>Chakra</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Chakra, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kapudan</b> will help you personalize your Chakra workspace easily and quickly. Please click <b>next</b> in order to begin."
-#~ msgstr "<b>Chakra</b> é um sustema operacional confiável, segura, rápido e fácil de usar. <br /><br />Com o Chakra, você pode se conectar à Internet, ler o seus emails, trabalhar com documentos de escritório, assistir a filmes, tocar músicas, desenvolver aplicativos, jogar jogos e muito mais! <br /><br />O <b>Kapudan</b> ajudará você a personalizar a sua área de trabalho do Chakra de forma rápida e fácil. Por favor clique em <b>Próximo</b> para iniciar."
+#~ msgid "Sample"
+#~ msgstr "Exemplo"
 
-#~ msgid "wallPaperName"
-#~ msgstr "wallPaperName"
+#~ msgid "You can also customize your <b>KDE menu</b> as you like. Please choose one from the following styles."
+#~ msgstr "Você pode também customizar o seu <b>menu do KDE</b> como você quiser. Por favor selecione um dos seguintes estilos."
 
-#~ msgid "wallpaperDesc"
-#~ msgstr "wallpaperDesc"
+#~ msgid "Test Layout"
+#~ msgstr "Testar Layout"
 
-#~ msgid "Welcome to Chakra 2011 Alpha 1"
-#~ msgstr "Bem Vindo ao Chakra 2009.2"
+#~ msgid "Kapudan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
+#~ msgstr "O Kapudan automaticamente seleciona o melhor layout de teclado de acordo com a língua do seu sistema. Se você quer selecionar outro layout senão o padrão, você pode fazer a seleção e testar instantaneamente."
 
-#~ msgid "Connect to the Internet"
-#~ msgstr "Conectar com a Internet"
+#~ msgid "Chakra community, mailing lists, chat rooms, Wiki documents, help and support pages..."
+#~ msgstr "Comunidade do Chakra, lista de emails, chats, Wikis, ajuda e páginas de suporte"
 
-#~ msgid "On"
-#~ msgstr "Ligado"
+#~ msgid "Help and Support"
+#~ msgstr "Ajuda e Suporte"
 
-#~ msgid "Off"
-#~ msgstr "Desligado"
+#~ msgid "Configuration tools for Chakra such as the display, firewall, keyboard, user manager..."
+#~ msgstr "Ferramentas de configurações para o Chakra como a tela, firewall, teclado, e gerenciador de usuários..."
 
-#~ msgid "&Back"
-#~ msgstr "&Voltar"
+#~ msgid "System Settings"
+#~ msgstr "Configurações do Sistema"
 
-#~ msgid "Desktop search: <b>%s</b>"
-#~ msgstr "Busca na área de trabalho: <b>%s</b>"
+#~ msgid "Go to your Smolt page and rate your hardware components."
+#~ msgstr "Ir para a sua página do Smolt para avaliar os seus componentes de hardware"
 
-#~ msgid "color: #642437;"
-#~ msgstr "color: #642437;"
+#~ msgid "My Smolt Page"
+#~ msgstr "Minha Página do Smolt"
 
-#~ msgid "color: rgb(95, 34, 52);"
-#~ msgstr "color: rgb(95, 34, 52);"
+#~ msgid "<b>Your settings have been applied.</b> Now you can start enjoying Chakra or you can checkout the following links and applications for more settings or for help and support. Don't forget to <b>join our community!</b>"
+#~ msgstr "<b>Suas opções foram aplicadas.</b> Agora você pode começar a usar o Chakra ou você pode checar os seguintes atalhos e aplicativos para mais opções ou para ajuda e suporte. Não esqueça de <b>se juntar a comunidade!</b>"
 
-#~ msgid "color: rgb(234, 225, 228);"
-#~ msgstr "color: rgb(234, 225, 228);"
+#~ msgid "Recapture"
+#~ msgstr "Recapture"
 
-#~ msgid "color:rgb(95, 34, 52)"
-#~ msgstr "color:rgb(95, 34, 52)"
+#~ msgid "Capture"
+#~ msgstr "Capture"
 
-#~ msgid "color: rgb(100, 36, 55);"
-#~ msgstr "color: rgb(100, 36, 55);"
+#~ msgid "Choose an image"
+#~ msgstr "Escolha uma imagem"
 
-#~ msgid ""
-#~ "#listWallpaper{background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 81), stop:0.00537634 rgba(95, 34, 52, 80), stop:1 rgba(255, 213, 230, 80));\n"
-#~ "\n"
-#~ "border: 1px solid rgb(236, 236, 236, 80);}"
-#~ msgstr ""
-#~ "#listWallpaper{background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 81), stop:0.00537634 rgba(95, 34, 52, 80), stop:1 rgba(255, 213, 230, 80));\n"
-#~ "\n"
-#~ "border: 1px solid rgb(236, 236, 236, 80);}"
+#~ msgid "Options"
+#~ msgstr "Opções"
 
-#~ msgid ""
-#~ "#textSummary{background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 81), stop:0.00537634 rgba(95, 34, 52, 80), stop:1 rgba(255, 213, 230, 80));\n"
-#~ "\n"
-#~ "border: 1px solid rgb(236, 236, 236, 80);\n"
-#~ "padding: 20px}\n"
-#~ msgstr ""
-#~ "#textSummary{background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 81), stop:0.00537634 rgba(95, 34, 52, 80), stop:1 rgba(255, 213, 230, 80));\n"
-#~ "\n"
-#~ "border: 1px solid rgb(236, 236, 236, 80);\n"
-#~ "padding: 20px}\n"
+#~ msgid "This screen helps you set your <b>user picture</b>. You can either choose an image from a file or you can capture an image from your camera. Select an option from the <b>options</b> menu."
+#~ msgstr "Esta tela ajuda você a configurar sua <b>foto de usuário</b>. Você pode escolher um arquivo de imagem do seu computador ou capturar uma imagem de sua câmera. Selecione uma opção do menu de <b>opções</b>"
 
-#~ msgid ""
-#~ "#listStyles{\n"
-#~ "background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 81), stop:0.00537634 rgba(95, 34, 52, 80), stop:1 rgba(255, 213, 230, 80));\n"
-#~ "\n"
-#~ "border: 1px solid rgb(236, 236, 236, 80);\n"
-#~ "\n"
-#~ "color: rgb(234, 225, 228);\n"
-#~ "}"
-#~ msgstr ""
-#~ "#listStyles{\n"
-#~ "background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 81), stop:0.00537634 rgba(95, 34, 52, 80), stop:1 rgba(255, 213, 230, 80));\n"
-#~ "\n"
-#~ "border: 1px solid rgb(236, 236, 236, 80);\n"
-#~ "\n"
-#~ "color: rgb(234, 225, 228);\n"
-#~ "}"
+#~ msgid "Form"
+#~ msgstr "Form"
 
-#~ msgid "border: 1px solid rgb(236, 236, 236, 100);"
-#~ msgstr "border: 1px solid rgb(236, 236, 236, 100);"
+#~ msgid "Apply Settings"
+#~ msgstr "Aplicar Configurações"
 
-#~ msgid "Menu Styles"
-#~ msgstr "Estilos de Menu"
+#~ msgid "Next"
+#~ msgstr "Próximo"
 
-#~ msgid ""
-#~ "#pictureMenuStyles{\n"
-#~ "border: 1px solid rgb(255, 255, 255);\n"
-#~ "}"
-#~ msgstr ""
-#~ "#pictureMenuStyles{\n"
-#~ "border: 1px solid rgb(255, 255, 255);\n"
-#~ "}"
+#~ msgid "Back"
+#~ msgstr "Voltar"
 
-#~ msgid "Wonderful, awesome, superb wallpapers! \\m/"
-#~ msgstr "Maravilhosos, maneiros, ótimos papéis de parede! \\m/"
+#~ msgid "Cancel"
+#~ msgstr "Cancelar"
 
-#~ msgid "Insert some catchy title about wallpapers.."
-#~ msgstr "Inserir algum título cativante sobre papéis de parede.."
+#~ msgid "Welcome to Chakra"
+#~ msgstr "Bem Vindo ao Chakra"
 
-#~ msgid "Smolt Description"
-#~ msgstr "Descrição do Smolt"
+#~ msgid "Send my profile: <b>%s</b>"
+#~ msgstr "Enviar o meu perfil: <b>%s</b>"
 
-#~ msgid "Some catchy description desktop search"
-#~ msgstr "Alguma descrição cativante sobre a busca na área de trabalho"
+#~ msgid "Smolt Settings"
+#~ msgstr "Configurações do Smolt"
 
-#~ msgid "Some catchy title about desktop search"
-#~ msgstr "Algum título cativante sobre a busca na área de trabalho"
+#~ msgid "No"
+#~ msgstr "Não"
 
-#~ msgid "Configure package manager settings"
-#~ msgstr "Configure as opções do gerenciador de pacote"
+#~ msgid "Yes"
+#~ msgstr "Sim"
 
-#~ msgid "Network Manager"
-#~ msgstr "Gerenciador de Rede"
+#~ msgid "SELinux Enforce"
+#~ msgstr "SELinux Forçado"
 
-#~ msgid "Configure your mouse"
-#~ msgstr "Configure o seu mouse"
+#~ msgid "SELinux Policy"
+#~ msgstr "Política do SELinux"
 
-#~ msgid "Some catchy description about styles"
-#~ msgstr "Algum descrição cativante sobre estilos"
+#~ msgid "SELinux Enabled"
+#~ msgstr "SELinux Habilitado"
 
-#~ msgid "Some catchy title about styles"
-#~ msgstr "Algum título cativante sobre estilos"
+#~ msgid "Kernel"
+#~ msgstr "Kernel"
 
-#~ msgid "Select your keyboard layout"
-#~ msgstr "Selecionar o layout do seu teclado"
+#~ msgid "Form Factor"
+#~ msgstr "Form Factor"
 
-#~ msgid "Insert some catchy title about keyboards.."
-#~ msgstr "Inserir um título cativante sobre teclados.."
+#~ msgid "System"
+#~ msgstr "Sistema"
 
-#~ msgid "Welcome to Kapudan 2009.2"
-#~ msgstr "Bem Vindo ao Kapudan"
+#~ msgid "Vendor"
+#~ msgstr "Vendedor"
 
-#~ msgid "Kapudan Desktop"
-#~ msgstr "Área de Trabalho do Kapudan"
+#~ msgid "System Swap"
+#~ msgstr "Área de Troca (swap) do Sistema"
 
-#~ msgid "To create a new connection click on <b>Create Profile</b> and select your adapter from the list. If your connection is wireless then choose and access point. After saving your profile click the checkbox to establish the connection."
-#~ msgstr "Para criar uma nova conexão clique em <b>Criar Perfil</b> e você seleciona o seu adaptador pela lista. Se a sua conexão é uma rede sem fio então escolha o ponto de acesso. Depois de salvar o seu perfil, clique no quadro de seleção para estabelecer a conexão."
+#~ msgid "System Memory"
+#~ msgstr "Memória do Sistema"
 
-#~ msgid "Network"
-#~ msgstr "Rede"
+#~ msgid "CPU Speed"
+#~ msgstr "Velocidade do Processador"
 
-#~ msgid "A wizard to transfer files and settings from existing operating systems (e.g. Windows) to Chakra."
-#~ msgstr "Um assistente para transferir arquivos e configurações dos sistemas operacionais existentes (ex. Windows) para o Chakra."
+#~ msgid "Number of CPUs"
+#~ msgstr "Número de Processadores"
 
-#~ msgid "Migration Wizard"
-#~ msgstr "Assistente de Migração"
+#~ msgid "CPU Model Num"
+#~ msgstr "Modelo do Processador"
 
-#~ msgid "Repositories"
-#~ msgstr "Repositórios"
+#~ msgid "CPU Model"
+#~ msgstr "Modelo do Processador"
 
-#~ msgid "Add contrib repository"
-#~ msgstr "Adicionar repositório de contribuições"
+#~ msgid "CPU Vendor"
+#~ msgstr "Vendedor do Processador"
 
-#~ msgid "Contrib repository includes extra and handy programs."
-#~ msgstr "Repositório de Contribuições inclui programas úteis e extras."
+#~ msgid "BogoMIPS"
+#~ msgstr "BogoMIPS"
+
+#~ msgid "Platform"
+#~ msgstr "Plataforma"
+
+#~ msgid "Language"
+#~ msgstr "Língua"
+
+#~ msgid "Default Run Level"
+#~ msgstr "Nível de execução padrão"
+
+#~ msgid "OS"
+#~ msgstr "SO"
+
+#~ msgid "UUID"
+#~ msgstr "UUID"
+
+#~ msgid "&Privacy policy"
+#~ msgstr "&Política de Privacidade"
+
+#~ msgid "Data"
+#~ msgstr "Dados"
+
+#~ msgid "Label"
+#~ msgstr "Etiqueta"
+
+#~ msgid "Help Chakra Improve!"
+#~ msgstr "Ajude a Melhorar o Chakra"
+
+#~ msgid "Smolt"
+#~ msgstr "Smolt"
+
+#~ msgid "Welcome Wizard"
+#~ msgstr "Assistente de Boas-Vindas"
+
+#~ msgid "Kapudan"
+#~ msgstr "Kapudan"

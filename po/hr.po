@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kapudan\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-07 16:10-0600\n"
+"POT-Creation-Date: 2012-08-09 17:23-0600\n"
 "PO-Revision-Date: 2011-06-09 23:30+0100\n"
 "Last-Translator: Ivica Kolić <ikoli@yahoo.com>\n"
 "Language-Team: Croatian <ikoli@yahoo.com>\n"
@@ -253,7 +253,7 @@ msgid "Takeoff Menu"
 msgstr "Kick-off izbornik"
 
 #: .tmp/scrMenu.py:64
-msgid "Takeoff is a full screen menu.<br><br> Inspired in the aspect of Slingshot and the OS X Launchpad menu but adapted to the KDE users in a plasmoid."
+msgid "Takeoff is a full screen menu, inspired by Slingshot and the OS X Launchpad menu but adapted to work with KDE as a plasmoid."
 msgstr ""
 
 #: .tmp/scrMouse.py:32
@@ -454,164 +454,116 @@ msgstr "Dobrodošli"
 msgid "Welcome to %s"
 msgstr "Dobrošli u %s"
 
-#~ msgid "Kapudan"
-#~ msgstr "Kapudan"
+#~ msgid "Test Layout"
+#~ msgstr "Provjera rasporeda"
 
-#~ msgid "Welcome to Chakra"
-#~ msgstr "Dobrodošli u Chakra"
+#~ msgid "Kapudan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
+#~ msgstr "Kapudan automatski bira najbolji raspored tipkovnice prema vašem jeziku sustava.Ako želite koristiti drugi raspored osim zadanog,možete napraviti odabir i odmah ga testirati."
 
-#~ msgid "Cancel"
-#~ msgstr "Odgodi"
+#~ msgid "Don't change wallpaper"
+#~ msgstr "Ne mjenjaj pozadinu"
 
-#~ msgid "Back"
-#~ msgstr "Nazad"
+#~ msgid "Choose wallpaper from file"
+#~ msgstr "Izaberite pozadinu iz datoteke"
 
-#~ msgid "Next"
-#~ msgstr "Slijedeće"
+#~ msgid "Wallpapers"
+#~ msgstr "Pozadine"
 
-#~ msgid "Apply Settings"
-#~ msgstr "Primjeni postavke"
+#~ msgid "Choose your favorite wallpaper for Chakra. Don't forget to check out <b>Desktop Settings</b> for downloading new and cool wallpapers."
+#~ msgstr "Izaberite svoju omiljenu pozadinu za Chakra. Ne zaboravite provjeriti<b>Postavke radne površine</b> za preuzimanje novih i cool pozadina."
 
-#~ msgid "Smolt"
-#~ msgstr "Smolt"
+#~ msgid "Reverse scrolling"
+#~ msgstr "Obrnuto pomicanje"
 
-#~ msgid "Help Chakra Improve!"
-#~ msgstr "Pomozi da  se Chakra poboljša!"
+#~ msgid "Left Hand"
+#~ msgstr "Lijeva ruka"
 
-#~ msgid "Label"
-#~ msgstr "Natpis"
+#~ msgid "Right Hand"
+#~ msgstr "Desna ruka"
 
-#~ msgid "Data"
-#~ msgstr "Podaci"
+#~ msgid "Button Order"
+#~ msgstr "Redoslijed dugmadi"
 
-#~ msgid "&Host Information"
-#~ msgstr "& Informacije o računalu"
+#~ msgid "Dou&ble-click to open files and folders"
+#~ msgstr "Dvostruki klik za otvaranje datoteka i mapa"
 
-#~ msgid "&Privacy policy"
-#~ msgstr "&Pravila privatnosti"
+#~ msgid "Single-click to open files and folders"
+#~ msgstr "Jedan klik za otvaranje datoteka i mapa"
 
-#~ msgid "UUID"
-#~ msgstr "UUID"
+#~ msgid "Clicking Behaviour"
+#~ msgstr "Ponašanje klikanja"
 
-#~ msgid "OS"
-#~ msgstr "OS"
+#~ msgid "The <b>clicking behavior</b> defines how many times you want to click when you are opening a file. If you are <b>left handed</b>, you may prefer to swap the left and right buttons of your pointing device."
+#~ msgstr "<b>Ponašanje klika</b> definira koliko puta želite kliknuti pri otvaranju datoteke. Ako ste <b>ljevoruki,</b> možda ćete htjeti zamijeniti lijeve i desne tipke vašeg pokazivačkog uređaja."
 
-#~ msgid "Default Run Level"
-#~ msgstr "Zadana razina pokretanja"
+#~ msgid "Chakra community, mailing lists, chat rooms, Wiki documents, help and support pages..."
+#~ msgstr "Chakra zajednica, mailing liste, chat sobe, Wiki dokumenati, stranice pomoći i podrške ..."
 
-#~ msgid "Language"
-#~ msgstr "Jezik"
+#~ msgid "Help and Support"
+#~ msgstr "Pomoć i podršaka"
 
-#~ msgid "Platform"
-#~ msgstr "Platforma"
+#~ msgid "Configuration tools for Chakra such as the display, firewall, keyboard, user manager..."
+#~ msgstr "Konfiguracijski alati za Chakra, kao što su zaslon, vatrozid, tipkovnica, upravitelj korisnika ..."
 
-#~ msgid "BogoMIPS"
-#~ msgstr "BogoMIPS"
+#~ msgid "System Settings"
+#~ msgstr "Postavke sustava"
 
-#~ msgid "CPU Vendor"
-#~ msgstr "CPU isporučitelj"
+#~ msgid "Go to your Smolt page and rate your hardware components."
+#~ msgstr "Idi na svoj Smolt stranicu i ocijenute vaše komponente hardware-a."
 
-#~ msgid "CPU Model"
-#~ msgstr "Model procesora"
+#~ msgid "<b>Your settings have been applied.</b> Now you can start enjoying Chakra or you can checkout the following links and applications for more settings or for help and support. Don't forget to <b>join our community!</b>"
+#~ msgstr "<b>Veše postavke su primjenjene..</b>Sada možete početi uživati u Chakra-u ili možete provjeriti slijedeće poveznice i programe za više postavki ili za pomoć i podršku.Ne zaboravite  <b>pridružiti se našoj zajednici!</b>"
 
-#~ msgid "CPU Family"
-#~ msgstr "Obitelj procesora"
+#~ msgid "Search Options"
+#~ msgstr "Opcije traženja"
 
-#~ msgid "CPU Model Num"
-#~ msgstr "Broj modela procesora"
+#~ msgid "Allow Strigi to index my files"
+#~ msgstr "Dopusti da Strigi indeksira moje datoteke"
 
-#~ msgid "Number of CPUs"
-#~ msgstr "Broj procesora"
+#~ msgid "Strigi Desktop Search indexes your frequently used files. This gives you very fast file search results. Strigi also can search for files based on their contents."
+#~ msgstr "Strigi pretraživanje radne površine indeksira Vaše često korištene datoteke. To Vam daje vrlo brze rezultate pretraživanja datoteka. Strigi također može tražiti datoteke na temelju njihovog sadržaja."
 
-#~ msgid "CPU Speed"
-#~ msgstr "Brzina procesora"
+#~ msgid "styleName"
+#~ msgstr "ime stila"
 
-#~ msgid "System Memory"
-#~ msgstr "Memorija sustava"
+#~ msgid "Sample"
+#~ msgstr "Uzorak"
 
-#~ msgid "System Swap"
-#~ msgstr "Swap sustava"
+#~ msgid "You can also customize your <b>KDE menu</b> as you like. Please choose one from the following styles."
+#~ msgstr "Također možete prilagoditi svoj <b>​​KDE izbornik</b> kako vi to želite. Molimo odaberite jedan od sljedećih stilova."
 
-#~ msgid "Vendor"
-#~ msgstr "Isporučitelj"
+#~ msgid "Updates"
+#~ msgstr "Dopune"
 
-#~ msgid "System"
-#~ msgstr "Sustav"
+#~ msgid "To install and remove programs to Chakra, use Package-Manager. Package-Manager also can automatically install the latest updates available. You can set the period for checking new updates."
+#~ msgstr "Za instalaciju i uklanjanje programa u Chakra, koristite Upravitelj-paketa. Upravitelj-paketa također može automatski instalirati najnovije dostupne dopune. Možete postaviti rok za provjeru novih dopuna."
 
-#~ msgid "Kernel"
-#~ msgstr "Kernel"
+#~ msgid " hours"
+#~ msgstr "sati"
 
-#~ msgid "SELinux Enabled"
-#~ msgstr "SELinux omogućen"
+#~ msgid "Check updates automatically every"
+#~ msgstr "Provjeri dopune automatski svakih"
 
-#~ msgid "SELinux Policy"
-#~ msgstr "SELinux pravila"
+#~ msgid "Show updates in the system tray"
+#~ msgstr "Pokaži dopune u traci sustava"
 
-#~ msgid "Yes"
-#~ msgstr "Da"
+#~ msgid "<b>Chakra</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Chakra, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kapudan</b> will help you personalize your Chakra workspace easily and quickly. Please click <b>next</b> in order to begin."
+#~ msgstr "<b>Chakra</b> je pouzdan,siguran,brz i lagan za rukovanje operativni sustav. <br /><br />Sa Chakraom možete se spojiti na internet,čitati vašeu elektroničku poštu,raditi sa vašim uredskim dokumentima,gledati filmove,slušati glazbu,razvijati progrme,igrati igre i puno više! <br /><br /><b>Kapudan</b> će vam pomoći da personalizirate vaš Chakra radni prostor lako i brzo. Molim kliknite <b>slijedeće</b> da biste započeli."
 
-#~ msgid "No"
-#~ msgstr "Ne"
+#~ msgid "What is Chakra?"
+#~ msgstr "Što je Chakra?"
 
-#~ msgid "Choose your favorite theme and desktop type. Customize Chakra with colorful styles and themes."
-#~ msgstr "Odaberite vašu omiljenu temu i vrstu radne površine.Prolagodite Chakra razovrsnim stilovima i temama."
+#~ msgid "Send my profile: <b>%s</b>"
+#~ msgstr "Pošalji moj profil: <b>%s</b>"
 
-#~ msgid "KDE Themes"
-#~ msgstr "KDE teme"
+#~ msgid "Smolt Settings"
+#~ msgstr "Smolt postavke"
 
-#~ msgid "Icons"
-#~ msgstr "Ikone"
+#~ msgid "wallPaperName"
+#~ msgstr "Ime pozadine"
 
-#~ msgid "Oxygen - The official icon set of KDE"
-#~ msgstr "Oxygen - službeni skup KDE ikona "
-
-#~ msgid "Milky - The official icon set of Chakra"
-#~ msgstr "Milky - službeni skup ikona za Chakra"
-
-#~ msgid "Desktop Type"
-#~ msgstr "Tip radne površine"
-
-#~ msgid "Desktop view (KDE4 Style)"
-#~ msgstr "Pogled radne površine (KDE4 stil)"
-
-#~ msgid "Folder view (KDE3 Style)"
-#~ msgstr "Pogled mape (KDE3 stil)"
-
-#~ msgid "Number of Desktops"
-#~ msgstr "Broj radnih površina"
-
-#~ msgid "You have successfully finished all steps. Here's a summary of the settings you want to apply. Click <b>Apply Settings</b> to save them now. You are now ready to enjoy Chakra!"
-#~ msgstr "Uspješno ste završili sve korake.Ovo je sažetak postavki koje želite primjeniti.Kliknite <b>Primjeni postavke</b> da biste ih spremili.Sada ste spremni ste uživati u Chakrau!"
-
-#~ msgid "The following settings will be applied"
-#~ msgstr "Slijedeće postavke će biti primjenjene"
-
-#~ msgid "Form"
-#~ msgstr "Forma"
-
-#~ msgid "This screen helps you set your <b>user picture</b>. You can either choose an image from a file or you can capture an image from your camera. Select an option from the <b>options</b> menu."
-#~ msgstr "Ovaj zaslon pomaže vam postaviti vašu <b>korisničku sliku.</b> Možete izabrati sliku iz datoteke ili možete snimiti sliku  kamerom. Odaberite opciju iz izbornika<b>opcije.</b>"
-
-#~ msgid "Options"
-#~ msgstr "Opcije"
-
-#~ msgid "Choose an image"
-#~ msgstr "Izaberite sliku"
-
-#~ msgid "Capture"
-#~ msgstr "Uhvati"
-
-#~ msgid "Recapture"
-#~ msgstr "Uhvati ponovno"
-
-#~ msgid "<b>Smolt</b> is a tool that collects the information in the following table and sends it to us for which lets us improve Chakra according to the user profile statistics."
-#~ msgstr "b>Smolt</b> je alat koji prikuplja informacije u slijedeću tablicu i šalje ih nama što nam omogućuje poboljšati Chakra prema statistikama korisičkog profila."
-
-#~ msgid "My Smolt Page"
-#~ msgstr "Moja Smolt stranica"
-
-#~ msgid "&Send my profile"
-#~ msgstr "&Pošalji moj profil"
+#~ msgid "Welcome Wizard"
+#~ msgstr "Čarobnjak dobrodošlice"
 
 #~ msgid ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
@@ -634,113 +586,161 @@ msgstr "Dobrošli u %s"
 #~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" text-decoration: underline;\">IP Logging:</span> U Chakraovom smoltu sav internetski promet ide najprije preko proxy poslužitelja. Ovo je jedino mjesto gdje se IP adrese zapisuju i zadržavaju na poslužitelju 4 tjedna,nakon čega se brišu. Chakra projekt ne prikuplja ip adrese u smolt bazi podataka. Ovi zapisi su privatni i neće biti dostupni javnosti.</p>\n"
 #~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> Korisnici koji su nezadovoljni ovom politikom mogu jednostavno ne koristiti smolt. Korisnici koji imaju pitanja u svezi ovepolitike mogu kontaktirati Chakra Infrastructure Team na admin [at] pardus.org.tr Također zapamtite da korisnik može bilo kada izbrisati svoj profil koristeći &quot;<span style=\" font-style:italic;\">smoltIzbrišiprofil</span>&quot;</p></body></html>"
 
-#~ msgid "Welcome Wizard"
-#~ msgstr "Čarobnjak dobrodošlice"
+#~ msgid "&Send my profile"
+#~ msgstr "&Pošalji moj profil"
 
-#~ msgid "wallPaperName"
-#~ msgstr "Ime pozadine"
+#~ msgid "My Smolt Page"
+#~ msgstr "Moja Smolt stranica"
 
-#~ msgid "Smolt Settings"
-#~ msgstr "Smolt postavke"
+#~ msgid "<b>Smolt</b> is a tool that collects the information in the following table and sends it to us for which lets us improve Chakra according to the user profile statistics."
+#~ msgstr "b>Smolt</b> je alat koji prikuplja informacije u slijedeću tablicu i šalje ih nama što nam omogućuje poboljšati Chakra prema statistikama korisičkog profila."
 
-#~ msgid "Send my profile: <b>%s</b>"
-#~ msgstr "Pošalji moj profil: <b>%s</b>"
+#~ msgid "Recapture"
+#~ msgstr "Uhvati ponovno"
 
-#~ msgid "What is Chakra?"
-#~ msgstr "Što je Chakra?"
+#~ msgid "Capture"
+#~ msgstr "Uhvati"
 
-#~ msgid "<b>Chakra</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Chakra, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kapudan</b> will help you personalize your Chakra workspace easily and quickly. Please click <b>next</b> in order to begin."
-#~ msgstr "<b>Chakra</b> je pouzdan,siguran,brz i lagan za rukovanje operativni sustav. <br /><br />Sa Chakraom možete se spojiti na internet,čitati vašeu elektroničku poštu,raditi sa vašim uredskim dokumentima,gledati filmove,slušati glazbu,razvijati progrme,igrati igre i puno više! <br /><br /><b>Kapudan</b> će vam pomoći da personalizirate vaš Chakra radni prostor lako i brzo. Molim kliknite <b>slijedeće</b> da biste započeli."
+#~ msgid "Choose an image"
+#~ msgstr "Izaberite sliku"
 
-#~ msgid "Show updates in the system tray"
-#~ msgstr "Pokaži dopune u traci sustava"
+#~ msgid "Options"
+#~ msgstr "Opcije"
 
-#~ msgid "Check updates automatically every"
-#~ msgstr "Provjeri dopune automatski svakih"
+#~ msgid "This screen helps you set your <b>user picture</b>. You can either choose an image from a file or you can capture an image from your camera. Select an option from the <b>options</b> menu."
+#~ msgstr "Ovaj zaslon pomaže vam postaviti vašu <b>korisničku sliku.</b> Možete izabrati sliku iz datoteke ili možete snimiti sliku  kamerom. Odaberite opciju iz izbornika<b>opcije.</b>"
 
-#~ msgid " hours"
-#~ msgstr "sati"
+#~ msgid "Form"
+#~ msgstr "Forma"
 
-#~ msgid "To install and remove programs to Chakra, use Package-Manager. Package-Manager also can automatically install the latest updates available. You can set the period for checking new updates."
-#~ msgstr "Za instalaciju i uklanjanje programa u Chakra, koristite Upravitelj-paketa. Upravitelj-paketa također može automatski instalirati najnovije dostupne dopune. Možete postaviti rok za provjeru novih dopuna."
+#~ msgid "The following settings will be applied"
+#~ msgstr "Slijedeće postavke će biti primjenjene"
 
-#~ msgid "Updates"
-#~ msgstr "Dopune"
+#~ msgid "You have successfully finished all steps. Here's a summary of the settings you want to apply. Click <b>Apply Settings</b> to save them now. You are now ready to enjoy Chakra!"
+#~ msgstr "Uspješno ste završili sve korake.Ovo je sažetak postavki koje želite primjeniti.Kliknite <b>Primjeni postavke</b> da biste ih spremili.Sada ste spremni ste uživati u Chakrau!"
 
-#~ msgid "You can also customize your <b>KDE menu</b> as you like. Please choose one from the following styles."
-#~ msgstr "Također možete prilagoditi svoj <b>​​KDE izbornik</b> kako vi to želite. Molimo odaberite jedan od sljedećih stilova."
+#~ msgid "Number of Desktops"
+#~ msgstr "Broj radnih površina"
 
-#~ msgid "Sample"
-#~ msgstr "Uzorak"
+#~ msgid "Folder view (KDE3 Style)"
+#~ msgstr "Pogled mape (KDE3 stil)"
 
-#~ msgid "styleName"
-#~ msgstr "ime stila"
+#~ msgid "Desktop view (KDE4 Style)"
+#~ msgstr "Pogled radne površine (KDE4 stil)"
 
-#~ msgid "Strigi Desktop Search indexes your frequently used files. This gives you very fast file search results. Strigi also can search for files based on their contents."
-#~ msgstr "Strigi pretraživanje radne površine indeksira Vaše često korištene datoteke. To Vam daje vrlo brze rezultate pretraživanja datoteka. Strigi također može tražiti datoteke na temelju njihovog sadržaja."
+#~ msgid "Desktop Type"
+#~ msgstr "Tip radne površine"
 
-#~ msgid "Allow Strigi to index my files"
-#~ msgstr "Dopusti da Strigi indeksira moje datoteke"
+#~ msgid "Milky - The official icon set of Chakra"
+#~ msgstr "Milky - službeni skup ikona za Chakra"
 
-#~ msgid "Search Options"
-#~ msgstr "Opcije traženja"
+#~ msgid "Oxygen - The official icon set of KDE"
+#~ msgstr "Oxygen - službeni skup KDE ikona "
 
-#~ msgid "<b>Your settings have been applied.</b> Now you can start enjoying Chakra or you can checkout the following links and applications for more settings or for help and support. Don't forget to <b>join our community!</b>"
-#~ msgstr "<b>Veše postavke su primjenjene..</b>Sada možete početi uživati u Chakra-u ili možete provjeriti slijedeće poveznice i programe za više postavki ili za pomoć i podršku.Ne zaboravite  <b>pridružiti se našoj zajednici!</b>"
+#~ msgid "Icons"
+#~ msgstr "Ikone"
 
-#~ msgid "Go to your Smolt page and rate your hardware components."
-#~ msgstr "Idi na svoj Smolt stranicu i ocijenute vaše komponente hardware-a."
+#~ msgid "KDE Themes"
+#~ msgstr "KDE teme"
 
-#~ msgid "System Settings"
-#~ msgstr "Postavke sustava"
+#~ msgid "Choose your favorite theme and desktop type. Customize Chakra with colorful styles and themes."
+#~ msgstr "Odaberite vašu omiljenu temu i vrstu radne površine.Prolagodite Chakra razovrsnim stilovima i temama."
 
-#~ msgid "Configuration tools for Chakra such as the display, firewall, keyboard, user manager..."
-#~ msgstr "Konfiguracijski alati za Chakra, kao što su zaslon, vatrozid, tipkovnica, upravitelj korisnika ..."
+#~ msgid "No"
+#~ msgstr "Ne"
 
-#~ msgid "Help and Support"
-#~ msgstr "Pomoć i podršaka"
+#~ msgid "Yes"
+#~ msgstr "Da"
 
-#~ msgid "Chakra community, mailing lists, chat rooms, Wiki documents, help and support pages..."
-#~ msgstr "Chakra zajednica, mailing liste, chat sobe, Wiki dokumenati, stranice pomoći i podrške ..."
+#~ msgid "SELinux Policy"
+#~ msgstr "SELinux pravila"
 
-#~ msgid "The <b>clicking behavior</b> defines how many times you want to click when you are opening a file. If you are <b>left handed</b>, you may prefer to swap the left and right buttons of your pointing device."
-#~ msgstr "<b>Ponašanje klika</b> definira koliko puta želite kliknuti pri otvaranju datoteke. Ako ste <b>ljevoruki,</b> možda ćete htjeti zamijeniti lijeve i desne tipke vašeg pokazivačkog uređaja."
+#~ msgid "SELinux Enabled"
+#~ msgstr "SELinux omogućen"
 
-#~ msgid "Clicking Behaviour"
-#~ msgstr "Ponašanje klikanja"
+#~ msgid "Kernel"
+#~ msgstr "Kernel"
 
-#~ msgid "Single-click to open files and folders"
-#~ msgstr "Jedan klik za otvaranje datoteka i mapa"
+#~ msgid "System"
+#~ msgstr "Sustav"
 
-#~ msgid "Dou&ble-click to open files and folders"
-#~ msgstr "Dvostruki klik za otvaranje datoteka i mapa"
+#~ msgid "Vendor"
+#~ msgstr "Isporučitelj"
 
-#~ msgid "Button Order"
-#~ msgstr "Redoslijed dugmadi"
+#~ msgid "System Swap"
+#~ msgstr "Swap sustava"
 
-#~ msgid "Right Hand"
-#~ msgstr "Desna ruka"
+#~ msgid "System Memory"
+#~ msgstr "Memorija sustava"
 
-#~ msgid "Left Hand"
-#~ msgstr "Lijeva ruka"
+#~ msgid "CPU Speed"
+#~ msgstr "Brzina procesora"
 
-#~ msgid "Reverse scrolling"
-#~ msgstr "Obrnuto pomicanje"
+#~ msgid "Number of CPUs"
+#~ msgstr "Broj procesora"
 
-#~ msgid "Choose your favorite wallpaper for Chakra. Don't forget to check out <b>Desktop Settings</b> for downloading new and cool wallpapers."
-#~ msgstr "Izaberite svoju omiljenu pozadinu za Chakra. Ne zaboravite provjeriti<b>Postavke radne površine</b> za preuzimanje novih i cool pozadina."
+#~ msgid "CPU Model Num"
+#~ msgstr "Broj modela procesora"
 
-#~ msgid "Wallpapers"
-#~ msgstr "Pozadine"
+#~ msgid "CPU Family"
+#~ msgstr "Obitelj procesora"
 
-#~ msgid "Choose wallpaper from file"
-#~ msgstr "Izaberite pozadinu iz datoteke"
+#~ msgid "CPU Model"
+#~ msgstr "Model procesora"
 
-#~ msgid "Don't change wallpaper"
-#~ msgstr "Ne mjenjaj pozadinu"
+#~ msgid "CPU Vendor"
+#~ msgstr "CPU isporučitelj"
 
-#~ msgid "Kapudan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
-#~ msgstr "Kapudan automatski bira najbolji raspored tipkovnice prema vašem jeziku sustava.Ako želite koristiti drugi raspored osim zadanog,možete napraviti odabir i odmah ga testirati."
+#~ msgid "BogoMIPS"
+#~ msgstr "BogoMIPS"
 
-#~ msgid "Test Layout"
-#~ msgstr "Provjera rasporeda"
+#~ msgid "Platform"
+#~ msgstr "Platforma"
+
+#~ msgid "Language"
+#~ msgstr "Jezik"
+
+#~ msgid "Default Run Level"
+#~ msgstr "Zadana razina pokretanja"
+
+#~ msgid "OS"
+#~ msgstr "OS"
+
+#~ msgid "UUID"
+#~ msgstr "UUID"
+
+#~ msgid "&Privacy policy"
+#~ msgstr "&Pravila privatnosti"
+
+#~ msgid "&Host Information"
+#~ msgstr "& Informacije o računalu"
+
+#~ msgid "Data"
+#~ msgstr "Podaci"
+
+#~ msgid "Label"
+#~ msgstr "Natpis"
+
+#~ msgid "Help Chakra Improve!"
+#~ msgstr "Pomozi da  se Chakra poboljša!"
+
+#~ msgid "Smolt"
+#~ msgstr "Smolt"
+
+#~ msgid "Apply Settings"
+#~ msgstr "Primjeni postavke"
+
+#~ msgid "Next"
+#~ msgstr "Slijedeće"
+
+#~ msgid "Back"
+#~ msgstr "Nazad"
+
+#~ msgid "Cancel"
+#~ msgstr "Odgodi"
+
+#~ msgid "Welcome to Chakra"
+#~ msgstr "Dobrodošli u Chakra"
+
+#~ msgid "Kapudan"
+#~ msgstr "Kapudan"

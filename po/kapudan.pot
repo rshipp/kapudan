@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-07 16:10-0600\n"
+"POT-Creation-Date: 2012-08-09 17:23-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -117,8 +117,8 @@ msgstr ""
 
 #: .tmp/scrMenu.py:64
 msgid ""
-"Takeoff is a full screen menu.<br><br> Inspired in the aspect of Slingshot "
-"and the OS X Launchpad menu but adapted to the KDE users in a plasmoid."
+"Takeoff is a full screen menu, inspired by Slingshot and the OS X Launchpad "
+"menu but adapted to work with KDE as a plasmoid."
 msgstr ""
 
 #: .tmp/scrSummary.py:43

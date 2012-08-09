@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kapudan.trunk.hu.po\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-07 16:10-0600\n"
+"POT-Creation-Date: 2012-08-09 17:23-0600\n"
 "PO-Revision-Date: 2011-01-04 20:30+0100\n"
 "Last-Translator: Attila Siposs <sipiatti@gmail.com>\n"
 "Language-Team: Hungarian <pardus-translators@pardus.org.tr>\n"
@@ -251,7 +251,7 @@ msgid "Takeoff Menu"
 msgstr "Kick-off menü"
 
 #: .tmp/scrMenu.py:64
-msgid "Takeoff is a full screen menu.<br><br> Inspired in the aspect of Slingshot and the OS X Launchpad menu but adapted to the KDE users in a plasmoid."
+msgid "Takeoff is a full screen menu, inspired by Slingshot and the OS X Launchpad menu but adapted to work with KDE as a plasmoid."
 msgstr ""
 
 #: .tmp/scrMouse.py:32
@@ -452,227 +452,125 @@ msgstr "Üdvözöljük"
 msgid "Welcome to %s"
 msgstr "%s üdvözli Önt!"
 
-#~ msgid "Kapudan"
-#~ msgstr "Kapudan"
+#~ msgid "Contrib repository includes extra and handy programs."
+#~ msgstr "A Contrib tároló további hasznos programokat tartalmaz."
 
-#~ msgid "Welcome Wizard"
-#~ msgstr "Első Indítás Varázsló"
+#~ msgid "Add contrib repository"
+#~ msgstr "Contrib tároló hozzáadása"
 
-#~ msgid "Smolt"
-#~ msgstr "Smolt"
+#~ msgid "Repositories"
+#~ msgstr "Tárolók"
 
-#~ msgid "Help Chakra Improve!"
-#~ msgstr "Segítse a Chakra fejlesztését!"
+#~ msgid "Migration Wizard"
+#~ msgstr "Áthelyezés varázsló"
 
-#~ msgid "Label"
-#~ msgstr "Címke"
+#~ msgid "A wizard to transfer files and settings from existing operating systems (e.g. Windows) to Chakra."
+#~ msgstr "Varázsló a fájlok és beállítások átviteléhez egy meglévő operációs rendszerből (pl. Windows) Chakraba."
 
-#~ msgid "Data"
-#~ msgstr "Adat"
+#~ msgid "Network"
+#~ msgstr "Hálózat"
 
-#~ msgid "&Host Information"
-#~ msgstr "&Gép információ"
+#~ msgid "To create a new connection click on <b>Create Profile</b> and select your adapter from the list. If your connection is wireless then choose and access point. After saving your profile click the checkbox to establish the connection."
+#~ msgstr "Új kapcsolat létrehozásához kattintson a <b> Profil létrehozása</b> menüre és válassza ki a csatlakozás típusát a listából. Amennyiben vezeték nélkül csatlakozik akkor utána válassza ki a csatlakozási pontot is. A profil létrehozása után kattintson a négyzetbe a kapcsolat létrehozásához."
 
-#~ msgid "&Privacy policy"
-#~ msgstr "&Adatvédelmi irányelv"
+#~ msgid "Network Manager (Press Apply to save your settings)"
+#~ msgstr "Hálózati menedzser (Nyomja meg az alkalmaz gombot a beállítások elmentéséhez) "
 
-#~ msgid "UUID"
-#~ msgstr "UUID"
+#~ msgid "color: rgb(100, 36, 55);"
+#~ msgstr "szín: rgb(100, 36, 55)"
 
-#~ msgid "OS"
-#~ msgstr "Operációs rendszer"
+#~ msgid "color:rgb(95, 34, 52)"
+#~ msgstr "szín:rgb(95, 34, 52"
 
-#~ msgid "Default Run Level"
-#~ msgstr "Alapértelmezett futási szint"
+#~ msgid "color: rgb(234, 225, 228);"
+#~ msgstr "szín: rgb(234, 225, 228);"
 
-#~ msgid "Language"
-#~ msgstr "Nyelv"
+#~ msgid "color: rgb(95, 34, 52);"
+#~ msgstr "szín: rgb(95, 34, 52)"
 
-#~ msgid "Platform"
-#~ msgstr "Platform"
+#~ msgid "color: #642437;"
+#~ msgstr "szín: #642437;"
 
-#~ msgid "BogoMIPS"
-#~ msgstr "BogoMIPS"
+#~ msgid "Desktop search: <b>%s</b>"
+#~ msgstr "Asztal keresés: <b>%s</b>"
 
-#~ msgid "CPU Vendor"
-#~ msgstr "CPU forgalmazó"
+#~ msgid "&Back"
+#~ msgstr "&Vissza"
 
-#~ msgid "CPU Model"
-#~ msgstr "CPU modell"
+#~ msgid "Off"
+#~ msgstr "Ki"
 
-#~ msgid "CPU Stepping"
-#~ msgstr "CPU Stepping"
+#~ msgid "On"
+#~ msgstr "Be"
 
-#~ msgid "CPU Family"
-#~ msgstr "CPU család"
+#~ msgid "Connect to the Internet"
+#~ msgstr "Csatlakozás az internetre"
 
-#~ msgid "CPU Model Num"
-#~ msgstr "CPU modell szám"
+#~ msgid "Welcome to Chakra 2011 Alpha 1"
+#~ msgstr "Üdvözlöm a Chakra 2009.2-ben"
 
-#~ msgid "Number of CPUs"
-#~ msgstr "CPU-k száma"
+#~ msgid "wallpaperDesc"
+#~ msgstr "háttérkép leírása"
 
-#~ msgid "CPU Speed"
-#~ msgstr "CPU sebessége"
+#~ msgid "wallPaperName"
+#~ msgstr "háttérkép neve"
 
-#~ msgid "System Memory"
-#~ msgstr "Rendszer memória"
+#~ msgid "<b>Chakra</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Chakra, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kapudan</b> will help you personalize your Chakra workspace easily and quickly. Please click <b>next</b> in order to begin."
+#~ msgstr "<b>Chakra</b> egy megbízható, biztonságos. gyors és felhasználóbarát operációs rendszer. <br /><br />Chakra-szal csatlakozhat az internetre, olvashatja e-mailjeit, dolgozhat dokumentumaival, filmet nézhet, zenét hallgathat, alkalmazásokat fejleszthet, játékokkal játszhat és ímég sok mást is tehet! <br /><br />A <b>Kapudan</b> segít abban, hogy könnyen és gyorsan személyessé tegye a Chakra rendszerét. Kérem kattintson a <b>tovább</b> gombra a kezdéshez."
 
-#~ msgid "System Swap"
-#~ msgstr "Rendszer Swap"
+#~ msgid "What is Chakra?"
+#~ msgstr "Mi a Chakra?"
 
-#~ msgid "Vendor"
-#~ msgstr "Forgalmazó"
+#~ msgid "Don't change wallpaper"
+#~ msgstr "Ne változtassa meg a háttérképet"
 
-#~ msgid "System"
-#~ msgstr "Rendszer"
+#~ msgid "Choose wallpaper from file"
+#~ msgstr "Válasszon háttérképet fájlból"
 
-#~ msgid "Form Factor"
-#~ msgstr "Form factor"
+#~ msgid "Wallpapers"
+#~ msgstr "Háttérképek"
 
-#~ msgid "Kernel"
-#~ msgstr "Kernel"
+#~ msgid "Choose your favorite wallpaper for Chakra. Don't forget to check out <b>Desktop Settings</b> for downloading new and cool wallpapers."
+#~ msgstr "Válassza ki kedvenc háttérképét a Chakrahoz. Az <b>Asztal beállítás</b>okban további új és izgalmas háttérképeket tölthet le."
 
-#~ msgid "SELinux Enabled"
-#~ msgstr "SELinux engedélyezve"
+#~ msgid "The following settings will be applied"
+#~ msgstr "A következő beállítások kerülnek alkalmazásra"
 
-#~ msgid "SELinux Policy"
-#~ msgstr "SELinux szabályok"
+#~ msgid "You have successfully finished all steps. Here's a summary of the settings you want to apply. Click <b>Apply Settings</b> to save them now. You are now ready to enjoy Chakra!"
+#~ msgstr "Sikeresen befejezett minden lépést. Itt egy összegzés az elfogadásra váró beállításokról. Kattintson a <b>Beállítások alkalmazása</b> gombra az elfogadásukhoz. Most már készen áll a Chakra használatára! "
 
-#~ msgid "SELinux Enforce"
-#~ msgstr "SELinux kikényszerítés"
+#~ msgid "styleDesc"
+#~ msgstr "stílus leírása"
 
-#~ msgid "Yes"
-#~ msgstr "Igen"
+#~ msgid "styleName"
+#~ msgstr "stílusnév"
 
-#~ msgid "No"
-#~ msgstr "Nem"
+#~ msgid "Number of Desktops"
+#~ msgstr "Asztalok száma"
 
-#~ msgid "Smolt Settings"
-#~ msgstr "Smolt beállítások"
+#~ msgid "Folder view (KDE3 Style)"
+#~ msgstr "Mappa nézet (KDE3 stílus)"
 
-#~ msgid "Send my profile: <b>%s</b>"
-#~ msgstr "Küldje el a profilomat: <b>%s</b>"
+#~ msgid "Desktop view (KDE4 Style)"
+#~ msgstr "Asztal nézet (KDE4 stílus)"
 
-#~ msgid "Welcome to Chakra"
-#~ msgstr "Üdvözöljük a Chakraban!"
+#~ msgid "Desktop Type"
+#~ msgstr "Asztal típusa"
 
-#~ msgid "Cancel"
-#~ msgstr "Mégsem"
+#~ msgid "Milky - The official icon set of Chakra"
+#~ msgstr "Milky - A Chakra hivatalos ikon témája"
 
-#~ msgid "Back"
-#~ msgstr "Vissza"
+#~ msgid "Oxygen - The official icon set of KDE"
+#~ msgstr "Oxygen - A KDE hivatalos ikon témája"
 
-#~ msgid "Next"
-#~ msgstr "Következő"
+#~ msgid "Icons"
+#~ msgstr "Ikonok"
 
-#~ msgid "Apply Settings"
-#~ msgstr "Beállítások alkalmazása"
+#~ msgid "KDE Themes"
+#~ msgstr "KDE témák"
 
-#~ msgid "Form"
-#~ msgstr "Forma"
-
-#~ msgid "This screen helps you set your <b>user picture</b>. You can either choose an image from a file or you can capture an image from your camera. Select an option from the <b>options</b> menu."
-#~ msgstr "Ez a képernyő segít Önnek beállítani a <b>saját képét</b>. Választhat egy meglévő képet, vagy rögzíthet egy képet a kameráról. Válasszon egyet a <b>Lehetőségek</b> menüből."
-
-#~ msgid "Options"
-#~ msgstr "Lehetőségek"
-
-#~ msgid "Choose an image"
-#~ msgstr "Válasszon egy képet"
-
-#~ msgid "Capture"
-#~ msgstr "Felvétel"
-
-#~ msgid "Recapture"
-#~ msgstr "Új felvétel"
-
-#~ msgid "<b>Your settings have been applied.</b> Now you can start enjoying Chakra or you can checkout the following links and applications for more settings or for help and support. Don't forget to <b>join our community!</b>"
-#~ msgstr "<b>A beállítások mentésre kerültek.</b> Legyen öreme új Chakra rendszerében! Az alábbi linkek használatával további beállításokat végezhet, vagy segítséget és támogatást vehet igénybe. Ne felejtsen el <b>csatlakozni közösségünkhöz!</b>"
-
-#~ msgid "My Smolt Page"
-#~ msgstr "Smolt oldalam"
-
-#~ msgid "Go to your Smolt page and rate your hardware components."
-#~ msgstr "Látogasson el a Smolt oldalára és minősítse a hardver összetevőit."
-
-#~ msgid "System Settings"
-#~ msgstr "Rendszer beállítások"
-
-#~ msgid "Configuration tools for Chakra such as the display, firewall, keyboard, user manager..."
-#~ msgstr "Beállító eszközök Chakrahoz - kijelző, tűzfal, billentyűzet, felhasználó kezelés..."
-
-#~ msgid "Help and Support"
-#~ msgstr "Segítség és támogatás"
-
-#~ msgid "Chakra community, mailing lists, chat rooms, Wiki documents, help and support pages..."
-#~ msgstr "Chakra közösség, levelező listák, chat szobák, Wiki dokumentációk, segítségnyújtó és támogató oldalak..."
-
-#~ msgid "Kapudan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
-#~ msgstr "Kapudan automatikusan kiválasztja az Ön számára legjobb billentyűzetkiosztást a rendszer nyelvének megfelelően. Amennyiben az alapértelmezettől eltérő billentyűzetkiosztást szeretne használni, kiválaszthatja és a lenti mezőben ellenőrizheti."
-
-#~ msgid "Test Layout"
-#~ msgstr "Teszt kimenet"
-
-#~ msgid "You can also customize your <b>KDE menu</b> as you like. Please choose one from the following styles."
-#~ msgstr "Igénye szerint állíthatja be a <b>KDE menüt<b>. Kérem válasszon egyet az alábbi stílusok közül."
-
-#~ msgid "Sample"
-#~ msgstr "Minta"
-
-#~ msgid "The <b>clicking behavior</b> defines how many times you want to click when you are opening a file. If you are <b>left handed</b>, you may prefer to swap the left and right buttons of your pointing device."
-#~ msgstr "A <b> kattintás beállítása</b> meghatározza hányszor kelljen kattintani fájlok megnyitásakor. Ha Ön <b>bal kezes</b>, előnyben részesítheti, ha az egér bal és jobb gombja fel van cserélve."
-
-#~ msgid "Clicking Behaviour"
-#~ msgstr "Kattintás beállításai"
-
-#~ msgid "Single-click to open files and folders"
-#~ msgstr "Egy kattintás a fájlok és mappák megnyitásához"
-
-#~ msgid "Dou&ble-click to open files and folders"
-#~ msgstr "Dupla kattintás a fájlok és mappák megnyitásához."
-
-#~ msgid "Button Order"
-#~ msgstr "Gombok sorrendje"
-
-#~ msgid "Right Hand"
-#~ msgstr "Jobb kezes"
-
-#~ msgid "Left Hand"
-#~ msgstr "Bal kezes"
-
-#~ msgid "Reverse scrolling"
-#~ msgstr "Görgetés megfordítása"
-
-#~ msgid "Show updates in the system tray"
-#~ msgstr "Frissítések megjelenítése a rendszertálcán"
-
-#~ msgid "Check updates automatically every"
-#~ msgstr "Frissítések automatikus ellenőrzése minden"
-
-#~ msgid " hours"
-#~ msgstr "órában"
-
-#~ msgid "To install and remove programs to Chakra, use Package-Manager. Package-Manager also can automatically install the latest updates available. You can set the period for checking new updates."
-#~ msgstr "Programok hozzáadásához és eltávolításához Chakra alatt használja a csomagkezelőt. A csomagkezelő automatikusan telepíti az elérhető legújabb frissítéseket. Beállíthatja az új frissítések keresésének gyakoriságát."
-
-#~ msgid "Updates"
-#~ msgstr "Frissítések"
-
-#~ msgid "Strigi Desktop Search indexes your frequently used files. This gives you very fast file search results. Strigi also can search for files based on their contents."
-#~ msgstr "Strigi Desktop Search indexeli a leggyakrabban használt fájljait. Ez rendkívül gyors keresést eredményez. A Strigi a fájlok tartalmában is képes keresni."
-
-#~ msgid "Allow Strigi to index my files"
-#~ msgstr "Engedélyezem, hogy a Strigi indexelje a fájljaimat"
-
-#~ msgid "Search Options"
-#~ msgstr "Keresési beállítások"
-
-#~ msgid "<b>Smolt</b> is a tool that collects the information in the following table and sends it to us for which lets us improve Chakra according to the user profile statistics."
-#~ msgstr "<b>Smolt</b> az az eszköz ami összegyűjti az információkat az alábbi táblázatba és elküldi nekünk, amivel tovább fejleszthetjük a Chakrat a felhasználói profil statisztikáknak megfelelően."
-
-#~ msgid "&Send my profile"
-#~ msgstr "&Profil elküldése"
+#~ msgid "Choose your favorite theme and desktop type. Customize Chakra with colorful styles and themes."
+#~ msgstr "Válassza ki kedvenc témáját és asztal típusát. Tegye egyedivé a Chakrat színes stílusokkal és témákkal."
 
 #~ msgid ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
@@ -694,122 +592,224 @@ msgstr "%s üdvözli Önt!"
 #~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:9pt; text-decoration: underline;\">IP naplózás:</span><span style=\" font-size:9pt;\">  A Chakraból minden smolt adatforgalom először egy proxy szerverre kerül. Ez az egyetlen hely, ahol a küldő IP címe eltárolódik, de itt is maximum 4 hétig tároljuk. Ezután a címek a naplófájlok forgatásával kikerülnek a rendszerből. A Párdus nem tárolja az IP címeket a smolt adatbázisban, illetve ezek a naplófáljok publikusan nem elérhetők.</span></p>\n"
 #~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:9pt;\">   Azon felhasználóinknak, akiknek ez az adattárolási módszer nem felel meg, azt tanácsoljuk, hogy ne használják a smolt adatbázist. Ha további kérdéseik vannak az adatvédelemmel kapcsolatban, kérjük keressék meg a Chakra Infrastruktúra Csapatát az admin [kukac] pardus.org.tr  email címen. Minden felhasználó bármikor törölheti a smolt adatait a &quot;</span><span style=\" font-size:9pt; font-style:italic;\">smoltDeleteProfile</span><span style=\" font-size:9pt;\">&quot;</span> parancs segítségével.</p></body></html>"
 
-#~ msgid "Choose your favorite theme and desktop type. Customize Chakra with colorful styles and themes."
-#~ msgstr "Válassza ki kedvenc témáját és asztal típusát. Tegye egyedivé a Chakrat színes stílusokkal és témákkal."
+#~ msgid "&Send my profile"
+#~ msgstr "&Profil elküldése"
 
-#~ msgid "KDE Themes"
-#~ msgstr "KDE témák"
+#~ msgid "<b>Smolt</b> is a tool that collects the information in the following table and sends it to us for which lets us improve Chakra according to the user profile statistics."
+#~ msgstr "<b>Smolt</b> az az eszköz ami összegyűjti az információkat az alábbi táblázatba és elküldi nekünk, amivel tovább fejleszthetjük a Chakrat a felhasználói profil statisztikáknak megfelelően."
 
-#~ msgid "Icons"
-#~ msgstr "Ikonok"
+#~ msgid "Search Options"
+#~ msgstr "Keresési beállítások"
 
-#~ msgid "Oxygen - The official icon set of KDE"
-#~ msgstr "Oxygen - A KDE hivatalos ikon témája"
+#~ msgid "Allow Strigi to index my files"
+#~ msgstr "Engedélyezem, hogy a Strigi indexelje a fájljaimat"
 
-#~ msgid "Milky - The official icon set of Chakra"
-#~ msgstr "Milky - A Chakra hivatalos ikon témája"
+#~ msgid "Strigi Desktop Search indexes your frequently used files. This gives you very fast file search results. Strigi also can search for files based on their contents."
+#~ msgstr "Strigi Desktop Search indexeli a leggyakrabban használt fájljait. Ez rendkívül gyors keresést eredményez. A Strigi a fájlok tartalmában is képes keresni."
 
-#~ msgid "Desktop Type"
-#~ msgstr "Asztal típusa"
+#~ msgid "Updates"
+#~ msgstr "Frissítések"
 
-#~ msgid "Desktop view (KDE4 Style)"
-#~ msgstr "Asztal nézet (KDE4 stílus)"
+#~ msgid "To install and remove programs to Chakra, use Package-Manager. Package-Manager also can automatically install the latest updates available. You can set the period for checking new updates."
+#~ msgstr "Programok hozzáadásához és eltávolításához Chakra alatt használja a csomagkezelőt. A csomagkezelő automatikusan telepíti az elérhető legújabb frissítéseket. Beállíthatja az új frissítések keresésének gyakoriságát."
 
-#~ msgid "Folder view (KDE3 Style)"
-#~ msgstr "Mappa nézet (KDE3 stílus)"
+#~ msgid " hours"
+#~ msgstr "órában"
 
-#~ msgid "Number of Desktops"
-#~ msgstr "Asztalok száma"
+#~ msgid "Check updates automatically every"
+#~ msgstr "Frissítések automatikus ellenőrzése minden"
 
-#~ msgid "styleName"
-#~ msgstr "stílusnév"
+#~ msgid "Show updates in the system tray"
+#~ msgstr "Frissítések megjelenítése a rendszertálcán"
 
-#~ msgid "styleDesc"
-#~ msgstr "stílus leírása"
+#~ msgid "Reverse scrolling"
+#~ msgstr "Görgetés megfordítása"
 
-#~ msgid "You have successfully finished all steps. Here's a summary of the settings you want to apply. Click <b>Apply Settings</b> to save them now. You are now ready to enjoy Chakra!"
-#~ msgstr "Sikeresen befejezett minden lépést. Itt egy összegzés az elfogadásra váró beállításokról. Kattintson a <b>Beállítások alkalmazása</b> gombra az elfogadásukhoz. Most már készen áll a Chakra használatára! "
+#~ msgid "Left Hand"
+#~ msgstr "Bal kezes"
 
-#~ msgid "The following settings will be applied"
-#~ msgstr "A következő beállítások kerülnek alkalmazásra"
+#~ msgid "Right Hand"
+#~ msgstr "Jobb kezes"
 
-#~ msgid "Choose your favorite wallpaper for Chakra. Don't forget to check out <b>Desktop Settings</b> for downloading new and cool wallpapers."
-#~ msgstr "Válassza ki kedvenc háttérképét a Chakrahoz. Az <b>Asztal beállítás</b>okban további új és izgalmas háttérképeket tölthet le."
+#~ msgid "Button Order"
+#~ msgstr "Gombok sorrendje"
 
-#~ msgid "Wallpapers"
-#~ msgstr "Háttérképek"
+#~ msgid "Dou&ble-click to open files and folders"
+#~ msgstr "Dupla kattintás a fájlok és mappák megnyitásához."
 
-#~ msgid "Choose wallpaper from file"
-#~ msgstr "Válasszon háttérképet fájlból"
+#~ msgid "Single-click to open files and folders"
+#~ msgstr "Egy kattintás a fájlok és mappák megnyitásához"
 
-#~ msgid "Don't change wallpaper"
-#~ msgstr "Ne változtassa meg a háttérképet"
+#~ msgid "Clicking Behaviour"
+#~ msgstr "Kattintás beállításai"
 
-#~ msgid "What is Chakra?"
-#~ msgstr "Mi a Chakra?"
+#~ msgid "The <b>clicking behavior</b> defines how many times you want to click when you are opening a file. If you are <b>left handed</b>, you may prefer to swap the left and right buttons of your pointing device."
+#~ msgstr "A <b> kattintás beállítása</b> meghatározza hányszor kelljen kattintani fájlok megnyitásakor. Ha Ön <b>bal kezes</b>, előnyben részesítheti, ha az egér bal és jobb gombja fel van cserélve."
 
-#~ msgid "<b>Chakra</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Chakra, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kapudan</b> will help you personalize your Chakra workspace easily and quickly. Please click <b>next</b> in order to begin."
-#~ msgstr "<b>Chakra</b> egy megbízható, biztonságos. gyors és felhasználóbarát operációs rendszer. <br /><br />Chakra-szal csatlakozhat az internetre, olvashatja e-mailjeit, dolgozhat dokumentumaival, filmet nézhet, zenét hallgathat, alkalmazásokat fejleszthet, játékokkal játszhat és ímég sok mást is tehet! <br /><br />A <b>Kapudan</b> segít abban, hogy könnyen és gyorsan személyessé tegye a Chakra rendszerét. Kérem kattintson a <b>tovább</b> gombra a kezdéshez."
+#~ msgid "Sample"
+#~ msgstr "Minta"
 
-#~ msgid "wallPaperName"
-#~ msgstr "háttérkép neve"
+#~ msgid "You can also customize your <b>KDE menu</b> as you like. Please choose one from the following styles."
+#~ msgstr "Igénye szerint állíthatja be a <b>KDE menüt<b>. Kérem válasszon egyet az alábbi stílusok közül."
 
-#~ msgid "wallpaperDesc"
-#~ msgstr "háttérkép leírása"
+#~ msgid "Test Layout"
+#~ msgstr "Teszt kimenet"
 
-#~ msgid "Welcome to Chakra 2011 Alpha 1"
-#~ msgstr "Üdvözlöm a Chakra 2009.2-ben"
+#~ msgid "Kapudan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
+#~ msgstr "Kapudan automatikusan kiválasztja az Ön számára legjobb billentyűzetkiosztást a rendszer nyelvének megfelelően. Amennyiben az alapértelmezettől eltérő billentyűzetkiosztást szeretne használni, kiválaszthatja és a lenti mezőben ellenőrizheti."
 
-#~ msgid "Connect to the Internet"
-#~ msgstr "Csatlakozás az internetre"
+#~ msgid "Chakra community, mailing lists, chat rooms, Wiki documents, help and support pages..."
+#~ msgstr "Chakra közösség, levelező listák, chat szobák, Wiki dokumentációk, segítségnyújtó és támogató oldalak..."
 
-#~ msgid "On"
-#~ msgstr "Be"
+#~ msgid "Help and Support"
+#~ msgstr "Segítség és támogatás"
 
-#~ msgid "Off"
-#~ msgstr "Ki"
+#~ msgid "Configuration tools for Chakra such as the display, firewall, keyboard, user manager..."
+#~ msgstr "Beállító eszközök Chakrahoz - kijelző, tűzfal, billentyűzet, felhasználó kezelés..."
 
-#~ msgid "&Back"
-#~ msgstr "&Vissza"
+#~ msgid "System Settings"
+#~ msgstr "Rendszer beállítások"
 
-#~ msgid "Desktop search: <b>%s</b>"
-#~ msgstr "Asztal keresés: <b>%s</b>"
+#~ msgid "Go to your Smolt page and rate your hardware components."
+#~ msgstr "Látogasson el a Smolt oldalára és minősítse a hardver összetevőit."
 
-#~ msgid "color: #642437;"
-#~ msgstr "szín: #642437;"
+#~ msgid "My Smolt Page"
+#~ msgstr "Smolt oldalam"
 
-#~ msgid "color: rgb(95, 34, 52);"
-#~ msgstr "szín: rgb(95, 34, 52)"
+#~ msgid "<b>Your settings have been applied.</b> Now you can start enjoying Chakra or you can checkout the following links and applications for more settings or for help and support. Don't forget to <b>join our community!</b>"
+#~ msgstr "<b>A beállítások mentésre kerültek.</b> Legyen öreme új Chakra rendszerében! Az alábbi linkek használatával további beállításokat végezhet, vagy segítséget és támogatást vehet igénybe. Ne felejtsen el <b>csatlakozni közösségünkhöz!</b>"
 
-#~ msgid "color: rgb(234, 225, 228);"
-#~ msgstr "szín: rgb(234, 225, 228);"
+#~ msgid "Recapture"
+#~ msgstr "Új felvétel"
 
-#~ msgid "color:rgb(95, 34, 52)"
-#~ msgstr "szín:rgb(95, 34, 52"
+#~ msgid "Capture"
+#~ msgstr "Felvétel"
 
-#~ msgid "color: rgb(100, 36, 55);"
-#~ msgstr "szín: rgb(100, 36, 55)"
+#~ msgid "Choose an image"
+#~ msgstr "Válasszon egy képet"
 
-#~ msgid "Network Manager (Press Apply to save your settings)"
-#~ msgstr "Hálózati menedzser (Nyomja meg az alkalmaz gombot a beállítások elmentéséhez) "
+#~ msgid "Options"
+#~ msgstr "Lehetőségek"
 
-#~ msgid "To create a new connection click on <b>Create Profile</b> and select your adapter from the list. If your connection is wireless then choose and access point. After saving your profile click the checkbox to establish the connection."
-#~ msgstr "Új kapcsolat létrehozásához kattintson a <b> Profil létrehozása</b> menüre és válassza ki a csatlakozás típusát a listából. Amennyiben vezeték nélkül csatlakozik akkor utána válassza ki a csatlakozási pontot is. A profil létrehozása után kattintson a négyzetbe a kapcsolat létrehozásához."
+#~ msgid "This screen helps you set your <b>user picture</b>. You can either choose an image from a file or you can capture an image from your camera. Select an option from the <b>options</b> menu."
+#~ msgstr "Ez a képernyő segít Önnek beállítani a <b>saját képét</b>. Választhat egy meglévő képet, vagy rögzíthet egy képet a kameráról. Válasszon egyet a <b>Lehetőségek</b> menüből."
 
-#~ msgid "Network"
-#~ msgstr "Hálózat"
+#~ msgid "Form"
+#~ msgstr "Forma"
 
-#~ msgid "A wizard to transfer files and settings from existing operating systems (e.g. Windows) to Chakra."
-#~ msgstr "Varázsló a fájlok és beállítások átviteléhez egy meglévő operációs rendszerből (pl. Windows) Chakraba."
+#~ msgid "Apply Settings"
+#~ msgstr "Beállítások alkalmazása"
 
-#~ msgid "Migration Wizard"
-#~ msgstr "Áthelyezés varázsló"
+#~ msgid "Next"
+#~ msgstr "Következő"
 
-#~ msgid "Repositories"
-#~ msgstr "Tárolók"
+#~ msgid "Back"
+#~ msgstr "Vissza"
 
-#~ msgid "Add contrib repository"
-#~ msgstr "Contrib tároló hozzáadása"
+#~ msgid "Cancel"
+#~ msgstr "Mégsem"
 
-#~ msgid "Contrib repository includes extra and handy programs."
-#~ msgstr "A Contrib tároló további hasznos programokat tartalmaz."
+#~ msgid "Welcome to Chakra"
+#~ msgstr "Üdvözöljük a Chakraban!"
+
+#~ msgid "Send my profile: <b>%s</b>"
+#~ msgstr "Küldje el a profilomat: <b>%s</b>"
+
+#~ msgid "Smolt Settings"
+#~ msgstr "Smolt beállítások"
+
+#~ msgid "No"
+#~ msgstr "Nem"
+
+#~ msgid "Yes"
+#~ msgstr "Igen"
+
+#~ msgid "SELinux Enforce"
+#~ msgstr "SELinux kikényszerítés"
+
+#~ msgid "SELinux Policy"
+#~ msgstr "SELinux szabályok"
+
+#~ msgid "SELinux Enabled"
+#~ msgstr "SELinux engedélyezve"
+
+#~ msgid "Kernel"
+#~ msgstr "Kernel"
+
+#~ msgid "Form Factor"
+#~ msgstr "Form factor"
+
+#~ msgid "System"
+#~ msgstr "Rendszer"
+
+#~ msgid "Vendor"
+#~ msgstr "Forgalmazó"
+
+#~ msgid "System Swap"
+#~ msgstr "Rendszer Swap"
+
+#~ msgid "System Memory"
+#~ msgstr "Rendszer memória"
+
+#~ msgid "CPU Speed"
+#~ msgstr "CPU sebessége"
+
+#~ msgid "Number of CPUs"
+#~ msgstr "CPU-k száma"
+
+#~ msgid "CPU Model Num"
+#~ msgstr "CPU modell szám"
+
+#~ msgid "CPU Family"
+#~ msgstr "CPU család"
+
+#~ msgid "CPU Stepping"
+#~ msgstr "CPU Stepping"
+
+#~ msgid "CPU Model"
+#~ msgstr "CPU modell"
+
+#~ msgid "CPU Vendor"
+#~ msgstr "CPU forgalmazó"
+
+#~ msgid "BogoMIPS"
+#~ msgstr "BogoMIPS"
+
+#~ msgid "Platform"
+#~ msgstr "Platform"
+
+#~ msgid "Language"
+#~ msgstr "Nyelv"
+
+#~ msgid "Default Run Level"
+#~ msgstr "Alapértelmezett futási szint"
+
+#~ msgid "OS"
+#~ msgstr "Operációs rendszer"
+
+#~ msgid "UUID"
+#~ msgstr "UUID"
+
+#~ msgid "&Privacy policy"
+#~ msgstr "&Adatvédelmi irányelv"
+
+#~ msgid "&Host Information"
+#~ msgstr "&Gép információ"
+
+#~ msgid "Data"
+#~ msgstr "Adat"
+
+#~ msgid "Label"
+#~ msgstr "Címke"
+
+#~ msgid "Help Chakra Improve!"
+#~ msgstr "Segítse a Chakra fejlesztését!"
+
+#~ msgid "Smolt"
+#~ msgstr "Smolt"
+
+#~ msgid "Welcome Wizard"
+#~ msgstr "Első Indítás Varázsló"
+
+#~ msgid "Kapudan"
+#~ msgstr "Kapudan"
