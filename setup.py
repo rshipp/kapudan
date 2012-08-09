@@ -109,7 +109,6 @@ class Install(install):
             kde_dir = "/usr"
         bin_dir = os.path.join(kde_dir, "bin")
         locale_dir = os.path.join(kde_dir, "share/locale")
-        autostart_dir = os.path.join(kde_dir, "share/autostart")
         project_dir = os.path.join(kde_dir, "share/kde4/apps", about.appName)
 
         # Make directories
@@ -117,7 +116,6 @@ class Install(install):
         makeDirs(bin_dir)
 
         #makeDirs(locale_dir)
-        makeDirs(autostart_dir)
         makeDirs(project_dir)
 
         # Install desktop files
@@ -125,9 +123,6 @@ class Install(install):
 
         for filename in glob.glob("data/*.desktop.in"):
             os.system("intltool-merge -d po %s %s" % (filename, filename[:-3]))
-
-        for filename in glob.glob1("data", "*.desktop"):
-            shutil.copy("data/%s" % filename, autostart_dir)
 
         # Install codes
         print "Installing codes..."
