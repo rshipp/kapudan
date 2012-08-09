@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-09 17:23-0600\n"
+"POT-Creation-Date: 2012-08-09 17:35-0600\n"
 "PO-Revision-Date: 2010-12-07 22:13+0200\n"
 "Last-Translator: Renan Çakırerk <renan@pardus.org.tr>\n"
 "Language-Team: Turkish <turkce@pardus.org.tr>\n"
@@ -456,92 +456,227 @@ msgstr "Hoş Geldiniz"
 msgid "Welcome to %s"
 msgstr "%s'e Hoş Geldiniz"
 
-#~ msgid "Contrib repository includes extra and handy programs."
-#~ msgstr "Katkı deposu kullanışlı ek programlar içerir."
+#~ msgid "Kapudan"
+#~ msgstr "Kapudan"
 
-#~ msgid "Add contrib repository"
-#~ msgstr "Katkı deposunu ekle"
+#~ msgid "Welcome Wizard"
+#~ msgstr "Sihirbaza hoşgeldiniz"
 
-#~ msgid "Repositories"
-#~ msgstr "Depolar"
+#~ msgid "Smolt"
+#~ msgstr "Smolt"
 
-#~ msgid "Migration Wizard"
-#~ msgstr "Göç Sihirbazı"
+#~ msgid "Help Chakra Improve!"
+#~ msgstr "Chakra'un Gelişimine Katkı Sağlayın!"
 
-#~ msgid "A wizard to transfer files and settings from existing operating systems (e.g. Windows) to Chakra."
-#~ msgstr "Kurulu diğer işletim sistemlerinden (örn. Windows) Chakra'a dosyalarınızı ve ayarlarınızı aktarmak için kullanabileceğiniz bir sihirbaz."
+#~ msgid "Label"
+#~ msgstr "Etiket"
 
-#~ msgid "Network"
-#~ msgstr "Ağ"
+#~ msgid "Data"
+#~ msgstr "Veri"
 
-#~ msgid "To create a new connection click on <b>Create Profile</b> and select your adapter from the list. If your connection is wireless then choose and access point. After saving your profile click the checkbox to establish the connection."
-#~ msgstr "Yeni bir bağlantı oluşturmak için <b>Profil Oluştur</b>'a tıklayın ve listeden uygun cihazı seçtikten sonra oluşturulan bağlantının yanındaki kutucuğu işaretleyip Internet'e bağlanabilirsiniz. Eğer bağlantınız kablosuz ise erişim noktasını seçip şifrenizi girmeyi unutmayın."
+#~ msgid "&Host Information"
+#~ msgstr "Sistem Bilgisi"
 
-#~ msgid "Network Manager (Press Apply to save your settings)"
-#~ msgstr "Ağ Yöneticisi (Ayarları kaydetmek için Uygula tuşuna basınız)"
+#~ msgid "&Privacy policy"
+#~ msgstr "Gizlilik &Politikası"
 
-#~ msgid "wallpaperDesc"
-#~ msgstr "duvarkağıdıAçıklaması"
+#~ msgid "UUID"
+#~ msgstr "UUID"
 
-#~ msgid "wallPaperName"
-#~ msgstr "duvarkağıdıİsmi"
+#~ msgid "OS"
+#~ msgstr "İşletim Sistemi"
 
-#~ msgid "<b>Chakra</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Chakra, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kapudan</b> will help you personalize your Chakra workspace easily and quickly. Please click <b>next</b> in order to begin."
-#~ msgstr "<b>Chakra</b> güvenilir, hızlı ve kullanıcı dostu bir işletim sistemidir. <br /><br />Chakra ile Internet'e bağlanabilir, e-postalarınızı okuyabilir, ofis dökümanlarıyla çalışabilir, film izleyebilir, müzik  dinleyebilir, uygulama geliştirebilir, oyunlar oynayabilir ve çok daha fazlasını yapabilirsiniz!<br /><br /><b>Kapudan</b>, Chakra çalışma ortamınızı hızlı ve kolayca kişiselleştirmenize yardımcı olan bir uygulamadır. Lütfen başlamak için <b>İleri</b>'ye tıklayın."
+#~ msgid "Default Run Level"
+#~ msgstr "Öntanımlı Çalışma Seviyesi"
 
-#~ msgid "What is Chakra?"
-#~ msgstr "Chakra nedir?"
+#~ msgid "Language"
+#~ msgstr "Dil"
 
-#~ msgid "Don't change wallpaper"
-#~ msgstr "Duvar Kağıdını değiştirme"
+#~ msgid "Platform"
+#~ msgstr "Platform"
 
-#~ msgid "Choose wallpaper from file"
-#~ msgstr "Duvar Kağıdını Dosyadan Seç"
+#~ msgid "BogoMIPS"
+#~ msgstr "BogoMIPS"
 
-#~ msgid "Wallpapers"
-#~ msgstr "Duvar Kağıtları"
+#~ msgid "CPU Vendor"
+#~ msgstr "İşlemci Sağlayıcısı"
 
-#~ msgid "Choose your favorite wallpaper for Chakra. Don't forget to check out <b>Desktop Settings</b> for downloading new and cool wallpapers."
-#~ msgstr "Masaüstünüz için en beğendiğiniz duvar kağıdını seçin. <b>Masaüstü Ayarları</b>'na girerek yeni ve havalı duvar kağıtları indirebileceğinizi unutmayın."
+#~ msgid "CPU Model"
+#~ msgstr "İşlemci Modeli"
 
-#~ msgid "The following settings will be applied"
-#~ msgstr "Aşağıdaki ayarlar uygulanacaktır"
+#~ msgid "CPU Stepping"
+#~ msgstr "İşlemci Basamağı"
 
-#~ msgid "You have successfully finished all steps. Here's a summary of the settings you want to apply. Click <b>Apply Settings</b> to save them now. You are now ready to enjoy Chakra!"
-#~ msgstr "Bütün adımları başarıyla tamamladınız. Aşağıda uygulanmasını istediğiniz ayarların listesini görebilirsiniz. <b>Ayarları Uygula</b> tuşuna bastığınızda ayarlarınız kaydedilecektir. Artık Chakra'un tadını çıkarmaya hazırsınız!"
+#~ msgid "CPU Family"
+#~ msgstr "İşlemci Ailesi"
 
-#~ msgid "styleDesc"
-#~ msgstr "biçemAçıklaması"
+#~ msgid "CPU Model Num"
+#~ msgstr "İşlemci Model Numarası"
 
-#~ msgid "styleName"
-#~ msgstr "biçemİsmi"
+#~ msgid "Number of CPUs"
+#~ msgstr "İşlemci Sayısı"
 
-#~ msgid "Number of Desktops"
-#~ msgstr "Masaüstü Sayısı"
+#~ msgid "CPU Speed"
+#~ msgstr "İşlemci Hızı"
 
-#~ msgid "Folder view (KDE3 Style)"
-#~ msgstr "Klasör görünümü (KDE3 Stili)"
+#~ msgid "System Memory"
+#~ msgstr "Sistem Belleği"
 
-#~ msgid "Desktop view (KDE4 Style)"
-#~ msgstr "Masaüstü görünümü (KDE4 Stili)"
+#~ msgid "System Swap"
+#~ msgstr "Sistem Takası"
 
-#~ msgid "Desktop Type"
-#~ msgstr "Masaüstü Tipi"
+#~ msgid "Vendor"
+#~ msgstr "Sağlayıcı"
 
-#~ msgid "Milky - The official icon set of Chakra"
-#~ msgstr "Milky - Chakra'un resmi simge seti"
+#~ msgid "System"
+#~ msgstr "Sistem"
 
-#~ msgid "Oxygen - The official icon set of KDE"
-#~ msgstr "Oxygen - KDE'nin resmi simge seti"
+#~ msgid "Form Factor"
+#~ msgstr "Form Faktörü"
 
-#~ msgid "Icons"
-#~ msgstr "Simgeler"
+#~ msgid "Kernel"
+#~ msgstr "Çekirdek"
 
-#~ msgid "KDE Themes"
-#~ msgstr "KDE Temaları"
+#~ msgid "SELinux Enabled"
+#~ msgstr "SELinux Etkin"
 
-#~ msgid "Choose your favorite theme and desktop type. Customize Chakra with colorful styles and themes."
-#~ msgstr "Favori temanızı ve masaüstü tipini seçip, Chakra'u renkli stil ve temalarla kişiselleştirebilirsiniz."
+#~ msgid "SELinux Policy"
+#~ msgstr "SELinux politikası"
+
+#~ msgid "SELinux Enforce"
+#~ msgstr "SELinux Mecbur"
+
+#~ msgid "Yes"
+#~ msgstr "Evet"
+
+#~ msgid "No"
+#~ msgstr "Hayır"
+
+#~ msgid "Smolt Settings"
+#~ msgstr "Smolt Ayarları"
+
+#~ msgid "Send my profile: <b>%s</b>"
+#~ msgstr "Donanım bilgisini gönder: <b>%s</b>"
+
+#~ msgid "Welcome to Chakra"
+#~ msgstr "Chakra'a Hoş Geldiniz"
+
+#~ msgid "Cancel"
+#~ msgstr "İptal"
+
+#~ msgid "Back"
+#~ msgstr "Geri"
+
+#~ msgid "Next"
+#~ msgstr "İleri"
+
+#~ msgid "Apply Settings"
+#~ msgstr "Ayarları Uygula"
+
+#~ msgid "Form"
+#~ msgstr "Form"
+
+#~ msgid "This screen helps you set your <b>user picture</b>. You can either choose an image from a file or you can capture an image from your camera. Select an option from the <b>options</b> menu."
+#~ msgstr "Bu ekran <b>kullanıcı resminizi</b> seçmenize yardımcı olur. Dosyalarınız arasından bir resim seçebilir ya da kameradan aldığınız görüntüyü kullanabilirsiniz. <b>Seçenekler</b> menüsünden tercihinizi yapabilirsiniz."
+
+#~ msgid "Options"
+#~ msgstr "Seçenekler"
+
+#~ msgid "Choose an image"
+#~ msgstr "Resim seç"
+
+#~ msgid "Capture"
+#~ msgstr "Çek"
+
+#~ msgid "Recapture"
+#~ msgstr "Yeniden Çek"
+
+#~ msgid "<b>Your settings have been applied.</b> Now you can start enjoying Chakra or you can checkout the following links and applications for more settings or for help and support. Don't forget to <b>join our community!</b>"
+#~ msgstr "<b>Ayarlarınız kaydedildi.</b> Artık Chakra'un tadını çıkarmaya başlayabilirsiniz. Daha detaylı ayarlar veya yardım ve destek için aşağıdaki program ve linkleri inceleyebilirsiniz. <b>Topluluğumuza üye olmayı unutmayın!</b>"
+
+#~ msgid "My Smolt Page"
+#~ msgstr "Smolt Sayfam"
+
+#~ msgid "Go to your Smolt page and rate your hardware components."
+#~ msgstr "Smolt sayfanızı ziyaret edin ve donanım bileşenlerinizi oylayın."
+
+#~ msgid "System Settings"
+#~ msgstr "Sistem Ayarları"
+
+#~ msgid "Configuration tools for Chakra such as the display, firewall, keyboard, user manager..."
+#~ msgstr "Ekran, güvenlik duvarı, klavye ve kullanıcı hesapları gibi Chakra ayarlarını içerir..."
+
+#~ msgid "Help and Support"
+#~ msgstr "Yardım ve Destek"
+
+#~ msgid "Chakra community, mailing lists, chat rooms, Wiki documents, help and support pages..."
+#~ msgstr "Chakra topluluğu, e-posta listeleri, sohbet odaları, Wiki belgeleri, yardım ve destek sayfaları..."
+
+#~ msgid "Kapudan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
+#~ msgstr "Kapudan, sistem dilinize en uygun olan klavye düzenini otomatik seçer. Eğer varsayılan düzenden başka bir düzen seçmek istiyorsanız aşağıda bulunan listeden uygun olan düzeni seçip hemen test edebilirsiniz."
+
+#~ msgid "Test Layout"
+#~ msgstr "Test et"
+
+#~ msgid "You can also customize your <b>KDE menu</b> as you like. Please choose one from the following styles."
+#~ msgstr "KDE menüsünü istediğiniz stili seçerek kişiselleştirebilirsiniz."
+
+#~ msgid "Sample"
+#~ msgstr "Örnek"
+
+#~ msgid "The <b>clicking behavior</b> defines how many times you want to click when you are opening a file. If you are <b>left handed</b>, you may prefer to swap the left and right buttons of your pointing device."
+#~ msgstr "<b>Tıklama Biçimi</b> dosya açarken simgelere kaç kere tıklamanız gerektiğini belirlemenize yardımcı olur. Eğer <b>sol elinizi</b> kullanıyorsanız, fare butonlarının yerini değiştirerek farenizi daha rahat kullanabilirsiniz."
+
+#~ msgid "Clicking Behaviour"
+#~ msgstr "Tıklama Biçimi"
+
+#~ msgid "Single-click to open files and folders"
+#~ msgstr "Dosya ve dizinleri açmak için tek tıkla"
+
+#~ msgid "Dou&ble-click to open files and folders"
+#~ msgstr "Dosya ve dizinleri açmak için &çift tıkla"
+
+#~ msgid "Button Order"
+#~ msgstr "Düğme Sırası"
+
+#~ msgid "Right Hand"
+#~ msgstr "Sağ El"
+
+#~ msgid "Left Hand"
+#~ msgstr "Sol El"
+
+#~ msgid "Reverse scrolling"
+#~ msgstr "Tekerlek ters kaydırsın"
+
+#~ msgid "Show updates in the system tray"
+#~ msgstr "Güncellemeleri sistem tepsisinde göster"
+
+#~ msgid "Check updates automatically every"
+#~ msgstr "Güncellemeleri kontrol etme sıklığı"
+
+#~ msgid " hours"
+#~ msgstr " saat"
+
+#~ msgid "To install and remove programs to Chakra, use Package-Manager. Package-Manager also can automatically install the latest updates available. You can set the period for checking new updates."
+#~ msgstr "Chakra'ta program yükleyip silme işlemleri <b>Paket Yöneticisi</b> tarafından yapılır. Paket Yöneticisi aynı zamanda sisteminizi otomatik olarak güncelleyebilir. Paket Yöneticisi'nin güncellemeleri kontrol etme sıklığını belirleyebilirsiniz."
+
+#~ msgid "Updates"
+#~ msgstr "Güncellemeler"
+
+#~ msgid "Strigi Desktop Search indexes your frequently used files. This gives you very fast file search results. Strigi also can search for files based on their contents."
+#~ msgstr "Strigi Masaüstü Arama yardımcısı sık kullandığınız dosyaları hafızasına alarak arama yaptığınızda hızlıca bulunmalarını sağlar. Strigi ayrıca dosyaların yalnızca ismine değil, içeriğine bakarak da arama yapmanıza olanak sağlar."
+
+#~ msgid "Allow Strigi to index my files"
+#~ msgstr "Strigi, aramalarımda yardımcı olsun"
+
+#~ msgid "Search Options"
+#~ msgstr "Arama Ayarları"
+
+#~ msgid "<b>Smolt</b> is a tool that collects the information in the following table and sends it to us for which lets us improve Chakra according to the user profile statistics."
+#~ msgstr "<b>Smolt,</b> aşağıdaki tabloda gösterilen sistem bilgilerinizi bizlere göndererek  istatistikler doğrultusunda Chakra'u geliştirmemize katkıda bulunur."
+
+#~ msgid "&Send my profile"
+#~ msgstr "Donanım Bilgisini &Gönder"
 
 #~ msgid ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
@@ -564,224 +699,89 @@ msgstr "%s'e Hoş Geldiniz"
 #~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" text-decoration: underline;\">IP Günlükleme:</span>  Chakra'un smolt kurulumunda tüm Internet trafiği önce bir vekil sunucudan geçer. Bu vekil sunucu IP adreslerini günlüğüne kaydeder ve arşivler. Chakra Projesi IP adreslerini smolt veritabanında tutmaz. Bu günlükler gizlidir ve halka açık değildir.</p>\n"
 #~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">   Bu politikadan hoşnut olmayan kullanıcıların smolt'u kullanmaması yeterli olacaktır. Bu politika hakkında soruları olan kullanıcılar ise Chakra Yönetim Ekibi'yle admin [at] pardus.org.tr'den iletişim kurabilirler. Ayrıca kullanıcılar\"<span style=\" font-style:italic;\">smoltDeleteProfile</span>\" vasıtasıyla profillerini istedikleri zaman silebilirler.</p></body></html>"
 
-#~ msgid "&Send my profile"
-#~ msgstr "Donanım Bilgisini &Gönder"
+#~ msgid "Choose your favorite theme and desktop type. Customize Chakra with colorful styles and themes."
+#~ msgstr "Favori temanızı ve masaüstü tipini seçip, Chakra'u renkli stil ve temalarla kişiselleştirebilirsiniz."
 
-#~ msgid "<b>Smolt</b> is a tool that collects the information in the following table and sends it to us for which lets us improve Chakra according to the user profile statistics."
-#~ msgstr "<b>Smolt,</b> aşağıdaki tabloda gösterilen sistem bilgilerinizi bizlere göndererek  istatistikler doğrultusunda Chakra'u geliştirmemize katkıda bulunur."
+#~ msgid "KDE Themes"
+#~ msgstr "KDE Temaları"
 
-#~ msgid "Search Options"
-#~ msgstr "Arama Ayarları"
+#~ msgid "Icons"
+#~ msgstr "Simgeler"
 
-#~ msgid "Allow Strigi to index my files"
-#~ msgstr "Strigi, aramalarımda yardımcı olsun"
+#~ msgid "Oxygen - The official icon set of KDE"
+#~ msgstr "Oxygen - KDE'nin resmi simge seti"
 
-#~ msgid "Strigi Desktop Search indexes your frequently used files. This gives you very fast file search results. Strigi also can search for files based on their contents."
-#~ msgstr "Strigi Masaüstü Arama yardımcısı sık kullandığınız dosyaları hafızasına alarak arama yaptığınızda hızlıca bulunmalarını sağlar. Strigi ayrıca dosyaların yalnızca ismine değil, içeriğine bakarak da arama yapmanıza olanak sağlar."
+#~ msgid "Milky - The official icon set of Chakra"
+#~ msgstr "Milky - Chakra'un resmi simge seti"
 
-#~ msgid "Updates"
-#~ msgstr "Güncellemeler"
+#~ msgid "Desktop Type"
+#~ msgstr "Masaüstü Tipi"
 
-#~ msgid "To install and remove programs to Chakra, use Package-Manager. Package-Manager also can automatically install the latest updates available. You can set the period for checking new updates."
-#~ msgstr "Chakra'ta program yükleyip silme işlemleri <b>Paket Yöneticisi</b> tarafından yapılır. Paket Yöneticisi aynı zamanda sisteminizi otomatik olarak güncelleyebilir. Paket Yöneticisi'nin güncellemeleri kontrol etme sıklığını belirleyebilirsiniz."
+#~ msgid "Desktop view (KDE4 Style)"
+#~ msgstr "Masaüstü görünümü (KDE4 Stili)"
 
-#~ msgid " hours"
-#~ msgstr " saat"
+#~ msgid "Folder view (KDE3 Style)"
+#~ msgstr "Klasör görünümü (KDE3 Stili)"
 
-#~ msgid "Check updates automatically every"
-#~ msgstr "Güncellemeleri kontrol etme sıklığı"
+#~ msgid "Number of Desktops"
+#~ msgstr "Masaüstü Sayısı"
 
-#~ msgid "Show updates in the system tray"
-#~ msgstr "Güncellemeleri sistem tepsisinde göster"
+#~ msgid "styleName"
+#~ msgstr "biçemİsmi"
 
-#~ msgid "Reverse scrolling"
-#~ msgstr "Tekerlek ters kaydırsın"
+#~ msgid "styleDesc"
+#~ msgstr "biçemAçıklaması"
 
-#~ msgid "Left Hand"
-#~ msgstr "Sol El"
+#~ msgid "You have successfully finished all steps. Here's a summary of the settings you want to apply. Click <b>Apply Settings</b> to save them now. You are now ready to enjoy Chakra!"
+#~ msgstr "Bütün adımları başarıyla tamamladınız. Aşağıda uygulanmasını istediğiniz ayarların listesini görebilirsiniz. <b>Ayarları Uygula</b> tuşuna bastığınızda ayarlarınız kaydedilecektir. Artık Chakra'un tadını çıkarmaya hazırsınız!"
 
-#~ msgid "Right Hand"
-#~ msgstr "Sağ El"
+#~ msgid "The following settings will be applied"
+#~ msgstr "Aşağıdaki ayarlar uygulanacaktır"
 
-#~ msgid "Button Order"
-#~ msgstr "Düğme Sırası"
+#~ msgid "Choose your favorite wallpaper for Chakra. Don't forget to check out <b>Desktop Settings</b> for downloading new and cool wallpapers."
+#~ msgstr "Masaüstünüz için en beğendiğiniz duvar kağıdını seçin. <b>Masaüstü Ayarları</b>'na girerek yeni ve havalı duvar kağıtları indirebileceğinizi unutmayın."
 
-#~ msgid "Dou&ble-click to open files and folders"
-#~ msgstr "Dosya ve dizinleri açmak için &çift tıkla"
+#~ msgid "Wallpapers"
+#~ msgstr "Duvar Kağıtları"
 
-#~ msgid "Single-click to open files and folders"
-#~ msgstr "Dosya ve dizinleri açmak için tek tıkla"
+#~ msgid "Choose wallpaper from file"
+#~ msgstr "Duvar Kağıdını Dosyadan Seç"
 
-#~ msgid "Clicking Behaviour"
-#~ msgstr "Tıklama Biçimi"
+#~ msgid "Don't change wallpaper"
+#~ msgstr "Duvar Kağıdını değiştirme"
 
-#~ msgid "The <b>clicking behavior</b> defines how many times you want to click when you are opening a file. If you are <b>left handed</b>, you may prefer to swap the left and right buttons of your pointing device."
-#~ msgstr "<b>Tıklama Biçimi</b> dosya açarken simgelere kaç kere tıklamanız gerektiğini belirlemenize yardımcı olur. Eğer <b>sol elinizi</b> kullanıyorsanız, fare butonlarının yerini değiştirerek farenizi daha rahat kullanabilirsiniz."
+#~ msgid "What is Chakra?"
+#~ msgstr "Chakra nedir?"
 
-#~ msgid "Sample"
-#~ msgstr "Örnek"
+#~ msgid "<b>Chakra</b> is a reliable, secure, fast and user friendly operating system. <br /><br />With Chakra, you can connect to the internet, read your e-mails, work with your office documents, watch movies, play music, develop applications, play games and much more! <br /><br /><b>Kapudan</b> will help you personalize your Chakra workspace easily and quickly. Please click <b>next</b> in order to begin."
+#~ msgstr "<b>Chakra</b> güvenilir, hızlı ve kullanıcı dostu bir işletim sistemidir. <br /><br />Chakra ile Internet'e bağlanabilir, e-postalarınızı okuyabilir, ofis dökümanlarıyla çalışabilir, film izleyebilir, müzik  dinleyebilir, uygulama geliştirebilir, oyunlar oynayabilir ve çok daha fazlasını yapabilirsiniz!<br /><br /><b>Kapudan</b>, Chakra çalışma ortamınızı hızlı ve kolayca kişiselleştirmenize yardımcı olan bir uygulamadır. Lütfen başlamak için <b>İleri</b>'ye tıklayın."
 
-#~ msgid "You can also customize your <b>KDE menu</b> as you like. Please choose one from the following styles."
-#~ msgstr "KDE menüsünü istediğiniz stili seçerek kişiselleştirebilirsiniz."
+#~ msgid "wallPaperName"
+#~ msgstr "duvarkağıdıİsmi"
 
-#~ msgid "Test Layout"
-#~ msgstr "Test et"
+#~ msgid "wallpaperDesc"
+#~ msgstr "duvarkağıdıAçıklaması"
 
-#~ msgid "Kapudan automatically selects the best keyboard layout according to your system language. If you want to use another layout other than the default keyboard layout, you can make your selection and test it instantly."
-#~ msgstr "Kapudan, sistem dilinize en uygun olan klavye düzenini otomatik seçer. Eğer varsayılan düzenden başka bir düzen seçmek istiyorsanız aşağıda bulunan listeden uygun olan düzeni seçip hemen test edebilirsiniz."
+#~ msgid "Network Manager (Press Apply to save your settings)"
+#~ msgstr "Ağ Yöneticisi (Ayarları kaydetmek için Uygula tuşuna basınız)"
 
-#~ msgid "Chakra community, mailing lists, chat rooms, Wiki documents, help and support pages..."
-#~ msgstr "Chakra topluluğu, e-posta listeleri, sohbet odaları, Wiki belgeleri, yardım ve destek sayfaları..."
+#~ msgid "To create a new connection click on <b>Create Profile</b> and select your adapter from the list. If your connection is wireless then choose and access point. After saving your profile click the checkbox to establish the connection."
+#~ msgstr "Yeni bir bağlantı oluşturmak için <b>Profil Oluştur</b>'a tıklayın ve listeden uygun cihazı seçtikten sonra oluşturulan bağlantının yanındaki kutucuğu işaretleyip Internet'e bağlanabilirsiniz. Eğer bağlantınız kablosuz ise erişim noktasını seçip şifrenizi girmeyi unutmayın."
 
-#~ msgid "Help and Support"
-#~ msgstr "Yardım ve Destek"
+#~ msgid "Network"
+#~ msgstr "Ağ"
 
-#~ msgid "Configuration tools for Chakra such as the display, firewall, keyboard, user manager..."
-#~ msgstr "Ekran, güvenlik duvarı, klavye ve kullanıcı hesapları gibi Chakra ayarlarını içerir..."
+#~ msgid "A wizard to transfer files and settings from existing operating systems (e.g. Windows) to Chakra."
+#~ msgstr "Kurulu diğer işletim sistemlerinden (örn. Windows) Chakra'a dosyalarınızı ve ayarlarınızı aktarmak için kullanabileceğiniz bir sihirbaz."
 
-#~ msgid "System Settings"
-#~ msgstr "Sistem Ayarları"
+#~ msgid "Migration Wizard"
+#~ msgstr "Göç Sihirbazı"
 
-#~ msgid "Go to your Smolt page and rate your hardware components."
-#~ msgstr "Smolt sayfanızı ziyaret edin ve donanım bileşenlerinizi oylayın."
+#~ msgid "Repositories"
+#~ msgstr "Depolar"
 
-#~ msgid "My Smolt Page"
-#~ msgstr "Smolt Sayfam"
+#~ msgid "Add contrib repository"
+#~ msgstr "Katkı deposunu ekle"
 
-#~ msgid "<b>Your settings have been applied.</b> Now you can start enjoying Chakra or you can checkout the following links and applications for more settings or for help and support. Don't forget to <b>join our community!</b>"
-#~ msgstr "<b>Ayarlarınız kaydedildi.</b> Artık Chakra'un tadını çıkarmaya başlayabilirsiniz. Daha detaylı ayarlar veya yardım ve destek için aşağıdaki program ve linkleri inceleyebilirsiniz. <b>Topluluğumuza üye olmayı unutmayın!</b>"
-
-#~ msgid "Recapture"
-#~ msgstr "Yeniden Çek"
-
-#~ msgid "Capture"
-#~ msgstr "Çek"
-
-#~ msgid "Choose an image"
-#~ msgstr "Resim seç"
-
-#~ msgid "Options"
-#~ msgstr "Seçenekler"
-
-#~ msgid "This screen helps you set your <b>user picture</b>. You can either choose an image from a file or you can capture an image from your camera. Select an option from the <b>options</b> menu."
-#~ msgstr "Bu ekran <b>kullanıcı resminizi</b> seçmenize yardımcı olur. Dosyalarınız arasından bir resim seçebilir ya da kameradan aldığınız görüntüyü kullanabilirsiniz. <b>Seçenekler</b> menüsünden tercihinizi yapabilirsiniz."
-
-#~ msgid "Form"
-#~ msgstr "Form"
-
-#~ msgid "Apply Settings"
-#~ msgstr "Ayarları Uygula"
-
-#~ msgid "Next"
-#~ msgstr "İleri"
-
-#~ msgid "Back"
-#~ msgstr "Geri"
-
-#~ msgid "Cancel"
-#~ msgstr "İptal"
-
-#~ msgid "Welcome to Chakra"
-#~ msgstr "Chakra'a Hoş Geldiniz"
-
-#~ msgid "Send my profile: <b>%s</b>"
-#~ msgstr "Donanım bilgisini gönder: <b>%s</b>"
-
-#~ msgid "Smolt Settings"
-#~ msgstr "Smolt Ayarları"
-
-#~ msgid "No"
-#~ msgstr "Hayır"
-
-#~ msgid "Yes"
-#~ msgstr "Evet"
-
-#~ msgid "SELinux Enforce"
-#~ msgstr "SELinux Mecbur"
-
-#~ msgid "SELinux Policy"
-#~ msgstr "SELinux politikası"
-
-#~ msgid "SELinux Enabled"
-#~ msgstr "SELinux Etkin"
-
-#~ msgid "Kernel"
-#~ msgstr "Çekirdek"
-
-#~ msgid "Form Factor"
-#~ msgstr "Form Faktörü"
-
-#~ msgid "System"
-#~ msgstr "Sistem"
-
-#~ msgid "Vendor"
-#~ msgstr "Sağlayıcı"
-
-#~ msgid "System Swap"
-#~ msgstr "Sistem Takası"
-
-#~ msgid "System Memory"
-#~ msgstr "Sistem Belleği"
-
-#~ msgid "CPU Speed"
-#~ msgstr "İşlemci Hızı"
-
-#~ msgid "Number of CPUs"
-#~ msgstr "İşlemci Sayısı"
-
-#~ msgid "CPU Model Num"
-#~ msgstr "İşlemci Model Numarası"
-
-#~ msgid "CPU Family"
-#~ msgstr "İşlemci Ailesi"
-
-#~ msgid "CPU Stepping"
-#~ msgstr "İşlemci Basamağı"
-
-#~ msgid "CPU Model"
-#~ msgstr "İşlemci Modeli"
-
-#~ msgid "CPU Vendor"
-#~ msgstr "İşlemci Sağlayıcısı"
-
-#~ msgid "BogoMIPS"
-#~ msgstr "BogoMIPS"
-
-#~ msgid "Platform"
-#~ msgstr "Platform"
-
-#~ msgid "Language"
-#~ msgstr "Dil"
-
-#~ msgid "Default Run Level"
-#~ msgstr "Öntanımlı Çalışma Seviyesi"
-
-#~ msgid "OS"
-#~ msgstr "İşletim Sistemi"
-
-#~ msgid "UUID"
-#~ msgstr "UUID"
-
-#~ msgid "&Privacy policy"
-#~ msgstr "Gizlilik &Politikası"
-
-#~ msgid "&Host Information"
-#~ msgstr "Sistem Bilgisi"
-
-#~ msgid "Data"
-#~ msgstr "Veri"
-
-#~ msgid "Label"
-#~ msgstr "Etiket"
-
-#~ msgid "Help Chakra Improve!"
-#~ msgstr "Chakra'un Gelişimine Katkı Sağlayın!"
-
-#~ msgid "Smolt"
-#~ msgstr "Smolt"
-
-#~ msgid "Welcome Wizard"
-#~ msgstr "Sihirbaza hoşgeldiniz"
-
-#~ msgid "Kapudan"
-#~ msgstr "Kapudan"
+#~ msgid "Contrib repository includes extra and handy programs."
+#~ msgstr "Katkı deposu kullanışlı ek programlar içerir."

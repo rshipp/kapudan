@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-09 17:23-0600\n"
+"POT-Creation-Date: 2012-08-09 17:35-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -445,20 +445,20 @@ msgstr ""
 msgid "Welcome to %s"
 msgstr ""
 
-#~ msgid "Sample"
-#~ msgstr "Nmun"
-
-#~ msgid "Form"
-#~ msgstr "Form"
-
-#~ msgid "Next"
-#~ msgstr "Sonrak"
-
-#~ msgid "Back"
-#~ msgstr "vvlki"
+#~ msgid "Kapudan"
+#~ msgstr "Kapudan"
 
 #~ msgid "Cancel"
 #~ msgstr "lv et"
 
-#~ msgid "Kapudan"
-#~ msgstr "Kapudan"
+#~ msgid "Back"
+#~ msgstr "vvlki"
+
+#~ msgid "Next"
+#~ msgstr "Sonrak"
+
+#~ msgid "Form"
+#~ msgstr "Form"
+
+#~ msgid "Sample"
+#~ msgstr "Nmun"
