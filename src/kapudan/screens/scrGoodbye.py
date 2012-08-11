@@ -31,6 +31,8 @@ class Widget(QtGui.QWidget, Screen):
         self.ui = Ui_goodbyeWidget()
         self.ui.setupUi(self)
 
+        self.remove_autostart = True
+
         lang = KGlobal.locale().language()
         if lang in ["de", "el", "es", "it", "uz"]:
             self.helpPageUrl = "http://chakra-linux.org/wiki/index.php/Help/" + lang
@@ -49,12 +51,7 @@ class Widget(QtGui.QWidget, Screen):
 
     def on_autostart_toggled(self):
         # Remove/set autostart entry
-        if self.ui.autostart.isChecked():
-            if not os.path.isfile(self.autofile):
-                shutil.copyfile(self.gautofile, self.autofile)
-        else:
-            if os.path.isfile(self.autofile):
-                os.remove(self.autofile)
+        self.remove_autostart = not self.remove_autostart
 
 
     def on_buttonSystemSettings_clicked(self):
@@ -72,5 +69,13 @@ class Widget(QtGui.QWidget, Screen):
         self.procSettings.start(command)
 
     def execute(self):
-       return True
+        if remove_autostart:
+            try:
+                os.remove(self.autofile)
+            except OSError:
+                pass
+        else:
+            if not os.path.isfile(self.autofile):
+                shutil.copyfile(self.gautofile, self.autofile)
+        return True
 
