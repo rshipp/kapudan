@@ -69,7 +69,7 @@ class Widget(QtGui.QWidget, Screen):
         self.procSettings.start(command)
 
     def execute(self):
-        if remove_autostart:
+        if self.remove_autostart:
             try:
                 os.remove(self.autofile)
             except OSError:
