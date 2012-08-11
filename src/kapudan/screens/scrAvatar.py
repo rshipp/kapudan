@@ -143,7 +143,10 @@ class Widget(QtGui.QWidget, Screen):
         if self.camActive == True:
             self.deactivateCam()
 
-        self.selectedFile = QFileDialog.getOpenFileName(None,"Open Image", os.environ["HOME"], 'Image Files (*.png *.jpg *bmp)')
+#        self.selectedFile = QFileDialog.getOpenFileName(None,"Open Image", os.environ["HOME"], 'Image Files (*.png *.jpg *bmp)')
+        self.selectedFile = QFileDialog.getOpenFileName(None,"Open Image",
+                                                        "/usr/share/apps/kdm/pics/users/",
+                                                        'Image Files (*.png *.jpg *.bmp)')
 
         if self.selectedFile.isNull():
             return
