@@ -1,0 +1,464 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Michael Häsel <michael.haesel@googlemail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-09 17:35-0600\n"
+"PO-Revision-Date: 2012-08-10 18:14+0200\n"
+"Last-Translator: Michael Häsel <michael.haesel@gmail.com>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.5\n"
+ 
+#: .tmp/scrKeyboard.py:34
+msgid "Keyboard"
+msgstr "Tastatur"
+ 
+#: .tmp/scrKeyboard.py:35
+msgid "Keyboard Layout Language"
+msgstr "Ländereinstellung der Tastatur"
+ 
+#: .tmp/scrFolder.py:30
+msgid "Folders"
+msgstr "Ordner"
+ 
+#: .tmp/scrFolder.py:31
+msgid "Create folders in the home directory"
+msgstr "Erstelle Ordner im Home-Verzeichnis"
+ 
+#: .tmp/_scrSearch.py:29
+msgid "Search"
+msgstr "Suche"
+ 
+#: .tmp/_scrSearch.py:30
+msgid "Enable / Disable Strigi Desktop Search"
+msgstr "Strigi-Desktopsuche aktivieren / deaktivieren"
+ 
+#: .tmp/scrPackage.py:33
+msgid "Packages"
+msgstr "Pakete"
+ 
+#: .tmp/scrPackage.py:34
+msgid "Install / Remove Programs"
+msgstr "Programme installieren / entfernen"
+ 
+#: .tmp/scrMouse.py:32
+msgid "Mouse"
+msgstr "Maus"
+ 
+#: .tmp/scrMouse.py:33
+msgid "Setup Mouse Behavior"
+msgstr "Mauseinstellungen"
+ 
+#: .tmp/scrMouse.py:144
+msgid "Left Handed"
+msgstr "Linkshänder"
+ 
+#: .tmp/scrMouse.py:144
+msgid "Right Handed"
+msgstr "Rechtshänder"
+ 
+#: .tmp/scrMouse.py:145
+msgid "Single Click "
+msgstr "einfacher Klick "
+ 
+#: .tmp/scrMouse.py:145
+msgid "Double Click"
+msgstr "Doppelklick"
+ 
+#: .tmp/scrMenu.py:29
+msgid "Menu"
+msgstr "Menü"
+ 
+#: .tmp/scrMenu.py:30
+msgid "Choose a Menu Style"
+msgstr "Wähle einen Menüstil"
+ 
+#: .tmp/scrMenu.py:44
+msgid "Kick-off Menu"
+msgstr "Kick-off-Menü"
+ 
+#: .tmp/scrMenu.py:46
+msgid ""
+"Kick-off menu is the default menu of Chakra.<br><br>The program shortcuts "
+"are easy to access and well organized."
+msgstr ""
+"Das Kick-off-Menü ist das Standardmenü in Chakra<br><br>Die Programme sind "
+"leicht zugänglich und gut gruppiert."
+ 
+#: .tmp/scrMenu.py:50
+msgid "Simple Menu"
+msgstr "Einfaches Startmenü"
+ 
+#: .tmp/scrMenu.py:52
+msgid ""
+"Simple menu is an old style menu from KDE 3.<br><br>It is a very lightweight "
+"menu thus it is recommended for slower PC's."
+msgstr ""
+"Das einfache Menü ist das traditionelle Menü von KDE 3.<br><br>Es ist sehr "
+"leichtgewichtig "
+"und daher für langsamere PCs zu empfehlen."
+ 
+#: .tmp/scrMenu.py:56
+msgid "Lancelot Menu"
+msgstr "Lancelot Startmenü"
+ 
+#: .tmp/scrMenu.py:58
+msgid ""
+"Lancelot is an advanced and highly customizable menu for Chakra.<br><br>The "
+"program shortcuts are easy to access and well organized."
+msgstr ""
+"Das Lancelot Menü ist ein fortgeschrittenes und hochgradig anpassbares Menü "
+"für Chakra.<br><br> "
+"Die Programme sind einfach zugänglich und gut organisiert."
+ 
+#: .tmp/scrMenu.py:62
+msgid "Takeoff Menu"
+msgstr "Takeoff Startmenü"
+ 
+#: .tmp/scrMenu.py:64
+msgid ""
+"Takeoff is a full screen menu, inspired by Slingshot and the OS X Launchpad "
+"menu but adapted to work with KDE as a plasmoid."
+msgstr ""
+"Das Takeoff-Startmenü ist ein Vollbildmenü, welches durch Slingshot und das "
+"OS X Launchpad-Menü "
+"inspiriert, jedoch für die Arbeit mit KDE als Plasmoid adaptiert wurde."
+ 
+#: .tmp/scrSummary.py:43
+msgid "Summary"
+msgstr "Zusammenfassung"
+ 
+#: .tmp/scrSummary.py:44
+msgid "Save Your Settings"
+msgstr "Einstellungen speichern"
+ 
+#: .tmp/scrSummary.py:69
+msgid "Mouse Settings"
+msgstr "Mauseinstellungen"
+ 
+#: .tmp/scrSummary.py:71
+#, python-format
+msgid "Selected Mouse configuration: <b>%s</b>"
+msgstr "Gewählte Mauseinstellungen: <b>%s</b>"
+ 
+#: .tmp/scrSummary.py:72
+#, python-format
+msgid "Selected clicking behavior: <b>%s</b>"
+msgstr "Gewähltes Klickverhalten: <b>%s</b>"
+ 
+#: .tmp/scrSummary.py:76
+msgid "Menu Settings"
+msgstr "Einstellungen des Menüs"
+ 
+#: .tmp/scrSummary.py:77
+#, python-format
+msgid "Selected Menu: <b>%s</b>"
+msgstr "Ausgewähltes Startmenü: <b>%s</b>"
+ 
+#: .tmp/scrSummary.py:81
+msgid "Wallpaper Settings"
+msgstr "Hintergrundbild"
+ 
+#: .tmp/scrSummary.py:83
+msgid "You haven't selected any wallpaper."
+msgstr "Sie haben kein Hintergrundbild gewählt."
+ 
+#: .tmp/scrSummary.py:85
+#, python-format
+msgid "Selected Wallpaper: <b>%s</b>"
+msgstr "Gewähltes Hintergrundbild: <b>%s</b>"
+ 
+#: .tmp/scrSummary.py:89
+msgid "Style Settings"
+msgstr "Designeinstellung"
+ 
+#: .tmp/scrSummary.py:92
+msgid "You haven't selected any style."
+msgstr "Sie haben kein Design ausgewählt."
+ 
+#: .tmp/scrSummary.py:94
+#, python-format
+msgid "Selected Style: <b>%s</b>"
+msgstr "Gewähltes Design: <b>%s</b>"
+ 
+#: .tmp/scrSummary.py:100
+msgid "Package Management Settings"
+msgstr "Paket Manager"
+ 
+#: .tmp/scrSummary.py:101
+msgid "You have enabled or disabled spun."
+msgstr "Sie haben spun aktiviert oder deaktiviert."
+ 
+#: .tmp/scrSummary.py:108 .tmp/scrSummary.py:136
+msgid "You have: "
+msgstr "Sie haben: "
+ 
+#: .tmp/scrSummary.py:110
+msgid "Services Settings"
+msgstr "Serviceeinstellungen"
+ 
+#: .tmp/scrSummary.py:113
+msgid "enabled cups; "
+msgstr "cups aktiviert; "
+ 
+#: .tmp/scrSummary.py:116
+msgid "disabled cups; "
+msgstr "cups deaktiviert; "
+ 
+#: .tmp/scrSummary.py:119
+msgid "enabled bluetooth; "
+msgstr "bluetooth aktiviert; "
+ 
+#: .tmp/scrSummary.py:122
+msgid "disabled bluetooth; "
+msgstr "bluetooth deaktiviert; "
+ 
+#: .tmp/scrSummary.py:126 .tmp/scrSummary.py:154
+msgid "You have made no changes."
+msgstr "Sie haben keine Änderungen vorgenommen."
+ 
+#: .tmp/scrSummary.py:138
+msgid "Security Settings"
+msgstr "Sicherheitseinstellungen"
+ 
+#: .tmp/scrSummary.py:141
+msgid "enabled ClamAV; "
+msgstr "ClamAV aktiviert; "
+ 
+#: .tmp/scrSummary.py:144
+msgid "disabled ClamAV; "
+msgstr "ClamAV deaktiviert; "
+ 
+#: .tmp/scrSummary.py:147
+msgid "enabled the firewall; "
+msgstr "Firewall aktiviert; "
+ 
+#: .tmp/scrSummary.py:150
+msgid "disabled the firewall; "
+msgstr "Firewall deaktiviert; "
+ 
+#: .tmp/scrSummary.py:180
+msgid "Error"
+msgstr "Fehler"
+ 
+#: .tmp/scrSummary.py:180
+msgid "Cannot restart plasma-desktop. Kapudan will now shut down."
+msgstr ""
+"Plasma-Desktop kann nicht neu gestartet werden. Kapudan wird jetzt beendet."
+ 
+#: .tmp/scrStyle.py:38
+msgid "Themes"
+msgstr "Designs"
+ 
+#: .tmp/scrStyle.py:39
+msgid "Customize Your Desktop"
+msgstr "Personalisieren Sie Ihren Desktop"
+ 
+#: .tmp/scrWallpaper.py:37
+msgid "Wallpaper"
+msgstr "Hintergrundbild"
+ 
+#: .tmp/scrWallpaper.py:38
+msgid "Choose a Wallpaper"
+msgstr "Hintergrundbild auswählen"
+ 
+#: .tmp/scrGoodbye.py:26
+msgid "More"
+msgstr "Mehr"
+ 
+#: .tmp/scrGoodbye.py:27
+msgid "Congratulations!"
+msgstr "Herzlichen Glückwunsch!"
+ 
+#: .tmp/localedata.py:53
+msgid "Turkish"
+msgstr "Türkisch"
+ 
+#: .tmp/localedata.py:58
+msgid "Turkish Q"
+msgstr "Türkisch Q"
+ 
+#: .tmp/localedata.py:59
+msgid "Turkish F"
+msgstr "Türkisch F"
+ 
+#: .tmp/localedata.py:64
+msgid "English"
+msgstr "Englisch"
+ 
+#: .tmp/localedata.py:69
+msgid "English GB"
+msgstr "Englisch GB"
+ 
+#: .tmp/localedata.py:75
+msgid "Afrikaans"
+msgstr "Afrikaans"
+ 
+#: .tmp/localedata.py:81
+msgid "Arabic"
+msgstr "Arabisch"
+ 
+#: .tmp/localedata.py:87
+msgid "Belgium"
+msgstr "Belgisch"
+ 
+#: .tmp/localedata.py:93
+msgid "Bulgarian"
+msgstr "Bulgarisch"
+ 
+#: .tmp/localedata.py:99
+msgid "Catalan"
+msgstr "Katalanisch"
+ 
+#: .tmp/localedata.py:105
+msgid "Welsh"
+msgstr "Walisisch"
+ 
+#: .tmp/localedata.py:111
+msgid "Czech"
+msgstr "Tschechisch"
+ 
+#: .tmp/localedata.py:117
+msgid "Danish"
+msgstr "Dänisch"
+ 
+#: .tmp/localedata.py:123
+msgid "German"
+msgstr "Deutsch"
+ 
+#: .tmp/localedata.py:129
+msgid "Spanish"
+msgstr "Spanisch"
+ 
+#: .tmp/localedata.py:135
+msgid "Estonian"
+msgstr "Estländisch"
+ 
+#: .tmp/localedata.py:141
+msgid "Finnish"
+msgstr "Finnisch"
+ 
+#: .tmp/localedata.py:147
+msgid "French"
+msgstr "Französisch"
+ 
+#: .tmp/localedata.py:153
+msgid "Greek"
+msgstr "Griechisch"
+ 
+#: .tmp/localedata.py:159
+msgid "Croatian"
+msgstr "Kroatisch"
+ 
+#: .tmp/localedata.py:165
+msgid "Hungarian"
+msgstr "Ungarisch"
+ 
+#: .tmp/localedata.py:173
+msgid "Icelandic"
+msgstr "Isländisch"
+ 
+#: .tmp/localedata.py:179
+msgid "Italian"
+msgstr "Italienisch"
+ 
+#: .tmp/localedata.py:185
+msgid "Japanese"
+msgstr "Japanisch"
+ 
+#: .tmp/localedata.py:191
+msgid "Macedonian"
+msgstr "Mazedonisch"
+ 
+#: .tmp/localedata.py:197
+msgid "Malayalam"
+msgstr "Malayalam"
+ 
+#: .tmp/localedata.py:203
+msgid "Norwegian"
+msgstr "Norwegisch"
+ 
+#: .tmp/localedata.py:209
+msgid "Dutch"
+msgstr "Niederländisch"
+ 
+#: .tmp/localedata.py:215
+msgid "Polish"
+msgstr "Polnisch"
+ 
+#: .tmp/localedata.py:221
+msgid "Portuguese"
+msgstr "Portugiesisch"
+ 
+#: .tmp/localedata.py:227
+msgid "Brazilian"
+msgstr "Brasilianisch"
+ 
+#: .tmp/localedata.py:233
+msgid "Russian"
+msgstr "Russisch"
+ 
+#: .tmp/localedata.py:241
+msgid "Slovak"
+msgstr "Slowakisch"
+ 
+#: .tmp/localedata.py:247
+msgid "Slovenian"
+msgstr "Slowenisch"
+ 
+#: .tmp/localedata.py:253
+msgid "Serbian"
+msgstr "Serbisch"
+ 
+#: .tmp/localedata.py:259
+msgid "Swedish"
+msgstr "Schwedisch"
+ 
+#: .tmp/localedata.py:266
+msgid "Ukrainian"
+msgstr "Ukrainisch"
+ 
+#: .tmp/localedata.py:272
+msgid "Vietnamese"
+msgstr "Vietnamesisch"
+ 
+#: .tmp/scrAvatar.py:39
+msgid "User Picture"
+msgstr "Benutzerbild"
+ 
+#: .tmp/scrAvatar.py:51
+msgid "Create Your User Picture"
+msgstr "Eigenes Benutzerbild erstellen"
+ 
+#: .tmp/scrWelcome.py:30
+msgid "Welcome"
+msgstr "Willkommen"
+ 
+#: .tmp/scrWelcome.py:31
+#, python-format
+msgid "Welcome to %s"
+msgstr "Willkommen bei %s"
+ 
+#: .tmp/scrSecurity.py:33
+msgid "Security"
+msgstr "Sicherheit"
+ 
+#: .tmp/scrSecurity.py:34
+msgid "Keep your system secure"
+msgstr "Halten Sie Ihr System sicher"
+ 
+#: .tmp/scrServices.py:33
+msgid "Services"
+msgstr "Dienste"
+ 
+#: .tmp/scrServices.py:34
+msgid "Enable / Disable Services (Daemons)"
+msgstr "Dienste (Daemons) aktivieren / deaktivieren"
