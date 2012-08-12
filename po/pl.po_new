@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-11 14:34-0600\n"
+"POT-Creation-Date: 2012-08-12 12:43-0600\n"
 "PO-Revision-Date: 2012-08-10 14:45+0200\n"
 "Last-Translator: \n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -54,8 +54,8 @@ msgid "Arabic"
 msgstr "arabski"
 
 #: .tmp/localedata.py:87
-msgid "Belgium"
-msgstr "belgijski"
+msgid "Belarusian"
+msgstr ""
 
 #: .tmp/localedata.py:93
 msgid "Bulgarian"
@@ -791,3 +791,6 @@ msgstr "Tapeta"
 #, fuzzy
 msgid "wallpaperDesc"
 msgstr "Tapeta"
+
+#~ msgid "Belgium"
+#~ msgstr "belgijski"
