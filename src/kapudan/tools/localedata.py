@@ -84,7 +84,7 @@ languages = {
     ),
 
     "be":   Language(
-        name                = _("Belarusian"),
+        name                = _("Belgian"),
         locale              = "be_BY.UTF-8",
         keymaps             = [Keymap("be-latin1", "be")]
     ),
