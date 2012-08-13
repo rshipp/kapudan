@@ -215,9 +215,7 @@ class Kapudan(QtGui.QWidget):
 
 
     def slotCleanup(self):
-        print "I'm alive"
         _w = self.ui.mainStack.currentWidget()
-        #_w = self.ui.scrGoodbye
         if _w.execute():
             self.close()
 
