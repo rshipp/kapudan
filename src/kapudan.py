@@ -40,7 +40,7 @@ class Kapudan(QtGui.QWidget):
         self.connect(self.ui.buttonNext, QtCore.SIGNAL("clicked()"), self.slotNext)
         self.connect(self.ui.buttonApply, QtCore.SIGNAL("clicked()"), self.slotNext)
         self.connect(self.ui.buttonBack, QtCore.SIGNAL("clicked()"), self.slotBack)
-        self.connect(self.ui.buttonFinish, QtCore.SIGNAL("clicked()"), QtGui.qApp, QtCore.SLOT("quit()"))
+        self.connect(self.ui.buttonFinish, QtCore.SIGNAL("clicked()"), self.slotCleanup)
         self.connect(self.ui.buttonCancel, QtCore.SIGNAL("clicked()"), QtGui.qApp, QtCore.SLOT("quit()"))
 
     def initializeUI(self):
@@ -212,6 +212,14 @@ class Kapudan(QtGui.QWidget):
 
     def isBackEnabled(self):
         return self.buttonBack.isEnabled()
+
+
+    def slotCleanup(self):
+        print "I'm alive"
+        _w = self.ui.mainStack.currentWidget()
+        #_w = self.ui.scrGoodbye
+        if _w.execute():
+            self.close()
 
     def __del__(self):
         group = self.kapudanConfig.group("General")
