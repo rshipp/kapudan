@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-13 11:08-0600\n"
+"POT-Creation-Date: 2012-08-13 11:16-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -386,7 +386,7 @@ msgid ""
 msgstr ""
 
 #: .tmp/ui_scrKeyboard.py:95
-msgid "Test Layout"
+msgid "Test area:"
 msgstr ""
 
 #: .tmp/scrSummary.py:43 .tmp/ui_scrSummary.py:85
