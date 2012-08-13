@@ -228,11 +228,11 @@ if __name__ == "__main__":
     catalog     = ""
     programName = ki18n("kapudan")
     version     = "0.1"
-    description = ki18n("Kapudan lets you configure your Chakra workspace at first login")
+    description = ki18n("Kapudan lets you configure your Chakra installation at first boot.")
     license     = KAboutData.License_GPL
     copyright   = ki18n("(c) 2012 The Chakra Developers")
     text        = ki18n("none")
-    homePage    = "http://developer.pardus.org.tr/projects/kapudan"
+    homePage    = "http://gitorious.org/chakra/kapudan"
     bugEmail    = "george@chakra-project.org"
 
     aboutData   = KAboutData(appName,catalog, programName, version, description,
