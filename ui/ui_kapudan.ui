@@ -294,7 +294,7 @@ background-color: rgba(0, 0, 0, 70);
           </property>
           <property name="maximumSize">
            <size>
-            <width>300</width>
+            <width>375</width>
             <height>35</height>
            </size>
           </property>

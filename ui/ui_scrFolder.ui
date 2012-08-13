@@ -67,7 +67,7 @@ border-bottom-right-radius: 4px;
           <item>
            <widget class="QToolButton" name="downloadFolderButton">
             <property name="text">
-             <string>Downloads Folder</string>
+             <string>  Downloads  </string>
             </property>
             <property name="icon">
              <iconset theme="folder-downloads">
@@ -91,7 +91,7 @@ border-bottom-right-radius: 4px;
           <item>
            <widget class="QToolButton" name="documentsFolderButton">
             <property name="text">
-             <string>Documents Folder</string>
+             <string>  Documents  </string>
             </property>
             <property name="icon">
              <iconset theme="folder-documents">
@@ -115,7 +115,7 @@ border-bottom-right-radius: 4px;
           <item>
            <widget class="QToolButton" name="videoFolderButton">
             <property name="text">
-             <string>Videos Folder</string>
+             <string>  Videos  </string>
             </property>
             <property name="icon">
              <iconset theme="folder-video">
@@ -139,7 +139,7 @@ border-bottom-right-radius: 4px;
           <item>
            <widget class="QToolButton" name="musicFolderButton">
             <property name="text">
-             <string>Music Folder</string>
+             <string>  Music  </string>
             </property>
             <property name="icon">
              <iconset theme="folder-sound">
@@ -163,7 +163,7 @@ border-bottom-right-radius: 4px;
           <item>
            <widget class="QToolButton" name="imageFolderButton">
             <property name="text">
-             <string>Images Folder</string>
+             <string>  Images  </string>
             </property>
             <property name="icon">
              <iconset theme="folder-image">

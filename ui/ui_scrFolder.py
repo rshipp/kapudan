@@ -144,11 +144,11 @@ class Ui_folderWidget(object):
 
     def retranslateUi(self, folderWidget):
         folderWidget.setWindowTitle(kdecore.i18n(_fromUtf8("Home Folder")))
-        self.downloadFolderButton.setText(kdecore.i18n(_fromUtf8("Downloads Folder")))
-        self.documentsFolderButton.setText(kdecore.i18n(_fromUtf8("Documents Folder")))
-        self.videoFolderButton.setText(kdecore.i18n(_fromUtf8("Videos Folder")))
-        self.musicFolderButton.setText(kdecore.i18n(_fromUtf8("Music Folder")))
-        self.imageFolderButton.setText(kdecore.i18n(_fromUtf8("Images Folder")))
+        self.downloadFolderButton.setText(kdecore.i18n(_fromUtf8("  Downloads  ")))
+        self.documentsFolderButton.setText(kdecore.i18n(_fromUtf8("  Documents  ")))
+        self.videoFolderButton.setText(kdecore.i18n(_fromUtf8("  Videos  ")))
+        self.musicFolderButton.setText(kdecore.i18n(_fromUtf8("  Music  ")))
+        self.imageFolderButton.setText(kdecore.i18n(_fromUtf8("  Images  ")))
         self.description.setText(kdecore.i18n(_fromUtf8("<html><head/><body><p>By default Chakra doesn\'t create any special folders in the user\'s home directory, as Chakra leaves these kind of choices up to the user. However, in this screen we give you the ability to create the most commonly used folders.</p></body></html>")))
         self.label.setText(kdecore.i18n(_fromUtf8("Folders")))
 

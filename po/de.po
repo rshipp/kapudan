@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-12 13:25-0600\n"
+"POT-Creation-Date: 2012-08-13 11:08-0600\n"
 "PO-Revision-Date: 2012-08-10 18:14+0200\n"
 "Last-Translator: Michael Häsel <michael.haesel@gmail.com>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -506,26 +506,25 @@ msgid "Home Folder"
 msgstr "Ordner"
 
 #: .tmp/ui_scrFolder.py:145
-msgid "Downloads Folder"
+msgid "  Downloads  "
 msgstr ""
 
 #: .tmp/ui_scrFolder.py:146
-msgid "Documents Folder"
+msgid "  Documents  "
 msgstr ""
 
 #: .tmp/ui_scrFolder.py:147
 #, fuzzy
-msgid "Videos Folder"
+msgid "  Videos  "
 msgstr "Ordner"
 
 #: .tmp/ui_scrFolder.py:148
-#, fuzzy
-msgid "Music Folder"
-msgstr "Ordner"
+msgid "  Music  "
+msgstr ""
 
 #: .tmp/ui_scrFolder.py:149
 #, fuzzy
-msgid "Images Folder"
+msgid "  Images  "
 msgstr "Ordner"
 
 #: .tmp/ui_scrFolder.py:150
@@ -792,3 +791,7 @@ msgstr "Hintergrundbild"
 #, fuzzy
 msgid "wallpaperDesc"
 msgstr "Hintergrundbild"
+
+#, fuzzy
+#~ msgid "Music Folder"
+#~ msgstr "Ordner"
