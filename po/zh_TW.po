@@ -3,454 +3,448 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-#   <siracespam@gmail.com>, 2012.
+#   <alisha.4m@gmail.com>, 2012.
+# Cheng-Chia Tseng <pswo10680@gmail.com>, 2012.
+# Max Wu <maxwux@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Chakra Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-14 14:47-0600\n"
-"PO-Revision-Date: 2012-08-14 17:19+0000\n"
-"Last-Translator: Sir_Ace <siracespam@gmail.com>\n"
-"Language-Team: Polish (http://www.transifex.com/projects/p/chakra-project/language/pl/)\n"
-"Language: pl\n"
+"PO-Revision-Date: 2012-08-14 15:32+0000\n"
+"Last-Translator: Max Wu <maxwux@gmail.com>\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/chakra-project/language/zh_TW/)\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
 #: .tmp/_scrSearch.py:29 .tmp/ui_scrSearch.py:100
 msgid "Search"
-msgstr "Szukaj"
+msgstr "搜尋"
 
 #: .tmp/_scrSearch.py:30
 msgid "Enable / Disable Strigi Desktop Search"
-msgstr "Włącz / Wyłącz Strigi Desktop Search"
+msgstr "啟用/禁用 Strigi 桌面搜尋"
 
 #: .tmp/localedata.py:53
 msgid "Turkish"
-msgstr "turecki"
+msgstr "土耳其文"
 
 #: .tmp/localedata.py:58
 msgid "Turkish Q"
-msgstr "turecki Q"
+msgstr "土耳其文 Q"
 
 #: .tmp/localedata.py:59
 msgid "Turkish F"
-msgstr "turecki F"
+msgstr "土耳其文 F"
 
 #: .tmp/localedata.py:64
 msgid "English"
-msgstr "angielski"
+msgstr "英文"
 
 #: .tmp/localedata.py:69
 msgid "English GB"
-msgstr "angielski GB"
+msgstr "英文 (英國)"
 
 #: .tmp/localedata.py:75
 msgid "Afrikaans"
-msgstr "afrykanerski"
+msgstr "南非荷蘭文"
 
 #: .tmp/localedata.py:81
 msgid "Arabic"
-msgstr "arabski"
+msgstr "阿拉伯文"
 
 #: .tmp/localedata.py:87
 msgid "Belgian"
-msgstr "belgijski"
+msgstr "比利時文"
 
 #: .tmp/localedata.py:93
 msgid "Bulgarian"
-msgstr "bułgarski"
+msgstr "保加利亞文"
 
 #: .tmp/localedata.py:99
 msgid "Catalan"
-msgstr "kataloński"
+msgstr "加泰羅尼亞文"
 
 #: .tmp/localedata.py:105
 msgid "Welsh"
-msgstr "walijski"
+msgstr "威爾斯文"
 
 #: .tmp/localedata.py:111
 msgid "Czech"
-msgstr "czeski"
+msgstr "捷克文"
 
 #: .tmp/localedata.py:117
 msgid "Danish"
-msgstr "duński"
+msgstr "丹麥文"
 
 #: .tmp/localedata.py:123
 msgid "German"
-msgstr "niemiecki"
+msgstr "德文"
 
 #: .tmp/localedata.py:129
 msgid "Spanish"
-msgstr "hiszpański"
+msgstr "西班牙文"
 
 #: .tmp/localedata.py:135
 msgid "Estonian"
-msgstr "estoński"
+msgstr "愛沙尼亞文"
 
 #: .tmp/localedata.py:141
 msgid "Finnish"
-msgstr "fiński"
+msgstr "芬蘭文"
 
 #: .tmp/localedata.py:147
 msgid "French"
-msgstr "francuski"
+msgstr "法文"
 
 #: .tmp/localedata.py:153
 msgid "Greek"
-msgstr "grecki"
+msgstr "希臘文"
 
 #: .tmp/localedata.py:159
 msgid "Croatian"
-msgstr "chorwacki"
+msgstr "克羅埃西亞文"
 
 #: .tmp/localedata.py:165
 msgid "Hungarian"
-msgstr "węgierski"
+msgstr "匈牙利文"
 
 #: .tmp/localedata.py:173
 msgid "Icelandic"
-msgstr "islandzki"
+msgstr "冰島文"
 
 #: .tmp/localedata.py:179
 msgid "Italian"
-msgstr "włoski"
+msgstr "義大利文"
 
 #: .tmp/localedata.py:185
 msgid "Japanese"
-msgstr "japoński"
+msgstr "日文"
 
 #: .tmp/localedata.py:191
 msgid "Macedonian"
-msgstr "macedoński"
+msgstr "馬其頓文"
 
 #: .tmp/localedata.py:197
 msgid "Malayalam"
-msgstr "malajalam"
+msgstr "馬拉亞拉姆文"
 
 #: .tmp/localedata.py:203
 msgid "Norwegian"
-msgstr "norweski"
+msgstr "挪威文"
 
 #: .tmp/localedata.py:209
 msgid "Dutch"
-msgstr "niderlandzki"
+msgstr "荷蘭文"
 
 #: .tmp/localedata.py:215
 msgid "Polish"
-msgstr "polski"
+msgstr "波蘭文"
 
 #: .tmp/localedata.py:221
 msgid "Portuguese"
-msgstr "portugalski"
+msgstr "葡萄牙文"
 
 #: .tmp/localedata.py:227
 msgid "Brazilian"
-msgstr "brazylijski"
+msgstr "巴西文"
 
 #: .tmp/localedata.py:233
 msgid "Russian"
-msgstr "rosyjski"
+msgstr "俄羅斯文"
 
 #: .tmp/localedata.py:241
 msgid "Slovak"
-msgstr "słowacki"
+msgstr "斯洛伐克文"
 
 #: .tmp/localedata.py:247
 msgid "Slovenian"
-msgstr "słoweński"
+msgstr "斯洛維尼亞文"
 
 #: .tmp/localedata.py:253
 msgid "Serbian"
-msgstr "serbski"
+msgstr "塞爾維亞文"
 
 #: .tmp/localedata.py:259
 msgid "Swedish"
-msgstr "szwedzki"
+msgstr "瑞典文"
 
 #: .tmp/localedata.py:266
 msgid "Ukrainian"
-msgstr "ukraiński"
+msgstr "烏克蘭文"
 
 #: .tmp/localedata.py:272
 msgid "Vietnamese"
-msgstr "wietnamski"
+msgstr "越南文"
 
 #: .tmp/scrAvatar.py:39
 msgid "User Picture"
-msgstr "Obrazek użytkownika"
+msgstr "使用者圖片"
 
 #: .tmp/scrAvatar.py:51
 msgid "Create Your User Picture"
-msgstr "Utwórz obrazek użytkownika"
+msgstr "選擇您的使用者圖片"
 
 #: .tmp/scrFolder.py:30 .tmp/ui_scrFolder.py:151
 msgid "Folders"
-msgstr "Katalogi"
+msgstr "資料夾"
 
 #: .tmp/scrFolder.py:31
 msgid "Create folders in the home directory"
-msgstr "Utwórz foldery w katalogu domowym"
+msgstr "在家目錄下建立資料夾"
 
 #: .tmp/scrGoodbye.py:26 .tmp/ui_scrGoodbye.py:352
 msgid "More"
-msgstr "Więcej"
+msgstr "更多"
 
 #: .tmp/scrGoodbye.py:27
 msgid "Congratulations!"
-msgstr "Gratulacje!"
+msgstr "恭喜！"
 
 #: .tmp/scrKeyboard.py:34 .tmp/ui_scrKeyboard.py:93
 msgid "Keyboard"
-msgstr "Klawiatura"
+msgstr "鍵盤"
 
 #: .tmp/scrKeyboard.py:35
 msgid "Keyboard Layout Language"
-msgstr "Układ Klawiatury"
+msgstr "鍵盤配置語言"
 
 #: .tmp/scrMenu.py:29 .tmp/ui_scrMenu.py:124
 msgid "Menu"
-msgstr "Menu"
+msgstr "選單"
 
 #: .tmp/scrMenu.py:30
 msgid "Choose a Menu Style"
-msgstr "Wybierz styl menu"
+msgstr "選擇選單樣式"
 
 #: .tmp/scrMenu.py:44 .tmp/ui_scrMenu.py:126
 msgid "Kick-off Menu"
-msgstr "Kick-off"
+msgstr "Kick-off 選單"
 
 #: .tmp/scrMenu.py:46
 msgid "Kick-off menu is the default menu of Chakra.<br><br>The program shortcuts are easy to access and well organized."
-msgstr ""
-"Kick-off jest domyślnym menu Chakry.<br><br>Skróty są dobrze \n"
-"zorganizowane i łatwe do odnalezienia."
+msgstr "Kick-off 選單是 Chakra 的預設選單.<br><br>在管理程式的選單上是較容易的."
 
 #: .tmp/scrMenu.py:50 .tmp/ui_scrMenu.py:127
 msgid "Simple Menu"
-msgstr "Proste menu"
+msgstr "簡單選單"
 
 #: .tmp/scrMenu.py:52
 msgid "Simple menu is an old style menu from KDE 3.<br><br>It is a very lightweight menu thus it is recommended for slower PC's."
-msgstr ""
-"Proste menu wywodzi się z KDE3.<br><br>Jest bardzo lekkie i stąd \n"
-"rekomendowane dla słabszych komputerów."
+msgstr "Simple 選單是 KDE 3 舊式風格的選單.<br><br>這是非常輕量化的選單,適合硬體效能較慢的電腦."
 
 #: .tmp/scrMenu.py:56 .tmp/ui_scrMenu.py:128
 msgid "Lancelot Menu"
-msgstr "Lancelot"
+msgstr "Lancelot 選單"
 
 #: .tmp/scrMenu.py:58
 msgid "Lancelot is an advanced and highly customizable menu for Chakra.<br><br>The program shortcuts are easy to access and well organized."
-msgstr ""
-"Lancelot to zaawansowane i wysoko konfigurowalne menu Chakry.<br><br> \n"
-"Skróty są dobrze zorganizowane i łatwe do odnalezienia."
+msgstr "Lancelot 是 Chakra 較為進階且高自訂化的選單。<br><br>程式捷徑易於存取，且容易整理。"
 
 #: .tmp/scrMenu.py:62 .tmp/ui_scrMenu.py:129
 msgid "Takeoff Menu"
-msgstr "Takeoff"
+msgstr "Takeoff 選單"
 
 #: .tmp/scrMenu.py:64
 msgid "Takeoff is a full screen menu, inspired by Slingshot and the OS X Launchpad menu but adapted to work with KDE as a plasmoid."
-msgstr ""
-"Takeoff to pełnoekranowe menu wzorowane na menu Slingshot oraz OS X \n"
-"Launchpad i zaadaptowane do pracy z KDE jako plazmoid."
+msgstr "Takeoff 是個全螢幕選單，設計受到 Slinghot 與 OSX Launchpad 選單啟發，但也以 plasmoid 的樣貌針對 KDE 做出相對的修改。"
 
 #: .tmp/scrMouse.py:32 .tmp/ui_scrMouse.py:204
 msgid "Mouse"
-msgstr "Mysz"
+msgstr "滑鼠"
 
 #: .tmp/scrMouse.py:33
 msgid "Setup Mouse Behavior"
-msgstr "Ustawienia zachowania przycisków"
+msgstr "設定滑鼠行為"
 
 #: .tmp/scrMouse.py:144
 msgid "Left Handed"
-msgstr "Leworęczna"
+msgstr "左手"
 
 #: .tmp/scrMouse.py:144
 msgid "Right Handed"
-msgstr "Praworęczna"
+msgstr "右手"
 
 #: .tmp/scrMouse.py:145
 msgid "Double Click"
-msgstr "Podwójne kliknięcie"
+msgstr "點擊二下"
 
 #: .tmp/scrMouse.py:145
 msgid "Single Click "
-msgstr "Pojedyncze kliknięcie"
+msgstr "點擊一下"
 
 #: .tmp/scrPackage.py:33 .tmp/ui_scrPackage.py:133
 msgid "Packages"
-msgstr "Pakiety"
+msgstr "套件"
 
 #: .tmp/scrPackage.py:34
 msgid "Install / Remove Programs"
-msgstr "Dodaj / Usuń programy"
+msgstr "安裝/移除程式"
 
 #: .tmp/scrSecurity.py:33 .tmp/ui_scrSecurity.py:163
 msgid "Security"
-msgstr "Bezpieczeństwo"
+msgstr "安全"
 
 #: .tmp/scrSecurity.py:34
 msgid "Keep your system secure"
-msgstr "Zadbaj o bezpieczeństwo systemu"
+msgstr "維持您的系統安全"
 
 #: .tmp/scrServices.py:33 .tmp/ui_scrServices.py:118
 msgid "Services"
-msgstr "Usługi"
+msgstr "服務"
 
 #: .tmp/scrServices.py:34
 msgid "Enable / Disable Services (Daemons)"
-msgstr "Włącz / Wyłącz usługi (daemony)"
+msgstr "啟用/停用服務 (守護程式)"
 
 #: .tmp/scrStyle.py:38 .tmp/ui_scrStyle.py:171
 msgid "Themes"
-msgstr "Stylizacja"
+msgstr "主題"
 
 #: .tmp/scrStyle.py:39
 msgid "Customize Your Desktop"
-msgstr "Spersonalizuj swój pulpit"
+msgstr "自訂您的桌面"
 
 #: .tmp/scrSummary.py:43 .tmp/ui_scrSummary.py:85
 msgid "Summary"
-msgstr "Podsumowanie"
+msgstr "摘要"
 
 #: .tmp/scrSummary.py:44
 msgid "Save Your Settings"
-msgstr "Zapisz wybrane ustawienia"
+msgstr "儲存您的設定"
 
 #: .tmp/scrSummary.py:69
 msgid "Mouse Settings"
-msgstr "Ustawienia myszy"
+msgstr "滑鼠設定"
 
 #: .tmp/scrSummary.py:71
 #, python-format
 msgid "Selected Mouse configuration: <b>%s</b>"
-msgstr "Wybrane ustawienia myszy: <b>%s</b>"
+msgstr "選取的滑鼠組態：b>%s</b>"
 
 #: .tmp/scrSummary.py:72
 #, python-format
 msgid "Selected clicking behavior: <b>%s</b>"
-msgstr "Wybrane ustawienie przycisków: <b>%s</b>"
+msgstr "選取的點擊行為：<b>%s</b>"
 
 #: .tmp/scrSummary.py:76
 msgid "Menu Settings"
-msgstr "Ustawienia menu"
+msgstr "滑鼠設定"
 
 #: .tmp/scrSummary.py:77
 #, python-format
 msgid "Selected Menu: <b>%s</b>"
-msgstr "Wybrane menu: <b>%s</b>"
+msgstr "選擇選單：<b>%s</b>"
 
 #: .tmp/scrSummary.py:81
 msgid "Wallpaper Settings"
-msgstr "Ustawienia tapety"
+msgstr "桌布設定"
 
 #: .tmp/scrSummary.py:83
 msgid "You haven't selected any wallpaper."
-msgstr "Nie wybrałeś żadnej tapety."
+msgstr "您尚未選取任何桌布。"
 
 #: .tmp/scrSummary.py:85
 #, python-format
 msgid "Selected Wallpaper: <b>%s</b>"
-msgstr "Wybrana tapeta: <b>%s</b>"
+msgstr "選取桌布：<b>%s</b>"
 
 #: .tmp/scrSummary.py:89
 msgid "Style Settings"
-msgstr "Ustawienia stylu"
+msgstr "樣式設定"
 
 #: .tmp/scrSummary.py:92
 msgid "You haven't selected any style."
-msgstr "Nie wybrałeś żadnego stylu."
+msgstr "您尚未選取任何樣式。"
 
 #: .tmp/scrSummary.py:94
 #, python-format
 msgid "Selected Style: <b>%s</b>"
-msgstr "Wybrany styl: <b>%s</b>"
+msgstr "選取的樣式：<b>%s</b>"
 
 #: .tmp/scrSummary.py:100
 msgid "Package Management Settings"
-msgstr "Ustawienia zarządzania pakietami"
+msgstr "套件管理設定"
 
 #: .tmp/scrSummary.py:101
 msgid "You have enabled or disabled spun."
-msgstr "Włączyłeś lub wyłączyłeś spun."
+msgstr "你已經啟用或者停用 spun."
 
 #: .tmp/scrSummary.py:108 .tmp/scrSummary.py:136
 msgid "You have: "
-msgstr "Wybrałeś:"
+msgstr "您已："
 
 #: .tmp/scrSummary.py:110
 msgid "Services Settings"
-msgstr "Ustawienia usług"
+msgstr "服務設定"
 
 #: .tmp/scrSummary.py:113
 msgid "enabled cups; "
-msgstr "włączyłeś cups; "
+msgstr "啟用 cups；"
 
 #: .tmp/scrSummary.py:116
 msgid "disabled cups; "
-msgstr "wyłączyłeś cups; "
+msgstr "停用 cups；"
 
 #: .tmp/scrSummary.py:119
 msgid "enabled bluetooth; "
-msgstr "włączyłeś bluetooth; "
+msgstr "啟用藍芽；"
 
 #: .tmp/scrSummary.py:122
 msgid "disabled bluetooth; "
-msgstr "wyłączyłeś bluetooth; "
+msgstr "停用藍芽；"
 
 #: .tmp/scrSummary.py:126 .tmp/scrSummary.py:154
 msgid "You have made no changes."
-msgstr "Niczego nie zmieniłeś."
+msgstr "您沒有做出任何變動。"
 
 #: .tmp/scrSummary.py:138
 msgid "Security Settings"
-msgstr "Ustawienia bezpieczeństwa"
+msgstr "安全設定"
 
 #: .tmp/scrSummary.py:141
 msgid "enabled ClamAV; "
-msgstr "włączyłeś ClamAV; "
+msgstr "啟用 ClamAV；"
 
 #: .tmp/scrSummary.py:144
 msgid "disabled ClamAV; "
-msgstr "wyłączyłeś ClamAV; "
+msgstr "停用 ClamAV；"
 
 #: .tmp/scrSummary.py:147
 msgid "enabled the firewall; "
-msgstr "włączyłeś zaporę ogniową; "
+msgstr "啟用防火牆；"
 
 #: .tmp/scrSummary.py:150
 msgid "disabled the firewall; "
-msgstr "wyłączyłeś zaporę ogniową; "
+msgstr "停用防火牆；"
 
 #: .tmp/scrSummary.py:180
 msgid "Cannot restart plasma-desktop. Kapudan will now shut down."
-msgstr "Nie można ponownie uruchomić pulpitu plazmy. Kapudan zostanie teraz zamknięty."
+msgstr "無法重新啟動  plasma-desktopp。Kapudan 將不會關閉。"
 
 #: .tmp/scrSummary.py:180
 msgid "Error"
-msgstr "Błąd"
+msgstr "錯誤"
 
 #: .tmp/scrWallpaper.py:37 .tmp/ui_scrWallpaper.py:131
 msgid "Wallpaper"
-msgstr "Tapeta"
+msgstr "桌布"
 
 #: .tmp/scrWallpaper.py:38
 msgid "Choose a Wallpaper"
-msgstr "Wybierz tapetę"
+msgstr "選擇桌布"
 
 #: .tmp/scrWelcome.py:30 .tmp/ui_scrWelcome.py:78
 msgid "Welcome"
-msgstr "Witaj "
+msgstr "歡迎"
 
 #: .tmp/scrWelcome.py:31
 #, python-format
 msgid "Welcome to %s"
-msgstr "Witaj w %s"
+msgstr "歡迎來到 %s"
 
 #: .tmp/ui_kapudan.py:360
 msgid "Kapudan"
@@ -458,301 +452,280 @@ msgstr "Kapudan"
 
 #: .tmp/ui_kapudan.py:361
 msgid "Welcome to Chakra"
-msgstr "Witamy w systemie Chakra"
+msgstr "歡迎來到 Chakra"
 
 #: .tmp/ui_kapudan.py:362
 msgid "Cancel"
-msgstr "Anuluj"
+msgstr "取消"
 
 #: .tmp/ui_kapudan.py:363
 msgid "Back"
-msgstr "Wstecz"
+msgstr "上一步"
 
 #: .tmp/ui_kapudan.py:364
 msgid "Next"
-msgstr "Dalej"
+msgstr "下一步"
 
 #: .tmp/ui_kapudan.py:365
 msgid "Finish"
-msgstr "Zakończ"
+msgstr "完成"
 
 #: .tmp/ui_kapudan.py:366
 msgid "Apply"
-msgstr "Zatwierdź"
+msgstr "套用"
 
 #: .tmp/ui_scrAvatar.py:247 .tmp/ui_scrStyleItem.py:70
 #: .tmp/ui_wallpaperItem.py:73
 msgid "Form"
-msgstr "Formularz"
+msgstr "格式"
 
 #: .tmp/ui_scrAvatar.py:248
 msgid "<html><head/><body><p>This screen helps you set your <span style=\" font-weight:600;\">user picture</span>. You can either choose an image from a file, or you can capture an image from your camera, if you have one. Select an option from the <span style=\" font-weight:600;\">options</span> menu.</p></body></html>"
-msgstr "<html><head/><body><p>Ten etap pomoże ci ustawić twój <span style=\" font-weight:600;\">obrazek użytkownika</span>. Możesz go wybrać z pliku lub wykonać zdjęcie kamerką, jeśli taką posiadasz. Wybierz opcję z sekcji <span style=\" font-weight:600;\">Opcje</span></p></body></html>"
+msgstr "<html><head/><body><p>這個畫面將幫助你設置你的 <span style=\" font-weight:600;\">使用者頭像</span>. 你可以選擇照片檔, 如果你有內建攝影機的話, 你也可以透過攝影機來進行照相. 你可以透過選單來 <span style=\" font-weight:600;\">選擇</span> .</p></body></html>"
 
 #: .tmp/ui_scrAvatar.py:249
 msgid "Options"
-msgstr "Opcje"
+msgstr "選項"
 
 #: .tmp/ui_scrAvatar.py:250
 msgid "Choose an image"
-msgstr "Wybierz obrazek"
+msgstr "選擇影像"
 
 #: .tmp/ui_scrAvatar.py:251
 msgid "Capture"
-msgstr "Złap"
+msgstr "捕捉"
 
 #: .tmp/ui_scrAvatar.py:252
 msgid "Recapture"
-msgstr "Powtórz"
+msgstr "再次捕捉"
 
 #: .tmp/ui_scrFolder.py:144
 msgid "Home Folder"
-msgstr "Katalog domowy"
+msgstr "家資料夾"
 
 #: .tmp/ui_scrFolder.py:145
 msgid "  Downloads  "
-msgstr "Pobrane"
+msgstr "下載"
 
 #: .tmp/ui_scrFolder.py:146
 msgid "  Documents  "
-msgstr "Dokumenty"
+msgstr "文件"
 
 #: .tmp/ui_scrFolder.py:147
 msgid "  Videos  "
-msgstr "Wideo"
+msgstr "影片"
 
 #: .tmp/ui_scrFolder.py:148
 msgid "  Music  "
-msgstr "Muzyka"
+msgstr "音樂"
 
 #: .tmp/ui_scrFolder.py:149
 msgid "  Images  "
-msgstr "Obrazy"
+msgstr "圖片"
 
 #: .tmp/ui_scrFolder.py:150
 msgid "<html><head/><body><p>By default Chakra doesn't create any special folders in the user's home directory, as Chakra leaves these kind of choices up to the user. However, in this screen we give you the ability to create the most commonly used folders.</p></body></html>"
-msgstr "<html><head/><body><p>Domyślnie Chakra nie tworzy specjalnych folderów w katalogu domowym - zostawia to w gestii użytkownika. Na tym etapie masz możliwość utworzenia najbardziej typowych katalogów.</p></body></html>"
+msgstr "<html><head/><body><p>預設 Chakra 是不會幫使用者在他們的家目錄中建立任何特定的資料夾, Chakra 把選擇的權力交給使用者. 然而, 在這個螢幕上我們讓你建立你最常需要使用的資料夾.</p></body></html>"
 
 #: .tmp/ui_scrGoodbye.py:353
 msgid "<html><head/><body><p><span style=\" font-weight:600;\">Your settings have been applied.</span> Now you can start enjoying Chakra, or check out the following links and applications for more settings, or for help and support. Don't forget to <span style=\" font-weight:600;\">join our community!</span></p></body></html>"
-msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Wybrane ustawienia zostały zastosowane.</span> Możesz zacząć cieszyć się Chakrą lub sprawdzić poniższe odnośniki i aplikacje dla dalszej konfiguracji lub uzyskania pomocy i wsparcia. Nie zapomnij <span style=\" font-weight:600;\">dołączyć do naszej społeczności!</span></p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:600;\">你的設定已經生效.</span> 現在你可以開始享受使用 Chakra, 或者你也可以查看下方的連結與應用程式來了解更多的設定或是相關的協助. 別忘了 <span style=\" font-weight:600;\">加入我們的社群!</span></p></body></html>"
 
 #: .tmp/ui_scrGoodbye.py:354 .tmp/ui_scrGoodbye.py:356
 msgid "System Settings"
-msgstr "Ustawienia systemowe"
+msgstr "系統設定"
 
 #: .tmp/ui_scrGoodbye.py:355
 msgid "Configuration tools for Chakra, such as the display settings, firewall, keyboard layout, user management..."
-msgstr "Narzędzia konfiguracyjne Chakry, w tym ustawienia wyświetlania, zapory ogniowej, klawiatury, stylizacji, użytkowników..."
+msgstr "Chakra 的組態工具，例如顯示設定、防火牆、鍵盤配置、使用者管理使用者管理..."
 
 #: .tmp/ui_scrGoodbye.py:357 .tmp/ui_scrGoodbye.py:359
 msgid "Help and Support"
-msgstr "Pomoc i wsparcie"
+msgstr "幫助與支援"
 
 #: .tmp/ui_scrGoodbye.py:358
 msgid "Chakra community: mailing lists, chat rooms, Wiki documents, help and support pages..."
-msgstr "Społeczność Chakry: lista mailingowa, chat, dokumentacja w formie Wiki, pomoc i wsparcie..."
+msgstr "Chakra 社群：郵遞論壇、聊天室、Wiki 文件、幫助與支援頁面..."
 
 #: .tmp/ui_scrGoodbye.py:360
 msgid "Using KDE"
-msgstr "Użytkowanie KDE"
+msgstr "使用 KDE"
 
 #: .tmp/ui_scrGoodbye.py:361
 msgid "Learn how to get the most out of KDE, the Plasma desktop, and everything else Chakra has to offer, in the Chakra Beginner's Guide."
-msgstr "Dowiedz się więcej o KDE, pulpicie Plazmy i wszystkim innym, co ma do zaoferowania Chakra, we Wstępie dla początkujących."
+msgstr "若要學習如何發揮 KDE 的最大功效，像是 Plasma 桌面，以及其他 Chakra 提供的其他東西，請見 Chakra 初用者指引。"
 
 #: .tmp/ui_scrGoodbye.py:362
 msgid "Beginner's Guide"
-msgstr "Wstęp dla początkujących"
+msgstr "初學者指南"
 
 #: .tmp/ui_scrGoodbye.py:363
 msgid "Run Kapudan on system startup?"
-msgstr "Uruchamiać Kapudan przy starcie systemu?"
+msgstr "系統初始啟動時執行 Kapudan？"
 
 #: .tmp/ui_scrKeyboard.py:94
 msgid "<html><head/><body><p>Kapudan tries to automatically select the best keyboard layout according to your system language. If you want to use another layout, just make a selection below.</p></body></html>"
-msgstr ""
-"<html><head/><body><p>Kapudan próbuje automatycznie dobrać \n"
-"układ klawiatury najlepszy dla języka twojego systemu. Gdyby interesował \n"
-"cię inny układ, wybierz odpowiedni z dostępnych poniżej.</p></body></html>"
+msgstr "<html><head/><body><p>kapudan試圖根據您的系統語言自動選擇最佳的鍵盤layout. 如果你想使用另外一種layout, 你也可以另外做出選擇.</p></body></html>"
 
 #: .tmp/ui_scrKeyboard.py:95
 msgid "Test area:"
-msgstr "Obszar testowy:"
+msgstr "測試區:"
 
 #: .tmp/ui_scrMenu.py:125
 msgid "You can also customize your <b>KDE menu</b> as you like. Please choose one from the following styles."
-msgstr "Możesz również spersonalizować własne <b>KDE menu</b>. Wybierz jeden z dostępnych stylów."
+msgstr "您也可以依照您的喜好自訂 <b>KDE 選單</b>。請選擇下列樣式之一。"
 
 #: .tmp/ui_scrMenu.py:130
 msgid "Sample"
-msgstr "Przykład"
+msgstr "樣本"
 
 #: .tmp/ui_scrMouse.py:205
 msgid "<html><head/><body><p>The <span style=\" font-weight:600;\">clicking behavior</span> defines how many times you want to click to open files and folders. If you are <span style=\" font-weight:600;\">left handed</span>, you may prefer to swap the left and right buttons of your pointing device.</p></body></html>"
-msgstr "<html><head/><body><p><span style=\"font-weight:600;\">Ustawienie przycisków</span> definiuje liczbę kliknięć wymaganą do otworzenia plików i katalogów. Jeżeli jesteś <span style=\" font-weight:600;\">leworęczny</span>, możesz dla wygody zamienić kolejnością przyciski urządzenia wskazującego.</p></body></html>"
+msgstr "<html><head/><body><p>自訂<span style=\" font-weight:600;\">滑鼠點擊行為</span>, 你想要自訂點擊幾次來打開檔案和資料夾呢? 如果你是 <span style=\" font-weight:600;\">左撇子</span>, 你可能會想要交換滑鼠左右鍵的位置.</p></body></html>"
 
 #: .tmp/ui_scrMouse.py:206
 msgid "Clicking Behaviour"
-msgstr "Ustawienia przycisków"
+msgstr "點擊行為"
 
 #: .tmp/ui_scrMouse.py:207
 msgid "Dou&ble-click to open files and folders"
-msgstr "Podwójne kliknięcie dla otwierania plików i folderów"
+msgstr "雙點開啟檔案與資料夾(&B)"
 
 #: .tmp/ui_scrMouse.py:208
 msgid "Single-click to open files and folders"
-msgstr "Pojedyncze kliknięcie dla otwierania plików i folderów"
+msgstr "單點開啟檔案與資料夾"
 
 #: .tmp/ui_scrMouse.py:209
 msgid "Button Order"
-msgstr "Kolejność przycisków"
+msgstr "按鈕順序"
 
 #: .tmp/ui_scrMouse.py:210
 msgid "Right Hand"
-msgstr "Praworęczna"
+msgstr "慣用右手"
 
 #: .tmp/ui_scrMouse.py:211
 msgid "Left Hand"
-msgstr "Leworęczna"
+msgstr "慣用左手"
 
 #: .tmp/ui_scrMouse.py:212
 msgid "Reverse scrolling"
-msgstr "Odwrócone przewijanie"
+msgstr "反向捲動"
 
 #: .tmp/ui_scrPackage.py:134
 msgid "Check for updates automatically every"
-msgstr "Automatycznie szukaj aktualizacji co"
+msgstr "自動檢查是否有更新每隔"
 
 #: .tmp/ui_scrPackage.py:135
 msgid " minutes"
-msgstr "minut"
+msgstr "分鐘"
 
 #: .tmp/ui_scrPackage.py:136
 msgid "Use audio along with the visual notification"
-msgstr "Oprócz powiadomienia użyj sygnału dźwiękowego"
+msgstr "使用音效以及視覺通知"
 
 #: .tmp/ui_scrPackage.py:137
 msgid "<html><head/><body><p>To install and remove programs on Chakra, use the command-line program, <a href=\"http://chakra-linux.org/wiki/index.php/Pacman\"><span style=\" text-decoration: underline; color:#0057ae;\">pacman</span></a>. You can run <span style=\" font-weight:600;\">sudo pacman -Syu</span> to update, <span style=\" font-weight:600;\">pacman -Ss </span><span style=\" font-weight:600; font-style:italic;\">keyword</span> to search through the repos, and <span style=\" font-weight:600;\">sudo pacman -S </span><span style=\" font-weight:600; font-style:italic;\">package</span> to install packages.</p><p>Pacman does not have any sort of graphical interface, so another small app, spun, was created to provide update notifications. When updates are available, spun will show a notification in your system tray. </p></body></html>"
-msgstr ""
-"<html><head/><body><p>Do instalowania i usuwania aplikacji Chakra używa konsolowego programu <a href=\"http://chakra-linux.org/wiki/index.php/Pacman/pl\"><span style=\" text-decoration: underline; color:#0057ae;\">pacman</span></a>. Użyj polecenia <span style=\" font-weight:600;\">sudo pacman -Syu</span> do aktualizacji systemu, <span style=\" font-weight:600;\">pacman -Ss </span><span \n"
-"style=\" font-weight:600; font-style:italic;\">nazwa</span> do przeszukiwania repozytoriów i <span style=\" font-weight:600;\">sudo pacman -S </span><span style=\" font-weight:600; font-style:italic;\">pakiet</span> do instalacji.</p> <p>Pacman nie posiada interfejsu graficznego, stąd stworzona przez nas aplikacja spun. O możliwości aktualizacji zostaniesz powiadomiony komunikatem przy tacce systemowej.</p></body></html>"
+msgstr "<html><head/><body><p>在Chakra中要安裝或移除程式, 請使用command-line模式, <a href=\"http://chakra-linux.org/wiki/index.php/Pacman\"><span style=\" text-decoration: underline; color:#0057ae;\">pacman</span></a>. 你可以執行 <span style=\" font-weight:600;\">sudo pacman -Syu</span> 來更新系統, <span style=\" font-weight:600;\">pacman -Ss </span><span style=\" font-weight:600; font-style:italic;\">關鍵字</span> 可以透過 repos 來搜尋套件, 而 <span style=\" font-weight:600;\">sudo pacman -S </span><span style=\" font-weight:600; font-style:italic;\">套件名稱</span> 可以安裝套件.</p><p>Pacman 並沒有任何圖形介面, 所以另外一個小程式 spun 則是被創造出來做更新通知的, 當套件已經可以被更新, spun將會在你的系統列出現提醒通知. </p></body></html>"
 
 #: .tmp/ui_scrPackage.py:138
 msgid "Updates"
-msgstr "Aktualizacje"
+msgstr "更新"
 
 #: .tmp/ui_scrSearch.py:101
 msgid "Strigi Desktop Search indexes your frequently used files. This gives you very fast file search results. Strigi also can search for files based on their contents. On older computers, this can use a lot of resources."
-msgstr ""
-"Strigi Desktop Search indeksuje często używane przez ciebie pliki. \n"
-"Owocuje to bardzo szybkim wyszukiwaniem. Strigi może też wyszukiwać \n"
-"pliki w oparciu o ich zawartość. Może pochłaniać sporą część zasobów \n"
-"starszych komputerów."
+msgstr "Strigi 桌面搜尋會為您常用的檔案製作索引。這可以讓您搜尋時可快速取得結果。Strigi 也可以根據檔案的內容來搜尋檔案。對於較老舊的電腦來說，這可能會耗費大量資源。"
 
 #: .tmp/ui_scrSearch.py:102
 msgid "Allow Strigi to index my files"
-msgstr "Pozwól Strigi indeksować pliki"
+msgstr "允許 Strigi 為我的檔案製作索引"
 
 #: .tmp/ui_scrSearch.py:103
 msgid "Search Options"
-msgstr "Opcje wyszukiwania"
+msgstr "搜尋選項"
 
 #: .tmp/ui_scrSecurity.py:164
 msgid "Enable the firewall (UFW)"
-msgstr "Włącz zaporę ogniową (UFW)"
+msgstr "啟用防火牆 (UFW)"
 
 #: .tmp/ui_scrSecurity.py:165
 msgid "Enable Clam AntiVirus daemon (must be installed and configured)"
-msgstr "Włącz daemona Clam AntiVirus (musi być zainstalowany i skonfigurowany)"
+msgstr "啟用 Clam AntiVirus 守護程式 (必須先安裝並設定過)"
 
 #: .tmp/ui_scrSecurity.py:166
 msgid "<html><head/><body><p>Other security tools provided by Chakra include Tomoyo-tools, the KDE Wallet, rkhunter, chkrootkit, tiger, and more. Click the buttons below to learn more about these tools.</p></body></html>"
-msgstr "<html><head/><body><p>Bezpieczeństwo Chakry zapewniają także Tomoyo-tools, Portfel KDE, rkhunter, chkrootkit, tiger i wiele innych narzędzi.</p></body></html>"
+msgstr "<html><head/><body><p>Chakra還有提供其他的安全性工具, 包括 Tomoyo-tools, KDE Wallet, rkhunter, chkrootkit, tiger 等等. 按下下方的按鈕來學習更多相關的事物.</p></body></html>"
 
 #: .tmp/ui_scrSecurity.py:167
 msgid "ClamAV: Detect and remove malware"
-msgstr "ClamAV: Wykrywanie i usuwanie złośliwego oprogramowania"
+msgstr "ClamAV：偵測與移除惡意軟體"
 
 #: .tmp/ui_scrSecurity.py:168
 msgid "Tomoyo-tools: A Mandatory Access Control (MAC) implementation for Linux"
-msgstr ""
-"Tomoyo-tools: A Mandatory Access Control (Obowiązkowa Kontrola Dostępu) w \n"
-"wersji dla Linuksa"
+msgstr "Tomoyo 工具：Linux 的強制存取控制 (MAC) 實作"
 
 #: .tmp/ui_scrSecurity.py:169
 msgid "KDE Wallet Manager: Protect and encrypt passwords and other information"
-msgstr "Menedżer portfela KDE: Składuje i szyfruje hasła oraz inne informacje"
+msgstr "KDE 錢包管理員: 將密碼加密並且保護其他資訊"
 
 #: .tmp/ui_scrSecurity.py:170
 msgid "chkrootkit and rkhunter: Check for the presence of rootkits on your system"
-msgstr "chkrootkit i rkhunter: badają obecność rootkitów w twoim systemie"
+msgstr "chkrootkit 與 rkhunter：檢查您的系統上是否有 rootkit 存在。"
 
 #: .tmp/ui_scrSecurity.py:171
 msgid "Tiger: A host-based intrusion detection and auditing tool"
-msgstr "Tiger: wewnętrzny system analizy bezpieczeństwa i detekcji niepożądanego dostępu"
+msgstr "Tiger：一個以主機為基礎的入侵偵測與稽核工具"
 
 #: .tmp/ui_scrSecurity.py:172
 msgid "<html><head/><body><p>Finally, Chakra also provides a graphical tool to configure the system firewall. Just click on &quot;Firewall&quot; in the KDE System Settings.</p></body></html>"
-msgstr ""
-"<html><head/><body><p>Dodatkowo Chakra oferuje graficzną aplikację \n"
-"służącą konfiguracji zapory ogniowej. Wystarczy kliknąć &quot;Firewall&quot; w Ustawieniach systemowych KDE.</p></body></html>"
+msgstr "<html><head/><body><p>最後, Chakra 也提供一個圖形介面的防火牆工具. 就在KDE的系統設定中的 &quot;Firewall&quot; .</p></body></html>"
 
 #: .tmp/ui_scrSecurity.py:173
 msgid "<html><head/><body><p>Security is a process, not a product, and no operating system can realistically claim to be perfectly secure. It is up to you to make sure you keep your system up to date, and follow best security practices. However, Chakra does provide a few tools to help you keep your system safe.</p></body></html>"
-msgstr ""
-"<html><head/><body><p>Bezpieczeństwo to proces, nie produkt. Żaden \n"
-"system operacyjny nie jest stuprocentowo bezpieczny. Dbałość o aktualność systemu i trzymanie się norm bezpieczeństwa to twoje zadania. Mimo to Chakra oferuje kilka narzędzi, które ułatwią ci utrzymanie bezpiecznego systemu.</p></body></html>"
+msgstr "<html><head/><body><p>安全是一個過程, 而不是一個產品, 現實上沒有任何作業系統可以算得上是完全安全的. 你可以自己決定, 你是否需要跟上最新的更新, 並遵循最佳的安全政策. 然而, 恰克拉提供了一些工具, 幫助你保持你的系統安全性.</p></body></html>"
 
 #: .tmp/ui_scrSecurity.py:174
 msgid "Security Tools"
-msgstr "Narzędzia zabezpieczające"
+msgstr "安全工具"
 
 #: .tmp/ui_scrServices.py:119
 msgid "cups: The Common Unix Printing Service"
-msgstr "cups: The Common Unix Printing Service (applet drukarki)"
+msgstr "cups：通用 Unix 列印服務"
 
 #: .tmp/ui_scrServices.py:120
 msgid "bluetooth: Enable Bluetooth communication"
-msgstr "bluetooth: Włącz połączenia Bluetooth"
+msgstr "藍牙：啟用藍牙通訊"
 
 #: .tmp/ui_scrServices.py:121
 msgid "<html><head/><body><p>By default, new installations of Chakra have only a bare minimum of required services (also called &quot;daemons&quot;) enabled. Not only does this reflect Chakra's principle of not making decisions for its users, it also adds to a new installation's security, by decreasing the number of active services that might be vulnerable to an attack.</p><p>If you wish, you can use the options below to tell some of the more widely used daemons to start automatically at boot time. To enable or disable any service you would like to start on bootup, you can run <span style=\" font-weight:600;\">kdesu kate /etc/rc.conf</span> and add new services to the <span style=\" font-style:italic;\">DAEMONS</span> line. Or, if you just want to start daemons manually, try <span style=\" font-weight:600;\">sudo rc.d start </span><span style=\" font-weight:600; font-style:italic;\">daemon-name</span>. (Eg, <span style=\" font-weight:600;\">sudo rc.d start cups</span>).</p></body></html>"
-msgstr ""
-"<html><head/><body><p>Domyślnie świeża instalacja Chakry posiada \n"
-"jedynie niezbędne minimum uaktywnionych usług (nazywanych także \n"
-"&quot;daemonami&quot;). Nie tylko z zasady, że Chakra nie podejmuje \n"
-"decyzji za użytkownika, ale także dla bezpieczeństwa, gdyż każda działająca usługa jest potencjalnie wrażliwa na atak.</p><p>Za pośrednictwem poniższych opcji możesz wyrazić chęć uruchamiania najpopularniejszych daemonów wraz ze startem systemu. By włączyć lub wyłączyć uaktywnianie danej usługi przy bootowaniu systemu, otwórz w konsoli  <span style=\" font-weight:600;\">kdesu kate /etc/rc.conf \n"
-"</span> i dodaj lub usuń usługę z sekcji <span style=\" font-style:italic;\">\n"
-"DAEMONS</span>. Jeżeli wolisz uruchamiać daemony manualnie, użyj <span style=\" font-weight:600;\"> sudo rc.d start </span><span style=\" font-weight:600; font-style:italic;\">nazwa-daemona</span> (np. <span style=\" font-weight:600;\">sudo rc.d start cups</span>).</p></body></html>"
+msgstr "<html><head/><body><p>全新安裝的 Chakra 預設只有最低需求的 services (也稱為 &quot;daemons&quot;) 被啟動. 這不僅反映出 Chakra 不幫用戶做決定的原則, 也增加了安裝後的安全性, 減少主動提供的服務可降低被攻擊的機會.</p><p>如果你需要開啟服務, 你可以使用下方的選項來將服務開啟, 並在每次開機時啟動. 如果你想要在開機時啟用任何服務, 你可以執行 <span style=\" font-weight:600;\">kdesu kate /etc/rc.conf</span> 然後在 <span style=\" font-style:italic;\">DAEMONS</span> 那一行中加入你想加入的服務. 如果你想要手動的啟動服務, 你可以使用 <span style=\" font-weight:600;\">sudo rc.d start </span><span style=\" font-weight:600; font-style:italic;\">daemon-name</span>. (例如: <span style=\" font-weight:600;\">sudo rc.d start cups</span>).</p></body></html>"
 
 #: .tmp/ui_scrServices.py:122
 msgid "Daemons to start at boot time"
-msgstr "Daemony do uruchomienia wraz ze startem systemu"
+msgstr "要在開機時啟動的守護程式"
 
 #: .tmp/ui_scrStyle.py:172
 msgid "Choose your favorite theme and desktop type. Customize Chakra with colorful styles and themes."
-msgstr "Wybierz ulubiony motyw i układ pulpitu. Spersonalizuj Chakrę pełnymi kolorów stylami i motywami."
+msgstr "選擇您喜愛的主題與桌面樣式。以多采多姿的樣式與主題自訂 Chakra 。"
 
 #: .tmp/ui_scrStyle.py:173
 msgid "KDE Themes"
-msgstr "Motyw pulpitu"
+msgstr "KDE 主題"
 
 #: .tmp/ui_scrStyle.py:174
 msgid "Desktop Type"
-msgstr "Układ pulpitu"
+msgstr "桌面類型"
 
 #: .tmp/ui_scrStyle.py:175
 msgid "Desktop view (KDE4 Style)"
-msgstr "Domyślny pulpit (styl KDE4)"
+msgstr "桌面檢視 (KDE4 風格)"
 
 #: .tmp/ui_scrStyle.py:176
 msgid "Folder view (KDE3 Style)"
-msgstr "Widok katalogu (styl KDE3)"
+msgstr "資料夾檢視 (KDE3 風格)"
 
 #: .tmp/ui_scrStyle.py:177
 msgid "Number of Desktops"
-msgstr "Liczba pulpitów"
+msgstr "桌面數"
 
 #: .tmp/ui_scrStyleItem.py:71
 msgid "styleName"
@@ -764,46 +737,35 @@ msgstr "styleDesc"
 
 #: .tmp/ui_scrSummary.py:86
 msgid "<html><head/><body><p>You have successfully finished all steps. Here's a summary of the settings you want to apply. Click <span style=\" font-weight:600;\">Apply</span> if they look good, or go back and make more changes. </p></body></html>"
-msgstr "<html><head/><body><p>Pomyślnie przeszedłeś wszystkie kroki. Masz przed sobą podsumowanie ustawień do zatwierdzenia. Kliknij <span style=\"font-weight:600;\">Zatwierdź</span>, jeżeli wszystko wygląda poprawnie, lub wróć do poprzednich ustawień.</p></body></html>"
+msgstr "<html><head/><body><p>您已成功完成所有步驟。這裡是您想套用的設定摘要。如果看起來沒問題，請點擊 <span style=\" font-weight:600;\">套用</span>：如果想要再稍做修改，請返回。</p></body></html>"
 
 #: .tmp/ui_scrSummary.py:87
 msgid "The following settings will be applied"
-msgstr "Wprowadzone zostaną poniższe ustawienia"
+msgstr "將套用下列設定"
 
 #: .tmp/ui_scrWallpaper.py:132
 msgid "<html><head/><body><p>Choose your favorite wallpaper for your Chakra desktop. Don't forget to check out <span style=\" font-weight:600;\">Desktop Settings</span> to download cool new wallpapers.</p></body></html>"
-msgstr ""
-"<html><head/><body><p>Wybierz ulubioną tapetę na swój pulpit \n"
-"Chakry. Nie zapomnij zajrzeć do <span style=\" font-weight:600;\"> \n"
-"Ustawień pulpitu</span>, żeby pobrać nowe, ciekawe tapety. \n"
-"</p></body></html>"
+msgstr "<html><head/><body><p>為您的 Chakra 桌面選擇您喜愛的桌布。不要忘了看看 <span style=\" font-weight:600;\">桌面設定</span> 來下載酷炫的新桌布。</p></body></html>"
 
 #: .tmp/ui_scrWallpaper.py:133
 msgid "Wallpapers"
-msgstr "Tapety"
+msgstr "桌布"
 
 #: .tmp/ui_scrWallpaper.py:135
 msgid "Choose wallpaper from file"
-msgstr "Wczytaj tapetę z pliku"
+msgstr "從檔案選擇桌布"
 
 #: .tmp/ui_scrWallpaper.py:136
 msgid "Don't change wallpaper"
-msgstr "Nie zmieniaj tapety"
+msgstr "不要更改桌布"
 
 #: .tmp/ui_scrWelcome.py:79
 msgid "What is Chakra?"
-msgstr "Czym jest Chakra?"
+msgstr "什麼是 Chakra？"
 
 #: .tmp/ui_scrWelcome.py:80
 msgid "<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span> brings a ground-up Linux distribution, a free software showcase project created by a bunch of people who like the KISS principles and the elegance of the Plasma Desktop, and a bundlesystem to support well known GTK applications.<br/><br/>Our main goal is provide a fast, user-friendly and extremely powerful Live CD and Linux distribution, specially crafted for the award winning KDE Software Compilation and the beautiful Plasma desktop.<br/><br/><span style=\" font-weight:600;\">Kapudan</span> will help you personalize your Chakra workspace easily and quickly. Just click <span style=\" font-weight:600;\">next</span> when you are ready to begin.</p></body></html>"
-msgstr ""
-"<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span> jest niezależną dystrybucją linuksową, przykładem darmowego oprogramowania stworzonego przez grupę ludzi zauroczonych filozofią KISS, elegancją pulpitu Plazmy i systemem Bundle obsługującym najpopularniejsze aplikacje GTK.\n"
-"<br/><br/>Naszym głównym celem jest stworzenie szybkiej, przyjaznej \n"
-"użytkownikowi i ekstremalnie szybkiej dystrybucji typu Live CD specjalnie dostosowanej do wielokrotnie nagradzanego środowiska KDE Software Compilation i pięknego pulpitu Plazmy. \n"
-"<br/><br/> \n"
-"<span style=\" font-weight:600;\">Kapudan</span> w prosty i szybki sposób \n"
-"pomoże ci spersonalizować przestrzeń roboczą Chakry. Wciśnij <span style=\" font-\n"
-"weight:600;\">dalej</span>, kiedy będziesz gotów.</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span> 帶來一個徹底重新打造的 Linux 發行版,  這是由一群喜歡KISS原則和喜歡典雅的Plasma 桌面的人打造出來的自由軟體計劃 , 而一些知名的GTK應用程式也會在 bundle system 中被支援.<br/><br/>我們的主要目標是提供一個快速、友善以及功能強大的 Live CD 和 Linux 發行版, 並且專注於KDE軟體的彙整與美麗的 Plasma 桌面.<br/><br/><span style=\" font-weight:600;\">Kapudan</span> 將會協助你輕鬆且快速的打造屬於你的個人化 Chakra 工作空間. 當你準備好，只要按下 <span style=\" font-weight:600;\">下一步</span> 就可以開始了.</p></body></html>"
 
 #: .tmp/ui_wallpaperItem.py:74
 msgid "wallPaperName"
