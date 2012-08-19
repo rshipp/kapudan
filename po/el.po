@@ -1,0 +1,876 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+#   <capoiosct@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: The Chakra Project\n"
+"Report-Msgid-Bugs-To: http://chakra-project.org/bugs/\n"
+"POT-Creation-Date: 2012-08-15 19:31-0600\n"
+"PO-Revision-Date: 2012-08-18 18:38+0000\n"
+"Last-Translator: Αντώνης Γ. <capoiosct@gmail.com>\n"
+"Language-Team: Greek (http://www.transifex.com/projects/p/chakra-project/language/el/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: .tmp/ui_scrWelcome.py:78 .tmp/scrWelcome.py:30
+msgid "Welcome"
+msgstr "Καλώς ήλθατε"
+
+#: .tmp/ui_scrWelcome.py:79
+msgid "What is Chakra?"
+msgstr "Τι είναι το Chakra;"
+
+#: .tmp/ui_scrWelcome.py:80
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span> brings"
+" a ground-up Linux distribution, a free software showcase project created by"
+" a bunch of people who like the KISS principles and the elegance of the "
+"Plasma Desktop, and a bundlesystem to support well known GTK "
+"applications.<br/><br/>Our main goal is provide a fast, user-friendly and "
+"extremely powerful Live CD and Linux distribution, specially crafted for the"
+" award winning KDE Software Compilation and the beautiful Plasma "
+"desktop.<br/><br/><span style=\" font-weight:600;\">Kapudan</span> will help"
+" you personalize your Chakra workspace easily and quickly. Just click <span "
+"style=\" font-weight:600;\">next</span> when you are ready to "
+"begin.</p></body></html>"
+msgstr "<html><head/><body><p>Το <span style=\" font-weight:600;\">Chakra</span> είναι μια υπερσύγχρονη διανομή Linux, ένα έργο προβολή για το ελεύθερο λογισμικό που δημιουργήθηκε από μια ομάδα ανθρώπων που αγαπούν τις αρχές KISS και την κομψότητα της επιφάνειας εργασίας plasma και ένα bundlesystem που υποστηρίζει γνωστές εφαρμογές GTK.<br/><br/>Κύριος στόχος μας είναι να δώσουμε ένα γρήγορο, εύχρηστο και εξαιρετικά ισχυρό Live CD και μια διανομή Linux, ειδικά δημιουργημένη για τη βραβευμένη σύνταξη λογισμικού KDE και την όμορφη επιφάνεια εργασίας plasma. <br/><br/>Το <span style=\" font-weight:600;\">Kapudan</span> θα σας βοηθήσει να διαμορφώσετε το χώρο εργασίας Chakra σας εύκολα και γρήγορα. Απλά κάντε κλικ στο <span style=\" font-weight:600;\">επόμενο</span> όταν είστε έτοιμοι να ξεκινήσετε.</p></body></html>"
+
+#: .tmp/scrKeyboard.py:34 .tmp/ui_scrKeyboard.py:93
+msgid "Keyboard"
+msgstr "Πληκτρολόγιο"
+
+#: .tmp/scrKeyboard.py:35
+msgid "Keyboard Layout Language"
+msgstr "Γλώσσα διάταξης πληκτρολογίου"
+
+#: .tmp/ui_scrStyle.py:171 .tmp/scrStyle.py:38
+msgid "Themes"
+msgstr "Θέματα"
+
+#: .tmp/ui_scrStyle.py:172
+msgid ""
+"Choose your favorite theme and desktop type. Customize Chakra with colorful "
+"styles and themes."
+msgstr "Διαλέξτε το αγαπημένο σας θέμα και τον τύπο επιφάνειας εργασίας. Προσαρμόστε το Chakra με πολύχρωμα στυλ και θέματα."
+
+#: .tmp/ui_scrStyle.py:173
+msgid "KDE Themes"
+msgstr "Θέματα KDE"
+
+#: .tmp/ui_scrStyle.py:174
+msgid "Desktop Type"
+msgstr "Τύπος επιφάνειας εργασίας"
+
+#: .tmp/ui_scrStyle.py:175
+msgid "Desktop view (KDE4 Style)"
+msgstr "Προβολή επιφάνειας εργασίας (στυλ KDE4)"
+
+#: .tmp/ui_scrStyle.py:176
+msgid "Folder view (KDE3 Style)"
+msgstr "Προβολή φακέλου (στυλ KDE3)"
+
+#: .tmp/ui_scrStyle.py:177
+msgid "Number of Desktops"
+msgstr "Αριθμός επιφανειών εργασίας"
+
+#: .tmp/ui_scrServices.py:118 .tmp/scrServices.py:33
+msgid "Services"
+msgstr "Υπηρεσίες"
+
+#: .tmp/ui_scrServices.py:119
+msgid "cups: The Common Unix Printing Service"
+msgstr "cups: Κοινό σύστημα εκτύπωσης Unix"
+
+#: .tmp/ui_scrServices.py:120
+msgid "bluetooth: Enable Bluetooth communication"
+msgstr "bluetooth: Ενεργοποίηση επικοινωνίας Bluetooth"
+
+#: .tmp/ui_scrServices.py:121
+msgid ""
+"<html><head/><body><p>By default, new installations of Chakra have only a "
+"bare minimum of required services (also called &quot;daemons&quot;) enabled."
+" Not only does this reflect Chakra's principle of not making decisions for "
+"its users, it also adds to a new installation's security, by decreasing the "
+"number of active services that might be vulnerable to an attack.</p><p>If "
+"you wish, you can use the options below to tell some of the more widely used"
+" daemons to start automatically at boot time. To enable or disable any "
+"service you would like to start on bootup, you can run <span style=\" font-"
+"weight:600;\">kdesu kate /etc/rc.conf</span> and add new services to the "
+"<span style=\" font-style:italic;\">DAEMONS</span> line. Or, if you just "
+"want to start daemons manually, try <span style=\" font-weight:600;\">sudo "
+"rc.d start </span><span style=\" font-weight:600; font-style:italic"
+";\">daemon-name</span>. (Eg, <span style=\" font-weight:600;\">sudo rc.d "
+"start cups</span>).</p></body></html>"
+msgstr "<html><head/><body><p>Από προεπιλογή, οι νέες εγκαταστάσεις του Chakra έχουν μόνο ένα ελάχιστο των απαιτούμενων υπηρεσιών (ονομάζονται επίσης &quot;δαίμονες&quot;) ενεργοποιημένες. Όχι μόνο αυτό αντανακλά την αρχή του Chakra να μην λαμβάνονται αποφάσεις για τους χρήστες, συμβάλλει επίσης στην ασφάλεια μιας νέας εγκατάστασης, με τη μείωση του αριθμού των ενεργών υπηρεσιών που μπορεί να είναι ευάλωτες σε μια επίθεση.</p><p>Εάν επιθυμείτε, μπορείτε να χρησιμοποιήσετε τις παρακάτω επιλογές για να πείτε σε μερικούς από τους πιο ευρέως χρησιμοποιούμενους δαίμονες να ξεκινούν αυτόματα κατά την εκκίνηση. Για να ενεργοποιήσετε ή να απενεργοποιήσετε οποιαδήποτε υπηρεσία που θέλετε να ξεκινάει κατά την εκκίνηση, μπορείτε να εκτελέσετε το <span style=\" font-weight:600;\">kdesu kate /etc/\nrc.conf</span> και να προσθέσετε νέες υπηρεσίες στη γραμμή των <span style=\" font-style:italic;\">δαιμόνων</span> Ή, αν απλά θέλετε να ξεκινήσετε χειροκίνητα τους δαίμονες, δοκιμάστε το <span style=\" font-weight:600;\">sudo rc.d start </span><span style=\" font-weight:600; font-style:italic;\">όνομα_δαίμονα</span>. (Πχ, <span style=\" font-weight:600;\">sudo rc.d start cups</span>).</p></body></html>"
+
+#: .tmp/ui_scrServices.py:122
+msgid "Daemons to start at boot time"
+msgstr "Δαίμονες που ξεκινούν κατά την εκκίνηση"
+
+#: .tmp/scrFolder.py:30 .tmp/ui_scrFolder.py:151
+msgid "Folders"
+msgstr "Φάκελοι"
+
+#: .tmp/scrFolder.py:31
+msgid "Create folders in the home directory"
+msgstr "Δημιουργία φακέλων στον αρχικό κατάλογο χρήστη"
+
+#: .tmp/_scrSearch.py:29 .tmp/ui_scrSearch.py:100
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: .tmp/_scrSearch.py:30
+msgid "Enable / Disable Strigi Desktop Search"
+msgstr "Ενεργοποίηση/απενεργοποίηση αναζήτησης επιφάνειας εργασίας"
+
+#: .tmp/scrPackage.py:33 .tmp/ui_scrPackage.py:133
+msgid "Packages"
+msgstr "Πακέτα"
+
+#: .tmp/scrPackage.py:34
+msgid "Install / Remove Programs"
+msgstr "Εγκατάσταση/αφαίρεση προγραμμάτων"
+
+#: .tmp/ui_scrWallpaper.py:131 .tmp/scrWallpaper.py:37
+msgid "Wallpaper"
+msgstr "Ταπετσαρία"
+
+#: .tmp/ui_scrWallpaper.py:132
+msgid ""
+"<html><head/><body><p>Choose your favorite wallpaper for your Chakra "
+"desktop. Don't forget to check out <span style=\" font-weight:600;\">Desktop"
+" Settings</span> to download cool new wallpapers.</p></body></html>"
+msgstr "<html><head/><body><p>Επιλέξτε την αγαπημένη σας ταπετσαρία για την επιφάνεια εργασίας σας Chakra. Μην ξεχάσετε να δείτε τις <span style=\" font-weight:600;\">Ρυθμίσεις επιφάνειας εργασίας</span> για να κατεβάσετε νέες ταπετσαρίες.</p></body></html>"
+
+#: .tmp/ui_scrWallpaper.py:133
+msgid "Wallpapers"
+msgstr "Ταπετσαρίες"
+
+#: .tmp/ui_scrWallpaper.py:135
+msgid "Choose wallpaper from file"
+msgstr "Επιλέξτε μία ταπετσαρία από αρχείο"
+
+#: .tmp/ui_scrWallpaper.py:136
+msgid "Don't change wallpaper"
+msgstr "Να μην αλλάξει η ταπετσαρία"
+
+#: .tmp/ui_scrSecurity.py:163 .tmp/scrSecurity.py:33
+msgid "Security"
+msgstr "Ασφάλεια"
+
+#: .tmp/ui_scrSecurity.py:164
+msgid "Enable the firewall (UFW)"
+msgstr "Ενεργοποίηση του τείχους προστασίας (UFW)"
+
+#: .tmp/ui_scrSecurity.py:165
+msgid "Enable Clam AntiVirus daemon (must be installed and configured)"
+msgstr "Ενεργοποίηση του δαίμονα Clam AntiVirus (απαιτεί εγκατάσταση και ρύθμιση)"
+
+#: .tmp/ui_scrSecurity.py:166
+msgid ""
+"<html><head/><body><p>Other security tools provided by Chakra include "
+"Tomoyo-tools, the KDE Wallet, rkhunter, chkrootkit, tiger, and more. Click "
+"the buttons below to learn more about these tools.</p></body></html>"
+msgstr "<html><head/><body><p>Άλλα εργαλεία ασφαλείας που παρέχονται από το Chakra περιλαμβάνουν τα Tomoyo-tools, KWallet, rkhunter, chkrootkit, tiger και πολλά άλλα. Κάντε κλικ στα παρακάτω κουμπιά για να μάθετε περισσότερα σχετικά με αυτά τα εργαλεία.</p></body></html>"
+
+#: .tmp/ui_scrSecurity.py:167
+msgid "ClamAV: Detect and remove malware"
+msgstr "ClamAV: Ανίχνευση και απομάκρυνση κακόβουλων προγραμμάτων"
+
+#: .tmp/ui_scrSecurity.py:168
+msgid ""
+"Tomoyo-tools: A Mandatory Access Control (MAC) implementation for Linux"
+msgstr "Tomoyo-tools: Μια υλοποίηση υποχρεωτικού ελέγχου πρόσβασης (MAC) για Linux"
+
+#: .tmp/ui_scrSecurity.py:169
+msgid ""
+"KDE Wallet Manager: Protect and encrypt passwords and other information"
+msgstr "Διαχειριστής πορτοφολιού KDE: Προστασία και κρυπτογράφηση κωδικών πρόσβασης και άλλων πληροφοριών"
+
+#: .tmp/ui_scrSecurity.py:170
+msgid ""
+"chkrootkit and rkhunter: Check for the presence of rootkits on your system"
+msgstr "chkrootkit and rkhunter: Έλεγχος για την ύπαρξη rootkit στο σύστημα σας"
+
+#: .tmp/ui_scrSecurity.py:171
+msgid "Tiger: A host-based intrusion detection and auditing tool"
+msgstr "Tiger: Εργαλείο ανίχνευσης εισβολής και καταγραφής με βάση τον υπολογιστή"
+
+#: .tmp/ui_scrSecurity.py:172
+msgid ""
+"<html><head/><body><p>Finally, Chakra also provides a graphical tool to "
+"configure the system firewall. Just click on &quot;Firewall&quot; in the KDE"
+" System Settings.</p></body></html>"
+msgstr "<html><head/><body><p>Τέλος, το Chakra παρέχει επίσης ένα γραφικό εργαλείο για να διαμορφώσετε το τείχος προστασίας του συστήματος. Απλά κάντε κλικ στο &quot;Τείχος προστασίας&quot; στις ρυθμίσεις συστήματος του KDE.</p></body></html>"
+
+#: .tmp/ui_scrSecurity.py:173
+msgid ""
+"<html><head/><body><p>Security is a process, not a product, and no operating"
+" system can realistically claim to be perfectly secure. It is up to you to "
+"make sure you keep your system up to date, and follow best security "
+"practices. However, Chakra does provide a few tools to help you keep your "
+"system safe.</p></body></html>"
+msgstr "<html><head/><body><p>Η ασφάλεια είναι μια διαδικασία, όχι ένα προϊόν, και δεν υπάρχει λειτουργικό σύστημα που μπορεί ρεαλιστικά να ισχυριστεί ότι είναι απολύτως ασφαλές. Εναπόκειται σε σας να βεβαιωθείτε ότι διατηρείτε το σύστημά σας ενημερωμένο, και ακολουθείτε τις βέλτιστες πρακτικές ασφαλείας. Ωστόσο, το Chakra σας παρέχει μερικά εργαλεία για να σας βοηθήσει να διατηρήσετε το σύστημα σας ασφαλές.</p></body></html>"
+
+#: .tmp/ui_scrSecurity.py:174
+msgid "Security Tools"
+msgstr "Εργαλεία ασφαλείας"
+
+#: .tmp/scrMouse.py:32 .tmp/ui_scrMouse.py:204
+msgid "Mouse"
+msgstr "Ποντίκι"
+
+#: .tmp/scrMouse.py:33
+msgid "Setup Mouse Behavior"
+msgstr "Ρύθμιση συμπεριφοράς ποντικιού"
+
+#: .tmp/scrMouse.py:144
+msgid "Left Handed"
+msgstr "Αριστερόχειρας"
+
+#: .tmp/scrMouse.py:144
+msgid "Right Handed"
+msgstr "Δεξιόχειρας"
+
+#: .tmp/scrMouse.py:145
+msgid "Single Click "
+msgstr "Μονό κλικ"
+
+#: .tmp/scrMouse.py:145
+msgid "Double Click"
+msgstr "Διπλό κλικ"
+
+#: .tmp/ui_scrFolder.py:144
+msgid "Home Folder"
+msgstr "Προσωπικός φάκελος"
+
+#: .tmp/ui_scrFolder.py:145
+msgid "  Downloads  "
+msgstr "Λήψεις"
+
+#: .tmp/ui_scrFolder.py:146
+msgid "  Documents  "
+msgstr "Έγγραφα"
+
+#: .tmp/ui_scrFolder.py:147
+msgid "  Videos  "
+msgstr "Βίντεο"
+
+#: .tmp/ui_scrFolder.py:148
+msgid "  Music  "
+msgstr "Μουσική"
+
+#: .tmp/ui_scrFolder.py:149
+msgid "  Images  "
+msgstr "Εικόνες"
+
+#: .tmp/ui_scrFolder.py:150
+msgid ""
+"<html><head/><body><p>By default Chakra doesn't create any special folders "
+"in the user's home directory, as Chakra leaves these kind of choices up to "
+"the user. However, in this screen we give you the ability to create the most"
+" commonly used folders.</p></body></html>"
+msgstr "<html><head/><body><p>Από προεπιλογή το Chakra δεν δημιουργεί φακέλους στον αρχικό κατάλογο του χρήστη, καθώς αφήνει αυτό το είδος επιλογών στον χρήστη. Ωστόσο, σε αυτή την οθόνη έχετε τη δυνατότητα να δημιουργήσετε τους πιο συχνά χρησιμοποιούμενους φακέλους.</p></body></html>"
+
+#: .tmp/ui_kapudan.py:360
+msgid "Kapudan"
+msgstr "Kapudan"
+
+#: .tmp/ui_kapudan.py:361
+msgid "Welcome to Chakra"
+msgstr "Καλώς ήλθατε στο Chakra"
+
+#: .tmp/ui_kapudan.py:362
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: .tmp/ui_kapudan.py:363
+msgid "Back"
+msgstr "Πίσω"
+
+#: .tmp/ui_kapudan.py:364
+msgid "Next"
+msgstr "Επόμενο"
+
+#: .tmp/ui_kapudan.py:365
+msgid "Finish"
+msgstr "Τέλος"
+
+#: .tmp/ui_kapudan.py:366
+msgid "Apply"
+msgstr "Εφαρμογή"
+
+#: .tmp/ui_scrSearch.py:101
+msgid ""
+"Strigi Desktop Search indexes your frequently used files. This gives you "
+"very fast file search results. Strigi also can search for files based on "
+"their contents. On older computers, this can use a lot of resources."
+msgstr "Η αναζήτηση επιφάνειας εργασίας Strigi προσθέτει στο ευρετήριο τα συχνά χρησιμοποιούμενα αρχεία σας. Αυτό σας δίνει πολύ γρήγορα αποτελέσματα αναζήτησης αρχείων. Το Strigi επίσης σας επιτρέπει να αναζητήσετε αρχεία με βάση το περιεχόμενό τους. Σε παλαιότερους υπολογιστές, αυτό μπορεί να χρησιμοποιήσει πολλούς πόρους."
+
+#: .tmp/ui_scrSearch.py:102
+msgid "Allow Strigi to index my files"
+msgstr "Να επιτρέπεται στο Strigi να προσθέσει τα αρχεία μου στο ευρετήριο"
+
+#: .tmp/ui_scrSearch.py:103
+msgid "Search Options"
+msgstr "Επιλογές αναζήτησης"
+
+#: .tmp/scrMenu.py:29 .tmp/ui_scrMenu.py:124
+msgid "Menu"
+msgstr "Μενού"
+
+#: .tmp/scrMenu.py:30
+msgid "Choose a Menu Style"
+msgstr "Επιλέξτε το στυλ μενού"
+
+#: .tmp/scrMenu.py:44 .tmp/ui_scrMenu.py:126
+msgid "Kick-off Menu"
+msgstr "Μενού Kickoff"
+
+#: .tmp/scrMenu.py:46
+msgid ""
+"Kick-off menu is the default menu of Chakra.<br><br>The program shortcuts "
+"are easy to access and well organized."
+msgstr "Το Kickoff είναι το προεπιλεγμένο μενού του Chakra.<br><br>Οι συντομεύσεις προγραμμάτων είναι εύκολα προσβάσιμες και καλά οργανωμένες."
+
+#: .tmp/scrMenu.py:50 .tmp/ui_scrMenu.py:127
+msgid "Simple Menu"
+msgstr "Απλό μενού"
+
+#: .tmp/scrMenu.py:52
+msgid ""
+"Simple menu is an old style menu from KDE 3.<br><br>It is a very lightweight"
+" menu thus it is recommended for slower PC's."
+msgstr "Το απλό μενού είναι ένα μενού παλιού στυλ από το KDE 3.<br><br>Είναι ένα πολύ ελαφρύ μενού έτσι συνιστάται για πιο αργό υπολογιστή."
+
+#: .tmp/scrMenu.py:56 .tmp/ui_scrMenu.py:128
+msgid "Lancelot Menu"
+msgstr "Μενού Lancelot"
+
+#: .tmp/scrMenu.py:58
+msgid ""
+"Lancelot is an advanced and highly customizable menu for Chakra.<br><br>The "
+"program shortcuts are easy to access and well organized."
+msgstr "Το Lancelot είναι ένα προηγμένο και ιδιαίτερα εξατομικεύσιμο μενού για το Chakra.<br><br>Οι συντομεύσεις προγραμμάτων είναι εύκολα προσβάσιμες και καλά οργανωμένες."
+
+#: .tmp/scrMenu.py:62 .tmp/ui_scrMenu.py:129
+msgid "Takeoff Menu"
+msgstr "Μενού Takeoff"
+
+#: .tmp/scrMenu.py:64
+msgid ""
+"Takeoff is a full screen menu, inspired by Slingshot and the OS X Launchpad "
+"menu but adapted to work with KDE as a plasmoid."
+msgstr "Το Takeoff είναι ένα μενού πλήρης οθόνης, εμπνευσμένο από το Slingshot και το μενού Launchpad του OS X, αλλά προσαρμοσμένο ώστε να λειτουργεί με το KDE ως συστατικό."
+
+#: .tmp/ui_wallpaperItem.py:73 .tmp/ui_scrAvatar.py:247
+#: .tmp/ui_scrStyleItem.py:70
+msgid "Form"
+msgstr "Φόρμα"
+
+#: .tmp/ui_wallpaperItem.py:74
+msgid "wallPaperName"
+msgstr "wallPaperName"
+
+#: .tmp/ui_wallpaperItem.py:75
+msgid "wallpaperDesc"
+msgstr "wallpaperDesc"
+
+#: .tmp/ui_scrKeyboard.py:94
+msgid ""
+"<html><head/><body><p>Kapudan tries to automatically select the best "
+"keyboard layout according to your system language. If you want to use "
+"another layout, just make a selection below.</p></body></html>"
+msgstr "<html><head/><body><p>Το Kapudan προσπαθεί να επιλέγει αυτόματα την καλύτερη διάταξη πληκτρολογίου ανάλογα με τη γλώσσα του συστήματός σας. Αν θέλετε να χρησιμοποιήσετε μια άλλη διάταξη, επιλέξτε την παρακάτω. </p></body></html>"
+
+#: .tmp/ui_scrKeyboard.py:95
+msgid "Test area:"
+msgstr "Περιοχή δοκιμών:"
+
+#: .tmp/scrSummary.py:43 .tmp/ui_scrSummary.py:85
+msgid "Summary"
+msgstr "Σύνοψη"
+
+#: .tmp/scrSummary.py:44
+msgid "Save Your Settings"
+msgstr "Αποθήκευση των ρυθμίσεων σας"
+
+#: .tmp/scrSummary.py:69
+msgid "Mouse Settings"
+msgstr "Ρυθμίσεις ποντικιού"
+
+#: .tmp/scrSummary.py:71
+#, python-format
+msgid "Selected Mouse configuration: <b>%s</b>"
+msgstr "Επιλεγμένη συμπεριφορά ποντικιού: <b>%s</b>"
+
+#: .tmp/scrSummary.py:72
+#, python-format
+msgid "Selected clicking behavior: <b>%s</b>"
+msgstr "Επιλεγμένη συμπεριφορά κλικ: <b>%s</b>"
+
+#: .tmp/scrSummary.py:76
+msgid "Menu Settings"
+msgstr "Ρυθμίσεις μενού"
+
+#: .tmp/scrSummary.py:77
+#, python-format
+msgid "Selected Menu: <b>%s</b>"
+msgstr "Επιλεγμένο μενού: <b>%s</b>"
+
+#: .tmp/scrSummary.py:81
+msgid "Wallpaper Settings"
+msgstr "Ρυθμίσεις ταπετσαρίας"
+
+#: .tmp/scrSummary.py:83
+msgid "You haven't selected any wallpaper."
+msgstr "Δεν έχετε επιλέξει κάποια ταπετσαρία."
+
+#: .tmp/scrSummary.py:85
+#, python-format
+msgid "Selected Wallpaper: <b>%s</b>"
+msgstr "Επιλεγμένη ταπετσαρία: <b>%s</b>"
+
+#: .tmp/scrSummary.py:89
+msgid "Style Settings"
+msgstr "Ρυθμίσεις στυλ"
+
+#: .tmp/scrSummary.py:92
+msgid "You haven't selected any style."
+msgstr "Δεν έχετε επιλέξει κάποιο στυλ."
+
+#: .tmp/scrSummary.py:94
+#, python-format
+msgid "Selected Style: <b>%s</b>"
+msgstr "Επιλεγμένο στυλ: <b>%s</b>"
+
+#: .tmp/scrSummary.py:100
+msgid "Package Management Settings"
+msgstr "Ρυθμίσεις διαχείρισης πακέτων"
+
+#: .tmp/scrSummary.py:101
+msgid "You have enabled or disabled spun."
+msgstr "Έχετε ενεργοποιήσει ή απενεργοποιήσει το spun."
+
+#: .tmp/scrSummary.py:108 .tmp/scrSummary.py:136
+msgid "You have: "
+msgstr "Έχετε:"
+
+#: .tmp/scrSummary.py:110
+msgid "Services Settings"
+msgstr "Ρυθμίσεις υπηρεσιών"
+
+#: .tmp/scrSummary.py:113
+msgid "enabled cups; "
+msgstr "ενεργοποιήσει το cups,"
+
+#: .tmp/scrSummary.py:116
+msgid "disabled cups; "
+msgstr "απενεργοποιήσει το cups,"
+
+#: .tmp/scrSummary.py:119
+msgid "enabled bluetooth; "
+msgstr "ενεργοποιήσει το bluetooth,"
+
+#: .tmp/scrSummary.py:122
+msgid "disabled bluetooth; "
+msgstr "απενεργοποιήσει το bluetooth,"
+
+#: .tmp/scrSummary.py:126 .tmp/scrSummary.py:154
+msgid "You have made no changes."
+msgstr "Δεν έχετε κάνει αλλαγές."
+
+#: .tmp/scrSummary.py:138
+msgid "Security Settings"
+msgstr "Ρυθμίσεις ασφάλειας"
+
+#: .tmp/scrSummary.py:141
+msgid "enabled ClamAV; "
+msgstr "ενεργοποιήσει το ClamAV,"
+
+#: .tmp/scrSummary.py:144
+msgid "disabled ClamAV; "
+msgstr "απενεργοποιήσει το ClamAV,"
+
+#: .tmp/scrSummary.py:147
+msgid "enabled the firewall; "
+msgstr "ενεργοποιήσει το τείχος προστασίας,"
+
+#: .tmp/scrSummary.py:150
+msgid "disabled the firewall; "
+msgstr "απενεργοποιήσει το τείχος προστασίας"
+
+#: .tmp/scrSummary.py:180
+msgid "Error"
+msgstr "Σφάλμα"
+
+#: .tmp/scrSummary.py:180
+msgid "Cannot restart plasma-desktop. Kapudan will now shut down."
+msgstr "Αδυναμία επανεκκίνησης του κελύφους plasma. Το Kapudan θα τερματιστεί."
+
+#: .tmp/scrStyle.py:39
+msgid "Customize Your Desktop"
+msgstr "Προσαρμόστε την επιφάνεια εργασίας σας"
+
+#: .tmp/scrWallpaper.py:38
+msgid "Choose a Wallpaper"
+msgstr "Επιλέξτε μια ταπετσαρία"
+
+#: .tmp/ui_scrAvatar.py:248
+msgid ""
+"<html><head/><body><p>This screen helps you set your <span style=\" font-"
+"weight:600;\">user picture</span>. You can either choose an image from a "
+"file, or you can capture an image from your camera, if you have one. Select "
+"an option from the <span style=\" font-weight:600;\">options</span> "
+"menu.</p></body></html>"
+msgstr "<html><head/><body><p>Αυτή η οθόνη σας βοηθά να δημιουργήσετε την <span style=\" font-weight:600;\">εικόνα χρήστη</span> σας. Μπορείτε να επιλέξετε είτε μια εικόνα από ένα αρχείο, ή μπορείτε να τραβήξετε μια φωτογραφία από τη φωτογραφική μηχανή σας, εάν έχετε μία. Επιλέξτε μία επιλογή από το μενού <span style=\" font-weight:600;\">επιλογών</span>.</p></body></html>"
+
+#: .tmp/ui_scrAvatar.py:249
+msgid "Options"
+msgstr "Επιλογές"
+
+#: .tmp/ui_scrAvatar.py:250
+msgid "Choose an image"
+msgstr "Επιλέξτε μία εικόνα"
+
+#: .tmp/ui_scrAvatar.py:251
+msgid "Capture"
+msgstr "Σύλληψη"
+
+#: .tmp/ui_scrAvatar.py:252
+msgid "Recapture"
+msgstr "Σύλληψη ξανά"
+
+#: .tmp/scrGoodbye.py:26 .tmp/ui_scrGoodbye.py:352
+msgid "More"
+msgstr "Περισσότερα"
+
+#: .tmp/scrGoodbye.py:27
+msgid "Congratulations!"
+msgstr "Συγχαρητήρια!"
+
+#: .tmp/ui_scrPackage.py:134
+msgid "Check for updates automatically every"
+msgstr "Αυτόματος έλεγχος για ενημερώσεις κάθε"
+
+#: .tmp/ui_scrPackage.py:135
+msgid " minutes"
+msgstr "λεπτά"
+
+#: .tmp/ui_scrPackage.py:136
+msgid "Use audio along with the visual notification"
+msgstr "Χρήση ήχου μαζί με τις οπτικές ειδοποιήσεις"
+
+#: .tmp/ui_scrPackage.py:137
+msgid ""
+"<html><head/><body><p>To install and remove programs on Chakra, use the "
+"command-line program, <a href=\"http://chakra-"
+"linux.org/wiki/index.php/Pacman\"><span style=\" text-decoration: underline;"
+" color:#0057ae;\">pacman</span></a>. You can run <span style=\" font-"
+"weight:600;\">sudo pacman -Syu</span> to update, <span style=\" font-"
+"weight:600;\">pacman -Ss </span><span style=\" font-weight:600; font-"
+"style:italic;\">keyword</span> to search through the repos, and <span "
+"style=\" font-weight:600;\">sudo pacman -S </span><span style=\" font-"
+"weight:600; font-style:italic;\">package</span> to install "
+"packages.</p><p>Pacman does not have any sort of graphical interface, so "
+"another small app, spun, was created to provide update notifications. When "
+"updates are available, spun will show a notification in your system tray. "
+"</p></body></html>"
+msgstr "<html><head/><body><p>Για να εγκαταστήσετε και να αφαιρέσετε προγράμματα στο Chakra, χρησιμοποιήστε το πρόγραμμα γραμμής εντολών, <a href=\"http://chakra-linux.org/wiki/index.php/Pacman\"><span style=\" text-decoration: underline; color:#0057ae;\">pacman</span></a>. Μπορείτε να εκτελέσετε <span style=\" font-weight:600;\">sudo pacman -Syu</span> για ενημέρωση, <span style=\" font-weight:600;\">pacman -Ss </span><span style=\" font-weight:600; font-style:italic;\">λέξη_κλειδί</span> για να ψάξετε στα αποθετήρια, και <span style=\" font-weight:600;\">sudo pacman -S </span><span style=\" font-weight:600; font-style:italic;\">πακέτο</span> για να εγκαταστήσετε πακέτα.</p><p>Το Pacman δεν έχει γραφικό περιβάλλον, έτσι ένα άλλο μικρό πρόγραμμα, το spun, δημιουργήθηκε για να παρέχει ειδοποιήσεις ενημερώσεων. Όταν υπάρχουν διαθέσιμες ενημερώσεις, το spun θα δείξει μια ειδοποίηση στο πλαίσιο του συστήματός σας.</p></body></html>"
+
+#: .tmp/ui_scrPackage.py:138
+msgid "Updates"
+msgstr "Ενημερώσεις"
+
+#: .tmp/localedata.py:53
+msgid "Turkish"
+msgstr "Τουρκικά"
+
+#: .tmp/localedata.py:58
+msgid "Turkish Q"
+msgstr "Τουρκικά Q"
+
+#: .tmp/localedata.py:59
+msgid "Turkish F"
+msgstr "Τουρκικά F"
+
+#: .tmp/localedata.py:64
+msgid "English"
+msgstr "Αγγλικά"
+
+#: .tmp/localedata.py:69
+msgid "English GB"
+msgstr "Αγγλικά ΜΒ"
+
+#: .tmp/localedata.py:75
+msgid "Afrikaans"
+msgstr "Αφρικανικά"
+
+#: .tmp/localedata.py:81
+msgid "Arabic"
+msgstr "Αραβικά"
+
+#: .tmp/localedata.py:87
+msgid "Belgian"
+msgstr "Βελγικά"
+
+#: .tmp/localedata.py:93
+msgid "Bulgarian"
+msgstr "Βουλγαρικά"
+
+#: .tmp/localedata.py:99
+msgid "Catalan"
+msgstr "Καταλανικά"
+
+#: .tmp/localedata.py:105
+msgid "Welsh"
+msgstr "Ουαλικά"
+
+#: .tmp/localedata.py:111
+msgid "Czech"
+msgstr "Τσέχικα"
+
+#: .tmp/localedata.py:117
+msgid "Danish"
+msgstr "Δανέζικα"
+
+#: .tmp/localedata.py:123
+msgid "German"
+msgstr "Γερμανικά"
+
+#: .tmp/localedata.py:129
+msgid "Spanish"
+msgstr "Ισπανικά"
+
+#: .tmp/localedata.py:135
+msgid "Estonian"
+msgstr "Εσθονικά"
+
+#: .tmp/localedata.py:141
+msgid "Finnish"
+msgstr "Φιλανδικά"
+
+#: .tmp/localedata.py:147
+msgid "French"
+msgstr "Γαλλικά"
+
+#: .tmp/localedata.py:153
+msgid "Greek"
+msgstr "Ελληνικά"
+
+#: .tmp/localedata.py:159
+msgid "Croatian"
+msgstr "Κροατικά"
+
+#: .tmp/localedata.py:165
+msgid "Hungarian"
+msgstr "Ουγγρικά"
+
+#: .tmp/localedata.py:173
+msgid "Icelandic"
+msgstr "Ισλανδικά"
+
+#: .tmp/localedata.py:179
+msgid "Italian"
+msgstr "Ιταλικά"
+
+#: .tmp/localedata.py:185
+msgid "Japanese"
+msgstr "Ιαπωνικά"
+
+#: .tmp/localedata.py:191
+msgid "Macedonian"
+msgstr "Σκοπιανικά"
+
+#: .tmp/localedata.py:197
+msgid "Malayalam"
+msgstr "Μαλεϊγιάλαμ"
+
+#: .tmp/localedata.py:203
+msgid "Norwegian"
+msgstr "Νορβηγικά"
+
+#: .tmp/localedata.py:209
+msgid "Dutch"
+msgstr "Ολλανδικά"
+
+#: .tmp/localedata.py:215
+msgid "Polish"
+msgstr "Πολωνικά"
+
+#: .tmp/localedata.py:221
+msgid "Portuguese"
+msgstr "Πορτογαλικά"
+
+#: .tmp/localedata.py:227
+msgid "Brazilian"
+msgstr "Βραζιλιάνικα"
+
+#: .tmp/localedata.py:233
+msgid "Russian"
+msgstr "Ρωσικά"
+
+#: .tmp/localedata.py:241
+msgid "Slovak"
+msgstr "Σλοβακικά"
+
+#: .tmp/localedata.py:247
+msgid "Slovenian"
+msgstr "Σλοβένικα"
+
+#: .tmp/localedata.py:253
+msgid "Serbian"
+msgstr "Σερβικά"
+
+#: .tmp/localedata.py:259
+msgid "Swedish"
+msgstr "Σουηδικά"
+
+#: .tmp/localedata.py:266
+msgid "Ukrainian"
+msgstr "Ουκρανικά"
+
+#: .tmp/localedata.py:272
+msgid "Vietnamese"
+msgstr "Βιετναμέζικα"
+
+#: .tmp/ui_scrMouse.py:205
+msgid ""
+"<html><head/><body><p>The <span style=\" font-weight:600;\">clicking "
+"behavior</span> defines how many times you want to click to open files and "
+"folders. If you are <span style=\" font-weight:600;\">left handed</span>, "
+"you may prefer to swap the left and right buttons of your pointing "
+"device.</p></body></html>"
+msgstr "<html><head/><body><p>Η <span style=\" font-weight:600;\">συμπεριφορά κλικ</span> ορίζει πόσες φορές θέλετε να κάνετε κλικ για να ανοίγετε αρχεία και φακέλους. Αν είστε <span style=\" font-weight:600;\">αριστερόχειρας</span>, ίσως προτιμήσετε την εναλλαγή του αριστερού και του δεξιού κουμπιού της συσκευής κατάδειξης σας.</p></body></html>"
+
+#: .tmp/ui_scrMouse.py:206
+msgid "Clicking Behaviour"
+msgstr "Συμπεριφορά κλικ"
+
+#: .tmp/ui_scrMouse.py:207
+msgid "Dou&ble-click to open files and folders"
+msgstr "Διπλό κλικ για άνοιγμα αρχείων και φακέλων"
+
+#: .tmp/ui_scrMouse.py:208
+msgid "Single-click to open files and folders"
+msgstr "Απλό κλικ για άνοιγμα αρχείων και φακέλων"
+
+#: .tmp/ui_scrMouse.py:209
+msgid "Button Order"
+msgstr "Σειρά πλήκτρων"
+
+#: .tmp/ui_scrMouse.py:210
+msgid "Right Hand"
+msgstr "Δεξί χέρι"
+
+#: .tmp/ui_scrMouse.py:211
+msgid "Left Hand"
+msgstr "Αριστερό χέρι"
+
+#: .tmp/ui_scrMouse.py:212
+msgid "Reverse scrolling"
+msgstr "Αντιστροφή κύλισης"
+
+#: .tmp/ui_scrGoodbye.py:353
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:600;\">Your settings have "
+"been applied.</span> Now you can start enjoying Chakra, or check out the "
+"following links and applications for more settings, or for help and support."
+" Don't forget to <span style=\" font-weight:600;\">join our "
+"community!</span></p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Οι ρυθμίσεις σας έχουν εφαρμοστεί.</span> Τώρα μπορείτε να αρχίσετε να απολαμβάνετε το Chakra, ή να δείτε τους ακόλουθους συνδέσμους και εφαρμογές για περισσότερες ρυθμίσεις, ή για βοήθεια και υποστήριξη. Μην ξεχάσετε να <span style=\" font-weight:600;\">εγγραφείτε στην κοινότητά μας!</span></p></body></html>"
+
+#: .tmp/ui_scrGoodbye.py:354 .tmp/ui_scrGoodbye.py:356
+msgid "System Settings"
+msgstr "Ρυθμίσεις συστήματος"
+
+#: .tmp/ui_scrGoodbye.py:355
+msgid ""
+"Configuration tools for Chakra, such as the display settings, firewall, "
+"keyboard layout, user management..."
+msgstr "Εργαλεία διαμόρφωσης για το Chakra, όπως οι ρυθμίσεις της οθόνης, το τείχος προστασίας, η διάταξη του πληκτρολογίου, η διαχείριση των χρηστών..."
+
+#: .tmp/ui_scrGoodbye.py:357 .tmp/ui_scrGoodbye.py:359
+msgid "Help and Support"
+msgstr "Βοήθεια και υποστήριξη"
+
+#: .tmp/ui_scrGoodbye.py:358
+msgid ""
+"Chakra community: mailing lists, chat rooms, Wiki documents, help and "
+"support pages..."
+msgstr "Κοινότητα του Chakra: λίστες αλληλογραφίας, χώροι συνομιλίας, έγγραφα Wiki, σελίδες βοήθειας και υποστήριξης..."
+
+#: .tmp/ui_scrGoodbye.py:360
+msgid "Using KDE"
+msgstr "Με χρήση του KDE"
+
+#: .tmp/ui_scrGoodbye.py:361
+msgid ""
+"Learn how to get the most out of KDE, the Plasma desktop, and everything "
+"else Chakra has to offer, in the Chakra Beginner's Guide."
+msgstr "Μάθετε πως μπορείτε να αξιοποιήσετε στο έπακρο το KDE, την επιφάνεια εργασίας plasma, καθώς και όλα τα άλλα που το Chakra έχει να προσφέρει, στον οδηγό για αρχαρίους του Chakra."
+
+#: .tmp/ui_scrGoodbye.py:362
+msgid "Beginner's Guide"
+msgstr "Οδηγός για αρχάριους"
+
+#: .tmp/ui_scrGoodbye.py:363
+msgid "Run Kapudan on system startup?"
+msgstr "Να γίνει εκτέλεση του Kapudan κατά την εκκίνηση του συστήματος;"
+
+#: .tmp/scrAvatar.py:39
+msgid "User Picture"
+msgstr "Εικόνα χρήστη"
+
+#: .tmp/scrAvatar.py:51
+msgid "Create Your User Picture"
+msgstr "Δημιουργήστε την εικόνα χρήστη σας"
+
+#: .tmp/scrWelcome.py:31
+#, python-format
+msgid "Welcome to %s"
+msgstr "Καλώς ήλθατε στο %s"
+
+#: .tmp/scrSecurity.py:34
+msgid "Keep your system secure"
+msgstr "Διατηρείστε το σύστημα σας ασφαλές"
+
+#: .tmp/scrServices.py:34
+msgid "Enable / Disable Services (Daemons)"
+msgstr "Ενεργοποίηση/απενεργοποίηση υπηρεσιών (δαιμόνων)"
+
+#: .tmp/ui_scrStyleItem.py:71
+msgid "styleName"
+msgstr "styleName"
+
+#: .tmp/ui_scrStyleItem.py:72
+msgid "styleDesc"
+msgstr "styleDesc"
+
+#: .tmp/ui_scrMenu.py:125
+msgid ""
+"You can also customize your <b>KDE menu</b> as you like. Please choose one "
+"from the following styles."
+msgstr "Μπορείτε επίσης να προσαρμόσετε το <b>μενού KDE</b> σας, όπως σας αρέσει. Παρακαλούμε επιλέξτε ένα από τα ακόλουθα στυλ."
+
+#: .tmp/ui_scrMenu.py:130
+msgid "Sample"
+msgstr "Δείγμα"
+
+#: .tmp/ui_scrSummary.py:86
+msgid ""
+"<html><head/><body><p>You have successfully finished all steps. Here's a "
+"summary of the settings you want to apply. Click <span style=\" font-"
+"weight:600;\">Apply</span> if they look good, or go back and make more "
+"changes. </p></body></html>"
+msgstr "<html><head/><body><p>Έχετε ολοκληρώσει με επιτυχία όλα τα βήματα. Εδώ είναι μια σύνοψη των ρυθμίσεων που θα εφαρμοστούν. Κάντε κλικ στο <span style=\" font-weight:600;\">Εφαρμογή</span>, αν φαίνονται σωστές, ή γυρίστε πίσω για να κάνετε περισσότερες αλλαγές.</p></body></html>"
+
+#: .tmp/ui_scrSummary.py:87
+msgid "The following settings will be applied"
+msgstr "Οι ακόλουθες ρυθμίσεις θα εφαρμοστούν"
