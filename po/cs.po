@@ -1,0 +1,877 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Pavel Fric <pavelfric@seznam.cz>, 2012.
+#   <pavelfric@seznam.cz>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: The Chakra Project\n"
+"Report-Msgid-Bugs-To: http://chakra-project.org/bugs/\n"
+"POT-Creation-Date: 2012-08-15 19:31-0600\n"
+"PO-Revision-Date: 2012-08-28 09:40+0000\n"
+"Last-Translator: fri <pavelfric@seznam.cz>\n"
+"Language-Team: Czech (http://www.transifex.com/projects/p/chakra-project/language/cs/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
+
+#: .tmp/ui_scrWelcome.py:78 .tmp/scrWelcome.py:30
+msgid "Welcome"
+msgstr "Vítejte"
+
+#: .tmp/ui_scrWelcome.py:79
+msgid "What is Chakra?"
+msgstr "Co je to Chakra?"
+
+#: .tmp/ui_scrWelcome.py:80
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span> brings"
+" a ground-up Linux distribution, a free software showcase project created by"
+" a bunch of people who like the KISS principles and the elegance of the "
+"Plasma Desktop, and a bundlesystem to support well known GTK "
+"applications.<br/><br/>Our main goal is provide a fast, user-friendly and "
+"extremely powerful Live CD and Linux distribution, specially crafted for the"
+" award winning KDE Software Compilation and the beautiful Plasma "
+"desktop.<br/><br/><span style=\" font-weight:600;\">Kapudan</span> will help"
+" you personalize your Chakra workspace easily and quickly. Just click <span "
+"style=\" font-weight:600;\">next</span> when you are ready to "
+"begin.</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span> přináší základní Linuxovou distribuci, ukázkový projekt svobodného software vytvářený skupinou lidí, kteří mají rádi zásady KISS a vkusnost plochy Plasma, a systém na podporu dobře známých GTK aplikací.<br/><br/>Naším hlavním cílem je poskytnutí rychlého, pro uživatele přátelského a nesmírně výkonného živého CD a Linuxové distribuce, udělané výhradně pro oceněné KDE a plochu Plasma. <br/><br/><span style=\" font-weight:600;\">Kapudan</span> vám pomůže se snadným a rychlým přizpůsobením pracovního prostředí Chakry vašim osobním potřebám. Jakmile budete připraveni začít, klepněte na <span style=\" font-weight:600;\">Další</span>.</p></body></html>"
+
+#: .tmp/scrKeyboard.py:34 .tmp/ui_scrKeyboard.py:93
+msgid "Keyboard"
+msgstr "Klávesnice"
+
+#: .tmp/scrKeyboard.py:35
+msgid "Keyboard Layout Language"
+msgstr "Jazyk rozvržení klávesnice"
+
+#: .tmp/ui_scrStyle.py:171 .tmp/scrStyle.py:38
+msgid "Themes"
+msgstr "Motivy"
+
+#: .tmp/ui_scrStyle.py:172
+msgid ""
+"Choose your favorite theme and desktop type. Customize Chakra with colorful "
+"styles and themes."
+msgstr "Vyberte svůj oblíbený motiv a typ pracovní plochy. Přizpůsobte Chakru barevnými styly a motivy."
+
+#: .tmp/ui_scrStyle.py:173
+msgid "KDE Themes"
+msgstr "Motivy KDE"
+
+#: .tmp/ui_scrStyle.py:174
+msgid "Desktop Type"
+msgstr "Typ pracovní plochy"
+
+#: .tmp/ui_scrStyle.py:175
+msgid "Desktop view (KDE4 Style)"
+msgstr "Pohled s pracovní plochou (styl KDE 4)"
+
+#: .tmp/ui_scrStyle.py:176
+msgid "Folder view (KDE3 Style)"
+msgstr "Pohled se složkami (styl KDE 3)"
+
+#: .tmp/ui_scrStyle.py:177
+msgid "Number of Desktops"
+msgstr "Počet pracovních ploch"
+
+#: .tmp/ui_scrServices.py:118 .tmp/scrServices.py:33
+msgid "Services"
+msgstr "Služby"
+
+#: .tmp/ui_scrServices.py:119
+msgid "cups: The Common Unix Printing Service"
+msgstr "CUPS: Tisk (Common Unix Printing Service)"
+
+#: .tmp/ui_scrServices.py:120
+msgid "bluetooth: Enable Bluetooth communication"
+msgstr "Bluetooth: Povolit komunikaci pomocí technologie bluetooth"
+
+#: .tmp/ui_scrServices.py:121
+msgid ""
+"<html><head/><body><p>By default, new installations of Chakra have only a "
+"bare minimum of required services (also called &quot;daemons&quot;) enabled."
+" Not only does this reflect Chakra's principle of not making decisions for "
+"its users, it also adds to a new installation's security, by decreasing the "
+"number of active services that might be vulnerable to an attack.</p><p>If "
+"you wish, you can use the options below to tell some of the more widely used"
+" daemons to start automatically at boot time. To enable or disable any "
+"service you would like to start on bootup, you can run <span style=\" font-"
+"weight:600;\">kdesu kate /etc/rc.conf</span> and add new services to the "
+"<span style=\" font-style:italic;\">DAEMONS</span> line. Or, if you just "
+"want to start daemons manually, try <span style=\" font-weight:600;\">sudo "
+"rc.d start </span><span style=\" font-weight:600; font-style:italic"
+";\">daemon-name</span>. (Eg, <span style=\" font-weight:600;\">sudo rc.d "
+"start cups</span>).</p></body></html>"
+msgstr "<html><head/><body><p>Ve výchozím nastavení mají instalace Chakry povoleno jen velice málo z požadovaných služeb (nazývaných také &quot;démoni&quot;). Nejenže to odráží zásady Chakry nedělat rozhodnutí za uživatele, také to přidává na instalační bezpečnosti snížením počtu činných služeb, které by mohly být zranitelné útokem.</p><p>Pokud chcete, použijte některé z voleb níže, abyste řekli, že se některé z šířeji používaných služeb (démonů) mají automaticky spustit při zavádění systému. Pro zapnutí nebo vypnutí jakékoli služby, která se má při zavádění systému spustit, můžete spustit <span style=\" font-weight:600;\">kdesu kate /etc/rc.conf</span> a nové služby přidat v řádku <span style=\" font-style:italic;\">DAEMONS</span>. Nebo, pokud démony chcete spouštět pouze ručně, zkuste <span style=\" font-weight:600;\">sudo rc.d start </span><span style=\" font-weight:600; font-style:italic;\">daemon-name</span>. (Např. <span style=\" font-weight:600;\">sudo rc.d start cups</span>).</p></body></html>"
+
+#: .tmp/ui_scrServices.py:122
+msgid "Daemons to start at boot time"
+msgstr "Démoni ke spuštění během zavedení systému"
+
+#: .tmp/scrFolder.py:30 .tmp/ui_scrFolder.py:151
+msgid "Folders"
+msgstr "Složky"
+
+#: .tmp/scrFolder.py:31
+msgid "Create folders in the home directory"
+msgstr "Vytvořit složky v domovském adresáři"
+
+#: .tmp/_scrSearch.py:29 .tmp/ui_scrSearch.py:100
+msgid "Search"
+msgstr "Hledat"
+
+#: .tmp/_scrSearch.py:30
+msgid "Enable / Disable Strigi Desktop Search"
+msgstr "Zapnout/Vypnout prohledávání pracovního prostředí pomocí Strigi"
+
+#: .tmp/scrPackage.py:33 .tmp/ui_scrPackage.py:133
+msgid "Packages"
+msgstr "Balíčky"
+
+#: .tmp/scrPackage.py:34
+msgid "Install / Remove Programs"
+msgstr "Instalovat/Odstranit programy"
+
+#: .tmp/ui_scrWallpaper.py:131 .tmp/scrWallpaper.py:37
+msgid "Wallpaper"
+msgstr "Pozadí plochy"
+
+#: .tmp/ui_scrWallpaper.py:132
+msgid ""
+"<html><head/><body><p>Choose your favorite wallpaper for your Chakra "
+"desktop. Don't forget to check out <span style=\" font-weight:600;\">Desktop"
+" Settings</span> to download cool new wallpapers.</p></body></html>"
+msgstr "<html><head/><body><p>Zvolte si svůj oblíbený obrázek na pozadí pro pracovní prostředí Chakra. Nezapomeňte na <span style=\" font-weight:600;\">Nastavení pracovního prostředí</span>, kde si můžete stáhnout skvělé nové obrázky pozadí.</p></body></html>"
+
+#: .tmp/ui_scrWallpaper.py:133
+msgid "Wallpapers"
+msgstr "Pozadí plochy"
+
+#: .tmp/ui_scrWallpaper.py:135
+msgid "Choose wallpaper from file"
+msgstr "Vybrat pozadí plochy ze souboru"
+
+#: .tmp/ui_scrWallpaper.py:136
+msgid "Don't change wallpaper"
+msgstr "Neměnit pozadí plochy"
+
+#: .tmp/ui_scrSecurity.py:163 .tmp/scrSecurity.py:33
+msgid "Security"
+msgstr "Bezpečnost"
+
+#: .tmp/ui_scrSecurity.py:164
+msgid "Enable the firewall (UFW)"
+msgstr "Povolit firewall (UFW)"
+
+#: .tmp/ui_scrSecurity.py:165
+msgid "Enable Clam AntiVirus daemon (must be installed and configured)"
+msgstr "Povolit démona Clam AntiVirus (musí být nainstalován a nastaven)"
+
+#: .tmp/ui_scrSecurity.py:166
+msgid ""
+"<html><head/><body><p>Other security tools provided by Chakra include "
+"Tomoyo-tools, the KDE Wallet, rkhunter, chkrootkit, tiger, and more. Click "
+"the buttons below to learn more about these tools.</p></body></html>"
+msgstr "<html><head/><body><p>Další bezpečnostní nástroje poskytované Chakrou zahrnují Tomoyo-tools, KDE Wallet, rkhunter, chkrootkit, tiger a jiné. Klepněte na tlačítka níže, abyste se o těchto nástrojích dozvěděl více.</p></body></html>"
+
+#: .tmp/ui_scrSecurity.py:167
+msgid "ClamAV: Detect and remove malware"
+msgstr "ClamAV: Má za úkol zjistit a odstranit škodlivé programy"
+
+#: .tmp/ui_scrSecurity.py:168
+msgid ""
+"Tomoyo-tools: A Mandatory Access Control (MAC) implementation for Linux"
+msgstr "Tomoyo-tools: Povinná kontrola přístupu (Mandatory Access Control, MAC) pro Linux"
+
+#: .tmp/ui_scrSecurity.py:169
+msgid ""
+"KDE Wallet Manager: Protect and encrypt passwords and other information"
+msgstr "Úschovna KDE Wallet: Má za úkol chránit a šifrovat hesla a další informace"
+
+#: .tmp/ui_scrSecurity.py:170
+msgid ""
+"chkrootkit and rkhunter: Check for the presence of rootkits on your system"
+msgstr "chkrootkit a rkhunter: Prověřování systému na přítomnost tzv. rootkitů"
+
+#: .tmp/ui_scrSecurity.py:171
+msgid "Tiger: A host-based intrusion detection and auditing tool"
+msgstr "Tiger: Hostitelsky založené zjišťování narušení a prověřovací nástroj"
+
+#: .tmp/ui_scrSecurity.py:172
+msgid ""
+"<html><head/><body><p>Finally, Chakra also provides a graphical tool to "
+"configure the system firewall. Just click on &quot;Firewall&quot; in the KDE"
+" System Settings.</p></body></html>"
+msgstr "<html><head/><body><p>Chakra konečně poskytuje i nástroj pro nastavení systémového firewallu. Klepněte na &quot;Firewall&quot; v systémovým nastaveních KDE.</p></body></html>"
+
+#: .tmp/ui_scrSecurity.py:173
+msgid ""
+"<html><head/><body><p>Security is a process, not a product, and no operating"
+" system can realistically claim to be perfectly secure. It is up to you to "
+"make sure you keep your system up to date, and follow best security "
+"practices. However, Chakra does provide a few tools to help you keep your "
+"system safe.</p></body></html>"
+msgstr "<html><head/><body><p>Bezpečnost je proces, ne produkt, a žádný operační systém nemůže po pravdě tvrdit, že je dokonale bezpečný. Je na vás se ujistit, že je váš systém zabezpečen na úrovni, a následovat nejlepší bezpečnostní postupy. Chakra ovšem poskytuje několik nástrojů, aby vám pomohla udržet váš systém bezpečný.</p></body></html>"
+
+#: .tmp/ui_scrSecurity.py:174
+msgid "Security Tools"
+msgstr "Bezpečnostní nástroje"
+
+#: .tmp/scrMouse.py:32 .tmp/ui_scrMouse.py:204
+msgid "Mouse"
+msgstr "Myš"
+
+#: .tmp/scrMouse.py:33
+msgid "Setup Mouse Behavior"
+msgstr "Nastavit chování myši"
+
+#: .tmp/scrMouse.py:144
+msgid "Left Handed"
+msgstr "Levoruká"
+
+#: .tmp/scrMouse.py:144
+msgid "Right Handed"
+msgstr "Pravoruká"
+
+#: .tmp/scrMouse.py:145
+msgid "Single Click "
+msgstr "Jedno klepnutí "
+
+#: .tmp/scrMouse.py:145
+msgid "Double Click"
+msgstr "Dvojité klepnutí "
+
+#: .tmp/ui_scrFolder.py:144
+msgid "Home Folder"
+msgstr "Domovská složka"
+
+#: .tmp/ui_scrFolder.py:145
+msgid "  Downloads  "
+msgstr "  Stahování  "
+
+#: .tmp/ui_scrFolder.py:146
+msgid "  Documents  "
+msgstr "  Dokumenty  "
+
+#: .tmp/ui_scrFolder.py:147
+msgid "  Videos  "
+msgstr "  Videa  "
+
+#: .tmp/ui_scrFolder.py:148
+msgid "  Music  "
+msgstr "  Hudba  "
+
+#: .tmp/ui_scrFolder.py:149
+msgid "  Images  "
+msgstr "  Obrázky  "
+
+#: .tmp/ui_scrFolder.py:150
+msgid ""
+"<html><head/><body><p>By default Chakra doesn't create any special folders "
+"in the user's home directory, as Chakra leaves these kind of choices up to "
+"the user. However, in this screen we give you the ability to create the most"
+" commonly used folders.</p></body></html>"
+msgstr "<html><head/><body><p>Ve výchozím nastavení Chakra nevytváří v uživatelově domovském adresáři žádné zvláštní složky, protože Chakra nechává tuto volbu na uživateli. Nicméně na této obrazovce je vám dána možnost vytvoření nejběžněji používaných složek.</p></body></html>"
+
+#: .tmp/ui_kapudan.py:360
+msgid "Kapudan"
+msgstr "Kapudan"
+
+#: .tmp/ui_kapudan.py:361
+msgid "Welcome to Chakra"
+msgstr "Vítejte v Chakře"
+
+#: .tmp/ui_kapudan.py:362
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: .tmp/ui_kapudan.py:363
+msgid "Back"
+msgstr "Zpět"
+
+#: .tmp/ui_kapudan.py:364
+msgid "Next"
+msgstr "Další"
+
+#: .tmp/ui_kapudan.py:365
+msgid "Finish"
+msgstr "Dokončit"
+
+#: .tmp/ui_kapudan.py:366
+msgid "Apply"
+msgstr "Použít"
+
+#: .tmp/ui_scrSearch.py:101
+msgid ""
+"Strigi Desktop Search indexes your frequently used files. This gives you "
+"very fast file search results. Strigi also can search for files based on "
+"their contents. On older computers, this can use a lot of resources."
+msgstr "Prohledávání pracovního prostředí Strigi rejstříkuje vaše často používané soubory. To vám dá při vyhledávání výsledky velice rychle. Strigi soubory dokáže vyhledat podle jejich obsahu. Na starších počítačích si to může vzít spoustu systémových prostředků."
+
+#: .tmp/ui_scrSearch.py:102
+msgid "Allow Strigi to index my files"
+msgstr "Povolit Strigi rejstříkování souborů"
+
+#: .tmp/ui_scrSearch.py:103
+msgid "Search Options"
+msgstr "Možnosti vyhledávání"
+
+#: .tmp/scrMenu.py:29 .tmp/ui_scrMenu.py:124
+msgid "Menu"
+msgstr "Nabídka"
+
+#: .tmp/scrMenu.py:30
+msgid "Choose a Menu Style"
+msgstr "Vybrat styl nabídky"
+
+#: .tmp/scrMenu.py:44 .tmp/ui_scrMenu.py:126
+msgid "Kick-off Menu"
+msgstr "Zahajovací nabídka"
+
+#: .tmp/scrMenu.py:46
+msgid ""
+"Kick-off menu is the default menu of Chakra.<br><br>The program shortcuts "
+"are easy to access and well organized."
+msgstr "Zahajovací nabídka (Kick-off) je výchozí nabídkou Chakry.<br><br>Zkratky programů jsou snadno přístupné a dobře uspořádané."
+
+#: .tmp/scrMenu.py:50 .tmp/ui_scrMenu.py:127
+msgid "Simple Menu"
+msgstr "Jednoduchá nabídka"
+
+#: .tmp/scrMenu.py:52
+msgid ""
+"Simple menu is an old style menu from KDE 3.<br><br>It is a very lightweight"
+" menu thus it is recommended for slower PC's."
+msgstr "Jednoduchá nabídka představuje starý styl nabídky KDE 3.<br><br>Je to velice odlehčená nabídka, proto se doporučuje její použití v případě pomalejších počítačů."
+
+#: .tmp/scrMenu.py:56 .tmp/ui_scrMenu.py:128
+msgid "Lancelot Menu"
+msgstr "Nabídka Lancelot"
+
+#: .tmp/scrMenu.py:58
+msgid ""
+"Lancelot is an advanced and highly customizable menu for Chakra.<br><br>The "
+"program shortcuts are easy to access and well organized."
+msgstr "Nabídka Lancelot je pokročilou a podle přání uživatele vysoce upravitelnou nabídkou Chakry.<br><br>Zkratky programů jsou snadno přístupné a dobře uspořádané."
+
+#: .tmp/scrMenu.py:62 .tmp/ui_scrMenu.py:129
+msgid "Takeoff Menu"
+msgstr "Odrazová nabídka"
+
+#: .tmp/scrMenu.py:64
+msgid ""
+"Takeoff is a full screen menu, inspired by Slingshot and the OS X Launchpad "
+"menu but adapted to work with KDE as a plasmoid."
+msgstr "Odrazová nabídka (Takeoff) je celoobrazovkovou nabídkou inspirovanou Slingshot a spouštěcí nabídkou OS X, jež je však přizpůsobena tak, aby pracovala s KDE jako plasmoid."
+
+#: .tmp/ui_wallpaperItem.py:73 .tmp/ui_scrAvatar.py:247
+#: .tmp/ui_scrStyleItem.py:70
+msgid "Form"
+msgstr "Formulář"
+
+#: .tmp/ui_wallpaperItem.py:74
+msgid "wallPaperName"
+msgstr "Název pozadí"
+
+#: .tmp/ui_wallpaperItem.py:75
+msgid "wallpaperDesc"
+msgstr "Popis pozadí"
+
+#: .tmp/ui_scrKeyboard.py:94
+msgid ""
+"<html><head/><body><p>Kapudan tries to automatically select the best "
+"keyboard layout according to your system language. If you want to use "
+"another layout, just make a selection below.</p></body></html>"
+msgstr "<html><head/><body><p>Kapudan se pokusí o automatický výběr nejlepšího rozložení klávesnice podle jazyka vašeho systému. Chcete-li použít jiné rozložení, stačí, abyste si vybral v seznamu níže.</p></body></html>"
+
+#: .tmp/ui_scrKeyboard.py:95
+msgid "Test area:"
+msgstr "Zkušební oblast:"
+
+#: .tmp/scrSummary.py:43 .tmp/ui_scrSummary.py:85
+msgid "Summary"
+msgstr "Shrnutí"
+
+#: .tmp/scrSummary.py:44
+msgid "Save Your Settings"
+msgstr "Uložit nastavení"
+
+#: .tmp/scrSummary.py:69
+msgid "Mouse Settings"
+msgstr "Nastavení myši"
+
+#: .tmp/scrSummary.py:71
+#, python-format
+msgid "Selected Mouse configuration: <b>%s</b>"
+msgstr "Zvolené nastavení myši: <b>%s</b>"
+
+#: .tmp/scrSummary.py:72
+#, python-format
+msgid "Selected clicking behavior: <b>%s</b>"
+msgstr "Zvolené chování při klepnutí: <b>%s</b>"
+
+#: .tmp/scrSummary.py:76
+msgid "Menu Settings"
+msgstr "Nastavení nabídky"
+
+#: .tmp/scrSummary.py:77
+#, python-format
+msgid "Selected Menu: <b>%s</b>"
+msgstr "Zvolená nabídka: <b>%s</b>"
+
+#: .tmp/scrSummary.py:81
+msgid "Wallpaper Settings"
+msgstr "Nastavení pozadí plochy"
+
+#: .tmp/scrSummary.py:83
+msgid "You haven't selected any wallpaper."
+msgstr "Nevybral jste žádné pozadí plochy"
+
+#: .tmp/scrSummary.py:85
+#, python-format
+msgid "Selected Wallpaper: <b>%s</b>"
+msgstr "Zvolené pozadí plochy: <b>%s</b>"
+
+#: .tmp/scrSummary.py:89
+msgid "Style Settings"
+msgstr "Nastavení stylu"
+
+#: .tmp/scrSummary.py:92
+msgid "You haven't selected any style."
+msgstr "Nevybral jste žádný styl."
+
+#: .tmp/scrSummary.py:94
+#, python-format
+msgid "Selected Style: <b>%s</b>"
+msgstr "Zvolený styl: <b>%s</b>"
+
+#: .tmp/scrSummary.py:100
+msgid "Package Management Settings"
+msgstr "Nastavení správy balíčků"
+
+#: .tmp/scrSummary.py:101
+msgid "You have enabled or disabled spun."
+msgstr "Povolil jste nebo zakázal spun."
+
+#: .tmp/scrSummary.py:108 .tmp/scrSummary.py:136
+msgid "You have: "
+msgstr "Máte: "
+
+#: .tmp/scrSummary.py:110
+msgid "Services Settings"
+msgstr "Nastavení služeb"
+
+#: .tmp/scrSummary.py:113
+msgid "enabled cups; "
+msgstr "Povoleno CUPS; "
+
+#: .tmp/scrSummary.py:116
+msgid "disabled cups; "
+msgstr "Zakázáno CUPS; "
+
+#: .tmp/scrSummary.py:119
+msgid "enabled bluetooth; "
+msgstr "Povolen Bluetooth; "
+
+#: .tmp/scrSummary.py:122
+msgid "disabled bluetooth; "
+msgstr "Zakázán Bluetooth; "
+
+#: .tmp/scrSummary.py:126 .tmp/scrSummary.py:154
+msgid "You have made no changes."
+msgstr "Neudělal jste žádné změny."
+
+#: .tmp/scrSummary.py:138
+msgid "Security Settings"
+msgstr "Nastavení bezpečnosti"
+
+#: .tmp/scrSummary.py:141
+msgid "enabled ClamAV; "
+msgstr "Povoleno ClamAV; "
+
+#: .tmp/scrSummary.py:144
+msgid "disabled ClamAV; "
+msgstr "Zakázán ClamAV; "
+
+#: .tmp/scrSummary.py:147
+msgid "enabled the firewall; "
+msgstr "Povolen firewall; "
+
+#: .tmp/scrSummary.py:150
+msgid "disabled the firewall; "
+msgstr "Zakázán firewall; "
+
+#: .tmp/scrSummary.py:180
+msgid "Error"
+msgstr "Chyba"
+
+#: .tmp/scrSummary.py:180
+msgid "Cannot restart plasma-desktop. Kapudan will now shut down."
+msgstr "Nelze spustit znovu plasma-desktop. Kapudan nyní provede vypnutí."
+
+#: .tmp/scrStyle.py:39
+msgid "Customize Your Desktop"
+msgstr "Přizpůsobit pracovní prostředí"
+
+#: .tmp/scrWallpaper.py:38
+msgid "Choose a Wallpaper"
+msgstr "Vybrat pozadí plochy"
+
+#: .tmp/ui_scrAvatar.py:248
+msgid ""
+"<html><head/><body><p>This screen helps you set your <span style=\" font-"
+"weight:600;\">user picture</span>. You can either choose an image from a "
+"file, or you can capture an image from your camera, if you have one. Select "
+"an option from the <span style=\" font-weight:600;\">options</span> "
+"menu.</p></body></html>"
+msgstr "<html><head/><body><p>Tato obrazovka vám pomůže s nastavením <span style=\" font-weight:600;\">uživatelova obrázku</span>. Můžete si buď vybrat obrázek ze souboru, nebo obrázek zachytit pomocí kamery, máte-li jakou. Volbu vyberte v nabídce <span style=\" font-weight:600;\">Volby</span>.</p></body></html>"
+
+#: .tmp/ui_scrAvatar.py:249
+msgid "Options"
+msgstr "Volby"
+
+#: .tmp/ui_scrAvatar.py:250
+msgid "Choose an image"
+msgstr "Vybrat obrázek"
+
+#: .tmp/ui_scrAvatar.py:251
+msgid "Capture"
+msgstr "Zachytit"
+
+#: .tmp/ui_scrAvatar.py:252
+msgid "Recapture"
+msgstr "Zachytit znovu"
+
+#: .tmp/scrGoodbye.py:26 .tmp/ui_scrGoodbye.py:352
+msgid "More"
+msgstr "Více"
+
+#: .tmp/scrGoodbye.py:27
+msgid "Congratulations!"
+msgstr "Blahopřejeme vám!"
+
+#: .tmp/ui_scrPackage.py:134
+msgid "Check for updates automatically every"
+msgstr "Prověřit kvůli aktualizacím automaticky každých"
+
+#: .tmp/ui_scrPackage.py:135
+msgid " minutes"
+msgstr " minut"
+
+#: .tmp/ui_scrPackage.py:136
+msgid "Use audio along with the visual notification"
+msgstr "Použít zvuk společně s viditelným oznámením"
+
+#: .tmp/ui_scrPackage.py:137
+msgid ""
+"<html><head/><body><p>To install and remove programs on Chakra, use the "
+"command-line program, <a href=\"http://chakra-"
+"linux.org/wiki/index.php/Pacman\"><span style=\" text-decoration: underline;"
+" color:#0057ae;\">pacman</span></a>. You can run <span style=\" font-"
+"weight:600;\">sudo pacman -Syu</span> to update, <span style=\" font-"
+"weight:600;\">pacman -Ss </span><span style=\" font-weight:600; font-"
+"style:italic;\">keyword</span> to search through the repos, and <span "
+"style=\" font-weight:600;\">sudo pacman -S </span><span style=\" font-"
+"weight:600; font-style:italic;\">package</span> to install "
+"packages.</p><p>Pacman does not have any sort of graphical interface, so "
+"another small app, spun, was created to provide update notifications. When "
+"updates are available, spun will show a notification in your system tray. "
+"</p></body></html>"
+msgstr "<html><head/><body><p>Na instalaci a odstranění programů v Chakře použijte program pro práci v příkazovém řádku, <a href=\"http://chakra-linux.org/wiki/index.php/Pacman\"><span style=\" text-decoration: underline; color:#0057ae;\">pacman</span></a>. Pro aktualizaci nechte provést příkaz <span style=\" font-weight:600;\">sudo pacman -Syu</span>, <span style=\" font-weight:600;\">pacman -Ss </span><span style=\" font-weight:600; font-style:italic;\">klíčové slovo</span> pro vyhledávání v úložištích balíčků, and <span style=\" font-weight:600;\">sudo pacman -S </span><span style=\" font-weight:600; font-style:italic;\">název balíčku</span> pro nainstalování balíčku.</p><p>Pacman nemá obrazové rozhraní, proto byla pro oznamování aktualizací vytvořena jiná malá aplikace pojmenovaná spun. Když jsou dostupné aktualizace, spun ukáže v oznamovací oblasti panelu oznámení. </p></body></html>"
+
+#: .tmp/ui_scrPackage.py:138
+msgid "Updates"
+msgstr "Aktualizace"
+
+#: .tmp/localedata.py:53
+msgid "Turkish"
+msgstr "Turecká"
+
+#: .tmp/localedata.py:58
+msgid "Turkish Q"
+msgstr "Turecká Q"
+
+#: .tmp/localedata.py:59
+msgid "Turkish F"
+msgstr "Turecká F"
+
+#: .tmp/localedata.py:64
+msgid "English"
+msgstr "Anglická"
+
+#: .tmp/localedata.py:69
+msgid "English GB"
+msgstr "Anglická GB"
+
+#: .tmp/localedata.py:75
+msgid "Afrikaans"
+msgstr "Afrikánská"
+
+#: .tmp/localedata.py:81
+msgid "Arabic"
+msgstr "Arabská"
+
+#: .tmp/localedata.py:87
+msgid "Belgian"
+msgstr "Belgická"
+
+#: .tmp/localedata.py:93
+msgid "Bulgarian"
+msgstr "Bulharská"
+
+#: .tmp/localedata.py:99
+msgid "Catalan"
+msgstr "Katalánská"
+
+#: .tmp/localedata.py:105
+msgid "Welsh"
+msgstr "Velšská"
+
+#: .tmp/localedata.py:111
+msgid "Czech"
+msgstr "Česká"
+
+#: .tmp/localedata.py:117
+msgid "Danish"
+msgstr "Dánská"
+
+#: .tmp/localedata.py:123
+msgid "German"
+msgstr "Německá"
+
+#: .tmp/localedata.py:129
+msgid "Spanish"
+msgstr "Španělská"
+
+#: .tmp/localedata.py:135
+msgid "Estonian"
+msgstr "Estonská"
+
+#: .tmp/localedata.py:141
+msgid "Finnish"
+msgstr "Finská"
+
+#: .tmp/localedata.py:147
+msgid "French"
+msgstr "Francouzská"
+
+#: .tmp/localedata.py:153
+msgid "Greek"
+msgstr "Řecká"
+
+#: .tmp/localedata.py:159
+msgid "Croatian"
+msgstr "Chorvatská"
+
+#: .tmp/localedata.py:165
+msgid "Hungarian"
+msgstr "Maďarská"
+
+#: .tmp/localedata.py:173
+msgid "Icelandic"
+msgstr "Islandská"
+
+#: .tmp/localedata.py:179
+msgid "Italian"
+msgstr "Italská"
+
+#: .tmp/localedata.py:185
+msgid "Japanese"
+msgstr "Japonská"
+
+#: .tmp/localedata.py:191
+msgid "Macedonian"
+msgstr "Makedonská"
+
+#: .tmp/localedata.py:197
+msgid "Malayalam"
+msgstr "Malajalamská"
+
+#: .tmp/localedata.py:203
+msgid "Norwegian"
+msgstr "Norská"
+
+#: .tmp/localedata.py:209
+msgid "Dutch"
+msgstr "Nizozemská"
+
+#: .tmp/localedata.py:215
+msgid "Polish"
+msgstr "Polská"
+
+#: .tmp/localedata.py:221
+msgid "Portuguese"
+msgstr "Portugalská"
+
+#: .tmp/localedata.py:227
+msgid "Brazilian"
+msgstr "Brazilská"
+
+#: .tmp/localedata.py:233
+msgid "Russian"
+msgstr "Ruská"
+
+#: .tmp/localedata.py:241
+msgid "Slovak"
+msgstr "Slovenská"
+
+#: .tmp/localedata.py:247
+msgid "Slovenian"
+msgstr "Slovinská"
+
+#: .tmp/localedata.py:253
+msgid "Serbian"
+msgstr "Srbská"
+
+#: .tmp/localedata.py:259
+msgid "Swedish"
+msgstr "Švédská"
+
+#: .tmp/localedata.py:266
+msgid "Ukrainian"
+msgstr "Ukrajinská"
+
+#: .tmp/localedata.py:272
+msgid "Vietnamese"
+msgstr "Větnamská"
+
+#: .tmp/ui_scrMouse.py:205
+msgid ""
+"<html><head/><body><p>The <span style=\" font-weight:600;\">clicking "
+"behavior</span> defines how many times you want to click to open files and "
+"folders. If you are <span style=\" font-weight:600;\">left handed</span>, "
+"you may prefer to swap the left and right buttons of your pointing "
+"device.</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Chování při klepnutí</span> stanovuje, kolikrát chcete klepnout, abyste otevřel soubory a složky. Pokud používáte <span style=\" font-weight:600;\">levou ruku</span>, můžete dát přednost prohození funkce levého a pravého tlačítka vašeho ukazovacího zařízení.</p></body></html>"
+
+#: .tmp/ui_scrMouse.py:206
+msgid "Clicking Behaviour"
+msgstr "Chování při klepnutí"
+
+#: .tmp/ui_scrMouse.py:207
+msgid "Dou&ble-click to open files and folders"
+msgstr "Klepnout dvakrát pro otevření souborů a složek"
+
+#: .tmp/ui_scrMouse.py:208
+msgid "Single-click to open files and folders"
+msgstr "Klepnout jednou pro otevření souborů a složek"
+
+#: .tmp/ui_scrMouse.py:209
+msgid "Button Order"
+msgstr "Pořadí tlačítek"
+
+#: .tmp/ui_scrMouse.py:210
+msgid "Right Hand"
+msgstr "Pravá ruka"
+
+#: .tmp/ui_scrMouse.py:211
+msgid "Left Hand"
+msgstr "Levá ruka"
+
+#: .tmp/ui_scrMouse.py:212
+msgid "Reverse scrolling"
+msgstr "Obrácené projíždění"
+
+#: .tmp/ui_scrGoodbye.py:353
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:600;\">Your settings have "
+"been applied.</span> Now you can start enjoying Chakra, or check out the "
+"following links and applications for more settings, or for help and support."
+" Don't forget to <span style=\" font-weight:600;\">join our "
+"community!</span></p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Vaše nastavení byla použita.</span> Nyní si začněte užívat radost z Chakry. Nebo se podívejte na následující odkazy a programy pro více nastavení, či pro nápovědu a podporu. Nezapomeňte se <span style=\" font-weight:600;\">připojit k našemu společenství!</span></p></body></html>"
+
+#: .tmp/ui_scrGoodbye.py:354 .tmp/ui_scrGoodbye.py:356
+msgid "System Settings"
+msgstr "Nastavení systému"
+
+#: .tmp/ui_scrGoodbye.py:355
+msgid ""
+"Configuration tools for Chakra, such as the display settings, firewall, "
+"keyboard layout, user management..."
+msgstr "Nastavovací nástroje pro Chakru, jako jsou nastavení obrazovky, firewall, rozložení klávesnice, správa uživatele..."
+
+#: .tmp/ui_scrGoodbye.py:357 .tmp/ui_scrGoodbye.py:359
+msgid "Help and Support"
+msgstr "Nápověda a podpora"
+
+#: .tmp/ui_scrGoodbye.py:358
+msgid ""
+"Chakra community: mailing lists, chat rooms, Wiki documents, help and "
+"support pages..."
+msgstr "Společenství lidí okolo distribuce Chakra: poštovní seznamy, místnosti, kde se dá popovídat, dokumenty na Wiki, stránky s nápovědou a s podporou..."
+
+#: .tmp/ui_scrGoodbye.py:360
+msgid "Using KDE"
+msgstr "Používání KDE"
+
+#: .tmp/ui_scrGoodbye.py:361
+msgid ""
+"Learn how to get the most out of KDE, the Plasma desktop, and everything "
+"else Chakra has to offer, in the Chakra Beginner's Guide."
+msgstr "Naučte se, jak dostat co nejvíce z KDE, pracovního prostředí Plasma a všechno co Chakra může nabídnout v průvodci pro začátečníky distribuce Chakra."
+
+#: .tmp/ui_scrGoodbye.py:362
+msgid "Beginner's Guide"
+msgstr "Průvodce pro začátečníky "
+
+#: .tmp/ui_scrGoodbye.py:363
+msgid "Run Kapudan on system startup?"
+msgstr "Spustit Kapudan při spuštění?"
+
+#: .tmp/scrAvatar.py:39
+msgid "User Picture"
+msgstr "Obrázek uživatele"
+
+#: .tmp/scrAvatar.py:51
+msgid "Create Your User Picture"
+msgstr "Vytvořte svůj obrázek uživatele"
+
+#: .tmp/scrWelcome.py:31
+#, python-format
+msgid "Welcome to %s"
+msgstr "Vítejte v %s"
+
+#: .tmp/scrSecurity.py:34
+msgid "Keep your system secure"
+msgstr "Udržte svůj systém bezpečný"
+
+#: .tmp/scrServices.py:34
+msgid "Enable / Disable Services (Daemons)"
+msgstr "Zapnout/Vypnout služby (démony)"
+
+#: .tmp/ui_scrStyleItem.py:71
+msgid "styleName"
+msgstr "Název stylu"
+
+#: .tmp/ui_scrStyleItem.py:72
+msgid "styleDesc"
+msgstr "Popis stylu"
+
+#: .tmp/ui_scrMenu.py:125
+msgid ""
+"You can also customize your <b>KDE menu</b> as you like. Please choose one "
+"from the following styles."
+msgstr "Svou <b>nabídku KDE</b> si můžete upravit, jak potřebujete. Vyberte si, prosím, z následujících stylů."
+
+#: .tmp/ui_scrMenu.py:130
+msgid "Sample"
+msgstr "Ukázka"
+
+#: .tmp/ui_scrSummary.py:86
+msgid ""
+"<html><head/><body><p>You have successfully finished all steps. Here's a "
+"summary of the settings you want to apply. Click <span style=\" font-"
+"weight:600;\">Apply</span> if they look good, or go back and make more "
+"changes. </p></body></html>"
+msgstr "<html><head/><body><p>Úspěšně jste dokončil všechny kroky. Zde je přehled nastavení, jež hodláte použít. Klepněte na <span style=\" font-weight:600;\">Použít</span>, jestli vypadají dobře, nebo jděte zpět a proveďte další změny. </p></body></html>"
+
+#: .tmp/ui_scrSummary.py:87
+msgid "The following settings will be applied"
+msgstr "Použijí se následující nastavení"
