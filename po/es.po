@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: The Chakra Project\n"
 "Report-Msgid-Bugs-To: http://chakra-project.org/bugs/\n"
 "POT-Creation-Date: 2012-08-15 19:31-0600\n"
-"PO-Revision-Date: 2012-08-18 11:01+0000\n"
+"PO-Revision-Date: 2012-08-31 14:51+0000\n"
 "Last-Translator: Sombra Helicóptero <sombrahelicoptero@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/chakra-project/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -40,7 +40,7 @@ msgid ""
 " you personalize your Chakra workspace easily and quickly. Just click <span "
 "style=\" font-weight:600;\">next</span> when you are ready to "
 "begin.</p></body></html>"
-msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span>nos trae una nueva distribución Linux, un proyecto de escaparate del software libre creado por un grupo de personas a las que le gusta los principios KISS y la elegancia del Escritorio Plasma, y un sistema de paquetes para dar soporte a las aplicaciones GTK más conocidas,<br/><br/>Nuestro principal objetivo es proveer un Live CD y una distribución Linux rápida, amigable con el usuario y extremadamente poderosa, especialmente diseñada para el afamado KDE Software Compilation y el precioso Escritorio Plasma.<br/><br/><span style=\" font-weight:600;\">Kapudan</span> le ayudará a personalizar su sistema Chakra rápida y cómodamente. Sólo haz click en <span style=\" font-weight:600;\">Siguiente</span>cuándo estés listo para comenzar.</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span> nos trae una nueva distribución Linux, un proyecto de escaparate del software libre creado por un grupo de personas a las que le gusta los principios KISS y la elegancia del Escritorio Plasma, y un sistema de paquetes para dar soporte a las aplicaciones GTK más conocidas,<br/><br/>Nuestro principal objetivo es proveer un Live CD y una distribución Linux rápida, amigable con el usuario y extremadamente poderosa, especialmente diseñada para el afamado KDE Software Compilation y el precioso Escritorio Plasma.<br/><br/><span style=\" font-weight:600;\">Kapudan</span> te ayudará a personalizar tu sistema Chakra rápida y cómodamente. Sólo haz click en <span style=\" font-weight:600;\">Siguiente</span>cuando estés listo para comenzar.</p></body></html>"
 
 #: .tmp/scrKeyboard.py:34 .tmp/ui_scrKeyboard.py:93
 msgid "Keyboard"
@@ -108,11 +108,11 @@ msgid ""
 "rc.d start </span><span style=\" font-weight:600; font-style:italic"
 ";\">daemon-name</span>. (Eg, <span style=\" font-weight:600;\">sudo rc.d "
 "start cups</span>).</p></body></html>"
-msgstr "<html><head/><body><p>Por defecto, un sistema Chakra recién instalado tiene solo un mínimo de servicios activados (también llamados &quot;daemons&quot;). Esto no solo refleja el principio de Chakra de no tomar decisiones por sus usuarios, también contribuye a la seguridad del nuevo sistema, disminuyendo el número de servicios activos que podrían ser vulnerables ante un ataque.</p><p>Si lo deseas, puedes usar las opciones de abajo para decirle a algunos de los daemons más ampliamente utilizados que se inicien automáticamente con el sistema. Para activar o desactivar cualquier servicio que quieras iniciar con el sistema, puedes ejecutar <span style=\" font-weight:600;\">kdesu kate /etc/rc.conf</span> y añadir nuevos servicios a la línea <span style=\" font-style:italic;\">DAEMONS</span>. O, si solo deseas iniciar los daemons de forma manual, prueba <span style=\" font-weight:600;\">sudo rc.d start </span><span style=\" font-weight:600; font-style:italic;\">nombre-del-daemon</span>. (P.ej, <span style=\" font-weight:600;\">sudo rc.d start cups</span>).</p></body></html>"
+msgstr "<html><head/><body><p>Por defecto, un sistema Chakra recién instalado tiene solo un mínimo de servicios activados (también llamados &quot;demonios&quot;). Esto no solo refleja el principio de Chakra de no tomar decisiones por sus usuarios, también contribuye a la seguridad del nuevo sistema, disminuyendo el número de servicios activos que podrían ser vulnerables ante un ataque.</p><p>Si lo deseas, puedes usar las opciones de abajo para decirle a algunos de los demonios más ampliamente utilizados que se inicien automáticamente con el sistema. Para activar o desactivar cualquier servicio que quieras iniciar con el sistema, puedes ejecutar <span style=\" font-weight:600;\">kdesu kate /etc/rc.conf</span> y añadir nuevos servicios a la línea <span style=\" font-style:italic;\">DAEMONS</span>. O, si solo deseas iniciar los demonios de forma manual, prueba <span style=\" font-weight:600;\">sudo rc.d start </span><span style=\" font-weight:600; font-style:italic;\">nombre-del-daemon</span>. (P.ej, <span style=\" font-weight:600;\">sudo rc.d start cups</span>).</p></body></html>"
 
 #: .tmp/ui_scrServices.py:122
 msgid "Daemons to start at boot time"
-msgstr "Daemons que se inician con el sistema"
+msgstr "Demonios que se inician con el sistema"
 
 #: .tmp/scrFolder.py:30 .tmp/ui_scrFolder.py:151
 msgid "Folders"
@@ -440,7 +440,7 @@ msgstr "Selección de fondo de pantalla:<b>%s</b>"
 
 #: .tmp/scrSummary.py:89
 msgid "Style Settings"
-msgstr "Confuguración de estilo"
+msgstr "Configuración de estilo"
 
 #: .tmp/scrSummary.py:92
 msgid "You haven't selected any style."
@@ -457,7 +457,7 @@ msgstr "Configuración del gestor de paquetes"
 
 #: .tmp/scrSummary.py:101
 msgid "You have enabled or disabled spun."
-msgstr "Tu has habilitado o deshabiltado spun."
+msgstr "Has habilitado o deshabiltado spun."
 
 #: .tmp/scrSummary.py:108 .tmp/scrSummary.py:136
 msgid "You have: "
