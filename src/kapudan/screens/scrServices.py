@@ -42,7 +42,7 @@ class Widget(QtGui.QWidget, Screen):
         self.ui.setupUi(self)
 
         # set up self.config
-        self.config = SystemdDaemon()
+        self.config = Daemon()
 
         # set initial states
         self.ui.enableCups.setChecked(self.config.isEnabled("cups"))
