@@ -28,29 +28,15 @@ disable_spun() {
     echo "  Done."
 }
 
-clean_daemons() {
-    # internal function, removes excess whitespace and leftover @'s
-    # from the DAEMONS line
-    if grep -q '^DAEMONS=(.*@\s.*' /etc/rc.conf; then
-        sed -i "s/^\(DAEMONS=(.*\)@\s\(.*\)$/\1\2/g" /etc/rc.conf
-    fi
-    sed -i "s/^\(DAEMONS=(.*\)  \(.*\)$/\1 \2/g" /etc/rc.conf
-}
 
 enable_daemon() {
     # internal function, $1 is daemon to enable
-    if ! grep -q "^DAEMONS=(.*$1.*)" /etc/rc.conf; then
-        sed -i "s/^\(DAEMONS=(.*\)\s*)/\1 $1)/g" /etc/rc.conf
-    fi
-    clean_daemons
+    systemctl enable $1
 }
 
 disable_daemon() {
     # internal function, $1 is daemon to disable
-    if grep -q "^DAEMONS=(.*$1.*)" /etc/rc.conf; then
-        sed -i "s/^\(DAEMONS=(.*\)\s*$1\(.*)\)/\1\2/g" /etc/rc.conf
-    fi
-    clean_daemons
+    systemctl disable $1
 }
 
 enable_cups() {

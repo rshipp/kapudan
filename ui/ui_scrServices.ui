@@ -150,7 +150,7 @@ border-bottom-right-radius: 4px;
         <enum>QFrame::Raised</enum>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, new installations of Chakra have only a bare minimum of required services (also called &amp;quot;daemons&amp;quot;) enabled. Not only does this reflect Chakra's principle of not making decisions for its users, it also adds to a new installation's security, by decreasing the number of active services that might be vulnerable to an attack.&lt;/p&gt;&lt;p&gt;If you wish, you can use the options below to tell some of the more widely used daemons to start automatically at boot time. To enable or disable any service you would like to start on bootup, you can run &lt;span style=&quot; font-weight:600;&quot;&gt;kdesu kate /etc/rc.conf&lt;/span&gt; and add new services to the &lt;span style=&quot; font-style:italic;&quot;&gt;DAEMONS&lt;/span&gt; line. Or, if you just want to start daemons manually, try &lt;span style=&quot; font-weight:600;&quot;&gt;sudo rc.d start &lt;/span&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;daemon-name&lt;/span&gt;. (Eg, &lt;span style=&quot; font-weight:600;&quot;&gt;sudo rc.d start cups&lt;/span&gt;).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, new installations of Chakra have only a bare minimum of required services (also called &amp;quot;daemons&amp;quot;) enabled. Not only does this reflect Chakra's principle of not making decisions for its users, it also adds to a new installation's security, by decreasing the number of active services that might be vulnerable to an attack.&lt;/p&gt;&lt;p&gt;If you wish, you can use the options below to tell some of the more widely used daemons to start automatically at boot time. To enable any service you would like to start on bootup, you can run &lt;span style=&quot; font-weight:600;&quot;&gt;sudo systemctl enable &lt;/span&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;daemon-name&lt;/span&gt;. Respectively, run &lt;span style=&quot; font-weight:600;&quot;&gt;sudo systemctl enable &lt;/span&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;daemon-name&lt;/span&gt; to disable it. Or, if you just want to start daemons manually, try &lt;span style=&quot; font-weight:600;&quot;&gt;sudo systemctl start &lt;/span&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;daemon-name&lt;/span&gt;. (Eg, &lt;span style=&quot; font-weight:600;&quot;&gt;sudo systemctl start cups&lt;/span&gt;).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="wordWrap">
         <bool>true</bool>
@@ -224,6 +224,7 @@ border-top-right-radius: 4px;</string>
  </widget>
  <resources>
   <include location="../data/kapudan.qrc"/>
+  <include location="../../../../.designer/data/kapudan.qrc"/>
  </resources>
  <connections/>
 </ui>
