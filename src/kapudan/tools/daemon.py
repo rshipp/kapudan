@@ -30,9 +30,9 @@ class Daemon(object):
         print >> sys.stderr, "Unfinished"
 
     @deprecated("You shouldn't rely on this method, as it doesn't work with systemd")
-    def is_enabled(self, name):
+    def isEnabled(self, name):
         return False
 
     @deprecated("You shouldn't rely on this method, as it doesn't work with systemd")
-    def is_installed(self, name):
+    def isInstalled(self, name):
         return True

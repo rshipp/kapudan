@@ -22,7 +22,7 @@ from PyKDE4.kdecore import ki18n, KConfig
 
 from kapudan.screen import Screen
 from kapudan.screens.ui_scrSecurity import Ui_securityWidget
-from kapudan.tools.rcconf import RCDaemon
+from kapudan.tools.daemon import Daemon
 
 import subprocess
 import os
@@ -42,7 +42,7 @@ class Widget(QtGui.QWidget, Screen):
         self.ui.setupUi(self)
 
         # set up self.config
-        self.config = RCDaemon()
+        self.config = Daemon()
 
         # set initial states
         self.ui.enableFire.setChecked(self.config.isEnabled("ufw"))
