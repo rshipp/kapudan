@@ -31,7 +31,7 @@ class Daemon(object):
 
     def __init__(self, name=None):
         if name is None:
-            warnings.warn_explicit("Using  Daemon this way is deprecated")
+            warnings.warn("Using  Daemon this way is deprecated")
         self.name = name
 
     @deprecated("You shouldn't rely on this method, but rather use is_enabled")
@@ -53,13 +53,15 @@ class Daemon(object):
         return result
 
     def is_enabled(self):
-        result = os.popen("systemctl show --property=UnitFileState %s") % self.name
-        match = re.search(Daemon._matcher, result)
+        result = os.popen("systemctl show --property=UnitFileState %s" % self.name)
+        match = re.search(Daemon._matcher, result.read())
+        result.close()
         if match:
             return "enabled" == match.group()
         return False
 
     def is_installed(self):
-        result = os.popen("systemctl show --property=UnitFileState %s") % self.name
-        match = re.search(Daemon._matcher, result)
+        result = os.popen("systemctl show --property=UnitFileState %s" % self.name)
+        match = re.search(Daemon._matcher, result.read())
+        result.close()
         return match is not None
