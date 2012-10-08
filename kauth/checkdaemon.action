@@ -1,0 +1,17 @@
+[org.chakraproject.kapudan.checkdaemon]
+Name=Daemon status checker
+Description=Checks the status of a daemon (enabled/disabled/not installed)
+Policy=yes
+Persistence=session
+
+[org.chkaraproject.kapudan.enabledaemon]
+Name=Daemon enabler
+Description=Enables a specific daemon
+Policy=auth_admin
+Persistence=session
+
+[org.chkaraproject.kapudan.disabledaemon]
+Name=Daemon disabler
+Description=Disables a specific daemon
+Policy=auth_admin
+Persistence=session
