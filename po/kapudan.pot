@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-15 19:31-0600\n"
+"POT-Creation-Date: 2012-10-08 17:04-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -97,21 +97,23 @@ msgid ""
 "its users, it also adds to a new installation's security, by decreasing the "
 "number of active services that might be vulnerable to an attack.</p><p>If "
 "you wish, you can use the options below to tell some of the more widely used "
-"daemons to start automatically at boot time. To enable or disable any "
-"service you would like to start on bootup, you can run <span style=\" font-"
-"weight:600;\">kdesu kate /etc/rc.conf</span> and add new services to the "
-"<span style=\" font-style:italic;\">DAEMONS</span> line. Or, if you just "
-"want to start daemons manually, try <span style=\" font-weight:600;\">sudo "
-"rc.d start </span><span style=\" font-weight:600; font-style:italic;"
-"\">daemon-name</span>. (Eg, <span style=\" font-weight:600;\">sudo rc.d "
-"start cups</span>).</p></body></html>"
+"daemons to start automatically at boot time. To enable any service you would "
+"like to start on bootup, you can run <span style=\" font-weight:600;\">sudo "
+"systemctl enable </span><span style=\" font-weight:600; font-style:italic;"
+"\">daemon-name</span>. Respectively, run <span style=\" font-weight:600;"
+"\">sudo systemctl enable </span><span style=\" font-weight:600; font-style:"
+"italic;\">daemon-name</span> to disable it. Or, if you just want to start "
+"daemons manually, try <span style=\" font-weight:600;\">sudo systemctl start "
+"</span><span style=\" font-weight:600; font-style:italic;\">daemon-name</"
+"span>. (Eg, <span style=\" font-weight:600;\">sudo systemctl start cups</"
+"span>).</p></body></html>"
 msgstr ""
 
 #: .tmp/ui_scrServices.py:122
 msgid "Daemons to start at boot time"
 msgstr ""
 
-#: .tmp/scrFolder.py:30 .tmp/ui_scrFolder.py:151
+#: .tmp/scrFolder.py:30 .tmp/ui_scrFolder.py:153
 msgid "Folders"
 msgstr ""
 
@@ -242,31 +244,31 @@ msgstr ""
 msgid "Double Click"
 msgstr ""
 
-#: .tmp/ui_scrFolder.py:144
+#: .tmp/ui_scrFolder.py:146
 msgid "Home Folder"
 msgstr ""
 
-#: .tmp/ui_scrFolder.py:145
+#: .tmp/ui_scrFolder.py:147
 msgid "  Downloads  "
 msgstr ""
 
-#: .tmp/ui_scrFolder.py:146
+#: .tmp/ui_scrFolder.py:148
 msgid "  Documents  "
 msgstr ""
 
-#: .tmp/ui_scrFolder.py:147
+#: .tmp/ui_scrFolder.py:149
 msgid "  Videos  "
 msgstr ""
 
-#: .tmp/ui_scrFolder.py:148
+#: .tmp/ui_scrFolder.py:150
 msgid "  Music  "
 msgstr ""
 
-#: .tmp/ui_scrFolder.py:149
+#: .tmp/ui_scrFolder.py:151
 msgid "  Images  "
 msgstr ""
 
-#: .tmp/ui_scrFolder.py:150
+#: .tmp/ui_scrFolder.py:152
 msgid ""
 "<html><head/><body><p>By default Chakra doesn't create any special folders "
 "in the user's home directory, as Chakra leaves these kind of choices up to "
