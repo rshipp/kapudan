@@ -61,7 +61,5 @@ class Daemon(object):
         return False
 
     def is_installed(self):
-        result = os.popen("systemctl show --property=UnitFileState %s" % self.name)
-        match = re.search(Daemon._matcher, result.read())
-        result.close()
-        return match is not None
+        result = os.path.exists("/usr/lib/systemd/system/%s.service" % self.name)
+        return result

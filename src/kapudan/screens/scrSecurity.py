@@ -49,12 +49,13 @@ class Widget(QtGui.QWidget, Screen):
         self.ui.enableFire.setEnabled(self.config.isInstalled("ufw"))
 
         self.ui.enableClam.setEnabled(False)
-        if self.config.isInstalled("clamav"):
+        if self.config.isInstalled("clamd"):
             if not os.system("grep -q ^Example /etc/clamav/clamd.conf") == 0:
                 if not os.system("grep -q ^Example /etc/clamav/freshclam.conf") == 0:
                     self.ui.enableClam.setEnabled(True)
-
-        self.ui.enableClam.setChecked(self.config.isEnabled("clamav"))
+            self.ui.enableClam.setChecked(self.config.isEnabled("clamd"))
+        else:
+            self.ui.enableClam.setChecked(False)
 
     def applySettings(self):
         if self.ui.enableFire.isChecked():
@@ -69,12 +70,12 @@ class Widget(QtGui.QWidget, Screen):
 
         if self.ui.enableClam.isChecked():
             self.__class__.screenSettings["enableClam"] = True
-            if not self.config.isEnabled("clamav"):
+            if not self.config.isEnabled("clamd"):
                 self.__class__.screenSettings["hasChanged"] = True
 
         else:
             self.__class__.screenSettings["enableClam"] = False
-            if self.config.isEnabled("clamav"):
+            if self.config.isEnabled("clamd"):
                 self.__class__.screenSettings["hasChanged"] = True
 
 

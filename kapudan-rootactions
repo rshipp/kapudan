@@ -65,13 +65,15 @@ disable_blue() {
 
 enable_clam() {
     echo " Enabling the ClamAV service..."
-    enable_daemon clamav
+    enable_daemon clamd
+    enable_daemon freshclamd
     echo "  Done."
 }
 
 disable_clam() {
     echo " Disabling the ClamAV service..."
-    disable_daemon clamav
+    disable_daemon clamd
+    disable_daemon freshclamd
     echo "  Done."
 }
 

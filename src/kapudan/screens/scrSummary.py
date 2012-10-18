@@ -137,10 +137,10 @@ class Widget(QtGui.QWidget, Screen):
             self.secisset = False
             content.append(subject % ki18n("Security Settings").toString())
 
-            if self.securitySettings["enableClam"] and not self.daemon.isEnabled("clamav"):
+            if self.securitySettings["enableClam"] and not self.daemon.isEnabled("clamd"):
                 self.sectext += ki18n("enabled ClamAV; ").toString()
                 self.secisset = True
-            elif not self.securitySettings["enableClam"] and self.daemon.isEnabled("clamav"):
+            elif not self.securitySettings["enableClam"] and self.daemon.isEnabled("clamd"):
                 self.sectext += ki18n("disabled ClamAV; ").toString()
                 self.secisset = True
             if self.securitySettings["enableFire"] and not self.daemon.isEnabled("ufw"):
@@ -392,9 +392,9 @@ class Widget(QtGui.QWidget, Screen):
 
         # Security Settings
         if self.securitySettings["hasChanged"]:
-            if self.securitySettings["enableClam"] and not self.daemon.isEnabled("clamav"):
+            if self.securitySettings["enableClam"] and not self.daemon.isEnabled("clamd"):
                 rootActions += "enable_clam "
-            elif not self.securitySettings["enableClam"] and self.daemon.isEnabled("clamav"):
+            elif not self.securitySettings["enableClam"] and self.daemon.isEnabled("clamd"):
                 rootActions += "disable_clam "
             if self.securitySettings["enableFire"] and not self.daemon.isEnabled("ufw"):
                 rootActions += "enable_fire "
