@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Chakra Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-08 17:04-0600\n"
+"POT-Creation-Date: 2012-10-18 13:08-0600\n"
 "PO-Revision-Date: 2012-08-18 17:45+0000\n"
 "Last-Translator: Michael Häsel <Michael.Haesel@gmail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/chakra-project/language/de/)\n"
@@ -25,6 +25,15 @@ msgstr "Suche"
 #: .tmp/_scrSearch.py:30
 msgid "Enable / Disable Strigi Desktop Search"
 msgstr "Strigi-Desktopsuche aktivieren / deaktivieren"
+
+#: .tmp/kapudan.desktop.in.h:1 .tmp/ui_kapudan.py:360
+msgid "Kapudan"
+msgstr "Kapudan"
+
+#: .tmp/kapudan.desktop.in.h:2
+#, fuzzy
+msgid "Welcome Wizard"
+msgstr "Willkommen"
 
 #: .tmp/localedata.py:53
 msgid "Turkish"
@@ -419,11 +428,11 @@ msgstr "Firewall aktiviert; "
 msgid "disabled the firewall; "
 msgstr "Firewall deaktiviert; "
 
-#: .tmp/scrSummary.py:180
+#: .tmp/scrSummary.py:172
 msgid "Cannot restart plasma-desktop. Kapudan will now shut down."
 msgstr "Plasma-Desktop kann nicht neu gestartet werden. Kapudan wird jetzt beendet."
 
-#: .tmp/scrSummary.py:180
+#: .tmp/scrSummary.py:172
 msgid "Error"
 msgstr "Fehler"
 
@@ -443,10 +452,6 @@ msgstr "Willkommen"
 #, python-format
 msgid "Welcome to %s"
 msgstr "Willkommen bei %s"
-
-#: .tmp/ui_kapudan.py:360
-msgid "Kapudan"
-msgstr "Kapudan"
 
 #: .tmp/ui_kapudan.py:361
 msgid "Welcome to Chakra"

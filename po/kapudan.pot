@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-08 17:04-0600\n"
+"POT-Creation-Date: 2012-10-18 13:08-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -119,6 +119,14 @@ msgstr ""
 
 #: .tmp/scrFolder.py:31
 msgid "Create folders in the home directory"
+msgstr ""
+
+#: .tmp/kapudan.desktop.in.h:1 .tmp/ui_kapudan.py:360
+msgid "Kapudan"
+msgstr ""
+
+#: .tmp/kapudan.desktop.in.h:2
+msgid "Welcome Wizard"
 msgstr ""
 
 #: .tmp/_scrSearch.py:29 .tmp/ui_scrSearch.py:100
@@ -274,10 +282,6 @@ msgid ""
 "in the user's home directory, as Chakra leaves these kind of choices up to "
 "the user. However, in this screen we give you the ability to create the most "
 "commonly used folders.</p></body></html>"
-msgstr ""
-
-#: .tmp/ui_kapudan.py:360
-msgid "Kapudan"
 msgstr ""
 
 #: .tmp/ui_kapudan.py:361
@@ -504,11 +508,11 @@ msgstr ""
 msgid "disabled the firewall; "
 msgstr ""
 
-#: .tmp/scrSummary.py:180
+#: .tmp/scrSummary.py:172
 msgid "Error"
 msgstr ""
 
-#: .tmp/scrSummary.py:180
+#: .tmp/scrSummary.py:172
 msgid "Cannot restart plasma-desktop. Kapudan will now shut down."
 msgstr ""
 

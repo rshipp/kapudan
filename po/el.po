@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Chakra Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-08 17:04-0600\n"
+"POT-Creation-Date: 2012-10-18 13:08-0600\n"
 "PO-Revision-Date: 2012-08-18 18:38+0000\n"
 "Last-Translator: Αντώνης Γ. <capoiosct@gmail.com>\n"
 "Language-Team: Greek (http://www.transifex.com/projects/p/chakra-project/language/el/)\n"
@@ -25,6 +25,15 @@ msgstr "Αναζήτηση"
 #: .tmp/_scrSearch.py:30
 msgid "Enable / Disable Strigi Desktop Search"
 msgstr "Ενεργοποίηση/απενεργοποίηση αναζήτησης επιφάνειας εργασίας"
+
+#: .tmp/kapudan.desktop.in.h:1 .tmp/ui_kapudan.py:360
+msgid "Kapudan"
+msgstr "Kapudan"
+
+#: .tmp/kapudan.desktop.in.h:2
+#, fuzzy
+msgid "Welcome Wizard"
+msgstr "Καλώς ήλθατε"
 
 #: .tmp/localedata.py:53
 msgid "Turkish"
@@ -419,11 +428,11 @@ msgstr "ενεργοποιήσει το τείχος προστασίας,"
 msgid "disabled the firewall; "
 msgstr "απενεργοποιήσει το τείχος προστασίας"
 
-#: .tmp/scrSummary.py:180
+#: .tmp/scrSummary.py:172
 msgid "Cannot restart plasma-desktop. Kapudan will now shut down."
 msgstr "Αδυναμία επανεκκίνησης του κελύφους plasma. Το Kapudan θα τερματιστεί."
 
-#: .tmp/scrSummary.py:180
+#: .tmp/scrSummary.py:172
 msgid "Error"
 msgstr "Σφάλμα"
 
@@ -443,10 +452,6 @@ msgstr "Καλώς ήλθατε"
 #, python-format
 msgid "Welcome to %s"
 msgstr "Καλώς ήλθατε στο %s"
-
-#: .tmp/ui_kapudan.py:360
-msgid "Kapudan"
-msgstr "Kapudan"
 
 #: .tmp/ui_kapudan.py:361
 msgid "Welcome to Chakra"

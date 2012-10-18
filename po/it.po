@@ -11,9 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Chakra Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-08 17:04-0600\n"
-"PO-Revision-Date: 2012-09-30 20:15+0000\n"
-"Last-Translator: yuribo <yuri.bongiorno@gmail.com>\n"
+"POT-Creation-Date: 2012-10-18 13:08-0600\n"
+"PO-Revision-Date: 2012-10-13 09:53+0000\n"
+"Last-Translator: Lorenzo Porta <cybermight.gm@gmail.com>\n"
 "Language-Team: Italian (http://www.transifex.com/projects/p/chakra-project/language/it/)\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -28,6 +28,15 @@ msgstr "Cerca"
 #: .tmp/_scrSearch.py:30
 msgid "Enable / Disable Strigi Desktop Search"
 msgstr "Attiva/disattiva la ricerca desktop Strigi"
+
+#: .tmp/kapudan.desktop.in.h:1 .tmp/ui_kapudan.py:360
+msgid "Kapudan"
+msgstr "Kapudan"
+
+#: .tmp/kapudan.desktop.in.h:2
+#, fuzzy
+msgid "Welcome Wizard"
+msgstr "Benvenuto"
 
 #: .tmp/localedata.py:53
 msgid "Turkish"
@@ -422,11 +431,11 @@ msgstr "firewall attivato; "
 msgid "disabled the firewall; "
 msgstr "firewall disattivato; "
 
-#: .tmp/scrSummary.py:180
+#: .tmp/scrSummary.py:172
 msgid "Cannot restart plasma-desktop. Kapudan will now shut down."
 msgstr "Impossibile riavviare plasma-desktop. Kapudan ora si chiude."
 
-#: .tmp/scrSummary.py:180
+#: .tmp/scrSummary.py:172
 msgid "Error"
 msgstr "Errore"
 
@@ -446,10 +455,6 @@ msgstr "Benvenuto"
 #, python-format
 msgid "Welcome to %s"
 msgstr "Benvenuto a %s"
-
-#: .tmp/ui_kapudan.py:360
-msgid "Kapudan"
-msgstr "Kapudan"
 
 #: .tmp/ui_kapudan.py:361
 msgid "Welcome to Chakra"
@@ -697,11 +702,8 @@ msgid "bluetooth: Enable Bluetooth communication"
 msgstr "bluetooth: Attiva la comunicazione Bluetooth"
 
 #: .tmp/ui_scrServices.py:121
-#, fuzzy
 msgid "<html><head/><body><p>By default, new installations of Chakra have only a bare minimum of required services (also called &quot;daemons&quot;) enabled. Not only does this reflect Chakra's principle of not making decisions for its users, it also adds to a new installation's security, by decreasing the number of active services that might be vulnerable to an attack.</p><p>If you wish, you can use the options below to tell some of the more widely used daemons to start automatically at boot time. To enable any service you would like to start on bootup, you can run <span style=\" font-weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; font-style:italic;\">daemon-name</span>. Respectively, run <span style=\" font-weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; font-style:italic;\">daemon-name</span> to disable it. Or, if you just want to start daemons manually, try <span style=\" font-weight:600;\">sudo systemctl start </span><span style=\" font-weight:600; font-style:italic;\">daemon-name</span>. (Eg, <span style=\" font-weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
-msgstr ""
-"<html><head/><body><p>Di base, le nuove installazioni di Chakra hanno solo un numero minimo di servizi (chiamati anche &quot;demoni&quot;) attivi. Non solo questo riflette i principi di Chakra di non prendere decisioni per i suoi utenti ma si aumenta anche la sicurezza nelle nuove installazioni, riducendo il numero di servizi attivi che potrebbero essere vulnerabili ad un attacco.</p><p>Se lo si desidera, è possibile utilizzare le opzioni qui sotto per indicare ai demoni più diffusi di avviarsi in automatico all'avvio.\n"
-"Per attivare o disattivare qualsiasi servizio che si desidera avviare al boot, è possibile eseguire <span style=\" font-weight:600;\">kdesu kate /etc/rc.conf</span> ed aggiungere nuovi servizi nella riga<span style=\" font-style:italic;\">DAEMONS</span>. Oppure, se si desidera avviare i demoni manualmente, scrivere <span style=\" font-weight:600;\">sudo rc.d start </span><span style=\" font-weight:600; font-style:italic;\">nome-demone</span>. (Es, <span style=\" font-weight:600;\">sudo rc.d start cups</span>).</p></body></html>"
+msgstr "<html><head/><body><p>Per impostazione predefinita, le nuove installazioni di Chakra possiedono solo il minimo indispensabile di servizi richiesti (chiamati anche &quot;demoni&quot;) abilitati. Non solo questo riflette il principio di Chakra di non prendere decisioni per i suoi utenti, ma aggiunge anche sicurezza alla nuova installazione, diminuendo il numero di servizi attivi che potrebbero essere vulnerabili ad un attacco.</p><p>Se lo si desidera, è possibile utilizzare le opzioni qui sotto per indicare ad alcuni dei demoni più utilizzati di avviarsi in automatico al momento del boot. Per abilitare qualsiasi servizio che si desidera venga avviato al boot, è possibile eseguire <span style=\" font-weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; font-style:italic;\">nome-del-demone</span>. Rispettivamente, eseguire <span style=\" font-weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; font-style:italic;\">nome-del-demone</span> per disabilitarlo. Oppure, se si vuole semplicemente avviare i demoni manualmente, provare <span style=\" font-weight:600;\">sudo systemctl start </span><span style=\" font-weight:600; font-style:italic;\">nome-del-demone</span>. (Es. <span style=\" font-weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
 
 #: .tmp/ui_scrServices.py:122
 msgid "Daemons to start at boot time"
