@@ -18,7 +18,7 @@ from PyQt4.QtCore import *
 from PyQt4.QtGui import QMessageBox
 from PyKDE4.kdecore import ki18n, KConfig
 
-import subprocess,os, dbus
+import subprocess,os, dbus, time
 
 from kapudan.screen import Screen
 from kapudan.screens.ui_scrSummary import Ui_summaryWidget
@@ -163,19 +163,11 @@ class Widget(QtGui.QWidget, Screen):
 
     def killPlasma(self):
         try:
-            p = subprocess.Popen(["pidof", "-s", "plasma-desktop"], stdout=subprocess.PIPE)
+            p = subprocess.Popen(["kquitapp", "plasma-desktop"], stdout=subprocess.PIPE)
             out, err = p.communicate()
-            pidOfPlasma = int(out)
+            time.sleep(1)
+            self.startPlasma()
 
-            try:
-                os.kill(pidOfPlasma, 15)
-            except OSError, e:
-                print 'WARNING: failed os.kill: %s' % e
-                print "Trying SIGKILL"
-                os.kill(pidOfPlasma, 9)
-
-            finally:
-                self.startPlasma()
         except:
             QMessageBox.critical(self, ki18n("Error").toString(), ki18n("Cannot restart plasma-desktop. Kapudan will now shut down.").toString())
             from PyKDE4 import kdeui
