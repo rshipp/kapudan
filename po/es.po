@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Chakra Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-18 13:08-0600\n"
-"PO-Revision-Date: 2012-09-02 17:52+0000\n"
+"POT-Creation-Date: 2012-10-18 13:14-0600\n"
+"PO-Revision-Date: 2012-10-09 08:57+0000\n"
 "Last-Translator: Pablo <beticuchomalo@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/chakra-project/language/es/)\n"
 "Language: es\n"
@@ -700,9 +700,8 @@ msgid "bluetooth: Enable Bluetooth communication"
 msgstr "bluetooth: Habilita la comunicación Bluetooth"
 
 #: .tmp/ui_scrServices.py:121
-#, fuzzy
 msgid "<html><head/><body><p>By default, new installations of Chakra have only a bare minimum of required services (also called &quot;daemons&quot;) enabled. Not only does this reflect Chakra's principle of not making decisions for its users, it also adds to a new installation's security, by decreasing the number of active services that might be vulnerable to an attack.</p><p>If you wish, you can use the options below to tell some of the more widely used daemons to start automatically at boot time. To enable any service you would like to start on bootup, you can run <span style=\" font-weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; font-style:italic;\">daemon-name</span>. Respectively, run <span style=\" font-weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; font-style:italic;\">daemon-name</span> to disable it. Or, if you just want to start daemons manually, try <span style=\" font-weight:600;\">sudo systemctl start </span><span style=\" font-weight:600; font-style:italic;\">daemon-name</span>. (Eg, <span style=\" font-weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
-msgstr "<html><head/><body><p>Por defecto, un sistema Chakra recién instalado tiene solo un mínimo de servicios activados (también llamados &quot;demonios&quot;). Esto no solo refleja el principio de Chakra de no tomar decisiones por sus usuarios, también contribuye a la seguridad del nuevo sistema, disminuyendo el número de servicios activos que podrían ser vulnerables ante un ataque.</p><p>Si lo deseas, puedes usar las opciones de abajo para decirle a algunos de los demonios más ampliamente utilizados que se inicien automáticamente con el sistema. Para activar o desactivar cualquier servicio que quieras iniciar con el sistema, puedes ejecutar <span style=\" font-weight:600;\">kdesu kate /etc/rc.conf</span> y añadir nuevos servicios a la línea <span style=\" font-style:italic;\">DAEMONS</span>. O, si solo deseas iniciar los demonios de forma manual, prueba <span style=\" font-weight:600;\">sudo rc.d start </span><span style=\" font-weight:600; font-style:italic;\">nombre-del-daemon</span>. (P.ej, <span style=\" font-weight:600;\">sudo rc.d start cups</span>).</p></body></html>"
+msgstr ""
 
 #: .tmp/ui_scrServices.py:122
 msgid "Daemons to start at boot time"

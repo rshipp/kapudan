@@ -8,15 +8,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Chakra Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-18 13:08-0600\n"
-"PO-Revision-Date: 2012-08-18 17:45+0000\n"
+"POT-Creation-Date: 2012-10-18 13:14-0600\n"
+"PO-Revision-Date: 2012-10-09 08:57+0000\n"
 "Last-Translator: Michael Häsel <Michael.Haesel@gmail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/chakra-project/language/de/)\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: .tmp/_scrSearch.py:29 .tmp/ui_scrSearch.py:100
 msgid "Search"
@@ -699,9 +699,8 @@ msgid "bluetooth: Enable Bluetooth communication"
 msgstr "bluetooth: Aktiviere die Bluetooth-Kommunikation"
 
 #: .tmp/ui_scrServices.py:121
-#, fuzzy
 msgid "<html><head/><body><p>By default, new installations of Chakra have only a bare minimum of required services (also called &quot;daemons&quot;) enabled. Not only does this reflect Chakra's principle of not making decisions for its users, it also adds to a new installation's security, by decreasing the number of active services that might be vulnerable to an attack.</p><p>If you wish, you can use the options below to tell some of the more widely used daemons to start automatically at boot time. To enable any service you would like to start on bootup, you can run <span style=\" font-weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; font-style:italic;\">daemon-name</span>. Respectively, run <span style=\" font-weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; font-style:italic;\">daemon-name</span> to disable it. Or, if you just want to start daemons manually, try <span style=\" font-weight:600;\">sudo systemctl start </span><span style=\" font-weight:600; font-style:italic;\">daemon-name</span>. (Eg, <span style=\" font-weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
-msgstr "<html><head/><body><p>Standardmäßig sind in neuen Chakra-Installationen nur ein Minimum an benötigten Diensten (auch &quot;Daemons&quot; genannt) aktiviert. Das spiegelt nicht nur Chakras Prinzip wider, dem Benutzer keine Entscheidungen abzunehmen, es erhöht auch die Sicherheit neuer Installationen, indem es die Anzahl aktivierter Dienste verringert, die möglicherweise verwundbar für einen Angriff sind.</p><p>Wenn Sie wünschen, können Sie die folgenden Optionen nutzen, um einige der häufiger genutzten Dienste schon beim Bootvorgang starten zu lassen. Um jedweden Dienst während des Bootvorgangs zu aktivieren oder zu deaktivieren, geben Sie <span style=\"font-weight:600;\">kdesu kate /etc/rc.conf</span> ein und bearbeiten die <span style=\"font-style:italic;\">DAEMONS</span>-Zeile. Falls Sie die Dienste manuell starten wollen, versuchen Sie <span style=\" font-weight:600;\">sudo rc.d start <span><span style=\" font-weight:600; font-style:italic;\">Dienstname</span>. (Z.B.: <span style=\" font-weight:600;\">sudo rc.d start cups</span>).</p></body></html>"
+msgstr ""
 
 #: .tmp/ui_scrServices.py:122
 msgid "Daemons to start at boot time"

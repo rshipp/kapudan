@@ -8,15 +8,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Chakra Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-18 13:08-0600\n"
-"PO-Revision-Date: 2012-10-09 14:33+0000\n"
-"Last-Translator: Maarten De Meyer <de.meyer.maarten@gmail.com>\n"
+"POT-Creation-Date: 2012-10-18 13:14-0600\n"
+"PO-Revision-Date: 2012-10-09 08:57+0000\n"
+"Last-Translator: axelv <axel.chakra@gmail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/projects/p/chakra-project/language/nl/)\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: .tmp/_scrSearch.py:29 .tmp/ui_scrSearch.py:100
 msgid "Search"
@@ -484,7 +484,7 @@ msgstr "Formulier"
 
 #: .tmp/ui_scrAvatar.py:248
 msgid "<html><head/><body><p>This screen helps you set your <span style=\" font-weight:600;\">user picture</span>. You can either choose an image from a file, or you can capture an image from your camera, if you have one. Select an option from the <span style=\" font-weight:600;\">options</span> menu.</p></body></html>"
-msgstr "<html><head/><body><p>Dit schermt helpt u om uw <span style=\" font-weight:600;\">gebruikersafbeelding</span> in te stellen. U kan kiezen tussen een afbeelding van bestand of één van uw camera, als u er één heeft. Selecteer een optie van het <span style=\" font-weight:600;\">opties</span> menu.</p></body></html>"
+msgstr "<html><head/><body><p>Dit schermt helpt u om uw <span style=\" font-weight:600;\">gebruikersafbeelding</span> in te stellen. U kan kiezen tussen een afbeelding van bestand of één avn uw camera, als u er één heeft. Selecteer een optie van het <span style=\" font-weight:600;\">opties</span> menu.</p></body></html>"
 
 #: .tmp/ui_scrAvatar.py:249
 msgid "Options"
@@ -699,9 +699,8 @@ msgid "bluetooth: Enable Bluetooth communication"
 msgstr "bluetooth: Bluetooth communicatie Inschakelen"
 
 #: .tmp/ui_scrServices.py:121
-#, fuzzy
 msgid "<html><head/><body><p>By default, new installations of Chakra have only a bare minimum of required services (also called &quot;daemons&quot;) enabled. Not only does this reflect Chakra's principle of not making decisions for its users, it also adds to a new installation's security, by decreasing the number of active services that might be vulnerable to an attack.</p><p>If you wish, you can use the options below to tell some of the more widely used daemons to start automatically at boot time. To enable any service you would like to start on bootup, you can run <span style=\" font-weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; font-style:italic;\">daemon-name</span>. Respectively, run <span style=\" font-weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; font-style:italic;\">daemon-name</span> to disable it. Or, if you just want to start daemons manually, try <span style=\" font-weight:600;\">sudo systemctl start </span><span style=\" font-weight:600; font-style:italic;\">daemon-name</span>. (Eg, <span style=\" font-weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
-msgstr "<html><head/><body><p>Nieuwe installaties van Chakra hebben standaard slechts een minimum aan vereiste services( ook wel &quot;daemons&quot; genoemd) ingeschakeld. Niet enkel weerspiegelt dit Chakra's principe van geen keuzes te maken voor zijn gebruikeres, het maakt ook de installatie procedure veiliger door het aantal services that kwetsbaar is voor aanvallen te verminderen.</p><p>Als u wil, kan u onderstaande opties gebruiken om veelgebruikte daemons automatisch opstarten bij het booten. Bij het in of uitschakelen van een service bij het booten,  kan u <span style=\" font-weight:600;\">kdesu kate /etc/rc.conf</span> uitvoeren en nieuwe services toevoegen aan <span style=\" font-style:italic;\">DAEMONS</span> line. Or, if you just want to start daemons manually, try <span style=\" font-weight:600;\">sudo rc.d start </span><span style=\" font-weight:600; font-style:italic;\">daemon-name</span>. (Eg, <span style=\" font-weight:600;\">sudo rc.d start cups</span>).</p></body></html>"
+msgstr ""
 
 #: .tmp/ui_scrServices.py:122
 msgid "Daemons to start at boot time"
@@ -769,7 +768,7 @@ msgstr "Wat is Chakra?"
 
 #: .tmp/ui_scrWelcome.py:80
 msgid "<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span> brings a ground-up Linux distribution, a free software showcase project created by a bunch of people who like the KISS principles and the elegance of the Plasma Desktop, and a bundlesystem to support well known GTK applications.<br/><br/>Our main goal is provide a fast, user-friendly and extremely powerful Live CD and Linux distribution, specially crafted for the award winning KDE Software Compilation and the beautiful Plasma desktop.<br/><br/><span style=\" font-weight:600;\">Kapudan</span> will help you personalize your Chakra workspace easily and quickly. Just click <span style=\" font-weight:600;\">next</span> when you are ready to begin.</p></body></html>"
-msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span> brengt een van de grond opgebouwde Linux distributie, een vrij software project gecreeërd door mensen die van het KISS principe en de elegantie van de plasma desktop houden, en een bundel systeem om bekende GTK toepassing te ondersteunen.<br/><br/>Ons hoofddoel is om te zorgen voor een snelle, gebruiksvriendelijke en extreem krachtige Live CD en Linux distributie, speciaal gemaakt voor de bekroonde KDE Software Compilatie en de mooie Plasma Desktop.<br/><br/><span style=\" font-weight:600;\">Kapudan</span> zal u helpen om uw Chakra werkblad eenvoudig en snel te personalliseren.  Klik op <span style=\" font-weight:600;\">volgende</span> wanneer u klaar bent om te beginnen.</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span> brengt een van de grond opgebouwde Linux distributie, een vrij software project gecreeërd door mensen die van het KISS principe en de elegantie van de plasma desktop houden, en een bundel systeem om bekende GTK toepassing te ondersteunen.<br/><br/>Ons hoofddoel is om te zorgen voor een snelle, gebruiksvriendelijke en extreem krachtige Live CD en Linux distributie, speciaal gemaakt voor de bekroonde KDE Software Compilatie en de mooie Plasma Desktop.<br/><br/><span style=\" font-weight:600;\">Kapudan</span> zal u helpen om uw Chakra werkblad eenvoudig en snel te personalliseren.  Klik op <span style=\" font-weight:600;\">next</span> wanneer u klaar bent om te beginnen.</p></body></html>"
 
 #: .tmp/ui_wallpaperItem.py:74
 msgid "wallPaperName"
