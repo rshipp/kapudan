@@ -1,0 +1,8 @@
+[main]
+host = https://www.transifex.net
+
+[chakra-project.kapudan]
+file_filter = po/<lang>.po
+source_file = po/kapudan.pot
+source_lang = en
+
