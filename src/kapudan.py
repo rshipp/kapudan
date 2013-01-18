@@ -79,15 +79,12 @@ class Kapudan(QtGui.QWidget):
         allScreens = [value for key, value in globals().iteritems() if key.startswith("scr")]
 
         otherScreens = list((set(allScreens) - set(headScreens)) - set(tailScreens))
-        otherScreens.remove(scrKeyboard)
         otherScreens.remove(scrPackage)
         otherScreens.remove(scrServices)
         otherScreens.remove(scrSecurity)
 
         screens.extend(headScreens)
         screens.extend(otherScreens)
-
-        screens.append(scrKeyboard)
 
         spun = SpunRC()
         if spun.isInstalled():
