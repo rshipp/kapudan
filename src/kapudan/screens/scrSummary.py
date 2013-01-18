@@ -122,6 +122,7 @@ class Widget(QtGui.QWidget, Screen):
                 self.svctext += ki18n("disabled bluetooth; ").toString()
                 self.svcisset = True
 
+            #FIXME: when can this ever happen?
             if not self.svcisset:
                 self.svctext = ki18n("You have made no changes.").toString()
                 self.servicesSettings["hasChanged"] = False

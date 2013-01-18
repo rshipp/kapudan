@@ -33,6 +33,7 @@ class Daemon(object):
         if name is None:
             warnings.warn("Using  Daemon this way is deprecated")
         self.name = name
+        self.has_changed = False
 
     @deprecated("You shouldn't rely on this method, but rather use is_enabled")
     def isEnabled(self, name):
