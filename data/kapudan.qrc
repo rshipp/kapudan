@@ -1,6 +1,5 @@
 <RCC>
   <qresource prefix="raw">
-    <file>pixmap/takeoff.png</file>
     <file>pixmap/milky.png</file>
     <file>pixmap/oxygen.png</file>
     <file>pixmap/preferences-desktop-icons.png</file>
@@ -34,6 +33,7 @@
     <file>pixmap/lancelot.png</file>
     <file>pixmap/cross.png</file>
     <file>pixmap/kapudan-left.png</file>
+    <file>pixmap/homerun.png</file>
     <file>pixmap/menu-arrow-left.png</file>
     <file>pixmap/menu-arrow-right.png</file>
     <file>pixmap/preferences-desktop-wallpaper.png</file>
