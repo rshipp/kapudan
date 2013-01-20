@@ -107,10 +107,10 @@ class Widget(QtGui.QWidget, Screen):
             self.ui.pictureMenuStyles.setPixmap(self.menuNames["lancelot_launcher"]["image"])
             self.ui.labelMenuDescription.setText(self.menuNames["lancelot_launcher"]["description"].toString())
         elif currentIndex == 3:
-            self.__class__.screenSettings["selectedMenu"] = 'homerun'
+            self.__class__.screenSettings["selectedMenu"] = 'homerunlauncher'
 
-            self.ui.pictureMenuStyles.setPixmap(self.menuNames["homerun"]["image"])
-            self.ui.labelMenuDescription.setText(self.menuNames["homerun"]["description"].toString())
+            self.ui.pictureMenuStyles.setPixmap(self.menuNames["homerunlauncher"]["image"])
+            self.ui.labelMenuDescription.setText(self.menuNames["homerunlauncher"]["description"].toString())
 
     def shown(self):
         pass
