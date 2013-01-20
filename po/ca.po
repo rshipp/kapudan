@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: The Chakra Project\n"
+"Report-Msgid-Bugs-To: http://chakra-project.org/bugs/\n"
 "POT-Creation-Date: 2013-01-20 13:44+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2013-01-20 12:46+0000\n"
+"Last-Translator: Manuel Tortosa <manutortosa@chakra-project.org>\n"
+"Language-Team: Catalan (http://www.transifex.com/projects/p/chakra-project/language/ca/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: .tmp/scrGoodbye.py:26 .tmp/ui_scrGoodbye.py:361
 msgid "More"
@@ -84,17 +84,18 @@ msgstr ""
 #: .tmp/ui_scrPackage.py:146
 msgid ""
 "<html><head/><body><p>To install and remove programs on Chakra, use the "
-"command-line program, <a href=\"http://chakra-linux.org/wiki/index.php/Pacman"
-"\"><span style=\" text-decoration: underline; color:#0057ae;\">pacman</"
-"span></a>. You can run <span style=\" font-weight:600;\">sudo pacman -Syu</"
-"span> to update, <span style=\" font-weight:600;\">pacman -Ss </span><span "
-"style=\" font-weight:600; font-style:italic;\">keyword</span> to search "
-"through the repos, and <span style=\" font-weight:600;\">sudo pacman -S </"
-"span><span style=\" font-weight:600; font-style:italic;\">package</span> to "
-"install packages.</p><p>Pacman does not have any sort of graphical "
-"interface, so another small app, spun, was created to provide update "
-"notifications. When updates are available, spun will show a notification in "
-"your system tray. </p></body></html>"
+"command-line program, <a href=\"http://chakra-"
+"linux.org/wiki/index.php/Pacman\"><span style=\" text-decoration: underline;"
+" color:#0057ae;\">pacman</span></a>. You can run <span style=\" font-"
+"weight:600;\">sudo pacman -Syu</span> to update, <span style=\" font-"
+"weight:600;\">pacman -Ss </span><span style=\" font-weight:600; font-"
+"style:italic;\">keyword</span> to search through the repos, and <span "
+"style=\" font-weight:600;\">sudo pacman -S </span><span style=\" font-"
+"weight:600; font-style:italic;\">package</span> to install "
+"packages.</p><p>Pacman does not have any sort of graphical interface, so "
+"another small app, spun, was created to provide update notifications. When "
+"updates are available, spun will show a notification in your system tray. "
+"</p></body></html>"
 msgstr ""
 
 #: .tmp/ui_scrPackage.py:147
@@ -324,8 +325,8 @@ msgid ""
 "<html><head/><body><p>The <span style=\" font-weight:600;\">clicking "
 "behavior</span> defines how many times you want to click to open files and "
 "folders. If you are <span style=\" font-weight:600;\">left handed</span>, "
-"you may prefer to swap the left and right buttons of your pointing device.</"
-"p></body></html>"
+"you may prefer to swap the left and right buttons of your pointing "
+"device.</p></body></html>"
 msgstr ""
 
 #: .tmp/ui_scrMouse.py:215
@@ -382,9 +383,9 @@ msgstr ""
 
 #: .tmp/ui_scrSecurity.py:175
 msgid ""
-"<html><head/><body><p>Other security tools provided by Chakra include Tomoyo-"
-"tools, the KDE Wallet, rkhunter, chkrootkit, tiger, and more. Click the "
-"buttons below to learn more about these tools.</p></body></html>"
+"<html><head/><body><p>Other security tools provided by Chakra include "
+"Tomoyo-tools, the KDE Wallet, rkhunter, chkrootkit, tiger, and more. Click "
+"the buttons below to learn more about these tools.</p></body></html>"
 msgstr ""
 
 #: .tmp/ui_scrSecurity.py:176
@@ -392,11 +393,13 @@ msgid "ClamAV: Detect and remove malware"
 msgstr ""
 
 #: .tmp/ui_scrSecurity.py:177
-msgid "Tomoyo-tools: A Mandatory Access Control (MAC) implementation for Linux"
+msgid ""
+"Tomoyo-tools: A Mandatory Access Control (MAC) implementation for Linux"
 msgstr ""
 
 #: .tmp/ui_scrSecurity.py:178
-msgid "KDE Wallet Manager: Protect and encrypt passwords and other information"
+msgid ""
+"KDE Wallet Manager: Protect and encrypt passwords and other information"
 msgstr ""
 
 #: .tmp/ui_scrSecurity.py:179
@@ -411,14 +414,14 @@ msgstr ""
 #: .tmp/ui_scrSecurity.py:181
 msgid ""
 "<html><head/><body><p>Finally, Chakra also provides a graphical tool to "
-"configure the system firewall. Just click on &quot;Firewall&quot; in the KDE "
-"System Settings.</p></body></html>"
+"configure the system firewall. Just click on &quot;Firewall&quot; in the KDE"
+" System Settings.</p></body></html>"
 msgstr ""
 
 #: .tmp/ui_scrSecurity.py:182
 msgid ""
-"<html><head/><body><p>Security is a process, not a product, and no operating "
-"system can realistically claim to be perfectly secure. It is up to you to "
+"<html><head/><body><p>Security is a process, not a product, and no operating"
+" system can realistically claim to be perfectly secure. It is up to you to "
 "make sure you keep your system up to date, and follow best security "
 "practices. However, Chakra does provide a few tools to help you keep your "
 "system safe.</p></body></html>"
@@ -456,8 +459,8 @@ msgstr ""
 msgid ""
 "<html><head/><body><p>By default Chakra doesn't create any special folders "
 "in the user's home directory, as Chakra leaves these kind of choices up to "
-"the user. However, in this screen we give you the ability to create the most "
-"commonly used folders.</p></body></html>"
+"the user. However, in this screen we give you the ability to create the most"
+" commonly used folders.</p></body></html>"
 msgstr ""
 
 #: .tmp/ui_scrFolder.py:162 .tmp/scrFolder.py:30
@@ -495,16 +498,17 @@ msgstr ""
 
 #: .tmp/ui_scrWelcome.py:89
 msgid ""
-"<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span> brings "
-"a ground-up Linux distribution, a free software showcase project created by "
-"a bunch of people who like the KISS principles and the elegance of the "
-"Plasma Desktop, and a bundlesystem to support well known GTK applications."
-"<br/><br/>Our main goal is provide a fast, user-friendly and extremely "
-"powerful Live CD and Linux distribution, specially crafted for the award "
-"winning KDE Software Compilation and the beautiful Plasma desktop.<br/><br/"
-"><span style=\" font-weight:600;\">Kapudan</span> will help you personalize "
-"your Chakra workspace easily and quickly. Just click <span style=\" font-"
-"weight:600;\">next</span> when you are ready to begin.</p></body></html>"
+"<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span> brings"
+" a ground-up Linux distribution, a free software showcase project created by"
+" a bunch of people who like the KISS principles and the elegance of the "
+"Plasma Desktop, and a bundlesystem to support well known GTK "
+"applications.<br/><br/>Our main goal is provide a fast, user-friendly and "
+"extremely powerful Live CD and Linux distribution, specially crafted for the"
+" award winning KDE Software Compilation and the beautiful Plasma "
+"desktop.<br/><br/><span style=\" font-weight:600;\">Kapudan</span> will help"
+" you personalize your Chakra workspace easily and quickly. Just click <span "
+"style=\" font-weight:600;\">next</span> when you are ready to "
+"begin.</p></body></html>"
 msgstr ""
 
 #: .tmp/ui_scrKeyboard.py:103
@@ -526,8 +530,8 @@ msgstr ""
 #: .tmp/ui_scrWallpaper.py:141
 msgid ""
 "<html><head/><body><p>Choose your favorite wallpaper for your Chakra "
-"desktop. Don't forget to check out <span style=\" font-weight:600;\">Desktop "
-"Settings</span> to download cool new wallpapers.</p></body></html>"
+"desktop. Don't forget to check out <span style=\" font-weight:600;\">Desktop"
+" Settings</span> to download cool new wallpapers.</p></body></html>"
 msgstr ""
 
 #: .tmp/ui_scrWallpaper.py:142
@@ -566,8 +570,8 @@ msgstr ""
 
 #: .tmp/scrMenu.py:52
 msgid ""
-"Simple menu is an old style menu from KDE 3.<br><br>It is a very lightweight "
-"menu thus it is recommended for slower PC's."
+"Simple menu is an old style menu from KDE 3.<br><br>It is a very lightweight"
+" menu thus it is recommended for slower PC's."
 msgstr ""
 
 #: .tmp/scrMenu.py:56 .tmp/ui_scrMenu.py:137
@@ -628,9 +632,9 @@ msgstr ""
 msgid ""
 "<html><head/><body><p><span style=\" font-weight:600;\">Your settings have "
 "been applied.</span> Now you can start enjoying Chakra, or check out the "
-"following links and applications for more settings, or for help and support. "
-"Don't forget to <span style=\" font-weight:600;\">join our community!</"
-"span></p></body></html>"
+"following links and applications for more settings, or for help and support."
+" Don't forget to <span style=\" font-weight:600;\">join our "
+"community!</span></p></body></html>"
 msgstr ""
 
 #: .tmp/ui_scrGoodbye.py:363 .tmp/ui_scrGoodbye.py:365
@@ -828,21 +832,21 @@ msgstr ""
 #: .tmp/ui_scrServices.py:130
 msgid ""
 "<html><head/><body><p>By default, new installations of Chakra have only a "
-"bare minimum of required services (also called &quot;daemons&quot;) enabled. "
-"Not only does this reflect Chakra's principle of not making decisions for "
+"bare minimum of required services (also called &quot;daemons&quot;) enabled."
+" Not only does this reflect Chakra's principle of not making decisions for "
 "its users, it also adds to a new installation's security, by decreasing the "
 "number of active services that might be vulnerable to an attack.</p><p>If "
-"you wish, you can use the options below to tell some of the more widely used "
-"daemons to start automatically at boot time. To enable any service you would "
-"like to start on bootup, you can run <span style=\" font-weight:600;\">sudo "
-"systemctl enable </span><span style=\" font-weight:600; font-style:italic;"
-"\">daemon-name</span>. Respectively, run <span style=\" font-weight:600;"
-"\">sudo systemctl disable </span><span style=\" font-weight:600; font-style:"
-"italic;\">daemon-name</span> to disable it. Or, if you just want to start "
-"daemons manually, try <span style=\" font-weight:600;\">sudo systemctl start "
-"</span><span style=\" font-weight:600; font-style:italic;\">daemon-name</"
-"span>. (Eg, <span style=\" font-weight:600;\">sudo systemctl start cups</"
-"span>).</p></body></html>"
+"you wish, you can use the options below to tell some of the more widely used"
+" daemons to start automatically at boot time. To enable any service you "
+"would like to start on bootup, you can run <span style=\" font-"
+"weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; "
+"font-style:italic;\">daemon-name</span>. Respectively, run <span style=\" "
+"font-weight:600;\">sudo systemctl disable </span><span style=\" font-"
+"weight:600; font-style:italic;\">daemon-name</span> to disable it. Or, if "
+"you just want to start daemons manually, try <span style=\" font-"
+"weight:600;\">sudo systemctl start </span><span style=\" font-weight:600; "
+"font-style:italic;\">daemon-name</span>. (Eg, <span style=\" font-"
+"weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
 msgstr ""
 
 #: .tmp/ui_scrServices.py:131
@@ -854,8 +858,8 @@ msgid ""
 "<html><head/><body><p>This screen helps you set your <span style=\" font-"
 "weight:600;\">user picture</span>. You can either choose an image from a "
 "file, or you can capture an image from your camera, if you have one. Select "
-"an option from the <span style=\" font-weight:600;\">options</span> menu.</"
-"p></body></html>"
+"an option from the <span style=\" font-weight:600;\">options</span> "
+"menu.</p></body></html>"
 msgstr ""
 
 #: .tmp/ui_scrAvatar.py:258
