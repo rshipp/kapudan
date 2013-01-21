@@ -5,15 +5,15 @@
 # Translators:
 # Leo Ricupero <leoricupero@gmail.com>, 2012.
 # Lorenzo Porta <cybermight.gm@gmail.com>, 2012.
-# Luca Giambonini <gluca86@gmail.com>, 2012.
+# Luca Giambonini <gluca86@gmail.com>, 2012-2013.
 #   <yuri.bongiorno@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Chakra Project\n"
 "Report-Msgid-Bugs-To: http://chakra-project.org/bugs/\n"
 "POT-Creation-Date: 2013-01-20 13:44+0100\n"
-"PO-Revision-Date: 2013-01-20 12:46+0000\n"
-"Last-Translator: Manuel Tortosa <manutortosa@chakra-project.org>\n"
+"PO-Revision-Date: 2013-01-20 13:37+0000\n"
+"Last-Translator: Luca Giambonini <gluca86@gmail.com>\n"
 "Language-Team: Italian (http://www.transifex.com/projects/p/chakra-project/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,7 +55,7 @@ msgid ""
 "summary of the settings you want to apply. Click <span style=\" font-"
 "weight:600;\">Apply</span> if they look good, or go back and make more "
 "changes. </p></body></html>"
-msgstr "<html><head/><body><p>Hai completato con successo tutte le fasi. Ecco un riepilogo delle impostazioni che si desidera applicare. Premere su <span style=\" font-weight:600;\">Applica</span> se sembrano corrette o tornare indietro e apportare ulteriori modifiche. </p></body></html>"
+msgstr "<html><head/><body><p>Hai completato con successo tutte le fasi. Ecco un riepilogo delle impostazioni che si desidera applicare. Premere su <span style=\" font-weight:600;\">Applica</span> se sembrano corrette o tornare indietro ed apportare ulteriori modifiche. </p></body></html>"
 
 #: .tmp/ui_scrSummary.py:96
 msgid "The following settings will be applied"
@@ -298,7 +298,7 @@ msgstr "Temi"
 msgid ""
 "Choose your favorite theme and desktop type. Customize Chakra with colorful "
 "styles and themes."
-msgstr "Scegli il tema preferito ed il tipo di desktop. Personalizza Chakra con gli stili e i temi colorati."
+msgstr "Scegli il tuo tema preferito ed il tipo di desktop. Personalizza Chakra con stili e temi colorati."
 
 #: .tmp/ui_scrStyle.py:182
 msgid "KDE Themes"
@@ -513,7 +513,7 @@ msgid ""
 " you personalize your Chakra workspace easily and quickly. Just click <span "
 "style=\" font-weight:600;\">next</span> when you are ready to "
 "begin.</p></body></html>"
-msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span> è una nuova distribuzione Linux, una vetrina di software libero creata da un gruppo di persone a cui piacciono i principi \"KISS\" e l'eleganza del desktop Plasma comprende anche un sistema di bundle per supportare applicazioni GTK+ molto popolari.<br/><br/>Il nostro obiettivo principale è fornire un Live CD ed una distribuzione Linux veloce, facile da usare ed estremamente potente, appositamente predisposto per KDE Software Compilation e il stupendo desktop Plasma.<br/><br/><span style=\" font-weight:600;\">Kapudan</span> ti aiuterà a personalizzare la tua area di lavoro di Chakra facilmente e rapidamente. Premi <span style=\" font-weight:600;\">avanti</span> quando sei pronto ad iniziare.</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span> è una nuova distribuzione Linux, una vetrina di software libero creata da un gruppo di persone a cui piacciono i principi \"KISS\" e l'eleganza del desktop Plasma. Comprende anche un sistema di bundle per supportare applicazioni GTK+ molto popolari.<br/><br/>Il nostro obiettivo principale è fornire un Live CD ed una distribuzione Linux veloce, facile da usare ed estremamente potente, appositamente predisposta per KDE Software Compilation e il stupendo desktop Plasma.<br/><br/><span style=\" font-weight:600;\">Kapudan</span> ti aiuterà a personalizzare la tua area di lavoro di Chakra facilmente e rapidamente. Premi <span style=\" font-weight:600;\">avanti</span> quando sei pronto ad iniziare.</p></body></html>"
 
 #: .tmp/ui_scrKeyboard.py:103
 msgid ""
@@ -536,7 +536,7 @@ msgid ""
 "<html><head/><body><p>Choose your favorite wallpaper for your Chakra "
 "desktop. Don't forget to check out <span style=\" font-weight:600;\">Desktop"
 " Settings</span> to download cool new wallpapers.</p></body></html>"
-msgstr "<html><head/><body><p>Scegliere lo sfondo preferito per il desktop di Chakra. Non dimenticare di dare un'occhiata alle <span style=\" font-weight:600;\">Impostazioni Desktop</span> per scaricare nuovi sfondi.</p></body></html>"
+msgstr "<html><head/><body><p>Scegli lo sfondo preferito per il desktop di Chakra. Non dimenticare di dare un'occhiata alle <span style=\" font-weight:600;\">Impostazioni Desktop</span> per scaricare nuovi sfondi.</p></body></html>"
 
 #: .tmp/ui_scrWallpaper.py:142
 msgid "Wallpapers"
@@ -590,11 +590,11 @@ msgstr "Lancelot è un menu avanzato e altamente personalizzabile per Chakra.<br
 
 #: .tmp/scrMenu.py:62 .tmp/ui_scrMenu.py:138
 msgid "Homerun Menu"
-msgstr ""
+msgstr "Menu Homerun"
 
 #: .tmp/scrMenu.py:64
 msgid "Homerun is a full screen launcher with content organized in tabs."
-msgstr ""
+msgstr "Homerun è un avviatore a schermo intero con contenuto organizzato in schede."
 
 #: .tmp/ui_wallpaperItem.py:83
 msgid "wallPaperName"
@@ -639,7 +639,7 @@ msgid ""
 "following links and applications for more settings, or for help and support."
 " Don't forget to <span style=\" font-weight:600;\">join our "
 "community!</span></p></body></html>"
-msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Le impostazioni sono state applicate.</span> Ora potete divertirvi con Chakra. o dare un'occhiata ai seguenti link e applicazioni per ulteriori impostazioni, o per aiuto e supporto. Non dimenticare di <span style=\" font-weight:600;\">far parte della nostra comunità!</span></p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Le impostazioni sono state applicate.</span> Ora potete divertirvi con Chakra, o dare un'occhiata ai seguenti link e applicazioni per ulteriori impostazioni, o per aiuto e supporto. Non dimenticare di <span style=\" font-weight:600;\">far parte della nostra comunità!</span></p></body></html>"
 
 #: .tmp/ui_scrGoodbye.py:363 .tmp/ui_scrGoodbye.py:365
 msgid "System Settings"
@@ -813,13 +813,13 @@ msgstr "Errore"
 
 #: .tmp/scrSummary.py:173
 msgid "Cannot restart plasma-desktop. Kapudan will now shut down."
-msgstr "Impossibile riavviare plasma-desktop. Kapudan ora si chiude."
+msgstr "Impossibile riavviare plasma-desktop. Kapudan sarà chiuso."
 
 #: .tmp/ui_scrMenu.py:134
 msgid ""
 "You can also customize your <b>KDE menu</b> as you like. Please choose one "
 "from the following styles."
-msgstr "È possibile personalizzare il <b>menu KDE</b>. Scegliere uno degli stili seguenti."
+msgstr "È possibile personalizzare il <b>menu di KDE</b>. Scegli uno dei seguenti stili."
 
 #: .tmp/ui_scrMenu.py:139
 msgid "Sample"
@@ -851,7 +851,7 @@ msgid ""
 "weight:600;\">sudo systemctl start </span><span style=\" font-weight:600; "
 "font-style:italic;\">daemon-name</span>. (Eg, <span style=\" font-"
 "weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
-msgstr "<html><head/><body><p>Per impostazione predefinita, le nuove installazioni di Chakra possiedono solo il minimo indispensabile di servizi richiesti (chiamati anche \"demoni\") abilitati. Non solo questo riflette il principio di Chakra di non prendere decisioni per i suoi utenti, ma aggiunge anche sicurezza alla nuova installazione, diminuendo il numero di servizi attivi che potrebbero essere vulnerabili ad un attacco.</p><p>Se lo si desidera, è possibile utilizzare le opzioni qui sotto per indicare ad alcuni dei demoni più utilizzati di avviarsi in automatico al momento del boot. Per abilitare qualsiasi servizio che si desidera venga avviato al boot, è possibile eseguire <span style=\" font-weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; font-style:italic;\">nome-del-demone</span>. Analogamente, eseguire <span style=\" font-weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; font-style:italic;\">nome-del-demone</span> per disabilitarlo. Oppure, se si vuole semplicemente avviare i demoni manualmente, provare <span style=\" font-weight:600;\">sudo systemctl start </span><span style=\" font-weight:600; font-style:italic;\">nome-del-demone</span>. (Es. <span style=\" font-weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
+msgstr "<html><head/><body><p>Per impostazione predefinita, le nuove installazioni di Chakra possiedono solo il minimo indispensabile di servizi richiesti (chiamati anche \"demoni\") abilitati. Non solo questo riflette il principio di Chakra di non prendere decisioni per i suoi utenti, ma aggiunge anche sicurezza alla nuova installazione, diminuendo il numero di servizi attivi che potrebbero essere vulnerabili ad un attacco.</p><p>Se lo si desidera, è possibile utilizzare le opzioni qui sotto per indicare ad alcuni dei demoni più utilizzati di avviarsi in automatico al momento del boot. Per abilitare qualsiasi servizio che si desidera venga avviato al boot, è possibile eseguire <span style=\" font-weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; font-style:italic;\">nome-del-demone</span>. Rispettivamente, eseguire <span style=\" font-weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; font-style:italic;\">nome-del-demone</span> per disabilitarlo. Oppure, se si vuole semplicemente avviare i demoni manualmente, provare <span style=\" font-weight:600;\">sudo systemctl start </span><span style=\" font-weight:600; font-style:italic;\">nome-del-demone</span>. (Es. <span style=\" font-weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
 
 #: .tmp/ui_scrServices.py:131
 msgid "Daemons to start at boot time"
@@ -864,7 +864,7 @@ msgid ""
 "file, or you can capture an image from your camera, if you have one. Select "
 "an option from the <span style=\" font-weight:600;\">options</span> "
 "menu.</p></body></html>"
-msgstr "<html><head/><body><p>Questa schermata consente di impostare l'<span style=\" font-weight:600;\">immagine utente</span>. È possibile scegliere un'immagine da un file, oppure catturare una dalla fotocamera, se ne hai una. Selezione un'opzione dal menu <span style=\" font-weight:600;\">opzioni</span>.</p></body></html>"
+msgstr "<html><head/><body><p>Questa schermata consente di impostare l'<span style=\" font-weight:600;\">immagine utente</span>. È possibile scegliere un'immagine da un file, oppure catturarne una dalla fotocamera, se ne hai una. Seleziona un'opzione dal menu <span style=\" font-weight:600;\">opzioni</span>.</p></body></html>"
 
 #: .tmp/ui_scrAvatar.py:258
 msgid "Options"

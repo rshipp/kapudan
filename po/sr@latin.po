@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Petar Milojević <petar.linog@gmail.com>, 2012.
+# Petar Milojević <petar.linog@gmail.com>, 2012-2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Chakra Project\n"
 "Report-Msgid-Bugs-To: http://chakra-project.org/bugs/\n"
 "POT-Creation-Date: 2013-01-20 13:44+0100\n"
-"PO-Revision-Date: 2013-01-20 12:46+0000\n"
-"Last-Translator: Manuel Tortosa <manutortosa@chakra-project.org>\n"
+"PO-Revision-Date: 2013-01-20 14:27+0000\n"
+"Last-Translator: Petar Milojević <petar.linog@gmail.com>\n"
 "Language-Team: Serbian (Latin) (http://www.transifex.com/projects/p/chakra-project/language/sr@latin/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -587,11 +587,11 @@ msgstr "Lanselot je napredni i veoma prilagodljiv izbornik za Chakru <br><br> Ve
 
 #: .tmp/scrMenu.py:62 .tmp/ui_scrMenu.py:138
 msgid "Homerun Menu"
-msgstr ""
+msgstr "Homerun izbornik"
 
 #: .tmp/scrMenu.py:64
 msgid "Homerun is a full screen launcher with content organized in tabs."
-msgstr ""
+msgstr "Homerun je pokretač čiji je sadržaj organizovan u jezičcima i koji se proteže preko celog ekrana.."
 
 #: .tmp/ui_wallpaperItem.py:83
 msgid "wallPaperName"

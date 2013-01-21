@@ -5,13 +5,14 @@
 # Translators:
 # , 2012.
 #   <blambinneng@gmail.com>, 2012.
+# Blask <blaskyy@gmail.com>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Chakra Project\n"
 "Report-Msgid-Bugs-To: http://chakra-project.org/bugs/\n"
 "POT-Creation-Date: 2013-01-20 13:44+0100\n"
-"PO-Revision-Date: 2013-01-20 12:46+0000\n"
-"Last-Translator: Manuel Tortosa <manutortosa@chakra-project.org>\n"
+"PO-Revision-Date: 2013-01-20 12:53+0000\n"
+"Last-Translator: Blask <blaskyy@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/chakra-project/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -588,11 +589,11 @@ msgstr "Lancelot 是一个 Chakra 的先进并高级可定制的菜单。<br><br
 
 #: .tmp/scrMenu.py:62 .tmp/ui_scrMenu.py:138
 msgid "Homerun Menu"
-msgstr ""
+msgstr "Homerun菜单"
 
 #: .tmp/scrMenu.py:64
 msgid "Homerun is a full screen launcher with content organized in tabs."
-msgstr ""
+msgstr "Homerun是一个用标签来组织内容的全屏启动器。"
 
 #: .tmp/ui_wallpaperItem.py:83
 msgid "wallPaperName"
