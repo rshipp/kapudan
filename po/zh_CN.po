@@ -6,13 +6,14 @@
 # , 2012.
 #   <blambinneng@gmail.com>, 2012.
 # Blask <blaskyy@gmail.com>, 2013.
+# zhnagmin <zm1990s@gmail.com>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Chakra Project\n"
 "Report-Msgid-Bugs-To: http://chakra-project.org/bugs/\n"
 "POT-Creation-Date: 2013-01-20 13:44+0100\n"
-"PO-Revision-Date: 2013-01-20 12:53+0000\n"
-"Last-Translator: Blask <blaskyy@gmail.com>\n"
+"PO-Revision-Date: 2013-01-24 06:09+0000\n"
+"Last-Translator: zm1990s <zm1990s@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/chakra-project/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -54,11 +55,11 @@ msgid ""
 "summary of the settings you want to apply. Click <span style=\" font-"
 "weight:600;\">Apply</span> if they look good, or go back and make more "
 "changes. </p></body></html>"
-msgstr "<html><head/><body><p>您已成功完成所有步骤。这里是您想使用的设置摘要。如果看起來没问题，请点击 <span style=\" font-weight:600;\">应用</span>：如果想要再稍做修改，请返回。</p></body></html>"
+msgstr "<html><head/><body><p>您已成功完成所有步骤。这里是您想使用的设置。如果看起来没问题，请点击 <span style=\" font-weight:600;\">应用</span>，如果想要再做修改请返回。</p></body></html>"
 
 #: .tmp/ui_scrSummary.py:96
 msgid "The following settings will be applied"
-msgstr "应用下列设置"
+msgstr "下列设置将被应用"
 
 #: .tmp/scrWallpaper.py:37 .tmp/ui_scrWallpaper.py:140
 msgid "Wallpaper"
@@ -74,7 +75,7 @@ msgstr "软件包"
 
 #: .tmp/ui_scrPackage.py:143
 msgid "Check for updates automatically every"
-msgstr "自动检查是否有更新每隔"
+msgstr "每天自动检查更新"
 
 #: .tmp/ui_scrPackage.py:144
 msgid " minutes"
@@ -82,7 +83,7 @@ msgstr "分钟"
 
 #: .tmp/ui_scrPackage.py:145
 msgid "Use audio along with the visual notification"
-msgstr "使用音效以及视觉通知"
+msgstr "显示通知时播放声音"
 
 #: .tmp/ui_scrPackage.py:146
 msgid ""
@@ -99,11 +100,11 @@ msgid ""
 "another small app, spun, was created to provide update notifications. When "
 "updates are available, spun will show a notification in your system tray. "
 "</p></body></html>"
-msgstr "<html><head/><body><p>在Chakra中要安装或移除程序, 请使用command-line模式, <a href=\"http://chakra-linux.org/wiki/index.php/Pacman\"><span style=\" text-decoration: underline; color:#0057ae;\">pacman</span></a>. 你可以执行 <span style=\" font-weight:600;\">sudo pacman -Syu</span> 来更新系統, <span style=\" font-weight:600;\">pacman -Ss </span><span style=\" font-weight:600; font-style:italic;\">关键字</span> 可以通過 repos 来搜索, 而 <span style=\" font-weight:600;\">sudo pacman -S </span><span style=\" font-weight:600; font-style:italic;\">包名</span> 可以安装软件包.</p><p>Pacman 并没有任何图形介面, 所以另外一个小程序 spun 则是被创造出來做更新通知的, 当软件包可以被更新, spun将会在你的系统列出现提醒通知. </p></body></html>"
+msgstr "<html><head/><body><p>要在Chakra中安装或移除程序, 请使用command-line（命令行）模式, <a href=\"http://chakra-linux.org/wiki/index.php/Pacman\"><span style=\" text-decoration: underline; color:#0057ae;\">pacman</span></a>. 你可以执行 <span style=\" font-weight:600;\">sudo pacman -Syu</span> 来更新系統。 <span style=\" font-weight:600;\">pacman -Ss </span><span style=\" font-weight:600; font-style:italic;\">关键字</span> 搜索。 <span style=\" font-weight:600;\">sudo pacman -S </span><span style=\" font-weight:600; font-style:italic;\">软件包名</span> 安装软件包。</p><p>Pacman没有任何图形介面, 所以用另外一个小程序 spun 来显示更新提示, 当软件包可以被更新, spun将会在你系统的通知栏里提醒更新系统. </p></body></html>"
 
 #: .tmp/ui_scrPackage.py:147
 msgid "Updates"
-msgstr "更新"
+msgstr "更新内容"
 
 #: .tmp/kapudan.desktop.in.h:1 .tmp/ui_kapudan.py:368
 msgid "Kapudan"
@@ -127,11 +128,11 @@ msgstr "土耳其文 F"
 
 #: .tmp/localedata.py:64
 msgid "English"
-msgstr "英文"
+msgstr "英语"
 
 #: .tmp/localedata.py:69
 msgid "English GB"
-msgstr "英文 (英国)"
+msgstr "英语（国标）"
 
 #: .tmp/localedata.py:75
 msgid "Afrikaans"
@@ -330,7 +331,7 @@ msgid ""
 "folders. If you are <span style=\" font-weight:600;\">left handed</span>, "
 "you may prefer to swap the left and right buttons of your pointing "
 "device.</p></body></html>"
-msgstr "<html><head/><body><p>自定义<span style=\" font-weight:600;\">鼠标点击行为</span>, 你想要自定义点击次数来打开文件和文件夹呢? 如果你是 <span style=\" font-weight:600;\">左手</span>, 你可能会想要交换鼠标左右键的位置.</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:600;\">鼠标点击行为</span>用来自定义打开文件和文件夹的点击次数。 如果你 <span style=\" font-weight:600;\">惯用左手</span>, 你可能会想要交换鼠标左右键的位置.</p></body></html>"
 
 #: .tmp/ui_scrMouse.py:215
 msgid "Clicking Behaviour"
@@ -338,7 +339,7 @@ msgstr "点击行为"
 
 #: .tmp/ui_scrMouse.py:216
 msgid "Dou&ble-click to open files and folders"
-msgstr "双击打开文件和文件夹(&B)"
+msgstr "双击打开文件和文件夹"
 
 #: .tmp/ui_scrMouse.py:217
 msgid "Single-click to open files and folders"
@@ -389,7 +390,7 @@ msgid ""
 "<html><head/><body><p>Other security tools provided by Chakra include "
 "Tomoyo-tools, the KDE Wallet, rkhunter, chkrootkit, tiger, and more. Click "
 "the buttons below to learn more about these tools.</p></body></html>"
-msgstr "<html><head/><body><p>Chakra 还有提供其他的安全性工具, 包括 Tomoyo-tools, KDE Wallet, rkhunter, chkrootkit, tiger 等等. 按下下方的按钮來学习更多相关的事物.</p></body></html>"
+msgstr "<html><head/><body><p>Chakra 还有提供其他的安全性工具, 包括 Tomoyo-tools, KDE Wallet, rkhunter, chkrootkit, tiger 等等. 按下下方的按钮了解更多.</p></body></html>"
 
 #: .tmp/ui_scrSecurity.py:176
 msgid "ClamAV: Detect and remove malware"
@@ -398,7 +399,7 @@ msgstr "ClamAV：监测与移除恶意软件"
 #: .tmp/ui_scrSecurity.py:177
 msgid ""
 "Tomoyo-tools: A Mandatory Access Control (MAC) implementation for Linux"
-msgstr "Tomoyo 工具：Linux 的强制访问控制 (MAC) 实现"
+msgstr "Tomoyo-tools：Linux 下的强制访问控制 (MAC)"
 
 #: .tmp/ui_scrSecurity.py:178
 msgid ""
@@ -408,7 +409,7 @@ msgstr "KDE 钱包管理器: 保护和加密密码及其他信息"
 #: .tmp/ui_scrSecurity.py:179
 msgid ""
 "chkrootkit and rkhunter: Check for the presence of rootkits on your system"
-msgstr "chkrootkit 与 rkhunter：检查您的系统上是否有 rootkit 存在。"
+msgstr "chkrootkit 与 rkhunter：检查您的系统上是否有后门软件存在。"
 
 #: .tmp/ui_scrSecurity.py:180
 msgid "Tiger: A host-based intrusion detection and auditing tool"
@@ -419,7 +420,7 @@ msgid ""
 "<html><head/><body><p>Finally, Chakra also provides a graphical tool to "
 "configure the system firewall. Just click on &quot;Firewall&quot; in the KDE"
 " System Settings.</p></body></html>"
-msgstr "<html><head/><body><p>最后, Chakra 也提供一个图形介面的防火墙工具. 只要在KDE的系统设置中点击 &quot;Firewall&quot; .</p></body></html>"
+msgstr "<html><head/><body><p>最后, Chakra 也提供一个有图形介面的防火墙配置工具. 只需在KDE的系统设置中点击 \"防火墙\" .</p></body></html>"
 
 #: .tmp/ui_scrSecurity.py:182
 msgid ""
@@ -428,7 +429,7 @@ msgid ""
 "make sure you keep your system up to date, and follow best security "
 "practices. However, Chakra does provide a few tools to help you keep your "
 "system safe.</p></body></html>"
-msgstr "<html><head/><body><p>安全是一个过程, 而不是一个产品, 事实上没有任何操作系统可以算得上是完全安全的. 你可以自己決定, 你是否需要跟上最新的更新, 并遵循最佳的安全政策. 然而, Chakra 提供了一些工具, 帮助你保持你的系统安全性.</p></body></html>"
+msgstr "<html><head/><body><p>安全是一个过程, 不是一个结果, 事实上没有任何操作系统可以算得上是完全安全的. 您可以決定是否要一直更新您的系统, 并遵循最佳的安全策略. 不管怎样, Chakra 也还提供了一些工具, 帮助你保持你的系统安全性.</p></body></html>"
 
 #: .tmp/ui_scrSecurity.py:183
 msgid "Security Tools"
@@ -481,7 +482,7 @@ msgstr "启用/禁用 Strigi 桌面搜索"
 #: .tmp/ui_scrStyleItem.py:79 .tmp/ui_wallpaperItem.py:82
 #: .tmp/ui_scrAvatar.py:256
 msgid "Form"
-msgstr "格式"
+msgstr "表格"
 
 #: .tmp/ui_scrStyleItem.py:80
 msgid "styleName"
@@ -519,7 +520,7 @@ msgid ""
 "<html><head/><body><p>Kapudan tries to automatically select the best "
 "keyboard layout according to your system language. If you want to use "
 "another layout, just make a selection below.</p></body></html>"
-msgstr "<html><head/><body><p>kapudan 试图根据您的系统语言自动选择最佳的键盘布局. 如果你想使用另外一种布局, 你也可以另外做出选择.</p></body></html>"
+msgstr "<html><head/><body><p>kapudan 试图根据您的系统语言自动选择最佳的键盘布局. 如果你想使用另外一种布局, 你也可以在下方选择.</p></body></html>"
 
 #: .tmp/ui_scrKeyboard.py:104
 msgid "Test area:"
@@ -535,7 +536,7 @@ msgid ""
 "<html><head/><body><p>Choose your favorite wallpaper for your Chakra "
 "desktop. Don't forget to check out <span style=\" font-weight:600;\">Desktop"
 " Settings</span> to download cool new wallpapers.</p></body></html>"
-msgstr "<html><head/><body><p>为您的 Chakra 桌面选择您喜爱的壁纸。不要忘了看看 <span style=\" font-weight:600;\">桌面设置</span> 来下载酷炫的新壁纸。</p></body></html>"
+msgstr "<html><head/><body><p>为您的 Chakra 桌面选择您喜爱的壁纸。请查看 <span style=\" font-weight:600;\">桌面设置</span> 下载酷炫的新壁纸。</p></body></html>"
 
 #: .tmp/ui_scrWallpaper.py:142
 msgid "Wallpapers"
@@ -559,23 +560,23 @@ msgstr "选择菜单风格"
 
 #: .tmp/scrMenu.py:44 .tmp/ui_scrMenu.py:135
 msgid "Kick-off Menu"
-msgstr "Kick-off 菜单"
+msgstr "启动菜单"
 
 #: .tmp/scrMenu.py:46
 msgid ""
 "Kick-off menu is the default menu of Chakra.<br><br>The program shortcuts "
 "are easy to access and well organized."
-msgstr "Kick-off 菜单是 Chakra 的预设菜单.<br><br>程序的快捷键很容易访问和组织良好."
+msgstr "启动菜单是Chakra的默认菜单，<br><br>这个程序的快捷方式易用访问，组织良好"
 
 #: .tmp/scrMenu.py:50 .tmp/ui_scrMenu.py:136
 msgid "Simple Menu"
-msgstr "简单菜单"
+msgstr "精简菜单"
 
 #: .tmp/scrMenu.py:52
 msgid ""
 "Simple menu is an old style menu from KDE 3.<br><br>It is a very lightweight"
 " menu thus it is recommended for slower PC's."
-msgstr "Simple 菜单是 KDE 3 旧式风格的菜单.<br><br>这是非常轻量的菜单,适合速度较慢的电脑."
+msgstr "精简菜单是 KDE 3 旧式风格的菜单.<br><br>这是非常轻量的菜单,适合速度较慢的电脑."
 
 #: .tmp/scrMenu.py:56 .tmp/ui_scrMenu.py:137
 msgid "Lancelot Menu"
@@ -585,7 +586,7 @@ msgstr "Lancelot 菜单"
 msgid ""
 "Lancelot is an advanced and highly customizable menu for Chakra.<br><br>The "
 "program shortcuts are easy to access and well organized."
-msgstr "Lancelot 是一个 Chakra 的先进并高级可定制的菜单。<br><br>程序的快捷键很容易访问和组织良好。"
+msgstr "Lancelot 是一个高度可定制的菜单，Chakra 可用。<br><br>程序的快捷方式易于访问，组织良好。"
 
 #: .tmp/scrMenu.py:62 .tmp/ui_scrMenu.py:138
 msgid "Homerun Menu"
@@ -617,11 +618,11 @@ msgstr "配置鼠标行为"
 
 #: .tmp/scrMouse.py:144
 msgid "Left Handed"
-msgstr "左手"
+msgstr "惯用左手"
 
 #: .tmp/scrMouse.py:144
 msgid "Right Handed"
-msgstr "右手"
+msgstr "惯用右手"
 
 #: .tmp/scrMouse.py:145
 msgid "Single Click "
@@ -638,7 +639,7 @@ msgid ""
 "following links and applications for more settings, or for help and support."
 " Don't forget to <span style=\" font-weight:600;\">join our "
 "community!</span></p></body></html>"
-msgstr "<html><head/><body><p><span style=\" font-weight:600;\">你的设置已经生效.</span> 现在你可以开始享受使用 Chakra, 或者你也可以查看下方的链接与应用程序来了解更多的设置或是相关的帮助. 別忘了 <span style=\" font-weight:600;\">加入我们的社区!</span></p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:600;\">你的设置已经生效.</span> 现在你可以开始使用 Chakra, 或者你也可以查看下方的链接与应用程序来了解更多的设置或是相关的帮助. 別忘了 <span style=\" font-weight:600;\">加入我们的社区!</span></p></body></html>"
 
 #: .tmp/ui_scrGoodbye.py:363 .tmp/ui_scrGoodbye.py:365
 msgid "System Settings"
@@ -648,7 +649,7 @@ msgstr "系统设置"
 msgid ""
 "Configuration tools for Chakra, such as the display settings, firewall, "
 "keyboard layout, user management..."
-msgstr "Chakra 的配置工具，例如显示设置、防火枪、键盘配置、用户管理器..."
+msgstr "Chakra 的配置工具，例如显示设置、防火墙、键盘布局、用户管理器..."
 
 #: .tmp/ui_scrGoodbye.py:366 .tmp/ui_scrGoodbye.py:368
 msgid "Help and Support"
@@ -658,7 +659,7 @@ msgstr "帮助与支持"
 msgid ""
 "Chakra community: mailing lists, chat rooms, Wiki documents, help and "
 "support pages..."
-msgstr "Chakra 社区：邮件列表、聊天室、Wiki 文件、帮助与支持页面..."
+msgstr "Chakra 社区：邮件列表、聊天室、Wiki 文档、帮助与支持页面..."
 
 #: .tmp/ui_scrGoodbye.py:369
 msgid "Using KDE"
@@ -668,7 +669,7 @@ msgstr "使用 KDE"
 msgid ""
 "Learn how to get the most out of KDE, the Plasma desktop, and everything "
 "else Chakra has to offer, in the Chakra Beginner's Guide."
-msgstr "若要学习如何发挥 KDE 的最大功效，像是 Plasma 桌面，以及其他 Chakra 提供的其他功能，请见 Chakra 初学者指引。"
+msgstr "若要学习如何有效地使用 KDE（Plasma桌面）和其他 Chakra 提供的功能，请见 Chakra 初学者指引。"
 
 #: .tmp/ui_scrGoodbye.py:371
 msgid "Beginner's Guide"
@@ -676,7 +677,7 @@ msgstr "初学者指南"
 
 #: .tmp/ui_scrGoodbye.py:372
 msgid "Run Kapudan on system startup?"
-msgstr "系统启动时运行 Kapudan？"
+msgstr "在系统启动时运行 Kapudan？"
 
 #: .tmp/ui_scrSearch.py:110
 msgid ""
@@ -760,7 +761,7 @@ msgstr "你已经启用或停用 spun."
 
 #: .tmp/scrSummary.py:108 .tmp/scrSummary.py:137
 msgid "You have: "
-msgstr "您已："
+msgstr "您有"
 
 #: .tmp/scrSummary.py:110
 msgid "Services Settings"
@@ -776,11 +777,11 @@ msgstr "停用 cups；"
 
 #: .tmp/scrSummary.py:119
 msgid "enabled bluetooth; "
-msgstr "启用 bluetooth；"
+msgstr "启用蓝牙"
 
 #: .tmp/scrSummary.py:122
 msgid "disabled bluetooth; "
-msgstr "停用 bluetooth；"
+msgstr "停用蓝牙"
 
 #: .tmp/scrSummary.py:127 .tmp/scrSummary.py:155
 msgid "You have made no changes."
@@ -792,11 +793,11 @@ msgstr "安全设置"
 
 #: .tmp/scrSummary.py:142
 msgid "enabled ClamAV; "
-msgstr "启用 ClamAV；"
+msgstr "启用 ClamAV（杀毒软件）；"
 
 #: .tmp/scrSummary.py:145
 msgid "disabled ClamAV; "
-msgstr "停用 ClamAV；"
+msgstr "停用 ClamAV（杀毒软件）；"
 
 #: .tmp/scrSummary.py:148
 msgid "enabled the firewall; "
@@ -818,11 +819,11 @@ msgstr "无法重启 plasma-desktop。Kapudan 现在将关闭。"
 msgid ""
 "You can also customize your <b>KDE menu</b> as you like. Please choose one "
 "from the following styles."
-msgstr "您也可以依照您的喜好自定义 <b>KDE 菜单</b>。请选择下列风格之一。"
+msgstr "您也可以依照您的喜好自定义 <b>KDE 菜单</b>。请在下列风格中选择一个。"
 
 #: .tmp/ui_scrMenu.py:139
 msgid "Sample"
-msgstr "简单"
+msgstr "范例"
 
 #: .tmp/ui_scrServices.py:128
 msgid "cups: The Common Unix Printing Service"
@@ -850,7 +851,7 @@ msgid ""
 "weight:600;\">sudo systemctl start </span><span style=\" font-weight:600; "
 "font-style:italic;\">daemon-name</span>. (Eg, <span style=\" font-"
 "weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
-msgstr "<html><head/><body><p>默认情况下，新安装的 Chakra 只安裝最基础的服务（也称为&quot;daemons&quot;）被启动. 这不仅反映出 Chakra 不帮用户做决定的原则, 也增加了安装后的安全性, 减少主动提供的服务可降低被攻击的机会.</p><p>如果你想要在开机时启用任何服务, 你可以使用下方的选项来将服务开启, 你可以执行 <span style=\" font-weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; font-style:italic;\">daemon-name</span>来开启它。然而, 也可以运行 <span style=\" font-weight:600;\">sudo systemctl disable </span><span style=\" font-weight:600; font-style:italic;\">daemon-name</span> 来关闭它。如果你只是想在当前状态下手工运行进程 ，尝试运行 <span style=\" font-weight:600;\">sudo systemctl start </span><span style=\" font-weight:600; font-style:italic;\">daemon-name</span>。(例如， <span style=\" font-weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
+msgstr "<html><head/><body><p>默认情况下，新安装的 Chakra 只启用最基础的服务（也称为&quot;守护进程&quot;）. 这不仅反映出 Chakra 不帮用户做决定的原则, 也增加了安装后的安全性, 因为减少活动的服务可降低被攻击的机会.</p><p>如果你想要在开机时启用任何服务, 你可以使用下方的选项来将服务开启, 执行 <span style=\" font-weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; font-style:italic;\">daemon-name（服务名称）</span>来开启它。相反，运行 <span style=\" font-weight:600;\">sudo systemctl disable </span><span style=\" font-weight:600; font-style:italic;\">daemon-name（服务名称）</span> 来关闭它。如果你想现在手动启动进程 ，运行 <span style=\" font-weight:600;\">sudo systemctl start </span><span style=\" font-weight:600; font-style:italic;\">daemon-name（服务名称）</span>。(例如， <span style=\" font-weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
 
 #: .tmp/ui_scrServices.py:131
 msgid "Daemons to start at boot time"
@@ -863,7 +864,7 @@ msgid ""
 "file, or you can capture an image from your camera, if you have one. Select "
 "an option from the <span style=\" font-weight:600;\">options</span> "
 "menu.</p></body></html>"
-msgstr "<html><head/><body><p>这个画面将帮助你设置你的 <span style=\" font-weight:600;\">用户头像</span>. 你可以选择相册, 如果你有摄像头, 你也可以照一张相. 从 <span style=\" font-weight:600;\">选项</span> 菜单选择一个选项.</p></body></html>"
+msgstr "<html><head/><body><p>这个画面将帮助你设置你的 <span style=\" font-weight:600;\">用户头像</span>. 你可以选择本地图片, 或者从摄像头获取. 从 <span style=\" font-weight:600;\">选项</span> 菜单</p>选择一个选项</body></html>"
 
 #: .tmp/ui_scrAvatar.py:258
 msgid "Options"
@@ -875,8 +876,8 @@ msgstr "选择一张图片"
 
 #: .tmp/ui_scrAvatar.py:260
 msgid "Capture"
-msgstr "捕捉"
+msgstr "捕获"
 
 #: .tmp/ui_scrAvatar.py:261
 msgid "Recapture"
-msgstr "重新捕捉"
+msgstr "重新捕获"

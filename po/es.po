@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Enrique Bravo <sombrahelicoptero@gmail.com>, 2013.
 # Pablo  <beticuchomalo@gmail.com>, 2012.
 # Sombra Helicóptero <sombrahelicoptero@gmail.com>, 2012-2013.
 msgid ""
@@ -10,7 +11,7 @@ msgstr ""
 "Project-Id-Version: The Chakra Project\n"
 "Report-Msgid-Bugs-To: http://chakra-project.org/bugs/\n"
 "POT-Creation-Date: 2013-01-20 13:44+0100\n"
-"PO-Revision-Date: 2013-01-20 20:01+0000\n"
+"PO-Revision-Date: 2013-01-23 14:52+0000\n"
 "Last-Translator: Sombra Helicóptero <sombrahelicoptero@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/chakra-project/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -33,7 +34,7 @@ msgstr "Imagen de usuario"
 
 #: .tmp/scrAvatar.py:51
 msgid "Create Your User Picture"
-msgstr "Crea Tu Imagen de Usuario"
+msgstr "Cree Su Imagen de Usuario"
 
 #: .tmp/scrSecurity.py:33 .tmp/ui_scrSecurity.py:172
 msgid "Security"
@@ -41,7 +42,7 @@ msgstr "Seguridad"
 
 #: .tmp/scrSecurity.py:34
 msgid "Keep your system secure"
-msgstr "Mantén tu sistema seguro"
+msgstr "Mantenga su sistema seguro"
 
 #: .tmp/ui_scrSummary.py:94 .tmp/scrSummary.py:43
 msgid "Summary"
@@ -53,7 +54,7 @@ msgid ""
 "summary of the settings you want to apply. Click <span style=\" font-"
 "weight:600;\">Apply</span> if they look good, or go back and make more "
 "changes. </p></body></html>"
-msgstr "<html><head/><body><p>Has finalizado con éxito todos los pasos. Aquí tienes un resumen de la configuración que deseas aplicar. Haz clic en <span style=\" font-weight:600;\">Aplicar</span> si te parecen bien o vuelve y haz más cambios. </p></body></html>"
+msgstr "<html><head/><body><p>Ha finalizado con éxito todos los pasos. Aquí tiene un resumen de la configuración que desea aplicar. Haga clic en <span style=\" font-weight:600;\">Aplicar</span> si le parece bien o vuelva y haga más cambios. </p></body></html>"
 
 #: .tmp/ui_scrSummary.py:96
 msgid "The following settings will be applied"
@@ -65,7 +66,7 @@ msgstr "Fondo de escritorio"
 
 #: .tmp/scrWallpaper.py:38
 msgid "Choose a Wallpaper"
-msgstr "Elige un Fondo de escritorio"
+msgstr "Elija un Fondo de escritorio"
 
 #: .tmp/ui_scrPackage.py:142 .tmp/scrPackage.py:33
 msgid "Packages"
@@ -98,7 +99,7 @@ msgid ""
 "another small app, spun, was created to provide update notifications. When "
 "updates are available, spun will show a notification in your system tray. "
 "</p></body></html>"
-msgstr "<html><head/><body><p>Para instalar y eliminar programas en Chakra usa el script de línea de comandos, <a href=\"http://chakra-linux.org/wiki/index.php/Pacman\"><span style=\" text-decoration: underline; color:#0057ae;\">pacman</span></a>. Puedes ejecutar <span style=\" font-weight:600;\">sudo pacman -Syu</span> para actualizar, <span style=\" font-weight:600;\">pacman -Ss </span><span style=\" font-weight:600; font-style:italic;\">palabra clave</span> para buscar en los repositorios, y <span style=\" font-weight:600;\">sudo pacman -S </span><span style=\" font-weight:600; font-style:italic;\">paquete</span> para instalar paquetes.</p><p>Pacman no tiene una interfaz gráfica, de modo que se creó otra pequeña utilidad, spun, que proporciona notificaciones sobre actualizaciones. Cuando haya actualizaciones disponibles, spun te mostrará una notificación en la bandeja del sistema. </p></body></html>"
+msgstr "<html><head/><body><p>Para instalar y eliminar programas en Chakra use el script de línea de comandos, <a href=\"http://chakra-linux.org/wiki/index.php/Pacman\"><span style=\" text-decoration: underline; color:#0057ae;\">pacman</span></a>. Puede ejecutar <span style=\" font-weight:600;\">sudo pacman -Syu</span> para actualizar, <span style=\" font-weight:600;\">pacman -Ss </span><span style=\" font-weight:600; font-style:italic;\">palabra clave</span> para buscar en los repositorios, y <span style=\" font-weight:600;\">sudo pacman -S </span><span style=\" font-weight:600; font-style:italic;\">paquete</span> para instalar paquetes.</p><p>Pacman no tiene una interfaz gráfica, de modo que se ha creado otra pequeña utilidad, spun, que proporciona notificaciones sobre actualizaciones. Cuando haya actualizaciones disponibles, spun le mostrará una notificación en la bandeja del sistema. </p></body></html>"
 
 #: .tmp/ui_scrPackage.py:147
 msgid "Updates"
@@ -296,7 +297,7 @@ msgstr "Temas"
 msgid ""
 "Choose your favorite theme and desktop type. Customize Chakra with colorful "
 "styles and themes."
-msgstr "Escoja su tema favorito y su tipo de escritorio. Personaliza Chakra con estilos y temas coloridos."
+msgstr "Escoja su tema favorito y su tipo de escritorio. Personalice Chakra con estilos y temas coloridos."
 
 #: .tmp/ui_scrStyle.py:182
 msgid "KDE Themes"
@@ -329,7 +330,7 @@ msgid ""
 "folders. If you are <span style=\" font-weight:600;\">left handed</span>, "
 "you may prefer to swap the left and right buttons of your pointing "
 "device.</p></body></html>"
-msgstr "<html><head/><body><p>El <span style=\" font-weight:600;\">comportamiento del ratón</span> determina cuántos clics se necesitan para abrir archivos y carpetas. Si eres <span style=\" font-weight:600;\">zurdo</span>, puede que prefieras intercambiar los botones izquierdo y derecho de tu dispositivo.</p></body></html>"
+msgstr "<html><head/><body><p>El <span style=\" font-weight:600;\">comportamiento del ratón</span> determina cuántos clics se necesitan para abrir archivos y carpetas. Si usted es <span style=\" font-weight:600;\">zurdo</span>, puede que prefiera intercambiar los botones izquierdo y derecho de su dispositivo.</p></body></html>"
 
 #: .tmp/ui_scrMouse.py:215
 msgid "Clicking Behaviour"
@@ -373,7 +374,7 @@ msgstr "Instalar / Desinstalar programas"
 
 #: .tmp/scrStyle.py:39
 msgid "Customize Your Desktop"
-msgstr "Configura Tu Escritorio"
+msgstr "Configure Su Escritorio"
 
 #: .tmp/ui_scrSecurity.py:173
 msgid "Enable the firewall (UFW)"
@@ -388,7 +389,7 @@ msgid ""
 "<html><head/><body><p>Other security tools provided by Chakra include "
 "Tomoyo-tools, the KDE Wallet, rkhunter, chkrootkit, tiger, and more. Click "
 "the buttons below to learn more about these tools.</p></body></html>"
-msgstr "<html><head/><body><p>Otras herramientas de seguridad proporcionadas por Chakra incluyen Tomoyo-tools, la cartera de KDE, rkhunter, chkrootkit, tiger, y más. Haz clic en los botones de debajo para aprender más sobre estas herramientas.</p></body></html>"
+msgstr "<html><head/><body><p>Otras herramientas de seguridad proporcionadas por Chakra incluyen Tomoyo-tools, la cartera de KDE, rkhunter, chkrootkit, tiger, y más. Haga clic en los botones de debajo para aprender más sobre estas herramientas.</p></body></html>"
 
 #: .tmp/ui_scrSecurity.py:176
 msgid "ClamAV: Detect and remove malware"
@@ -407,7 +408,7 @@ msgstr "Cartera de KDE: Protege y encripta contraseñas y otra información"
 #: .tmp/ui_scrSecurity.py:179
 msgid ""
 "chkrootkit and rkhunter: Check for the presence of rootkits on your system"
-msgstr "chkrootkit and rkhunter: Comprueba la presencia de rootkits en tu sistema"
+msgstr "chkrootkit and rkhunter: Comprueba la presencia de rootkits en su sistema"
 
 #: .tmp/ui_scrSecurity.py:180
 msgid "Tiger: A host-based intrusion detection and auditing tool"
@@ -418,7 +419,7 @@ msgid ""
 "<html><head/><body><p>Finally, Chakra also provides a graphical tool to "
 "configure the system firewall. Just click on &quot;Firewall&quot; in the KDE"
 " System Settings.</p></body></html>"
-msgstr "<html><head/><body><p>Por último, Chakra también cuenta con una herramienta gráfica para configurar el cortafuegos del sistema. Tan solo haz clic en &quot;Cortafuegos&quot; en las Preferencias del Sistema de KDE.</p></body></html>"
+msgstr "<html><head/><body><p>Por último, Chakra también cuenta con una herramienta gráfica para configurar el cortafuegos del sistema. Tan solo haga clic en &quot;Cortafuegos&quot; en las Preferencias del Sistema de KDE.</p></body></html>"
 
 #: .tmp/ui_scrSecurity.py:182
 msgid ""
@@ -427,7 +428,7 @@ msgid ""
 "make sure you keep your system up to date, and follow best security "
 "practices. However, Chakra does provide a few tools to help you keep your "
 "system safe.</p></body></html>"
-msgstr "<html><head/><body><p>La seguridad es un proceso, no un producto, y no hay sistema operativo que pueda asegurar, de un modo realista, que es perfectamente seguro. Te corresponde a ti asegurarte de mantener tu sistema al día y seguir buenas prácticas en materia de seguridad. Aun así, Chakra proporciona algunas utilidades para ayudarte a mantener tu sistema seguro.</p></body></html>"
+msgstr "<html><head/><body><p>La seguridad es un proceso, no un producto, y no hay sistema operativo que pueda asegurar, de un modo realista, que es perfectamente seguro. Le corresponde a usted asegurarse de mantener su sistema al día y seguir buenas prácticas en materia de seguridad. Aun así, Chakra proporciona algunas utilidades para ayudarle a mantener su sistema seguro.</p></body></html>"
 
 #: .tmp/ui_scrSecurity.py:183
 msgid "Security Tools"
@@ -463,7 +464,7 @@ msgid ""
 "in the user's home directory, as Chakra leaves these kind of choices up to "
 "the user. However, in this screen we give you the ability to create the most"
 " commonly used folders.</p></body></html>"
-msgstr "<html><head/><body><p>Chakra no crea ninguna carpeta especial por defecto en el directorio home del usuario, ya que Chakra deja este tipo de opciones al propio usuario. Aun así, en esta pantalla tienes la posibilidad de crear las carpetas más comunmente usadas.</p></body></html>"
+msgstr "<html><head/><body><p>Chakra no crea ninguna carpeta especial por defecto en el directorio home del usuario, ya que Chakra deja este tipo de opciones al propio usuario. Aun así, en esta pantalla tiene la posibilidad de crear las carpetas que se usan con más frecuencia.</p></body></html>"
 
 #: .tmp/ui_scrFolder.py:162 .tmp/scrFolder.py:30
 msgid "Folders"
@@ -511,14 +512,14 @@ msgid ""
 " you personalize your Chakra workspace easily and quickly. Just click <span "
 "style=\" font-weight:600;\">next</span> when you are ready to "
 "begin.</p></body></html>"
-msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span>  nos trae una nueva distribución Linux, un proyecto de escaparate del software libre creado por un grupo de personas a las que le gusta los principios KISS y la elegancia del Escritorio Plasma, y un sistema de paquetes para dar soporte a las aplicaciones GTK más conocidas,<br/><br/>Nuestro principal objetivo es proveer un Live CD y una distribución Linux rápida, amigable con el usuario y extremadamente poderosa, especialmente diseñada para el afamado KDE Software Compilation y el precioso Escritorio Plasma.<br/><br/><span style=\" font-weight:600;\">Kapudan</span> te ayudará a personalizar tu sistema Chakra rápida y cómodamente. Sólo haz click en <span style=\" font-weight:600;\">Siguiente</span> cuando estés listo para comenzar.</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span>  nos trae una nueva distribución Linux, un proyecto de escaparate del software libre creado por un grupo de personas a las que les gustan los principios KISS y la elegancia del Escritorio Plasma, y un sistema de paquetes para dar soporte a las aplicaciones GTK más conocidas,<br/><br/>Nuestro principal objetivo es proveer un Live CD y una distribución Linux rápida, amigable con el usuario y extremadamente poderosa, especialmente diseñada para el afamado KDE Software Compilation y el precioso Escritorio Plasma.<br/><br/><span style=\" font-weight:600;\">Kapudan</span> le ayudará a personalizar su sistema Chakra rápida y cómodamente. Sólo haga click en <span style=\" font-weight:600;\">Siguiente</span> cuando esté listo para comenzar.</p></body></html>"
 
 #: .tmp/ui_scrKeyboard.py:103
 msgid ""
 "<html><head/><body><p>Kapudan tries to automatically select the best "
 "keyboard layout according to your system language. If you want to use "
 "another layout, just make a selection below.</p></body></html>"
-msgstr "<html><head/><body><p>Kapudan intenta seleccionar automáticamente la mejor distribución de teclado de acuerdo al lenguaje de tu sistema. Si deseas utilizar otra, selecciónala debajo.</p></body></html>"
+msgstr "<html><head/><body><p>Kapudan intenta seleccionar automáticamente la mejor distribución de teclado de acuerdo al lenguaje de su sistema. Si desea utilizar otra, selecciónela debajo.</p></body></html>"
 
 #: .tmp/ui_scrKeyboard.py:104
 msgid "Test area:"
@@ -534,7 +535,7 @@ msgid ""
 "<html><head/><body><p>Choose your favorite wallpaper for your Chakra "
 "desktop. Don't forget to check out <span style=\" font-weight:600;\">Desktop"
 " Settings</span> to download cool new wallpapers.</p></body></html>"
-msgstr "<html><head/><body><p>Elige tu fondo de pantalla favorito para tu escritorio Chakra. No olvides entrar en <span style=\" font-weight:600;\">Configuración de escritorio</span> para descargar fantásticos nuevos fondos de pantalla.</p></body></html>"
+msgstr "<html><head/><body><p>Elija su fondo de pantalla favorito para su escritorio Chakra. No olvide entrar en <span style=\" font-weight:600;\">Configuración de escritorio</span> para descargar fantásticos nuevos fondos de pantalla.</p></body></html>"
 
 #: .tmp/ui_scrWallpaper.py:142
 msgid "Wallpapers"
@@ -554,7 +555,7 @@ msgstr "Menú"
 
 #: .tmp/scrMenu.py:30
 msgid "Choose a Menu Style"
-msgstr "Elige un estilo de menú"
+msgstr "Elija un estilo de menú"
 
 #: .tmp/scrMenu.py:44 .tmp/ui_scrMenu.py:135
 msgid "Kick-off Menu"
@@ -637,7 +638,7 @@ msgid ""
 "following links and applications for more settings, or for help and support."
 " Don't forget to <span style=\" font-weight:600;\">join our "
 "community!</span></p></body></html>"
-msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Se han aplicado tus configuraciones.</span> Ahora ya puedes empezar a disfrutar de Chakra o echar un vistazo a los siguientes enlaces y utilidades para realizar más configuraciones, o buscar ayuda y soporte. ¡No olvides <span style=\" font-weight:600;\">unirte a nuestra comunidad!</span></p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Se han aplicado sus configuraciones.</span> Ahora ya puede empezar a disfrutar de Chakra o echar un vistazo a los siguientes enlaces y utilidades para realizar más configuraciones, o buscar ayuda y soporte. ¡No olvide <span style=\" font-weight:600;\">unirse a nuestra comunidad!</span></p></body></html>"
 
 #: .tmp/ui_scrGoodbye.py:363 .tmp/ui_scrGoodbye.py:365
 msgid "System Settings"
@@ -667,7 +668,7 @@ msgstr "Usando KDE"
 msgid ""
 "Learn how to get the most out of KDE, the Plasma desktop, and everything "
 "else Chakra has to offer, in the Chakra Beginner's Guide."
-msgstr "Aprende cómo obtener lo máximo de KDE, el escritorio Plasma, y todo lo demás que Chakra te puede ofrecer, en la Guía del Principiante de Chakra."
+msgstr "Aprenda cómo obtener lo máximo de KDE, el escritorio Plasma, y todo lo demás que Chakra le puede ofrecer, en la Guía del Principiante de Chakra."
 
 #: .tmp/ui_scrGoodbye.py:371
 msgid "Beginner's Guide"
@@ -682,7 +683,7 @@ msgid ""
 "Strigi Desktop Search indexes your frequently used files. This gives you "
 "very fast file search results. Strigi also can search for files based on "
 "their contents. On older computers, this can use a lot of resources."
-msgstr "La Búsqueda de Escritorio de Strigi crea un índice con tus archivos más utilizados. Esto te proporciona una búsqueda de resultados muy rápida. Strigi también puede buscar archivos basándose en el contenido de estos. En ordenadores antiguos, esta operación puede utilizar un montón de recursos."
+msgstr "La Búsqueda de Escritorio de Strigi crea un índice con sus archivos más utilizados. Esto le proporciona una búsqueda de resultados muy rápida. Strigi también puede buscar archivos basándose en el contenido de estos. En ordenadores antiguos, esta operación puede utilizar un montón de recursos."
 
 #: .tmp/ui_scrSearch.py:111
 msgid "Allow Strigi to index my files"
@@ -698,7 +699,7 @@ msgstr "Crear carpetas en el directorio home"
 
 #: .tmp/scrSummary.py:44
 msgid "Save Your Settings"
-msgstr "Guarda tu configuración"
+msgstr "Guarde su configuración"
 
 #: .tmp/scrSummary.py:69
 msgid "Mouse Settings"
@@ -729,7 +730,7 @@ msgstr "Configuración de fondo de pantalla"
 
 #: .tmp/scrSummary.py:83
 msgid "You haven't selected any wallpaper."
-msgstr "No has seleccionado ningún fondo de pantalla"
+msgstr "No ha seleccionado ningún fondo de pantalla"
 
 #: .tmp/scrSummary.py:85
 #, python-format
@@ -742,7 +743,7 @@ msgstr "Configuración de estilo"
 
 #: .tmp/scrSummary.py:92
 msgid "You haven't selected any style."
-msgstr "No has seleccionado ningun estilo"
+msgstr "No ha seleccionado ningun estilo"
 
 #: .tmp/scrSummary.py:94
 #, python-format
@@ -755,11 +756,11 @@ msgstr "Configuración del gestor de paquetes"
 
 #: .tmp/scrSummary.py:101
 msgid "You have enabled or disabled spun."
-msgstr "Has habilitado o deshabiltado spun."
+msgstr "Ha habilitado o deshabiltado spun."
 
 #: .tmp/scrSummary.py:108 .tmp/scrSummary.py:137
 msgid "You have: "
-msgstr "Tienes:"
+msgstr "Tiene:"
 
 #: .tmp/scrSummary.py:110
 msgid "Services Settings"
@@ -783,7 +784,7 @@ msgstr "bluetooth deshabilitado"
 
 #: .tmp/scrSummary.py:127 .tmp/scrSummary.py:155
 msgid "You have made no changes."
-msgstr "No has hecho cambios."
+msgstr "No ha hecho cambios."
 
 #: .tmp/scrSummary.py:139
 msgid "Security Settings"
@@ -817,7 +818,7 @@ msgstr "No se puede reiniciar el escritorio Plasma. Kapudan se cerrará ahora."
 msgid ""
 "You can also customize your <b>KDE menu</b> as you like. Please choose one "
 "from the following styles."
-msgstr "También puedes personalizar tu <b>menú KDE</b> como quieras. Por favor, elige uno de los estilos siguientes."
+msgstr "También puede personalizar su <b>menú KDE</b> como quiera. Por favor, elija uno de los estilos siguientes."
 
 #: .tmp/ui_scrMenu.py:139
 msgid "Sample"
@@ -849,7 +850,7 @@ msgid ""
 "weight:600;\">sudo systemctl start </span><span style=\" font-weight:600; "
 "font-style:italic;\">daemon-name</span>. (Eg, <span style=\" font-"
 "weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
-msgstr "<html><head/><body><p>Las nuevas instalaciones de Chakra traen, por defecto, solo un mínimo de servicios necesarios (también llamados &quot;demonios&quot;) activados. Esto no solo refleja el principio por el que Chakra se rige de no tomar decisiones por sus usuarios, también contribuye a la seguridad de la nueva instalación, al disminuir el número de servicios activos que puedan ser vulnerables ante un ataque.</p><p>Si lo deseas puedes usar las opciones de debajo para indicarle a algunos de los demonios más comunes que se ejecuten automáticamente con cada inicio del sistema. Para activar cualquier servicio que desees que se inicie al arrancar, puedes ejecutar <span style=\" font-weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; font-style:italic;\">nombre-del-demonio</span>. Igualmente, ejecuta <span style=\" font-weight:600;\">sudo systemctl disable </span><span style=\" font-weight:600; font-style:italic;\">nombre-del-demonio</span> para desactivarlo. O, si solamente deseas iniciar los demonios manualmente, usa <span style=\" font-weight:600;\">sudo systemctl start </span><span style=\" font-weight:600; font-style:italic;\">nombre-del-demonio</span>. (P.ej., <span style=\" font-weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
+msgstr "<html><head/><body><p>Las nuevas instalaciones de Chakra traen, por defecto, solo un mínimo de servicios necesarios (también llamados &quot;demonios&quot;) activados. Esto no solo refleja el principio por el que Chakra se rige de no tomar decisiones por sus usuarios, también contribuye a la seguridad de la nueva instalación, al disminuir el número de servicios activos que puedan ser vulnerables ante un ataque.</p><p>Si lo desea puede usar las opciones de debajo para indicarle a algunos de los demonios más comunes que se ejecuten automáticamente con cada inicio del sistema. Para activar cualquier servicio que desee que se inicie al arrancar, puede ejecutar <span style=\" font-weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; font-style:italic;\">nombre-del-demonio</span>. Igualmente, ejecute <span style=\" font-weight:600;\">sudo systemctl disable </span><span style=\" font-weight:600; font-style:italic;\">nombre-del-demonio</span> para desactivarlo. O, si solamente desea iniciar los demonios manualmente, use <span style=\" font-weight:600;\">sudo systemctl start </span><span style=\" font-weight:600; font-style:italic;\">nombre-del-demonio</span>. (P.ej., <span style=\" font-weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
 
 #: .tmp/ui_scrServices.py:131
 msgid "Daemons to start at boot time"
@@ -862,7 +863,7 @@ msgid ""
 "file, or you can capture an image from your camera, if you have one. Select "
 "an option from the <span style=\" font-weight:600;\">options</span> "
 "menu.</p></body></html>"
-msgstr "<html><head/><body><p>Esta pantalla te ayuda a elegir tu <span style=\" font-weight:600;\">imagen de usuario</span>. Puedes elegir una imagen desde un archivo o puedes capturar una con tu cámara, si la tienes. Elige una opción del menú de <span style=\" font-weight:600;\">opciones</span>.</p></body></html>"
+msgstr "<html><head/><body><p>Esta pantalla le ayuda a elegir su <span style=\" font-weight:600;\">imagen de usuario</span>. Puede elegir una imagen desde un archivo o puede capturar una con su cámara, si la tiene. Elija una opción del menú de <span style=\" font-weight:600;\">opciones</span>.</p></body></html>"
 
 #: .tmp/ui_scrAvatar.py:258
 msgid "Options"
@@ -870,7 +871,7 @@ msgstr "Opciones"
 
 #: .tmp/ui_scrAvatar.py:259
 msgid "Choose an image"
-msgstr "Escoge una imagen"
+msgstr "Escoja una imagen"
 
 #: .tmp/ui_scrAvatar.py:260
 msgid "Capture"
