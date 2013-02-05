@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mathieu Tarral <mathieu.tarral@gmail.com>, 2013.
 # Nicolas Elie <chrystalyst@free.fr>, 2012.
 # Nicolas ELIE <chrystalyst@free.fr>, 2012.
 msgid ""
@@ -10,8 +11,8 @@ msgstr ""
 "Project-Id-Version: The Chakra Project\n"
 "Report-Msgid-Bugs-To: http://chakra-project.org/bugs/\n"
 "POT-Creation-Date: 2013-01-20 13:44+0100\n"
-"PO-Revision-Date: 2013-01-20 12:46+0000\n"
-"Last-Translator: Manuel Tortosa <manutortosa@chakra-project.org>\n"
+"PO-Revision-Date: 2013-02-02 23:47+0000\n"
+"Last-Translator: Mathieu Tarral <mathieu.tarral@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/chakra-project/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -110,7 +111,7 @@ msgstr "Kapudan"
 
 #: .tmp/kapudan.desktop.in.h:2
 msgid "Welcome Wizard"
-msgstr ""
+msgstr "Assistant de premier lancement"
 
 #: .tmp/localedata.py:53
 msgid "Turkish"
@@ -588,11 +589,11 @@ msgstr "Lancelot is un menu avancé et hautement personnalisable pour Chakra.<br
 
 #: .tmp/scrMenu.py:62 .tmp/ui_scrMenu.py:138
 msgid "Homerun Menu"
-msgstr ""
+msgstr "Menu du lanceur d'applications \"Homerun\""
 
 #: .tmp/scrMenu.py:64
 msgid "Homerun is a full screen launcher with content organized in tabs."
-msgstr ""
+msgstr "Homerun est un lanceur d'applications plein écran organisé en onglets"
 
 #: .tmp/ui_wallpaperItem.py:83
 msgid "wallPaperName"
@@ -849,7 +850,7 @@ msgid ""
 "weight:600;\">sudo systemctl start </span><span style=\" font-weight:600; "
 "font-style:italic;\">daemon-name</span>. (Eg, <span style=\" font-"
 "weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>By default, new installations of Chakra have only a bare minimum of required services (also called &quot;daemons&quot;) enabled. Not only does this reflect Chakra's principle of not making decisions for its users, it also adds to a new installation's security, by decreasing the number of active services that might be vulnerable to an attack.</p><p>If you wish, you can use the options below to tell some of the more widely used daemons to start automatically at boot time. To enable any service you would like to start on bootup, you can run <span style=\" font-weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; font-style:italic;\">daemon-name</span>. Respectively, run <span style=\" font-weight:600;\">sudo systemctl disable </span><span style=\" font-weight:600; font-style:italic;\">daemon-name</span> to disable it. Or, if you just want to start daemons manually, try <span style=\" font-weight:600;\">sudo systemctl start </span><span style=\" font-weight:600; font-style:italic;\">daemon-name</span>. (Eg, <span style=\" font-weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
 
 #: .tmp/ui_scrServices.py:131
 msgid "Daemons to start at boot time"
