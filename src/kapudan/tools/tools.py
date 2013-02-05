@@ -30,7 +30,7 @@ def isLiveCD():
     return os.path.exists('/var/run/pardus/livemedia')
 
 def getRelease():
-    p = subprocess.Popen(["lsb_release", "-irs"], stdout=subprocess.PIPE)
+    p = subprocess.Popen(["lsb_release", "-ircs"], stdout=subprocess.PIPE)
     release, err = p.communicate()
     return unicode(release.replace("\n", ""))
 
