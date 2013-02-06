@@ -69,7 +69,7 @@ class Widget(QtGui.QWidget, Screen):
 
         if self.ui.enableBluetooth.isChecked():
             self.__class__.screenSettings["enableBluetooth"] = True
-            if not self.config.isEnabled():
+            if not self.daemons["bluetooth"].is_enabled():
                 self.daemons["bluetooth"].has_changed = True
                 self.__class__.screenSettings["daemons"].append(self.daemons["bluetooth"])
         else:
