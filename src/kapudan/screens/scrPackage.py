@@ -14,7 +14,6 @@
 #
 
 from PyQt4 import QtGui
-from PyQt4.QtCore import SIGNAL, QVariant
 
 from PyKDE4.kdecore import i18n, KConfig
 
@@ -56,7 +55,7 @@ class Widget(QtGui.QWidget, Screen):
         self.ui.playAudio.setChecked(self.config.getAudio())
 
         # set signals
-        self.ui.checkUpdate.connect(self.ui.checkUpdate, SIGNAL("toggled(bool)"), self.updateSelected)
+        self.ui.checkUpdate.toggled.connect(self.updateSelected)
 
     def updateSelected(self):
         if self.ui.checkUpdate.isChecked():
@@ -69,7 +68,7 @@ class Widget(QtGui.QWidget, Screen):
     def applySettings(self):
         # write selected configurations to spunrc
         self.config.setWaitTime(self.ui.updateInterval.value())
-        self.config.setAudio(QVariant(self.ui.playAudio.isChecked()))
+        self.config.setAudio(self.ui.playAudio.isChecked())
 
         if self.ui.checkUpdate.isChecked():
             # checks if spun is not in the output of ps -Af
@@ -108,7 +107,7 @@ class Config:
 
     def setValue(self, option, value):
         self.group = self.config.group("General")
-        self.group.writeEntry(option, QVariant(value))
+        self.group.writeEntry(option, value)
         self.config.sync()
 
 
