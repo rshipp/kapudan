@@ -14,7 +14,6 @@
 #
 
 from PyQt4 import QtGui
-from PyQt4.QtCore import SIGNAL
 from PyKDE4.kdecore import i18n, KConfig
 
 from kapudan.screen import Screen
@@ -90,7 +89,7 @@ class Widget(QtGui.QWidget, Screen):
         self.ui.labelMenuDescription.setText(self.menuNames[str(self.__class__.screenSettings["selectedMenu"])]["description"])
         self.ui.menuStyles.setCurrentIndex(self.menuNames[str(self.__class__.screenSettings["selectedMenu"])]["menuIndex"])
 
-        self.ui.menuStyles.connect(self.ui.menuStyles, SIGNAL("activated(const QString &)"), self.setMenuStyle)
+        self.ui.menuStyles.activated.connect(self.setMenuStyle)
 
     def setMenuStyle(self, enee):
         self.__class__.screenSettings["hasChanged"] = True

@@ -14,7 +14,7 @@
 #
 
 from PyQt4 import QtGui
-from PyQt4.QtCore import QSize, SIGNAL  # TODO get rid of QSize
+from PyQt4.QtCore import QSize
 from PyKDE4.kdecore import i18n, KGlobal, KConfig
 #from PyKDE4 import kdeui
 
@@ -118,9 +118,9 @@ class Widget(QtGui.QWidget, Screen):
             except:
                 print "Warning! Invalid syntax in ", desktopFiles
 
-        self.ui.listStyles.connect(self.ui.listStyles, SIGNAL("itemSelectionChanged()"), self.setStyle)
-        self.ui.comboBoxDesktopType.connect(self.ui.comboBoxDesktopType, SIGNAL("activated(const QString &)"), self.setDesktopType)
-        self.ui.spinBoxDesktopNumbers.connect(self.ui.spinBoxDesktopNumbers, SIGNAL("valueChanged(const QString &)"), self.addDesktop)
+        self.ui.listStyles.itemSelectionChanged.connect(self.setStyle)
+        self.ui.comboBoxDesktopType.activated.connect(self.setDesktopType)
+        self.ui.spinBoxDesktopNumbers.valueChanged.connect(self.addDesktop)
         #self.ui.previewButton.connect(self.ui.previewButton, SIGNAL("clicked()"), self.previewStyle)
 
     def ConfigSectionMap(self, section):

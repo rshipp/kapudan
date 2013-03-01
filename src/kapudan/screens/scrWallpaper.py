@@ -15,7 +15,7 @@
 
 
 from PyQt4 import QtGui
-from PyQt4.QtCore import QSize, SIGNAL
+from PyQt4.QtCore import QSize
 from PyQt4.QtGui import QFileDialog
 
 #from PyQt4.QtCore import *
@@ -97,9 +97,9 @@ class Widget(QtGui.QWidget, Screen):
             # Add a hidden value to each item for detecting selected wallpaper's path.
             item.setStatusTip(wallpaperFile)
 
-        self.ui.listWallpaper.connect(self.ui.listWallpaper, SIGNAL("itemSelectionChanged()"), self.setWallpaper)
-        self.ui.checkBox.connect(self.ui.checkBox, SIGNAL("stateChanged(int)"), self.disableWidgets)
-        self.ui.buttonChooseWp.connect(self.ui.buttonChooseWp, SIGNAL("clicked()"), self.selectWallpaper)
+        self.ui.listWallpaper.itemSelectionChanged.connect(self.setWallpaper)
+        self.ui.checkBox.stateChanged.connect(self.disableWidgets)
+        self.ui.buttonChooseWp.clicked.connect(self.selectWallpaper)
 
     def disableWidgets(self, state):
         if state:
