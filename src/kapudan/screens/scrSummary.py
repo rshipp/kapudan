@@ -14,14 +14,14 @@
 #
 
 from PyQt4 import QtGui
+from PyQt4.QtDBus import QDBusInterface
 from PyQt4.QtCore import QString  # remove usage of QString
 from PyQt4.QtGui import QMessageBox
-from PyKDE4.kdecore import i18n, KConfig
+from PyKDE4.kdecore import i18n, KConfig, KToolInvocation
 
-import subprocess
 import os
-import dbus
 import time
+import dbus
 
 from kapudan.screen import Screen
 from kapudan.screens.ui_scrSummary import Ui_summaryWidget
@@ -51,6 +51,12 @@ class Widget(QtGui.QWidget, Screen):
         QtGui.QWidget.__init__(self, None)
         self.ui = Ui_summaryWidget()
         self.ui.setupUi(self)
+        self.plasma_app = "plasma-desktop"
+        service = "org.kde." + self.plasma_app
+        path = "/MainApplication"
+        self.plasma_interface = QDBusInterface(service, path)
+        if __debug__:
+            assert(self.plasma_interface.isValid())
 
     def shown(self):
         self.wallpaperSettings = wallpaperWidget.Widget.screenSettings
@@ -167,9 +173,8 @@ class Widget(QtGui.QWidget, Screen):
 
     def killPlasma(self):
         try:
-            p = subprocess.Popen(["kquitapp", "plasma-desktop"], stdout=subprocess.PIPE)
-            out, err = p.communicate()
-            time.sleep(1)
+            self.plasma_interface.call("quit")
+            time.sleep(1)  # TODO get rid of this...
             self.startPlasma()
 
         except:
@@ -177,7 +182,8 @@ class Widget(QtGui.QWidget, Screen):
             kdeui.KApplication.kApplication().quit()
 
     def startPlasma(self):
-        subprocess.Popen(["plasma-desktop"], stdout=subprocess.PIPE)
+        # FIXME: avoid the hardcoding. And maybe even KToolInvocation
+        KToolInvocation.startServiceByDesktopPath("/usr/share/autostart/plasma-desktop.desktop")
 
     def execute(self):
         hasChanged = False
