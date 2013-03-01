@@ -8,6 +8,7 @@ Legend:
 + Accomplished
 
 TODO:
+- remove usage of sed in spunrc.py
 ? Fix Themes/Style page, add screenshots for Caledonia as well as
         any others included on the livecd by default
 - Add all new screens to scrSummary as we go

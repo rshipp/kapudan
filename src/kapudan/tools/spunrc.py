@@ -4,6 +4,7 @@
 import os
 import shutil
 
+
 class SpunRC():
 
     def __init__(self):
@@ -52,10 +53,10 @@ class SpunRC():
         return int(time)
 
     def setAudio(self, state):
-        if state == True:
+        if state is True:
             os.system("/bin/sed -i 's/^#playwith=/playwith=/' " + self.spunrc)
             os.system("/bin/sed -i 's/^#audio=/audio=/' " + self.spunrc)
-        elif state == False:
+        elif state is False:  # TODO can we get something else than booleans?
             os.system("/bin/sed -i 's/^playwith=/#playwith=/' " + self.spunrc)
             os.system("/bin/sed -i 's/^audio=/#audio=/' " + self.spunrc)
 
