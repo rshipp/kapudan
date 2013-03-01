@@ -14,9 +14,9 @@
 #
 
 from PyQt4 import QtGui
-from PyQt4.QtCore import *
+from PyQt4.QtCore import QProcess  # remove QProcess dependency
 
-from PyKDE4.kdecore import ki18n, KConfig
+from PyKDE4.kdecore import ki18n
 
 #from PyKDE4 import kdeui
 
@@ -24,10 +24,10 @@ from kapudan.screen import Screen
 from kapudan.screens.ui_scrSecurity import Ui_securityWidget
 from kapudan.tools.daemon import Daemon
 
-import subprocess
 import os
 
 isUpdateOn = False
+
 
 class Widget(QtGui.QWidget, Screen):
     title = ki18n("Security")
@@ -78,8 +78,6 @@ class Widget(QtGui.QWidget, Screen):
             if self.config.isEnabled("clamd"):
                 self.__class__.screenSettings["hasChanged"] = True
 
-
-
     def on_buttonClam_clicked(self):
         self.procSettings = QProcess()
         command = "xdg-open http://www.chakra-linux.org/wiki/index.php/Anti-Malware#ClamAV"
@@ -104,7 +102,6 @@ class Widget(QtGui.QWidget, Screen):
         self.procSettings = QProcess()
         command = "xdg-open http://www.nongnu.org/tiger/"
         self.procSettings.start(command)
-
 
     def shown(self):
         pass
