@@ -18,16 +18,13 @@
 
 
 from PyQt4 import QtGui, QtCore
-from PyQt4.QtCore import QVariant, QRect
 from PyQt4.QtGui import QFileDialog, QPainter, QColor, QBrush
 from PyKDE4.kdecore import ki18n
-#from PyKDE4.kdecore import i18n
 import ImageQt
 
 from kapudan.screen import Screen
 from kapudan.screens.ui_scrAvatar import Ui_Form
 
-#import subprocess
 import os
 
 import Image
@@ -49,7 +46,7 @@ class Widget(QtGui.QWidget, Screen):
 
         self.camActive = False
 
-        Widget.desc = QVariant(unicode(ki18n("Create Your User Picture").toString()))
+        Widget.desc = ki18n("Create Your User Picture")
 
         self.pictureTaken = 0
         self.ui.takeButton.hide()
@@ -63,13 +60,13 @@ class Widget(QtGui.QWidget, Screen):
                 if "video_capture" in cam_capabilities:
                     if "radio" in cam_capabilities or "tuner" in cam_capabilities:
                         continue
-                    self.ui.comboBox.addItem(cam_str, QVariant(os.path.join("/dev", dev)))
+                    self.ui.comboBox.addItem(cam_str, os.path.join("/dev", dev))
 
         self.timer = QtCore.QTimer(self)
-        self.connect(self.timer, QtCore.SIGNAL("timeout()"), self.refreshCam)
-        self.connect(self.ui.comboBox, QtCore.SIGNAL('activated(QString)'), self.processSelection)
-        self.connect(self.ui.takeButton, QtCore.SIGNAL('clicked()'), self.showPicture)
-        self.connect(self.ui.takeAgainButton, QtCore.SIGNAL('clicked()'), self.activateCam)
+        self.timer.timeout.connect(self.refreshCam)
+        self.ui.comboBox.activated.connect(self.processSelection)
+        self.ui.takeButton.clicked.connect(self.showPicture)
+        self.ui.takeAgainButton.clicked.connect(self.activateCam)
 
         self.ui.takeAgainButton.hide()
 
@@ -151,8 +148,6 @@ class Widget(QtGui.QWidget, Screen):
 
         if self.selectedFile.isNull():
             return
-        else:
-            home = os.path.expanduser("~")
 
         self.ui.camGoruntu.setPixmap(QtGui.QPixmap(str(self.selectedFile)))
         self.ui.camGoruntu.update()
@@ -185,10 +180,10 @@ class DrawCropMask(QtGui.QWidget):
         painter.setPen(QColor(20, 20, 20, 0))
         painter.setBrush(QBrush(QColor(0, 0, 0, 200)))
 
-        rect = QRect(0, 0, 85, 240)  # x, y, w, h
-        rect2 = QRect(85, 0, 150, 45)
-        rect3 = QRect(235, 0, 85, 240)
-        rect4 = QRect(85, 195, 150, 45)
+        rect = (0, 0, 85, 240)  # x, y, width, height
+        rect2 = (85, 0, 150, 45)
+        rect3 = (235, 0, 85, 240)
+        rect4 = (85, 195, 150, 45)
         painter.drawRect(rect)
         painter.drawRect(rect2)
         painter.drawRect(rect3)
