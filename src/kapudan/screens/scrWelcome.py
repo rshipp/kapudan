@@ -15,15 +15,13 @@
 
 
 from PyQt4 import QtGui
-from PyQt4.QtCore import *
+from PyQt4.QtCore import QVariant
 from PyKDE4.kdecore import ki18n
-from PyKDE4.kdecore import i18n
 
 from kapudan.screen import Screen
 from kapudan.screens.ui_scrWelcome import Ui_welcomeWidget
 from kapudan.tools import tools
 
-import subprocess
 
 class Widget(QtGui.QWidget, Screen):
 
@@ -31,7 +29,7 @@ class Widget(QtGui.QWidget, Screen):
     desc = ki18n("Welcome to %s")
 
     def __init__(self, *args):
-        QtGui.QWidget.__init__(self,None)
+        QtGui.QWidget.__init__(self, None)
         self.ui = Ui_welcomeWidget()
         self.ui.setupUi(self)
         Widget.desc = QVariant(unicode(Widget.desc.toString()) % tools.getRelease())
@@ -41,4 +39,3 @@ class Widget(QtGui.QWidget, Screen):
 
     def execute(self):
         return True
-
