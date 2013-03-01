@@ -14,9 +14,9 @@
 #
 
 from PyQt4 import QtGui
-from PyQt4.QtCore import *
+#from PyQt4.QtCore import
 
-from PyKDE4.kdecore import ki18n, KConfig
+from PyKDE4.kdecore import ki18n
 
 #from PyKDE4 import kdeui
 
@@ -24,10 +24,8 @@ from kapudan.screen import Screen
 from kapudan.screens.ui_scrServices import Ui_servicesWidget
 from kapudan.tools.daemon import Daemon
 
-import subprocess
-import os
-
 isUpdateOn = False
+
 
 class Widget(QtGui.QWidget, Screen):
     title = ki18n("Services")
@@ -77,7 +75,6 @@ class Widget(QtGui.QWidget, Screen):
             if self.daemons["bluetooth"].is_enabled():
                 self.__class__.screenSettings["hasChanged"] = True
                 self.daemons["bluetooth"].has_changed = True
-
 
     def shown(self):
         pass
