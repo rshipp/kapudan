@@ -15,7 +15,7 @@
 
 import os
 from PyQt4 import QtGui
-from PyQt4.QtCore import *
+from PyQt4.QtCore import SIGNAL
 from PyKDE4.kdecore import ki18n
 
 from kapudan.screen import Screen
@@ -37,25 +37,25 @@ class Widget(QtGui.QWidget, Screen):
 
         # read default settings
         self.folder_attributes = dict()
-        self.folder_attributes["download"]  = (os.path.expanduser("~/Downloads"), "[Desktop Entry]\nIcon=folder-downloads")
+        self.folder_attributes["download"] = (os.path.expanduser("~/Downloads"), "[Desktop Entry]\nIcon=folder-downloads")
         self.folder_attributes["documents"] = (os.path.expanduser("~/Documents"), "[Desktop Entry]\nIcon=folder-documents")
-        self.folder_attributes["video"]     = (os.path.expanduser("~/Videos"), "[Desktop Entry]\nIcon=folder-video")
-        self.folder_attributes["music"]     = (os.path.expanduser("~/Music"), "[Desktop Entry]\nIcon=folder-sound")
-        self.folder_attributes["image"]     = (os.path.expanduser("~/Images"), "[Desktop Entry]\nIcon=folder-image")
+        self.folder_attributes["video"] = (os.path.expanduser("~/Videos"), "[Desktop Entry]\nIcon=folder-video")
+        self.folder_attributes["music"] = (os.path.expanduser("~/Music"), "[Desktop Entry]\nIcon=folder-sound")
+        self.folder_attributes["image"] = (os.path.expanduser("~/Images"), "[Desktop Entry]\nIcon=folder-image")
 
         self.folder = dict()
-        self.folder["download"]  = os.path.isdir(self.folder_attributes["download"][0])
+        self.folder["download"] = os.path.isdir(self.folder_attributes["download"][0])
         self.folder["documents"] = os.path.isdir(self.folder_attributes["documents"][0])
-        self.folder["video"]     = os.path.isdir(self.folder_attributes["video"][0])
-        self.folder["music"]     = os.path.isdir(self.folder_attributes["music"][0])
-        self.folder["image"]     = os.path.isdir(self.folder_attributes["image"][0])
+        self.folder["video"] = os.path.isdir(self.folder_attributes["video"][0])
+        self.folder["music"] = os.path.isdir(self.folder_attributes["music"][0])
+        self.folder["image"] = os.path.isdir(self.folder_attributes["image"][0])
 
         self.folder2button = dict()
-        self.folder2button["download"]  = self.ui.downloadFolderButton
+        self.folder2button["download"] = self.ui.downloadFolderButton
         self.folder2button["documents"] = self.ui.documentsFolderButton
-        self.folder2button["video"]     = self.ui.videoFolderButton
-        self.folder2button["music"]     = self.ui.musicFolderButton
-        self.folder2button["image"]     = self.ui.imageFolderButton
+        self.folder2button["video"] = self.ui.videoFolderButton
+        self.folder2button["music"] = self.ui.musicFolderButton
+        self.folder2button["image"] = self.ui.imageFolderButton
 
         for key in self. folder2button:
             self.folder2button[key].setStyleSheet("QToolButton:checked {background-color: rgb(134, 134, 134);}")
@@ -73,7 +73,7 @@ class Widget(QtGui.QWidget, Screen):
 
     def addFolder(self, item):
         for key in self.folder:
-            self.folder[key]  = self.folder2button[key].isChecked()
+            self.folder[key] = self.folder2button[key].isChecked()
 
     def shown(self):
         pass
