@@ -15,7 +15,6 @@
 
 import os
 from PyQt4 import QtGui
-from PyQt4.QtCore import SIGNAL
 from PyKDE4.kdecore import ki18n
 
 from kapudan.screen import Screen
@@ -65,13 +64,13 @@ class Widget(QtGui.QWidget, Screen):
                 self.folder2button[key].setChecked(True)
 
         # set signals
-        self.connect(self.ui.documentsFolderButton, SIGNAL("toggled(bool)"), self.addFolder)
-        self.connect(self.ui.downloadFolderButton, SIGNAL("toggled(bool)"), self.addFolder)
-        self.connect(self.ui.imageFolderButton, SIGNAL("toggled(bool)"), self.addFolder)
-        self.connect(self.ui.musicFolderButton, SIGNAL("toggled(bool)"), self.addFolder)
-        self.connect(self.ui.videoFolderButton, SIGNAL("toggled(bool)"), self.addFolder)
+        self.ui.documentsFolderButton.toggled.connect(self.addFolder)
+        self.ui.downloadFolderButton.toggled.connect(self.addFolder)
+        self.ui.imageFolderButton.toggled.connect(self.addFolder)
+        self.ui.musicFolderButton.toggled.connect(self.addFolder)
+        self.ui.videoFolderButton.toggled.connect(self.addFolder)
 
-    def addFolder(self, item):
+    def addFolder(self, item):  # TODO we get item, a bool. Isn't that the same as isChecked?
         for key in self.folder:
             self.folder[key] = self.folder2button[key].isChecked()
 
