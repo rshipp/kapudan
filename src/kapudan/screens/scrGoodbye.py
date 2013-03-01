@@ -14,8 +14,7 @@
 #
 
 from PyQt4 import QtGui
-from PyQt4.QtCore import QProcess  # get rid of QProcess
-from PyKDE4.kdecore import i18n, KGlobal
+from PyKDE4.kdecore import i18n, KGlobal, KToolInvocation
 
 import os
 import shutil
@@ -55,18 +54,13 @@ class Widget(QtGui.QWidget, Screen):
         self.remove_autostart = not self.remove_autostart
 
     def on_buttonSystemSettings_clicked(self):
-        self.procSettings = QProcess()
-        self.procSettings.start("systemsettings")
+        KToolInvocation.startServiceByDesktopName("systemsettings")
 
     def on_buttonHelpPages_clicked(self):
-        self.procSettings = QProcess()
-        command = "xdg-open " + self.helpPageUrl
-        self.procSettings.start(command)
+        KToolInvocation.invokeBrowser(self.helpPageUrl)
 
     def on_buttonBeginnersGuide_clicked(self):
-        self.procSettings = QProcess()
-        command = "xdg-open " + self.beginnersGuideUrl
-        self.procSettings.start(command)
+        KToolInvocation.invokeBrowser(self.beginnersGuideUrl)
 
     def execute(self):
         if self.remove_autostart:
