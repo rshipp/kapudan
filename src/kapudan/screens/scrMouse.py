@@ -14,7 +14,6 @@
 #
 
 from PyQt4 import QtGui
-from PyQt4.QtCore import SIGNAL
 from PyKDE4.kdecore import i18n, KConfig
 from PyKDE4.kdeui import KGlobalSettings
 
@@ -64,10 +63,10 @@ class Widget(QtGui.QWidget, Screen):
             pass
 
         # set signals
-        self.connect(self.ui.radioButtonRightHand, SIGNAL("toggled(bool)"), self.setHandedness)
-        self.connect(self.ui.checkReverse, SIGNAL("toggled(bool)"), self.setHandedness)
-        self.connect(self.ui.singleClick, SIGNAL("clicked()"), self.clickBehaviorToggle)
-        self.connect(self.ui.DoubleClick, SIGNAL("clicked()"), self.clickBehaviorToggle)
+        self.ui.radioButtonRightHand.toggled.connect(self.setHandedness)
+        self.ui.checkReverse.toggled.connect(self.setHandedness)
+        self.ui.singleClick.clicked.connect(self.clickBehaviorToggle)
+        self.ui.DoubleClick.clicked.connect(self.clickBehaviorToggle)
 
     def str2bool(self, s):
         return bool(eval(s).capitalize())
