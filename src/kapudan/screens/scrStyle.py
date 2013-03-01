@@ -14,11 +14,12 @@
 #
 
 from PyQt4 import QtGui
-from PyQt4.QtCore import *
-from PyKDE4.kdecore import ki18n, KStandardDirs, KGlobal, KConfig
-from PyKDE4 import kdeui
+from PyQt4.QtCore import QSize, SIGNAL  # TODO get rid of QSize
+from PyKDE4.kdecore import ki18n, KGlobal, KConfig
+#from PyKDE4 import kdeui
 
-import os, sys, Image, dbus, glob
+import os
+import glob
 
 from kapudan.screen import Screen
 from kapudan.screens.ui_scrStyle import Ui_styleWidget
@@ -26,6 +27,7 @@ from kapudan.screens.styleItem import StyleItemWidget
 
 from kapudan.tools.desktop_parser import DesktopParser
 from ConfigParser import ConfigParser
+
 
 class Widget(QtGui.QWidget, Screen):
     screenSettings = {}
@@ -39,7 +41,7 @@ class Widget(QtGui.QWidget, Screen):
     desc = ki18n("Customize Your Desktop")
 
     def __init__(self, *args):
-        QtGui.QWidget.__init__(self,None)
+        QtGui.QWidget.__init__(self, None)
         self.ui = Ui_styleWidget()
         self.ui.setupUi(self)
 
@@ -57,15 +59,15 @@ class Widget(QtGui.QWidget, Screen):
 
         for desktopFiles in lst2:
             parser = DesktopParser()
-            parser.read("/usr/share/kde4/apps/kapudan/kapudan/kde-themes/" +str(desktopFiles))
+            parser.read("/usr/share/kde4/apps/kapudan/kapudan/kde-themes/" + str(desktopFiles))
 # Uncomment for local testing
 #            parser.read("data/kde-themes/" +str(desktopFiles))
             try:
-                styleName = unicode(parser.get_locale('Style', 'name[%s]'%self.catLang, ''))
+                styleName = unicode(parser.get_locale('Style', 'name[%s]' % self.catLang, ''))
             except:
                 styleName = unicode(parser.get_locale('Style', 'name', ''))
             try:
-                styleDesc = unicode(parser.get_locale('Style', 'description[%s]'%self.catLang, ''))
+                styleDesc = unicode(parser.get_locale('Style', 'description[%s]' % self.catLang, ''))
             except:
                 styleDesc = unicode(parser.get_locale('Style', 'description', ''))
             try:
@@ -78,7 +80,7 @@ class Widget(QtGui.QWidget, Screen):
                 colorScheme = unicode(parser.get_locale('Style', 'colorScheme', ''))
 
                 windowDecoration = unicode(parser.get_locale('Style', 'windowDecoration', ''))
-                styleThumb = unicode(os.path.join("/usr/share/kde4/apps/kapudan/kapudan/kde-themes/",  parser.get_locale('Style', 'thumbnail','')))
+                styleThumb = unicode(os.path.join("/usr/share/kde4/apps/kapudan/kapudan/kde-themes/",  parser.get_locale('Style', 'thumbnail', '')))
 # Uncomment for local testing
 #                styleThumb = unicode(os.path.join("data/kde-themes/",  parser.get_locale('Style', 'thumbnail','')))
 
@@ -100,18 +102,18 @@ class Widget(QtGui.QWidget, Screen):
                         #colorGroup.writeEntry(str(key), str(value))
 
                 self.styleDetails[styleName] = {
-                        "description": styleDesc, 
-                        "widgetStyle": widgetStyle, 
-                        "colorScheme": colorDict, 
-                        "desktopTheme": desktopTheme, 
-                        "windowDecoration": windowDecoration, 
-                        "panelPosition": panelPosition
-                        }
+                    "description": styleDesc,
+                    "widgetStyle": widgetStyle,
+                    "colorScheme": colorDict,
+                    "desktopTheme": desktopTheme,
+                    "windowDecoration": windowDecoration,
+                    "panelPosition": panelPosition
+                }
 
                 item = QtGui.QListWidgetItem(self.ui.listStyles)
                 widget = StyleItemWidget(unicode(styleName), unicode(styleDesc), styleThumb, self.ui.listStyles)
                 self.ui.listStyles.setItemWidget(item, widget)
-                item.setSizeHint(QSize(120,170))
+                item.setSizeHint(QSize(120, 170))
                 item.setStatusTip(styleName)
             except:
                 print "Warning! Invalid syntax in ", desktopFiles
@@ -121,14 +123,16 @@ class Widget(QtGui.QWidget, Screen):
         self.ui.spinBoxDesktopNumbers.connect(self.ui.spinBoxDesktopNumbers, SIGNAL("valueChanged(const QString &)"), self.addDesktop)
         #self.ui.previewButton.connect(self.ui.previewButton, SIGNAL("clicked()"), self.previewStyle)
 
-    def ConfigSectionMap(self,section):
+    def ConfigSectionMap(self, section):
         dict1 = {}
         options = self.Config.options(section)
         for option in options:
             try:
                 dict1[option] = self.Config.get(section, option)
                 if dict1[option] == -1:
-                    DebugPrint("skip: %s" % option)
+                    # TODO: no idea who introduced DebugPrint, maybe use
+                    # logging here
+                    pass  # DebugPrint("skip: %s" % option)
             except:
                 print("exception on %s!" % option)
                 dict1[option] = None
@@ -149,7 +153,7 @@ class Widget(QtGui.QWidget, Screen):
         self.__class__.screenSettings["desktopType"] = self.selectedType
 
     def setStyle(self):
-        styleName =  str(self.ui.listStyles.currentItem().statusTip())
+        styleName = str(self.ui.listStyles.currentItem().statusTip())
         self.__class__.screenSettings["summaryMessage"] = unicode(styleName)
         self.__class__.screenSettings["hasChanged"] = True
         self.__class__.screenSettings["styleChanged"] = True
@@ -157,11 +161,8 @@ class Widget(QtGui.QWidget, Screen):
         self.__class__.screenSettings["styleDetails"] = self.styleDetails
         self.__class__.screenSettings["styleName"] = styleName
 
-
     def shown(self):
         pass
 
     def execute(self):
         return True
-
-
