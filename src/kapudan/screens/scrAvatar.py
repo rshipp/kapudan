@@ -18,21 +18,22 @@
 
 
 from PyQt4 import QtGui, QtCore
-from PyQt4.QtCore import *
-from PyQt4.QtGui import *
+from PyQt4.QtCore import QVariant, QRect
+from PyQt4.QtGui import QFileDialog, QPainter, QColor, QBrush
 from PyKDE4.kdecore import ki18n
-from PyKDE4.kdecore import i18n
+#from PyKDE4.kdecore import i18n
 import ImageQt
 
 from kapudan.screen import Screen
 from kapudan.screens.ui_scrAvatar import Ui_Form
 
-import subprocess
+#import subprocess
 import os
 
 import Image
 import select
 import v4l2capture
+
 
 class Widget(QtGui.QWidget, Screen):
 
@@ -121,7 +122,7 @@ class Widget(QtGui.QWidget, Screen):
         self.timer.stop()
         self.video.close()
 
-    def savePicture(self, picturePath = None):
+    def savePicture(self, picturePath=None):
         home = os.path.expanduser("~")
 
         if picturePath:
@@ -140,11 +141,11 @@ class Widget(QtGui.QWidget, Screen):
     def chooseFile(self):
         self.ui.takeButton.hide()
         self.__class__.screenSettings["hasChanged"] = True
-        if self.camActive == True:
+        if self.camActive is True:
             self.deactivateCam()
 
 #        self.selectedFile = QFileDialog.getOpenFileName(None,"Open Image", os.environ["HOME"], 'Image Files (*.png *.jpg *bmp)')
-        self.selectedFile = QFileDialog.getOpenFileName(None,"Open Image",
+        self.selectedFile = QFileDialog.getOpenFileName(None, "Open Image",
                                                         "/usr/share/apps/kdm/pics/users/",
                                                         'Image Files (*.png *.jpg *.bmp)')
 
@@ -181,11 +182,11 @@ class DrawCropMask(QtGui.QWidget):
         painter = QPainter()
         painter.begin(self)
         painter.setRenderHint(QPainter.Antialiasing)
-        painter.setPen(QColor(20,20,20, 0))
+        painter.setPen(QColor(20, 20, 20, 0))
         painter.setBrush(QBrush(QColor(0, 0, 0, 200)))
 
-        rect = QRect(0, 0, 85, 240) # x, y, w, h
-        rect2 = QRect(85, 0, 150, 45) 
+        rect = QRect(0, 0, 85, 240)  # x, y, w, h
+        rect2 = QRect(85, 0, 150, 45)
         rect3 = QRect(235, 0, 85, 240)
         rect4 = QRect(85, 195, 150, 45)
         painter.drawRect(rect)
@@ -199,5 +200,3 @@ class DrawCropMask(QtGui.QWidget):
 
     def updateCropMask(self):
         self.update()
-
-
