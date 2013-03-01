@@ -15,7 +15,7 @@
 
 from PyQt4 import QtGui
 from PyQt4.QtCore import QSize, SIGNAL  # TODO get rid of QSize
-from PyKDE4.kdecore import ki18n, KGlobal, KConfig
+from PyKDE4.kdecore import i18n, KGlobal, KConfig
 #from PyKDE4 import kdeui
 
 import os
@@ -37,8 +37,8 @@ class Widget(QtGui.QWidget, Screen):
     screenSettings["hasChangedDesktopNumber"] = False
 
     # Set title and description for the information widget
-    title = ki18n("Themes")
-    desc = ki18n("Customize Your Desktop")
+    title = i18n("Themes")
+    desc = i18n("Customize Your Desktop")
 
     def __init__(self, *args):
         QtGui.QWidget.__init__(self, None)

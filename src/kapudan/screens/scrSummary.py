@@ -16,7 +16,7 @@
 from PyQt4 import QtGui
 from PyQt4.QtCore import QString  # remove usage of QString
 from PyQt4.QtGui import QMessageBox
-from PyKDE4.kdecore import ki18n, KConfig
+from PyKDE4.kdecore import i18n, KConfig
 
 import subprocess
 import os
@@ -44,8 +44,8 @@ from kapudan.tools.daemon import Daemon
 
 
 class Widget(QtGui.QWidget, Screen):
-    title = ki18n("Summary")
-    desc = ki18n("Save Your Settings")
+    title = i18n("Summary")
+    desc = i18n("Save Your Settings")
 
     def __init__(self, *args):
         QtGui.QWidget.__init__(self, None)
@@ -70,96 +70,96 @@ class Widget(QtGui.QWidget, Screen):
         content.append("""<html><body><ul>""")
 
         # Mouse Settings
-        content.append(subject % ki18n("Mouse Settings").toString())
+        content.append(subject % i18n("Mouse Settings"))
 
-        content.append(item % ki18n("Selected Mouse configuration: <b>%s</b>").toString() % self.mouseSettings["summaryMessage"]["selectedMouse"].toString())
-        content.append(item % ki18n("Selected clicking behavior: <b>%s</b>").toString() % self.mouseSettings["summaryMessage"]["clickBehavior"].toString())
+        content.append(item % i18n("Selected Mouse configuration: <b>%s</b>") % self.mouseSettings["summaryMessage"]["selectedMouse"])
+        content.append(item % i18n("Selected clicking behavior: <b>%s</b>") % self.mouseSettings["summaryMessage"]["clickBehavior"])
         content.append(end)
 
         # Menu Settings
-        content.append(subject % ki18n("Menu Settings").toString())
-        content.append(item % ki18n("Selected Menu: <b>%s</b>").toString() % self.menuSettings["summaryMessage"].toString())
+        content.append(subject % i18n("Menu Settings"))
+        content.append(item % i18n("Selected Menu: <b>%s</b>") % self.menuSettings["summaryMessage"])
         content.append(end)
 
         # Wallpaper Settings
-        content.append(subject % ki18n("Wallpaper Settings").toString())
+        content.append(subject % i18n("Wallpaper Settings"))
         if not self.wallpaperSettings["hasChanged"]:
-            content.append(item % ki18n("You haven't selected any wallpaper.").toString())
+            content.append(item % i18n("You haven't selected any wallpaper."))
         else:
-            content.append(item % ki18n("Selected Wallpaper: <b>%s</b>").toString() % os.path.basename(str(self.wallpaperSettings["selectedWallpaper"])))
+            content.append(item % i18n("Selected Wallpaper: <b>%s</b>") % os.path.basename(str(self.wallpaperSettings["selectedWallpaper"])))
         content.append(end)
 
         # Style Settings
-        content.append(subject % ki18n("Style Settings").toString())
+        content.append(subject % i18n("Style Settings"))
 
         if not self.styleSettings["hasChanged"]:
-            content.append(item % ki18n("You haven't selected any style.").toString())
+            content.append(item % i18n("You haven't selected any style."))
         else:
-            content.append(item % ki18n("Selected Style: <b>%s</b>").toString() % unicode(self.styleSettings["summaryMessage"]))
+            content.append(item % i18n("Selected Style: <b>%s</b>") % unicode(self.styleSettings["summaryMessage"]))
 
         content.append(end)
 
         # Spun Settings
         if self.packageSettings["hasChanged"]:
-            content.append(subject % ki18n("Package Management Settings").toString())
-            content.append(item % ki18n("You have enabled or disabled spun.").toString())
+            content.append(subject % i18n("Package Management Settings"))
+            content.append(item % i18n("You have enabled or disabled spun."))
 
             content.append(end)
 
         # Services Settings
         if self.servicesSettings["hasChanged"]:
             self.daemon = Daemon()
-            self.svctext = ki18n("You have: ").toString()
+            self.svctext = i18n("You have: ")
             self.svcissset = False
-            content.append(subject % ki18n("Services Settings").toString())
+            content.append(subject % i18n("Services Settings"))
 
             if self.servicesSettings["enableCups"] and not self.daemon.isEnabled("cups"):
-                self.svctext += ki18n("enabled cups; ").toString()
+                self.svctext += i18n("enabled cups; ")
                 self.svcisset = True
             elif not self.servicesSettings["enableCups"] and self.daemon.isEnabled("cups"):
-                self.svctext += ki18n("disabled cups; ").toString()
+                self.svctext += i18n("disabled cups; ")
                 self.svcisset = True
             if self.servicesSettings["enableBluetooth"] and not self.daemon.isEnabled("bluetooth"):
-                self.svctext += ki18n("enabled bluetooth; ").toString()
+                self.svctext += i18n("enabled bluetooth; ")
                 self.svcisset = True
             elif not self.servicesSettings["enableBluetooth"] and self.daemon.isEnabled("bluetooth"):
-                self.svctext += ki18n("disabled bluetooth; ").toString()
+                self.svctext += i18n("disabled bluetooth; ")
                 self.svcisset = True
 
             #FIXME: when can this ever happen?
             if not self.svcisset:
-                self.svctext = ki18n("You have made no changes.").toString()
+                self.svctext = i18n("You have made no changes.")
                 self.servicesSettings["hasChanged"] = False
 
-            content.append(item % ki18n(self.svctext).toString())
+            content.append(item % i18n(self.svctext))
 
             content.append(end)
 
         # Security Settings
         if self.securitySettings["hasChanged"]:
             self.daemon = Daemon()
-            self.sectext = ki18n("You have: ").toString()
+            self.sectext = i18n("You have: ")
             self.secisset = False
-            content.append(subject % ki18n("Security Settings").toString())
+            content.append(subject % i18n("Security Settings"))
 
             if self.securitySettings["enableClam"] and not self.daemon.isEnabled("clamd"):
-                self.sectext += ki18n("enabled ClamAV; ").toString()
+                self.sectext += i18n("enabled ClamAV; ")
                 self.secisset = True
             elif not self.securitySettings["enableClam"] and self.daemon.isEnabled("clamd"):
-                self.sectext += ki18n("disabled ClamAV; ").toString()
+                self.sectext += i18n("disabled ClamAV; ")
                 self.secisset = True
             if self.securitySettings["enableFire"] and not self.daemon.isEnabled("ufw"):
-                self.sectext += ki18n("enabled the firewall; ").toString()
+                self.sectext += i18n("enabled the firewall; ")
                 self.secisset = True
             elif not self.securitySettings["enableFire"] and self.daemon.isEnabled("ufw"):
-                self.sectext += ki18n("disabled the firewall; ").toString()
+                self.sectext += i18n("disabled the firewall; ")
                 self.secisset = True
 
             if not self.secisset:
-                self.sectext = ki18n("You have made no changes.").toString()
+                self.sectext = i18n("You have made no changes.")
                 self.securitySettings["hasChanged"] = False
 
-            content.append(item % ki18n(self.sectext).toString())
+            content.append(item % i18n(self.sectext))
 
             content.append(end)
 
@@ -173,7 +173,7 @@ class Widget(QtGui.QWidget, Screen):
             self.startPlasma()
 
         except:
-            QMessageBox.critical(self, ki18n("Error").toString(), ki18n("Cannot restart plasma-desktop. Kapudan will now shut down.").toString())
+            QMessageBox.critical(self, i18n("Error"), i18n("Cannot restart plasma-desktop. Kapudan will now shut down."))
             kdeui.KApplication.kApplication().quit()
 
     def startPlasma(self):

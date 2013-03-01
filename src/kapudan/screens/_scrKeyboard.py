@@ -17,7 +17,7 @@
 from PyQt4 import QtGui
 
 from PyQt4.QtCore import *
-from PyKDE4.kdecore import ki18n, KConfig
+from PyKDE4.kdecore import i18n, KConfig
 
 from kapudan.screen import Screen
 from kapudan.screens.ui_scrKeyboard import Ui_keyboardWidget
@@ -31,8 +31,8 @@ class Widget(QtGui.QWidget, Screen):
     screenSettings["hasChanged"] = False
 
     # title and description at the top of the dialog window
-    title = ki18n("Keyboard")
-    desc = ki18n("Keyboard Layout Language")
+    title = i18n("Keyboard")
+    desc = i18n("Keyboard Layout Language")
 
     def __init__(self, *args):
         QtGui.QWidget.__init__(self,None)

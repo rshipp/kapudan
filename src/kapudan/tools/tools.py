@@ -32,7 +32,7 @@ def isLiveCD():
 def getRelease():
     p = subprocess.Popen(["lsb_release", "-ircs"], stdout=subprocess.PIPE)
     release, err = p.communicate()
-    return unicode(release.replace("\n", ""))
+    return release.replace("\n", "")
 
 def killPlasma(self):
     p = subprocess.Popen(["pidof", "-s", "plasma-desktop"], stdout=subprocess.PIPE)

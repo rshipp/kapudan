@@ -15,7 +15,7 @@
 
 from PyQt4 import QtGui
 from PyQt4.QtCore import QProcess  # get rid of QProcess
-from PyKDE4.kdecore import ki18n, KGlobal
+from PyKDE4.kdecore import i18n, KGlobal
 
 import os
 import shutil
@@ -25,8 +25,8 @@ from kapudan.screens.ui_scrGoodbye import Ui_goodbyeWidget
 
 
 class Widget(QtGui.QWidget, Screen):
-    title = ki18n("More")
-    desc = ki18n("Congratulations!")
+    title = i18n("More")
+    desc = i18n("Congratulations!")
 
     def __init__(self, *args):
         QtGui.QWidget.__init__(self, None)

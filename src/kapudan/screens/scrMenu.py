@@ -15,7 +15,7 @@
 
 from PyQt4 import QtGui
 from PyQt4.QtCore import SIGNAL
-from PyKDE4.kdecore import ki18n, KConfig
+from PyKDE4.kdecore import i18n, KConfig
 
 from kapudan.screen import Screen
 from kapudan.screens.ui_scrMenu import Ui_menuWidget
@@ -26,8 +26,8 @@ class Widget(QtGui.QWidget, Screen):
     screenSettings["hasChanged"] = False
 
     # Set title and description for the information widget
-    title = ki18n("Menu")
-    desc = ki18n("Choose a Menu Style")
+    title = i18n("Menu")
+    desc = i18n("Choose a Menu Style")
 
     def __init__(self, *args):
         QtGui.QWidget.__init__(self, None)
@@ -41,33 +41,33 @@ class Widget(QtGui.QWidget, Screen):
         self.menuNames = {}
         self.menuNames["launcher"] = {
             "menuIndex": 0,
-            "summaryMessage": ki18n("Kick-off Menu"),
+            "summaryMessage": i18n("Kick-off Menu"),
             "image": QtGui.QPixmap(':/raw/pixmap/kickoff.png'),
-            "description": ki18n("Kick-off menu is the default menu of Chakra.<br><br>The program shortcuts are easy to access and well organized.")
+            "description": i18n("Kick-off menu is the default menu of Chakra.<br><br>The program shortcuts are easy to access and well organized.")
         }
         self.menuNames["simplelauncher"] = {
             "menuIndex": 1,
-            "summaryMessage": ki18n("Simple Menu"),
+            "summaryMessage": i18n("Simple Menu"),
             "image": QtGui.QPixmap(':/raw/pixmap/simple.png'),
-            "description": ki18n("Simple menu is an old style menu from KDE 3.<br><br>It is a very lightweight menu thus it is recommended for slower PC's.")
+            "description": i18n("Simple menu is an old style menu from KDE 3.<br><br>It is a very lightweight menu thus it is recommended for slower PC's.")
         }
         self.menuNames["lancelot_launcher"] = {
             "menuIndex": 2,
-            "summaryMessage": ki18n("Lancelot Menu"),
+            "summaryMessage": i18n("Lancelot Menu"),
             "image": QtGui.QPixmap(':/raw/pixmap/lancelot.png'),
-            "description": ki18n("Lancelot is an advanced and highly customizable menu for Chakra.<br><br>The program shortcuts are easy to access and well organized.")
+            "description": i18n("Lancelot is an advanced and highly customizable menu for Chakra.<br><br>The program shortcuts are easy to access and well organized.")
         }
         self.menuNames["homerun_launcher"] = {
             "menuIndex": 3,
-            "summaryMessage": ki18n("Homerun Menu"),
+            "summaryMessage": i18n("Homerun Menu"),
             "image": QtGui.QPixmap(':/raw/pixmap/homerun.png'),
-            "description": ki18n("Homerun is a full screen launcher with content organized in tabs.")
+            "description": i18n("Homerun is a full screen launcher with content organized in tabs.")
         }
         self.menuNames["appmenu_launcher"] = {
             "menuIndex": 4,
-            "summaryMessage": ki18n("AppMenu QML"),
+            "summaryMessage": i18n("AppMenu QML"),
             "image": QtGui.QPixmap(':/raw/pixmap/lancelot.png'),
-            "description": ki18n("This plasmoid shows a menu of the installed applications, similar to Lancelot but much simpler")
+            "description": i18n("This plasmoid shows a menu of the installed applications, similar to Lancelot but much simpler")
         }
 
         for each in list(group.groupList()):
@@ -87,7 +87,7 @@ class Widget(QtGui.QWidget, Screen):
             self.__class__.screenSettings["selectedMenu"] = "launcher"
 
         self.ui.pictureMenuStyles.setPixmap(self.menuNames[str(self.__class__.screenSettings["selectedMenu"])]["image"])
-        self.ui.labelMenuDescription.setText(self.menuNames[str(self.__class__.screenSettings["selectedMenu"])]["description"].toString())
+        self.ui.labelMenuDescription.setText(self.menuNames[str(self.__class__.screenSettings["selectedMenu"])]["description"])
         self.ui.menuStyles.setCurrentIndex(self.menuNames[str(self.__class__.screenSettings["selectedMenu"])]["menuIndex"])
 
         self.ui.menuStyles.connect(self.ui.menuStyles, SIGNAL("activated(const QString &)"), self.setMenuStyle)
@@ -100,28 +100,28 @@ class Widget(QtGui.QWidget, Screen):
             self.__class__.screenSettings["selectedMenu"] = 'launcher'
 
             self.ui.pictureMenuStyles.setPixmap(self.menuNames["launcher"]["image"])
-            self.ui.labelMenuDescription.setText(self.menuNames["launcher"]["description"].toString())
+            self.ui.labelMenuDescription.setText(self.menuNames["launcher"]["description"])
         elif currentIndex == 1:
             self.__class__.screenSettings["selectedMenu"] = 'simplelauncher'
 
             self.ui.pictureMenuStyles.setPixmap(self.menuNames["simplelauncher"]["image"])
-            self.ui.labelMenuDescription.setText(self.menuNames["simplelauncher"]["description"].toString())
+            self.ui.labelMenuDescription.setText(self.menuNames["simplelauncher"]["description"])
 
         elif currentIndex == 2:
             self.__class__.screenSettings["selectedMenu"] = 'lancelot_launcher'
 
             self.ui.pictureMenuStyles.setPixmap(self.menuNames["lancelot_launcher"]["image"])
-            self.ui.labelMenuDescription.setText(self.menuNames["lancelot_launcher"]["description"].toString())
+            self.ui.labelMenuDescription.setText(self.menuNames["lancelot_launcher"]["description"])
         elif currentIndex == 3:
             self.__class__.screenSettings["selectedMenu"] = 'homerun_launcher'
 
             self.ui.pictureMenuStyles.setPixmap(self.menuNames["homerun_launcher"]["image"])
-            self.ui.labelMenuDescription.setText(self.menuNames["homerun_launcher"]["description"].toString())
+            self.ui.labelMenuDescription.setText(self.menuNames["homerun_launcher"]["description"])
         elif currentIndex == 4:
             self.__class__.screenSettings["selectedMenu"] = "appmenu_launcher"
 
             self.ui.pictureMenuStyles.setPixmap(self.menuNames["appmenu_launcher"]["image"])
-            self.ui.labelMenuDescription.setText(self.menuNames["appmenu_launcher"]["description"].toString())
+            self.ui.labelMenuDescription.setText(self.menuNames["appmenu_launcher"]["description"])
 
     def shown(self):
         pass

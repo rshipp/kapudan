@@ -16,7 +16,7 @@
 from PyQt4 import QtGui
 from PyQt4.QtCore import *
 
-from PyKDE4.kdecore import ki18n, KConfig, KProcess
+from PyKDE4.kdecore import i18n, KConfig, KProcess
 
 from PyKDE4 import kdeui
 
@@ -26,8 +26,8 @@ from kapudan.screens.ui_scrSearch import Ui_searchWidget
 import subprocess
 
 class Widget(QtGui.QWidget, Screen):
-    title = ki18n("Search")
-    desc = ki18n("Enable / Disable Strigi Desktop Search")
+    title = i18n("Search")
+    desc = i18n("Enable / Disable Strigi Desktop Search")
 
     def __init__(self, *args):
         QtGui.QWidget.__init__(self,None)

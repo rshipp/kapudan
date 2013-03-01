@@ -16,7 +16,7 @@
 from PyQt4 import QtGui
 from PyQt4.QtCore import SIGNAL, QVariant
 
-from PyKDE4.kdecore import ki18n, KConfig
+from PyKDE4.kdecore import i18n, KConfig
 
 #from PyKDE4 import kdeui
 
@@ -31,8 +31,8 @@ isUpdateOn = False
 
 
 class Widget(QtGui.QWidget, Screen):
-    title = ki18n("Packages")
-    desc = ki18n("Install / Remove Programs")
+    title = i18n("Packages")
+    desc = i18n("Install / Remove Programs")
 
     screenSettings = {}
     screenSettings["hasChanged"] = False

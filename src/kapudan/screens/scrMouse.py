@@ -15,7 +15,7 @@
 
 from PyQt4 import QtGui
 from PyQt4.QtCore import SIGNAL
-from PyKDE4.kdecore import ki18n, KConfig
+from PyKDE4.kdecore import i18n, KConfig
 from PyKDE4.kdeui import KGlobalSettings
 
 from kapudan.screen import Screen
@@ -30,8 +30,8 @@ class Widget(QtGui.QWidget, Screen):
     screenSettings["hasChanged"] = False
 
     # title and description at the top of the dialog window
-    title = ki18n("Mouse")
-    desc = ki18n("Setup Mouse Behavior")
+    title = i18n("Mouse")
+    desc = i18n("Setup Mouse Behavior")
 
     def __init__(self, *args):
         QtGui.QWidget.__init__(self, None)
@@ -143,8 +143,8 @@ class Widget(QtGui.QWidget, Screen):
     def execute(self):
         self.__class__.screenSettings["summaryMessage"] = {}
 
-        self.__class__.screenSettings["summaryMessage"].update({"selectedMouse": ki18n("Left Handed") if self.__class__.screenSettings["selectedMouse"] == "LeftHanded" else ki18n("Right Handed")})
-        self.__class__.screenSettings["summaryMessage"].update({"clickBehavior": ki18n("Single Click ") if self.clickBehavior else ki18n("Double Click")})
+        self.__class__.screenSettings["summaryMessage"].update({"selectedMouse": i18n("Left Handed") if self.__class__.screenSettings["selectedMouse"] == "LeftHanded" else i18n("Right Handed")})
+        self.__class__.screenSettings["summaryMessage"].update({"clickBehavior": i18n("Single Click ") if self.clickBehavior else i18n("Double Click")})
 
         config = KConfig("kdeglobals")
         group = config.group("KDE")

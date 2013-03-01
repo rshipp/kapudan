@@ -16,7 +16,7 @@
 from PyQt4 import QtGui
 from PyQt4.QtCore import QProcess  # remove QProcess dependency
 
-from PyKDE4.kdecore import ki18n
+from PyKDE4.kdecore import i18n
 
 #from PyKDE4 import kdeui
 
@@ -30,8 +30,8 @@ isUpdateOn = False
 
 
 class Widget(QtGui.QWidget, Screen):
-    title = ki18n("Security")
-    desc = ki18n("Keep your system secure")
+    title = i18n("Security")
+    desc = i18n("Keep your system secure")
 
     screenSettings = {}
     screenSettings["hasChanged"] = False

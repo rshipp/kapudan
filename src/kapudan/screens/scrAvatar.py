@@ -19,7 +19,7 @@
 
 from PyQt4 import QtGui, QtCore
 from PyQt4.QtGui import QFileDialog, QPainter, QColor, QBrush
-from PyKDE4.kdecore import ki18n
+from PyKDE4.kdecore import i18n
 import ImageQt
 
 from kapudan.screen import Screen
@@ -34,7 +34,7 @@ import v4l2capture
 
 class Widget(QtGui.QWidget, Screen):
 
-    title = ki18n("User Picture")
+    title = i18n("User Picture")
 
     screenSettings = {}
     screenSettings["hasChanged"] = False
@@ -46,7 +46,7 @@ class Widget(QtGui.QWidget, Screen):
 
         self.camActive = False
 
-        Widget.desc = ki18n("Create Your User Picture")
+        Widget.desc = i18n("Create Your User Picture")
 
         self.pictureTaken = 0
         self.ui.takeButton.hide()
@@ -83,7 +83,7 @@ class Widget(QtGui.QWidget, Screen):
         self.ui.takeButton.show()
         self.ui.takeAgainButton.hide()
         self.timer.stop()
-        cam = str(self.ui.comboBox.itemData(self.ui.comboBox.currentIndex()).toString())
+        cam = str(self.ui.comboBox.itemData(self.ui.comboBox.currentIndex()))
         self.video = v4l2capture.Video_device(cam)
 
         self.size_x, self.size_y = self.video.set_format(320, 240)

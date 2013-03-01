@@ -19,7 +19,7 @@ from PyQt4.QtCore import QSize, SIGNAL
 from PyQt4.QtGui import QFileDialog
 
 #from PyQt4.QtCore import *
-from PyKDE4.kdecore import ki18n, KStandardDirs, KGlobal
+from PyKDE4.kdecore import i18n, KStandardDirs, KGlobal
 import os
 
 from kapudan.screen import Screen
@@ -34,8 +34,8 @@ class Widget(QtGui.QWidget, Screen):
     screenSettings["hasChanged"] = False
 
     # title and description at the top of the dialog window
-    title = ki18n("Wallpaper")
-    desc = ki18n("Choose a Wallpaper")
+    title = i18n("Wallpaper")
+    desc = i18n("Choose a Wallpaper")
 
     def __init__(self, *args):
         QtGui.QWidget.__init__(self, None)

@@ -15,7 +15,7 @@
 
 import os
 from PyQt4 import QtGui
-from PyKDE4.kdecore import ki18n
+from PyKDE4.kdecore import i18n
 
 from kapudan.screen import Screen
 from kapudan.screens.ui_scrFolder import Ui_folderWidget
@@ -26,8 +26,8 @@ class Widget(QtGui.QWidget, Screen):
     screenSettings["hasChanged"] = False
 
     # title and description at the top of the dialog window
-    title = ki18n("Folders")
-    desc = ki18n("Create folders in the home directory")
+    title = i18n("Folders")
+    desc = i18n("Create folders in the home directory")
 
     def __init__(self, *args):
         QtGui.QWidget.__init__(self, None)

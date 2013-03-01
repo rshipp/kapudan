@@ -61,7 +61,7 @@ class Kapudan(QtGui.QWidget):
 
         # Get Screen Titles
         for screen in self.screens:
-            title = screen.Widget.title.toString()
+            title = screen.Widget.title
             self.titles.append(title)
 
         # draw progress pie
@@ -187,7 +187,7 @@ class Kapudan(QtGui.QWidget):
             _scr = screen.Widget()
 
             # Append screen descriptions to list
-            self.descriptions.append(_scr.desc.toString())
+            self.descriptions.append(_scr.desc)
 
             # Append screens to stack widget
             self.ui.mainStack.addWidget(_scr)

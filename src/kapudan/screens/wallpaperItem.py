@@ -15,9 +15,9 @@
 #
 
 from PyQt4 import QtGui
-from PyQt4.QtCore import *
 
 from kapudan.screens.ui_wallpaperItem import Ui_ServiceItemWidget
+
 
 class WallpaperItemWidget(QtGui.QWidget):
 
@@ -28,7 +28,7 @@ class WallpaperItemWidget(QtGui.QWidget):
         self.ui.setupUi(self)
 
         self.ui.labelName.setText(title)
-        self.ui.labelDesc.setText("by "+ desc)
+        self.ui.labelDesc.setText("by " + desc)
 
         try:
             self.ui.labelStatus.setPixmap(QtGui.QPixmap(pic))

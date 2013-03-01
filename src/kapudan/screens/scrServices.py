@@ -16,7 +16,7 @@
 from PyQt4 import QtGui
 #from PyQt4.QtCore import
 
-from PyKDE4.kdecore import ki18n
+from PyKDE4.kdecore import i18n
 
 #from PyKDE4 import kdeui
 
@@ -28,8 +28,8 @@ isUpdateOn = False
 
 
 class Widget(QtGui.QWidget, Screen):
-    title = ki18n("Services")
-    desc = ki18n("Enable / Disable Services (Daemons)")
+    title = i18n("Services")
+    desc = i18n("Enable / Disable Services (Daemons)")
 
     screenSettings = {}
     screenSettings["hasChanged"] = False
