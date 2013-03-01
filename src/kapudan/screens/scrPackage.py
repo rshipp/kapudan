@@ -14,7 +14,7 @@
 #
 
 from PyQt4 import QtGui
-from PyQt4.QtCore import *
+from PyQt4.QtCore import SIGNAL, QVariant
 
 from PyKDE4.kdecore import ki18n, KConfig
 
@@ -28,6 +28,7 @@ import subprocess
 import os
 
 isUpdateOn = False
+
 
 class Widget(QtGui.QWidget, Screen):
     title = ki18n("Packages")
@@ -72,8 +73,8 @@ class Widget(QtGui.QWidget, Screen):
 
         if self.ui.checkUpdate.isChecked():
             # checks if spun is not in the output of ps -Af
-            if "spun" not in subprocess.Popen("ps -Af",
-                   shell=True, stdout=subprocess.PIPE).stdout.read():
+            if "spun" not in subprocess.Popen(
+                    "ps -Af", shell=True, stdout=subprocess.PIPE).stdout.read():
                 subprocess.Popen(["spun"], stdout=subprocess.PIPE)
 
             # was spun disabled before?
@@ -91,7 +92,6 @@ class Widget(QtGui.QWidget, Screen):
                 self.__class__.screenSettings["hasChanged"] = True
             else:
                 self.__class__.screenSettings["hasChanged"] = False
-
 
     def shown(self):
         pass
