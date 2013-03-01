@@ -14,18 +14,21 @@
 #
 
 from PyQt4 import QtGui
-from PyQt4.QtCore import *
+from PyQt4.QtCore import QString  # remove usage of QString
 from PyQt4.QtGui import QMessageBox
 from PyKDE4.kdecore import ki18n, KConfig
 
-import subprocess,os, dbus, time
+import subprocess
+import os
+import dbus
+import time
 
 from kapudan.screen import Screen
 from kapudan.screens.ui_scrSummary import Ui_summaryWidget
 from PyKDE4 import kdeui
 
 # import other widgets to get the latest configuration
-import kapudan.screens.scrFolder as folderWidget
+#import kapudan.screens.scrFolder as folderWidget
 import kapudan.screens.scrWallpaper as wallpaperWidget
 import kapudan.screens.scrMouse as mouseWidget
 import kapudan.screens.scrStyle as styleWidget
@@ -35,16 +38,17 @@ import kapudan.screens.scrPackage as packageWidget
 import kapudan.screens.scrServices as servicesWidget
 import kapudan.screens.scrSecurity as securityWidget
 
-from kapudan.tools import tools
+#from kapudan.tools import tools
 from kapudan.tools.spunrc import SpunRC
 from kapudan.tools.daemon import Daemon
+
 
 class Widget(QtGui.QWidget, Screen):
     title = ki18n("Summary")
     desc = ki18n("Save Your Settings")
 
     def __init__(self, *args):
-        QtGui.QWidget.__init__(self,None)
+        QtGui.QWidget.__init__(self, None)
         self.ui = Ui_summaryWidget()
         self.ui.setupUi(self)
 
@@ -59,8 +63,8 @@ class Widget(QtGui.QWidget, Screen):
         self.securitySettings = securityWidget.Widget.screenSettings
 
         subject = "<p><li><b>%s</b></li><ul>"
-        item    = "<li>%s</li>"
-        end     = "</ul></p>"
+        item = "<li>%s</li>"
+        end = "</ul></p>"
         content = QString("")
 
         content.append("""<html><body><ul>""")
@@ -161,7 +165,6 @@ class Widget(QtGui.QWidget, Screen):
 
         self.ui.textSummary.setText(content)
 
-
     def killPlasma(self):
         try:
             p = subprocess.Popen(["kquitapp", "plasma-desktop"], stdout=subprocess.PIPE)
@@ -171,12 +174,10 @@ class Widget(QtGui.QWidget, Screen):
 
         except:
             QMessageBox.critical(self, ki18n("Error").toString(), ki18n("Cannot restart plasma-desktop. Kapudan will now shut down.").toString())
-            from PyKDE4 import kdeui
             kdeui.KApplication.kApplication().quit()
 
     def startPlasma(self):
-        p = subprocess.Popen(["plasma-desktop"], stdout=subprocess.PIPE)
-
+        subprocess.Popen(["plasma-desktop"], stdout=subprocess.PIPE)
 
     def execute(self):
         hasChanged = False
@@ -186,7 +187,7 @@ class Widget(QtGui.QWidget, Screen):
         if self.wallpaperSettings["hasChanged"]:
             hasChanged = True
             if self.wallpaperSettings["selectedWallpaper"]:
-                config =  KConfig("plasma-desktop-appletsrc")
+                config = KConfig("plasma-desktop-appletsrc")
                 group = config.group("Containments")
                 for each in list(group.groupList()):
                     subgroup = group.group(each)
@@ -211,8 +212,7 @@ class Widget(QtGui.QWidget, Screen):
                         subg2 = subg.group(i)
                         launcher = subg2.readEntry('plugin')
                         if str(launcher).find('launcher') >= 0:
-                            subg2.writeEntry('plugin', self.menuSettings["selectedMenu"] )
-
+                            subg2.writeEntry('plugin', self.menuSettings["selectedMenu"])
 
         def removeFolderViewWidget():
             config = KConfig("plasma-desktop-appletsrc")
@@ -232,11 +232,10 @@ class Widget(QtGui.QWidget, Screen):
                         if plugin == 'folderview':
                             sub_lvl_3.deleteGroup()
 
-
         # Desktop Type
         if self.styleSettings["hasChangedDesktopType"]:
             hasChanged = True
-            config =  KConfig("plasma-desktop-appletsrc")
+            config = KConfig("plasma-desktop-appletsrc")
             group = config.group("Containments")
 
             for each in list(group.groupList()):
@@ -268,7 +267,7 @@ class Widget(QtGui.QWidget, Screen):
             group.writeEntry('Number', self.styleSettings["desktopNumber"])
             group.sync()
 
-            info =  kdeui.NETRootInfo(QtGui.QX11Info.display(), kdeui.NET.NumberOfDesktops | kdeui.NET.DesktopNames)
+            info = kdeui.NETRootInfo(QtGui.QX11Info.display(), kdeui.NET.NumberOfDesktops | kdeui.NET.DesktopNames)
             info.setNumberOfDesktops(int(self.styleSettings["desktopNumber"]))
             info.activate()
 
@@ -282,7 +281,6 @@ class Widget(QtGui.QWidget, Screen):
 
             config.sync()
 
-
         def deleteIconCache():
             try:
                 os.remove("/var/tmp/kdecache-%s/icon-cache.kcache" % os.environ.get("USER"))
@@ -291,7 +289,6 @@ class Widget(QtGui.QWidget, Screen):
 
             for i in range(kdeui.KIconLoader.LastGroup):
                 kdeui.KGlobalSettings.self().emitChange(kdeui.KGlobalSettings.IconChanged, i)
-
 
         # Theme Settings
         if self.styleSettings["hasChanged"]:
@@ -401,7 +398,6 @@ class Widget(QtGui.QWidget, Screen):
                 rootActions += "enable_fire "
             elif not self.securitySettings["enableFire"] and self.daemon.isEnabled("ufw"):
                 rootActions += "disable_fire "
-
 
         if hasChanged:
             self.killPlasma()
