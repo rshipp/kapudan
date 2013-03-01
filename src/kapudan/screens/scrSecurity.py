@@ -14,9 +14,8 @@
 #
 
 from PyQt4 import QtGui
-from PyQt4.QtCore import QProcess  # remove QProcess dependency
 
-from PyKDE4.kdecore import i18n
+from PyKDE4.kdecore import i18n, KToolInvocation
 
 #from PyKDE4 import kdeui
 
@@ -79,29 +78,19 @@ class Widget(QtGui.QWidget, Screen):
                 self.__class__.screenSettings["hasChanged"] = True
 
     def on_buttonClam_clicked(self):
-        self.procSettings = QProcess()
-        command = "xdg-open http://www.chakra-linux.org/wiki/index.php/Anti-Malware#ClamAV"
-        self.procSettings.start(command)
+        KToolInvocation.invokeBrowser("http://www.chakra-project.org/wiki/index.php?title=Anti-Malware#ClamAV")
 
     def on_buttonTomoyo_clicked(self):
-        self.procSettings = QProcess()
-        command = "xdg-open http://www.chakra-linux.org/wiki/index.php/Using_tomoyo-tools_for_system_security"
-        self.procSettings.start(command)
+        KToolInvocation.invokeBrowser("http://www.chakra-project.org/wiki/index.php?title=Using_tomoyo-tools_for_system_security")
 
     def on_buttonKwallet_clicked(self):
-        self.procSettings = QProcess()
-        command = "xdg-open http://www.chakra-linux.org/wiki/index.php/KDE_Wallet_Manager"
-        self.procSettings.start(command)
+        KToolInvocation.invokeBrowser("http://www.chakra-project.org/wiki/index.php?title=KDE_Wallet_Manager")
 
     def on_buttonRootkit_clicked(self):
-        self.procSettings = QProcess()
-        command = "xdg-open http://www.chakra-linux.org/wiki/index.php/Anti-Malware#chkrootkit_and_rkhunter"
-        self.procSettings.start(command)
+        KToolInvocation.invokeBrowser("http://www.chakra-project.org/wiki/index.php?title=Anti-Malware#chkrootkit_and_rkhunter")
 
     def on_buttonTiger_clicked(self):
-        self.procSettings = QProcess()
-        command = "xdg-open http://www.nongnu.org/tiger/"
-        self.procSettings.start(command)
+        KToolInvocation.invokeBrowser("://www.nongnu.org/tiger/")
 
     def shown(self):
         pass
