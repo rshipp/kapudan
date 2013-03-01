@@ -14,20 +14,22 @@
 #
 
 from PyQt4 import QtGui
-from PyQt4.QtCore import *
-from PyKDE4.kdecore import ki18n, KGlobal, KConfig
+from PyQt4.QtCore import QProcess  # get rid of QProcess
+from PyKDE4.kdecore import ki18n, KGlobal
 
-import subprocess, sys, os, shutil
+import os
+import shutil
 
 from kapudan.screen import Screen
 from kapudan.screens.ui_scrGoodbye import Ui_goodbyeWidget
+
 
 class Widget(QtGui.QWidget, Screen):
     title = ki18n("More")
     desc = ki18n("Congratulations!")
 
     def __init__(self, *args):
-        QtGui.QWidget.__init__(self,None)
+        QtGui.QWidget.__init__(self, None)
         self.ui = Ui_goodbyeWidget()
         self.ui.setupUi(self)
 
@@ -48,11 +50,9 @@ class Widget(QtGui.QWidget, Screen):
 
         self.ui.autostart.setChecked(False)
 
-
     def on_autostart_toggled(self):
         # Remove/set autostart entry
         self.remove_autostart = not self.remove_autostart
-
 
     def on_buttonSystemSettings_clicked(self):
         self.procSettings = QProcess()
@@ -78,4 +78,3 @@ class Widget(QtGui.QWidget, Screen):
             if not os.path.isfile(self.autofile):
                 shutil.copyfile(self.gautofile, self.autofile)
         return True
-
