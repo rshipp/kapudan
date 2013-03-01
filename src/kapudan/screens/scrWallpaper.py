@@ -15,18 +15,18 @@
 
 
 from PyQt4 import QtGui
+from PyQt4.QtCore import QSize, SIGNAL
 from PyQt4.QtGui import QFileDialog
 
-from PyQt4.QtCore import *
-from PyKDE4.kdecore import ki18n, KStandardDirs, KGlobal, KConfig
-import os, sys, subprocess
+#from PyQt4.QtCore import *
+from PyKDE4.kdecore import ki18n, KStandardDirs, KGlobal
+import os
 
 from kapudan.screen import Screen
 from kapudan.screens.ui_scrWallpaper import Ui_wallpaperWidget
 from kapudan.screens.wallpaperItem import WallpaperItemWidget
 
 from kapudan.tools.desktop_parser import DesktopParser
-from ConfigParser import ConfigParser
 
 
 class Widget(QtGui.QWidget, Screen):
@@ -38,24 +38,25 @@ class Widget(QtGui.QWidget, Screen):
     desc = ki18n("Choose a Wallpaper")
 
     def __init__(self, *args):
-        QtGui.QWidget.__init__(self,None)
+        QtGui.QWidget.__init__(self, None)
         self.ui = Ui_wallpaperWidget()
         self.ui.setupUi(self)
         # Get system locale
         self.catLang = KGlobal.locale().language()
 
         # Get screen resolution
-        rect =  QtGui.QDesktopWidget().screenGeometry()
+        # rect = QtGui.QDesktopWidget().screenGeometry() FIXME: where could
+        # this be needed?
 
         # Get metadata.desktop files from shared wallpaper directory
-        lst= KStandardDirs().findAllResources("wallpaper", "*metadata.desktop", KStandardDirs.Recursive)
+        lst = KStandardDirs().findAllResources("wallpaper", "*metadata.desktop", KStandardDirs.Recursive)
 
         for desktopFiles in lst:
             parser = DesktopParser()
             parser.read(str(desktopFiles))
 
             try:
-                wallpaperTitle = parser.get_locale('Desktop Entry', 'Name[%s]'%self.catLang, '')
+                wallpaperTitle = parser.get_locale('Desktop Entry', 'Name[%s]' % self.catLang, '')
             except:
                 wallpaperTitle = parser.get_locale('Desktop Entry', 'Name', '')
 
@@ -91,7 +92,7 @@ class Widget(QtGui.QWidget, Screen):
             item = QtGui.QListWidgetItem(self.ui.listWallpaper)
             # Each wallpaper item is a widget. Look at widgets.py for more information.
             widget = WallpaperItemWidget(unicode(wallpaperTitle, "utf8", "replace"), unicode(wallpaperDesc, "utf8", "replace"), wallpaperThumb, self.ui.listWallpaper)
-            item.setSizeHint(QSize(120,170))
+            item.setSizeHint(QSize(120, 170))
             self.ui.listWallpaper.setItemWidget(item, widget)
             # Add a hidden value to each item for detecting selected wallpaper's path.
             item.setStatusTip(wallpaperFile)
@@ -111,11 +112,11 @@ class Widget(QtGui.QWidget, Screen):
             self.ui.listWallpaper.setDisabled(False)
 
     def setWallpaper(self):
-        self.__class__.screenSettings["selectedWallpaper"] =  self.ui.listWallpaper.currentItem().statusTip()
+        self.__class__.screenSettings["selectedWallpaper"] = self.ui.listWallpaper.currentItem().statusTip()
         self.__class__.screenSettings["hasChanged"] = True
 
     def selectWallpaper(self):
-        selectedFile = QFileDialog.getOpenFileName(None,"Open Image", os.environ["HOME"], 'Image Files (*.png *.jpg *.bmp)')
+        selectedFile = QFileDialog.getOpenFileName(None, "Open Image", os.environ["HOME"], 'Image Files (*.png *.jpg *.bmp)')
 
         if selectedFile.isNull():
             return
@@ -123,15 +124,14 @@ class Widget(QtGui.QWidget, Screen):
             item = QtGui.QListWidgetItem(self.ui.listWallpaper)
             wallpaperName = os.path.splitext(os.path.split(str(selectedFile))[1])[0]
             widget = WallpaperItemWidget(unicode(wallpaperName, "utf8", "replace"), unicode("Unknown"), selectedFile, self.ui.listWallpaper)
-            item.setSizeHint(QSize(120,170))
+            item.setSizeHint(QSize(120, 170))
             self.ui.listWallpaper.setItemWidget(item, widget)
             item.setStatusTip(selectedFile)
             self.ui.listWallpaper.setCurrentItem(item)
-            self.resize(120,170)
+            self.resize(120, 170)
 
     def shown(self):
         pass
 
     def execute(self):
         return True
-
