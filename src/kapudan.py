@@ -6,7 +6,6 @@ import os
 
 from PyQt4 import QtCore, QtGui
 from PyKDE4 import kdeui
-from PyQt4.QtCore import QTimeLine
 from PyKDE4.kdecore import ki18n, KAboutData, KCmdLineArgs, KConfig
 
 from kapudan.screens.ui_kapudan import Ui_kapudan
@@ -16,8 +15,9 @@ from kapudan.tools.progress_pie import DrawPie
 from kapudan.tools.kapudan_menu import Menu
 from kapudan.tools.spunrc import SpunRC
 
+
 class Kapudan(QtGui.QWidget):
-    def __init__(self, parent = None):
+    def __init__(self, parent=None):
         QtGui.QWidget.__init__(self, parent)
         self.initializeGlobals()
         self.initializeUI()
@@ -37,11 +37,11 @@ class Kapudan(QtGui.QWidget):
 
     def signalHandler(self):
         ''' connects signals to slots '''
-        self.connect(self.ui.buttonNext, QtCore.SIGNAL("clicked()"), self.slotNext)
-        self.connect(self.ui.buttonApply, QtCore.SIGNAL("clicked()"), self.slotNext)
-        self.connect(self.ui.buttonBack, QtCore.SIGNAL("clicked()"), self.slotBack)
-        self.connect(self.ui.buttonFinish, QtCore.SIGNAL("clicked()"), self.slotCleanup)
-        self.connect(self.ui.buttonCancel, QtCore.SIGNAL("clicked()"), QtGui.qApp, QtCore.SLOT("quit()"))
+        self.ui.buttonNext.clicked.connect(self.slotNext)
+        self.ui.buttonApply.clicked.connect(self.slotNext)
+        self.ui.buttonBack.clicked.connect(self.slotBack)
+        self.ui.buttonFinish.clicked.connect(self.slotCleanup)
+        self.ui.buttonCancel.clicked.connect(QtGui.qApp.quit)
 
     def initializeUI(self):
         ''' initializes the human interface '''
@@ -99,17 +99,20 @@ class Kapudan(QtGui.QWidget):
 
     def getCur(self, d):
         ''' returns the id of current stack '''
-        new   = self.ui.mainStack.currentIndex() + d
+        new = self.ui.mainStack.currentIndex() + d
         total = self.ui.mainStack.count()
-        if new < 0: new = 0
-        if new > total: new = total
+        if new < 0:
+            new = 0
+        if new > total:
+            new = total
         return new
 
     def setCurrent(self, id=None):
         ''' move to id numbered step '''
-        if id: self.stackMove(id)
+        if id:
+            self.stackMove(id)
 
-    def slotNext(self,dryRun=False):
+    def slotNext(self, dryRun=False):
         ''' execute next step '''
         self.menuText = ""
         curIndex = self.ui.mainStack.currentIndex() + 1
@@ -133,7 +136,7 @@ class Kapudan(QtGui.QWidget):
         curIndex = self.ui.mainStack.currentIndex()
 
         # update pie progress
-        self.pie.updatePie(curIndex-1)
+        self.pie.updatePie(curIndex - 1)
 
         # animate menu
         self.menu.prev()
@@ -146,7 +149,7 @@ class Kapudan(QtGui.QWidget):
 
     def stackMove(self, id):
         ''' move to id numbered stack '''
-        if not id == self.ui.mainStack.currentIndex() or id==0:
+        if not id == self.ui.mainStack.currentIndex() or id == 0:
             self.ui.mainStack.setCurrentIndex(id)
 
             # Set screen title
@@ -189,7 +192,6 @@ class Kapudan(QtGui.QWidget):
             # Append screens to stack widget
             self.ui.mainStack.addWidget(_scr)
 
-
         self.stackMove(0)
 
     def disableNext(self):
@@ -210,7 +212,6 @@ class Kapudan(QtGui.QWidget):
     def isBackEnabled(self):
         return self.buttonBack.isEnabled()
 
-
     def slotCleanup(self):
         _w = self.ui.mainStack.currentWidget()
         if _w.execute():
@@ -221,22 +222,22 @@ class Kapudan(QtGui.QWidget):
         group.writeEntry("RunOnStart", "False")
 
 if __name__ == "__main__":
-    appName     = "kapudan"
-    catalog     = ""
+    appName = "kapudan"
+    catalog = ""
     programName = ki18n("kapudan")
-    version     = "2013.02"
+    version = "2013.02"
     description = ki18n("Kapudan lets you configure your Chakra installation at first boot.")
-    license     = KAboutData.License_GPL
-    copyright   = ki18n("(c) 2012 The Chakra Developers")
-    text        = ki18n("none")
-    homePage    = "http://gitorious.org/chakra/kapudan"
-    bugEmail    = "george@chakra-project.org"
+    license = KAboutData.License_GPL
+    copyright = ki18n("(c) 2012 The Chakra Developers")
+    text = ki18n("none")
+    homePage = "http://gitorious.org/chakra/kapudan"
+    bugEmail = "george@chakra-project.org"
 
-    aboutData   = KAboutData(appName,catalog, programName, version, description,
-                                license, copyright,text, homePage, bugEmail)
+    aboutData = KAboutData(appName, catalog, programName, version, description,
+                           license, copyright, text, homePage, bugEmail)
 
     KCmdLineArgs.init(sys.argv, aboutData)
-    app =  kdeui.KApplication()
+    app = kdeui.KApplication()
 
     # attach dbus to main loop
     tools.DBus()
@@ -245,4 +246,3 @@ if __name__ == "__main__":
     kapudan.show()
     tools.centerWindow(kapudan)
     app.exec_()
-
