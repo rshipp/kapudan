@@ -15,7 +15,6 @@
 
 from PyQt4 import QtGui
 from PyQt4.QtDBus import QDBusInterface
-from PyQt4.QtCore import QString  # remove usage of QString
 from PyQt4.QtGui import QMessageBox
 from PyKDE4.kdecore import i18n, KConfig, KToolInvocation
 
@@ -71,7 +70,7 @@ class Widget(QtGui.QWidget, Screen):
         subject = "<p><li><b>%s</b></li><ul>"
         item = "<li>%s</li>"
         end = "</ul></p>"
-        content = QString("")
+        content = ""
 
         content.append("""<html><body><ul>""")
 
@@ -143,29 +142,17 @@ class Widget(QtGui.QWidget, Screen):
 
         # Security Settings
         if self.securitySettings["hasChanged"]:
-            self.daemon = Daemon()
-            self.sectext = i18n("You have: ")
-            self.secisset = False
+            sectext = i18n("You have: ")
             content.append(subject % i18n("Security Settings"))
 
-            if self.securitySettings["enableClam"] and not self.daemon.isEnabled("clamd"):
-                self.sectext += i18n("enabled ClamAV; ")
-                self.secisset = True
-            elif not self.securitySettings["enableClam"] and self.daemon.isEnabled("clamd"):
-                self.sectext += i18n("disabled ClamAV; ")
-                self.secisset = True
-            if self.securitySettings["enableFire"] and not self.daemon.isEnabled("ufw"):
-                self.sectext += i18n("enabled the firewall; ")
-                self.secisset = True
-            elif not self.securitySettings["enableFire"] and self.daemon.isEnabled("ufw"):
-                self.sectext += i18n("disabled the firewall; ")
-                self.secisset = True
-
-            if not self.secisset:
-                self.sectext = i18n("You have made no changes.")
+            if self.securitySettings["daemons"]:
+                for daemon in self.securitySettings["daemons"]:
+                    sectext += daemon.report()
+            else:
+                sectext = i18n("You have made no changes.")
                 self.securitySettings["hasChanged"] = False
 
-            content.append(item % i18n(self.sectext))
+            content.append(item % sectext)
 
             content.append(end)
 
@@ -177,7 +164,7 @@ class Widget(QtGui.QWidget, Screen):
             time.sleep(1)  # TODO get rid of this...
             self.startPlasma()
 
-        except:
+        except:  # TODO: what exceptions can happen here?
             QMessageBox.critical(self, i18n("Error"), i18n("Cannot restart plasma-desktop. Kapudan will now shut down."))
             kdeui.KApplication.kApplication().quit()
 
@@ -395,15 +382,8 @@ class Widget(QtGui.QWidget, Screen):
                 rootActions += "disable_blue "
 
         # Security Settings
-        if self.securitySettings["hasChanged"]:
-            if self.securitySettings["enableClam"] and not self.daemon.isEnabled("clamd"):
-                rootActions += "enable_clam "
-            elif not self.securitySettings["enableClam"] and self.daemon.isEnabled("clamd"):
-                rootActions += "disable_clam "
-            if self.securitySettings["enableFire"] and not self.daemon.isEnabled("ufw"):
-                rootActions += "enable_fire "
-            elif not self.securitySettings["enableFire"] and self.daemon.isEnabled("ufw"):
-                rootActions += "disable_fire "
+        for daemon in self.securitySettings["daemons"]:
+            daemon.apply_changes()
 
         if hasChanged:
             self.killPlasma()

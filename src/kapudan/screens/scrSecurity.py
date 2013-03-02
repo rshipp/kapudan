@@ -34,62 +34,62 @@ class Widget(QtGui.QWidget, Screen):
 
     screenSettings = {}
     screenSettings["hasChanged"] = False
+    screenSettings["daemons"] = []
 
     def __init__(self, *args):
         QtGui.QWidget.__init__(self, None)
         self.ui = Ui_securityWidget()
         self.ui.setupUi(self)
 
-        # set up self.config
-        self.config = Daemon()
+        # set up the daemon handlers
+        self.ufw_daemon = Daemon("ufw")
+        self.clamd_daemon = Daemon("clamd")
 
         # set initial states
-        self.ui.enableFire.setChecked(self.config.isEnabled("ufw"))
-        self.ui.enableFire.setEnabled(self.config.isInstalled("ufw"))
+        self.ui.enableFire.setChecked(self.ufw_daemon.is_enabled())
+        self.ui.enableFire.setEnabled(self.ufw_daemon.is_installed())
 
         self.ui.enableClam.setEnabled(False)
-        if self.config.isInstalled("clamd"):
+        if self.clamd_daemon.is_installed():
+            # TODO: remove this!
+            # FIXME: does it even work?
             if not os.system("grep -q ^Example /etc/clamav/clamd.conf") == 0:
                 if not os.system("grep -q ^Example /etc/clamav/freshclam.conf") == 0:
                     self.ui.enableClam.setEnabled(True)
-            self.ui.enableClam.setChecked(self.config.isEnabled("clamd"))
+            self.ui.enableClam.setChecked(self.clamd_daemon.is_enabled())
         else:
             self.ui.enableClam.setChecked(False)
 
+        # connect to the checkboxes' signal
+        self.ui.enableFire.stateChanged.connect(self.ufw_daemon.toggle_enable)
+        self.ui.enableClam.stateChanged.connect(self.clamd_daemon.toggle_enable)
+        # connect to the buttons' clicked event, don't rely on connectByName
+        self.ui.buttonClam.clicked.connect(self.clam_info)
+        self.ui.buttonKwallet.clicked.connect(self.kwallet_info)
+        self.ui.buttonTomoyo.clicked.connect(self.tomoyo_info)
+        self.ui.buttonTiger.clicked.connect(self.tiger_info)
+        self.ui.buttonRootkit.clicked.connect(self.rootkit_info)
+
     def applySettings(self):
-        if self.ui.enableFire.isChecked():
-            self.__class__.screenSettings["enableFire"] = True
-            if not self.config.isEnabled("ufw"):
-                self.__class__.screenSettings["hasChanged"] = True
+        self.__class__.screenSettings["hasChanged"] = (
+            self.ufw_daemon.enabled_changed or self.clamd_daemon.enabled_changed)
+        for daemon in (self.ufw_daemon, self.clamd_daemon):
+            if daemon.enabled_changed:
+                self.__class__.screenSettings["daemons"].append(daemon)
 
-        else:
-            self.__class__.screenSettings["enableFire"] = False
-            if self.config.isEnabled("ufw"):
-                self.__class__.screenSettings["hasChanged"] = True
-
-        if self.ui.enableClam.isChecked():
-            self.__class__.screenSettings["enableClam"] = True
-            if not self.config.isEnabled("clamd"):
-                self.__class__.screenSettings["hasChanged"] = True
-
-        else:
-            self.__class__.screenSettings["enableClam"] = False
-            if self.config.isEnabled("clamd"):
-                self.__class__.screenSettings["hasChanged"] = True
-
-    def on_buttonClam_clicked(self):
+    def clam_info(self):
         KToolInvocation.invokeBrowser("http://www.chakra-project.org/wiki/index.php?title=Anti-Malware#ClamAV")
 
-    def on_buttonTomoyo_clicked(self):
+    def tomoyo_info(self):
         KToolInvocation.invokeBrowser("http://www.chakra-project.org/wiki/index.php?title=Using_tomoyo-tools_for_system_security")
 
-    def on_buttonKwallet_clicked(self):
+    def kwallet_info(self):
         KToolInvocation.invokeBrowser("http://www.chakra-project.org/wiki/index.php?title=KDE_Wallet_Manager")
 
-    def on_buttonRootkit_clicked(self):
+    def rootkit_info(self):
         KToolInvocation.invokeBrowser("http://www.chakra-project.org/wiki/index.php?title=Anti-Malware#chkrootkit_and_rkhunter")
 
-    def on_buttonTiger_clicked(self):
+    def tiger_info(self):
         KToolInvocation.invokeBrowser("://www.nongnu.org/tiger/")
 
     def shown(self):
