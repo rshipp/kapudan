@@ -15,7 +15,7 @@
 
 from PyQt4 import QtGui
 
-from PyKDE4.kdecore import i18n, KConfig
+from PyKDE4.kdecore import i18n, KConfig, KToolInvocation
 
 #from PyKDE4 import kdeui
 
@@ -72,9 +72,11 @@ class Widget(QtGui.QWidget, Screen):
 
         if self.ui.checkUpdate.isChecked():
             # checks if spun is not in the output of ps -Af
+            # TODO: remove this, use maybe psutil.py
             if "spun" not in subprocess.Popen(
                     "ps -Af", shell=True, stdout=subprocess.PIPE).stdout.read():
-                subprocess.Popen(["spun"], stdout=subprocess.PIPE)
+                # FIXME: avoid hardcoding the path
+                KToolInvocation.startServiceByDesktopPath("/usr/share/autostart/spun.desktop")
 
             # was spun disabled before?
             if not self.config.isEnabled():
