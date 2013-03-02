@@ -46,25 +46,6 @@ def getRelease():
     return release_info
 
 
-def killPlasma(self):
-    p = subprocess.Popen(["pidof", "-s", "plasma-desktop"], stdout=subprocess.PIPE)
-    out, err = p.communicate()
-    pidOfPlasma = int(out)
-
-    try:
-        os.kill(pidOfPlasma, 15)
-        self.startPlasma()
-    except OSError, e:
-        print 'WARNING: failed os.kill: %s' % e
-        print "Trying SIGKILL"
-        os.kill(pidOfPlasma, 9)
-        startPlasma()
-
-
-def startPlasma(self):
-    subprocess.Popen(["plasma-desktop"], stdout=subprocess.PIPE)
-
-
 def centerWindow(window):
     rect = QDesktopWidget().screenGeometry()
     width = 0
