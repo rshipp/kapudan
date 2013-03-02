@@ -4,7 +4,7 @@
 import os
 import dbus
 import glob
-import subprocess
+import re
 from PyQt4.QtGui import QDesktopWidget
 
 
@@ -35,9 +35,15 @@ def isLiveCD():
 
 
 def getRelease():
-    p = subprocess.Popen(["lsb_release", "-ircs"], stdout=subprocess.PIPE)
-    release, err = p.communicate()
-    return release.replace("\n", "")
+    # we parse /etc/lsb_release manually instead of calling lsb_release
+    release_info = "Chakra"
+    with open("/etc/lsb-release", "r") as f:
+        text = f.read()
+        id = re.search('DISTRIB_ID="(?P<id>\w+)"', text).group("id")
+        release = re.search('DISTRIB_RELEASE="(?P<release>[0-9.]+)"', text).group("release")
+        codename = re.search('DISTRIB_CODENAME="(?P<codename>\w+)"', text).group("codename")
+        release_info = " ".join(id, codename, release)
+    return release_info
 
 
 def killPlasma(self):
