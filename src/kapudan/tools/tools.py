@@ -42,7 +42,7 @@ def getRelease():
         id = re.search('DISTRIB_ID="(?P<id>\w+)"', text).group("id")
         release = re.search('DISTRIB_RELEASE="(?P<release>[0-9.]+)"', text).group("release")
         codename = re.search('DISTRIB_CODENAME="(?P<codename>\w+)"', text).group("codename")
-        release_info = " ".join(id, codename, release)
+        release_info = " ".join((id, codename, release))
     return release_info
 
 
