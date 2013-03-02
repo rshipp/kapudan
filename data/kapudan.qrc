@@ -1,6 +1,5 @@
 <RCC>
   <qresource prefix="raw">
-    <file>appmenu-qml.png</file>
     <file>pixmap/milky.png</file>
     <file>pixmap/oxygen.png</file>
     <file>pixmap/preferences-desktop-icons.png</file>
@@ -26,6 +25,7 @@
     <file>pixmap/multiple.png</file>
     <file>pixmap/nepomuk.png</file>
     <file>pixmap/preferences-desktop-color.png</file>
+    <file>pixmap/appmenu-qml.png</file>
     <file>pixmap/preferences-desktop-keyboard.png</file>
     <file>pixmap/preferences-desktop-peripherals.png</file>
     <file>pixmap/bg2.png</file>
