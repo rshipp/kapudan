@@ -65,7 +65,7 @@ class Widget(QtGui.QWidget, Screen):
         self.menuNames["appmenu_launcher"] = {
             "menuIndex": 4,
             "summaryMessage": i18n("AppMenu QML"),
-            "image": QtGui.QPixmap(':/raw/pixmap/lancelot.png'),
+            "image": QtGui.QPixmap(':/raw/pixmap/appmenu-qml.png'),
             "description": i18n("This plasmoid shows a menu of the installed applications, similar to Lancelot but much simpler")
         }
 

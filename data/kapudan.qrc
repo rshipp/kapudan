@@ -1,5 +1,6 @@
 <RCC>
   <qresource prefix="raw">
+    <file>appmenu-qml.png</file>
     <file>pixmap/milky.png</file>
     <file>pixmap/oxygen.png</file>
     <file>pixmap/preferences-desktop-icons.png</file>
