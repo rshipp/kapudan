@@ -1,10 +1,10 @@
-[org.chkaraproject.kapudan.enabledaemon]
+[org.chakraproject.kapudan.enabledaemon]
 Name=Daemon enabler
 Description=Enables a specific daemon
 Policy=auth_admin
 Persistence=session
 
-[org.chkaraproject.kapudan.disabledaemon]
+[org.chakraproject.kapudan.disabledaemon]
 Name=Daemon disabler
 Description=Disables a specific daemon
 Policy=auth_admin
