@@ -62,7 +62,7 @@ class Widget(QtGui.QWidget, Screen):
             "image": QtGui.QPixmap(':/raw/pixmap/homerun.png'),
             "description": i18n("Homerun is a full screen launcher with content organized in tabs.")
         }
-        self.menuNames["appmenuqml"] = {
+        self.menuNames["appmenu-qml"] = {
             "menuIndex": 4,
             "summaryMessage": i18n("AppMenu QML"),
             "image": QtGui.QPixmap(':/raw/pixmap/appmenu-qml.png'),
