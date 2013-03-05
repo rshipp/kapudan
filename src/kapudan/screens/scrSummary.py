@@ -39,7 +39,6 @@ import kapudan.screens.scrSecurity as securityWidget
 
 #from kapudan.tools import tools
 from kapudan.tools.spunrc import SpunRC
-from kapudan.tools.daemon import Daemon
 
 
 class Widget(QtGui.QWidget, Screen):
@@ -67,94 +66,69 @@ class Widget(QtGui.QWidget, Screen):
         self.servicesSettings = servicesWidget.Widget.screenSettings
         self.securitySettings = securityWidget.Widget.screenSettings
 
+        # TODO: make the text generation a bit less cumbersome by putting it
+        # into a class (maybe a context manager, so that end is always appended)
         subject = "<p><li><b>%s</b></li><ul>"
         item = "<li>%s</li>"
         end = "</ul></p>"
         content = ""
 
-        content.append("""<html><body><ul>""")
+        content += """<html><body><ul>"""
 
         # Mouse Settings
-        content.append(subject % i18n("Mouse Settings"))
+        content += (subject % i18n("Mouse Settings"))
 
-        content.append(item % i18n("Selected Mouse configuration: <b>%s</b>") % self.mouseSettings["summaryMessage"]["selectedMouse"])
-        content.append(item % i18n("Selected clicking behavior: <b>%s</b>") % self.mouseSettings["summaryMessage"]["clickBehavior"])
-        content.append(end)
+        content += (item % i18n("Selected Mouse configuration: <b>%s</b>") % self.mouseSettings["summaryMessage"]["selectedMouse"])
+        content += (item % i18n("Selected clicking behavior: <b>%s</b>") % self.mouseSettings["summaryMessage"]["clickBehavior"])
+        content += (end)
 
         # Menu Settings
-        content.append(subject % i18n("Menu Settings"))
-        content.append(item % i18n("Selected Menu: <b>%s</b>") % self.menuSettings["summaryMessage"])
-        content.append(end)
+        content += (subject % i18n("Menu Settings"))
+        content += (item % i18n("Selected Menu: <b>%s</b>") % self.menuSettings["summaryMessage"])
+        content += (end)
 
         # Wallpaper Settings
-        content.append(subject % i18n("Wallpaper Settings"))
+        content += (subject % i18n("Wallpaper Settings"))
         if not self.wallpaperSettings["hasChanged"]:
-            content.append(item % i18n("You haven't selected any wallpaper."))
+            content += (item % i18n("You haven't selected any wallpaper."))
         else:
-            content.append(item % i18n("Selected Wallpaper: <b>%s</b>") % os.path.basename(str(self.wallpaperSettings["selectedWallpaper"])))
-        content.append(end)
+            content += (item % i18n("Selected Wallpaper: <b>%s</b>") % os.path.basename(str(self.wallpaperSettings["selectedWallpaper"])))
+        content += (end)
 
         # Style Settings
-        content.append(subject % i18n("Style Settings"))
+        content += (subject % i18n("Style Settings"))
 
         if not self.styleSettings["hasChanged"]:
-            content.append(item % i18n("You haven't selected any style."))
+            content += (item % i18n("You haven't selected any style."))
         else:
-            content.append(item % i18n("Selected Style: <b>%s</b>") % unicode(self.styleSettings["summaryMessage"]))
+            content += (item % i18n("Selected Style: <b>%s</b>") % unicode(self.styleSettings["summaryMessage"]))
 
-        content.append(end)
+        content += (end)
 
         # Spun Settings
         if self.packageSettings["hasChanged"]:
-            content.append(subject % i18n("Package Management Settings"))
-            content.append(item % i18n("You have enabled or disabled spun."))
+            content += (subject % i18n("Package Management Settings"))
+            content += (item % i18n("You have enabled or disabled spun."))
 
-            content.append(end)
+            content += (end)
 
         # Services Settings
         if self.servicesSettings["hasChanged"]:
-            self.daemon = Daemon()
-            self.svctext = i18n("You have: ")
-            self.svcissset = False
-            content.append(subject % i18n("Services Settings"))
-
-            if self.servicesSettings["enableCups"] and not self.daemon.isEnabled("cups"):
-                self.svctext += i18n("enabled cups; ")
-                self.svcisset = True
-            elif not self.servicesSettings["enableCups"] and self.daemon.isEnabled("cups"):
-                self.svctext += i18n("disabled cups; ")
-                self.svcisset = True
-            if self.servicesSettings["enableBluetooth"] and not self.daemon.isEnabled("bluetooth"):
-                self.svctext += i18n("enabled bluetooth; ")
-                self.svcisset = True
-            elif not self.servicesSettings["enableBluetooth"] and self.daemon.isEnabled("bluetooth"):
-                self.svctext += i18n("disabled bluetooth; ")
-                self.svcisset = True
-
-            #FIXME: when can this ever happen?
-            if not self.svcisset:
-                self.svctext = i18n("You have made no changes.")
-                self.servicesSettings["hasChanged"] = False
-
-            content.append(item % i18n(self.svctext))
-
-            content.append(end)
+            svctext = i18n("You have: ")
+            content += (subject % i18n("Services Settings"))
+            for daemon in self.servicesSettings["daemons"]:
+                svctext += daemon.report() + ";"
+            content += item % i18n(svctext)
+            content += end
 
         # Security Settings
         if self.securitySettings["hasChanged"]:
             sectext = i18n("You have: ")
-            content.append(subject % i18n("Security Settings"))
-
-            if self.securitySettings["daemons"]:
-                for daemon in self.securitySettings["daemons"]:
-                    sectext += daemon.report()
-            else:
-                sectext = i18n("You have made no changes.")
-                self.securitySettings["hasChanged"] = False
-
-            content.append(item % sectext)
-
-            content.append(end)
+            content += (subject % i18n("Security Settings"))
+            for daemon in self.securitySettings["daemons"]:
+                sectext += daemon.report() + ";"
+            content += item % sectext
+            content += end
 
         self.ui.textSummary.setText(content)
 
@@ -371,15 +345,8 @@ class Widget(QtGui.QWidget, Screen):
                 rootActions += "enable_spun "
 
         # Services Settings
-        if self.servicesSettings["hasChanged"]:
-            if self.servicesSettings["enableCups"] and not self.daemon.isEnabled("cups"):
-                rootActions += "enable_cups "
-            elif not self.servicesSettings["enableCups"] and self.daemon.isEnabled("cups"):
-                rootActions += "disable_cups "
-            if self.servicesSettings["enableBluetooth"] and not self.daemon.isEnabled("bluetooth"):
-                rootActions += "enable_blue "
-            elif not self.servicesSettings["enableBluetooth"] and self.daemon.isEnabled("bluetooth"):
-                rootActions += "disable_blue "
+        for daemon in self.servicesSettings["daemons"]:
+            daemon.apply_changes()
 
         # Security Settings
         for daemon in self.securitySettings["daemons"]:

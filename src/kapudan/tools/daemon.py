@@ -3,7 +3,7 @@ import functools
 import re
 import os
 import dbus
-from PyKDE4.kdecore import i18n
+from PyKDE4.kdecore import i18n, KAuth
 
 
 def deprecated(message=None):
@@ -56,7 +56,6 @@ class Daemon(object):
         else:
             self.descriptive_name = descriptive_name
         self.enabled_changed = False
-        self._enabled = self.is_enabled()
 
     @deprecated("You shouldn't rely on this method, but rather use is_enabled")
     def isEnabled(self, name):
@@ -97,21 +96,32 @@ class Daemon(object):
         """Signals that the daemon should be en/disabled later.
           The change will only take place after a call to apply_changes"""
         self.enabled_changed = not self.enabled_changed
-        self._enabled = not self._enabled
 
     def apply_changes(self):
         """If the configuration was changed, apply the changes"""
         # TODO
+        if not self.enabled_changed:
+            return  # nothing to do
         if not self.is_installed():
             raise IOError("Daemon is not installed!")
-        raise Exception()
+        if self.is_enabled():
+            # daemon was enabled, now we disable it
+            action_name = "org.chakraproject.kapudan.daemon.disabledaemon"
+        else:
+            action_name = "org.chakraproject.kapudan.daemon.enabledaemon"
+        action = KAuth.Action(action_name)
+        action.setHelperID("org.chakraproject.kapudan.daemon")
+        action.setArguments({"daemonname": "{}.service".format(self.name)})
+        reply = action.execute()
+        if reply.failed():
+            raise ValueError(reply.errorDescription(), reply.errorCode())
 
     def report(self):
         """Return a string which explains what has changed"""
         if not self.is_installed():
             raise IOError("Daemon is not installed!")
         if self.enabled_changed:
-            if self.enabled:
-                return i18n("{} has been enabled".format(self.descriptive_name))
+            if self.is_enabled():  # actual change haven't taken place yet
+                return i18n("disabled {}".format(self.descriptive_name))
             else:
-                return i18n("{} has been disabled".format(self.descriptive_name))
+                return i18n("enabled {}".format(self.descriptive_name))

@@ -73,6 +73,8 @@ class Widget(QtGui.QWidget, Screen):
     def applySettings(self):
         self.__class__.screenSettings["hasChanged"] = (
             self.ufw_daemon.enabled_changed or self.clamd_daemon.enabled_changed)
+        # reset the list, because applySettings is called again when we go back
+        self.__class__.screenSettings["daemons"] = []
         for daemon in (self.ufw_daemon, self.clamd_daemon):
             if daemon.enabled_changed:
                 self.__class__.screenSettings["daemons"].append(daemon)

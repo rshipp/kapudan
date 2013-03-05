@@ -33,6 +33,7 @@ class Widget(QtGui.QWidget, Screen):
 
     screenSettings = {}
     screenSettings["hasChanged"] = False
+    screenSettings["daemons"] = []
 
     def __init__(self, *args):
         QtGui.QWidget.__init__(self, None)
@@ -40,7 +41,6 @@ class Widget(QtGui.QWidget, Screen):
         self.ui.setupUi(self)
 
         # set up self.config
-        self.__class__.screenSettings["daemons"] = []
         self.services = ["cups", "bluetooth"]
         self.daemons = {}
         for service in self.services:
@@ -52,33 +52,18 @@ class Widget(QtGui.QWidget, Screen):
         self.ui.enableBluetooth.setChecked(self.daemons["bluetooth"].is_enabled())
         self.ui.enableCups.setEnabled(self.daemons["cups"].is_installed())
         self.ui.enableBluetooth.setEnabled(self.daemons["bluetooth"].is_installed())
-
-    def applySettings(self):
-        if self.ui.enableCups.isChecked():
-            self.__class__.screenSettings["enableCups"] = True
-            if not self.daemons["cups"].is_enabled():
-                self.daemons["cups"].has_changed = True
-                self.__class__.screenSettings["daemons"].append(self.daemons["cups"])
-        else:
-            self.__class__.screenSettings["enableCups"] = False
-            if self.daemons["cups"].is_enabled():
-                self.daemons["cups"].has_changed = False
-                self.__class__.screenSettings["daemons"].append(self.daemons["cups"])
-
-        if self.ui.enableBluetooth.isChecked():
-            self.__class__.screenSettings["enableBluetooth"] = True
-            if not self.daemons["bluetooth"].is_enabled():
-                self.daemons["bluetooth"].has_changed = True
-                self.__class__.screenSettings["daemons"].append(self.daemons["bluetooth"])
-        else:
-            self.__class__.screenSettings["enableBluetooth"] = False
-            if self.daemons["bluetooth"].is_enabled():
-                self.__class__.screenSettings["hasChanged"] = True
-                self.daemons["bluetooth"].has_changed = True
+        # connect the buttons
+        self.ui.enableCups.stateChanged.connect(self.daemons["cups"].toggle_enable)
+        self.ui.enableBluetooth.stateChanged.connect(self.daemons["bluetooth"].toggle_enable)
 
     def shown(self):
         pass
 
     def execute(self):
-        self.applySettings()
+        # reset the list, because applySettings is called again when we go back
+        self.__class__.screenSettings["daemons"] = []
+        for daemon in self.daemons.itervalues():
+            if daemon.enabled_changed:
+                self.__class__.screenSettings["daemons"].append(daemon)
+                self.__class__.screenSettings["hasChanged"] = True
         return True
