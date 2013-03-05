@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: The Chakra Project\n"
 "Report-Msgid-Bugs-To: http://chakra-project.org/bugs/\n"
 "POT-Creation-Date: 2013-01-20 13:44+0100\n"
-"PO-Revision-Date: 2013-02-05 13:36+0000\n"
+"PO-Revision-Date: 2013-02-06 10:27+0000\n"
 "Last-Translator: objectivesea <erik.pedersen@shaw.ca>\n"
 "Language-Team: Esperanto (http://www.transifex.com/projects/p/chakra-project/language/eo/)\n"
 "MIME-Version: 1.0\n"
@@ -35,15 +35,15 @@ msgstr "Krei vian uzantbildon"
 
 #: .tmp/scrSecurity.py:33 .tmp/ui_scrSecurity.py:172
 msgid "Security"
-msgstr ""
+msgstr "Sekurigo"
 
 #: .tmp/scrSecurity.py:34
 msgid "Keep your system secure"
-msgstr ""
+msgstr "Gardu sekure vian sistemon "
 
 #: .tmp/ui_scrSummary.py:94 .tmp/scrSummary.py:43
 msgid "Summary"
-msgstr ""
+msgstr "Resumo"
 
 #: .tmp/ui_scrSummary.py:95
 msgid ""
@@ -96,11 +96,11 @@ msgid ""
 "another small app, spun, was created to provide update notifications. When "
 "updates are available, spun will show a notification in your system tray. "
 "</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Por instali kaj forigi programoj sub Ĉakro, uzi la komandlinian programon, <a href=\"http://chakra-linux.org/wiki/index.php/Pacman\"><span style=\" text-decoration: underline; color:#0057ae;\">pacman</span></a>. Vi povas kurigi <span style=\" font-weight:600;\">sudo pacman -Syu</span>por ĝisdatigi, <span style=\" font-weight:600;\">pacman -Ss </span><span style=\" font-weight:600; font-style:italic;\">ŝlosilvorton</span> por traserĉi la deponejon, kaj <span style=\" font-weight:600;\">sudo pacman -S </span><span style=\" font-weight:600; font-style:italic;\">package</span> por instali pakaĵojn.</p><p>Pacman ne havas iun ajn grafikan fasadon, do alia apliketo, <span style=\" font-weight:600;\">spun</span>, kreiĝis por doni ĝisdatigajn sciigojn. Kiam ĝisdatigoj disponeblos, <span style=\" font-weight:600;\">spun</span> montros sciigon en via taskopleton. </p></body></html>"
 
 #: .tmp/ui_scrPackage.py:147
 msgid "Updates"
-msgstr ""
+msgstr "Ĝisdatigoj"
 
 #: .tmp/kapudan.desktop.in.h:1 .tmp/ui_kapudan.py:368
 msgid "Kapudan"
@@ -264,19 +264,19 @@ msgstr "Vjetname"
 
 #: .tmp/ui_kapudan.py:369
 msgid "Welcome to Chakra"
-msgstr "Bonvenon en Ĉakra"
+msgstr "Bonvenon en Ĉakro"
 
 #: .tmp/ui_kapudan.py:370
 msgid "Cancel"
-msgstr ""
+msgstr "Nuligi"
 
 #: .tmp/ui_kapudan.py:371
 msgid "Back"
-msgstr ""
+msgstr "Antaŭen"
 
 #: .tmp/ui_kapudan.py:372
 msgid "Next"
-msgstr ""
+msgstr "Posten"
 
 #: .tmp/ui_kapudan.py:373
 msgid "Finish"
@@ -284,11 +284,11 @@ msgstr "Fini"
 
 #: .tmp/ui_kapudan.py:374
 msgid "Apply"
-msgstr ""
+msgstr "Apliki"
 
 #: .tmp/ui_scrStyle.py:180 .tmp/scrStyle.py:38
 msgid "Themes"
-msgstr ""
+msgstr "Temoj"
 
 #: .tmp/ui_scrStyle.py:181
 msgid ""
@@ -298,7 +298,7 @@ msgstr ""
 
 #: .tmp/ui_scrStyle.py:182
 msgid "KDE Themes"
-msgstr ""
+msgstr "Temoj de KDE"
 
 #: .tmp/ui_scrStyle.py:183
 msgid "Desktop Type"
@@ -367,7 +367,7 @@ msgstr "Klavararanĝa lingvo"
 
 #: .tmp/scrPackage.py:34
 msgid "Install / Remove Programs"
-msgstr ""
+msgstr "Instali / Forigi programojn"
 
 #: .tmp/scrStyle.py:39
 msgid "Customize Your Desktop"
@@ -375,7 +375,7 @@ msgstr "Tajlori vian labortablon"
 
 #: .tmp/ui_scrSecurity.py:173
 msgid "Enable the firewall (UFW)"
-msgstr ""
+msgstr "Ŝalti la fajroŝirmilon (UFW)"
 
 #: .tmp/ui_scrSecurity.py:174
 msgid "Enable Clam AntiVirus daemon (must be installed and configured)"
@@ -429,27 +429,27 @@ msgstr ""
 
 #: .tmp/ui_scrSecurity.py:183
 msgid "Security Tools"
-msgstr ""
+msgstr "Sekuriloj"
 
 #: .tmp/ui_scrFolder.py:155
 msgid "Home Folder"
-msgstr ""
+msgstr "Hejma dosierujo"
 
 #: .tmp/ui_scrFolder.py:156
 msgid "  Downloads  "
-msgstr ""
+msgstr "Elŝutaĵoj"
 
 #: .tmp/ui_scrFolder.py:157
 msgid "  Documents  "
-msgstr ""
+msgstr "Dokumentoj"
 
 #: .tmp/ui_scrFolder.py:158
 msgid "  Videos  "
-msgstr ""
+msgstr "Vidaĵoj"
 
 #: .tmp/ui_scrFolder.py:159
 msgid "  Music  "
-msgstr ""
+msgstr "Muziko"
 
 #: .tmp/ui_scrFolder.py:160
 msgid "  Images  "
@@ -478,23 +478,23 @@ msgstr ""
 #: .tmp/ui_scrStyleItem.py:79 .tmp/ui_wallpaperItem.py:82
 #: .tmp/ui_scrAvatar.py:256
 msgid "Form"
-msgstr ""
+msgstr "Formularo"
 
 #: .tmp/ui_scrStyleItem.py:80
 msgid "styleName"
-msgstr ""
+msgstr "stilNomo"
 
 #: .tmp/ui_scrStyleItem.py:81
 msgid "styleDesc"
-msgstr ""
+msgstr "stilPriskribo"
 
 #: .tmp/ui_scrWelcome.py:87 .tmp/scrWelcome.py:30
 msgid "Welcome"
-msgstr ""
+msgstr "Bonvenon"
 
 #: .tmp/ui_scrWelcome.py:88
 msgid "What is Chakra?"
-msgstr ""
+msgstr "Kio estas Ĉakro?"
 
 #: .tmp/ui_scrWelcome.py:89
 msgid ""
@@ -532,7 +532,7 @@ msgid ""
 "<html><head/><body><p>Choose your favorite wallpaper for your Chakra "
 "desktop. Don't forget to check out <span style=\" font-weight:600;\">Desktop"
 " Settings</span> to download cool new wallpapers.</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Elekti vian preferatan ekranfonon por via Ĉakra labortablo. Ne forgesu esplori <span style=\" font-weight:600;\">Labortablo-agordoj</span>n por ke vi povu elŝuti laŭmodajn, novajn ekranfonojn.</p></body></html>"
 
 #: .tmp/ui_scrWallpaper.py:142
 msgid "Wallpapers"
@@ -622,11 +622,11 @@ msgstr "Dekstrula"
 
 #: .tmp/scrMouse.py:145
 msgid "Single Click "
-msgstr ""
+msgstr "Unuopa klako"
 
 #: .tmp/scrMouse.py:145
 msgid "Double Click"
-msgstr ""
+msgstr "Duobla klako  "
 
 #: .tmp/ui_scrGoodbye.py:362
 msgid ""
@@ -639,7 +639,7 @@ msgstr ""
 
 #: .tmp/ui_scrGoodbye.py:363 .tmp/ui_scrGoodbye.py:365
 msgid "System Settings"
-msgstr ""
+msgstr "Sistemagordoj"
 
 #: .tmp/ui_scrGoodbye.py:364
 msgid ""
@@ -688,7 +688,7 @@ msgstr ""
 
 #: .tmp/ui_scrSearch.py:112
 msgid "Search Options"
-msgstr ""
+msgstr "Serĉopcioj"
 
 #: .tmp/scrFolder.py:31
 msgid "Create folders in the home directory"
@@ -727,7 +727,7 @@ msgstr "Ekranfonaj agordoj"
 
 #: .tmp/scrSummary.py:83
 msgid "You haven't selected any wallpaper."
-msgstr ""
+msgstr "Vi ne elektis iun ajn ekranfonon."
 
 #: .tmp/scrSummary.py:85
 #, python-format
@@ -740,7 +740,7 @@ msgstr "Stil-agordoj"
 
 #: .tmp/scrSummary.py:92
 msgid "You haven't selected any style."
-msgstr ""
+msgstr "Vi ne elektis iun ajn stilon."
 
 #: .tmp/scrSummary.py:94
 #, python-format
@@ -753,7 +753,7 @@ msgstr ""
 
 #: .tmp/scrSummary.py:101
 msgid "You have enabled or disabled spun."
-msgstr ""
+msgstr "Vi ŝaltis aŭ malŝaltis spun."
 
 #: .tmp/scrSummary.py:108 .tmp/scrSummary.py:137
 msgid "You have: "
@@ -765,11 +765,11 @@ msgstr ""
 
 #: .tmp/scrSummary.py:113
 msgid "enabled cups; "
-msgstr "ŝaltita CUPS-on;"
+msgstr "ŝaltita cups-on;"
 
 #: .tmp/scrSummary.py:116
 msgid "disabled cups; "
-msgstr "malŝaltita CUPS-on;"
+msgstr "malŝaltita cups-on;"
 
 #: .tmp/scrSummary.py:119
 msgid "enabled bluetooth; "
@@ -781,11 +781,11 @@ msgstr "malŝaltita Bludenton;"
 
 #: .tmp/scrSummary.py:127 .tmp/scrSummary.py:155
 msgid "You have made no changes."
-msgstr ""
+msgstr "Vi ne faris ŝanĝojn."
 
 #: .tmp/scrSummary.py:139
 msgid "Security Settings"
-msgstr ""
+msgstr "Sekuragordoj"
 
 #: .tmp/scrSummary.py:142
 msgid "enabled ClamAV; "
@@ -797,15 +797,15 @@ msgstr ""
 
 #: .tmp/scrSummary.py:148
 msgid "enabled the firewall; "
-msgstr ""
+msgstr "ŝaltis la fajroŝirmilon;"
 
 #: .tmp/scrSummary.py:151
 msgid "disabled the firewall; "
-msgstr ""
+msgstr "malŝaltis la fajroŝirmilon;"
 
 #: .tmp/scrSummary.py:173
 msgid "Error"
-msgstr ""
+msgstr "Eraro"
 
 #: .tmp/scrSummary.py:173
 msgid "Cannot restart plasma-desktop. Kapudan will now shut down."
@@ -823,11 +823,11 @@ msgstr ""
 
 #: .tmp/ui_scrServices.py:128
 msgid "cups: The Common Unix Printing Service"
-msgstr ""
+msgstr "cups: La komunuma Uniksa presservilo"
 
 #: .tmp/ui_scrServices.py:129
 msgid "bluetooth: Enable Bluetooth communication"
-msgstr ""
+msgstr "bluetooth: Ŝalti Bludentan komunikadon"
 
 #: .tmp/ui_scrServices.py:130
 msgid ""
@@ -864,7 +864,7 @@ msgstr ""
 
 #: .tmp/ui_scrAvatar.py:258
 msgid "Options"
-msgstr ""
+msgstr "Opcioj"
 
 #: .tmp/ui_scrAvatar.py:259
 msgid "Choose an image"

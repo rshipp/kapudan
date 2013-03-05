@@ -3,44 +3,43 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Serj Volkov <taranarmo@gmail.com>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Chakra Project\n"
 "Report-Msgid-Bugs-To: http://chakra-project.org/bugs/\n"
 "POT-Creation-Date: 2013-01-20 13:44+0100\n"
-"PO-Revision-Date: 2013-02-27 06:35+0000\n"
-"Last-Translator: serjvolkov <taranarmo@gmail.com>\n"
-"Language-Team: Russian (http://www.transifex.com/projects/p/chakra-project/language/ru/)\n"
+"PO-Revision-Date: 2012-08-10 05:13+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Norwegian Bokmål (Norway) (http://www.transifex.com/projects/p/chakra-project/language/nb_NO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: nb_NO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: .tmp/scrGoodbye.py:26 .tmp/ui_scrGoodbye.py:361
 msgid "More"
-msgstr "Больше"
+msgstr ""
 
 #: .tmp/scrGoodbye.py:27
 msgid "Congratulations!"
-msgstr "Поздравляем!"
+msgstr ""
 
 #: .tmp/scrAvatar.py:39
 msgid "User Picture"
-msgstr "Аватар"
+msgstr ""
 
 #: .tmp/scrAvatar.py:51
 msgid "Create Your User Picture"
-msgstr "Создайте свой аватар"
+msgstr ""
 
 #: .tmp/scrSecurity.py:33 .tmp/ui_scrSecurity.py:172
 msgid "Security"
-msgstr "Безопасность"
+msgstr ""
 
 #: .tmp/scrSecurity.py:34
 msgid "Keep your system secure"
-msgstr "Поддерживайте надёжность вашей системы"
+msgstr ""
 
 #: .tmp/ui_scrSummary.py:94 .tmp/scrSummary.py:43
 msgid "Summary"
@@ -60,23 +59,23 @@ msgstr ""
 
 #: .tmp/scrWallpaper.py:37 .tmp/ui_scrWallpaper.py:140
 msgid "Wallpaper"
-msgstr "Обои"
+msgstr ""
 
 #: .tmp/scrWallpaper.py:38
 msgid "Choose a Wallpaper"
-msgstr "Выберите обои"
+msgstr ""
 
 #: .tmp/ui_scrPackage.py:142 .tmp/scrPackage.py:33
 msgid "Packages"
-msgstr "Пакеты"
+msgstr ""
 
 #: .tmp/ui_scrPackage.py:143
 msgid "Check for updates automatically every"
-msgstr "Проверять обновления автоматически каждые"
+msgstr ""
 
 #: .tmp/ui_scrPackage.py:144
 msgid " minutes"
-msgstr "минут"
+msgstr ""
 
 #: .tmp/ui_scrPackage.py:145
 msgid "Use audio along with the visual notification"
@@ -105,7 +104,7 @@ msgstr ""
 
 #: .tmp/kapudan.desktop.in.h:1 .tmp/ui_kapudan.py:368
 msgid "Kapudan"
-msgstr "Kapudan"
+msgstr ""
 
 #: .tmp/kapudan.desktop.in.h:2
 msgid "Welcome Wizard"
@@ -113,31 +112,31 @@ msgstr ""
 
 #: .tmp/localedata.py:53
 msgid "Turkish"
-msgstr "Турецкий"
+msgstr ""
 
 #: .tmp/localedata.py:58
 msgid "Turkish Q"
-msgstr "Турецкий Q"
+msgstr ""
 
 #: .tmp/localedata.py:59
 msgid "Turkish F"
-msgstr "Турецкий F"
+msgstr ""
 
 #: .tmp/localedata.py:64
 msgid "English"
-msgstr "Английский"
+msgstr ""
 
 #: .tmp/localedata.py:69
 msgid "English GB"
-msgstr "Английский GB"
+msgstr ""
 
 #: .tmp/localedata.py:75
 msgid "Afrikaans"
-msgstr "Африканский"
+msgstr ""
 
 #: .tmp/localedata.py:81
 msgid "Arabic"
-msgstr "Арабский"
+msgstr ""
 
 #: .tmp/localedata.py:87
 msgid "Belgian"
@@ -145,151 +144,151 @@ msgstr ""
 
 #: .tmp/localedata.py:93
 msgid "Bulgarian"
-msgstr "Болгарский"
+msgstr ""
 
 #: .tmp/localedata.py:99
 msgid "Catalan"
-msgstr "Каталонский"
+msgstr ""
 
 #: .tmp/localedata.py:105
 msgid "Welsh"
-msgstr "Валийский"
+msgstr ""
 
 #: .tmp/localedata.py:111
 msgid "Czech"
-msgstr "Чешский"
+msgstr ""
 
 #: .tmp/localedata.py:117
 msgid "Danish"
-msgstr "Датский"
+msgstr ""
 
 #: .tmp/localedata.py:123
 msgid "German"
-msgstr "Немецкий"
+msgstr ""
 
 #: .tmp/localedata.py:129
 msgid "Spanish"
-msgstr "Испанский"
+msgstr ""
 
 #: .tmp/localedata.py:135
 msgid "Estonian"
-msgstr "Эстонский"
+msgstr ""
 
 #: .tmp/localedata.py:141
 msgid "Finnish"
-msgstr "Финский"
+msgstr ""
 
 #: .tmp/localedata.py:147
 msgid "French"
-msgstr "Французский"
+msgstr ""
 
 #: .tmp/localedata.py:153
 msgid "Greek"
-msgstr "Греческий"
+msgstr ""
 
 #: .tmp/localedata.py:159
 msgid "Croatian"
-msgstr "Хорватский"
+msgstr ""
 
 #: .tmp/localedata.py:165
 msgid "Hungarian"
-msgstr "Венгерский"
+msgstr ""
 
 #: .tmp/localedata.py:173
 msgid "Icelandic"
-msgstr "Исландский"
+msgstr ""
 
 #: .tmp/localedata.py:179
 msgid "Italian"
-msgstr "Итальянский"
+msgstr ""
 
 #: .tmp/localedata.py:185
 msgid "Japanese"
-msgstr "Японский"
+msgstr ""
 
 #: .tmp/localedata.py:191
 msgid "Macedonian"
-msgstr "Македонский"
+msgstr ""
 
 #: .tmp/localedata.py:197
 msgid "Malayalam"
-msgstr "Малазийский"
+msgstr ""
 
 #: .tmp/localedata.py:203
 msgid "Norwegian"
-msgstr "Норвежский"
+msgstr ""
 
 #: .tmp/localedata.py:209
 msgid "Dutch"
-msgstr "Голандский"
+msgstr ""
 
 #: .tmp/localedata.py:215
 msgid "Polish"
-msgstr "Польский"
+msgstr ""
 
 #: .tmp/localedata.py:221
 msgid "Portuguese"
-msgstr "Португальский"
+msgstr ""
 
 #: .tmp/localedata.py:227
 msgid "Brazilian"
-msgstr "Бразильский"
+msgstr ""
 
 #: .tmp/localedata.py:233
 msgid "Russian"
-msgstr "Русский"
+msgstr ""
 
 #: .tmp/localedata.py:241
 msgid "Slovak"
-msgstr "Словацкий"
+msgstr ""
 
 #: .tmp/localedata.py:247
 msgid "Slovenian"
-msgstr "Словенский"
+msgstr ""
 
 #: .tmp/localedata.py:253
 msgid "Serbian"
-msgstr "Сербский"
+msgstr ""
 
 #: .tmp/localedata.py:259
 msgid "Swedish"
-msgstr "Шведский"
+msgstr ""
 
 #: .tmp/localedata.py:266
 msgid "Ukrainian"
-msgstr "Украинский"
+msgstr ""
 
 #: .tmp/localedata.py:272
 msgid "Vietnamese"
-msgstr "Вьетнамский"
+msgstr ""
 
 #: .tmp/ui_kapudan.py:369
 msgid "Welcome to Chakra"
-msgstr "Добро пожаловать в Chakra"
+msgstr ""
 
 #: .tmp/ui_kapudan.py:370
 msgid "Cancel"
-msgstr "Отмена"
+msgstr ""
 
 #: .tmp/ui_kapudan.py:371
 msgid "Back"
-msgstr "Назад"
+msgstr ""
 
 #: .tmp/ui_kapudan.py:372
 msgid "Next"
-msgstr "Далее"
+msgstr ""
 
 #: .tmp/ui_kapudan.py:373
 msgid "Finish"
-msgstr "Завершить"
+msgstr ""
 
 #: .tmp/ui_kapudan.py:374
 msgid "Apply"
-msgstr "Применить"
+msgstr ""
 
 #: .tmp/ui_scrStyle.py:180 .tmp/scrStyle.py:38
 msgid "Themes"
-msgstr "Темы"
+msgstr ""
 
 #: .tmp/ui_scrStyle.py:181
 msgid ""
@@ -299,27 +298,27 @@ msgstr ""
 
 #: .tmp/ui_scrStyle.py:182
 msgid "KDE Themes"
-msgstr "Темы для KDE"
+msgstr ""
 
 #: .tmp/ui_scrStyle.py:183
 msgid "Desktop Type"
-msgstr "Тип рабочего стола"
+msgstr ""
 
 #: .tmp/ui_scrStyle.py:184
 msgid "Desktop view (KDE4 Style)"
-msgstr "Рабочий стол (в KDE4 поумолчанию)"
+msgstr ""
 
 #: .tmp/ui_scrStyle.py:185
 msgid "Folder view (KDE3 Style)"
-msgstr "Просмотр папки (как в KDE3)"
+msgstr ""
 
 #: .tmp/ui_scrStyle.py:186
 msgid "Number of Desktops"
-msgstr "Число рабочих столов"
+msgstr ""
 
 #: .tmp/ui_scrMouse.py:213 .tmp/scrMouse.py:32
 msgid "Mouse"
-msgstr "Мышь"
+msgstr ""
 
 #: .tmp/ui_scrMouse.py:214
 msgid ""
@@ -360,27 +359,27 @@ msgstr ""
 
 #: .tmp/_scrKeyboard.py:34 .tmp/ui_scrKeyboard.py:102
 msgid "Keyboard"
-msgstr "Клавиатура"
+msgstr ""
 
 #: .tmp/_scrKeyboard.py:35
 msgid "Keyboard Layout Language"
-msgstr "Язык раскладки клавиатуры"
+msgstr ""
 
 #: .tmp/scrPackage.py:34
 msgid "Install / Remove Programs"
-msgstr "Установить / Удалить программы"
+msgstr ""
 
 #: .tmp/scrStyle.py:39
 msgid "Customize Your Desktop"
-msgstr "Настройте ваш рабочий стол"
+msgstr ""
 
 #: .tmp/ui_scrSecurity.py:173
 msgid "Enable the firewall (UFW)"
-msgstr "Включить фаервол (UFW)"
+msgstr ""
 
 #: .tmp/ui_scrSecurity.py:174
 msgid "Enable Clam AntiVirus daemon (must be installed and configured)"
-msgstr "Включить Clam AntiVirus демон (должен быть установлен и настроен)"
+msgstr ""
 
 #: .tmp/ui_scrSecurity.py:175
 msgid ""
@@ -391,7 +390,7 @@ msgstr ""
 
 #: .tmp/ui_scrSecurity.py:176
 msgid "ClamAV: Detect and remove malware"
-msgstr "ClamAV: находит и уничтожает вредоносное ПО"
+msgstr ""
 
 #: .tmp/ui_scrSecurity.py:177
 msgid ""
@@ -417,7 +416,7 @@ msgid ""
 "<html><head/><body><p>Finally, Chakra also provides a graphical tool to "
 "configure the system firewall. Just click on &quot;Firewall&quot; in the KDE"
 " System Settings.</p></body></html>"
-msgstr "<html><head/><body><p>Наконец, Chakra предоставляет графический инструмент для настройки фаервола. Просто ткните на &quot;Фаервол&quot; в настройках системы KDE.</p></body></html>"
+msgstr ""
 
 #: .tmp/ui_scrSecurity.py:182
 msgid ""
@@ -430,11 +429,11 @@ msgstr ""
 
 #: .tmp/ui_scrSecurity.py:183
 msgid "Security Tools"
-msgstr "Инструменты безопасности"
+msgstr ""
 
 #: .tmp/ui_scrFolder.py:155
 msgid "Home Folder"
-msgstr "Домашняя папка"
+msgstr ""
 
 #: .tmp/ui_scrFolder.py:156
 msgid "  Downloads  "
@@ -466,15 +465,15 @@ msgstr ""
 
 #: .tmp/ui_scrFolder.py:162 .tmp/scrFolder.py:30
 msgid "Folders"
-msgstr "Папки"
+msgstr ""
 
 #: .tmp/_scrSearch.py:29 .tmp/ui_scrSearch.py:109
 msgid "Search"
-msgstr "Поиск"
+msgstr ""
 
 #: .tmp/_scrSearch.py:30
 msgid "Enable / Disable Strigi Desktop Search"
-msgstr "Включить / Отключить поиск Strigi"
+msgstr ""
 
 #: .tmp/ui_scrStyleItem.py:79 .tmp/ui_wallpaperItem.py:82
 #: .tmp/ui_scrAvatar.py:256
@@ -491,11 +490,11 @@ msgstr ""
 
 #: .tmp/ui_scrWelcome.py:87 .tmp/scrWelcome.py:30
 msgid "Welcome"
-msgstr "Добро пожаловать"
+msgstr ""
 
 #: .tmp/ui_scrWelcome.py:88
 msgid "What is Chakra?"
-msgstr "Чем является Chakra"
+msgstr ""
 
 #: .tmp/ui_scrWelcome.py:89
 msgid ""
@@ -517,7 +516,7 @@ msgid ""
 "<html><head/><body><p>Kapudan tries to automatically select the best "
 "keyboard layout according to your system language. If you want to use "
 "another layout, just make a selection below.</p></body></html>"
-msgstr "<html><head/><body><p>Kapudan пытается выбрать лучшую раскладку, основываясь на языке вашей системы. Если вы хотите использовать другую раскладку, просто сделайте выбор ниже.</p></body></html>"
+msgstr ""
 
 #: .tmp/ui_scrKeyboard.py:104
 msgid "Test area:"
@@ -526,7 +525,7 @@ msgstr ""
 #: .tmp/scrWelcome.py:31
 #, python-format
 msgid "Welcome to %s"
-msgstr "Добро пожаловать в %s"
+msgstr ""
 
 #: .tmp/ui_scrWallpaper.py:141
 msgid ""
@@ -537,53 +536,53 @@ msgstr ""
 
 #: .tmp/ui_scrWallpaper.py:142
 msgid "Wallpapers"
-msgstr "Обои"
+msgstr ""
 
 #: .tmp/ui_scrWallpaper.py:144
 msgid "Choose wallpaper from file"
-msgstr "Выбрать обои из файла"
+msgstr ""
 
 #: .tmp/ui_scrWallpaper.py:145
 msgid "Don't change wallpaper"
-msgstr "Не менять обои"
+msgstr ""
 
 #: .tmp/scrMenu.py:29 .tmp/ui_scrMenu.py:133
 msgid "Menu"
-msgstr "Меню"
+msgstr ""
 
 #: .tmp/scrMenu.py:30
 msgid "Choose a Menu Style"
-msgstr "Выберите стиль меню"
+msgstr ""
 
 #: .tmp/scrMenu.py:44 .tmp/ui_scrMenu.py:135
 msgid "Kick-off Menu"
-msgstr "Kick-off меню"
+msgstr ""
 
 #: .tmp/scrMenu.py:46
 msgid ""
 "Kick-off menu is the default menu of Chakra.<br><br>The program shortcuts "
 "are easy to access and well organized."
-msgstr "Kick-off меню - основное меню в Chakra.<br><br>Ссылки на программы легко доступны и хорошо организованы."
+msgstr ""
 
 #: .tmp/scrMenu.py:50 .tmp/ui_scrMenu.py:136
 msgid "Simple Menu"
-msgstr "Простое меню"
+msgstr ""
 
 #: .tmp/scrMenu.py:52
 msgid ""
 "Simple menu is an old style menu from KDE 3.<br><br>It is a very lightweight"
 " menu thus it is recommended for slower PC's."
-msgstr "Простое меню в стиле KDE 3.<br><br>Очень легковесное, поэтому рекомендуется для слабых компьютеров."
+msgstr ""
 
 #: .tmp/scrMenu.py:56 .tmp/ui_scrMenu.py:137
 msgid "Lancelot Menu"
-msgstr "Меню Lancelot"
+msgstr ""
 
 #: .tmp/scrMenu.py:58
 msgid ""
 "Lancelot is an advanced and highly customizable menu for Chakra.<br><br>The "
 "program shortcuts are easy to access and well organized."
-msgstr "Lancelot расширенное и сильно настраиваемое меню для Chakra.<br><br>Ссылки на программы легкодоступны и удобно расположены."
+msgstr ""
 
 #: .tmp/scrMenu.py:62 .tmp/ui_scrMenu.py:138
 msgid "Homerun Menu"
@@ -603,31 +602,31 @@ msgstr ""
 
 #: .tmp/scrServices.py:33 .tmp/ui_scrServices.py:127
 msgid "Services"
-msgstr "Сервисы"
+msgstr ""
 
 #: .tmp/scrServices.py:34
 msgid "Enable / Disable Services (Daemons)"
-msgstr "Включение / Отключение служб (демонов)"
+msgstr ""
 
 #: .tmp/scrMouse.py:33
 msgid "Setup Mouse Behavior"
-msgstr "Настроить поведение мыши"
+msgstr ""
 
 #: .tmp/scrMouse.py:144
 msgid "Left Handed"
-msgstr "Под левую руку"
+msgstr ""
 
 #: .tmp/scrMouse.py:144
 msgid "Right Handed"
-msgstr "Под правую руку"
+msgstr ""
 
 #: .tmp/scrMouse.py:145
 msgid "Single Click "
-msgstr "Один клик"
+msgstr ""
 
 #: .tmp/scrMouse.py:145
 msgid "Double Click"
-msgstr "Двойной клик"
+msgstr ""
 
 #: .tmp/ui_scrGoodbye.py:362
 msgid ""
@@ -636,7 +635,7 @@ msgid ""
 "following links and applications for more settings, or for help and support."
 " Don't forget to <span style=\" font-weight:600;\">join our "
 "community!</span></p></body></html>"
-msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Ваши настройки были применены.</span> Теперь вы можете начать наслждаться Chakra, или проверить следующие ссылки и приложения для большего количества настроек, или для получения помощи и поддержки. Не забудьте <span style=\" font-weight:600;\">присоединиться к нашему сообществу!</span></p></body></html>"
+msgstr ""
 
 #: .tmp/ui_scrGoodbye.py:363 .tmp/ui_scrGoodbye.py:365
 msgid "System Settings"
@@ -685,7 +684,7 @@ msgstr ""
 
 #: .tmp/ui_scrSearch.py:111
 msgid "Allow Strigi to index my files"
-msgstr "Позволить Strigi индексировать мои файлы"
+msgstr ""
 
 #: .tmp/ui_scrSearch.py:112
 msgid "Search Options"
@@ -693,68 +692,68 @@ msgstr ""
 
 #: .tmp/scrFolder.py:31
 msgid "Create folders in the home directory"
-msgstr "Создать папки в домашнем разделе"
+msgstr ""
 
 #: .tmp/scrSummary.py:44
 msgid "Save Your Settings"
-msgstr "Сохранить ваши настройки"
+msgstr ""
 
 #: .tmp/scrSummary.py:69
 msgid "Mouse Settings"
-msgstr "Настройки мыши"
+msgstr ""
 
 #: .tmp/scrSummary.py:71
 #, python-format
 msgid "Selected Mouse configuration: <b>%s</b>"
-msgstr "Выбраная конфигурация мыши: <b>%s</b>"
+msgstr ""
 
 #: .tmp/scrSummary.py:72
 #, python-format
 msgid "Selected clicking behavior: <b>%s</b>"
-msgstr "Выбранное поведение щелчка: <b>%s</b>"
+msgstr ""
 
 #: .tmp/scrSummary.py:76
 msgid "Menu Settings"
-msgstr "Настройки меню"
+msgstr ""
 
 #: .tmp/scrSummary.py:77
 #, python-format
 msgid "Selected Menu: <b>%s</b>"
-msgstr "Выбранное меню: <b>%s</b>"
+msgstr ""
 
 #: .tmp/scrSummary.py:81
 msgid "Wallpaper Settings"
-msgstr "Настройки обоев"
+msgstr ""
 
 #: .tmp/scrSummary.py:83
 msgid "You haven't selected any wallpaper."
-msgstr "Вы не выбрали никакие обои."
+msgstr ""
 
 #: .tmp/scrSummary.py:85
 #, python-format
 msgid "Selected Wallpaper: <b>%s</b>"
-msgstr "Выбранные обои: <b>%s</b>"
+msgstr ""
 
 #: .tmp/scrSummary.py:89
 msgid "Style Settings"
-msgstr "Настройки стиля"
+msgstr ""
 
 #: .tmp/scrSummary.py:92
 msgid "You haven't selected any style."
-msgstr "Вы не выбрали стиль."
+msgstr ""
 
 #: .tmp/scrSummary.py:94
 #, python-format
 msgid "Selected Style: <b>%s</b>"
-msgstr "Выбранный стиль: <b>%s</b>"
+msgstr ""
 
 #: .tmp/scrSummary.py:100
 msgid "Package Management Settings"
-msgstr "Настройки менеджера пакетов"
+msgstr ""
 
 #: .tmp/scrSummary.py:101
 msgid "You have enabled or disabled spun."
-msgstr "Вы включили или отключили spun."
+msgstr ""
 
 #: .tmp/scrSummary.py:108 .tmp/scrSummary.py:137
 msgid "You have: "
@@ -762,55 +761,55 @@ msgstr ""
 
 #: .tmp/scrSummary.py:110
 msgid "Services Settings"
-msgstr "Настройки сервисов"
+msgstr ""
 
 #: .tmp/scrSummary.py:113
 msgid "enabled cups; "
-msgstr "включен cups; "
+msgstr ""
 
 #: .tmp/scrSummary.py:116
 msgid "disabled cups; "
-msgstr "отключен cups; "
+msgstr ""
 
 #: .tmp/scrSummary.py:119
 msgid "enabled bluetooth; "
-msgstr "включен bluetooth; "
+msgstr ""
 
 #: .tmp/scrSummary.py:122
 msgid "disabled bluetooth; "
-msgstr "отключен bluetooth; "
+msgstr ""
 
 #: .tmp/scrSummary.py:127 .tmp/scrSummary.py:155
 msgid "You have made no changes."
-msgstr "Вы не сделали никаких изменений"
+msgstr ""
 
 #: .tmp/scrSummary.py:139
 msgid "Security Settings"
-msgstr "Настройки безопасности"
+msgstr ""
 
 #: .tmp/scrSummary.py:142
 msgid "enabled ClamAV; "
-msgstr "включен ClamAV; "
+msgstr ""
 
 #: .tmp/scrSummary.py:145
 msgid "disabled ClamAV; "
-msgstr "отключен ClamAV; "
+msgstr ""
 
 #: .tmp/scrSummary.py:148
 msgid "enabled the firewall; "
-msgstr "включен the firewall; "
+msgstr ""
 
 #: .tmp/scrSummary.py:151
 msgid "disabled the firewall; "
-msgstr "отключен фаервол; "
+msgstr ""
 
 #: .tmp/scrSummary.py:173
 msgid "Error"
-msgstr "Ошибка"
+msgstr ""
 
 #: .tmp/scrSummary.py:173
 msgid "Cannot restart plasma-desktop. Kapudan will now shut down."
-msgstr "Не удаётся перезапустить plasma-desktop. Kapudan сейчас завершит свою работу."
+msgstr ""
 
 #: .tmp/ui_scrMenu.py:134
 msgid ""
@@ -824,11 +823,11 @@ msgstr ""
 
 #: .tmp/ui_scrServices.py:128
 msgid "cups: The Common Unix Printing Service"
-msgstr "cups: общеюниксовый печатный сервис"
+msgstr ""
 
 #: .tmp/ui_scrServices.py:129
 msgid "bluetooth: Enable Bluetooth communication"
-msgstr "bluetooth: включить Bluetooth связь"
+msgstr ""
 
 #: .tmp/ui_scrServices.py:130
 msgid ""
@@ -852,7 +851,7 @@ msgstr ""
 
 #: .tmp/ui_scrServices.py:131
 msgid "Daemons to start at boot time"
-msgstr "Демоны, запускаемые при старте системы"
+msgstr ""
 
 #: .tmp/ui_scrAvatar.py:257
 msgid ""
@@ -865,7 +864,7 @@ msgstr ""
 
 #: .tmp/ui_scrAvatar.py:258
 msgid "Options"
-msgstr "Опции"
+msgstr ""
 
 #: .tmp/ui_scrAvatar.py:259
 msgid "Choose an image"

@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: The Chakra Project\n"
 "Report-Msgid-Bugs-To: http://chakra-project.org/bugs/\n"
 "POT-Creation-Date: 2013-01-20 13:44+0100\n"
-"PO-Revision-Date: 2013-02-04 20:56+0000\n"
+"PO-Revision-Date: 2013-03-04 19:24+0000\n"
 "Last-Translator: evenorbert <evenorbert@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/projects/p/chakra-project/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -398,7 +398,7 @@ msgstr "ClamAV: Kártevők felderítése és eltávolítása"
 #: .tmp/ui_scrSecurity.py:177
 msgid ""
 "Tomoyo-tools: A Mandatory Access Control (MAC) implementation for Linux"
-msgstr ""
+msgstr "Tomoyo-tools: a Mandatory Access Control (MAC) linuxos implementációja"
 
 #: .tmp/ui_scrSecurity.py:178
 msgid ""
@@ -826,7 +826,7 @@ msgstr "Példa"
 
 #: .tmp/ui_scrServices.py:128
 msgid "cups: The Common Unix Printing Service"
-msgstr ""
+msgstr "cups: a Unix-os nyomtatási szolgáltatás"
 
 #: .tmp/ui_scrServices.py:129
 msgid "bluetooth: Enable Bluetooth communication"
@@ -854,7 +854,7 @@ msgstr ""
 
 #: .tmp/ui_scrServices.py:131
 msgid "Daemons to start at boot time"
-msgstr ""
+msgstr "Démonok bekapcsolása indításkor"
 
 #: .tmp/ui_scrAvatar.py:257
 msgid ""
