@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# objectivesea <erik.pedersen@shaw.ca>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: The Chakra Project\n"
 "Report-Msgid-Bugs-To: http://chakra-project.org/bugs/\n"
 "POT-Creation-Date: 2013-01-20 13:44+0100\n"
-"PO-Revision-Date: 2013-02-06 10:27+0000\n"
-"Last-Translator: objectivesea <erik.pedersen@shaw.ca>\n"
+"PO-Revision-Date: 2013-04-29 09:28+0000\n"
+"Last-Translator: Adrián Chaves Fernández <adriyetichaves@gmail.com>\n"
 "Language-Team: Esperanto (http://www.transifex.com/projects/p/chakra-project/language/eo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -67,7 +68,7 @@ msgstr "Elekti ekranfonon "
 
 #: .tmp/ui_scrPackage.py:142 .tmp/scrPackage.py:33
 msgid "Packages"
-msgstr ""
+msgstr "Pakoj"
 
 #: .tmp/ui_scrPackage.py:143
 msgid "Check for updates automatically every"
@@ -335,15 +336,15 @@ msgstr "Klaka funkciado"
 
 #: .tmp/ui_scrMouse.py:216
 msgid "Dou&ble-click to open files and folders"
-msgstr ""
+msgstr "Duoble klaki por malfermi dosierojn kaj dosierujojn"
 
 #: .tmp/ui_scrMouse.py:217
 msgid "Single-click to open files and folders"
-msgstr ""
+msgstr "Unufoje klaki por malfermi dosierojn kaj dosierujojn"
 
 #: .tmp/ui_scrMouse.py:218
 msgid "Button Order"
-msgstr ""
+msgstr "Butona sekvo"
 
 #: .tmp/ui_scrMouse.py:219
 msgid "Right Hand"
@@ -473,7 +474,7 @@ msgstr "Serĉi"
 
 #: .tmp/_scrSearch.py:30
 msgid "Enable / Disable Strigi Desktop Search"
-msgstr ""
+msgstr "Ŝalti / malŝalti la serĉadon de la labortablo Strigia"
 
 #: .tmp/ui_scrStyleItem.py:79 .tmp/ui_wallpaperItem.py:82
 #: .tmp/ui_scrAvatar.py:256
@@ -520,7 +521,7 @@ msgstr ""
 
 #: .tmp/ui_scrKeyboard.py:104
 msgid "Test area:"
-msgstr ""
+msgstr "Testzono"
 
 #: .tmp/scrWelcome.py:31
 #, python-format
@@ -556,17 +557,17 @@ msgstr "Elekti menustilon"
 
 #: .tmp/scrMenu.py:44 .tmp/ui_scrMenu.py:135
 msgid "Kick-off Menu"
-msgstr ""
+msgstr "Ekŝota menuo"
 
 #: .tmp/scrMenu.py:46
 msgid ""
 "Kick-off menu is the default menu of Chakra.<br><br>The program shortcuts "
 "are easy to access and well organized."
-msgstr ""
+msgstr "La ekŝota menuo estas la defaŭlta menuo de Ĉakro.<br><br>La fulmoklavoj de la programo estas facile atingeblaj kaj bone organizataj."
 
 #: .tmp/scrMenu.py:50 .tmp/ui_scrMenu.py:136
 msgid "Simple Menu"
-msgstr ""
+msgstr "Simpla menuo"
 
 #: .tmp/scrMenu.py:52
 msgid ""
@@ -576,7 +577,7 @@ msgstr ""
 
 #: .tmp/scrMenu.py:56 .tmp/ui_scrMenu.py:137
 msgid "Lancelot Menu"
-msgstr ""
+msgstr "Lancelota menuo"
 
 #: .tmp/scrMenu.py:58
 msgid ""
@@ -602,15 +603,15 @@ msgstr "ekranfonoPriskribo"
 
 #: .tmp/scrServices.py:33 .tmp/ui_scrServices.py:127
 msgid "Services"
-msgstr ""
+msgstr "Servoj"
 
 #: .tmp/scrServices.py:34
 msgid "Enable / Disable Services (Daemons)"
-msgstr ""
+msgstr "Ŝalti/malŝalti servojn (demonojn)"
 
 #: .tmp/scrMouse.py:33
 msgid "Setup Mouse Behavior"
-msgstr ""
+msgstr "Provizi muso-konduton"
 
 #: .tmp/scrMouse.py:144
 msgid "Left Handed"
@@ -684,7 +685,7 @@ msgstr ""
 
 #: .tmp/ui_scrSearch.py:111
 msgid "Allow Strigi to index my files"
-msgstr ""
+msgstr "Permesi Strigion indeksi miajn dosierojn"
 
 #: .tmp/ui_scrSearch.py:112
 msgid "Search Options"
@@ -692,11 +693,11 @@ msgstr "Serĉopcioj"
 
 #: .tmp/scrFolder.py:31
 msgid "Create folders in the home directory"
-msgstr ""
+msgstr "Krei dosierujojn en la hejm-dosierujo"
 
 #: .tmp/scrSummary.py:44
 msgid "Save Your Settings"
-msgstr ""
+msgstr "Konservi viaj agordoj"
 
 #: .tmp/scrSummary.py:69
 msgid "Mouse Settings"
@@ -749,7 +750,7 @@ msgstr "Elektita stilo: <b>%s</b>"
 
 #: .tmp/scrSummary.py:100
 msgid "Package Management Settings"
-msgstr ""
+msgstr "Pako-administrilaj agordoj"
 
 #: .tmp/scrSummary.py:101
 msgid "You have enabled or disabled spun."
@@ -761,7 +762,7 @@ msgstr "Vi havas:"
 
 #: .tmp/scrSummary.py:110
 msgid "Services Settings"
-msgstr ""
+msgstr "Servaj agordoj"
 
 #: .tmp/scrSummary.py:113
 msgid "enabled cups; "
@@ -789,11 +790,11 @@ msgstr "Sekuragordoj"
 
 #: .tmp/scrSummary.py:142
 msgid "enabled ClamAV; "
-msgstr ""
+msgstr "ŝaltita ClamAV;"
 
 #: .tmp/scrSummary.py:145
 msgid "disabled ClamAV; "
-msgstr ""
+msgstr "malŝaltita ClamAV;"
 
 #: .tmp/scrSummary.py:148
 msgid "enabled the firewall; "
@@ -819,7 +820,7 @@ msgstr ""
 
 #: .tmp/ui_scrMenu.py:139
 msgid "Sample"
-msgstr ""
+msgstr "Specimeno"
 
 #: .tmp/ui_scrServices.py:128
 msgid "cups: The Common Unix Printing Service"

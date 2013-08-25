@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# , 2012.
-#   <evenorbert@gmail.com>, 2013.
-# Norbert Evenich <evenorbert@gmail.com>, 2013.
+# , 2012
+# evenorbert <evenorbert@gmail.com>, 2013
+# evenorbert <evenorbert@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: The Chakra Project\n"
 "Report-Msgid-Bugs-To: http://chakra-project.org/bugs/\n"
 "POT-Creation-Date: 2013-01-20 13:44+0100\n"
-"PO-Revision-Date: 2013-03-04 19:24+0000\n"
+"PO-Revision-Date: 2013-06-01 21:25+0000\n"
 "Last-Translator: evenorbert <evenorbert@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/projects/p/chakra-project/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -131,7 +131,7 @@ msgstr "angol"
 
 #: .tmp/localedata.py:69
 msgid "English GB"
-msgstr "angol (Nagy-Britannia)"
+msgstr "angol (brit)"
 
 #: .tmp/localedata.py:75
 msgid "Afrikaans"
@@ -730,7 +730,7 @@ msgstr "Háttérkép beállítások"
 
 #: .tmp/scrSummary.py:83
 msgid "You haven't selected any wallpaper."
-msgstr "Nem választott ki egyetlen egy háttérképet sem."
+msgstr "Nem választott ki egy háttérképet sem."
 
 #: .tmp/scrSummary.py:85
 #, python-format
@@ -760,7 +760,7 @@ msgstr ""
 
 #: .tmp/scrSummary.py:108 .tmp/scrSummary.py:137
 msgid "You have: "
-msgstr ""
+msgstr "Ezek lettek beállítva:"
 
 #: .tmp/scrSummary.py:110
 msgid "Services Settings"

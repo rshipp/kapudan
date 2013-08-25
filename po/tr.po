@@ -3,21 +3,21 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Atilla Öntaş <tarakbumba@gmail.com>, 2013.
-# Emre FIRAT <emrefirat93@gmail.com>, 2013.
+# Atilla Öntaş <tarakbumba@gmail.com>, 2013
+# emfi <emrefirat93@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: The Chakra Project\n"
 "Report-Msgid-Bugs-To: http://chakra-project.org/bugs/\n"
 "POT-Creation-Date: 2013-01-20 13:44+0100\n"
-"PO-Revision-Date: 2013-02-28 15:02+0000\n"
-"Last-Translator: emfi <emrefirat93@gmail.com>\n"
+"PO-Revision-Date: 2013-05-20 13:39+0000\n"
+"Last-Translator: Atilla Öntaş <tarakbumba@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/chakra-project/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: tr\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: .tmp/scrGoodbye.py:26 .tmp/ui_scrGoodbye.py:361
 msgid "More"
@@ -427,7 +427,7 @@ msgid ""
 "make sure you keep your system up to date, and follow best security "
 "practices. However, Chakra does provide a few tools to help you keep your "
 "system safe.</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Güvenlik bir süreçtir, bir ürün değildir. Hiçbir işletim sistemi gerçekçi olarak mükemmel güvenliği sağladığını iddia edemez. Sisteminizi güncel tutmak ve en iyi güvenlik önerilerini takip etmek size kalmış bir şeydir. Ancak, Chakra; sisteminizi güvenli tutmanıza yardımcı olmak için bir kaç araç sunmaktadır."
 
 #: .tmp/ui_scrSecurity.py:183
 msgid "Security Tools"
@@ -511,7 +511,7 @@ msgid ""
 " you personalize your Chakra workspace easily and quickly. Just click <span "
 "style=\" font-weight:600;\">next</span> when you are ready to "
 "begin.</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span> KISS ilkelerini, Plasma Masaüstünün şıklığını ve iyi bilinen GTK uygulamalarını destekleyen demet sistemini seven bir çok kişi tarafından oluşturulan baştan aşağı bir Linux dağıtımıdır.<br/><br/>Hedefimiz, özellikle ödüllü KDE Yazılım Derlemesi ve Plasma Masaüstüne yoğunlaşmış kullanıcı dostu, hızlı bir Çalışan CD ve Linux dağıtımı sunmaktır.<br/><br/><span style=\" font-weight:600;\">Kapudan</span> Chakra çalışma ortamınızı hızlı ve kolayca kişiselleştirmenize yardımcı olur. Başlamaya hazır olduğunuzda <span style=\" font-weight:600;\">ileri</span> düğmesini tıklayın.</p></body></html>"
 
 #: .tmp/ui_scrKeyboard.py:103
 msgid ""
