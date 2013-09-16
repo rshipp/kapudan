@@ -62,7 +62,7 @@ class Widget(QtGui.QWidget, Screen):
             "image": QtGui.QPixmap(':/raw/pixmap/homerun.png'),
             "description": i18n("Homerun is a full screen launcher with content organized in tabs.")
         }
-        self.menuNames["appmenu_launcher"] = {
+        self.menuNames["appmenu-qml"] = {
             "menuIndex": 4,
             "summaryMessage": i18n("AppMenu QML"),
             "image": QtGui.QPixmap(':/raw/pixmap/appmenu-qml.png'),
@@ -117,10 +117,10 @@ class Widget(QtGui.QWidget, Screen):
             self.ui.pictureMenuStyles.setPixmap(self.menuNames["homerun_launcher"]["image"])
             self.ui.labelMenuDescription.setText(self.menuNames["homerun_launcher"]["description"])
         elif currentIndex == 4:
-            self.__class__.screenSettings["selectedMenu"] = "appmenu_launcher"
+            self.__class__.screenSettings["selectedMenu"] = "appmenu-qml"
 
-            self.ui.pictureMenuStyles.setPixmap(self.menuNames["appmenu_launcher"]["image"])
-            self.ui.labelMenuDescription.setText(self.menuNames["appmenu_launcher"]["description"])
+            self.ui.pictureMenuStyles.setPixmap(self.menuNames["appmenu-qml"]["image"])
+            self.ui.labelMenuDescription.setText(self.menuNames["appmenu-qml"]["description"])
 
     def shown(self):
         pass

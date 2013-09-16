@@ -75,6 +75,7 @@ class Widget(QtGui.QWidget, Screen):
             if self.daemons["bluetooth"].is_enabled():
                 self.__class__.screenSettings["hasChanged"] = True
                 self.daemons["bluetooth"].has_changed = True
+        self.__class__.screenSettings["hasChanged"] = self.daemons["cups"].has_changed or self.daemons["bluetooth"].has_changed
 
     def shown(self):
         pass
