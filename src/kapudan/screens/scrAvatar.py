@@ -83,7 +83,7 @@ class Widget(QtGui.QWidget, Screen):
         self.ui.takeButton.show()
         self.ui.takeAgainButton.hide()
         self.timer.stop()
-        cam = str(self.ui.comboBox.itemData(self.ui.comboBox.currentIndex()))
+        cam = str(self.ui.comboBox.itemData(self.ui.comboBox.currentIndex()).toString())
         self.video = v4l2capture.Video_device(cam)
 
         self.size_x, self.size_y = self.video.set_format(320, 240)
