@@ -33,7 +33,7 @@ Testing (for Developers)
 
 Translations
 ------------
-* To generate translations (for developers):
+* To generate translations (for developers, requires `intltool` from core):
 
     python2 setup.py update_messages
 
