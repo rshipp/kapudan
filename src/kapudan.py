@@ -228,7 +228,7 @@ if __name__ == "__main__":
     version = "2013.02"
     description = ki18n("Kapudan lets you configure your Chakra installation at first boot.")
     license = KAboutData.License_GPL
-    copyright = ki18n("(c) 2012 The Chakra Developers")
+    copyright = ki18n("(c) 2013 The Chakra Developers")
     text = ki18n("none")
     homePage = "http://gitorious.org/chakra/kapudan"
     bugEmail = "george@chakra-project.org"
