@@ -4,7 +4,7 @@
 # Maintainer: george <george[at]chakra-project.org>
 
 pkgname=kapudan
-pkgver=20121008
+pkgver=0.4.90
 pkgrel=1
 pkgdesc="Chakra's desktop greeter, a fork of Pardus's Kaptan."
 arch=('i686' 'x86_64')
@@ -14,7 +14,7 @@ license=('GPLv2')
 conflicts=('kapudan-git')
 depends=('python2' 'kde-baseapps-konsole' 'kde-runtime'
          'kdebindings-pykde4' 'pyqt' 'python2-xlib'
-         'python2-v4l2capture' 'python-imaging')
+         'python-imaging')
 makedepends=('python-distribute' 'git')
 optdepends=('spun: update notifications'
             'clamav: for the security page')
@@ -24,7 +24,7 @@ md5sums=('ad47fb92a8f863338b97aed0cee1f38d')
 # create tarball: source PKGBUILD && mksource
 
 mksource() {
-    git clone git://gitorious.org/chakra/${pkgname}.git ${pkgname}
+    git clone -b "${pkgver}" git://gitorious.org/chakra/${pkgname}.git ${pkgname}
     pushd ${pkgname}
     popd
     rm ${pkgname}/PKGBUILD
