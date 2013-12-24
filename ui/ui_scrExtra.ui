@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>657</width>
-    <height>556</height>
+    <width>684</width>
+    <height>596</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -195,7 +195,7 @@ border-bottom-right-radius: 4px;
         <enum>QFrame::Raised</enum>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Chakra believes in providing an environment that is as clean as possible, and fully focused on KDE. This means there are no GTK applications in the repositories enabled by default. However, we recognize that there are quite a few &amp;quot;must have&amp;quot; GTK applications; these are provided in the &lt;span style=&quot; font-weight:600;&quot;&gt;[extra] &lt;/span&gt;&lt;a href=&quot;http://chakra-project.org/wiki/index.php?title=Repositories&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;repository&lt;/span&gt;&lt;/a&gt;, which can be enabled by those users that want to use it.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Chakra believes in providing an environment that is as clean as possible, and fully focused on KDE. This means there are no GTK applications in the repositories enabled by default. However, we recognize that there are quite a few &amp;quot;must have&amp;quot; GTK applications; these are provided in the &lt;span style=&quot; font-weight:600;&quot;&gt;[extra] &lt;/span&gt;&lt;a href=&quot;http://chakra-project.org/wiki/index.php?title=Repositories&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;repository&lt;/span&gt;&lt;/a&gt;, which can be enabled by those users that want to use it. For a more integrated experience when using GTK apps, you should also run &lt;span style=&quot; font-weight:600;&quot;&gt;sudo pacman -S gtk-integration&lt;/span&gt;. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="wordWrap">
         <bool>true</bool>
