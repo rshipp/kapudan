@@ -43,5 +43,7 @@
     <file>pixmap/system-help.png</file>
     <file>pixmap/tick.png</file>
     <file>pixmap/view-pim-contacts.png</file>
+    <file>pixmap/gtk-logo.png</file>
+    <file>pixmap/extra.png</file>
   </qresource>
 </RCC>
