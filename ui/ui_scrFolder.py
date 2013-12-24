@@ -149,7 +149,12 @@ class Ui_folderWidget(object):
         self.videoFolderButton.setText(kdecore.i18n(_fromUtf8("  Videos  ")))
         self.musicFolderButton.setText(kdecore.i18n(_fromUtf8("  Music  ")))
         self.pictureFolderButton.setText(kdecore.i18n(_fromUtf8("  Pictures  ")))
-        self.description.setText(kdecore.i18n(_fromUtf8("<html><head/><body><p>By default Chakra doesn\'t create any special folders in the user\'s home directory, as Chakra leaves these kind of choices up to the user. Kapudan will create these folders for you; click the buttons below if you don\'t want it to.</p></body></html>")))
+        self.description.setText(kdecore.i18n(_fromUtf8("""<html><head/><body><p>
+                        Your home directory does not contain folders for
+                        documents, music, pictures and the like by
+                        default. Kapudan will create the folders
+                        selected below for you now; unselect the ones
+                        you don\'t want.</p></body></html>""")))
         self.label.setText(kdecore.i18n(_fromUtf8("Folders")))
 
 import kapudan_rc
