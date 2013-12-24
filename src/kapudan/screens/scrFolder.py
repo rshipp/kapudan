@@ -42,12 +42,18 @@ class Widget(QtGui.QWidget, Screen):
         self.folder_attributes["music"] = (os.path.expanduser("~/Music"), "[Desktop Entry]\nIcon=folder-sound")
         self.folder_attributes["picture"] = (os.path.expanduser("~/Pictures"), "[Desktop Entry]\nIcon=folder-image")
 
+        # this sets up the old behavior, where folders are not created
+        # by default. this behavior is overridden below.
         self.folder = dict()
         self.folder["download"] = os.path.isdir(self.folder_attributes["download"][0])
         self.folder["documents"] = os.path.isdir(self.folder_attributes["documents"][0])
         self.folder["video"] = os.path.isdir(self.folder_attributes["video"][0])
         self.folder["music"] = os.path.isdir(self.folder_attributes["music"][0])
         self.folder["picture"] = os.path.isdir(self.folder_attributes["picture"][0])
+        # this tells Kapudan to create all folders by default, as
+        # discussed here: https://www.loomio.org/discussions/8411
+        for key, value in self.folder.iteritems():
+            self.folder[key] = True
 
         self.folder2button = dict()
         self.folder2button["download"] = self.ui.downloadFolderButton
@@ -57,7 +63,7 @@ class Widget(QtGui.QWidget, Screen):
         self.folder2button["picture"] = self.ui.pictureFolderButton
 
         for key in self.folder2button:
-            self.folder2button[key].setStyleSheet("QToolButton:checked {background-color: rgb(134, 134, 134);}")
+            self.folder2button[key].setStyleSheet("QToolButton:checked {background-color: rgb(120, 120, 120);}")
 
         for key, value in self.folder.iteritems():
             if value:
