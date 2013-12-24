@@ -40,23 +40,23 @@ class Widget(QtGui.QWidget, Screen):
         self.folder_attributes["documents"] = (os.path.expanduser("~/Documents"), "[Desktop Entry]\nIcon=folder-documents")
         self.folder_attributes["video"] = (os.path.expanduser("~/Videos"), "[Desktop Entry]\nIcon=folder-video")
         self.folder_attributes["music"] = (os.path.expanduser("~/Music"), "[Desktop Entry]\nIcon=folder-sound")
-        self.folder_attributes["image"] = (os.path.expanduser("~/Images"), "[Desktop Entry]\nIcon=folder-image")
+        self.folder_attributes["picture"] = (os.path.expanduser("~/Pictures"), "[Desktop Entry]\nIcon=folder-image")
 
         self.folder = dict()
         self.folder["download"] = os.path.isdir(self.folder_attributes["download"][0])
         self.folder["documents"] = os.path.isdir(self.folder_attributes["documents"][0])
         self.folder["video"] = os.path.isdir(self.folder_attributes["video"][0])
         self.folder["music"] = os.path.isdir(self.folder_attributes["music"][0])
-        self.folder["image"] = os.path.isdir(self.folder_attributes["image"][0])
+        self.folder["picture"] = os.path.isdir(self.folder_attributes["picture"][0])
 
         self.folder2button = dict()
         self.folder2button["download"] = self.ui.downloadFolderButton
         self.folder2button["documents"] = self.ui.documentsFolderButton
         self.folder2button["video"] = self.ui.videoFolderButton
         self.folder2button["music"] = self.ui.musicFolderButton
-        self.folder2button["image"] = self.ui.imageFolderButton
+        self.folder2button["picture"] = self.ui.pictureFolderButton
 
-        for key in self. folder2button:
+        for key in self.folder2button:
             self.folder2button[key].setStyleSheet("QToolButton:checked {background-color: rgb(134, 134, 134);}")
 
         for key, value in self.folder.iteritems():
@@ -66,11 +66,11 @@ class Widget(QtGui.QWidget, Screen):
         # set signals
         self.ui.documentsFolderButton.toggled.connect(self.addFolder)
         self.ui.downloadFolderButton.toggled.connect(self.addFolder)
-        self.ui.imageFolderButton.toggled.connect(self.addFolder)
+        self.ui.pictureFolderButton.toggled.connect(self.addFolder)
         self.ui.musicFolderButton.toggled.connect(self.addFolder)
         self.ui.videoFolderButton.toggled.connect(self.addFolder)
 
-    def addFolder(self, item):  # TODO we get item, a bool. Isn't that the same as isChecked?
+    def addFolder(self):
         for key in self.folder:
             self.folder[key] = self.folder2button[key].isChecked()
 
@@ -78,7 +78,6 @@ class Widget(QtGui.QWidget, Screen):
         pass
 
     def execute(self):
-
         for key, value in self.folder.iteritems():
             try:
                 if value:
@@ -88,7 +87,9 @@ class Widget(QtGui.QWidget, Screen):
                 else:
                     content = os.listdir(self.folder_attributes[key][0])
                     if (len(content) == 1) and (".directory" in content):
-                        # only delete the directory if we created it
+                        # only delete the directory if it contains
+                        # nothing but the .directory file (which
+                        # suggests that we created it)
                         os.remove(os.path.join(self.folder_attributes[key][0], ".directory"))
                         os.rmdir(self.folder_attributes[key][0])
             except OSError:

@@ -42,7 +42,7 @@
         </font>
        </property>
        <property name="autoFillBackground">
-        <bool>true</bool>
+        <bool>false</bool>
        </property>
        <property name="styleSheet">
         <string notr="true">#groupBoxFolders{
@@ -161,9 +161,9 @@ border-bottom-right-radius: 4px;
            </widget>
           </item>
           <item>
-           <widget class="QToolButton" name="imageFolderButton">
+           <widget class="QToolButton" name="pictureFolderButton">
             <property name="text">
-             <string>  Images  </string>
+             <string>  Pictures  </string>
             </property>
             <property name="icon">
              <iconset theme="folder-image">
