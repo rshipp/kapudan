@@ -43,20 +43,20 @@ class Widget(QtGui.QWidget, Screen):
         self.config = Repos()
 
         # set initial states
-        self.ui.enableExtra.setChecked(self.config.isEnabled())
+        self.ui.enableExtra.setChecked(self.config.extraIsEnabled())
 
     def applySettings(self):
         # update hasChanged
         if self.ui.enableExtra.isChecked():
             # was [extra] enabled before?
-            if self.config.isEnabled():
+            if self.config.extraIsEnabled():
                 self.__class__.screenSettings["hasChanged"] = False
             else:
                 self.__class__.screenSettings["hasChanged"] = True
 
         else:
             # was [extra] enabled before?
-            if self.config.isEnabled():
+            if self.config.extraIsEnabled():
                 self.__class__.screenSettings["hasChanged"] = True
             else:
                 self.__class__.screenSettings["hasChanged"] = False

@@ -11,7 +11,7 @@ class Repos():
         self.config = "/etc/pacman.conf"
         self.re = "\n\[extra\]"
 
-    def isEnabled(self):
+    def extraIsEnabled(self):
         with open(self.config, "r") as config:
             return (re.search(self.re, config.read()) != None)
 

@@ -36,10 +36,12 @@ import kapudan.screens.scrMenu as menuWidget
 import kapudan.screens.scrPackage as packageWidget
 import kapudan.screens.scrServices as servicesWidget
 import kapudan.screens.scrSecurity as securityWidget
+import kapudan.screens.scrExtra as extraWidget
 
 #from kapudan.tools import tools
 from kapudan.tools.spunrc import SpunRC
 from kapudan.tools.daemon import Daemon
+from kapudan.tools.repos import Repos
 
 
 class Widget(QtGui.QWidget, Screen):
