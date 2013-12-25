@@ -140,7 +140,7 @@ border-bottom-right-radius: 4px;
         <enum>QFrame::Raised</enum>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, you can open the application launcher with the &lt;span style=&quot; font-weight:600;&quot;&gt;Alt+F2&lt;/span&gt; keyboard shortcut. The &lt;span style=&quot; font-weight:600;&quot;&gt;ksuperkey&lt;/span&gt; program will bind your &amp;quot;Super&amp;quot; key (also known as the &amp;quot;Meta&amp;quot; or &amp;quot;Windows&amp;quot; key) to send this key combination when tapped, making it easier to open the launcher.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, you can open the application launcher with the &lt;span style=&quot; font-weight:600;&quot;&gt;Alt+F1&lt;/span&gt; keyboard shortcut. The &lt;span style=&quot; font-weight:600;&quot;&gt;ksuperkey&lt;/span&gt; program will bind your &amp;quot;Super&amp;quot; key (also known as the &amp;quot;Meta&amp;quot; or &amp;quot;Windows&amp;quot; key) to send this key combination when tapped, making it easier to open the launcher.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="wordWrap">
         <bool>true</bool>
