@@ -36,11 +36,16 @@ class Widget(QtGui.QWidget, Screen):
 
         # read default settings
         self.folder_attributes = dict()
-        self.folder_attributes["download"] = (os.path.expanduser("~/Downloads"), "[Desktop Entry]\nIcon=folder-downloads")
-        self.folder_attributes["documents"] = (os.path.expanduser("~/Documents"), "[Desktop Entry]\nIcon=folder-documents")
-        self.folder_attributes["video"] = (os.path.expanduser("~/Videos"), "[Desktop Entry]\nIcon=folder-video")
-        self.folder_attributes["music"] = (os.path.expanduser("~/Music"), "[Desktop Entry]\nIcon=folder-sound")
-        self.folder_attributes["picture"] = (os.path.expanduser("~/Pictures"), "[Desktop Entry]\nIcon=folder-image")
+        self.folder_attributes["download"] = (os.path.expanduser(i18n("~/Downloads")),
+                "[Desktop Entry]\nIcon=folder-downloads")
+        self.folder_attributes["documents"] = (os.path.expanduser(i18n("~/Documents")),
+                "[Desktop Entry]\nIcon=folder-documents")
+        self.folder_attributes["video"] = (os.path.expanduser(i18n("~/Videos")),
+                "[Desktop Entry]\nIcon=folder-video")
+        self.folder_attributes["music"] = (os.path.expanduser(i18n("~/Music")),
+                "[Desktop Entry]\nIcon=folder-sound")
+        self.folder_attributes["picture"] = (os.path.expanduser(i18n("~/Pictures")),
+                "[Desktop Entry]\nIcon=folder-image")
 
         # this sets up the old behavior, where folders are not created
         # by default. this behavior is overridden below.
