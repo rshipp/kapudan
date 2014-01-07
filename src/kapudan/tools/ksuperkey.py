@@ -11,19 +11,21 @@ class KSuperKey():
     def __init__(self):
         self.bin = '/usr/bin/ksuperkey'
         self.stopbin = ['/usr/bin/killall', 'ksuperkey']
-        self.autostartfile = os.path.expanduer('~/.config/autostart/ksuperkey.desktop')
+        self.autostartfile = os.path.expanduser('~/.config/autostart/ksuperkey.desktop')
         self.desktopfile = '/usr/share/kde4/apps/kapudan/kapudan/ksuperkey.desktop'
 
     def isEnabled(self):
         return os.path.isfile(self.autostartfile)
 
     def enable(self):
-        self._enableStartup()
-        self._start()
+        if not self.isEnabled():
+            self._enableStartup()
+            self._start()
 
     def disable(self):
-        self._disableStartup()
-        self._stop()
+        if self.isEnabled():
+            self._disableStartup()
+            self._stop()
 
     def _enableStartup(self):
         shutil.copy(self.desktopfile, self.autostartfile)
