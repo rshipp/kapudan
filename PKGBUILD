@@ -45,4 +45,6 @@ package() {
         "${pkgdir}/usr/share/kde4/apps/kapudan/kapudan/kde-themes/"
     install -Dm755 kapudan-autostart.desktop \
         "${pkgdir}/usr/share/kde4/apps/kapudan/kapudan/kapudan-autostart.desktop"
+    install -Dm755 data/ksuperkey.desktop \
+        "${pkgdir}/usr/share/kde4/apps/kapudan/kapudan/ksuperkey.desktop"
 }
