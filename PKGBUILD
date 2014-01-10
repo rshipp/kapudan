@@ -12,10 +12,10 @@ url='http://gitorious.org/chakra/kapudan/'
 screenshot='http://i.imgur.com/71aU5.png'
 license=('GPLv2')
 conflicts=('kapudan-git')
-depends=('python2' 'kde-baseapps-konsole' 'kde-runtime'
-         'kdebindings-pykde4' 'pyqt' 'python2-xlib'
-         'python-imaging')
-makedepends=('python-distribute' 'git')
+depends=('python2'  'kde-baseapps-konsole'  'kde-runtime'
+         'kdebindings-python2' 'python2-pyqt4'  'python2-xlib'
+         'python2-imaging' 'xdg-user-dirs')
+makedepends=('python2-setuptools' 'git')
 optdepends=('spun: update notifications'
             'clamav: for the security page')
 source=("http://chakra-linux.org/sources/${pkgname}/${pkgname}-${pkgver}.tar.xz")
