@@ -14,7 +14,7 @@ license=('GPLv2')
 conflicts=('kapudan-git')
 depends=('python2'  'kde-baseapps-konsole'  'kde-runtime'
          'kdebindings-python2' 'python2-pyqt4'  'python2-xlib'
-         'python2-imaging' 'xdg-user-dirs')
+         'python2-imaging' 'xdg-user-dirs' 'ksuperkey')
 makedepends=('python2-setuptools' 'git')
 optdepends=('spun: update notifications'
             'clamav: for the security page')
