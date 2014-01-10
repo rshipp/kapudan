@@ -19,6 +19,7 @@ from PyKDE4.kdecore import i18n
 
 from kapudan.screen import Screen
 from kapudan.screens.ui_scrFolder import Ui_folderWidget
+from kapudan.tools.xdg_user_dirs import UserDirs
 
 
 class Widget(QtGui.QWidget, Screen):
@@ -34,17 +35,19 @@ class Widget(QtGui.QWidget, Screen):
         self.ui = Ui_folderWidget()
         self.ui.setupUi(self)
 
+        userdirs = UserDirs()
+
         # read default settings
         self.folder_attributes = dict()
-        self.folder_attributes["download"] = (os.path.expanduser(i18n("~/Downloads")),
+        self.folder_attributes["download"] = (userdirs.get('DOWNLOADS'),
                 "[Desktop Entry]\nIcon=folder-downloads")
-        self.folder_attributes["documents"] = (os.path.expanduser(i18n("~/Documents")),
+        self.folder_attributes["documents"] = (userdirs.get('DOCUMENTS'),
                 "[Desktop Entry]\nIcon=folder-documents")
-        self.folder_attributes["video"] = (os.path.expanduser(i18n("~/Videos")),
+        self.folder_attributes["video"] = (userdirs.get('VIDEOS'),
                 "[Desktop Entry]\nIcon=folder-video")
-        self.folder_attributes["music"] = (os.path.expanduser(i18n("~/Music")),
+        self.folder_attributes["music"] = (userdirs.get('MUSIC'),
                 "[Desktop Entry]\nIcon=folder-sound")
-        self.folder_attributes["picture"] = (os.path.expanduser(i18n("~/Pictures")),
+        self.folder_attributes["picture"] = (userdirs.get('PICTURES'),
                 "[Desktop Entry]\nIcon=folder-image")
 
         # this sets up the old behavior, where folders are not created
