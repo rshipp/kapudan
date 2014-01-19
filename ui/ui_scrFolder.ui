@@ -42,7 +42,7 @@
         </font>
        </property>
        <property name="autoFillBackground">
-        <bool>true</bool>
+        <bool>false</bool>
        </property>
        <property name="styleSheet">
         <string notr="true">#groupBoxFolders{
@@ -161,9 +161,9 @@ border-bottom-right-radius: 4px;
            </widget>
           </item>
           <item>
-           <widget class="QToolButton" name="imageFolderButton">
+           <widget class="QToolButton" name="pictureFolderButton">
             <property name="text">
-             <string>  Images  </string>
+             <string>  Pictures  </string>
             </property>
             <property name="icon">
              <iconset theme="folder-image">
@@ -245,7 +245,7 @@ border-bottom-right-radius: 4px;
         <enum>QFrame::Raised</enum>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default Chakra doesn't create any special folders in the user's home directory, as Chakra leaves these kind of choices up to the user. However, in this screen we give you the ability to create the most commonly used folders.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Your home directory does not contain folders for documents, music, pictures and the like by default. Kapudan will create the folders selected below for you now; unselect the ones you don't want.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="wordWrap">
         <bool>true</bool>

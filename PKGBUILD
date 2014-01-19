@@ -4,7 +4,7 @@
 # Maintainer: george <george[at]chakra-project.org>
 
 pkgname=kapudan
-pkgver=20121008
+pkgver=0.4.90
 pkgrel=1
 pkgdesc="Chakra's desktop greeter, a fork of Pardus's Kaptan."
 arch=('i686' 'x86_64')
@@ -12,10 +12,10 @@ url='http://gitorious.org/chakra/kapudan/'
 screenshot='http://i.imgur.com/71aU5.png'
 license=('GPLv2')
 conflicts=('kapudan-git')
-depends=('python2' 'kde-baseapps-konsole' 'kde-runtime'
-         'kdebindings-pykde4' 'pyqt' 'python2-xlib'
-         'python2-v4l2capture' 'python-imaging')
-makedepends=('python-distribute' 'git')
+depends=('python2'  'kde-baseapps-konsole'  'kde-runtime'
+         'kdebindings-python2' 'python2-pyqt4'  'python2-xlib'
+         'python2-imaging' 'xdg-user-dirs' 'ksuperkey')
+makedepends=('python2-setuptools' 'git')
 optdepends=('spun: update notifications'
             'clamav: for the security page')
 source=("http://chakra-linux.org/sources/${pkgname}/${pkgname}-${pkgver}.tar.xz")
@@ -24,7 +24,7 @@ md5sums=('ad47fb92a8f863338b97aed0cee1f38d')
 # create tarball: source PKGBUILD && mksource
 
 mksource() {
-    git clone git://gitorious.org/chakra/${pkgname}.git ${pkgname}
+    git clone -b "${pkgver}" git://gitorious.org/chakra/${pkgname}.git ${pkgname}
     pushd ${pkgname}
     popd
     rm ${pkgname}/PKGBUILD
@@ -45,4 +45,6 @@ package() {
         "${pkgdir}/usr/share/kde4/apps/kapudan/kapudan/kde-themes/"
     install -Dm755 kapudan-autostart.desktop \
         "${pkgdir}/usr/share/kde4/apps/kapudan/kapudan/kapudan-autostart.desktop"
+    install -Dm755 data/ksuperkey.desktop \
+        "${pkgdir}/usr/share/kde4/apps/kapudan/kapudan/ksuperkey.desktop"
 }

@@ -33,7 +33,6 @@ import kapudan.screens.scrWallpaper as wallpaperWidget
 import kapudan.screens.scrMouse as mouseWidget
 import kapudan.screens.scrStyle as styleWidget
 import kapudan.screens.scrMenu as menuWidget
-import kapudan.screens.scrAvatar as avatarWidget
 import kapudan.screens.scrPackage as packageWidget
 import kapudan.screens.scrServices as servicesWidget
 import kapudan.screens.scrSecurity as securityWidget
@@ -57,7 +56,6 @@ class Widget(QtGui.QWidget, Screen):
         self.mouseSettings = mouseWidget.Widget.screenSettings
         self.menuSettings = menuWidget.Widget.screenSettings
         self.styleSettings = styleWidget.Widget.screenSettings
-        self.avatarSettings = avatarWidget.Widget.screenSettings
         self.packageSettings = packageWidget.Widget.screenSettings
         self.servicesSettings = servicesWidget.Widget.screenSettings
         self.securitySettings = securityWidget.Widget.screenSettings
@@ -364,10 +362,6 @@ class Widget(QtGui.QWidget, Screen):
                 proxy.reconfigure()
             except dbus.DBusException:
                 pass
-
-        # Avatar Settings
-        if self.avatarSettings["hasChanged"]:
-            hasChanged = True
 
         # Spun Settings
         if self.packageSettings["hasChanged"]:
