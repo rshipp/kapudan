@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-06 17:13-0700\n"
+"POT-Creation-Date: 2014-01-19 14:04-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,32 +105,12 @@ msgstr ""
 msgid "Daemons to start at boot time"
 msgstr ""
 
-#: .tmp/scrFolder.py:29 .tmp/ui_scrFolder.py:162
+#: .tmp/scrFolder.py:30 .tmp/ui_scrFolder.py:162
 msgid "Folders"
 msgstr ""
 
-#: .tmp/scrFolder.py:30
+#: .tmp/scrFolder.py:31
 msgid "Create folders in the home directory"
-msgstr ""
-
-#: .tmp/scrFolder.py:39
-msgid "~/Downloads"
-msgstr ""
-
-#: .tmp/scrFolder.py:41
-msgid "~/Documents"
-msgstr ""
-
-#: .tmp/scrFolder.py:43
-msgid "~/Videos"
-msgstr ""
-
-#: .tmp/scrFolder.py:45
-msgid "~/Music"
-msgstr ""
-
-#: .tmp/scrFolder.py:47
-msgid "~/Pictures"
 msgstr ""
 
 #: .tmp/kapudan.desktop.in.h:1 .tmp/ui_kapudan.py:368
