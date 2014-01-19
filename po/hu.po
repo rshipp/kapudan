@@ -9,9 +9,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: The Chakra Project\n"
-"Report-Msgid-Bugs-To: http://chakra-project.org/bugs/\n"
-"POT-Creation-Date: 2013-01-20 13:44+0100\n"
-"PO-Revision-Date: 2013-06-01 21:25+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-09 21:36+0100\n"
+"PO-Revision-Date: 2013-12-02 11:36+0000\n"
 "Last-Translator: evenorbert <evenorbert@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/projects/p/chakra-project/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -20,31 +20,52 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .tmp/scrGoodbye.py:26 .tmp/ui_scrGoodbye.py:361
+#: .tmp/scrWelcome.py:27 .tmp/ui_scrWelcome.py:87
+msgid "Welcome"
+msgstr "Üdvözöljük"
+
+#: .tmp/scrWelcome.py:28
+#, python-format
+msgid "Welcome to %s"
+msgstr "Köszönti önt a %s"
+
+#: .tmp/ui_kapudan.py:368 .tmp/kapudan.desktop.in.h:1
+msgid "Kapudan"
+msgstr "Kapudan"
+
+#: .tmp/ui_kapudan.py:369
+msgid "Welcome to Chakra"
+msgstr "Köszönti önt a Chakra"
+
+#: .tmp/ui_kapudan.py:370
+msgid "Cancel"
+msgstr "Mégsem"
+
+#: .tmp/ui_kapudan.py:371
+msgid "Back"
+msgstr "Előző"
+
+#: .tmp/ui_kapudan.py:372
+msgid "Next"
+msgstr "Következő"
+
+#: .tmp/ui_kapudan.py:373
+msgid "Finish"
+msgstr "Befejezés"
+
+#: .tmp/ui_kapudan.py:374
+msgid "Apply"
+msgstr "Alkalmazás"
+
+#: .tmp/scrGoodbye.py:28 .tmp/ui_scrGoodbye.py:361
 msgid "More"
 msgstr "Bővebben"
 
-#: .tmp/scrGoodbye.py:27
+#: .tmp/scrGoodbye.py:29
 msgid "Congratulations!"
 msgstr "Gratulálunk!"
 
-#: .tmp/scrAvatar.py:39
-msgid "User Picture"
-msgstr "Felhasználó képe"
-
-#: .tmp/scrAvatar.py:51
-msgid "Create Your User Picture"
-msgstr "Felhasználó képének elkészítése"
-
-#: .tmp/scrSecurity.py:33 .tmp/ui_scrSecurity.py:172
-msgid "Security"
-msgstr "Biztonság"
-
-#: .tmp/scrSecurity.py:34
-msgid "Keep your system secure"
-msgstr "Legyen a rendszere biztonságban"
-
-#: .tmp/ui_scrSummary.py:94 .tmp/scrSummary.py:43
+#: .tmp/ui_scrSummary.py:94 .tmp/scrSummary.py:47
 msgid "Summary"
 msgstr "Összefoglaló"
 
@@ -60,13 +81,28 @@ msgstr "<html><head/><body><p>Ön sikeresen befejezte az összes lépést. Itt l
 msgid "The following settings will be applied"
 msgstr "A következő beállítások lépnek érvénybe"
 
-#: .tmp/scrWallpaper.py:37 .tmp/ui_scrWallpaper.py:140
-msgid "Wallpaper"
-msgstr "Háttérkép"
+#: .tmp/scrFolder.py:29 .tmp/ui_scrFolder.py:162
+msgid "Folders"
+msgstr "Mappák"
 
-#: .tmp/scrWallpaper.py:38
-msgid "Choose a Wallpaper"
-msgstr "Háttérkép kiválasztása"
+#: .tmp/scrFolder.py:30
+msgid "Create folders in the home directory"
+msgstr "Mappák készítése a saját könyvtárban"
+
+#: .tmp/ui_scrKeyboard.py:102
+msgid "Keyboard"
+msgstr "Billentyűzet"
+
+#: .tmp/ui_scrKeyboard.py:103
+msgid ""
+"<html><head/><body><p>Kapudan tries to automatically select the best "
+"keyboard layout according to your system language. If you want to use "
+"another layout, just make a selection below.</p></body></html>"
+msgstr "<html><head/><body><p>A Kapudan megpróbálja beállítani a legmegfelelőbb billentyűzetkiosztást a rendszer nyelve alapján. Ha másfajta kiosztást szeretne használni kérem válassza ki az alábbiak közül.</p></body></html>"
+
+#: .tmp/ui_scrKeyboard.py:104
+msgid "Test area:"
+msgstr "Teszt terület:"
 
 #: .tmp/ui_scrPackage.py:142 .tmp/scrPackage.py:33
 msgid "Packages"
@@ -105,193 +141,342 @@ msgstr "<html><head/><body><p>A Chakra-ban a programok telepítéséhez és elt�
 msgid "Updates"
 msgstr "Frissítések"
 
-#: .tmp/kapudan.desktop.in.h:1 .tmp/ui_kapudan.py:368
-msgid "Kapudan"
-msgstr "Kapudan"
+#: .tmp/scrAvatar.py:37
+msgid "User Picture"
+msgstr "Felhasználó képe"
 
-#: .tmp/kapudan.desktop.in.h:2
-msgid "Welcome Wizard"
-msgstr ""
+#: .tmp/scrAvatar.py:49
+msgid "Create Your User Picture"
+msgstr "Felhasználó képének elkészítése"
 
-#: .tmp/localedata.py:53
-msgid "Turkish"
-msgstr "török"
-
-#: .tmp/localedata.py:58
-msgid "Turkish Q"
-msgstr "török Q"
-
-#: .tmp/localedata.py:59
-msgid "Turkish F"
-msgstr "török F"
-
-#: .tmp/localedata.py:64
-msgid "English"
-msgstr "angol"
-
-#: .tmp/localedata.py:69
-msgid "English GB"
-msgstr "angol (brit)"
-
-#: .tmp/localedata.py:75
-msgid "Afrikaans"
-msgstr "dél-afrikai holland"
-
-#: .tmp/localedata.py:81
-msgid "Arabic"
-msgstr "arab"
-
-#: .tmp/localedata.py:87
-msgid "Belgian"
-msgstr "belga"
-
-#: .tmp/localedata.py:93
-msgid "Bulgarian"
-msgstr "bolgár"
-
-#: .tmp/localedata.py:99
-msgid "Catalan"
-msgstr "katalán"
-
-#: .tmp/localedata.py:105
-msgid "Welsh"
-msgstr "welszi"
-
-#: .tmp/localedata.py:111
-msgid "Czech"
-msgstr "cseh"
-
-#: .tmp/localedata.py:117
-msgid "Danish"
-msgstr "dán"
-
-#: .tmp/localedata.py:123
-msgid "German"
-msgstr "német"
-
-#: .tmp/localedata.py:129
-msgid "Spanish"
-msgstr "spanyol"
-
-#: .tmp/localedata.py:135
-msgid "Estonian"
-msgstr "észt"
-
-#: .tmp/localedata.py:141
-msgid "Finnish"
-msgstr "finn"
-
-#: .tmp/localedata.py:147
-msgid "French"
-msgstr "francia"
-
-#: .tmp/localedata.py:153
-msgid "Greek"
-msgstr "görög"
-
-#: .tmp/localedata.py:159
-msgid "Croatian"
-msgstr "horvát"
-
-#: .tmp/localedata.py:165
-msgid "Hungarian"
-msgstr "magyar"
-
-#: .tmp/localedata.py:173
-msgid "Icelandic"
-msgstr "izlandi"
-
-#: .tmp/localedata.py:179
-msgid "Italian"
-msgstr "olasz"
-
-#: .tmp/localedata.py:185
-msgid "Japanese"
-msgstr "japán"
-
-#: .tmp/localedata.py:191
-msgid "Macedonian"
-msgstr "macedón"
-
-#: .tmp/localedata.py:197
-msgid "Malayalam"
-msgstr "malayalami"
-
-#: .tmp/localedata.py:203
-msgid "Norwegian"
-msgstr "norvég"
-
-#: .tmp/localedata.py:209
-msgid "Dutch"
-msgstr "holland"
-
-#: .tmp/localedata.py:215
-msgid "Polish"
-msgstr "lengyel"
-
-#: .tmp/localedata.py:221
-msgid "Portuguese"
-msgstr "portugál"
-
-#: .tmp/localedata.py:227
-msgid "Brazilian"
-msgstr "brazil"
-
-#: .tmp/localedata.py:233
-msgid "Russian"
-msgstr "orosz"
-
-#: .tmp/localedata.py:241
-msgid "Slovak"
-msgstr "szlovák"
-
-#: .tmp/localedata.py:247
-msgid "Slovenian"
-msgstr "szlovén"
-
-#: .tmp/localedata.py:253
-msgid "Serbian"
-msgstr "szerb"
-
-#: .tmp/localedata.py:259
-msgid "Swedish"
-msgstr "svéd"
-
-#: .tmp/localedata.py:266
-msgid "Ukrainian"
-msgstr "ukrán"
-
-#: .tmp/localedata.py:272
-msgid "Vietnamese"
-msgstr "vietnám"
-
-#: .tmp/ui_kapudan.py:369
-msgid "Welcome to Chakra"
-msgstr "Köszönti önt a Chakra"
-
-#: .tmp/ui_kapudan.py:370
-msgid "Cancel"
-msgstr "Mégsem"
-
-#: .tmp/ui_kapudan.py:371
-msgid "Back"
-msgstr "Előző"
-
-#: .tmp/ui_kapudan.py:372
-msgid "Next"
-msgstr "Következő"
-
-#: .tmp/ui_kapudan.py:373
-msgid "Finish"
-msgstr "Befejezés"
-
-#: .tmp/ui_kapudan.py:374
-msgid "Apply"
-msgstr "Alkalmazás"
-
-#: .tmp/ui_scrStyle.py:180 .tmp/scrStyle.py:38
+#: .tmp/scrStyle.py:40 .tmp/ui_scrStyle.py:180
 msgid "Themes"
 msgstr "Témák"
+
+#: .tmp/scrStyle.py:41
+msgid "Customize Your Desktop"
+msgstr "Munkaasztal testreszabása"
+
+#: .tmp/scrSecurity.py:33 .tmp/ui_scrSecurity.py:172
+msgid "Security"
+msgstr "Biztonság"
+
+#: .tmp/scrSecurity.py:34
+msgid "Keep your system secure"
+msgstr "Legyen a rendszere biztonságban"
+
+#: .tmp/ui_scrAvatar.py:256 .tmp/ui_wallpaperItem.py:82
+#: .tmp/ui_scrStyleItem.py:79
+msgid "Form"
+msgstr ""
+
+#: .tmp/ui_scrAvatar.py:257
+msgid ""
+"<html><head/><body><p>This screen helps you set your <span style=\" font-"
+"weight:600;\">user picture</span>. You can either choose an image from a "
+"file, or you can capture an image from your camera, if you have one. Select "
+"an option from the <span style=\" font-weight:600;\">options</span> "
+"menu.</p></body></html>"
+msgstr "<html><head/><body><p>Itt beállíthatja a <span style=\" font-weight:600;\">felhasználói képét/span>. Kiválaszthatod fájlból vagy képet készíthet a webkamerája segítségével, ha az elérhető. Válassza ki valamelyiket a <span style=\" font-weight:600;\">beállítások</span> menüből.</p></body></html>"
+
+#: .tmp/ui_scrAvatar.py:258
+msgid "Options"
+msgstr "Beállítások"
+
+#: .tmp/ui_scrAvatar.py:259
+msgid "Choose an image"
+msgstr "Kép kiválasztása"
+
+#: .tmp/ui_scrAvatar.py:260
+msgid "Capture"
+msgstr ""
+
+#: .tmp/ui_scrAvatar.py:261
+msgid "Recapture"
+msgstr ""
+
+#: .tmp/ui_scrWallpaper.py:140 .tmp/scrWallpaper.py:37
+msgid "Wallpaper"
+msgstr "Háttérkép"
+
+#: .tmp/ui_scrWallpaper.py:141
+msgid ""
+"<html><head/><body><p>Choose your favorite wallpaper for your Chakra "
+"desktop. Don't forget to check out <span style=\" font-weight:600;\">Desktop"
+" Settings</span> to download cool new wallpapers.</p></body></html>"
+msgstr "Válassza ki az önnek tetsző háttteret a Chakra munkaasztalához. Ne felejtse el megnézni"
+
+#: .tmp/ui_scrWallpaper.py:142
+msgid "Wallpapers"
+msgstr "Háttérképek"
+
+#: .tmp/ui_scrWallpaper.py:144
+msgid "Choose wallpaper from file"
+msgstr "Háttérkép választása fájlból"
+
+#: .tmp/ui_scrWallpaper.py:145
+msgid "Don't change wallpaper"
+msgstr "Ne változtassa meg a háttérképet"
+
+#: .tmp/ui_scrGoodbye.py:362
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:600;\">Your settings have "
+"been applied.</span> Now you can start enjoying Chakra, or check out the "
+"following links and applications for more settings, or for help and support."
+" Don't forget to <span style=\" font-weight:600;\">join our "
+"community!</span></p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:600;\">A beállításait alkalmaztuk.</span> Mostantól élvezheti a Chakra használatát, vagy megnézheti a következő linkeket és alkalmazásokat a még több beállításhoz, vagy a súgóhoz és a támogatáshoz. Ne felejtsen el <span style=\" font-weight:600;\">csatlakozni a közösségünkhöz!</span></p></body></html>"
+
+#: .tmp/ui_scrGoodbye.py:363 .tmp/ui_scrGoodbye.py:365
+msgid "System Settings"
+msgstr "Rendszerbeállítások"
+
+#: .tmp/ui_scrGoodbye.py:364
+msgid ""
+"Configuration tools for Chakra, such as the display settings, firewall, "
+"keyboard layout, user management..."
+msgstr "Beállító eszközök a Chakra-hoz, mint a megjelenési beállítások, tűzfal, billentyűzet, felhasználó kezelése..."
+
+#: .tmp/ui_scrGoodbye.py:366 .tmp/ui_scrGoodbye.py:368
+msgid "Help and Support"
+msgstr "Súgó és támogatás"
+
+#: .tmp/ui_scrGoodbye.py:367
+msgid ""
+"Chakra community: mailing lists, chat rooms, Wiki documents, help and "
+"support pages..."
+msgstr "Chakra közösség: levelező listák, chat szobák, Wiki dokumentáció, súgó és támogatás oldalak"
+
+#: .tmp/ui_scrGoodbye.py:369
+msgid "Using KDE"
+msgstr "KDE használata"
+
+#: .tmp/ui_scrGoodbye.py:370
+msgid ""
+"Learn how to get the most out of KDE, the Plasma desktop, and everything "
+"else Chakra has to offer, in the Chakra Beginner's Guide."
+msgstr "A Chakra kezdőknek szánt dokumentációjából megtanulhatja a Chakra, a KDE és a Plazma munkaasztal rejtelmeit."
+
+#: .tmp/ui_scrGoodbye.py:371
+msgid "Beginner's Guide"
+msgstr "Segítség kezdőknek"
+
+#: .tmp/ui_scrGoodbye.py:372
+msgid "Run Kapudan on system startup?"
+msgstr "Kapudan futattása rendszerindításkor?"
+
+#: .tmp/ui_scrFolder.py:155
+msgid "Home Folder"
+msgstr "Saját mappa"
+
+#: .tmp/ui_scrFolder.py:156
+msgid "  Downloads  "
+msgstr " Letöltések "
+
+#: .tmp/ui_scrFolder.py:157
+msgid "  Documents  "
+msgstr " Dokumentumok "
+
+#: .tmp/ui_scrFolder.py:158
+msgid "  Videos  "
+msgstr " Videók "
+
+#: .tmp/ui_scrFolder.py:159
+msgid "  Music  "
+msgstr " Zene "
+
+#: .tmp/ui_scrFolder.py:160
+msgid "  Images  "
+msgstr " Képek "
+
+#: .tmp/ui_scrFolder.py:161
+msgid ""
+"<html><head/><body><p>By default Chakra doesn't create any special folders "
+"in the user's home directory, as Chakra leaves these kind of choices up to "
+"the user. However, in this screen we give you the ability to create the most"
+" commonly used folders.</p></body></html>"
+msgstr "<html><head/><body><p>Alapértelmezetten a Chakra nem készít speciális mappákat a felhasználó saját mappáján belül, mert ezt szeretné a Chakra a felhasználóra bízni. Azonban ezen a képernyőn ön most megadhatja a leggyakrabban használt mappákat.</p></body></html>"
+
+#: .tmp/scrMouse.py:32 .tmp/ui_scrMouse.py:213
+msgid "Mouse"
+msgstr "Egér"
+
+#: .tmp/scrMouse.py:33
+msgid "Setup Mouse Behavior"
+msgstr "Az egér beállításai"
+
+#: .tmp/scrMouse.py:145
+msgid "Left Handed"
+msgstr "Balkezes"
+
+#: .tmp/scrMouse.py:145
+msgid "Right Handed"
+msgstr "Jobbkezes"
+
+#: .tmp/scrMouse.py:146
+msgid "Single Click "
+msgstr "Egyszeri kattintás "
+
+#: .tmp/scrMouse.py:146
+msgid "Double Click"
+msgstr "Dupla kattintás"
+
+#: .tmp/scrSummary.py:48
+msgid "Save Your Settings"
+msgstr "Beállítások mentése"
+
+#: .tmp/scrSummary.py:73
+msgid "Mouse Settings"
+msgstr "Egér beállítások"
+
+#: .tmp/scrSummary.py:75
+#, python-format
+msgid "Selected Mouse configuration: <b>%s</b>"
+msgstr "Kiválasztott egérbeállítás: <b>%s</b>"
+
+#: .tmp/scrSummary.py:76
+#, python-format
+msgid "Selected clicking behavior: <b>%s</b>"
+msgstr "Kiválasztott egérklikkelési beállítások: <b>%s</b>"
+
+#: .tmp/scrSummary.py:80
+msgid "Menu Settings"
+msgstr "Menü beállítások"
+
+#: .tmp/scrSummary.py:81
+#, python-format
+msgid "Selected Menu: <b>%s</b>"
+msgstr "Kiválasztott menüstílus: <b>%s</b>"
+
+#: .tmp/scrSummary.py:85
+msgid "Wallpaper Settings"
+msgstr "Háttérkép beállítások"
+
+#: .tmp/scrSummary.py:87
+msgid "You haven't selected any wallpaper."
+msgstr "Nem választott ki egy háttérképet sem."
+
+#: .tmp/scrSummary.py:89
+#, python-format
+msgid "Selected Wallpaper: <b>%s</b>"
+msgstr "Kiválasztott háttérkép: <b>%s</b>"
+
+#: .tmp/scrSummary.py:93
+msgid "Style Settings"
+msgstr "Stílus beállítások"
+
+#: .tmp/scrSummary.py:96
+msgid "You haven't selected any style."
+msgstr "Nem választott ki egyetlen stílust sem."
+
+#: .tmp/scrSummary.py:98
+#, python-format
+msgid "Selected Style: <b>%s</b>"
+msgstr "Kiválasztott stílus: <b>%s</b>"
+
+#: .tmp/scrSummary.py:104
+msgid "Package Management Settings"
+msgstr "Csomagkezelési beállítások"
+
+#: .tmp/scrSummary.py:105
+msgid "You have enabled or disabled spun."
+msgstr "Ön engedélyezte vagy letiltotta a spun-t."
+
+#: .tmp/scrSummary.py:112 .tmp/scrSummary.py:141
+msgid "You have: "
+msgstr "Ezek lettek beállítva:"
+
+#: .tmp/scrSummary.py:114
+msgid "Services Settings"
+msgstr "Szolgáltatások beállítása"
+
+#: .tmp/scrSummary.py:117
+msgid "enabled cups; "
+msgstr "nyomtató támogatás - cups - engedélyezve,"
+
+#: .tmp/scrSummary.py:120
+msgid "disabled cups; "
+msgstr "nyomtató támogatás - cups - letiltva;"
+
+#: .tmp/scrSummary.py:123
+msgid "enabled bluetooth; "
+msgstr "bluetooth engedélyezése; "
+
+#: .tmp/scrSummary.py:126
+msgid "disabled bluetooth; "
+msgstr "bluetooth kikapcsolása; "
+
+#: .tmp/scrSummary.py:131 .tmp/scrSummary.py:159
+msgid "You have made no changes."
+msgstr "Ön nem változtatott semmin."
+
+#: .tmp/scrSummary.py:143
+msgid "Security Settings"
+msgstr "Biztonsági beállítások"
+
+#: .tmp/scrSummary.py:146
+msgid "enabled ClamAV; "
+msgstr "ClamAV engedélyezése; "
+
+#: .tmp/scrSummary.py:149
+msgid "disabled ClamAV; "
+msgstr "ClamAV kikapcsolása; "
+
+#: .tmp/scrSummary.py:152
+msgid "enabled the firewall; "
+msgstr "tűzfal engedélyezése; "
+
+#: .tmp/scrSummary.py:155
+msgid "disabled the firewall; "
+msgstr "tűzfal kikapcsolása; "
+
+#: .tmp/scrSummary.py:176
+msgid "Error"
+msgstr "Hiba"
+
+#: .tmp/scrSummary.py:176
+msgid "Cannot restart plasma-desktop. Kapudan will now shut down."
+msgstr "Nem tudtuk újraindítani a plasma-desktop programot. A Kapudan most bezáródik."
+
+#: .tmp/scrWallpaper.py:38
+msgid "Choose a Wallpaper"
+msgstr "Háttérkép kiválasztása"
+
+#: .tmp/ui_scrServices.py:127 .tmp/scrServices.py:31
+msgid "Services"
+msgstr "Szolgáltatások"
+
+#: .tmp/ui_scrServices.py:128
+msgid "cups: The Common Unix Printing Service"
+msgstr "cups: a Unix-os nyomtatási szolgáltatás"
+
+#: .tmp/ui_scrServices.py:129
+msgid "bluetooth: Enable Bluetooth communication"
+msgstr "bluetooth: Bluetooth kommunikáció beállítása"
+
+#: .tmp/ui_scrServices.py:130
+msgid ""
+"<html><head/><body><p>By default, new installations of Chakra have only a "
+"bare minimum of required services (also called &quot;daemons&quot;) enabled."
+" Not only does this reflect Chakra's principle of not making decisions for "
+"its users, it also adds to a new installation's security, by decreasing the "
+"number of active services that might be vulnerable to an attack.</p><p>If "
+"you wish, you can use the options below to tell some of the more widely used"
+" daemons to start automatically at boot time. To enable any service you "
+"would like to start on bootup, you can run <span style=\" font-"
+"weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; "
+"font-style:italic;\">daemon-name</span>. Respectively, run <span style=\" "
+"font-weight:600;\">sudo systemctl disable </span><span style=\" font-"
+"weight:600; font-style:italic;\">daemon-name</span> to disable it. Or, if "
+"you just want to start daemons manually, try <span style=\" font-"
+"weight:600;\">sudo systemctl start </span><span style=\" font-weight:600; "
+"font-style:italic;\">daemon-name</span>. (Eg, <span style=\" font-"
+"weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
+msgstr "<html><head/><body><p>Alapértelmezetten a Chakra új telepítésben a minimálisan szükséges szolgáltatások (amit &quot;démonok&quot;-nak is hívunk) vannak engedélyezve. Ez nem csak a Chakra döntését jellemzi, hogy nem szól bele a felhasználók döntéseibe, hanem növeli az új telepítés biztonságát azzal, hogy kevesebb aktív szolgáltatást használ, amin keresztül támadás érheti a rendszert.</p><p>Ha kívánja, akkor alább beállíthatja a népszerűbb démonokat, hogy automatikusan elinduljanak azok a gép indulásakor. Ahhoz, hogy egy szolgáltatás elinduljon a rendszerinduláskor, ahhoz ezt a parancsot kell kiadnia:  <span style=\" font-weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; font-style:italic;\">démon-neve</span>. Szintén futatthatja a <span style=\" font-weight:600;\">sudo systemctl disable </span><span style=\" font-weight:600; font-style:italic;\">démon-neve</span> parancsot a letiltáshoz. Ha csak manuálisan akarja elindítani a démonokat, akkor próbálja ezt: <span style=\" font-weight:600;\">sudo systemctl start </span><span style=\" font-weight:600; font-style:italic;\">démon-neve</span>. (például: <span style=\" font-weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
+
+#: .tmp/ui_scrServices.py:131
+msgid "Daemons to start at boot time"
+msgstr "Démonok bekapcsolása indításkor"
 
 #: .tmp/ui_scrStyle.py:181
 msgid ""
@@ -318,63 +503,6 @@ msgstr "Mappa nézet (KDE3 stílus)"
 #: .tmp/ui_scrStyle.py:186
 msgid "Number of Desktops"
 msgstr "Munkaasztalok száma"
-
-#: .tmp/ui_scrMouse.py:213 .tmp/scrMouse.py:32
-msgid "Mouse"
-msgstr "Egér"
-
-#: .tmp/ui_scrMouse.py:214
-msgid ""
-"<html><head/><body><p>The <span style=\" font-weight:600;\">clicking "
-"behavior</span> defines how many times you want to click to open files and "
-"folders. If you are <span style=\" font-weight:600;\">left handed</span>, "
-"you may prefer to swap the left and right buttons of your pointing "
-"device.</p></body></html>"
-msgstr "<html><head/><body><p>A <span style=\" font-weight:600;\">klikkelési beállítások</span> határozzák meg, hogy hányszor akar ráklikkelni a fájlra vagy mappára, annak megnyitásához. Ha ön <span style=\" font-weight:600;\"> balkezes</span>, akkor felcserélheti bal- és jobbgomb sorrendjét.</p></body></html>"
-
-#: .tmp/ui_scrMouse.py:215
-msgid "Clicking Behaviour"
-msgstr "Klikkelési beállítások"
-
-#: .tmp/ui_scrMouse.py:216
-msgid "Dou&ble-click to open files and folders"
-msgstr "Du&pla kattintás a fájlok és mappák megnyitásához"
-
-#: .tmp/ui_scrMouse.py:217
-msgid "Single-click to open files and folders"
-msgstr "Egyszeri kattintás fájlok és mappák megnyitásához"
-
-#: .tmp/ui_scrMouse.py:218
-msgid "Button Order"
-msgstr "Gombsorrend"
-
-#: .tmp/ui_scrMouse.py:219
-msgid "Right Hand"
-msgstr "jobbkezes"
-
-#: .tmp/ui_scrMouse.py:220
-msgid "Left Hand"
-msgstr "balkezes"
-
-#: .tmp/ui_scrMouse.py:221
-msgid "Reverse scrolling"
-msgstr "Fordított görgetés"
-
-#: .tmp/_scrKeyboard.py:34 .tmp/ui_scrKeyboard.py:102
-msgid "Keyboard"
-msgstr "Billentyűzet"
-
-#: .tmp/_scrKeyboard.py:35
-msgid "Keyboard Layout Language"
-msgstr "Billentyűzetkiosztás nyelve"
-
-#: .tmp/scrPackage.py:34
-msgid "Install / Remove Programs"
-msgstr "Programok telepítése / eltávolítása"
-
-#: .tmp/scrStyle.py:39
-msgid "Customize Your Desktop"
-msgstr "Munkaasztal testreszabása"
 
 #: .tmp/ui_scrSecurity.py:173
 msgid "Enable the firewall (UFW)"
@@ -434,166 +562,39 @@ msgstr "<html><head/><body><p>A biztonság egy folyamat, nem egy termék, és eg
 msgid "Security Tools"
 msgstr "Biztonsági eszközök"
 
-#: .tmp/ui_scrFolder.py:155
-msgid "Home Folder"
-msgstr "Saját mappa"
-
-#: .tmp/ui_scrFolder.py:156
-msgid "  Downloads  "
-msgstr " Letöltések "
-
-#: .tmp/ui_scrFolder.py:157
-msgid "  Documents  "
-msgstr " Dokumentumok "
-
-#: .tmp/ui_scrFolder.py:158
-msgid "  Videos  "
-msgstr " Videók "
-
-#: .tmp/ui_scrFolder.py:159
-msgid "  Music  "
-msgstr " Zene "
-
-#: .tmp/ui_scrFolder.py:160
-msgid "  Images  "
-msgstr " Képek "
-
-#: .tmp/ui_scrFolder.py:161
-msgid ""
-"<html><head/><body><p>By default Chakra doesn't create any special folders "
-"in the user's home directory, as Chakra leaves these kind of choices up to "
-"the user. However, in this screen we give you the ability to create the most"
-" commonly used folders.</p></body></html>"
-msgstr "<html><head/><body><p>Alapértelmezetten a Chakra nem készít speciális mappákat a felhasználó saját mappáján belül, mert ezt szeretné a Chakra a felhasználóra bízni. Azonban ezen a képernyőn ön most megadhatja a leggyakrabban használt mappákat.</p></body></html>"
-
-#: .tmp/ui_scrFolder.py:162 .tmp/scrFolder.py:30
-msgid "Folders"
-msgstr "Mappák"
-
-#: .tmp/_scrSearch.py:29 .tmp/ui_scrSearch.py:109
-msgid "Search"
-msgstr "Keresés"
-
-#: .tmp/_scrSearch.py:30
-msgid "Enable / Disable Strigi Desktop Search"
-msgstr "Strigi Asztali Kereső engedélyezése / letiltása"
-
-#: .tmp/ui_scrStyleItem.py:79 .tmp/ui_wallpaperItem.py:82
-#: .tmp/ui_scrAvatar.py:256
-msgid "Form"
-msgstr ""
-
-#: .tmp/ui_scrStyleItem.py:80
-msgid "styleName"
-msgstr "styleName"
-
-#: .tmp/ui_scrStyleItem.py:81
-msgid "styleDesc"
-msgstr "styleDesc"
-
-#: .tmp/ui_scrWelcome.py:87 .tmp/scrWelcome.py:30
-msgid "Welcome"
-msgstr "Üdvözöljük"
-
-#: .tmp/ui_scrWelcome.py:88
-msgid "What is Chakra?"
-msgstr "Mi a Chakra?"
-
-#: .tmp/ui_scrWelcome.py:89
-msgid ""
-"<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span> brings"
-" a ground-up Linux distribution, a free software showcase project created by"
-" a bunch of people who like the KISS principles and the elegance of the "
-"Plasma Desktop, and a bundlesystem to support well known GTK "
-"applications.<br/><br/>Our main goal is provide a fast, user-friendly and "
-"extremely powerful Live CD and Linux distribution, specially crafted for the"
-" award winning KDE Software Compilation and the beautiful Plasma "
-"desktop.<br/><br/><span style=\" font-weight:600;\">Kapudan</span> will help"
-" you personalize your Chakra workspace easily and quickly. Just click <span "
-"style=\" font-weight:600;\">next</span> when you are ready to "
-"begin.</p></body></html>"
-msgstr "<html><head/><body><p>A <span style=\" font-weight:600;\">Chakra</span> egy Linux disztribúció, amelyet olyan emberek készítettek, akik szeretik az egyszerűséget és a Plazma Munkaasztal eleganciáját, valamint a bundle-rendszert, amivel az ismert GTK alkalmazások érhetők el.<br><br>A fő célunk az volt, hogy egy gyors, felhasználóbarát és hatékony Live CD-t és Linux disztribúció hozzunk létre, amely a díjnyertes KDE szoftvercsomagra és a gyönyörű Plazma munkaasztalra épül.<br/><br/>A <span style=\" font-weight:600;\">Kapudan</span> segít önnek, hogy könnyen és gyorsan személyre szabja a Chakra munkaasztalát. Klikkeljen a <span style=\" font-weight:600;\">következő</span> gombra, hogy kedve szerint állítsa be a rendszerét.</p></body></html>"
-
-#: .tmp/ui_scrKeyboard.py:103
-msgid ""
-"<html><head/><body><p>Kapudan tries to automatically select the best "
-"keyboard layout according to your system language. If you want to use "
-"another layout, just make a selection below.</p></body></html>"
-msgstr "<html><head/><body><p>A Kapudan megpróbálja beállítani a legmegfelelőbb billentyűzetkiosztást a rendszer nyelve alapján. Ha másfajta kiosztást szeretne használni kérem válassza ki az alábbiak közül.</p></body></html>"
-
-#: .tmp/ui_scrKeyboard.py:104
-msgid "Test area:"
-msgstr "Teszt terület:"
-
-#: .tmp/scrWelcome.py:31
-#, python-format
-msgid "Welcome to %s"
-msgstr "Köszönti önt a %s"
-
-#: .tmp/ui_scrWallpaper.py:141
-msgid ""
-"<html><head/><body><p>Choose your favorite wallpaper for your Chakra "
-"desktop. Don't forget to check out <span style=\" font-weight:600;\">Desktop"
-" Settings</span> to download cool new wallpapers.</p></body></html>"
-msgstr "Válassza ki az önnek tetsző háttteret a Chakra munkaasztalához. Ne felejtse el megnézni"
-
-#: .tmp/ui_scrWallpaper.py:142
-msgid "Wallpapers"
-msgstr "Háttérképek"
-
-#: .tmp/ui_scrWallpaper.py:144
-msgid "Choose wallpaper from file"
-msgstr "Háttérkép választása fájlból"
-
-#: .tmp/ui_scrWallpaper.py:145
-msgid "Don't change wallpaper"
-msgstr "Ne változtassa meg a háttérképet"
-
-#: .tmp/scrMenu.py:29 .tmp/ui_scrMenu.py:133
+#: .tmp/ui_scrMenu.py:134 .tmp/scrMenu.py:28
 msgid "Menu"
 msgstr "Menü"
 
-#: .tmp/scrMenu.py:30
-msgid "Choose a Menu Style"
-msgstr "Menüstílus kiválasztása"
+#: .tmp/ui_scrMenu.py:135
+msgid ""
+"You can also customize your <b>KDE menu</b> as you like. Please choose one "
+"from the following styles."
+msgstr "Itt beállíthatja az ön által használni kívánt KDE menü típusát. Kérjük válasszon ki egyet az alábbi stílusok közül."
 
-#: .tmp/scrMenu.py:44 .tmp/ui_scrMenu.py:135
+#: .tmp/ui_scrMenu.py:136 .tmp/scrMenu.py:43
 msgid "Kick-off Menu"
 msgstr "Kick-off menü"
 
-#: .tmp/scrMenu.py:46
-msgid ""
-"Kick-off menu is the default menu of Chakra.<br><br>The program shortcuts "
-"are easy to access and well organized."
-msgstr "A Kick"
-
-#: .tmp/scrMenu.py:50 .tmp/ui_scrMenu.py:136
+#: .tmp/ui_scrMenu.py:137 .tmp/scrMenu.py:49
 msgid "Simple Menu"
 msgstr "Egyszerű menü"
 
-#: .tmp/scrMenu.py:52
-msgid ""
-"Simple menu is an old style menu from KDE 3.<br><br>It is a very lightweight"
-" menu thus it is recommended for slower PC's."
-msgstr "Az egyszerű menü hasonlít a KDE3 régi stílusú menüjéhez.<br><br> Kevés erőforrást igényel, ezért lassúbb számítógépekhez ajánljuk."
-
-#: .tmp/scrMenu.py:56 .tmp/ui_scrMenu.py:137
+#: .tmp/ui_scrMenu.py:138 .tmp/scrMenu.py:55
 msgid "Lancelot Menu"
 msgstr "Lancelot menü"
 
-#: .tmp/scrMenu.py:58
-msgid ""
-"Lancelot is an advanced and highly customizable menu for Chakra.<br><br>The "
-"program shortcuts are easy to access and well organized."
-msgstr "A Lancelot egy fejlett és jól személyre szabható menü.<br><br>A programok könnyen elérhetőek és jól rendszerezettek."
-
-#: .tmp/scrMenu.py:62 .tmp/ui_scrMenu.py:138
+#: .tmp/ui_scrMenu.py:139 .tmp/scrMenu.py:61
 msgid "Homerun Menu"
 msgstr "Homerun menü"
 
-#: .tmp/scrMenu.py:64
-msgid "Homerun is a full screen launcher with content organized in tabs."
-msgstr "A Homerun egy teljes képernyős programindító, amely lapokra rendezi a tartalmat."
+#: .tmp/ui_scrMenu.py:140 .tmp/scrMenu.py:67
+msgid "AppMenu QML"
+msgstr "AppMenu QML"
+
+#: .tmp/ui_scrMenu.py:141
+msgid "Sample"
+msgstr "Példa"
 
 #: .tmp/ui_wallpaperItem.py:83
 msgid "wallPaperName"
@@ -603,80 +604,9 @@ msgstr "wallPaperName"
 msgid "wallpaperDesc"
 msgstr "wallpaperDesc"
 
-#: .tmp/scrServices.py:33 .tmp/ui_scrServices.py:127
-msgid "Services"
-msgstr "Szolgáltatások"
-
-#: .tmp/scrServices.py:34
-msgid "Enable / Disable Services (Daemons)"
-msgstr "Szolgáltatások engedélyezése / tiltása (daemonok)"
-
-#: .tmp/scrMouse.py:33
-msgid "Setup Mouse Behavior"
-msgstr "Az egér beállításai"
-
-#: .tmp/scrMouse.py:144
-msgid "Left Handed"
-msgstr "Balkezes"
-
-#: .tmp/scrMouse.py:144
-msgid "Right Handed"
-msgstr "Jobbkezes"
-
-#: .tmp/scrMouse.py:145
-msgid "Single Click "
-msgstr "Egyszeri kattintás "
-
-#: .tmp/scrMouse.py:145
-msgid "Double Click"
-msgstr "Dupla kattintás"
-
-#: .tmp/ui_scrGoodbye.py:362
-msgid ""
-"<html><head/><body><p><span style=\" font-weight:600;\">Your settings have "
-"been applied.</span> Now you can start enjoying Chakra, or check out the "
-"following links and applications for more settings, or for help and support."
-" Don't forget to <span style=\" font-weight:600;\">join our "
-"community!</span></p></body></html>"
-msgstr "<html><head/><body><p><span style=\" font-weight:600;\">A beállításait alkalmaztuk.</span> Mostantól élvezheti a Chakra használatát, vagy megnézheti a következő linkeket és alkalmazásokat a még több beállításhoz, vagy a súgóhoz és a támogatáshoz. Ne felejtsen el <span style=\" font-weight:600;\">csatlakozni a közösségünkhöz!</span></p></body></html>"
-
-#: .tmp/ui_scrGoodbye.py:363 .tmp/ui_scrGoodbye.py:365
-msgid "System Settings"
-msgstr "Rendszerbeállítások"
-
-#: .tmp/ui_scrGoodbye.py:364
-msgid ""
-"Configuration tools for Chakra, such as the display settings, firewall, "
-"keyboard layout, user management..."
-msgstr "Beállító eszközök a Chakra-hoz, mint a megjelenési beállítások, tűzfal, billentyűzet, felhasználó kezelése..."
-
-#: .tmp/ui_scrGoodbye.py:366 .tmp/ui_scrGoodbye.py:368
-msgid "Help and Support"
-msgstr "Súgó és támogatás"
-
-#: .tmp/ui_scrGoodbye.py:367
-msgid ""
-"Chakra community: mailing lists, chat rooms, Wiki documents, help and "
-"support pages..."
-msgstr "Chakra közösség: levelező listák, chat szobák, Wiki dokumentáció, súgó és támogatás oldalak"
-
-#: .tmp/ui_scrGoodbye.py:369
-msgid "Using KDE"
-msgstr "KDE használata"
-
-#: .tmp/ui_scrGoodbye.py:370
-msgid ""
-"Learn how to get the most out of KDE, the Plasma desktop, and everything "
-"else Chakra has to offer, in the Chakra Beginner's Guide."
-msgstr "A Chakra kezdőknek szánt dokumentációjából megtanulhatja a Chakra, a KDE és a Plazma munkaasztal rejtelmeit."
-
-#: .tmp/ui_scrGoodbye.py:371
-msgid "Beginner's Guide"
-msgstr "Segítség kezdőknek"
-
-#: .tmp/ui_scrGoodbye.py:372
-msgid "Run Kapudan on system startup?"
-msgstr "Kapudan futattása rendszerindításkor?"
+#: .tmp/ui_scrSearch.py:109
+msgid "Search"
+msgstr "Keresés"
 
 #: .tmp/ui_scrSearch.py:110
 msgid ""
@@ -693,190 +623,109 @@ msgstr "Engedélyezem, hogy a Strigi indexelje a fájljaimat"
 msgid "Search Options"
 msgstr "Keresési beállítások"
 
-#: .tmp/scrFolder.py:31
-msgid "Create folders in the home directory"
-msgstr "Mappák készítése a saját könyvtárban"
+#: .tmp/scrMenu.py:29
+msgid "Choose a Menu Style"
+msgstr "Menüstílus kiválasztása"
 
-#: .tmp/scrSummary.py:44
-msgid "Save Your Settings"
-msgstr "Beállítások mentése"
-
-#: .tmp/scrSummary.py:69
-msgid "Mouse Settings"
-msgstr "Egér beállítások"
-
-#: .tmp/scrSummary.py:71
-#, python-format
-msgid "Selected Mouse configuration: <b>%s</b>"
-msgstr "Kiválasztott egérbeállítás: <b>%s</b>"
-
-#: .tmp/scrSummary.py:72
-#, python-format
-msgid "Selected clicking behavior: <b>%s</b>"
-msgstr "Kiválasztott egérklikkelési beállítások: <b>%s</b>"
-
-#: .tmp/scrSummary.py:76
-msgid "Menu Settings"
-msgstr "Menü beállítások"
-
-#: .tmp/scrSummary.py:77
-#, python-format
-msgid "Selected Menu: <b>%s</b>"
-msgstr "Kiválasztott menüstílus: <b>%s</b>"
-
-#: .tmp/scrSummary.py:81
-msgid "Wallpaper Settings"
-msgstr "Háttérkép beállítások"
-
-#: .tmp/scrSummary.py:83
-msgid "You haven't selected any wallpaper."
-msgstr "Nem választott ki egy háttérképet sem."
-
-#: .tmp/scrSummary.py:85
-#, python-format
-msgid "Selected Wallpaper: <b>%s</b>"
-msgstr "Kiválasztott háttérkép: <b>%s</b>"
-
-#: .tmp/scrSummary.py:89
-msgid "Style Settings"
-msgstr "Stílus beállítások"
-
-#: .tmp/scrSummary.py:92
-msgid "You haven't selected any style."
-msgstr "Nem választott ki egyetlen stílust sem."
-
-#: .tmp/scrSummary.py:94
-#, python-format
-msgid "Selected Style: <b>%s</b>"
-msgstr "Kiválasztott stílus: <b>%s</b>"
-
-#: .tmp/scrSummary.py:100
-msgid "Package Management Settings"
-msgstr "Csomagkezelési beállítások"
-
-#: .tmp/scrSummary.py:101
-msgid "You have enabled or disabled spun."
-msgstr ""
-
-#: .tmp/scrSummary.py:108 .tmp/scrSummary.py:137
-msgid "You have: "
-msgstr "Ezek lettek beállítva:"
-
-#: .tmp/scrSummary.py:110
-msgid "Services Settings"
-msgstr "Szolgáltatások beállítása"
-
-#: .tmp/scrSummary.py:113
-msgid "enabled cups; "
-msgstr "nyomtató támogatás - cups - engedélyezve,"
-
-#: .tmp/scrSummary.py:116
-msgid "disabled cups; "
-msgstr "nyomtató támogatás - cups - letiltva;"
-
-#: .tmp/scrSummary.py:119
-msgid "enabled bluetooth; "
-msgstr "bluetooth engedélyezése; "
-
-#: .tmp/scrSummary.py:122
-msgid "disabled bluetooth; "
-msgstr "bluetooth kikapcsolása; "
-
-#: .tmp/scrSummary.py:127 .tmp/scrSummary.py:155
-msgid "You have made no changes."
-msgstr "Ön nem változtatott semmin."
-
-#: .tmp/scrSummary.py:139
-msgid "Security Settings"
-msgstr "Biztonsági beállítások"
-
-#: .tmp/scrSummary.py:142
-msgid "enabled ClamAV; "
-msgstr "ClamAV engedélyezése; "
-
-#: .tmp/scrSummary.py:145
-msgid "disabled ClamAV; "
-msgstr "ClamAV kikapcsolása; "
-
-#: .tmp/scrSummary.py:148
-msgid "enabled the firewall; "
-msgstr "tűzfal engedélyezése; "
-
-#: .tmp/scrSummary.py:151
-msgid "disabled the firewall; "
-msgstr "tűzfal kikapcsolása; "
-
-#: .tmp/scrSummary.py:173
-msgid "Error"
-msgstr "Hiba"
-
-#: .tmp/scrSummary.py:173
-msgid "Cannot restart plasma-desktop. Kapudan will now shut down."
-msgstr "Nem tudtuk újraindítani a plasma-desktop programot. A Kapudan most bezáródik."
-
-#: .tmp/ui_scrMenu.py:134
+#: .tmp/scrMenu.py:45
 msgid ""
-"You can also customize your <b>KDE menu</b> as you like. Please choose one "
-"from the following styles."
-msgstr "Itt beállíthatja az ön által használni kívánt KDE menü típusát. Kérjük válasszon ki egyet az alábbi stílusok közül."
+"Kick-off menu is the default menu of Chakra.<br><br>The program shortcuts "
+"are easy to access and well organized."
+msgstr "A Kick-Off menü a Chakra alapértelmezett menüje.<br><br>A programok könnyen elérhetőek és jól rendezettek."
 
-#: .tmp/ui_scrMenu.py:139
-msgid "Sample"
-msgstr "Példa"
-
-#: .tmp/ui_scrServices.py:128
-msgid "cups: The Common Unix Printing Service"
-msgstr "cups: a Unix-os nyomtatási szolgáltatás"
-
-#: .tmp/ui_scrServices.py:129
-msgid "bluetooth: Enable Bluetooth communication"
-msgstr "bluetooth: Bluetooth kommunikáció beállítása"
-
-#: .tmp/ui_scrServices.py:130
+#: .tmp/scrMenu.py:51
 msgid ""
-"<html><head/><body><p>By default, new installations of Chakra have only a "
-"bare minimum of required services (also called &quot;daemons&quot;) enabled."
-" Not only does this reflect Chakra's principle of not making decisions for "
-"its users, it also adds to a new installation's security, by decreasing the "
-"number of active services that might be vulnerable to an attack.</p><p>If "
-"you wish, you can use the options below to tell some of the more widely used"
-" daemons to start automatically at boot time. To enable any service you "
-"would like to start on bootup, you can run <span style=\" font-"
-"weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; "
-"font-style:italic;\">daemon-name</span>. Respectively, run <span style=\" "
-"font-weight:600;\">sudo systemctl disable </span><span style=\" font-"
-"weight:600; font-style:italic;\">daemon-name</span> to disable it. Or, if "
-"you just want to start daemons manually, try <span style=\" font-"
-"weight:600;\">sudo systemctl start </span><span style=\" font-weight:600; "
-"font-style:italic;\">daemon-name</span>. (Eg, <span style=\" font-"
-"weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
-msgstr ""
+"Simple menu is an old style menu from KDE 3.<br><br>It is a very lightweight"
+" menu thus it is recommended for slower PC's."
+msgstr "Az egyszerű menü hasonlít a KDE3 régi stílusú menüjéhez.<br><br> Kevés erőforrást igényel, ezért lassúbb számítógépekhez ajánljuk."
 
-#: .tmp/ui_scrServices.py:131
-msgid "Daemons to start at boot time"
-msgstr "Démonok bekapcsolása indításkor"
-
-#: .tmp/ui_scrAvatar.py:257
+#: .tmp/scrMenu.py:57
 msgid ""
-"<html><head/><body><p>This screen helps you set your <span style=\" font-"
-"weight:600;\">user picture</span>. You can either choose an image from a "
-"file, or you can capture an image from your camera, if you have one. Select "
-"an option from the <span style=\" font-weight:600;\">options</span> "
-"menu.</p></body></html>"
-msgstr "<html><head/><body><p>Itt beállíthatja a <span style=\" font-weight:600;\">felhasználói képét/span>. Kiválaszthatod fájlból vagy képet készíthet a webkamerája segítségével, ha az elérhető. Válassza ki valamelyiket a <span style=\" font-weight:600;\">beállítások</span> menüből.</p></body></html>"
+"Lancelot is an advanced and highly customizable menu for Chakra.<br><br>The "
+"program shortcuts are easy to access and well organized."
+msgstr "A Lancelot egy fejlett és jól személyre szabható menü.<br><br>A programok könnyen elérhetőek és jól rendszerezettek."
 
-#: .tmp/ui_scrAvatar.py:258
-msgid "Options"
-msgstr "Beállítások"
+#: .tmp/scrMenu.py:63
+msgid "Homerun is a full screen launcher with content organized in tabs."
+msgstr "A Homerun egy teljes képernyős programindító, amely lapokra rendezi a tartalmat."
 
-#: .tmp/ui_scrAvatar.py:259
-msgid "Choose an image"
-msgstr "Kép kiválasztása"
+#: .tmp/scrMenu.py:69
+msgid ""
+"This plasmoid shows a menu of the installed applications, similar to "
+"Lancelot but much simpler"
+msgstr "Ez a plasmoid mutatja a telepített alkalmazásokat menürendszerben, hasonlóan a Lancelot-hoz, de egyszerűbben."
 
-#: .tmp/ui_scrAvatar.py:260
-msgid "Capture"
-msgstr ""
+#: .tmp/ui_scrStyleItem.py:80
+msgid "styleName"
+msgstr "styleName"
 
-#: .tmp/ui_scrAvatar.py:261
-msgid "Recapture"
-msgstr ""
+#: .tmp/ui_scrStyleItem.py:81
+msgid "styleDesc"
+msgstr "styleDesc"
+
+#: .tmp/ui_scrWelcome.py:88
+msgid "What is Chakra?"
+msgstr "Mi a Chakra?"
+
+#: .tmp/ui_scrWelcome.py:89
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span> is a "
+"GNU/Linux distribution with an emphasis on KDE and Qt that focuses on "
+"simplicity from a technical standpoint and cutting-edge software, bringing "
+"the latest technologies to you.<br/><br/>The primary goal of the project is "
+"to provide a fast, user-friendly and powerful Live CD and operating system, "
+"specifically crafted for the award winning KDE Software Compilation and the "
+"elegant Plasma Workspaces.<br/><br/><span style=\" font-"
+"weight:600;\">Kapudan</span> will help you personalize your Chakra "
+"installation easily and quickly. Just click <span style=\" font-"
+"weight:600;\">next</span> when you are ready to begin.</p></body></html>"
+msgstr "<html><head/><body><p>A <span style=\" font-weight:600;\">Chakra</span> egy GNU/Linux disztribúció, amely a KDE és a Qt technológiáira helyezi a hangsúlyt, amely az egyszerűségre törekszik, és mindig a legfejlettebb technológiákat jutattja el önhöz.<br/><br/>Az elsődleges célja a projektnek, hogy egy gyors, felhasználóbarát és jól összerakott Live CD-t és operációs rendszert adjon önnek, amely speciálisan a KDE Szoftverösszeállítás és Plasma Munkaasztalon alapul.<br/><br/>A <span style=\" font-weight:600;\">Kapudan</span> majd segít önnek, hogy gyorsan és könnyedén személyre szabja az ön Chakra telepítését. Csak klikkeljen a <span style=\" font-weight:600;\">következő</span> gombra, ha készen áll a kezdéshez.</p></body></html>"
+
+#: .tmp/kapudan.desktop.in.h:2
+msgid "Welcome Wizard"
+msgstr "Üdvözlő képernyő"
+
+#: .tmp/scrPackage.py:34
+msgid "Install / Remove Programs"
+msgstr "Programok telepítése / eltávolítása"
+
+#: .tmp/ui_scrMouse.py:214
+msgid ""
+"<html><head/><body><p>The <span style=\" font-weight:600;\">clicking "
+"behavior</span> defines how many times you want to click to open files and "
+"folders. If you are <span style=\" font-weight:600;\">left handed</span>, "
+"you may prefer to swap the left and right buttons of your pointing "
+"device.</p></body></html>"
+msgstr "<html><head/><body><p>A <span style=\" font-weight:600;\">klikkelési beállítások</span> határozzák meg, hogy hányszor akar ráklikkelni a fájlra vagy mappára, annak megnyitásához. Ha ön <span style=\" font-weight:600;\"> balkezes</span>, akkor felcserélheti bal- és jobbgomb sorrendjét.</p></body></html>"
+
+#: .tmp/ui_scrMouse.py:215
+msgid "Clicking Behaviour"
+msgstr "Klikkelési beállítások"
+
+#: .tmp/ui_scrMouse.py:216
+msgid "Dou&ble-click to open files and folders"
+msgstr "Du&pla kattintás a fájlok és mappák megnyitásához"
+
+#: .tmp/ui_scrMouse.py:217
+msgid "Single-click to open files and folders"
+msgstr "Egyszeri kattintás fájlok és mappák megnyitásához"
+
+#: .tmp/ui_scrMouse.py:218
+msgid "Button Order"
+msgstr "Gombsorrend"
+
+#: .tmp/ui_scrMouse.py:219
+msgid "Right Hand"
+msgstr "jobbkezes"
+
+#: .tmp/ui_scrMouse.py:220
+msgid "Left Hand"
+msgstr "balkezes"
+
+#: .tmp/ui_scrMouse.py:221
+msgid "Reverse scrolling"
+msgstr "Fordított görgetés"
+
+#: .tmp/scrServices.py:32
+msgid "Enable / Disable Services (Daemons)"
+msgstr "Szolgáltatások engedélyezése / tiltása (daemonok)"

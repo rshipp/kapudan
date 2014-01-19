@@ -7,10 +7,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: The Chakra Project\n"
-"Report-Msgid-Bugs-To: http://chakra-project.org/bugs/\n"
-"POT-Creation-Date: 2013-01-20 13:44+0100\n"
-"PO-Revision-Date: 2013-04-29 09:28+0000\n"
-"Last-Translator: Adrián Chaves Fernández <adriyetichaves@gmail.com>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-09 21:36+0100\n"
+"PO-Revision-Date: 2013-11-14 08:56+0000\n"
+"Last-Translator: Manuel Tortosa <manutortosa@chakra-project.org>\n"
 "Language-Team: Serbian (Latin) (http://www.transifex.com/projects/p/chakra-project/language/sr@latin/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,31 +18,52 @@ msgstr ""
 "Language: sr@latin\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: .tmp/scrGoodbye.py:26 .tmp/ui_scrGoodbye.py:361
+#: .tmp/scrWelcome.py:27 .tmp/ui_scrWelcome.py:87
+msgid "Welcome"
+msgstr "Dobrodošli"
+
+#: .tmp/scrWelcome.py:28
+#, python-format
+msgid "Welcome to %s"
+msgstr "Dobrodošli u %s"
+
+#: .tmp/ui_kapudan.py:368 .tmp/kapudan.desktop.in.h:1
+msgid "Kapudan"
+msgstr "Kapudan"
+
+#: .tmp/ui_kapudan.py:369
+msgid "Welcome to Chakra"
+msgstr "Dobrodošli u Chakru"
+
+#: .tmp/ui_kapudan.py:370
+msgid "Cancel"
+msgstr "Otkaži"
+
+#: .tmp/ui_kapudan.py:371
+msgid "Back"
+msgstr "Nazad"
+
+#: .tmp/ui_kapudan.py:372
+msgid "Next"
+msgstr "Sledeće"
+
+#: .tmp/ui_kapudan.py:373
+msgid "Finish"
+msgstr "Završetak"
+
+#: .tmp/ui_kapudan.py:374
+msgid "Apply"
+msgstr "Primeni"
+
+#: .tmp/scrGoodbye.py:28 .tmp/ui_scrGoodbye.py:361
 msgid "More"
 msgstr "Više"
 
-#: .tmp/scrGoodbye.py:27
+#: .tmp/scrGoodbye.py:29
 msgid "Congratulations!"
 msgstr "Čestitamo!"
 
-#: .tmp/scrAvatar.py:39
-msgid "User Picture"
-msgstr "Korisnička slika"
-
-#: .tmp/scrAvatar.py:51
-msgid "Create Your User Picture"
-msgstr "Kreirajte svoju korisničku sliku"
-
-#: .tmp/scrSecurity.py:33 .tmp/ui_scrSecurity.py:172
-msgid "Security"
-msgstr "Sigurnost"
-
-#: .tmp/scrSecurity.py:34
-msgid "Keep your system secure"
-msgstr "Obezbedite Vaš sistem"
-
-#: .tmp/ui_scrSummary.py:94 .tmp/scrSummary.py:43
+#: .tmp/ui_scrSummary.py:94 .tmp/scrSummary.py:47
 msgid "Summary"
 msgstr "Rezime"
 
@@ -58,13 +79,28 @@ msgstr "<html><head/><body><p>Uspešno ste završili sve korake. Ovo je rezime s
 msgid "The following settings will be applied"
 msgstr "Sledeća podešavanja će biti primenjena"
 
-#: .tmp/scrWallpaper.py:37 .tmp/ui_scrWallpaper.py:140
-msgid "Wallpaper"
-msgstr "Tapet"
+#: .tmp/scrFolder.py:29 .tmp/ui_scrFolder.py:162
+msgid "Folders"
+msgstr "Fascikle"
 
-#: .tmp/scrWallpaper.py:38
-msgid "Choose a Wallpaper"
-msgstr "Izaberite tapet"
+#: .tmp/scrFolder.py:30
+msgid "Create folders in the home directory"
+msgstr "Kreiraj fascikle u domaćem direktorijumu"
+
+#: .tmp/ui_scrKeyboard.py:102
+msgid "Keyboard"
+msgstr "Tastatura"
+
+#: .tmp/ui_scrKeyboard.py:103
+msgid ""
+"<html><head/><body><p>Kapudan tries to automatically select the best "
+"keyboard layout according to your system language. If you want to use "
+"another layout, just make a selection below.</p></body></html>"
+msgstr "<html><head/><body><p>Kapudan pokušava da automatski odabere najbolji raspored tastature prema Vašem sistemskom jeziku. Ukoliko želite da koristite drugi raspored, odaberite ispod.</p></body></html>"
+
+#: .tmp/ui_scrKeyboard.py:104
+msgid "Test area:"
+msgstr "Prostor za testiranje:"
 
 #: .tmp/ui_scrPackage.py:142 .tmp/scrPackage.py:33
 msgid "Packages"
@@ -103,193 +139,342 @@ msgstr "<html><head/><body><p>Za instaliranje i deinstaliranje programa u Chakri
 msgid "Updates"
 msgstr "Ažuriranja"
 
-#: .tmp/kapudan.desktop.in.h:1 .tmp/ui_kapudan.py:368
-msgid "Kapudan"
-msgstr "Kapudan"
+#: .tmp/scrAvatar.py:37
+msgid "User Picture"
+msgstr "Korisnička slika"
 
-#: .tmp/kapudan.desktop.in.h:2
-msgid "Welcome Wizard"
-msgstr "Pozdravni čarobnjak"
+#: .tmp/scrAvatar.py:49
+msgid "Create Your User Picture"
+msgstr "Kreirajte svoju korisničku sliku"
 
-#: .tmp/localedata.py:53
-msgid "Turkish"
-msgstr "Turski"
-
-#: .tmp/localedata.py:58
-msgid "Turkish Q"
-msgstr "Turski Q"
-
-#: .tmp/localedata.py:59
-msgid "Turkish F"
-msgstr "Turski F"
-
-#: .tmp/localedata.py:64
-msgid "English"
-msgstr "Engleski"
-
-#: .tmp/localedata.py:69
-msgid "English GB"
-msgstr "Engleski Velika Britanija"
-
-#: .tmp/localedata.py:75
-msgid "Afrikaans"
-msgstr "Afrikans"
-
-#: .tmp/localedata.py:81
-msgid "Arabic"
-msgstr "Arapski"
-
-#: .tmp/localedata.py:87
-msgid "Belgian"
-msgstr "Belgijski"
-
-#: .tmp/localedata.py:93
-msgid "Bulgarian"
-msgstr "Bugarski"
-
-#: .tmp/localedata.py:99
-msgid "Catalan"
-msgstr "Katalonski"
-
-#: .tmp/localedata.py:105
-msgid "Welsh"
-msgstr "Velški"
-
-#: .tmp/localedata.py:111
-msgid "Czech"
-msgstr "Češki"
-
-#: .tmp/localedata.py:117
-msgid "Danish"
-msgstr "Danski"
-
-#: .tmp/localedata.py:123
-msgid "German"
-msgstr "Nemački"
-
-#: .tmp/localedata.py:129
-msgid "Spanish"
-msgstr "Španski"
-
-#: .tmp/localedata.py:135
-msgid "Estonian"
-msgstr "Estonski"
-
-#: .tmp/localedata.py:141
-msgid "Finnish"
-msgstr "Finski"
-
-#: .tmp/localedata.py:147
-msgid "French"
-msgstr "Francuski"
-
-#: .tmp/localedata.py:153
-msgid "Greek"
-msgstr "Grčki"
-
-#: .tmp/localedata.py:159
-msgid "Croatian"
-msgstr "Hrvatski"
-
-#: .tmp/localedata.py:165
-msgid "Hungarian"
-msgstr "Mađarski"
-
-#: .tmp/localedata.py:173
-msgid "Icelandic"
-msgstr "Islandski"
-
-#: .tmp/localedata.py:179
-msgid "Italian"
-msgstr "Italijanski"
-
-#: .tmp/localedata.py:185
-msgid "Japanese"
-msgstr "Japanski"
-
-#: .tmp/localedata.py:191
-msgid "Macedonian"
-msgstr "Makedonski"
-
-#: .tmp/localedata.py:197
-msgid "Malayalam"
-msgstr "Malazalamski"
-
-#: .tmp/localedata.py:203
-msgid "Norwegian"
-msgstr "Norveški"
-
-#: .tmp/localedata.py:209
-msgid "Dutch"
-msgstr "Holandski"
-
-#: .tmp/localedata.py:215
-msgid "Polish"
-msgstr "Poljski"
-
-#: .tmp/localedata.py:221
-msgid "Portuguese"
-msgstr "Portugalski"
-
-#: .tmp/localedata.py:227
-msgid "Brazilian"
-msgstr "Brazilski"
-
-#: .tmp/localedata.py:233
-msgid "Russian"
-msgstr "Ruski"
-
-#: .tmp/localedata.py:241
-msgid "Slovak"
-msgstr "Slovački"
-
-#: .tmp/localedata.py:247
-msgid "Slovenian"
-msgstr "Slovenski"
-
-#: .tmp/localedata.py:253
-msgid "Serbian"
-msgstr "Srpski"
-
-#: .tmp/localedata.py:259
-msgid "Swedish"
-msgstr "Švedski"
-
-#: .tmp/localedata.py:266
-msgid "Ukrainian"
-msgstr "Ukrajinski"
-
-#: .tmp/localedata.py:272
-msgid "Vietnamese"
-msgstr "Vijetnamski"
-
-#: .tmp/ui_kapudan.py:369
-msgid "Welcome to Chakra"
-msgstr "Dobrodošli u Chakru"
-
-#: .tmp/ui_kapudan.py:370
-msgid "Cancel"
-msgstr "Otkaži"
-
-#: .tmp/ui_kapudan.py:371
-msgid "Back"
-msgstr "Nazad"
-
-#: .tmp/ui_kapudan.py:372
-msgid "Next"
-msgstr "Sledeće"
-
-#: .tmp/ui_kapudan.py:373
-msgid "Finish"
-msgstr "Završetak"
-
-#: .tmp/ui_kapudan.py:374
-msgid "Apply"
-msgstr "Primeni"
-
-#: .tmp/ui_scrStyle.py:180 .tmp/scrStyle.py:38
+#: .tmp/scrStyle.py:40 .tmp/ui_scrStyle.py:180
 msgid "Themes"
 msgstr "Teme"
+
+#: .tmp/scrStyle.py:41
+msgid "Customize Your Desktop"
+msgstr "Prilagodite svoju radnu površ"
+
+#: .tmp/scrSecurity.py:33 .tmp/ui_scrSecurity.py:172
+msgid "Security"
+msgstr "Sigurnost"
+
+#: .tmp/scrSecurity.py:34
+msgid "Keep your system secure"
+msgstr "Obezbedite Vaš sistem"
+
+#: .tmp/ui_scrAvatar.py:256 .tmp/ui_wallpaperItem.py:82
+#: .tmp/ui_scrStyleItem.py:79
+msgid "Form"
+msgstr "Forma"
+
+#: .tmp/ui_scrAvatar.py:257
+msgid ""
+"<html><head/><body><p>This screen helps you set your <span style=\" font-"
+"weight:600;\">user picture</span>. You can either choose an image from a "
+"file, or you can capture an image from your camera, if you have one. Select "
+"an option from the <span style=\" font-weight:600;\">options</span> "
+"menu.</p></body></html>"
+msgstr "<html><head/><body><p>Ovaj ekran će Vam pomoći da podesite Vašu <span style=\" font-weight:600;\">korisničku sliku</span>. Možete izabrati sliku iz fajla, ili možete slikati kamerom, ako je imate. Izaberite Vašu opciju u <span style=\" font-weight:600;\">opcije</span> izborniku.</p></body></html>"
+
+#: .tmp/ui_scrAvatar.py:258
+msgid "Options"
+msgstr "Opcije"
+
+#: .tmp/ui_scrAvatar.py:259
+msgid "Choose an image"
+msgstr "Izaberite sliku"
+
+#: .tmp/ui_scrAvatar.py:260
+msgid "Capture"
+msgstr "Slikaj"
+
+#: .tmp/ui_scrAvatar.py:261
+msgid "Recapture"
+msgstr "Ponovi slikanje"
+
+#: .tmp/ui_scrWallpaper.py:140 .tmp/scrWallpaper.py:37
+msgid "Wallpaper"
+msgstr "Tapet"
+
+#: .tmp/ui_scrWallpaper.py:141
+msgid ""
+"<html><head/><body><p>Choose your favorite wallpaper for your Chakra "
+"desktop. Don't forget to check out <span style=\" font-weight:600;\">Desktop"
+" Settings</span> to download cool new wallpapers.</p></body></html>"
+msgstr "<html><head/><body><p>Odaberite omiljeni tapet za Vašu radnu površ. Ne zaboravite da proverite <span style=\" font-weight:600;\">Desktop Settings</span> kako biste preuzeli nove tapete.</p></body></html>"
+
+#: .tmp/ui_scrWallpaper.py:142
+msgid "Wallpapers"
+msgstr "Tapeti"
+
+#: .tmp/ui_scrWallpaper.py:144
+msgid "Choose wallpaper from file"
+msgstr "Odaberite tapet iz fajla"
+
+#: .tmp/ui_scrWallpaper.py:145
+msgid "Don't change wallpaper"
+msgstr "Ne menjaj tapet"
+
+#: .tmp/ui_scrGoodbye.py:362
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:600;\">Your settings have "
+"been applied.</span> Now you can start enjoying Chakra, or check out the "
+"following links and applications for more settings, or for help and support."
+" Don't forget to <span style=\" font-weight:600;\">join our "
+"community!</span></p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Vaša podešavanja su primenjena.</span> Sada možete početi sa korišćenjem Chakre, ili proveriti sledeće veze i aplikacije za dalja podešavanja, ili za pomoć i podršku. Ne zaboravite da se <span style=\" font-weight:600;\">pridružite našoj zajednici!</span></p></body></html>"
+
+#: .tmp/ui_scrGoodbye.py:363 .tmp/ui_scrGoodbye.py:365
+msgid "System Settings"
+msgstr "Sistemska podešavanja"
+
+#: .tmp/ui_scrGoodbye.py:364
+msgid ""
+"Configuration tools for Chakra, such as the display settings, firewall, "
+"keyboard layout, user management..."
+msgstr "Alatke za konfiguraciju Chakre, kao što su podešavanja ekrana, zaštitni zid, raspored tastature, upravljanje korisnicima..."
+
+#: .tmp/ui_scrGoodbye.py:366 .tmp/ui_scrGoodbye.py:368
+msgid "Help and Support"
+msgstr "Pomoć i Podrška"
+
+#: .tmp/ui_scrGoodbye.py:367
+msgid ""
+"Chakra community: mailing lists, chat rooms, Wiki documents, help and "
+"support pages..."
+msgstr "Chakra zajednica: poštanske liste, sobe za ćaskanje, Wiki dokumenti, strane za pomoć i podršku..."
+
+#: .tmp/ui_scrGoodbye.py:369
+msgid "Using KDE"
+msgstr "Korišćenje KDE-a"
+
+#: .tmp/ui_scrGoodbye.py:370
+msgid ""
+"Learn how to get the most out of KDE, the Plasma desktop, and everything "
+"else Chakra has to offer, in the Chakra Beginner's Guide."
+msgstr "Naučite kako da izvučete maksimum iz KDE-a, Plazma radne površi, i svega drugog što Chakra nudi, u Vodiču kroz Chakru za početnike."
+
+#: .tmp/ui_scrGoodbye.py:371
+msgid "Beginner's Guide"
+msgstr "Vodič za početnike"
+
+#: .tmp/ui_scrGoodbye.py:372
+msgid "Run Kapudan on system startup?"
+msgstr "Pokrenite Kapudan prilikom startovanja sistema?"
+
+#: .tmp/ui_scrFolder.py:155
+msgid "Home Folder"
+msgstr "Domaća fascikla"
+
+#: .tmp/ui_scrFolder.py:156
+msgid "  Downloads  "
+msgstr "Preuzimanja"
+
+#: .tmp/ui_scrFolder.py:157
+msgid "  Documents  "
+msgstr "Dokumenti"
+
+#: .tmp/ui_scrFolder.py:158
+msgid "  Videos  "
+msgstr "Video"
+
+#: .tmp/ui_scrFolder.py:159
+msgid "  Music  "
+msgstr "Muzika"
+
+#: .tmp/ui_scrFolder.py:160
+msgid "  Images  "
+msgstr "Slike"
+
+#: .tmp/ui_scrFolder.py:161
+msgid ""
+"<html><head/><body><p>By default Chakra doesn't create any special folders "
+"in the user's home directory, as Chakra leaves these kind of choices up to "
+"the user. However, in this screen we give you the ability to create the most"
+" commonly used folders.</p></body></html>"
+msgstr "<html><head/><body><p>Podrazumevano Chakra ne kreira posebne fascikle u korisničkom domaćem direktorijumu, tako da taj izbor ostavlja korisniku. Međutim, sada ćemo Vam dati mogućnost da kreirate najkorišćenije fascikle.</p></body></html>"
+
+#: .tmp/scrMouse.py:32 .tmp/ui_scrMouse.py:213
+msgid "Mouse"
+msgstr "Miš"
+
+#: .tmp/scrMouse.py:33
+msgid "Setup Mouse Behavior"
+msgstr "Podesi ponašanje miša"
+
+#: .tmp/scrMouse.py:145
+msgid "Left Handed"
+msgstr "Za levoruke"
+
+#: .tmp/scrMouse.py:145
+msgid "Right Handed"
+msgstr "Za desnoruke"
+
+#: .tmp/scrMouse.py:146
+msgid "Single Click "
+msgstr "Jedan klik"
+
+#: .tmp/scrMouse.py:146
+msgid "Double Click"
+msgstr "Dvoklik"
+
+#: .tmp/scrSummary.py:48
+msgid "Save Your Settings"
+msgstr "Sačuvajte Vaša podešavanja"
+
+#: .tmp/scrSummary.py:73
+msgid "Mouse Settings"
+msgstr "Podešavanja miša"
+
+#: .tmp/scrSummary.py:75
+#, python-format
+msgid "Selected Mouse configuration: <b>%s</b>"
+msgstr "Izabrana konfiguracija za miša: <br>%s<br>"
+
+#: .tmp/scrSummary.py:76
+#, python-format
+msgid "Selected clicking behavior: <b>%s</b>"
+msgstr "Izabrano ponašanje miša prilikom kliktanja: <br>%s<br>"
+
+#: .tmp/scrSummary.py:80
+msgid "Menu Settings"
+msgstr "Podešavanja izbornika"
+
+#: .tmp/scrSummary.py:81
+#, python-format
+msgid "Selected Menu: <b>%s</b>"
+msgstr "Izabrani izbornik: <br>%s<br>"
+
+#: .tmp/scrSummary.py:85
+msgid "Wallpaper Settings"
+msgstr "Podešavanja tapeta"
+
+#: .tmp/scrSummary.py:87
+msgid "You haven't selected any wallpaper."
+msgstr "Niste izabrali nijedan tapet."
+
+#: .tmp/scrSummary.py:89
+#, python-format
+msgid "Selected Wallpaper: <b>%s</b>"
+msgstr "Izabrani tapet: <br>%s<br>"
+
+#: .tmp/scrSummary.py:93
+msgid "Style Settings"
+msgstr "Podešavanja stila"
+
+#: .tmp/scrSummary.py:96
+msgid "You haven't selected any style."
+msgstr "Niste izabrali nijedan stil."
+
+#: .tmp/scrSummary.py:98
+#, python-format
+msgid "Selected Style: <b>%s</b>"
+msgstr "Izabrani stil: <br>%s<br>"
+
+#: .tmp/scrSummary.py:104
+msgid "Package Management Settings"
+msgstr "Podešavanja Upravnika paketima"
+
+#: .tmp/scrSummary.py:105
+msgid "You have enabled or disabled spun."
+msgstr "Omogućili ste ili onemogućili spun."
+
+#: .tmp/scrSummary.py:112 .tmp/scrSummary.py:141
+msgid "You have: "
+msgstr "Imate:"
+
+#: .tmp/scrSummary.py:114
+msgid "Services Settings"
+msgstr "Podešavanja Usluga"
+
+#: .tmp/scrSummary.py:117
+msgid "enabled cups; "
+msgstr "omogućen cups;"
+
+#: .tmp/scrSummary.py:120
+msgid "disabled cups; "
+msgstr "onemogućen cups;"
+
+#: .tmp/scrSummary.py:123
+msgid "enabled bluetooth; "
+msgstr "omogućen blutut"
+
+#: .tmp/scrSummary.py:126
+msgid "disabled bluetooth; "
+msgstr "onemogućen blutut"
+
+#: .tmp/scrSummary.py:131 .tmp/scrSummary.py:159
+msgid "You have made no changes."
+msgstr "Niste načinili izmene.."
+
+#: .tmp/scrSummary.py:143
+msgid "Security Settings"
+msgstr "Sigurnosna podešavanja"
+
+#: .tmp/scrSummary.py:146
+msgid "enabled ClamAV; "
+msgstr "omogućen ClamAV;"
+
+#: .tmp/scrSummary.py:149
+msgid "disabled ClamAV; "
+msgstr "onemogućen ClamAV;"
+
+#: .tmp/scrSummary.py:152
+msgid "enabled the firewall; "
+msgstr "omogućen zaštitni zid;"
+
+#: .tmp/scrSummary.py:155
+msgid "disabled the firewall; "
+msgstr "onemogućen zaštitni zid;"
+
+#: .tmp/scrSummary.py:176
+msgid "Error"
+msgstr "Greška"
+
+#: .tmp/scrSummary.py:176
+msgid "Cannot restart plasma-desktop. Kapudan will now shut down."
+msgstr "Ne mogu da restartujem radnu površ. Kapudan će se sada isključiti."
+
+#: .tmp/scrWallpaper.py:38
+msgid "Choose a Wallpaper"
+msgstr "Izaberite tapet"
+
+#: .tmp/ui_scrServices.py:127 .tmp/scrServices.py:31
+msgid "Services"
+msgstr "Usluge"
+
+#: .tmp/ui_scrServices.py:128
+msgid "cups: The Common Unix Printing Service"
+msgstr "cups: The Common Unix Printing Service"
+
+#: .tmp/ui_scrServices.py:129
+msgid "bluetooth: Enable Bluetooth communication"
+msgstr "bluetooth: Omogući komunikaciju putem blututa"
+
+#: .tmp/ui_scrServices.py:130
+msgid ""
+"<html><head/><body><p>By default, new installations of Chakra have only a "
+"bare minimum of required services (also called &quot;daemons&quot;) enabled."
+" Not only does this reflect Chakra's principle of not making decisions for "
+"its users, it also adds to a new installation's security, by decreasing the "
+"number of active services that might be vulnerable to an attack.</p><p>If "
+"you wish, you can use the options below to tell some of the more widely used"
+" daemons to start automatically at boot time. To enable any service you "
+"would like to start on bootup, you can run <span style=\" font-"
+"weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; "
+"font-style:italic;\">daemon-name</span>. Respectively, run <span style=\" "
+"font-weight:600;\">sudo systemctl disable </span><span style=\" font-"
+"weight:600; font-style:italic;\">daemon-name</span> to disable it. Or, if "
+"you just want to start daemons manually, try <span style=\" font-"
+"weight:600;\">sudo systemctl start </span><span style=\" font-weight:600; "
+"font-style:italic;\">daemon-name</span>. (Eg, <span style=\" font-"
+"weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
+msgstr "<html><head/><body><p>Podrazumevano, nova instalacija Chakre sadrži minimum potrebnih usluga (poznatih kao &quot;programi koji rade u pozadini&quot;) koje su omogućene. Ne samo da ovo dokazuje princip Chakre da ne donosi odluke umesto njenih korisnika, već doprinosi sigurnosti, smanjujući broj aktivnih usluga koje mogu biti meta napada..</p><p>Ukoliko želite, možete koristiti opcije ispod kako biste neke od najkorišćenijih programa koji rade u pozadini podesili da se pokreću sa startovanjem sistema. Da biste to učinili, takođe možete pokrenuti <span style=\" font-weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; font-style:italic;\">naziv-usluge</span>. Odnosno, pokrenite <span style=\" font-weight:600;\">sudo systemctl disable </span><span style=\" font-weight:600; font-style:italic;\">naziv-usluge</span> da biste je onemogućili. Ili, ukoliko želite da startujete program ručno, probajte <span style=\" font-weight:600;\">sudo systemctl start </span><span style=\" font-weight:600; font-style:italic;\">naziv-usluge</span>. (Na primer, <span style=\" font-weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
+
+#: .tmp/ui_scrServices.py:131
+msgid "Daemons to start at boot time"
+msgstr "Samostartujući programi koji će biti pokrenuti prilikom startovanja sistema"
 
 #: .tmp/ui_scrStyle.py:181
 msgid ""
@@ -316,63 +501,6 @@ msgstr "Prikaz fascikle (KDE3 stil)"
 #: .tmp/ui_scrStyle.py:186
 msgid "Number of Desktops"
 msgstr "Broj radnih površi"
-
-#: .tmp/ui_scrMouse.py:213 .tmp/scrMouse.py:32
-msgid "Mouse"
-msgstr "Miš"
-
-#: .tmp/ui_scrMouse.py:214
-msgid ""
-"<html><head/><body><p>The <span style=\" font-weight:600;\">clicking "
-"behavior</span> defines how many times you want to click to open files and "
-"folders. If you are <span style=\" font-weight:600;\">left handed</span>, "
-"you may prefer to swap the left and right buttons of your pointing "
-"device.</p></body></html>"
-msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Ponašanje miša prilikom kliktanja</span> određuje koliko puta želite da kliknete da biste otvorili fajl ili fasciklu. Ukoliko ste <span style=\" font-weight:600;\">levoruki</span>, možda ćete poželeti da zamenite levo i desno dugme na Vašem mišu.</p></body></html>"
-
-#: .tmp/ui_scrMouse.py:215
-msgid "Clicking Behaviour"
-msgstr "Ponašanje miše prilikom kliktanja"
-
-#: .tmp/ui_scrMouse.py:216
-msgid "Dou&ble-click to open files and folders"
-msgstr "Dvoklik da biste otvorili fajlove i fascikle"
-
-#: .tmp/ui_scrMouse.py:217
-msgid "Single-click to open files and folders"
-msgstr "Jedan klik da biste otvorili fajlove i fascikle"
-
-#: .tmp/ui_scrMouse.py:218
-msgid "Button Order"
-msgstr "Redosled dugmića"
-
-#: .tmp/ui_scrMouse.py:219
-msgid "Right Hand"
-msgstr "Desna ruka"
-
-#: .tmp/ui_scrMouse.py:220
-msgid "Left Hand"
-msgstr "Leva ruka"
-
-#: .tmp/ui_scrMouse.py:221
-msgid "Reverse scrolling"
-msgstr "Obrnuto skrolovanje"
-
-#: .tmp/_scrKeyboard.py:34 .tmp/ui_scrKeyboard.py:102
-msgid "Keyboard"
-msgstr "Tastatura"
-
-#: .tmp/_scrKeyboard.py:35
-msgid "Keyboard Layout Language"
-msgstr "Jezik rasporeda tastature"
-
-#: .tmp/scrPackage.py:34
-msgid "Install / Remove Programs"
-msgstr "Instaliraj / Ukloni programe"
-
-#: .tmp/scrStyle.py:39
-msgid "Customize Your Desktop"
-msgstr "Prilagodite svoju radnu površ"
 
 #: .tmp/ui_scrSecurity.py:173
 msgid "Enable the firewall (UFW)"
@@ -432,166 +560,39 @@ msgstr "<html><head/><body><p>Security is a process, not a product, and no opera
 msgid "Security Tools"
 msgstr "Sigurnosne alatke"
 
-#: .tmp/ui_scrFolder.py:155
-msgid "Home Folder"
-msgstr "Domaća fascikla"
-
-#: .tmp/ui_scrFolder.py:156
-msgid "  Downloads  "
-msgstr "Preuzimanja"
-
-#: .tmp/ui_scrFolder.py:157
-msgid "  Documents  "
-msgstr "Dokumenti"
-
-#: .tmp/ui_scrFolder.py:158
-msgid "  Videos  "
-msgstr "Video"
-
-#: .tmp/ui_scrFolder.py:159
-msgid "  Music  "
-msgstr "Muzika"
-
-#: .tmp/ui_scrFolder.py:160
-msgid "  Images  "
-msgstr "Slike"
-
-#: .tmp/ui_scrFolder.py:161
-msgid ""
-"<html><head/><body><p>By default Chakra doesn't create any special folders "
-"in the user's home directory, as Chakra leaves these kind of choices up to "
-"the user. However, in this screen we give you the ability to create the most"
-" commonly used folders.</p></body></html>"
-msgstr "<html><head/><body><p>Podrazumevano Chakra ne kreira posebne fascikle u korisničkom domaćem direktorijumu, tako da taj izbor ostavlja korisniku. Međutim, sada ćemo Vam dati mogućnost da kreirate najkorišćenije fascikle.</p></body></html>"
-
-#: .tmp/ui_scrFolder.py:162 .tmp/scrFolder.py:30
-msgid "Folders"
-msgstr "Fascikle"
-
-#: .tmp/_scrSearch.py:29 .tmp/ui_scrSearch.py:109
-msgid "Search"
-msgstr "Pretraga"
-
-#: .tmp/_scrSearch.py:30
-msgid "Enable / Disable Strigi Desktop Search"
-msgstr "Omogući / Onemogući Strigi pretragu radne površi"
-
-#: .tmp/ui_scrStyleItem.py:79 .tmp/ui_wallpaperItem.py:82
-#: .tmp/ui_scrAvatar.py:256
-msgid "Form"
-msgstr "Forma"
-
-#: .tmp/ui_scrStyleItem.py:80
-msgid "styleName"
-msgstr "Naziv stila"
-
-#: .tmp/ui_scrStyleItem.py:81
-msgid "styleDesc"
-msgstr "Opis stila"
-
-#: .tmp/ui_scrWelcome.py:87 .tmp/scrWelcome.py:30
-msgid "Welcome"
-msgstr "Dobrodošli"
-
-#: .tmp/ui_scrWelcome.py:88
-msgid "What is Chakra?"
-msgstr "Šta je Chakra?"
-
-#: .tmp/ui_scrWelcome.py:89
-msgid ""
-"<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span> brings"
-" a ground-up Linux distribution, a free software showcase project created by"
-" a bunch of people who like the KISS principles and the elegance of the "
-"Plasma Desktop, and a bundlesystem to support well known GTK "
-"applications.<br/><br/>Our main goal is provide a fast, user-friendly and "
-"extremely powerful Live CD and Linux distribution, specially crafted for the"
-" award winning KDE Software Compilation and the beautiful Plasma "
-"desktop.<br/><br/><span style=\" font-weight:600;\">Kapudan</span> will help"
-" you personalize your Chakra workspace easily and quickly. Just click <span "
-"style=\" font-weight:600;\">next</span> when you are ready to "
-"begin.</p></body></html>"
-msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span> donosi stabilnu Linux distribuciju, projekat slobodnog softvera stvoren od strane ljudi koji vole KISS principe i eleganciju Plazma Radne površi, i bundlesystem za podršku poznatih GTK aplikacija.<br/><br/>Naš glavni cilj je da ponudimo brz, prijateljski nastrojen i veoma moćan ŽiviCD i Linux distribuciju, specijalno izgrađenu za nagrađivanu KDE Sofversku Kompilaciju i prelepu Plazma radnu površ.<br/><br/><span style=\" font-weight:600;\">Kapudan</span> će Vam pomoći da personalizujete Chakra radno okruženje lako i brzo. Jednostavno kliknite <span style=\" font-weight:600;\">sledeće</span> kada budete spremni za početak.</p></body></html>"
-
-#: .tmp/ui_scrKeyboard.py:103
-msgid ""
-"<html><head/><body><p>Kapudan tries to automatically select the best "
-"keyboard layout according to your system language. If you want to use "
-"another layout, just make a selection below.</p></body></html>"
-msgstr "<html><head/><body><p>Kapudan pokušava da automatski odabere najbolji raspored tastature prema Vašem sistemskom jeziku. Ukoliko želite da koristite drugi raspored, odaberite ispod.</p></body></html>"
-
-#: .tmp/ui_scrKeyboard.py:104
-msgid "Test area:"
-msgstr "Prostor za testiranje:"
-
-#: .tmp/scrWelcome.py:31
-#, python-format
-msgid "Welcome to %s"
-msgstr "Dobrodošli u %s"
-
-#: .tmp/ui_scrWallpaper.py:141
-msgid ""
-"<html><head/><body><p>Choose your favorite wallpaper for your Chakra "
-"desktop. Don't forget to check out <span style=\" font-weight:600;\">Desktop"
-" Settings</span> to download cool new wallpapers.</p></body></html>"
-msgstr "<html><head/><body><p>Odaberite omiljeni tapet za Vašu radnu površ. Ne zaboravite da proverite <span style=\" font-weight:600;\">Desktop Settings</span> kako biste preuzeli nove tapete.</p></body></html>"
-
-#: .tmp/ui_scrWallpaper.py:142
-msgid "Wallpapers"
-msgstr "Tapeti"
-
-#: .tmp/ui_scrWallpaper.py:144
-msgid "Choose wallpaper from file"
-msgstr "Odaberite tapet iz fajla"
-
-#: .tmp/ui_scrWallpaper.py:145
-msgid "Don't change wallpaper"
-msgstr "Ne menjaj tapet"
-
-#: .tmp/scrMenu.py:29 .tmp/ui_scrMenu.py:133
+#: .tmp/ui_scrMenu.py:134 .tmp/scrMenu.py:28
 msgid "Menu"
 msgstr "Izbornik"
 
-#: .tmp/scrMenu.py:30
-msgid "Choose a Menu Style"
-msgstr "Izaberi stil izbornika"
+#: .tmp/ui_scrMenu.py:135
+msgid ""
+"You can also customize your <b>KDE menu</b> as you like. Please choose one "
+"from the following styles."
+msgstr "Takođe možete prilagoditi Vaš <b>KDE izbornik</b> po želji. Molim izaberite jedan od sledećih stilova."
 
-#: .tmp/scrMenu.py:44 .tmp/ui_scrMenu.py:135
+#: .tmp/ui_scrMenu.py:136 .tmp/scrMenu.py:43
 msgid "Kick-off Menu"
 msgstr "Odskočni izbornik"
 
-#: .tmp/scrMenu.py:46
-msgid ""
-"Kick-off menu is the default menu of Chakra.<br><br>The program shortcuts "
-"are easy to access and well organized."
-msgstr "Odskočni izbornik je podrazumevani izbornik u Chakri <br><br> Veoma lako se pristupa programima i dobro je organizovan."
-
-#: .tmp/scrMenu.py:50 .tmp/ui_scrMenu.py:136
+#: .tmp/ui_scrMenu.py:137 .tmp/scrMenu.py:49
 msgid "Simple Menu"
 msgstr "Jednostavni izbornik"
 
-#: .tmp/scrMenu.py:52
-msgid ""
-"Simple menu is an old style menu from KDE 3.<br><br>It is a very lightweight"
-" menu thus it is recommended for slower PC's."
-msgstr "Jednostavni izbornik je izbronik sa starijim stilom iz KDE 3 <br><br> Veoma je lagan i preporučljiv za sporije računare."
-
-#: .tmp/scrMenu.py:56 .tmp/ui_scrMenu.py:137
+#: .tmp/ui_scrMenu.py:138 .tmp/scrMenu.py:55
 msgid "Lancelot Menu"
 msgstr "Lanselot izbornik"
 
-#: .tmp/scrMenu.py:58
-msgid ""
-"Lancelot is an advanced and highly customizable menu for Chakra.<br><br>The "
-"program shortcuts are easy to access and well organized."
-msgstr "Lanselot je napredni i veoma prilagodljiv izbornik za Chakru <br><br> Veoma lako se pristupa programima i dobro je organizovan."
-
-#: .tmp/scrMenu.py:62 .tmp/ui_scrMenu.py:138
+#: .tmp/ui_scrMenu.py:139 .tmp/scrMenu.py:61
 msgid "Homerun Menu"
 msgstr "Homerun izbornik"
 
-#: .tmp/scrMenu.py:64
-msgid "Homerun is a full screen launcher with content organized in tabs."
-msgstr "Homerun je pokretač čiji je sadržaj organizovan u jezičcima i koji se proteže preko celog ekrana.."
+#: .tmp/ui_scrMenu.py:140 .tmp/scrMenu.py:67
+msgid "AppMenu QML"
+msgstr ""
+
+#: .tmp/ui_scrMenu.py:141
+msgid "Sample"
+msgstr "Uzorak"
 
 #: .tmp/ui_wallpaperItem.py:83
 msgid "wallPaperName"
@@ -601,80 +602,9 @@ msgstr "Naziv tapeta"
 msgid "wallpaperDesc"
 msgstr "Opis tapeta"
 
-#: .tmp/scrServices.py:33 .tmp/ui_scrServices.py:127
-msgid "Services"
-msgstr "Usluge"
-
-#: .tmp/scrServices.py:34
-msgid "Enable / Disable Services (Daemons)"
-msgstr "Omogući / Onemogući Usluge (Samostartujuće programe)"
-
-#: .tmp/scrMouse.py:33
-msgid "Setup Mouse Behavior"
-msgstr "Podesi ponašanje miša"
-
-#: .tmp/scrMouse.py:144
-msgid "Left Handed"
-msgstr "Za levoruke"
-
-#: .tmp/scrMouse.py:144
-msgid "Right Handed"
-msgstr "Za desnoruke"
-
-#: .tmp/scrMouse.py:145
-msgid "Single Click "
-msgstr "Jedan klik"
-
-#: .tmp/scrMouse.py:145
-msgid "Double Click"
-msgstr "Dvoklik"
-
-#: .tmp/ui_scrGoodbye.py:362
-msgid ""
-"<html><head/><body><p><span style=\" font-weight:600;\">Your settings have "
-"been applied.</span> Now you can start enjoying Chakra, or check out the "
-"following links and applications for more settings, or for help and support."
-" Don't forget to <span style=\" font-weight:600;\">join our "
-"community!</span></p></body></html>"
-msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Vaša podešavanja su primenjena.</span> Sada možete početi sa korišćenjem Chakre, ili proveriti sledeće veze i aplikacije za dalja podešavanja, ili za pomoć i podršku. Ne zaboravite da se <span style=\" font-weight:600;\">pridružite našoj zajednici!</span></p></body></html>"
-
-#: .tmp/ui_scrGoodbye.py:363 .tmp/ui_scrGoodbye.py:365
-msgid "System Settings"
-msgstr "Sistemska podešavanja"
-
-#: .tmp/ui_scrGoodbye.py:364
-msgid ""
-"Configuration tools for Chakra, such as the display settings, firewall, "
-"keyboard layout, user management..."
-msgstr "Alatke za konfiguraciju Chakre, kao što su podešavanja ekrana, zaštitni zid, raspored tastature, upravljanje korisnicima..."
-
-#: .tmp/ui_scrGoodbye.py:366 .tmp/ui_scrGoodbye.py:368
-msgid "Help and Support"
-msgstr "Pomoć i Podrška"
-
-#: .tmp/ui_scrGoodbye.py:367
-msgid ""
-"Chakra community: mailing lists, chat rooms, Wiki documents, help and "
-"support pages..."
-msgstr "Chakra zajednica: poštanske liste, sobe za ćaskanje, Wiki dokumenti, strane za pomoć i podršku..."
-
-#: .tmp/ui_scrGoodbye.py:369
-msgid "Using KDE"
-msgstr "Korišćenje KDE-a"
-
-#: .tmp/ui_scrGoodbye.py:370
-msgid ""
-"Learn how to get the most out of KDE, the Plasma desktop, and everything "
-"else Chakra has to offer, in the Chakra Beginner's Guide."
-msgstr "Naučite kako da izvučete maksimum iz KDE-a, Plazma radne površi, i svega drugog što Chakra nudi, u Vodiču kroz Chakru za početnike."
-
-#: .tmp/ui_scrGoodbye.py:371
-msgid "Beginner's Guide"
-msgstr "Vodič za početnike"
-
-#: .tmp/ui_scrGoodbye.py:372
-msgid "Run Kapudan on system startup?"
-msgstr "Pokrenite Kapudan prilikom startovanja sistema?"
+#: .tmp/ui_scrSearch.py:109
+msgid "Search"
+msgstr "Pretraga"
 
 #: .tmp/ui_scrSearch.py:110
 msgid ""
@@ -691,190 +621,109 @@ msgstr "Dopusti da Strigi vrši popis mojih fajlova"
 msgid "Search Options"
 msgstr "Opcije pretrage"
 
-#: .tmp/scrFolder.py:31
-msgid "Create folders in the home directory"
-msgstr "Kreiraj fascikle u domaćem direktorijumu"
+#: .tmp/scrMenu.py:29
+msgid "Choose a Menu Style"
+msgstr "Izaberi stil izbornika"
 
-#: .tmp/scrSummary.py:44
-msgid "Save Your Settings"
-msgstr "Sačuvajte Vaša podešavanja"
-
-#: .tmp/scrSummary.py:69
-msgid "Mouse Settings"
-msgstr "Podešavanja miša"
-
-#: .tmp/scrSummary.py:71
-#, python-format
-msgid "Selected Mouse configuration: <b>%s</b>"
-msgstr "Izabrana konfiguracija za miša: <br>%s<br>"
-
-#: .tmp/scrSummary.py:72
-#, python-format
-msgid "Selected clicking behavior: <b>%s</b>"
-msgstr "Izabrano ponašanje miša prilikom kliktanja: <br>%s<br>"
-
-#: .tmp/scrSummary.py:76
-msgid "Menu Settings"
-msgstr "Podešavanja izbornika"
-
-#: .tmp/scrSummary.py:77
-#, python-format
-msgid "Selected Menu: <b>%s</b>"
-msgstr "Izabrani izbornik: <br>%s<br>"
-
-#: .tmp/scrSummary.py:81
-msgid "Wallpaper Settings"
-msgstr "Podešavanja tapeta"
-
-#: .tmp/scrSummary.py:83
-msgid "You haven't selected any wallpaper."
-msgstr "Niste izabrali nijedan tapet."
-
-#: .tmp/scrSummary.py:85
-#, python-format
-msgid "Selected Wallpaper: <b>%s</b>"
-msgstr "Izabrani tapet: <br>%s<br>"
-
-#: .tmp/scrSummary.py:89
-msgid "Style Settings"
-msgstr "Podešavanja stila"
-
-#: .tmp/scrSummary.py:92
-msgid "You haven't selected any style."
-msgstr "Niste izabrali nijedan stil."
-
-#: .tmp/scrSummary.py:94
-#, python-format
-msgid "Selected Style: <b>%s</b>"
-msgstr "Izabrani stil: <br>%s<br>"
-
-#: .tmp/scrSummary.py:100
-msgid "Package Management Settings"
-msgstr "Podešavanja Upravnika paketima"
-
-#: .tmp/scrSummary.py:101
-msgid "You have enabled or disabled spun."
-msgstr "Omogućili ste ili onemogućili spun."
-
-#: .tmp/scrSummary.py:108 .tmp/scrSummary.py:137
-msgid "You have: "
-msgstr "Imate:"
-
-#: .tmp/scrSummary.py:110
-msgid "Services Settings"
-msgstr "Podešavanja Usluga"
-
-#: .tmp/scrSummary.py:113
-msgid "enabled cups; "
-msgstr "omogućen cups;"
-
-#: .tmp/scrSummary.py:116
-msgid "disabled cups; "
-msgstr "onemogućen cups;"
-
-#: .tmp/scrSummary.py:119
-msgid "enabled bluetooth; "
-msgstr "omogućen blutut"
-
-#: .tmp/scrSummary.py:122
-msgid "disabled bluetooth; "
-msgstr "onemogućen blutut"
-
-#: .tmp/scrSummary.py:127 .tmp/scrSummary.py:155
-msgid "You have made no changes."
-msgstr "Niste načinili izmene.."
-
-#: .tmp/scrSummary.py:139
-msgid "Security Settings"
-msgstr "Sigurnosna podešavanja"
-
-#: .tmp/scrSummary.py:142
-msgid "enabled ClamAV; "
-msgstr "omogućen ClamAV;"
-
-#: .tmp/scrSummary.py:145
-msgid "disabled ClamAV; "
-msgstr "onemogućen ClamAV;"
-
-#: .tmp/scrSummary.py:148
-msgid "enabled the firewall; "
-msgstr "omogućen zaštitni zid;"
-
-#: .tmp/scrSummary.py:151
-msgid "disabled the firewall; "
-msgstr "onemogućen zaštitni zid;"
-
-#: .tmp/scrSummary.py:173
-msgid "Error"
-msgstr "Greška"
-
-#: .tmp/scrSummary.py:173
-msgid "Cannot restart plasma-desktop. Kapudan will now shut down."
-msgstr "Ne mogu da restartujem radnu površ. Kapudan će se sada isključiti."
-
-#: .tmp/ui_scrMenu.py:134
+#: .tmp/scrMenu.py:45
 msgid ""
-"You can also customize your <b>KDE menu</b> as you like. Please choose one "
-"from the following styles."
-msgstr "Takođe možete prilagoditi Vaš <b>KDE izbornik</b> po želji. Molim izaberite jedan od sledećih stilova."
+"Kick-off menu is the default menu of Chakra.<br><br>The program shortcuts "
+"are easy to access and well organized."
+msgstr "Odskočni izbornik je podrazumevani izbornik u Chakri <br><br> Veoma lako se pristupa programima i dobro je organizovan."
 
-#: .tmp/ui_scrMenu.py:139
-msgid "Sample"
-msgstr "Uzorak"
-
-#: .tmp/ui_scrServices.py:128
-msgid "cups: The Common Unix Printing Service"
-msgstr "cups: The Common Unix Printing Service"
-
-#: .tmp/ui_scrServices.py:129
-msgid "bluetooth: Enable Bluetooth communication"
-msgstr "bluetooth: Omogući komunikaciju putem blututa"
-
-#: .tmp/ui_scrServices.py:130
+#: .tmp/scrMenu.py:51
 msgid ""
-"<html><head/><body><p>By default, new installations of Chakra have only a "
-"bare minimum of required services (also called &quot;daemons&quot;) enabled."
-" Not only does this reflect Chakra's principle of not making decisions for "
-"its users, it also adds to a new installation's security, by decreasing the "
-"number of active services that might be vulnerable to an attack.</p><p>If "
-"you wish, you can use the options below to tell some of the more widely used"
-" daemons to start automatically at boot time. To enable any service you "
-"would like to start on bootup, you can run <span style=\" font-"
-"weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; "
-"font-style:italic;\">daemon-name</span>. Respectively, run <span style=\" "
-"font-weight:600;\">sudo systemctl disable </span><span style=\" font-"
-"weight:600; font-style:italic;\">daemon-name</span> to disable it. Or, if "
-"you just want to start daemons manually, try <span style=\" font-"
-"weight:600;\">sudo systemctl start </span><span style=\" font-weight:600; "
-"font-style:italic;\">daemon-name</span>. (Eg, <span style=\" font-"
-"weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
-msgstr "<html><head/><body><p>Podrazumevano, nova instalacija Chakre sadrži minimum potrebnih usluga (poznatih kao &quot;programi koji rade u pozadini&quot;) koje su omogućene. Ne samo da ovo dokazuje princip Chakre da ne donosi odluke umesto njenih korisnika, već doprinosi sigurnosti, smanjujući broj aktivnih usluga koje mogu biti meta napada..</p><p>Ukoliko želite, možete koristiti opcije ispod kako biste neke od najkorišćenijih programa koji rade u pozadini podesili da se pokreću sa startovanjem sistema. Da biste to učinili, takođe možete pokrenuti <span style=\" font-weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; font-style:italic;\">naziv-usluge</span>. Odnosno, pokrenite <span style=\" font-weight:600;\">sudo systemctl disable </span><span style=\" font-weight:600; font-style:italic;\">naziv-usluge</span> da biste je onemogućili. Ili, ukoliko želite da startujete program ručno, probajte <span style=\" font-weight:600;\">sudo systemctl start </span><span style=\" font-weight:600; font-style:italic;\">naziv-usluge</span>. (Na primer, <span style=\" font-weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
+"Simple menu is an old style menu from KDE 3.<br><br>It is a very lightweight"
+" menu thus it is recommended for slower PC's."
+msgstr "Jednostavni izbornik je izbronik sa starijim stilom iz KDE 3 <br><br> Veoma je lagan i preporučljiv za sporije računare."
 
-#: .tmp/ui_scrServices.py:131
-msgid "Daemons to start at boot time"
-msgstr "Samostartujući programi koji će biti pokrenuti prilikom startovanja sistema"
-
-#: .tmp/ui_scrAvatar.py:257
+#: .tmp/scrMenu.py:57
 msgid ""
-"<html><head/><body><p>This screen helps you set your <span style=\" font-"
-"weight:600;\">user picture</span>. You can either choose an image from a "
-"file, or you can capture an image from your camera, if you have one. Select "
-"an option from the <span style=\" font-weight:600;\">options</span> "
-"menu.</p></body></html>"
-msgstr "<html><head/><body><p>Ovaj ekran će Vam pomoći da podesite Vašu <span style=\" font-weight:600;\">korisničku sliku</span>. Možete izabrati sliku iz fajla, ili možete slikati kamerom, ako je imate. Izaberite Vašu opciju u <span style=\" font-weight:600;\">opcije</span> izborniku.</p></body></html>"
+"Lancelot is an advanced and highly customizable menu for Chakra.<br><br>The "
+"program shortcuts are easy to access and well organized."
+msgstr "Lanselot je napredni i veoma prilagodljiv izbornik za Chakru <br><br> Veoma lako se pristupa programima i dobro je organizovan."
 
-#: .tmp/ui_scrAvatar.py:258
-msgid "Options"
-msgstr "Opcije"
+#: .tmp/scrMenu.py:63
+msgid "Homerun is a full screen launcher with content organized in tabs."
+msgstr "Homerun je pokretač čiji je sadržaj organizovan u jezičcima i koji se proteže preko celog ekrana.."
 
-#: .tmp/ui_scrAvatar.py:259
-msgid "Choose an image"
-msgstr "Izaberite sliku"
+#: .tmp/scrMenu.py:69
+msgid ""
+"This plasmoid shows a menu of the installed applications, similar to "
+"Lancelot but much simpler"
+msgstr ""
 
-#: .tmp/ui_scrAvatar.py:260
-msgid "Capture"
-msgstr "Slikaj"
+#: .tmp/ui_scrStyleItem.py:80
+msgid "styleName"
+msgstr "Naziv stila"
 
-#: .tmp/ui_scrAvatar.py:261
-msgid "Recapture"
-msgstr "Ponovi slikanje"
+#: .tmp/ui_scrStyleItem.py:81
+msgid "styleDesc"
+msgstr "Opis stila"
+
+#: .tmp/ui_scrWelcome.py:88
+msgid "What is Chakra?"
+msgstr "Šta je Chakra?"
+
+#: .tmp/ui_scrWelcome.py:89
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span> is a "
+"GNU/Linux distribution with an emphasis on KDE and Qt that focuses on "
+"simplicity from a technical standpoint and cutting-edge software, bringing "
+"the latest technologies to you.<br/><br/>The primary goal of the project is "
+"to provide a fast, user-friendly and powerful Live CD and operating system, "
+"specifically crafted for the award winning KDE Software Compilation and the "
+"elegant Plasma Workspaces.<br/><br/><span style=\" font-"
+"weight:600;\">Kapudan</span> will help you personalize your Chakra "
+"installation easily and quickly. Just click <span style=\" font-"
+"weight:600;\">next</span> when you are ready to begin.</p></body></html>"
+msgstr ""
+
+#: .tmp/kapudan.desktop.in.h:2
+msgid "Welcome Wizard"
+msgstr "Pozdravni čarobnjak"
+
+#: .tmp/scrPackage.py:34
+msgid "Install / Remove Programs"
+msgstr "Instaliraj / Ukloni programe"
+
+#: .tmp/ui_scrMouse.py:214
+msgid ""
+"<html><head/><body><p>The <span style=\" font-weight:600;\">clicking "
+"behavior</span> defines how many times you want to click to open files and "
+"folders. If you are <span style=\" font-weight:600;\">left handed</span>, "
+"you may prefer to swap the left and right buttons of your pointing "
+"device.</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Ponašanje miša prilikom kliktanja</span> određuje koliko puta želite da kliknete da biste otvorili fajl ili fasciklu. Ukoliko ste <span style=\" font-weight:600;\">levoruki</span>, možda ćete poželeti da zamenite levo i desno dugme na Vašem mišu.</p></body></html>"
+
+#: .tmp/ui_scrMouse.py:215
+msgid "Clicking Behaviour"
+msgstr "Ponašanje miše prilikom kliktanja"
+
+#: .tmp/ui_scrMouse.py:216
+msgid "Dou&ble-click to open files and folders"
+msgstr "Dvoklik da biste otvorili fajlove i fascikle"
+
+#: .tmp/ui_scrMouse.py:217
+msgid "Single-click to open files and folders"
+msgstr "Jedan klik da biste otvorili fajlove i fascikle"
+
+#: .tmp/ui_scrMouse.py:218
+msgid "Button Order"
+msgstr "Redosled dugmića"
+
+#: .tmp/ui_scrMouse.py:219
+msgid "Right Hand"
+msgstr "Desna ruka"
+
+#: .tmp/ui_scrMouse.py:220
+msgid "Left Hand"
+msgstr "Leva ruka"
+
+#: .tmp/ui_scrMouse.py:221
+msgid "Reverse scrolling"
+msgstr "Obrnuto skrolovanje"
+
+#: .tmp/scrServices.py:32
+msgid "Enable / Disable Services (Daemons)"
+msgstr "Omogući / Onemogući Usluge (Samostartujuće programe)"

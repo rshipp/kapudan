@@ -33,9 +33,26 @@ Testing (for Developers)
 
 Translations
 ------------
-* To generate translations (for developers, requires `intltool` from core):
+* To regenerate the translation template, ‘po/kapudan.pot’ (for developers, requires `intltool` from core):
 
     python2 setup.py update_messages
+
+  Don’t forget to upload this template to Transifex: https://www.transifex.com/projects/p/chakra-project/resource/kapudan/
+
+  If you plan on releasing a new version of the software shortly, you should post an announcement at
+  https://www.transifex.com/projects/p/chakra-project/announcements/ asking translators to update Kapudan translations
+  as soon as possible.
+
+* To retrieve the latest translations (give translators at least two weeks since the last time you uploaded a modified
+  POT file to Transifex):
+
+    tx pull -af --minimum-perc=90
+
+  Note: You need to install the Transifex client (‘transifex-client’) first. You will also need to have a Transifex
+  account and configure your credentials in the ‘~/.transifexrc’ file as described in
+  http://support.transifex.com/customer/portal/articles/1000855-configuring-the-client
+
+  If asked to change the host URL in the command line (.net/.com issue), answer ‘n’.
 
 * To edit translations (for translators):
     
