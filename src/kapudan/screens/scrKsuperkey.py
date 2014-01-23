@@ -41,7 +41,7 @@ class Widget(QtGui.QWidget, Screen):
         self.ksuperkey = KSuperKey()
 
         # set initial states
-        self.ui.enableKsuperkey.setEnabled(self.ksuperkey.isEnabled())
+        self.ui.enableKsuperkey.setChecked(self.ksuperkey.isEnabled())
 
     def applySettings(self):
         if self.ui.enableKsuperkey.isChecked():
