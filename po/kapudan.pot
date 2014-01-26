@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-19 14:04-0700\n"
+"POT-Creation-Date: 2014-01-26 14:27-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -382,11 +382,11 @@ msgstr ""
 
 #: .tmp/scrKsuperkey.py:31 .tmp/ui_scrKsuperkey.py:124
 #: .tmp/ui_scrKsuperkey.py:127
-msgid "KSuperKey"
+msgid "ksuperkey"
 msgstr ""
 
 #: .tmp/scrKsuperkey.py:32
-msgid "Enable / Disable KSuperKey"
+msgid "Enable / Disable ksuperkey"
 msgstr ""
 
 #: .tmp/ui_scrKeyboard.py:102
