@@ -28,8 +28,8 @@ isUpdateOn = False
 
 
 class Widget(QtGui.QWidget, Screen):
-    title = i18n("KSuperKey")
-    desc = i18n("Enable / Disable KSuperKey")
+    title = i18n("ksuperkey")
+    desc = i18n("Enable / Disable ksuperkey")
 
     screenSettings = {}
     screenSettings["hasChanged"] = False

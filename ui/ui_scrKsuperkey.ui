@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>KSuperKey</string>
+   <string>ksuperkey</string>
   </property>
   <property name="styleSheet">
    <string notr="true"/>
@@ -203,7 +203,7 @@ border-top-left-radius: 4px;
 border-top-right-radius: 4px;</string>
      </property>
      <property name="text">
-      <string>KSuperKey</string>
+      <string>ksuperkey</string>
      </property>
      <property name="margin">
       <number>5</number>
