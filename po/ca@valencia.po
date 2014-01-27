@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Chakra Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-09 21:36+0100\n"
-"PO-Revision-Date: 2013-11-14 08:56+0000\n"
+"POT-Creation-Date: 2014-01-26 14:27-0700\n"
+"PO-Revision-Date: 2014-01-27 09:03+0000\n"
 "Last-Translator: Manuel Tortosa <manutortosa@chakra-project.org>\n"
 "Language-Team: Catalan (Valencian) (http://www.transifex.com/projects/p/chakra-project/language/ca@valencia/)\n"
 "MIME-Version: 1.0\n"
@@ -18,427 +18,57 @@ msgstr ""
 "Language: ca@valencia\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .tmp/scrWelcome.py:27 .tmp/ui_scrWelcome.py:87
+#: .tmp/ui_scrWelcome.py:87 .tmp/scrWelcome.py:27
 msgid "Welcome"
 msgstr "Benvingut"
 
-#: .tmp/scrWelcome.py:28
-#, python-format
-msgid "Welcome to %s"
-msgstr "Benvingut a %s"
+#: .tmp/ui_scrWelcome.py:88
+msgid "What is Chakra?"
+msgstr "Que és Chakra?"
 
-#: .tmp/ui_kapudan.py:368 .tmp/kapudan.desktop.in.h:1
-msgid "Kapudan"
-msgstr "Kapudan"
-
-#: .tmp/ui_kapudan.py:369
-msgid "Welcome to Chakra"
-msgstr "Benvingut a Chakra"
-
-#: .tmp/ui_kapudan.py:370
-msgid "Cancel"
-msgstr "Cancel·la"
-
-#: .tmp/ui_kapudan.py:371
-msgid "Back"
-msgstr "Anterior"
-
-#: .tmp/ui_kapudan.py:372
-msgid "Next"
-msgstr "Següent"
-
-#: .tmp/ui_kapudan.py:373
-msgid "Finish"
-msgstr "Acaba"
-
-#: .tmp/ui_kapudan.py:374
-msgid "Apply"
-msgstr "Aplica"
-
-#: .tmp/scrGoodbye.py:28 .tmp/ui_scrGoodbye.py:361
-msgid "More"
-msgstr "Més"
-
-#: .tmp/scrGoodbye.py:29
-msgid "Congratulations!"
-msgstr "Felicitats!"
-
-#: .tmp/ui_scrSummary.py:94 .tmp/scrSummary.py:47
-msgid "Summary"
-msgstr "Resum"
-
-#: .tmp/ui_scrSummary.py:95
+#: .tmp/ui_scrWelcome.py:89
 msgid ""
-"<html><head/><body><p>You have successfully finished all steps. Here's a "
-"summary of the settings you want to apply. Click <span style=\" font-"
-"weight:600;\">Apply</span> if they look good, or go back and make more "
-"changes. </p></body></html>"
-msgstr "<html><head/><body><p>Heu finalitzat tots els passos correctament. Aquí teniu un resum de l'arranjament que voleu aplicar. Cliqueu <span style=\" font-weight:600;\">Aplica</span> si esteu segur o torneu enrere i feu més canvis.</p></body></html>"
+"<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span> is a "
+"GNU/Linux distribution with an emphasis on KDE and Qt that focuses on "
+"simplicity from a technical standpoint and cutting-edge software, bringing "
+"the latest technologies to you.<br/><br/>The primary goal of the project is "
+"to provide a fast, user-friendly and powerful Live CD and operating system, "
+"specifically crafted for the award winning KDE Software Compilation and the "
+"elegant Plasma Workspaces.<br/><br/><span style=\" font-"
+"weight:600;\">Kapudan</span> will help you personalize your Chakra "
+"installation easily and quickly. Just click <span style=\" font-"
+"weight:600;\">next</span> when you are ready to begin.</p></body></html>"
+msgstr ""
 
-#: .tmp/ui_scrSummary.py:96
-msgid "The following settings will be applied"
-msgstr "S'aplicarà el següent arranjament"
-
-#: .tmp/scrFolder.py:29 .tmp/ui_scrFolder.py:162
-msgid "Folders"
-msgstr "Carpetes"
-
-#: .tmp/scrFolder.py:30
-msgid "Create folders in the home directory"
-msgstr "Crea carpetes a la carpeta d'inici"
-
-#: .tmp/ui_scrKeyboard.py:102
-msgid "Keyboard"
-msgstr "Teclat"
-
-#: .tmp/ui_scrKeyboard.py:103
-msgid ""
-"<html><head/><body><p>Kapudan tries to automatically select the best "
-"keyboard layout according to your system language. If you want to use "
-"another layout, just make a selection below.</p></body></html>"
-msgstr "<html><head/><body><p>El Kapudan intentarà seleccionar automàticament la millor disposició de teclat, basant-se en el vostre llenguatge del sistema. Si voleu usar una altra disposició, simplement seleccioneu-la a sota.</p></body></html>"
-
-#: .tmp/ui_scrKeyboard.py:104
-msgid "Test area:"
-msgstr "Àrea de prova:"
-
-#: .tmp/ui_scrPackage.py:142 .tmp/scrPackage.py:33
-msgid "Packages"
-msgstr "Paquets"
-
-#: .tmp/ui_scrPackage.py:143
-msgid "Check for updates automatically every"
-msgstr "Comprova si hi ha actualitzacions noves cada"
-
-#: .tmp/ui_scrPackage.py:144
-msgid " minutes"
-msgstr "minuts"
-
-#: .tmp/ui_scrPackage.py:145
-msgid "Use audio along with the visual notification"
-msgstr "Usa àudio juntament amb les notificacions visuals"
-
-#: .tmp/ui_scrPackage.py:146
-msgid ""
-"<html><head/><body><p>To install and remove programs on Chakra, use the "
-"command-line program, <a href=\"http://chakra-"
-"linux.org/wiki/index.php/Pacman\"><span style=\" text-decoration: underline;"
-" color:#0057ae;\">pacman</span></a>. You can run <span style=\" font-"
-"weight:600;\">sudo pacman -Syu</span> to update, <span style=\" font-"
-"weight:600;\">pacman -Ss </span><span style=\" font-weight:600; font-"
-"style:italic;\">keyword</span> to search through the repos, and <span "
-"style=\" font-weight:600;\">sudo pacman -S </span><span style=\" font-"
-"weight:600; font-style:italic;\">package</span> to install "
-"packages.</p><p>Pacman does not have any sort of graphical interface, so "
-"another small app, spun, was created to provide update notifications. When "
-"updates are available, spun will show a notification in your system tray. "
-"</p></body></html>"
-msgstr "<html><head/><body><p>Per a instal·lar o eliminar programes a Chakra, heu d'usar l'eina <a href=\"http://chakra-linux.org/wiki/index.php/Pacman\"><span style=\" text-decoration: underline; color:#0057ae;\">pacman</span></a>. Podeu executar <span style=\" font-weight:600;\">sudo pacman -Syu</span> per a actualitzar, <span style=\" font-weight:600;\">pacman -Ss </span><span style=\" font-weight:600; font-style:italic;\">paraula_clau</span> per a cercar programari als repositoris, i <span style=\" font-weight:600;\">sudo pacman -S </span><span style=\" font-weight:600; font-style:italic;\">paquet</span> per a instal·lar paquets.</p><p>Pacman  <a href=\"http://chakra-linux.org/wiki/index.php/Pacman\"><span style=\" text-decoration: underline; color:#0057ae;\">pacman</span></a>. Pacman no té cap tipus d'interfície gràfica, per tant, hem creat una petita aplicació anomenada Spun per a notificar quant a noves actualitzacions. En disposar de noves actualitzacions, l'Spun ho notificarà a la safata del sistema.</p></body></html>"
-
-#: .tmp/ui_scrPackage.py:147
-msgid "Updates"
-msgstr "Actualitzacions"
-
-#: .tmp/scrAvatar.py:37
-msgid "User Picture"
-msgstr "Imatge d'usuari"
-
-#: .tmp/scrAvatar.py:49
-msgid "Create Your User Picture"
-msgstr "Creeu la vostra imatge d'usuari"
-
-#: .tmp/scrStyle.py:40 .tmp/ui_scrStyle.py:180
+#: .tmp/ui_scrStyle.py:180 .tmp/scrStyle.py:40
 msgid "Themes"
 msgstr "Temes"
 
-#: .tmp/scrStyle.py:41
-msgid "Customize Your Desktop"
-msgstr "Personalitzeu el vostre escriptrori"
-
-#: .tmp/scrSecurity.py:33 .tmp/ui_scrSecurity.py:172
-msgid "Security"
-msgstr "Seguretat"
-
-#: .tmp/scrSecurity.py:34
-msgid "Keep your system secure"
-msgstr "Mantingueu el vostre sistema segur"
-
-#: .tmp/ui_scrAvatar.py:256 .tmp/ui_wallpaperItem.py:82
-#: .tmp/ui_scrStyleItem.py:79
-msgid "Form"
-msgstr "Form"
-
-#: .tmp/ui_scrAvatar.py:257
+#: .tmp/ui_scrStyle.py:181
 msgid ""
-"<html><head/><body><p>This screen helps you set your <span style=\" font-"
-"weight:600;\">user picture</span>. You can either choose an image from a "
-"file, or you can capture an image from your camera, if you have one. Select "
-"an option from the <span style=\" font-weight:600;\">options</span> "
-"menu.</p></body></html>"
-msgstr "<html><head/><body><p>Aquesta pàgina us ajudarà a configurar la vostra <span style=\" font-weight:600;\">imatge d'usuari</span>. Podeu seleccionar una imatge des de un fitxer, o podeu capturar una imatge amb la vostra càmera, si és que en teniu una. Seleccioneu una opció del .<span style=\" font-weight:600;\">options</span> menú.</p></body></html>"
+"Choose your favorite theme and desktop type. Customize Chakra with colorful "
+"styles and themes."
+msgstr "Seleccioneu el vostre tema i estil d'escriptori favorits. Personalitzeu Chakra amb estils i temes."
 
-#: .tmp/ui_scrAvatar.py:258
-msgid "Options"
-msgstr "Opcions"
+#: .tmp/ui_scrStyle.py:182
+msgid "KDE Themes"
+msgstr "Temes del KDE"
 
-#: .tmp/ui_scrAvatar.py:259
-msgid "Choose an image"
-msgstr "Seleccioneu una imatge"
+#: .tmp/ui_scrStyle.py:183
+msgid "Desktop Type"
+msgstr "Tipus d'escriptori"
 
-#: .tmp/ui_scrAvatar.py:260
-msgid "Capture"
-msgstr "Captura"
+#: .tmp/ui_scrStyle.py:184
+msgid "Desktop view (KDE4 Style)"
+msgstr "Vista d'escriptori (estil del KDE4)"
 
-#: .tmp/ui_scrAvatar.py:261
-msgid "Recapture"
-msgstr "Torna a capturar"
+#: .tmp/ui_scrStyle.py:185
+msgid "Folder view (KDE3 Style)"
+msgstr "Vista de carpeta (estil del KDE3)"
 
-#: .tmp/ui_scrWallpaper.py:140 .tmp/scrWallpaper.py:37
-msgid "Wallpaper"
-msgstr "Fons de pantalla"
-
-#: .tmp/ui_scrWallpaper.py:141
-msgid ""
-"<html><head/><body><p>Choose your favorite wallpaper for your Chakra "
-"desktop. Don't forget to check out <span style=\" font-weight:600;\">Desktop"
-" Settings</span> to download cool new wallpapers.</p></body></html>"
-msgstr "<html><head/><body><p>Seleccioneu el vostre fons de pantalla preferit per al vostre escriptori Chakra. No oblideu mirar a <span style=\" font-weight:600;\">Arranjament del sistema</spam> per a baixar nous fons de pantalla.</p></body></html>"
-
-#: .tmp/ui_scrWallpaper.py:142
-msgid "Wallpapers"
-msgstr "Fons de pantalla"
-
-#: .tmp/ui_scrWallpaper.py:144
-msgid "Choose wallpaper from file"
-msgstr "Selecciona un fons de pantalla des de fitxer"
-
-#: .tmp/ui_scrWallpaper.py:145
-msgid "Don't change wallpaper"
-msgstr "No canviIs el fons de pantalla"
-
-#: .tmp/ui_scrGoodbye.py:362
-msgid ""
-"<html><head/><body><p><span style=\" font-weight:600;\">Your settings have "
-"been applied.</span> Now you can start enjoying Chakra, or check out the "
-"following links and applications for more settings, or for help and support."
-" Don't forget to <span style=\" font-weight:600;\">join our "
-"community!</span></p></body></html>"
-msgstr "<html><head/><body><p><span style=\" font-weight:600;\">S'ha aplicat el vostre arranjament.</span> Ara podeu gaudir de Chakra, o comprovar els següents enllaços i aplicacions per a més arranjaments o per a ajuda. No oblideu d'unir-vos a <span style=\" font-weight:600;\">la nostra comunitat</span></p></body></html>"
-
-#: .tmp/ui_scrGoodbye.py:363 .tmp/ui_scrGoodbye.py:365
-msgid "System Settings"
-msgstr "Arranjament del sistema"
-
-#: .tmp/ui_scrGoodbye.py:364
-msgid ""
-"Configuration tools for Chakra, such as the display settings, firewall, "
-"keyboard layout, user management..."
-msgstr "Eines de configuració per a Chakra, com ara l'arranjament de la pantalla, el tallafocs, la disposició del teclat, la gestió d'usuaris..."
-
-#: .tmp/ui_scrGoodbye.py:366 .tmp/ui_scrGoodbye.py:368
-msgid "Help and Support"
-msgstr "Ajuda"
-
-#: .tmp/ui_scrGoodbye.py:367
-msgid ""
-"Chakra community: mailing lists, chat rooms, Wiki documents, help and "
-"support pages..."
-msgstr "Comunitat Chakra: llistes de corre, documents al Wiki, pàgines d'ajuda..."
-
-#: .tmp/ui_scrGoodbye.py:369
-msgid "Using KDE"
-msgstr "Usant el KDE"
-
-#: .tmp/ui_scrGoodbye.py:370
-msgid ""
-"Learn how to get the most out of KDE, the Plasma desktop, and everything "
-"else Chakra has to offer, in the Chakra Beginner's Guide."
-msgstr "Apreneu com obtenir els millors resultats amb el KDE, l'escriptori Plasma i tot el que Chakra pot oferir, a la guia del principiant."
-
-#: .tmp/ui_scrGoodbye.py:371
-msgid "Beginner's Guide"
-msgstr "Guia del principiant"
-
-#: .tmp/ui_scrGoodbye.py:372
-msgid "Run Kapudan on system startup?"
-msgstr "Voleu iniciar el Kapudan en arrencar el sistema?"
-
-#: .tmp/ui_scrFolder.py:155
-msgid "Home Folder"
-msgstr "Carpeta d'inici"
-
-#: .tmp/ui_scrFolder.py:156
-msgid "  Downloads  "
-msgstr "Baixades"
-
-#: .tmp/ui_scrFolder.py:157
-msgid "  Documents  "
-msgstr "Documents"
-
-#: .tmp/ui_scrFolder.py:158
-msgid "  Videos  "
-msgstr "Vídeos"
-
-#: .tmp/ui_scrFolder.py:159
-msgid "  Music  "
-msgstr "Música"
-
-#: .tmp/ui_scrFolder.py:160
-msgid "  Images  "
-msgstr "Imatges"
-
-#: .tmp/ui_scrFolder.py:161
-msgid ""
-"<html><head/><body><p>By default Chakra doesn't create any special folders "
-"in the user's home directory, as Chakra leaves these kind of choices up to "
-"the user. However, in this screen we give you the ability to create the most"
-" commonly used folders.</p></body></html>"
-msgstr "<html><head/><body><p>Chakra no crea cap carpeta especial a la vostra carpeta d'inici, ja que Chakra deixa aquestes decisions en mans de l'usuari. No obstant, aquesta pàgina us proporciona la capacitat de crear les carpetes més usades popularment.</p></body></html>"
-
-#: .tmp/scrMouse.py:32 .tmp/ui_scrMouse.py:213
-msgid "Mouse"
-msgstr "Ratolí"
-
-#: .tmp/scrMouse.py:33
-msgid "Setup Mouse Behavior"
-msgstr "Arranja el comportament del ratolí"
-
-#: .tmp/scrMouse.py:145
-msgid "Left Handed"
-msgstr "Esquerrà"
-
-#: .tmp/scrMouse.py:145
-msgid "Right Handed"
-msgstr "Dretà"
-
-#: .tmp/scrMouse.py:146
-msgid "Single Click "
-msgstr "Click sencill"
-
-#: .tmp/scrMouse.py:146
-msgid "Double Click"
-msgstr "Doble click"
-
-#: .tmp/scrSummary.py:48
-msgid "Save Your Settings"
-msgstr "Desa l'arranjament"
-
-#: .tmp/scrSummary.py:73
-msgid "Mouse Settings"
-msgstr "Arranjament del ratolí"
-
-#: .tmp/scrSummary.py:75
-#, python-format
-msgid "Selected Mouse configuration: <b>%s</b>"
-msgstr "Configuració del ratolí seleccionada: <b>%s</b>"
-
-#: .tmp/scrSummary.py:76
-#, python-format
-msgid "Selected clicking behavior: <b>%s</b>"
-msgstr "Comportament del ratolí: <b>%s</b>"
-
-#: .tmp/scrSummary.py:80
-msgid "Menu Settings"
-msgstr "Arranjament del menú"
-
-#: .tmp/scrSummary.py:81
-#, python-format
-msgid "Selected Menu: <b>%s</b>"
-msgstr "Menú seleccionat: <b>%s</b>"
-
-#: .tmp/scrSummary.py:85
-msgid "Wallpaper Settings"
-msgstr "Arranjament del fons de pantalla"
-
-#: .tmp/scrSummary.py:87
-msgid "You haven't selected any wallpaper."
-msgstr "No heu seleccionat cap fons de pantalla."
-
-#: .tmp/scrSummary.py:89
-#, python-format
-msgid "Selected Wallpaper: <b>%s</b>"
-msgstr "Fons de pantalla seleccionat: <b>%s</n>"
-
-#: .tmp/scrSummary.py:93
-msgid "Style Settings"
-msgstr "Arranjament de l'estil"
-
-#: .tmp/scrSummary.py:96
-msgid "You haven't selected any style."
-msgstr "No heu seleccionat cap estil."
-
-#: .tmp/scrSummary.py:98
-#, python-format
-msgid "Selected Style: <b>%s</b>"
-msgstr "Estil seleccionat: <b>%s</b>"
-
-#: .tmp/scrSummary.py:104
-msgid "Package Management Settings"
-msgstr "Arranjament del gestor de paquets"
-
-#: .tmp/scrSummary.py:105
-msgid "You have enabled or disabled spun."
-msgstr "Heu habilitat o deshabilitat l'Spun."
-
-#: .tmp/scrSummary.py:112 .tmp/scrSummary.py:141
-msgid "You have: "
-msgstr "Heu:"
-
-#: .tmp/scrSummary.py:114
-msgid "Services Settings"
-msgstr "Arranjament dels serveis"
-
-#: .tmp/scrSummary.py:117
-msgid "enabled cups; "
-msgstr "habilitat cups,"
-
-#: .tmp/scrSummary.py:120
-msgid "disabled cups; "
-msgstr "deshabilitat cups,"
-
-#: .tmp/scrSummary.py:123
-msgid "enabled bluetooth; "
-msgstr "habilitat el bluetooth,"
-
-#: .tmp/scrSummary.py:126
-msgid "disabled bluetooth; "
-msgstr "deshabilitat el bluetooth,"
-
-#: .tmp/scrSummary.py:131 .tmp/scrSummary.py:159
-msgid "You have made no changes."
-msgstr "No heu fet canvis."
-
-#: .tmp/scrSummary.py:143
-msgid "Security Settings"
-msgstr "Arranjament de seguretat"
-
-#: .tmp/scrSummary.py:146
-msgid "enabled ClamAV; "
-msgstr "habilitat el ClamAV,"
-
-#: .tmp/scrSummary.py:149
-msgid "disabled ClamAV; "
-msgstr "deshabilitat el ClamAV,"
-
-#: .tmp/scrSummary.py:152
-msgid "enabled the firewall; "
-msgstr "activat el tallafocs,"
-
-#: .tmp/scrSummary.py:155
-msgid "disabled the firewall; "
-msgstr "desactivat el tallafocs,"
-
-#: .tmp/scrSummary.py:176
-msgid "Error"
-msgstr "Error"
-
-#: .tmp/scrSummary.py:176
-msgid "Cannot restart plasma-desktop. Kapudan will now shut down."
-msgstr "No s'ha pogut reiniciar l'escriptori Plasma. Kapudan s'aturarà."
-
-#: .tmp/scrWallpaper.py:38
-msgid "Choose a Wallpaper"
-msgstr "Seleccioneu un fons de pantalla"
+#: .tmp/ui_scrStyle.py:186
+msgid "Number of Desktops"
+msgstr "Nombre d'escriptoris"
 
 #: .tmp/ui_scrServices.py:127 .tmp/scrServices.py:31
 msgid "Services"
@@ -476,31 +106,56 @@ msgstr "<html><head/><body><p>De forma predeterminada, les noves instal·lacions
 msgid "Daemons to start at boot time"
 msgstr "Dimonis que s'han d'iniciar en arrencar"
 
-#: .tmp/ui_scrStyle.py:181
+#: .tmp/scrFolder.py:30 .tmp/ui_scrFolder.py:162
+msgid "Folders"
+msgstr "Carpetes"
+
+#: .tmp/scrFolder.py:31
+msgid "Create folders in the home directory"
+msgstr "Crea carpetes a la carpeta d'inici"
+
+#: .tmp/kapudan.desktop.in.h:1 .tmp/ui_kapudan.py:368
+msgid "Kapudan"
+msgstr "Kapudan"
+
+#: .tmp/kapudan.desktop.in.h:2
+msgid "Welcome Wizard"
+msgstr "Assistent de benvinguda"
+
+#: .tmp/scrPackage.py:33 .tmp/ui_scrPackage.py:142
+msgid "Packages"
+msgstr "Paquets"
+
+#: .tmp/scrPackage.py:34
+msgid "Install / Remove Programs"
+msgstr "Instal·la/elimina programes"
+
+#: .tmp/ui_scrWallpaper.py:140 .tmp/scrWallpaper.py:37
+msgid "Wallpaper"
+msgstr "Fons de pantalla"
+
+#: .tmp/ui_scrWallpaper.py:141
 msgid ""
-"Choose your favorite theme and desktop type. Customize Chakra with colorful "
-"styles and themes."
-msgstr "Seleccioneu el vostre tema i estil d'escriptori favorits. Personalitzeu Chakra amb estils i temes."
+"<html><head/><body><p>Choose your favorite wallpaper for your Chakra "
+"desktop. Don't forget to check out <span style=\" font-weight:600;\">Desktop"
+" Settings</span> to download cool new wallpapers.</p></body></html>"
+msgstr "<html><head/><body><p>Seleccioneu el vostre fons de pantalla preferit per al vostre escriptori Chakra. No oblideu mirar a <span style=\" font-weight:600;\">Arranjament del sistema</spam> per a baixar nous fons de pantalla.</p></body></html>"
 
-#: .tmp/ui_scrStyle.py:182
-msgid "KDE Themes"
-msgstr "Temes del KDE"
+#: .tmp/ui_scrWallpaper.py:142
+msgid "Wallpapers"
+msgstr "Fons de pantalla"
 
-#: .tmp/ui_scrStyle.py:183
-msgid "Desktop Type"
-msgstr "Tipus d'escriptori"
+#: .tmp/ui_scrWallpaper.py:144
+msgid "Choose wallpaper from file"
+msgstr "Selecciona un fons de pantalla des de fitxer"
 
-#: .tmp/ui_scrStyle.py:184
-msgid "Desktop view (KDE4 Style)"
-msgstr "Vista d'escriptori (estil del KDE4)"
+#: .tmp/ui_scrWallpaper.py:145
+msgid "Don't change wallpaper"
+msgstr "No canviIs el fons de pantalla"
 
-#: .tmp/ui_scrStyle.py:185
-msgid "Folder view (KDE3 Style)"
-msgstr "Vista de carpeta (estil del KDE3)"
-
-#: .tmp/ui_scrStyle.py:186
-msgid "Number of Desktops"
-msgstr "Nombre d'escriptoris"
+#: .tmp/ui_scrSecurity.py:172 .tmp/scrSecurity.py:33
+msgid "Security"
+msgstr "Seguretat"
 
 #: .tmp/ui_scrSecurity.py:173
 msgid "Enable the firewall (UFW)"
@@ -560,47 +215,85 @@ msgstr "<html><head/><body><p>La seguretat és un procés. no un servei, i cap s
 msgid "Security Tools"
 msgstr "Eines de seguretat"
 
-#: .tmp/ui_scrMenu.py:134 .tmp/scrMenu.py:28
-msgid "Menu"
-msgstr "Menú"
+#: .tmp/scrMouse.py:32 .tmp/ui_scrMouse.py:213
+msgid "Mouse"
+msgstr "Ratolí"
 
-#: .tmp/ui_scrMenu.py:135
-msgid ""
-"You can also customize your <b>KDE menu</b> as you like. Please choose one "
-"from the following styles."
-msgstr "També podeu personalitzar el vostre <b>menú del KDE</b> a la vostra elecció. Seleccioneu un dels següents estils"
+#: .tmp/scrMouse.py:33
+msgid "Setup Mouse Behavior"
+msgstr "Arranja el comportament del ratolí"
 
-#: .tmp/ui_scrMenu.py:136 .tmp/scrMenu.py:43
-msgid "Kick-off Menu"
-msgstr "Menú Kick-off"
+#: .tmp/scrMouse.py:145
+msgid "Left Handed"
+msgstr "Esquerrà"
 
-#: .tmp/ui_scrMenu.py:137 .tmp/scrMenu.py:49
-msgid "Simple Menu"
-msgstr "Menú senzill"
+#: .tmp/scrMouse.py:145
+msgid "Right Handed"
+msgstr "Dretà"
 
-#: .tmp/ui_scrMenu.py:138 .tmp/scrMenu.py:55
-msgid "Lancelot Menu"
-msgstr "Menú Lancelot"
+#: .tmp/scrMouse.py:146
+msgid "Single Click "
+msgstr "Click sencill"
 
-#: .tmp/ui_scrMenu.py:139 .tmp/scrMenu.py:61
-msgid "Homerun Menu"
-msgstr "Menú Homerun"
+#: .tmp/scrMouse.py:146
+msgid "Double Click"
+msgstr "Doble click"
 
-#: .tmp/ui_scrMenu.py:140 .tmp/scrMenu.py:67
-msgid "AppMenu QML"
+#: .tmp/ui_scrFolder.py:155
+msgid "Home Folder"
+msgstr "Carpeta d'inici"
+
+#: .tmp/ui_scrFolder.py:156
+msgid "  Downloads  "
+msgstr "Baixades"
+
+#: .tmp/ui_scrFolder.py:157
+msgid "  Documents  "
+msgstr "Documents"
+
+#: .tmp/ui_scrFolder.py:158
+msgid "  Videos  "
+msgstr "Vídeos"
+
+#: .tmp/ui_scrFolder.py:159
+msgid "  Music  "
+msgstr "Música"
+
+#: .tmp/ui_scrFolder.py:160
+msgid "  Pictures  "
 msgstr ""
 
-#: .tmp/ui_scrMenu.py:141
-msgid "Sample"
-msgstr "Mostra"
+#: .tmp/ui_scrFolder.py:161
+msgid ""
+"<html><head/><body><p>Your home directory does not contain folders for "
+"documents, music, pictures and the like by default. Kapudan will create the "
+"folders selected below for you now; unselect the ones you don't "
+"want.</p></body></html>"
+msgstr ""
 
-#: .tmp/ui_wallpaperItem.py:83
-msgid "wallPaperName"
-msgstr "wallPaperName"
+#: .tmp/ui_kapudan.py:369
+msgid "Welcome to Chakra"
+msgstr "Benvingut a Chakra"
 
-#: .tmp/ui_wallpaperItem.py:84
-msgid "wallpaperDesc"
-msgstr "wallpaperDesc"
+#: .tmp/ui_kapudan.py:370
+msgid "Cancel"
+msgstr "Cancel·la"
+
+#: .tmp/ui_kapudan.py:371
+msgid "Back"
+msgstr "Anterior"
+
+#: .tmp/ui_kapudan.py:372
+msgid "Next"
+msgstr "Següent"
+
+#: .tmp/ui_kapudan.py:373
+msgid "Finish"
+msgstr "Acaba"
+
+#: .tmp/ui_kapudan.py:374
+msgid "Apply"
+msgstr "Aplica"
 
 #: .tmp/ui_scrSearch.py:109
 msgid "Search"
@@ -621,9 +314,17 @@ msgstr "Permet a l'Strigi indexar el meus fitxers"
 msgid "Search Options"
 msgstr "Opcions de cerca"
 
+#: .tmp/scrMenu.py:28 .tmp/ui_scrMenu.py:134
+msgid "Menu"
+msgstr "Menú"
+
 #: .tmp/scrMenu.py:29
 msgid "Choose a Menu Style"
 msgstr "Seleccioneu en estil de menú"
+
+#: .tmp/scrMenu.py:43 .tmp/ui_scrMenu.py:136
+msgid "Kick-off Menu"
+msgstr "Menú Kick-off"
 
 #: .tmp/scrMenu.py:45
 msgid ""
@@ -631,11 +332,19 @@ msgid ""
 "are easy to access and well organized."
 msgstr "El menú Kick-off és el menú pee omissió de Chakra<br><br>Les dreceres dels programes són fàcils i estan ben organitzades."
 
+#: .tmp/scrMenu.py:49 .tmp/ui_scrMenu.py:137
+msgid "Simple Menu"
+msgstr "Menú senzill"
+
 #: .tmp/scrMenu.py:51
 msgid ""
 "Simple menu is an old style menu from KDE 3.<br><br>It is a very lightweight"
 " menu thus it is recommended for slower PC's."
 msgstr "El menú senzill és un estil antic de KDE 3.<br><br>Is un menú molt lleuger i per tant molt recomanable en ordinadors lents."
+
+#: .tmp/scrMenu.py:55 .tmp/ui_scrMenu.py:138
+msgid "Lancelot Menu"
+msgstr "Menú Lancelot"
 
 #: .tmp/scrMenu.py:57
 msgid ""
@@ -643,9 +352,17 @@ msgid ""
 "program shortcuts are easy to access and well organized."
 msgstr "El Lancelot és un menú avançat i molt personalitzable per a Chakra.<br><br>Les dreceres de programa tenen un accés fàcil i són ben organitzades."
 
+#: .tmp/scrMenu.py:61 .tmp/ui_scrMenu.py:139
+msgid "Homerun Menu"
+msgstr "Menú Homerun"
+
 #: .tmp/scrMenu.py:63
 msgid "Homerun is a full screen launcher with content organized in tabs."
 msgstr "El Homerun és un llançador a pantalla completa amb contingut organitzat en pestanyes."
+
+#: .tmp/scrMenu.py:67 .tmp/ui_scrMenu.py:140
+msgid "AppMenu QML"
+msgstr ""
 
 #: .tmp/scrMenu.py:69
 msgid ""
@@ -653,39 +370,237 @@ msgid ""
 "Lancelot but much simpler"
 msgstr ""
 
-#: .tmp/ui_scrStyleItem.py:80
-msgid "styleName"
-msgstr "styleName"
+#: .tmp/ui_wallpaperItem.py:82 .tmp/ui_scrAvatar.py:256
+#: .tmp/ui_scrStyleItem.py:79
+msgid "Form"
+msgstr "Form"
 
-#: .tmp/ui_scrStyleItem.py:81
-msgid "styleDesc"
-msgstr "styleDesc"
+#: .tmp/ui_wallpaperItem.py:83
+msgid "wallPaperName"
+msgstr "wallPaperName"
 
-#: .tmp/ui_scrWelcome.py:88
-msgid "What is Chakra?"
-msgstr "Que és Chakra?"
+#: .tmp/ui_wallpaperItem.py:84
+msgid "wallpaperDesc"
+msgstr "wallpaperDesc"
 
-#: .tmp/ui_scrWelcome.py:89
-msgid ""
-"<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span> is a "
-"GNU/Linux distribution with an emphasis on KDE and Qt that focuses on "
-"simplicity from a technical standpoint and cutting-edge software, bringing "
-"the latest technologies to you.<br/><br/>The primary goal of the project is "
-"to provide a fast, user-friendly and powerful Live CD and operating system, "
-"specifically crafted for the award winning KDE Software Compilation and the "
-"elegant Plasma Workspaces.<br/><br/><span style=\" font-"
-"weight:600;\">Kapudan</span> will help you personalize your Chakra "
-"installation easily and quickly. Just click <span style=\" font-"
-"weight:600;\">next</span> when you are ready to begin.</p></body></html>"
+#: .tmp/scrKsuperkey.py:31 .tmp/ui_scrKsuperkey.py:124
+#: .tmp/ui_scrKsuperkey.py:127
+msgid "ksuperkey"
 msgstr ""
 
-#: .tmp/kapudan.desktop.in.h:2
-msgid "Welcome Wizard"
-msgstr "Assistent de benvinguda"
+#: .tmp/scrKsuperkey.py:32
+msgid "Enable / Disable ksuperkey"
+msgstr ""
 
-#: .tmp/scrPackage.py:34
-msgid "Install / Remove Programs"
-msgstr "Instal·la/elimina programes"
+#: .tmp/ui_scrKeyboard.py:102
+msgid "Keyboard"
+msgstr "Teclat"
+
+#: .tmp/ui_scrKeyboard.py:103
+msgid ""
+"<html><head/><body><p>Kapudan tries to automatically select the best "
+"keyboard layout according to your system language. If you want to use "
+"another layout, just make a selection below.</p></body></html>"
+msgstr "<html><head/><body><p>El Kapudan intentarà seleccionar automàticament la millor disposició de teclat, basant-se en el vostre llenguatge del sistema. Si voleu usar una altra disposició, simplement seleccioneu-la a sota.</p></body></html>"
+
+#: .tmp/ui_scrKeyboard.py:104
+msgid "Test area:"
+msgstr "Àrea de prova:"
+
+#: .tmp/scrSummary.py:46 .tmp/ui_scrSummary.py:94
+msgid "Summary"
+msgstr "Resum"
+
+#: .tmp/scrSummary.py:47
+msgid "Save Your Settings"
+msgstr "Desa l'arranjament"
+
+#: .tmp/scrSummary.py:71
+msgid "Mouse Settings"
+msgstr "Arranjament del ratolí"
+
+#: .tmp/scrSummary.py:73
+#, python-format
+msgid "Selected Mouse configuration: <b>%s</b>"
+msgstr "Configuració del ratolí seleccionada: <b>%s</b>"
+
+#: .tmp/scrSummary.py:74
+#, python-format
+msgid "Selected clicking behavior: <b>%s</b>"
+msgstr "Comportament del ratolí: <b>%s</b>"
+
+#: .tmp/scrSummary.py:78
+msgid "Menu Settings"
+msgstr "Arranjament del menú"
+
+#: .tmp/scrSummary.py:79
+#, python-format
+msgid "Selected Menu: <b>%s</b>"
+msgstr "Menú seleccionat: <b>%s</b>"
+
+#: .tmp/scrSummary.py:83
+msgid "Wallpaper Settings"
+msgstr "Arranjament del fons de pantalla"
+
+#: .tmp/scrSummary.py:85
+msgid "You haven't selected any wallpaper."
+msgstr "No heu seleccionat cap fons de pantalla."
+
+#: .tmp/scrSummary.py:87
+#, python-format
+msgid "Selected Wallpaper: <b>%s</b>"
+msgstr "Fons de pantalla seleccionat: <b>%s</n>"
+
+#: .tmp/scrSummary.py:91
+msgid "Style Settings"
+msgstr "Arranjament de l'estil"
+
+#: .tmp/scrSummary.py:94
+msgid "You haven't selected any style."
+msgstr "No heu seleccionat cap estil."
+
+#: .tmp/scrSummary.py:96
+#, python-format
+msgid "Selected Style: <b>%s</b>"
+msgstr "Estil seleccionat: <b>%s</b>"
+
+#: .tmp/scrSummary.py:102
+msgid "Package Management Settings"
+msgstr "Arranjament del gestor de paquets"
+
+#: .tmp/scrSummary.py:103
+msgid "You have enabled or disabled spun."
+msgstr "Heu habilitat o deshabilitat l'Spun."
+
+#: .tmp/scrSummary.py:110 .tmp/scrSummary.py:139
+msgid "You have: "
+msgstr "Heu:"
+
+#: .tmp/scrSummary.py:112
+msgid "Services Settings"
+msgstr "Arranjament dels serveis"
+
+#: .tmp/scrSummary.py:115
+msgid "enabled cups; "
+msgstr "habilitat cups,"
+
+#: .tmp/scrSummary.py:118
+msgid "disabled cups; "
+msgstr "deshabilitat cups,"
+
+#: .tmp/scrSummary.py:121
+msgid "enabled bluetooth; "
+msgstr "habilitat el bluetooth,"
+
+#: .tmp/scrSummary.py:124
+msgid "disabled bluetooth; "
+msgstr "deshabilitat el bluetooth,"
+
+#: .tmp/scrSummary.py:129 .tmp/scrSummary.py:157
+msgid "You have made no changes."
+msgstr "No heu fet canvis."
+
+#: .tmp/scrSummary.py:141
+msgid "Security Settings"
+msgstr "Arranjament de seguretat"
+
+#: .tmp/scrSummary.py:144
+msgid "enabled ClamAV; "
+msgstr "habilitat el ClamAV,"
+
+#: .tmp/scrSummary.py:147
+msgid "disabled ClamAV; "
+msgstr "deshabilitat el ClamAV,"
+
+#: .tmp/scrSummary.py:150
+msgid "enabled the firewall; "
+msgstr "activat el tallafocs,"
+
+#: .tmp/scrSummary.py:153
+msgid "disabled the firewall; "
+msgstr "desactivat el tallafocs,"
+
+#: .tmp/scrSummary.py:174
+msgid "Error"
+msgstr "Error"
+
+#: .tmp/scrSummary.py:174
+msgid "Cannot restart plasma-desktop. Kapudan will now shut down."
+msgstr "No s'ha pogut reiniciar l'escriptori Plasma. Kapudan s'aturarà."
+
+#: .tmp/scrStyle.py:41
+msgid "Customize Your Desktop"
+msgstr "Personalitzeu el vostre escriptrori"
+
+#: .tmp/scrWallpaper.py:38
+msgid "Choose a Wallpaper"
+msgstr "Seleccioneu un fons de pantalla"
+
+#: .tmp/ui_scrAvatar.py:257
+msgid ""
+"<html><head/><body><p>This screen helps you set your <span style=\" font-"
+"weight:600;\">user picture</span>. You can either choose an image from a "
+"file, or you can capture an image from your camera, if you have one. Select "
+"an option from the <span style=\" font-weight:600;\">options</span> "
+"menu.</p></body></html>"
+msgstr "<html><head/><body><p>Aquesta pàgina us ajudarà a configurar la vostra <span style=\" font-weight:600;\">imatge d'usuari</span>. Podeu seleccionar una imatge des de un fitxer, o podeu capturar una imatge amb la vostra càmera, si és que en teniu una. Seleccioneu una opció del .<span style=\" font-weight:600;\">options</span> menú.</p></body></html>"
+
+#: .tmp/ui_scrAvatar.py:258
+msgid "Options"
+msgstr "Opcions"
+
+#: .tmp/ui_scrAvatar.py:259
+msgid "Choose an image"
+msgstr "Seleccioneu una imatge"
+
+#: .tmp/ui_scrAvatar.py:260
+msgid "Capture"
+msgstr "Captura"
+
+#: .tmp/ui_scrAvatar.py:261
+msgid "Recapture"
+msgstr "Torna a capturar"
+
+#: .tmp/scrGoodbye.py:28 .tmp/ui_scrGoodbye.py:361
+msgid "More"
+msgstr "Més"
+
+#: .tmp/scrGoodbye.py:29
+msgid "Congratulations!"
+msgstr "Felicitats!"
+
+#: .tmp/ui_scrPackage.py:143
+msgid "Check for updates automatically every"
+msgstr "Comprova si hi ha actualitzacions noves cada"
+
+#: .tmp/ui_scrPackage.py:144
+msgid " minutes"
+msgstr "minuts"
+
+#: .tmp/ui_scrPackage.py:145
+msgid "Use audio along with the visual notification"
+msgstr "Usa àudio juntament amb les notificacions visuals"
+
+#: .tmp/ui_scrPackage.py:146
+msgid ""
+"<html><head/><body><p>To install and remove programs on Chakra, use the "
+"command-line program, <a href=\"http://chakra-"
+"linux.org/wiki/index.php/Pacman\"><span style=\" text-decoration: underline;"
+" color:#0057ae;\">pacman</span></a>. You can run <span style=\" font-"
+"weight:600;\">sudo pacman -Syu</span> to update, <span style=\" font-"
+"weight:600;\">pacman -Ss </span><span style=\" font-weight:600; font-"
+"style:italic;\">keyword</span> to search through the repos, and <span "
+"style=\" font-weight:600;\">sudo pacman -S </span><span style=\" font-"
+"weight:600; font-style:italic;\">package</span> to install "
+"packages.</p><p>Pacman does not have any sort of graphical interface, so "
+"another small app, spun, was created to provide update notifications. When "
+"updates are available, spun will show a notification in your system tray. "
+"</p></body></html>"
+msgstr "<html><head/><body><p>Per a instal·lar o eliminar programes a Chakra, heu d'usar l'eina <a href=\"http://chakra-linux.org/wiki/index.php/Pacman\"><span style=\" text-decoration: underline; color:#0057ae;\">pacman</span></a>. Podeu executar <span style=\" font-weight:600;\">sudo pacman -Syu</span> per a actualitzar, <span style=\" font-weight:600;\">pacman -Ss </span><span style=\" font-weight:600; font-style:italic;\">paraula_clau</span> per a cercar programari als repositoris, i <span style=\" font-weight:600;\">sudo pacman -S </span><span style=\" font-weight:600; font-style:italic;\">paquet</span> per a instal·lar paquets.</p><p>Pacman  <a href=\"http://chakra-linux.org/wiki/index.php/Pacman\"><span style=\" text-decoration: underline; color:#0057ae;\">pacman</span></a>. Pacman no té cap tipus d'interfície gràfica, per tant, hem creat una petita aplicació anomenada Spun per a notificar quant a noves actualitzacions. En disposar de noves actualitzacions, l'Spun ho notificarà a la safata del sistema.</p></body></html>"
+
+#: .tmp/ui_scrPackage.py:147
+msgid "Updates"
+msgstr "Actualitzacions"
 
 #: .tmp/ui_scrMouse.py:214
 msgid ""
@@ -724,6 +639,106 @@ msgstr "Mà esquerra"
 msgid "Reverse scrolling"
 msgstr "Desplaçament vertical invers"
 
+#: .tmp/ui_scrGoodbye.py:362
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:600;\">Your settings have "
+"been applied.</span> Now you can start enjoying Chakra, or check out the "
+"following links and applications for more settings, or for help and support."
+" Don't forget to <span style=\" font-weight:600;\">join our "
+"community!</span></p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:600;\">S'ha aplicat el vostre arranjament.</span> Ara podeu gaudir de Chakra, o comprovar els següents enllaços i aplicacions per a més arranjaments o per a ajuda. No oblideu d'unir-vos a <span style=\" font-weight:600;\">la nostra comunitat</span></p></body></html>"
+
+#: .tmp/ui_scrGoodbye.py:363 .tmp/ui_scrGoodbye.py:365
+msgid "System Settings"
+msgstr "Arranjament del sistema"
+
+#: .tmp/ui_scrGoodbye.py:364
+msgid ""
+"Configuration tools for Chakra, such as the display settings, firewall, "
+"keyboard layout, user management..."
+msgstr "Eines de configuració per a Chakra, com ara l'arranjament de la pantalla, el tallafocs, la disposició del teclat, la gestió d'usuaris..."
+
+#: .tmp/ui_scrGoodbye.py:366 .tmp/ui_scrGoodbye.py:368
+msgid "Help and Support"
+msgstr "Ajuda"
+
+#: .tmp/ui_scrGoodbye.py:367
+msgid ""
+"Chakra community: mailing lists, chat rooms, Wiki documents, help and "
+"support pages..."
+msgstr "Comunitat Chakra: llistes de corre, documents al Wiki, pàgines d'ajuda..."
+
+#: .tmp/ui_scrGoodbye.py:369
+msgid "Using KDE"
+msgstr "Usant el KDE"
+
+#: .tmp/ui_scrGoodbye.py:370
+msgid ""
+"Learn how to get the most out of KDE, the Plasma desktop, and everything "
+"else Chakra has to offer, in the Chakra Beginner's Guide."
+msgstr "Apreneu com obtenir els millors resultats amb el KDE, l'escriptori Plasma i tot el que Chakra pot oferir, a la guia del principiant."
+
+#: .tmp/ui_scrGoodbye.py:371
+msgid "Beginner's Guide"
+msgstr "Guia del principiant"
+
+#: .tmp/ui_scrGoodbye.py:372
+msgid "Run Kapudan on system startup?"
+msgstr "Voleu iniciar el Kapudan en arrencar el sistema?"
+
+#: .tmp/scrWelcome.py:28
+#, python-format
+msgid "Welcome to %s"
+msgstr "Benvingut a %s"
+
+#: .tmp/scrSecurity.py:34
+msgid "Keep your system secure"
+msgstr "Mantingueu el vostre sistema segur"
+
 #: .tmp/scrServices.py:32
 msgid "Enable / Disable Services (Daemons)"
 msgstr "Habilita/deshabilita serveis (dimonis)"
+
+#: .tmp/ui_scrStyleItem.py:80
+msgid "styleName"
+msgstr "styleName"
+
+#: .tmp/ui_scrStyleItem.py:81
+msgid "styleDesc"
+msgstr "styleDesc"
+
+#: .tmp/ui_scrMenu.py:135
+msgid ""
+"You can also customize your <b>KDE menu</b> as you like. Please choose one "
+"from the following styles."
+msgstr "També podeu personalitzar el vostre <b>menú del KDE</b> a la vostra elecció. Seleccioneu un dels següents estils"
+
+#: .tmp/ui_scrMenu.py:141
+msgid "Sample"
+msgstr "Mostra"
+
+#: .tmp/ui_scrKsuperkey.py:125
+msgid "Enable ksuperkey and start it at login."
+msgstr ""
+
+#: .tmp/ui_scrKsuperkey.py:126
+msgid ""
+"<html><head/><body><p>By default, you can open the application launcher with"
+" the <span style=\" font-weight:600;\">Alt+F1</span> keyboard shortcut. The "
+"<span style=\" font-weight:600;\">ksuperkey</span> program will bind your "
+"&quot;Super&quot; key (also known as the &quot;Meta&quot; or "
+"&quot;Windows&quot; key) to send this key combination when tapped, making it"
+" easier to open the launcher.</p></body></html>"
+msgstr ""
+
+#: .tmp/ui_scrSummary.py:95
+msgid ""
+"<html><head/><body><p>You have successfully finished all steps. Here's a "
+"summary of the settings you want to apply. Click <span style=\" font-"
+"weight:600;\">Apply</span> if they look good, or go back and make more "
+"changes. </p></body></html>"
+msgstr "<html><head/><body><p>Heu finalitzat tots els passos correctament. Aquí teniu un resum de l'arranjament que voleu aplicar. Cliqueu <span style=\" font-weight:600;\">Aplica</span> si esteu segur o torneu enrere i feu més canvis.</p></body></html>"
+
+#: .tmp/ui_scrSummary.py:96
+msgid "The following settings will be applied"
+msgstr "S'aplicarà el següent arranjament"

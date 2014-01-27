@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Chakra Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-09 21:36+0100\n"
-"PO-Revision-Date: 2013-11-14 08:56+0000\n"
+"POT-Creation-Date: 2014-01-26 14:27-0700\n"
+"PO-Revision-Date: 2014-01-27 09:03+0000\n"
 "Last-Translator: Manuel Tortosa <manutortosa@chakra-project.org>\n"
 "Language-Team: Indonesian (http://www.transifex.com/projects/p/chakra-project/language/id/)\n"
 "MIME-Version: 1.0\n"
@@ -18,427 +18,57 @@ msgstr ""
 "Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: .tmp/scrWelcome.py:27 .tmp/ui_scrWelcome.py:87
+#: .tmp/ui_scrWelcome.py:87 .tmp/scrWelcome.py:27
 msgid "Welcome"
 msgstr "Selamat Datang"
 
-#: .tmp/scrWelcome.py:28
-#, python-format
-msgid "Welcome to %s"
-msgstr "Selamat Datang di %s"
+#: .tmp/ui_scrWelcome.py:88
+msgid "What is Chakra?"
+msgstr "Apa itu Chakra?"
 
-#: .tmp/ui_kapudan.py:368 .tmp/kapudan.desktop.in.h:1
-msgid "Kapudan"
-msgstr "Kapudan"
-
-#: .tmp/ui_kapudan.py:369
-msgid "Welcome to Chakra"
-msgstr "Selamat Datang di Chakra"
-
-#: .tmp/ui_kapudan.py:370
-msgid "Cancel"
-msgstr "Batal"
-
-#: .tmp/ui_kapudan.py:371
-msgid "Back"
-msgstr "Kembali"
-
-#: .tmp/ui_kapudan.py:372
-msgid "Next"
-msgstr "Lanjut"
-
-#: .tmp/ui_kapudan.py:373
-msgid "Finish"
-msgstr "Selesai"
-
-#: .tmp/ui_kapudan.py:374
-msgid "Apply"
-msgstr "Terapkan"
-
-#: .tmp/scrGoodbye.py:28 .tmp/ui_scrGoodbye.py:361
-msgid "More"
-msgstr "Lebih Banyak"
-
-#: .tmp/scrGoodbye.py:29
-msgid "Congratulations!"
-msgstr "Selamat!"
-
-#: .tmp/ui_scrSummary.py:94 .tmp/scrSummary.py:47
-msgid "Summary"
-msgstr "Ringkasan"
-
-#: .tmp/ui_scrSummary.py:95
+#: .tmp/ui_scrWelcome.py:89
 msgid ""
-"<html><head/><body><p>You have successfully finished all steps. Here's a "
-"summary of the settings you want to apply. Click <span style=\" font-"
-"weight:600;\">Apply</span> if they look good, or go back and make more "
-"changes. </p></body></html>"
-msgstr "<html><head/><body><p>Anda sudah berhasil menyelesaikan semua langkah. Berikut adalah ringkasan dari pengaturan yang ingin anda terapkan. Klik <span style=\" font-weight:600;\">Terapkan</span> jika anda sudah puas, atau kembali dan lakukan perubahan lagi. </p></body></html>"
+"<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span> is a "
+"GNU/Linux distribution with an emphasis on KDE and Qt that focuses on "
+"simplicity from a technical standpoint and cutting-edge software, bringing "
+"the latest technologies to you.<br/><br/>The primary goal of the project is "
+"to provide a fast, user-friendly and powerful Live CD and operating system, "
+"specifically crafted for the award winning KDE Software Compilation and the "
+"elegant Plasma Workspaces.<br/><br/><span style=\" font-"
+"weight:600;\">Kapudan</span> will help you personalize your Chakra "
+"installation easily and quickly. Just click <span style=\" font-"
+"weight:600;\">next</span> when you are ready to begin.</p></body></html>"
+msgstr ""
 
-#: .tmp/ui_scrSummary.py:96
-msgid "The following settings will be applied"
-msgstr "Perubahan pengaturan berikut yang akan diterapkan"
-
-#: .tmp/scrFolder.py:29 .tmp/ui_scrFolder.py:162
-msgid "Folders"
-msgstr "Folder"
-
-#: .tmp/scrFolder.py:30
-msgid "Create folders in the home directory"
-msgstr "Buat folder di direktori home"
-
-#: .tmp/ui_scrKeyboard.py:102
-msgid "Keyboard"
-msgstr "Keyboard"
-
-#: .tmp/ui_scrKeyboard.py:103
-msgid ""
-"<html><head/><body><p>Kapudan tries to automatically select the best "
-"keyboard layout according to your system language. If you want to use "
-"another layout, just make a selection below.</p></body></html>"
-msgstr "<html><head/><body><p>Kapudan berusaha untuk memilih layout keyboard terbaik berdasar bahasa sistem anda. Jika anda ingin menggunakan layout yang lain, pilihlah pada pilihan dibawah.</p></body></html>"
-
-#: .tmp/ui_scrKeyboard.py:104
-msgid "Test area:"
-msgstr "Area Test:"
-
-#: .tmp/ui_scrPackage.py:142 .tmp/scrPackage.py:33
-msgid "Packages"
-msgstr "Paket"
-
-#: .tmp/ui_scrPackage.py:143
-msgid "Check for updates automatically every"
-msgstr "Periksa update secara otomatis setiap"
-
-#: .tmp/ui_scrPackage.py:144
-msgid " minutes"
-msgstr "menit"
-
-#: .tmp/ui_scrPackage.py:145
-msgid "Use audio along with the visual notification"
-msgstr "Gunakan suara bersamaan dengan notifikasi visual"
-
-#: .tmp/ui_scrPackage.py:146
-msgid ""
-"<html><head/><body><p>To install and remove programs on Chakra, use the "
-"command-line program, <a href=\"http://chakra-"
-"linux.org/wiki/index.php/Pacman\"><span style=\" text-decoration: underline;"
-" color:#0057ae;\">pacman</span></a>. You can run <span style=\" font-"
-"weight:600;\">sudo pacman -Syu</span> to update, <span style=\" font-"
-"weight:600;\">pacman -Ss </span><span style=\" font-weight:600; font-"
-"style:italic;\">keyword</span> to search through the repos, and <span "
-"style=\" font-weight:600;\">sudo pacman -S </span><span style=\" font-"
-"weight:600; font-style:italic;\">package</span> to install "
-"packages.</p><p>Pacman does not have any sort of graphical interface, so "
-"another small app, spun, was created to provide update notifications. When "
-"updates are available, spun will show a notification in your system tray. "
-"</p></body></html>"
-msgstr "<html><head/><body><p>Untuk menginstal dan menghapus program pada Chakra, gunakan program command-line, <a href=\"http://chakra-linux.org/wiki/index.php/Pacman\"><span style=\"text-decoration:underline;color:$0057ae;\">pacman</span></a>. Anda dapat menjalankan ,<span style=\" font-weight:600;\">sudo pacman -Syu</span> untuk mengupdate, <span style=\" font-weight:600;\">pacman -Ss </span><span style=\" font-weight:600; font-style:italic;\">kata kunci</span> untuk mencari pada repositori, <span style=\" font-weight:600;\">sudo pacman -S </span><span style=\" font-weight:600; font-style:italic;\">paket</span> untuk menginstall paket.</p><p>Pacman tidak mempunyai antarmuka grafis apapun, jadi aplikasi kecil lain, spun, dibuat untuk menyediakan notifikasi update. Ketika update tersedia, spun akan menampilkan notifikasi pada tray sistem anda. </p></body></html>"
-
-#: .tmp/ui_scrPackage.py:147
-msgid "Updates"
-msgstr "Update"
-
-#: .tmp/scrAvatar.py:37
-msgid "User Picture"
-msgstr "Citra Pengguna"
-
-#: .tmp/scrAvatar.py:49
-msgid "Create Your User Picture"
-msgstr "Buat Citra Pengguna Anda"
-
-#: .tmp/scrStyle.py:40 .tmp/ui_scrStyle.py:180
+#: .tmp/ui_scrStyle.py:180 .tmp/scrStyle.py:40
 msgid "Themes"
 msgstr "Tema"
 
-#: .tmp/scrStyle.py:41
-msgid "Customize Your Desktop"
-msgstr "Sesuaikan Desktop Anda"
-
-#: .tmp/scrSecurity.py:33 .tmp/ui_scrSecurity.py:172
-msgid "Security"
-msgstr "Keamanan"
-
-#: .tmp/scrSecurity.py:34
-msgid "Keep your system secure"
-msgstr "Jaga sistem anda tetap aman"
-
-#: .tmp/ui_scrAvatar.py:256 .tmp/ui_wallpaperItem.py:82
-#: .tmp/ui_scrStyleItem.py:79
-msgid "Form"
-msgstr "Form"
-
-#: .tmp/ui_scrAvatar.py:257
+#: .tmp/ui_scrStyle.py:181
 msgid ""
-"<html><head/><body><p>This screen helps you set your <span style=\" font-"
-"weight:600;\">user picture</span>. You can either choose an image from a "
-"file, or you can capture an image from your camera, if you have one. Select "
-"an option from the <span style=\" font-weight:600;\">options</span> "
-"menu.</p></body></html>"
-msgstr "<html><head/><body><p>Layar ini membantu anda mengatur <span style=\"font-weight:600;\">user picture</span> anda. Anda dapat memilih dari berkas citra, atau anda dapat mengambil citra dari kamera, jika ada. Pilih sebuah opsi dari menu <span style=\"font-weight:600;\">options</span>.</p></body></html>"
+"Choose your favorite theme and desktop type. Customize Chakra with colorful "
+"styles and themes."
+msgstr "Pilih tema dan gaya desktop favorit anda. Sesuaikan Chakra dengan gaya dan tema yang berwarna warni."
 
-#: .tmp/ui_scrAvatar.py:258
-msgid "Options"
-msgstr "Opsi"
+#: .tmp/ui_scrStyle.py:182
+msgid "KDE Themes"
+msgstr "Tema KDE"
 
-#: .tmp/ui_scrAvatar.py:259
-msgid "Choose an image"
-msgstr "Pilih sebuah citra"
+#: .tmp/ui_scrStyle.py:183
+msgid "Desktop Type"
+msgstr "Tipe Desktop"
 
-#: .tmp/ui_scrAvatar.py:260
-msgid "Capture"
-msgstr "Tangkap"
+#: .tmp/ui_scrStyle.py:184
+msgid "Desktop view (KDE4 Style)"
+msgstr "Tampilan Desktop (Gaya KDE4)"
 
-#: .tmp/ui_scrAvatar.py:261
-msgid "Recapture"
-msgstr "Tangkap ulang"
+#: .tmp/ui_scrStyle.py:185
+msgid "Folder view (KDE3 Style)"
+msgstr "Tampilan Folder (Gaya KDE3)"
 
-#: .tmp/ui_scrWallpaper.py:140 .tmp/scrWallpaper.py:37
-msgid "Wallpaper"
-msgstr "Wallpaper"
-
-#: .tmp/ui_scrWallpaper.py:141
-msgid ""
-"<html><head/><body><p>Choose your favorite wallpaper for your Chakra "
-"desktop. Don't forget to check out <span style=\" font-weight:600;\">Desktop"
-" Settings</span> to download cool new wallpapers.</p></body></html>"
-msgstr "<html><head/><body><p>Pilih wallpaper favorit untuk destop Chakra anda. Jangan lupa untuk mengeceknya<span style=\"font-weight:600;'>Pengaturan Desktop</span>untuk mendownload wallpaper baru.</p></body></html>"
-
-#: .tmp/ui_scrWallpaper.py:142
-msgid "Wallpapers"
-msgstr "Wallpaper"
-
-#: .tmp/ui_scrWallpaper.py:144
-msgid "Choose wallpaper from file"
-msgstr "Pilih wallpaper dari berkas"
-
-#: .tmp/ui_scrWallpaper.py:145
-msgid "Don't change wallpaper"
-msgstr "Jangan ubah wallpaper"
-
-#: .tmp/ui_scrGoodbye.py:362
-msgid ""
-"<html><head/><body><p><span style=\" font-weight:600;\">Your settings have "
-"been applied.</span> Now you can start enjoying Chakra, or check out the "
-"following links and applications for more settings, or for help and support."
-" Don't forget to <span style=\" font-weight:600;\">join our "
-"community!</span></p></body></html>"
-msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Pengaturan anda sudah diterapkan .</span> Sekarang anda bisa mulai menikmati Chakra, atau periksa link berikut dan aplikasi untuk pengaturan lebih lanjut, atau untuk bantuan dan dukungan. Jangan lupa untuk  <span style=\" font-weight:600;\">Gabung dengan komunitas kami!</span></p></body></html>"
-
-#: .tmp/ui_scrGoodbye.py:363 .tmp/ui_scrGoodbye.py:365
-msgid "System Settings"
-msgstr "Pengaturan Sistem"
-
-#: .tmp/ui_scrGoodbye.py:364
-msgid ""
-"Configuration tools for Chakra, such as the display settings, firewall, "
-"keyboard layout, user management..."
-msgstr "Peralatan konfigurasi untuk Chakra, seperti pengaturan diplay, firewall, layout keyboard, pengelola pengguna..."
-
-#: .tmp/ui_scrGoodbye.py:366 .tmp/ui_scrGoodbye.py:368
-msgid "Help and Support"
-msgstr "Bantuan dan Dukungan"
-
-#: .tmp/ui_scrGoodbye.py:367
-msgid ""
-"Chakra community: mailing lists, chat rooms, Wiki documents, help and "
-"support pages..."
-msgstr "Komunitas Chakra: milis, ruang chat, dokumentasi Wiki, laman bantuan dan dukungan..."
-
-#: .tmp/ui_scrGoodbye.py:369
-msgid "Using KDE"
-msgstr "Menggunakan KDE"
-
-#: .tmp/ui_scrGoodbye.py:370
-msgid ""
-"Learn how to get the most out of KDE, the Plasma desktop, and everything "
-"else Chakra has to offer, in the Chakra Beginner's Guide."
-msgstr "Pelajari bagaimana KDE, desktop Plasma, dan apapun yang Chakra tawarkan, pada Chakra Beginner's Guide."
-
-#: .tmp/ui_scrGoodbye.py:371
-msgid "Beginner's Guide"
-msgstr "Beginner's Guide"
-
-#: .tmp/ui_scrGoodbye.py:372
-msgid "Run Kapudan on system startup?"
-msgstr "Jalankan Kapudan pada startup sistem?"
-
-#: .tmp/ui_scrFolder.py:155
-msgid "Home Folder"
-msgstr "Folder Home"
-
-#: .tmp/ui_scrFolder.py:156
-msgid "  Downloads  "
-msgstr "Unduhan"
-
-#: .tmp/ui_scrFolder.py:157
-msgid "  Documents  "
-msgstr "Dokumen"
-
-#: .tmp/ui_scrFolder.py:158
-msgid "  Videos  "
-msgstr "Video"
-
-#: .tmp/ui_scrFolder.py:159
-msgid "  Music  "
-msgstr "Music"
-
-#: .tmp/ui_scrFolder.py:160
-msgid "  Images  "
-msgstr "Citra"
-
-#: .tmp/ui_scrFolder.py:161
-msgid ""
-"<html><head/><body><p>By default Chakra doesn't create any special folders "
-"in the user's home directory, as Chakra leaves these kind of choices up to "
-"the user. However, in this screen we give you the ability to create the most"
-" commonly used folders.</p></body></html>"
-msgstr "<html><head/><body><p>Secara default, Chakra tidak membuat folder khusu pada direktori home pengguna, karena Chakra menyerahkan hal ini terserah kepada pengguna. Bagaimanapun juga, pada layar ini kita memberi anda kemampuan untuk membuat folder yang paling sering dipakai.</p></body></html>"
-
-#: .tmp/scrMouse.py:32 .tmp/ui_scrMouse.py:213
-msgid "Mouse"
-msgstr "Tetikus"
-
-#: .tmp/scrMouse.py:33
-msgid "Setup Mouse Behavior"
-msgstr "Pengaturan Perilaku Tetikus"
-
-#: .tmp/scrMouse.py:145
-msgid "Left Handed"
-msgstr "Kidal"
-
-#: .tmp/scrMouse.py:145
-msgid "Right Handed"
-msgstr "Normal"
-
-#: .tmp/scrMouse.py:146
-msgid "Single Click "
-msgstr "Klik Sekali"
-
-#: .tmp/scrMouse.py:146
-msgid "Double Click"
-msgstr "Klik Dua Kali"
-
-#: .tmp/scrSummary.py:48
-msgid "Save Your Settings"
-msgstr "Simpan Pengaturan Anda"
-
-#: .tmp/scrSummary.py:73
-msgid "Mouse Settings"
-msgstr "Pengaturan Tetikus"
-
-#: .tmp/scrSummary.py:75
-#, python-format
-msgid "Selected Mouse configuration: <b>%s</b>"
-msgstr "Konfigurasi Tetikus yang dipilih: <b>%s</b>"
-
-#: .tmp/scrSummary.py:76
-#, python-format
-msgid "Selected clicking behavior: <b>%s</b>"
-msgstr "Perilaku klik yang dipilih: <b>%s</b>"
-
-#: .tmp/scrSummary.py:80
-msgid "Menu Settings"
-msgstr "Menu Pengaturan"
-
-#: .tmp/scrSummary.py:81
-#, python-format
-msgid "Selected Menu: <b>%s</b>"
-msgstr "Menu Pilihan: <b>%s</b>"
-
-#: .tmp/scrSummary.py:85
-msgid "Wallpaper Settings"
-msgstr "Pengaturan Wallpaper"
-
-#: .tmp/scrSummary.py:87
-msgid "You haven't selected any wallpaper."
-msgstr "Anda tidak memilih wallpaper."
-
-#: .tmp/scrSummary.py:89
-#, python-format
-msgid "Selected Wallpaper: <b>%s</b>"
-msgstr "Wallpaper pilihan: <b>%s</b>"
-
-#: .tmp/scrSummary.py:93
-msgid "Style Settings"
-msgstr "Pengaturan Gaya"
-
-#: .tmp/scrSummary.py:96
-msgid "You haven't selected any style."
-msgstr "Anda tidak memilih gaya satupun."
-
-#: .tmp/scrSummary.py:98
-#, python-format
-msgid "Selected Style: <b>%s</b>"
-msgstr "Gaya yang dipilih: <b>%s</b>"
-
-#: .tmp/scrSummary.py:104
-msgid "Package Management Settings"
-msgstr "Pengaturan Pengelola Paket"
-
-#: .tmp/scrSummary.py:105
-msgid "You have enabled or disabled spun."
-msgstr "Anda telah mengaktifkan atau menon-aktifkan pemintalan."
-
-#: .tmp/scrSummary.py:112 .tmp/scrSummary.py:141
-msgid "You have: "
-msgstr "Anda mempunyai:"
-
-#: .tmp/scrSummary.py:114
-msgid "Services Settings"
-msgstr "Pengaturan Service"
-
-#: .tmp/scrSummary.py:117
-msgid "enabled cups; "
-msgstr "mengaktifkan cups;"
-
-#: .tmp/scrSummary.py:120
-msgid "disabled cups; "
-msgstr "menon-aktifkan cups;"
-
-#: .tmp/scrSummary.py:123
-msgid "enabled bluetooth; "
-msgstr "mengaktifkan bluetooth;"
-
-#: .tmp/scrSummary.py:126
-msgid "disabled bluetooth; "
-msgstr "menon-aktifkan bluetooth;"
-
-#: .tmp/scrSummary.py:131 .tmp/scrSummary.py:159
-msgid "You have made no changes."
-msgstr "Anda tidak mengubah apapun."
-
-#: .tmp/scrSummary.py:143
-msgid "Security Settings"
-msgstr "Pengaturan Keamanan"
-
-#: .tmp/scrSummary.py:146
-msgid "enabled ClamAV; "
-msgstr "mengaktifkan ClamAV;"
-
-#: .tmp/scrSummary.py:149
-msgid "disabled ClamAV; "
-msgstr "menon-aktifkan ClamAV;"
-
-#: .tmp/scrSummary.py:152
-msgid "enabled the firewall; "
-msgstr "mengaktifkan firewall;"
-
-#: .tmp/scrSummary.py:155
-msgid "disabled the firewall; "
-msgstr "menon-aktifkan firewall;"
-
-#: .tmp/scrSummary.py:176
-msgid "Error"
-msgstr "Galat"
-
-#: .tmp/scrSummary.py:176
-msgid "Cannot restart plasma-desktop. Kapudan will now shut down."
-msgstr "Tidak dapat menjalankan ulang plasma-desktop. Kapundan akan mati sekarang."
-
-#: .tmp/scrWallpaper.py:38
-msgid "Choose a Wallpaper"
-msgstr "Pilih Wallpaper"
+#: .tmp/ui_scrStyle.py:186
+msgid "Number of Desktops"
+msgstr "Jumlah Desktop"
 
 #: .tmp/ui_scrServices.py:127 .tmp/scrServices.py:31
 msgid "Services"
@@ -476,31 +106,56 @@ msgstr "<html><head/><body><p>Secara default, instalasi baru Chakra hanya mempun
 msgid "Daemons to start at boot time"
 msgstr "Jurig dimulai saat waktu boot"
 
-#: .tmp/ui_scrStyle.py:181
+#: .tmp/scrFolder.py:30 .tmp/ui_scrFolder.py:162
+msgid "Folders"
+msgstr "Folder"
+
+#: .tmp/scrFolder.py:31
+msgid "Create folders in the home directory"
+msgstr "Buat folder di direktori home"
+
+#: .tmp/kapudan.desktop.in.h:1 .tmp/ui_kapudan.py:368
+msgid "Kapudan"
+msgstr "Kapudan"
+
+#: .tmp/kapudan.desktop.in.h:2
+msgid "Welcome Wizard"
+msgstr "Wizard Selamat Datang"
+
+#: .tmp/scrPackage.py:33 .tmp/ui_scrPackage.py:142
+msgid "Packages"
+msgstr "Paket"
+
+#: .tmp/scrPackage.py:34
+msgid "Install / Remove Programs"
+msgstr "Pasang / Hapus Program"
+
+#: .tmp/ui_scrWallpaper.py:140 .tmp/scrWallpaper.py:37
+msgid "Wallpaper"
+msgstr "Wallpaper"
+
+#: .tmp/ui_scrWallpaper.py:141
 msgid ""
-"Choose your favorite theme and desktop type. Customize Chakra with colorful "
-"styles and themes."
-msgstr "Pilih tema dan gaya desktop favorit anda. Sesuaikan Chakra dengan gaya dan tema yang berwarna warni."
+"<html><head/><body><p>Choose your favorite wallpaper for your Chakra "
+"desktop. Don't forget to check out <span style=\" font-weight:600;\">Desktop"
+" Settings</span> to download cool new wallpapers.</p></body></html>"
+msgstr "<html><head/><body><p>Pilih wallpaper favorit untuk destop Chakra anda. Jangan lupa untuk mengeceknya<span style=\"font-weight:600;'>Pengaturan Desktop</span>untuk mendownload wallpaper baru.</p></body></html>"
 
-#: .tmp/ui_scrStyle.py:182
-msgid "KDE Themes"
-msgstr "Tema KDE"
+#: .tmp/ui_scrWallpaper.py:142
+msgid "Wallpapers"
+msgstr "Wallpaper"
 
-#: .tmp/ui_scrStyle.py:183
-msgid "Desktop Type"
-msgstr "Tipe Desktop"
+#: .tmp/ui_scrWallpaper.py:144
+msgid "Choose wallpaper from file"
+msgstr "Pilih wallpaper dari berkas"
 
-#: .tmp/ui_scrStyle.py:184
-msgid "Desktop view (KDE4 Style)"
-msgstr "Tampilan Desktop (Gaya KDE4)"
+#: .tmp/ui_scrWallpaper.py:145
+msgid "Don't change wallpaper"
+msgstr "Jangan ubah wallpaper"
 
-#: .tmp/ui_scrStyle.py:185
-msgid "Folder view (KDE3 Style)"
-msgstr "Tampilan Folder (Gaya KDE3)"
-
-#: .tmp/ui_scrStyle.py:186
-msgid "Number of Desktops"
-msgstr "Jumlah Desktop"
+#: .tmp/ui_scrSecurity.py:172 .tmp/scrSecurity.py:33
+msgid "Security"
+msgstr "Keamanan"
 
 #: .tmp/ui_scrSecurity.py:173
 msgid "Enable the firewall (UFW)"
@@ -560,47 +215,85 @@ msgstr "<html><head/><body><p>Keamanan merupakan proses, bukan produk, dan tidak
 msgid "Security Tools"
 msgstr "Peralatan Keamanan"
 
-#: .tmp/ui_scrMenu.py:134 .tmp/scrMenu.py:28
-msgid "Menu"
-msgstr "Menu"
+#: .tmp/scrMouse.py:32 .tmp/ui_scrMouse.py:213
+msgid "Mouse"
+msgstr "Tetikus"
 
-#: .tmp/ui_scrMenu.py:135
-msgid ""
-"You can also customize your <b>KDE menu</b> as you like. Please choose one "
-"from the following styles."
-msgstr "Anda juga dapat mengkustomisasi <b>menu KDE</b> anda sebagaimana anda suka. Silakan pilih dari salah satu gaya berikut."
+#: .tmp/scrMouse.py:33
+msgid "Setup Mouse Behavior"
+msgstr "Pengaturan Perilaku Tetikus"
 
-#: .tmp/ui_scrMenu.py:136 .tmp/scrMenu.py:43
-msgid "Kick-off Menu"
-msgstr "Menu Kick-off"
+#: .tmp/scrMouse.py:145
+msgid "Left Handed"
+msgstr "Kidal"
 
-#: .tmp/ui_scrMenu.py:137 .tmp/scrMenu.py:49
-msgid "Simple Menu"
-msgstr "Menu Sederhana"
+#: .tmp/scrMouse.py:145
+msgid "Right Handed"
+msgstr "Normal"
 
-#: .tmp/ui_scrMenu.py:138 .tmp/scrMenu.py:55
-msgid "Lancelot Menu"
-msgstr "Menu Lancelot"
+#: .tmp/scrMouse.py:146
+msgid "Single Click "
+msgstr "Klik Sekali"
 
-#: .tmp/ui_scrMenu.py:139 .tmp/scrMenu.py:61
-msgid "Homerun Menu"
-msgstr "Menu Homerun"
+#: .tmp/scrMouse.py:146
+msgid "Double Click"
+msgstr "Klik Dua Kali"
 
-#: .tmp/ui_scrMenu.py:140 .tmp/scrMenu.py:67
-msgid "AppMenu QML"
+#: .tmp/ui_scrFolder.py:155
+msgid "Home Folder"
+msgstr "Folder Home"
+
+#: .tmp/ui_scrFolder.py:156
+msgid "  Downloads  "
+msgstr "Unduhan"
+
+#: .tmp/ui_scrFolder.py:157
+msgid "  Documents  "
+msgstr "Dokumen"
+
+#: .tmp/ui_scrFolder.py:158
+msgid "  Videos  "
+msgstr "Video"
+
+#: .tmp/ui_scrFolder.py:159
+msgid "  Music  "
+msgstr "Music"
+
+#: .tmp/ui_scrFolder.py:160
+msgid "  Pictures  "
 msgstr ""
 
-#: .tmp/ui_scrMenu.py:141
-msgid "Sample"
-msgstr "Contoh"
+#: .tmp/ui_scrFolder.py:161
+msgid ""
+"<html><head/><body><p>Your home directory does not contain folders for "
+"documents, music, pictures and the like by default. Kapudan will create the "
+"folders selected below for you now; unselect the ones you don't "
+"want.</p></body></html>"
+msgstr ""
 
-#: .tmp/ui_wallpaperItem.py:83
-msgid "wallPaperName"
-msgstr "wallPaperName"
+#: .tmp/ui_kapudan.py:369
+msgid "Welcome to Chakra"
+msgstr "Selamat Datang di Chakra"
 
-#: .tmp/ui_wallpaperItem.py:84
-msgid "wallpaperDesc"
-msgstr "wallpaperDesc"
+#: .tmp/ui_kapudan.py:370
+msgid "Cancel"
+msgstr "Batal"
+
+#: .tmp/ui_kapudan.py:371
+msgid "Back"
+msgstr "Kembali"
+
+#: .tmp/ui_kapudan.py:372
+msgid "Next"
+msgstr "Lanjut"
+
+#: .tmp/ui_kapudan.py:373
+msgid "Finish"
+msgstr "Selesai"
+
+#: .tmp/ui_kapudan.py:374
+msgid "Apply"
+msgstr "Terapkan"
 
 #: .tmp/ui_scrSearch.py:109
 msgid "Search"
@@ -621,9 +314,17 @@ msgstr "Perbolehkan Strigi untuk mengindeks berkas saya"
 msgid "Search Options"
 msgstr "Opsi Pencarian"
 
+#: .tmp/scrMenu.py:28 .tmp/ui_scrMenu.py:134
+msgid "Menu"
+msgstr "Menu"
+
 #: .tmp/scrMenu.py:29
 msgid "Choose a Menu Style"
 msgstr "Pilih Gaya Menu"
+
+#: .tmp/scrMenu.py:43 .tmp/ui_scrMenu.py:136
+msgid "Kick-off Menu"
+msgstr "Menu Kick-off"
 
 #: .tmp/scrMenu.py:45
 msgid ""
@@ -631,11 +332,19 @@ msgid ""
 "are easy to access and well organized."
 msgstr "Menu Kick-off merupakan menu bawaan Chakra.<br><br>Program pintasan yang mudah diakses dan dikelompokkan dengan baik."
 
+#: .tmp/scrMenu.py:49 .tmp/ui_scrMenu.py:137
+msgid "Simple Menu"
+msgstr "Menu Sederhana"
+
 #: .tmp/scrMenu.py:51
 msgid ""
 "Simple menu is an old style menu from KDE 3.<br><br>It is a very lightweight"
 " menu thus it is recommended for slower PC's."
 msgstr "Menu Sederhana merupakan menu gaya klasik dari KDE 3.<br><br>Merupakan menu yang ringan, sehingga direkomendasikan untuk PC yang agak lamban."
+
+#: .tmp/scrMenu.py:55 .tmp/ui_scrMenu.py:138
+msgid "Lancelot Menu"
+msgstr "Menu Lancelot"
 
 #: .tmp/scrMenu.py:57
 msgid ""
@@ -643,9 +352,17 @@ msgid ""
 "program shortcuts are easy to access and well organized."
 msgstr "Lancelot merupakan menu yang bisa diubah dengan leluasa untuk Chakra.<br><br>Program pintasan yang mudah diakses dan dikelola dengan baik."
 
+#: .tmp/scrMenu.py:61 .tmp/ui_scrMenu.py:139
+msgid "Homerun Menu"
+msgstr "Menu Homerun"
+
 #: .tmp/scrMenu.py:63
 msgid "Homerun is a full screen launcher with content organized in tabs."
 msgstr "Homerun merupakan peluncur layar penuh dengan isi yang dikelompokkan pada tab."
+
+#: .tmp/scrMenu.py:67 .tmp/ui_scrMenu.py:140
+msgid "AppMenu QML"
+msgstr ""
 
 #: .tmp/scrMenu.py:69
 msgid ""
@@ -653,39 +370,237 @@ msgid ""
 "Lancelot but much simpler"
 msgstr ""
 
-#: .tmp/ui_scrStyleItem.py:80
-msgid "styleName"
-msgstr "styleName"
+#: .tmp/ui_wallpaperItem.py:82 .tmp/ui_scrAvatar.py:256
+#: .tmp/ui_scrStyleItem.py:79
+msgid "Form"
+msgstr "Form"
 
-#: .tmp/ui_scrStyleItem.py:81
-msgid "styleDesc"
-msgstr "styleDesc"
+#: .tmp/ui_wallpaperItem.py:83
+msgid "wallPaperName"
+msgstr "wallPaperName"
 
-#: .tmp/ui_scrWelcome.py:88
-msgid "What is Chakra?"
-msgstr "Apa itu Chakra?"
+#: .tmp/ui_wallpaperItem.py:84
+msgid "wallpaperDesc"
+msgstr "wallpaperDesc"
 
-#: .tmp/ui_scrWelcome.py:89
-msgid ""
-"<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span> is a "
-"GNU/Linux distribution with an emphasis on KDE and Qt that focuses on "
-"simplicity from a technical standpoint and cutting-edge software, bringing "
-"the latest technologies to you.<br/><br/>The primary goal of the project is "
-"to provide a fast, user-friendly and powerful Live CD and operating system, "
-"specifically crafted for the award winning KDE Software Compilation and the "
-"elegant Plasma Workspaces.<br/><br/><span style=\" font-"
-"weight:600;\">Kapudan</span> will help you personalize your Chakra "
-"installation easily and quickly. Just click <span style=\" font-"
-"weight:600;\">next</span> when you are ready to begin.</p></body></html>"
+#: .tmp/scrKsuperkey.py:31 .tmp/ui_scrKsuperkey.py:124
+#: .tmp/ui_scrKsuperkey.py:127
+msgid "ksuperkey"
 msgstr ""
 
-#: .tmp/kapudan.desktop.in.h:2
-msgid "Welcome Wizard"
-msgstr "Wizard Selamat Datang"
+#: .tmp/scrKsuperkey.py:32
+msgid "Enable / Disable ksuperkey"
+msgstr ""
 
-#: .tmp/scrPackage.py:34
-msgid "Install / Remove Programs"
-msgstr "Pasang / Hapus Program"
+#: .tmp/ui_scrKeyboard.py:102
+msgid "Keyboard"
+msgstr "Keyboard"
+
+#: .tmp/ui_scrKeyboard.py:103
+msgid ""
+"<html><head/><body><p>Kapudan tries to automatically select the best "
+"keyboard layout according to your system language. If you want to use "
+"another layout, just make a selection below.</p></body></html>"
+msgstr "<html><head/><body><p>Kapudan berusaha untuk memilih layout keyboard terbaik berdasar bahasa sistem anda. Jika anda ingin menggunakan layout yang lain, pilihlah pada pilihan dibawah.</p></body></html>"
+
+#: .tmp/ui_scrKeyboard.py:104
+msgid "Test area:"
+msgstr "Area Test:"
+
+#: .tmp/scrSummary.py:46 .tmp/ui_scrSummary.py:94
+msgid "Summary"
+msgstr "Ringkasan"
+
+#: .tmp/scrSummary.py:47
+msgid "Save Your Settings"
+msgstr "Simpan Pengaturan Anda"
+
+#: .tmp/scrSummary.py:71
+msgid "Mouse Settings"
+msgstr "Pengaturan Tetikus"
+
+#: .tmp/scrSummary.py:73
+#, python-format
+msgid "Selected Mouse configuration: <b>%s</b>"
+msgstr "Konfigurasi Tetikus yang dipilih: <b>%s</b>"
+
+#: .tmp/scrSummary.py:74
+#, python-format
+msgid "Selected clicking behavior: <b>%s</b>"
+msgstr "Perilaku klik yang dipilih: <b>%s</b>"
+
+#: .tmp/scrSummary.py:78
+msgid "Menu Settings"
+msgstr "Menu Pengaturan"
+
+#: .tmp/scrSummary.py:79
+#, python-format
+msgid "Selected Menu: <b>%s</b>"
+msgstr "Menu Pilihan: <b>%s</b>"
+
+#: .tmp/scrSummary.py:83
+msgid "Wallpaper Settings"
+msgstr "Pengaturan Wallpaper"
+
+#: .tmp/scrSummary.py:85
+msgid "You haven't selected any wallpaper."
+msgstr "Anda tidak memilih wallpaper."
+
+#: .tmp/scrSummary.py:87
+#, python-format
+msgid "Selected Wallpaper: <b>%s</b>"
+msgstr "Wallpaper pilihan: <b>%s</b>"
+
+#: .tmp/scrSummary.py:91
+msgid "Style Settings"
+msgstr "Pengaturan Gaya"
+
+#: .tmp/scrSummary.py:94
+msgid "You haven't selected any style."
+msgstr "Anda tidak memilih gaya satupun."
+
+#: .tmp/scrSummary.py:96
+#, python-format
+msgid "Selected Style: <b>%s</b>"
+msgstr "Gaya yang dipilih: <b>%s</b>"
+
+#: .tmp/scrSummary.py:102
+msgid "Package Management Settings"
+msgstr "Pengaturan Pengelola Paket"
+
+#: .tmp/scrSummary.py:103
+msgid "You have enabled or disabled spun."
+msgstr "Anda telah mengaktifkan atau menon-aktifkan pemintalan."
+
+#: .tmp/scrSummary.py:110 .tmp/scrSummary.py:139
+msgid "You have: "
+msgstr "Anda mempunyai:"
+
+#: .tmp/scrSummary.py:112
+msgid "Services Settings"
+msgstr "Pengaturan Service"
+
+#: .tmp/scrSummary.py:115
+msgid "enabled cups; "
+msgstr "mengaktifkan cups;"
+
+#: .tmp/scrSummary.py:118
+msgid "disabled cups; "
+msgstr "menon-aktifkan cups;"
+
+#: .tmp/scrSummary.py:121
+msgid "enabled bluetooth; "
+msgstr "mengaktifkan bluetooth;"
+
+#: .tmp/scrSummary.py:124
+msgid "disabled bluetooth; "
+msgstr "menon-aktifkan bluetooth;"
+
+#: .tmp/scrSummary.py:129 .tmp/scrSummary.py:157
+msgid "You have made no changes."
+msgstr "Anda tidak mengubah apapun."
+
+#: .tmp/scrSummary.py:141
+msgid "Security Settings"
+msgstr "Pengaturan Keamanan"
+
+#: .tmp/scrSummary.py:144
+msgid "enabled ClamAV; "
+msgstr "mengaktifkan ClamAV;"
+
+#: .tmp/scrSummary.py:147
+msgid "disabled ClamAV; "
+msgstr "menon-aktifkan ClamAV;"
+
+#: .tmp/scrSummary.py:150
+msgid "enabled the firewall; "
+msgstr "mengaktifkan firewall;"
+
+#: .tmp/scrSummary.py:153
+msgid "disabled the firewall; "
+msgstr "menon-aktifkan firewall;"
+
+#: .tmp/scrSummary.py:174
+msgid "Error"
+msgstr "Galat"
+
+#: .tmp/scrSummary.py:174
+msgid "Cannot restart plasma-desktop. Kapudan will now shut down."
+msgstr "Tidak dapat menjalankan ulang plasma-desktop. Kapundan akan mati sekarang."
+
+#: .tmp/scrStyle.py:41
+msgid "Customize Your Desktop"
+msgstr "Sesuaikan Desktop Anda"
+
+#: .tmp/scrWallpaper.py:38
+msgid "Choose a Wallpaper"
+msgstr "Pilih Wallpaper"
+
+#: .tmp/ui_scrAvatar.py:257
+msgid ""
+"<html><head/><body><p>This screen helps you set your <span style=\" font-"
+"weight:600;\">user picture</span>. You can either choose an image from a "
+"file, or you can capture an image from your camera, if you have one. Select "
+"an option from the <span style=\" font-weight:600;\">options</span> "
+"menu.</p></body></html>"
+msgstr "<html><head/><body><p>Layar ini membantu anda mengatur <span style=\"font-weight:600;\">user picture</span> anda. Anda dapat memilih dari berkas citra, atau anda dapat mengambil citra dari kamera, jika ada. Pilih sebuah opsi dari menu <span style=\"font-weight:600;\">options</span>.</p></body></html>"
+
+#: .tmp/ui_scrAvatar.py:258
+msgid "Options"
+msgstr "Opsi"
+
+#: .tmp/ui_scrAvatar.py:259
+msgid "Choose an image"
+msgstr "Pilih sebuah citra"
+
+#: .tmp/ui_scrAvatar.py:260
+msgid "Capture"
+msgstr "Tangkap"
+
+#: .tmp/ui_scrAvatar.py:261
+msgid "Recapture"
+msgstr "Tangkap ulang"
+
+#: .tmp/scrGoodbye.py:28 .tmp/ui_scrGoodbye.py:361
+msgid "More"
+msgstr "Lebih Banyak"
+
+#: .tmp/scrGoodbye.py:29
+msgid "Congratulations!"
+msgstr "Selamat!"
+
+#: .tmp/ui_scrPackage.py:143
+msgid "Check for updates automatically every"
+msgstr "Periksa update secara otomatis setiap"
+
+#: .tmp/ui_scrPackage.py:144
+msgid " minutes"
+msgstr "menit"
+
+#: .tmp/ui_scrPackage.py:145
+msgid "Use audio along with the visual notification"
+msgstr "Gunakan suara bersamaan dengan notifikasi visual"
+
+#: .tmp/ui_scrPackage.py:146
+msgid ""
+"<html><head/><body><p>To install and remove programs on Chakra, use the "
+"command-line program, <a href=\"http://chakra-"
+"linux.org/wiki/index.php/Pacman\"><span style=\" text-decoration: underline;"
+" color:#0057ae;\">pacman</span></a>. You can run <span style=\" font-"
+"weight:600;\">sudo pacman -Syu</span> to update, <span style=\" font-"
+"weight:600;\">pacman -Ss </span><span style=\" font-weight:600; font-"
+"style:italic;\">keyword</span> to search through the repos, and <span "
+"style=\" font-weight:600;\">sudo pacman -S </span><span style=\" font-"
+"weight:600; font-style:italic;\">package</span> to install "
+"packages.</p><p>Pacman does not have any sort of graphical interface, so "
+"another small app, spun, was created to provide update notifications. When "
+"updates are available, spun will show a notification in your system tray. "
+"</p></body></html>"
+msgstr "<html><head/><body><p>Untuk menginstal dan menghapus program pada Chakra, gunakan program command-line, <a href=\"http://chakra-linux.org/wiki/index.php/Pacman\"><span style=\"text-decoration:underline;color:$0057ae;\">pacman</span></a>. Anda dapat menjalankan ,<span style=\" font-weight:600;\">sudo pacman -Syu</span> untuk mengupdate, <span style=\" font-weight:600;\">pacman -Ss </span><span style=\" font-weight:600; font-style:italic;\">kata kunci</span> untuk mencari pada repositori, <span style=\" font-weight:600;\">sudo pacman -S </span><span style=\" font-weight:600; font-style:italic;\">paket</span> untuk menginstall paket.</p><p>Pacman tidak mempunyai antarmuka grafis apapun, jadi aplikasi kecil lain, spun, dibuat untuk menyediakan notifikasi update. Ketika update tersedia, spun akan menampilkan notifikasi pada tray sistem anda. </p></body></html>"
+
+#: .tmp/ui_scrPackage.py:147
+msgid "Updates"
+msgstr "Update"
 
 #: .tmp/ui_scrMouse.py:214
 msgid ""
@@ -724,6 +639,106 @@ msgstr "Kidal"
 msgid "Reverse scrolling"
 msgstr "Menggulung terbalik"
 
+#: .tmp/ui_scrGoodbye.py:362
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:600;\">Your settings have "
+"been applied.</span> Now you can start enjoying Chakra, or check out the "
+"following links and applications for more settings, or for help and support."
+" Don't forget to <span style=\" font-weight:600;\">join our "
+"community!</span></p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Pengaturan anda sudah diterapkan .</span> Sekarang anda bisa mulai menikmati Chakra, atau periksa link berikut dan aplikasi untuk pengaturan lebih lanjut, atau untuk bantuan dan dukungan. Jangan lupa untuk  <span style=\" font-weight:600;\">Gabung dengan komunitas kami!</span></p></body></html>"
+
+#: .tmp/ui_scrGoodbye.py:363 .tmp/ui_scrGoodbye.py:365
+msgid "System Settings"
+msgstr "Pengaturan Sistem"
+
+#: .tmp/ui_scrGoodbye.py:364
+msgid ""
+"Configuration tools for Chakra, such as the display settings, firewall, "
+"keyboard layout, user management..."
+msgstr "Peralatan konfigurasi untuk Chakra, seperti pengaturan diplay, firewall, layout keyboard, pengelola pengguna..."
+
+#: .tmp/ui_scrGoodbye.py:366 .tmp/ui_scrGoodbye.py:368
+msgid "Help and Support"
+msgstr "Bantuan dan Dukungan"
+
+#: .tmp/ui_scrGoodbye.py:367
+msgid ""
+"Chakra community: mailing lists, chat rooms, Wiki documents, help and "
+"support pages..."
+msgstr "Komunitas Chakra: milis, ruang chat, dokumentasi Wiki, laman bantuan dan dukungan..."
+
+#: .tmp/ui_scrGoodbye.py:369
+msgid "Using KDE"
+msgstr "Menggunakan KDE"
+
+#: .tmp/ui_scrGoodbye.py:370
+msgid ""
+"Learn how to get the most out of KDE, the Plasma desktop, and everything "
+"else Chakra has to offer, in the Chakra Beginner's Guide."
+msgstr "Pelajari bagaimana KDE, desktop Plasma, dan apapun yang Chakra tawarkan, pada Chakra Beginner's Guide."
+
+#: .tmp/ui_scrGoodbye.py:371
+msgid "Beginner's Guide"
+msgstr "Beginner's Guide"
+
+#: .tmp/ui_scrGoodbye.py:372
+msgid "Run Kapudan on system startup?"
+msgstr "Jalankan Kapudan pada startup sistem?"
+
+#: .tmp/scrWelcome.py:28
+#, python-format
+msgid "Welcome to %s"
+msgstr "Selamat Datang di %s"
+
+#: .tmp/scrSecurity.py:34
+msgid "Keep your system secure"
+msgstr "Jaga sistem anda tetap aman"
+
 #: .tmp/scrServices.py:32
 msgid "Enable / Disable Services (Daemons)"
 msgstr "Aktifkan / non-Aktifkan Service (Daemon)"
+
+#: .tmp/ui_scrStyleItem.py:80
+msgid "styleName"
+msgstr "styleName"
+
+#: .tmp/ui_scrStyleItem.py:81
+msgid "styleDesc"
+msgstr "styleDesc"
+
+#: .tmp/ui_scrMenu.py:135
+msgid ""
+"You can also customize your <b>KDE menu</b> as you like. Please choose one "
+"from the following styles."
+msgstr "Anda juga dapat mengkustomisasi <b>menu KDE</b> anda sebagaimana anda suka. Silakan pilih dari salah satu gaya berikut."
+
+#: .tmp/ui_scrMenu.py:141
+msgid "Sample"
+msgstr "Contoh"
+
+#: .tmp/ui_scrKsuperkey.py:125
+msgid "Enable ksuperkey and start it at login."
+msgstr ""
+
+#: .tmp/ui_scrKsuperkey.py:126
+msgid ""
+"<html><head/><body><p>By default, you can open the application launcher with"
+" the <span style=\" font-weight:600;\">Alt+F1</span> keyboard shortcut. The "
+"<span style=\" font-weight:600;\">ksuperkey</span> program will bind your "
+"&quot;Super&quot; key (also known as the &quot;Meta&quot; or "
+"&quot;Windows&quot; key) to send this key combination when tapped, making it"
+" easier to open the launcher.</p></body></html>"
+msgstr ""
+
+#: .tmp/ui_scrSummary.py:95
+msgid ""
+"<html><head/><body><p>You have successfully finished all steps. Here's a "
+"summary of the settings you want to apply. Click <span style=\" font-"
+"weight:600;\">Apply</span> if they look good, or go back and make more "
+"changes. </p></body></html>"
+msgstr "<html><head/><body><p>Anda sudah berhasil menyelesaikan semua langkah. Berikut adalah ringkasan dari pengaturan yang ingin anda terapkan. Klik <span style=\" font-weight:600;\">Terapkan</span> jika anda sudah puas, atau kembali dan lakukan perubahan lagi. </p></body></html>"
+
+#: .tmp/ui_scrSummary.py:96
+msgid "The following settings will be applied"
+msgstr "Perubahan pengaturan berikut yang akan diterapkan"
