@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Jacobtey <jacobtey@gmail.com>, 2013
+# Jacobtey <jacobtey@gmail.com>, 2013-2014
 # serjvolkov <taranarmo@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: The Chakra Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-26 14:27-0700\n"
-"PO-Revision-Date: 2014-01-27 09:03+0000\n"
-"Last-Translator: Manuel Tortosa <manutortosa@chakra-project.org>\n"
+"PO-Revision-Date: 2014-01-28 14:25+0000\n"
+"Last-Translator: Jacobtey <jacobtey@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/chakra-project/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -262,7 +262,7 @@ msgstr "Музыка"
 
 #: .tmp/ui_scrFolder.py:160
 msgid "  Pictures  "
-msgstr ""
+msgstr "Изображения"
 
 #: .tmp/ui_scrFolder.py:161
 msgid ""
@@ -270,7 +270,7 @@ msgid ""
 "documents, music, pictures and the like by default. Kapudan will create the "
 "folders selected below for you now; unselect the ones you don't "
 "want.</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>В вашем домашнем разделе папки документов, музыки, изображений и подобные им по умолчанию отсутствуют. Kapudan создаст выбранные ниже папки сейчас. Снимите метки с тех папок, создавать которые вы не хотите.</p></body></html>"
 
 #: .tmp/ui_kapudan.py:369
 msgid "Welcome to Chakra"
@@ -387,11 +387,11 @@ msgstr "Описание обоев"
 #: .tmp/scrKsuperkey.py:31 .tmp/ui_scrKsuperkey.py:124
 #: .tmp/ui_scrKsuperkey.py:127
 msgid "ksuperkey"
-msgstr ""
+msgstr "ksuperkey"
 
 #: .tmp/scrKsuperkey.py:32
 msgid "Enable / Disable ksuperkey"
-msgstr ""
+msgstr "Включить / Выключить ksuperkey"
 
 #: .tmp/ui_scrKeyboard.py:102
 msgid "Keyboard"
@@ -720,7 +720,7 @@ msgstr "Пример"
 
 #: .tmp/ui_scrKsuperkey.py:125
 msgid "Enable ksuperkey and start it at login."
-msgstr ""
+msgstr "Активировать ksuperkey и запускать при входе."
 
 #: .tmp/ui_scrKsuperkey.py:126
 msgid ""
@@ -730,7 +730,7 @@ msgid ""
 "&quot;Super&quot; key (also known as the &quot;Meta&quot; or "
 "&quot;Windows&quot; key) to send this key combination when tapped, making it"
 " easier to open the launcher.</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>По умолчанию открыть панель запуска приложений можно сочетанием клавиш <span style=\" font-weight:600;\">Alt+F1</span>. Программа<span style=\" font-weight:600;\">ksuperkey</span> привяжет данную комбинацию к клавише &quot;Super&quot; (так же известной как the &quot;Meta&quot; или &quot;Windows&quot; key), сделав процесс открытия панели удобней.</p></body></html>"
 
 #: .tmp/ui_scrSummary.py:95
 msgid ""
