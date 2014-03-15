@@ -58,7 +58,7 @@
     /*background-color: #642437;*/
     /*alternate-background-color: gray;
     selection-background-color: gray;*/
-   background-color: rgb(50, 50, 50);
+   background-color: rgb(26, 29, 32);
 	/*background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:0.572, y2:0.688, stop:0 rgba(75, 114, 137, 255), stop:1 rgba(29, 42, 51, 255));*/
 	padding: 0px;
 	margin: 0px;
@@ -112,8 +112,7 @@
           <property name="styleSheet">
            <string notr="true">padding: 5px 5px 5px 5px; 
 border:0px;
-
-    background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 rgba(132, 132, 132, 255), stop:0.501481 rgba(70, 70, 70, 255), stop:0.503057 rgba(62, 62, 62, 255), stop:1 rgba(16, 16, 16, 255));
+background-color: rgba(0,0,0,0); 
 border-bottom: 1px solid rgba(0,0,0,10)</string>
           </property>
           <property name="text">
@@ -167,10 +166,10 @@ border-bottom: 1px solid rgba(0,0,0,10)</string>
           </property>
           <property name="styleSheet">
            <string notr="true">border:0px;
-    background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 rgba(132, 132, 132, 255), stop:0.501481 rgba(70, 70, 70, 255), stop:0.503057 rgba(62, 62, 62, 255), stop:1 rgba(16, 16, 16, 255));
-/*qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(183, 100, 124, 255), stop:0.0212465 rgba(91, 33, 50, 255), stop:0.521739 rgba(152, 86, 105, 255), stop:0.527174 rgba(155, 98, 115, 255), stop:0.983696 rgba(184, 141, 153, 255), stop:1 rgba(220, 173, 186, 255));*/
+background-color: rgba(0,0,0,0);
 border-bottom: 1px solid rgba(0,0,0,10);
-color:rgb(240, 240, 240)</string>
+color:rgb(240, 240, 240);
+qproperty-alignment: AlignCenter;</string>
           </property>
           <property name="lineWidth">
            <number>0</number>
@@ -182,7 +181,7 @@ color:rgb(240, 240, 240)</string>
            <string>Welcome to Chakra</string>
           </property>
           <property name="alignment">
-           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+           <set>Qt::AlignCenter</set>
           </property>
           <property name="margin">
            <number>0</number>
@@ -206,7 +205,7 @@ color:rgb(240, 240, 240)</string>
           <property name="styleSheet">
            <string notr="true">padding: 10px 0px 10px 0px; /*13px 15px 13px 15px;*/
 border:0px;
-    background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 rgba(132, 132, 132, 255), stop:0.501481 rgba(70, 70, 70, 255), stop:0.503057 rgba(62, 62, 62, 255), stop:1 rgba(16, 16, 16, 255));
+background-color: rgba(0,0,0,0);
 border-bottom: 1px solid rgba(0,0,0,10)</string>
           </property>
           <property name="lineWidth">
@@ -214,9 +213,6 @@ border-bottom: 1px solid rgba(0,0,0,10)</string>
           </property>
           <property name="text">
            <string/>
-          </property>
-          <property name="pixmap">
-           <pixmap>:/raw/pixmap/kapudan-logo.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -418,7 +414,9 @@ border: 1px solid gray;
           <property name="currentIndex">
            <number>0</number>
           </property>
-          <widget class="QWidget" name="page"/>
+          <widget class="QWidget" name="page">
+           <zorder>groupBoxMenu</zorder>
+          </widget>
          </widget>
         </item>
        </layout>
@@ -445,70 +443,66 @@ border: 1px solid gray;
         </property>
         <property name="styleSheet">
          <string notr="true">#groupBoxMenu{
-    background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 rgba(132, 132, 132, 255), stop:0.501481 rgba(70, 70, 70, 255), stop:0.503057 rgba(62, 62, 62, 255), stop:1 rgba(16, 16, 16, 255));
-	border-top: 1px solid white
+    background-color: rgba(0, 0, 0, 70);
 }
+
 
 QPushButton{
 	padding: 3px 10px 3px 10px;
 	color: white;
 	border:0px;
-	background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 rgba(132, 132, 132, 255), stop:0.501481 rgba(70, 70, 70, 255), stop:0.503057 rgba(62, 62, 62, 255), stop:1 rgba(16, 16, 16, 255));
-	/*background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(120, 146, 172, 255), stop:0.0155729 rgba(99, 141, 164, 255), stop:0.538376 rgba(49, 84, 106, 255), stop:1 rgba(51, 72, 91, 255))*/
-}
-
-QPushButton::flat:hover{
-	border:1px solid  rgba(34, 49, 60, 100);
-	border-radius:2px;
-	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(35, 80, 153), /* stop:0.0192308 rgba(25, 35, 160, 255), stop:0.521739 rgb(5, 0, 86), stop:0.531585 rgba(40, 46, 184, 255), stop:0.983696 rgba(16, 185, 230, 255), */ stop:1 rgba(50, 173, 241, 255));
+	border-radius:4px;
+	background-color: rgb(26, 29, 32); /*rgba(0, 0, 0, 70);*/
 }
 
 QPushButton::flat{
-	border:1px solid  rgba(34, 49, 60, 100);
-	border-radius:2px;
-	background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 rgba(132, 132, 132, 255), stop:0.501481 rgba(70, 70, 70, 255), stop:0.503057 rgba(62, 62, 62, 255), stop:1 rgba(16, 16, 16, 255));
-	/*
-	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(26, 38, 45, 150), stop:0.398093 rgba(44, 62, 79, 255), stop:0.521739 rgba(36, 61, 76, 255), stop:0.531585 rgba(40, 68, 86, 255), stop:0.983696 rgba(73, 109, 129, 255), stop:1 rgba(89, 108, 127, 255))
-	*/
+	border:1px solid  rgb(26, 29, 32); /*rgba(0, 0, 0, 70);*/
+	border-radius:4px;
+	background-color: rgb(26, 29, 32); /*rgba(0, 0, 0, 70);*/
 }
 
+QPushButton::flat:hover{
+	border:1px solid rgba(0, 0, 0, 100);
+	border-radius:4px;
+	background-color: rgba(0, 0, 0, 100);
+}
+
+/*
 QPushButton::flat:pressed{
 	border:1px solid  rgba(34, 49, 60, 100);
 	border-radius:2px;
 	padding: 3px 10px 3px 10px;
-	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(3, 3, 129, 255), stop:0.0192308 rgba(25, 35, 160, 255), stop:0.521739 rgba(29, 35, 166, 255), stop:0.531585 rgba(40, 46, 184, 255), stop:0.983696 rgba(74, 78, 168, 255), stop:1 rgba(110, 110, 210, 255))
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(3, 3, 129, 255), stop:0.0192308 rgba(25, 35, 160, 255), stop:0.521739 rgba(29, 35, 166, 255), stop:0.531585 rgba(40, 46, 184, 255), stop:0.983696 rgba(74, 78, 168, 255), stop:1 rgba(110, 110, 210, 255));
 }
+*/
 
 /*
 QPushButton{
 	padding: 3px 10px 3px 10px;
 	color: white;
 	border:0px;
-	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(120, 146, 172, 255), stop:0.0155729 rgba(99, 141, 164, 255), stop:0.538376 rgba(49, 84, 106, 255), stop:1 rgba(51, 72, 91, 255))
-
-
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 rgba(132, 132, 132, 255), stop:0.501481 rgba(70, 70, 70, 255), stop:0.503057 rgba(62, 62, 62, 255), stop:1 rgba(16, 16, 16, 255));
 }
 
 QPushButton::flat:hover{
-	border:1px solid  rgba(34, 49, 60, 100)
+	border:1px solid  rgba(34, 49, 60, 100);
 	border-radius:2px;
-	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(129, 3, 3, 255), stop:0.0192308 rgba(160, 35, 25, 255), stop:0.521739 rgba(166, 35, 29, 255), stop:0.531585 rgba(184, 46, 40, 255), stop:0.983696 rgba(168, 78, 74, 255), stop:1 rgba(210, 110, 110, 255))
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(35, 80, 153), stop:1 rgba(50, 173, 241, 255));
 }
 
 QPushButton::flat{
 	border:1px solid  rgba(34, 49, 60, 100);
 	border-radius:2px;
-	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(26, 38, 45, 150), stop:0.398093 rgba(44, 62, 79, 255), stop:0.521739 rgba(36, 61, 76, 255), stop:0.531585 rgba(40, 68, 86, 255), stop:0.983696 rgba(73, 109, 129, 255), stop:1 rgba(89, 108, 127, 255))
- 
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 rgba(132, 132, 132, 255), stop:0.501481 rgba(70, 70, 70, 255), stop:0.503057 rgba(62, 62, 62, 255), stop:1 rgba(16, 16, 16, 255));
 }
 
 QPushButton::flat:pressed{
 	border:1px solid  rgba(34, 49, 60, 100);
 	border-radius:2px;
 	padding: 3px 10px 3px 10px;
-	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(129, 3, 3, 255), stop:0.0192308 rgba(160, 35, 25, 255), stop:0.521739 rgba(166, 35, 29, 255), stop:0.531585 rgba(184, 46, 40, 255), stop:0.983696 rgba(168, 78, 74, 255), stop:1 rgba(210, 110, 110, 255))
-
-}*/</string>
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(3, 3, 129, 255), stop:0.0192308 rgba(25, 35, 160, 255), stop:0.521739 rgba(29, 35, 166, 255), stop:0.531585 rgba(40, 46, 184, 255), stop:0.983696 rgba(74, 78, 168, 255), stop:1 rgba(110, 110, 210, 255));
+}
+*/</string>
         </property>
         <property name="title">
          <string/>
@@ -557,6 +551,15 @@ QPushButton::flat:pressed{
            <property name="icon">
             <iconset resource="../data/kapudan.qrc">
              <normaloff>:/raw/pixmap/arrow-left.png</normaloff>:/raw/pixmap/arrow-left.png</iconset>
+           </property>
+           <property name="checkable">
+            <bool>false</bool>
+           </property>
+           <property name="autoDefault">
+            <bool>false</bool>
+           </property>
+           <property name="default">
+            <bool>false</bool>
            </property>
            <property name="flat">
             <bool>true</bool>

@@ -220,7 +220,7 @@ border-bottom-right-radius: 4px;
         <string/>
        </property>
        <property name="pixmap">
-        <pixmap>../../../../../../usr/share/icons/oxygen/64x64/places/folder-bookmark.png</pixmap>
+        <pixmap resource="../data/kapudan.qrc">:/raw/pixmap/folders.png</pixmap>
        </property>
       </widget>
      </item>
