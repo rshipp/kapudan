@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-26 14:27-0700\n"
+"POT-Creation-Date: 2014-03-23 17:55-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,19 +69,19 @@ msgstr ""
 msgid "Number of Desktops"
 msgstr ""
 
-#: .tmp/ui_scrServices.py:127 .tmp/scrServices.py:31
+#: .tmp/ui_scrServices.py:126 .tmp/scrServices.py:31
 msgid "Services"
 msgstr ""
 
-#: .tmp/ui_scrServices.py:128
+#: .tmp/ui_scrServices.py:127
 msgid "cups: The Common Unix Printing Service"
 msgstr ""
 
-#: .tmp/ui_scrServices.py:129
+#: .tmp/ui_scrServices.py:128
 msgid "bluetooth: Enable Bluetooth communication"
 msgstr ""
 
-#: .tmp/ui_scrServices.py:130
+#: .tmp/ui_scrServices.py:129
 msgid ""
 "<html><head/><body><p>By default, new installations of Chakra have only a "
 "bare minimum of required services (also called &quot;daemons&quot;) enabled. "
@@ -101,7 +101,7 @@ msgid ""
 "span>).</p></body></html>"
 msgstr ""
 
-#: .tmp/ui_scrServices.py:131
+#: .tmp/ui_scrServices.py:130
 msgid "Daemons to start at boot time"
 msgstr ""
 
@@ -113,7 +113,7 @@ msgstr ""
 msgid "Create folders in the home directory"
 msgstr ""
 
-#: .tmp/kapudan.desktop.in.h:1 .tmp/ui_kapudan.py:368
+#: .tmp/kapudan.desktop.in.h:1 .tmp/ui_kapudan.py:365
 msgid "Kapudan"
 msgstr ""
 
@@ -152,54 +152,54 @@ msgstr ""
 msgid "Don't change wallpaper"
 msgstr ""
 
-#: .tmp/ui_scrSecurity.py:172 .tmp/scrSecurity.py:33
+#: .tmp/ui_scrSecurity.py:199 .tmp/scrSecurity.py:33
 msgid "Security"
 msgstr ""
 
-#: .tmp/ui_scrSecurity.py:173
+#: .tmp/ui_scrSecurity.py:200
 msgid "Enable the firewall (UFW)"
 msgstr ""
 
-#: .tmp/ui_scrSecurity.py:174
+#: .tmp/ui_scrSecurity.py:201
 msgid "Enable Clam AntiVirus daemon (must be installed and configured)"
 msgstr ""
 
-#: .tmp/ui_scrSecurity.py:175
+#: .tmp/ui_scrSecurity.py:202
 msgid ""
 "<html><head/><body><p>Other security tools provided by Chakra include Tomoyo-"
 "tools, the KDE Wallet, rkhunter, chkrootkit, tiger, and more. Click the "
 "buttons below to learn more about these tools.</p></body></html>"
 msgstr ""
 
-#: .tmp/ui_scrSecurity.py:176
+#: .tmp/ui_scrSecurity.py:203
 msgid "ClamAV: Detect and remove malware"
 msgstr ""
 
-#: .tmp/ui_scrSecurity.py:177
+#: .tmp/ui_scrSecurity.py:204
 msgid "Tomoyo-tools: A Mandatory Access Control (MAC) implementation for Linux"
 msgstr ""
 
-#: .tmp/ui_scrSecurity.py:178
+#: .tmp/ui_scrSecurity.py:205
 msgid "KDE Wallet Manager: Protect and encrypt passwords and other information"
 msgstr ""
 
-#: .tmp/ui_scrSecurity.py:179
+#: .tmp/ui_scrSecurity.py:206
 msgid ""
 "chkrootkit and rkhunter: Check for the presence of rootkits on your system"
 msgstr ""
 
-#: .tmp/ui_scrSecurity.py:180
+#: .tmp/ui_scrSecurity.py:207
 msgid "Tiger: A host-based intrusion detection and auditing tool"
 msgstr ""
 
-#: .tmp/ui_scrSecurity.py:181
+#: .tmp/ui_scrSecurity.py:208
 msgid ""
 "<html><head/><body><p>Finally, Chakra also provides a graphical tool to "
 "configure the system firewall. Just click on &quot;Firewall&quot; in the KDE "
 "System Settings.</p></body></html>"
 msgstr ""
 
-#: .tmp/ui_scrSecurity.py:182
+#: .tmp/ui_scrSecurity.py:209
 msgid ""
 "<html><head/><body><p>Security is a process, not a product, and no operating "
 "system can realistically claim to be perfectly secure. It is up to you to "
@@ -208,7 +208,7 @@ msgid ""
 "system safe.</p></body></html>"
 msgstr ""
 
-#: .tmp/ui_scrSecurity.py:183
+#: .tmp/ui_scrSecurity.py:210
 msgid "Security Tools"
 msgstr ""
 
@@ -268,27 +268,27 @@ msgid ""
 "body></html>"
 msgstr ""
 
-#: .tmp/ui_kapudan.py:369
+#: .tmp/ui_kapudan.py:366
 msgid "Welcome to Chakra"
 msgstr ""
 
-#: .tmp/ui_kapudan.py:370
+#: .tmp/ui_kapudan.py:367
 msgid "Cancel"
 msgstr ""
 
-#: .tmp/ui_kapudan.py:371
+#: .tmp/ui_kapudan.py:368
 msgid "Back"
 msgstr ""
 
-#: .tmp/ui_kapudan.py:372
+#: .tmp/ui_kapudan.py:369
 msgid "Next"
 msgstr ""
 
-#: .tmp/ui_kapudan.py:373
+#: .tmp/ui_kapudan.py:370
 msgid "Finish"
 msgstr ""
 
-#: .tmp/ui_kapudan.py:374
+#: .tmp/ui_kapudan.py:371
 msgid "Apply"
 msgstr ""
 
@@ -581,14 +581,14 @@ msgstr ""
 #: .tmp/ui_scrPackage.py:146
 msgid ""
 "<html><head/><body><p>To install and remove programs on Chakra, use the "
-"command-line program, <a href=\"http://chakra-linux.org/wiki/index.php/Pacman"
-"\"><span style=\" text-decoration: underline; color:#0057ae;\">pacman</"
-"span></a>. You can run <span style=\" font-weight:600;\">sudo pacman -Syu</"
-"span> to update, <span style=\" font-weight:600;\">pacman -Ss </span><span "
-"style=\" font-weight:600; font-style:italic;\">keyword</span> to search "
-"through the repos, and <span style=\" font-weight:600;\">sudo pacman -S </"
-"span><span style=\" font-weight:600; font-style:italic;\">package</span> to "
-"install packages.</p><p>Pacman does not have any sort of graphical "
+"command-line program, <a href=\"http://chakraos.org/wiki/index.php?"
+"title=Pacman\"><span style=\" text-decoration: underline; color:#0057ae;"
+"\">pacman</span></a>. You can run <span style=\" font-weight:600;\">sudo "
+"pacman -Syu</span> to update, <span style=\" font-weight:600;\">pacman -Ss </"
+"span><span style=\" font-weight:600; font-style:italic;\">keyword</span> to "
+"search through the repos, and <span style=\" font-weight:600;\">sudo pacman -"
+"S </span><span style=\" font-weight:600; font-style:italic;\">package</span> "
+"to install packages.</p><p>Pacman does not have any sort of graphical "
 "interface, so another small app, spun, was created to provide update "
 "notifications. When updates are available, spun will show a notification in "
 "your system tray. </p></body></html>"
