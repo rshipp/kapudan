@@ -46,10 +46,37 @@
        </property>
        <property name="styleSheet">
         <string notr="true">#groupBoxFolders{
-background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:0, y2:0, stop:0 rgba(219, 219, 219, 100), stop:1 rgba(255, 255, 255, 100));
+background-color: rgb(242, 242, 242);
 border: 1px solid rgba(255,255,255,50);
 border-bottom-left-radius: 4px;
 border-bottom-right-radius: 4px;
+}
+
+
+QToolButton{
+	padding: 3px 10px 3px 10px;
+	color: white;
+	border:0px;
+	border-radius:4px;
+	background-color: rgb(68, 69, 70);
+}
+
+QToolButton::flat{
+	border:1px solid  rgb(68, 69, 70);
+	border-radius:4px;
+	background-color: rgb(68, 69, 70);
+}
+
+QToolButton::flat:hover{
+	border:1px solid rgba(0, 0, 0, 100);
+	border-radius:4px;
+	background-color: rgb(0, 172, 255);
+}
+
+QToolButton::flat:pressed{
+	border:1px solid rgba(0, 0, 0, 100);
+	border-radius:4px;
+	background-color: rgb(106, 114, 128);
 }</string>
        </property>
        <property name="title">
@@ -70,9 +97,8 @@ border-bottom-right-radius: 4px;
              <string>  Downloads  </string>
             </property>
             <property name="icon">
-             <iconset theme="folder-downloads">
-              <normaloff>../../../../.designer/backup</normaloff>
-              <normalon>:/raw/pixmap/tick.png</normalon>../../../../.designer/backup</iconset>
+             <iconset resource="../data/kapudan.qrc">
+              <normaloff>:/raw/pixmap/folders.png</normaloff>:/raw/pixmap/folders.png</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -85,6 +111,9 @@ border-bottom-right-radius: 4px;
             </property>
             <property name="toolButtonStyle">
              <enum>Qt::ToolButtonTextUnderIcon</enum>
+            </property>
+            <property name="autoRaise">
+             <bool>true</bool>
             </property>
            </widget>
           </item>
@@ -94,9 +123,8 @@ border-bottom-right-radius: 4px;
              <string>  Documents  </string>
             </property>
             <property name="icon">
-             <iconset theme="folder-documents">
-              <normaloff>../../../../.designer/backup</normaloff>
-              <normalon>:/raw/pixmap/tick.png</normalon>../../../../.designer/backup</iconset>
+             <iconset resource="../data/kapudan.qrc">
+              <normaloff>:/raw/pixmap/folders.png</normaloff>:/raw/pixmap/folders.png</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -109,6 +137,9 @@ border-bottom-right-radius: 4px;
             </property>
             <property name="toolButtonStyle">
              <enum>Qt::ToolButtonTextUnderIcon</enum>
+            </property>
+            <property name="autoRaise">
+             <bool>true</bool>
             </property>
            </widget>
           </item>
@@ -118,9 +149,8 @@ border-bottom-right-radius: 4px;
              <string>  Videos  </string>
             </property>
             <property name="icon">
-             <iconset theme="folder-video">
-              <normaloff>../../../../.designer/backup</normaloff>
-              <normalon>:/raw/pixmap/tick.png</normalon>../../../../.designer/backup</iconset>
+             <iconset resource="../data/kapudan.qrc">
+              <normaloff>:/raw/pixmap/folders.png</normaloff>:/raw/pixmap/folders.png</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -133,6 +163,9 @@ border-bottom-right-radius: 4px;
             </property>
             <property name="toolButtonStyle">
              <enum>Qt::ToolButtonTextUnderIcon</enum>
+            </property>
+            <property name="autoRaise">
+             <bool>true</bool>
             </property>
            </widget>
           </item>
@@ -142,9 +175,8 @@ border-bottom-right-radius: 4px;
              <string>  Music  </string>
             </property>
             <property name="icon">
-             <iconset theme="folder-sound">
-              <normaloff>../../../../.designer/backup</normaloff>
-              <normalon>:/raw/pixmap/tick.png</normalon>../../../../.designer/backup</iconset>
+             <iconset resource="../data/kapudan.qrc">
+              <normaloff>:/raw/pixmap/folders.png</normaloff>:/raw/pixmap/folders.png</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -157,6 +189,9 @@ border-bottom-right-radius: 4px;
             </property>
             <property name="toolButtonStyle">
              <enum>Qt::ToolButtonTextUnderIcon</enum>
+            </property>
+            <property name="autoRaise">
+             <bool>true</bool>
             </property>
            </widget>
           </item>
@@ -166,9 +201,8 @@ border-bottom-right-radius: 4px;
              <string>  Pictures  </string>
             </property>
             <property name="icon">
-             <iconset theme="folder-image">
-              <normaloff>../../../../.designer/backup</normaloff>
-              <normalon>:/raw/pixmap/tick.png</normalon>../../../../.designer/backup</iconset>
+             <iconset resource="../data/kapudan.qrc">
+              <normaloff>:/raw/pixmap/folders.png</normaloff>:/raw/pixmap/folders.png</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -179,8 +213,14 @@ border-bottom-right-radius: 4px;
             <property name="checkable">
              <bool>true</bool>
             </property>
+            <property name="popupMode">
+             <enum>QToolButton::DelayedPopup</enum>
+            </property>
             <property name="toolButtonStyle">
              <enum>Qt::ToolButtonTextUnderIcon</enum>
+            </property>
+            <property name="autoRaise">
+             <bool>false</bool>
             </property>
            </widget>
           </item>
@@ -301,8 +341,7 @@ border-bottom-right-radius: 4px;
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">    background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 rgba(132, 132, 132, 255), stop:0.501481 rgba(70, 70, 70, 255), stop:0.503057 rgba(62, 62, 62, 255), stop:1 rgba(16, 16, 16, 255));
-border: 1px solid rgba(255,255,255,50);
+      <string notr="true">background-color: rgba(0, 0, 0, 70);
 color:white;
 border-top-left-radius: 4px;
 border-top-right-radius: 4px;</string>

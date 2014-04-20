@@ -97,45 +97,6 @@
          <number>0</number>
         </property>
         <item>
-         <widget class="QLabel" name="label_5">
-          <property name="maximumSize">
-           <size>
-            <width>50</width>
-            <height>50</height>
-           </size>
-          </property>
-          <property name="font">
-           <font>
-            <family>Liberation Sans</family>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">padding: 5px 5px 5px 5px; 
-border:0px;
-background-color: rgba(0,0,0,0); 
-border-bottom: 1px solid rgba(0,0,0,10)</string>
-          </property>
-          <property name="text">
-           <string/>
-          </property>
-          <property name="pixmap">
-           <pixmap resource="../data/kapudan.qrc">:/raw/pixmap/cr64-app-kapudan.png</pixmap>
-          </property>
-          <property name="scaledContents">
-           <bool>true</bool>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-          </property>
-          <property name="margin">
-           <number>0</number>
-          </property>
-          <property name="indent">
-           <number>0</number>
-          </property>
-         </widget>
-        </item>
-        <item>
          <widget class="QLabel" name="screenTitle">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
@@ -414,9 +375,7 @@ border: 1px solid gray;
           <property name="currentIndex">
            <number>0</number>
           </property>
-          <widget class="QWidget" name="page">
-           <zorder>groupBoxMenu</zorder>
-          </widget>
+          <widget class="QWidget" name="page"/>
          </widget>
         </item>
        </layout>
@@ -452,20 +411,28 @@ QPushButton{
 	color: white;
 	border:0px;
 	border-radius:4px;
-	background-color: rgb(26, 29, 32); /*rgba(0, 0, 0, 70);*/
+	background-color: rgb(68, 69, 70); /*rgba(0, 0, 0, 70);*/
 }
 
 QPushButton::flat{
 	border:1px solid  rgb(26, 29, 32); /*rgba(0, 0, 0, 70);*/
 	border-radius:4px;
-	background-color: rgb(26, 29, 32); /*rgba(0, 0, 0, 70);*/
+	background-color: rgb(68, 69, 70); /*rgba(0, 0, 0, 70);*/
 }
 
 QPushButton::flat:hover{
 	border:1px solid rgba(0, 0, 0, 100);
 	border-radius:4px;
-	background-color: rgba(0, 0, 0, 100);
+	background-color: rgba(0, 172, 255);
 }
+
+QPushButton::flat:pressed{
+	border:1px solid rgba(0, 0, 0, 100);
+	border-radius:4px;
+	background-color: rgba(106, 114, 128);
+}
+
+
 
 /*
 QPushButton::flat:pressed{
