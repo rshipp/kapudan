@@ -8,12 +8,12 @@
 # Willem1 <w.m.sonke@student.tue.nl>, 2013-2014
 msgid ""
 msgstr ""
-"Project-Id-Version: The Chakra Project\n"
+"Project-Id-Version: Chakra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-26 14:27-0700\n"
-"PO-Revision-Date: 2014-01-27 09:03+0000\n"
-"Last-Translator: Manuel Tortosa <manutortosa@chakra-project.org>\n"
-"Language-Team: Dutch (http://www.transifex.com/projects/p/chakra-project/language/nl/)\n"
+"PO-Revision-Date: 2014-02-24 18:13+0000\n"
+"Last-Translator: Willem1 <w.m.sonke@student.tue.nl>\n"
+"Language-Team: Dutch (http://www.transifex.com/projects/p/chakra/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -388,11 +388,11 @@ msgstr "achtergrondafbeeldingDesc"
 #: .tmp/scrKsuperkey.py:31 .tmp/ui_scrKsuperkey.py:124
 #: .tmp/ui_scrKsuperkey.py:127
 msgid "ksuperkey"
-msgstr ""
+msgstr "ksuperkey"
 
 #: .tmp/scrKsuperkey.py:32
 msgid "Enable / Disable ksuperkey"
-msgstr ""
+msgstr "ksuperkey in- / uitschakelen"
 
 #: .tmp/ui_scrKeyboard.py:102
 msgid "Keyboard"
