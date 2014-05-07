@@ -7,12 +7,12 @@
 # Rafael Ferreira <rafael.f.f1@gmail.com>, 2012-2014
 msgid ""
 msgstr ""
-"Project-Id-Version: The Chakra Project\n"
+"Project-Id-Version: Chakra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-26 14:27-0700\n"
-"PO-Revision-Date: 2014-01-27 09:03+0000\n"
-"Last-Translator: Manuel Tortosa <manutortosa@chakra-project.org>\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/chakra-project/language/pt_BR/)\n"
+"PO-Revision-Date: 2014-01-30 22:31+0000\n"
+"Last-Translator: Rafael Ferreira <rafael.f.f1@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/chakra/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -387,11 +387,11 @@ msgstr "wallpaperDesc"
 #: .tmp/scrKsuperkey.py:31 .tmp/ui_scrKsuperkey.py:124
 #: .tmp/ui_scrKsuperkey.py:127
 msgid "ksuperkey"
-msgstr ""
+msgstr "ksuperkey"
 
 #: .tmp/scrKsuperkey.py:32
 msgid "Enable / Disable ksuperkey"
-msgstr ""
+msgstr "Habilitar / Desabilitar ksuperkey"
 
 #: .tmp/ui_scrKeyboard.py:102
 msgid "Keyboard"
