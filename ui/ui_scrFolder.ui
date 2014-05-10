@@ -102,7 +102,9 @@ QToolButton::flat:pressed{
              <string>  Downloads  </string>
             </property>
             <property name="icon">
-             <iconset theme="folder-downloads"/>
+             <iconset theme="folder-downloads">
+              <normaloff/>
+             </iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -127,7 +129,9 @@ QToolButton::flat:pressed{
              <string>  Documents  </string>
             </property>
             <property name="icon">
-             <iconset theme="folder-documents"/>
+             <iconset theme="folder-documents">
+              <normaloff/>
+             </iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -152,7 +156,9 @@ QToolButton::flat:pressed{
              <string>  Videos  </string>
             </property>
             <property name="icon">
-             <iconset theme="folder-video"/>
+             <iconset theme="folder-video">
+              <normaloff/>
+             </iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -177,7 +183,9 @@ QToolButton::flat:pressed{
              <string>  Music  </string>
             </property>
             <property name="icon">
-             <iconset theme="folder-sound"/>
+             <iconset theme="folder-sound">
+              <normaloff/>
+             </iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -202,7 +210,9 @@ QToolButton::flat:pressed{
              <string>  Pictures  </string>
             </property>
             <property name="icon">
-             <iconset theme="folder-image"/>
+             <iconset theme="folder-image">
+              <normaloff/>
+             </iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -231,10 +241,13 @@ QToolButton::flat:pressed{
           <property name="orientation">
            <enum>Qt::Vertical</enum>
           </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Minimum</enum>
+          </property>
           <property name="sizeHint" stdset="0">
            <size>
             <width>20</width>
-            <height>16</height>
+            <height>8</height>
            </size>
           </property>
          </spacer>

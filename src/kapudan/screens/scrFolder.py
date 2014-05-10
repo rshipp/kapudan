@@ -105,7 +105,7 @@ class Widget(QtGui.QWidget, Screen):
         for key in self.folder:
             text += self.foldertext[key]+', ' if self.folder2button[key].isChecked() else ""
         if text == self.foldertext["header"] + self.foldertext["intro"]:
-            text += "None"
+            text += i18n("None")
         else:
             text = text.mid(0, text.length() - 2)
         text += self.foldertext["footer"]
