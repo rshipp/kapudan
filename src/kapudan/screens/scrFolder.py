@@ -69,6 +69,21 @@ class Widget(QtGui.QWidget, Screen):
         self.folder2button["video"] = self.ui.videoFolderButton
         self.folder2button["music"] = self.ui.musicFolderButton
         self.folder2button["picture"] = self.ui.pictureFolderButton
+        # Set up the textEdit text.
+        self.foldertext = dict()
+        self.foldertext["header"] = """<html><head><meta name="qrichtext" content="1" />
+            <style type="text/css">p, li { white-space: pre-wrap; }</style></head>
+            <body style=" font-family:'DejaVu Sans'; font-size:9pt; font-weight:400; font-style:normal;"><p
+            align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;
+            -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">"""
+        self.foldertext["intro"] = i18n("Selected: ")
+        self.foldertext["download"] = i18n("Downloads")
+        self.foldertext["documents"] = i18n("Documents")
+        self.foldertext["video"] = i18n("Videos")
+        self.foldertext["music"] = i18n("Music")
+        self.foldertext["picture"] = i18n("Pictures")
+        self.foldertext["footer"] = "</span></p></body></html>"
+
 
         for key in self.folder2button:
             self.folder2button[key].setStyleSheet("QToolButton:checked {background-color: rgb(120, 120, 120);}")
@@ -84,9 +99,22 @@ class Widget(QtGui.QWidget, Screen):
         self.ui.musicFolderButton.toggled.connect(self.addFolder)
         self.ui.videoFolderButton.toggled.connect(self.addFolder)
 
+    def updateText(self):
+        text = self.foldertext["header"]
+        text += self.foldertext["intro"]
+        for key in self.folder:
+            text += self.foldertext[key]+', ' if self.folder2button[key].isChecked() else ""
+        if text == self.foldertext["header"] + self.foldertext["intro"]:
+            text += "None"
+        else:
+            text = text.mid(0, text.length() - 2)
+        text += self.foldertext["footer"]
+        self.ui.textEdit.setText(text)
+
     def addFolder(self):
         for key in self.folder:
             self.folder[key] = self.folder2button[key].isChecked()
+        self.updateText()
 
     def shown(self):
         pass
@@ -111,6 +139,6 @@ class Widget(QtGui.QWidget, Screen):
                 # or it is not empty when we try to delete it
                 pass
 
-        self.__class__.screenSettings["summaryMessage"] = "Created folders in home directory"
+        self.__class__.screenSettings["summaryMessage"] = i18n("Created folders in home directory")
 
         return True
