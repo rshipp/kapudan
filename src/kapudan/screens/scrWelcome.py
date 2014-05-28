@@ -13,6 +13,7 @@
 # Please read the COPYING file.
 #
 
+import os
 
 from PyQt4 import QtGui
 from PyKDE4.kdecore import i18n
@@ -33,8 +34,14 @@ class Widget(QtGui.QWidget, Screen):
         self.ui.setupUi(self)
         Widget.desc = unicode(Widget.desc) % tools.getRelease()
 
+        self.autofile = os.path.expanduser("~/.config/autostart/kapudan.desktop")
+
     def shown(self):
-        pass
+        try:
+            print 'hi from here'
+            os.remove(self.autofile)
+        except OSError:
+            pass
 
     def execute(self):
         return True
