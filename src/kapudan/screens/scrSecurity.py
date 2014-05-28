@@ -50,8 +50,8 @@ class Widget(QtGui.QWidget, Screen):
 
         self.ui.enableClam.setEnabled(False)
         if self.config.isInstalled("clamd"):
-            if not os.system("grep -q ^Example /etc/clamav/clamd.conf") == 0:
-                if not os.system("grep -q ^Example /etc/clamav/freshclam.conf") == 0:
+            if os.system("grep -q ^Example /etc/clamav/clamd.conf") == 256:  # 256 is 'no match'.
+                if os.system("grep -q ^Example /etc/clamav/freshclam.conf") == 256:
                     self.ui.enableClam.setEnabled(True)
             self.ui.enableClam.setChecked(self.config.isEnabled("clamd"))
         else:
