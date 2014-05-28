@@ -38,7 +38,6 @@ class Widget(QtGui.QWidget, Screen):
 
     def shown(self):
         try:
-            print 'hi from here'
             os.remove(self.autofile)
         except OSError:
             pass
