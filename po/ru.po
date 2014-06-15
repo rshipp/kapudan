@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Jacobtey <jacobtey@gmail.com>, 2013-2014
-# serjvolkov <taranarmo@gmail.com>, 2013
+# Ilya Ostapenko <jacobtey@gmail.com>, 2013-2014
+# Serj Volkov <taranarmo@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: Chakra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-26 14:27-0700\n"
-"PO-Revision-Date: 2014-01-28 14:25+0000\n"
-"Last-Translator: Jacobtey <jacobtey@gmail.com>\n"
+"POT-Creation-Date: 2014-05-10 12:02-0600\n"
+"PO-Revision-Date: 2014-06-11 08:53+0000\n"
+"Last-Translator: Adrián Chaves Fernández <adriyetichaves@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/chakra/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,49 +41,49 @@ msgid ""
 "weight:600;\">next</span> when you are ready to begin.</p></body></html>"
 msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span> - это дистрибутив GNU/Linux, сосредоточивший в себе всю мощь KDE и QT на достижение технической простоты при передовом программном обеспечении.<br/><br/>Высшей целью проекта является продвижение быстрого, дружественного и мощного LiveCD и операционной системы, созданных специально, чтобы продемонстрировать превосходство KDE Software Compilation и элегантность рабочего окружения Plasma.<br/><br/><span style=\" font-weight:600;\">Kapudan</span> поможет Вам легко и быстро настроить установку Chakra под Ваши нужды. Просто нажмите <span style=\" font-weight:600;\">Далее</span> когда будете готовы начать.</p></body></html>"
 
-#: .tmp/ui_scrStyle.py:180 .tmp/scrStyle.py:40
+#: .tmp/ui_scrStyle.py:202 .tmp/scrStyle.py:40
 msgid "Themes"
 msgstr "Темы"
 
-#: .tmp/ui_scrStyle.py:181
+#: .tmp/ui_scrStyle.py:203
 msgid ""
 "Choose your favorite theme and desktop type. Customize Chakra with colorful "
 "styles and themes."
 msgstr "Выберите предпочтительную тему и тип рабочего стола. Настройте цветовую схему и темы."
 
-#: .tmp/ui_scrStyle.py:182
+#: .tmp/ui_scrStyle.py:204
 msgid "KDE Themes"
 msgstr "Темы KDE"
 
-#: .tmp/ui_scrStyle.py:183
+#: .tmp/ui_scrStyle.py:205
 msgid "Desktop Type"
 msgstr "Тип рабочего стола"
 
-#: .tmp/ui_scrStyle.py:184
+#: .tmp/ui_scrStyle.py:206
 msgid "Desktop view (KDE4 Style)"
 msgstr "Рабочий стол (в KDE4 по-умолчанию)"
 
-#: .tmp/ui_scrStyle.py:185
+#: .tmp/ui_scrStyle.py:207
 msgid "Folder view (KDE3 Style)"
 msgstr "Просмотр папки (как в KDE3)"
 
-#: .tmp/ui_scrStyle.py:186
+#: .tmp/ui_scrStyle.py:208
 msgid "Number of Desktops"
 msgstr "Количество рабочих столов"
 
-#: .tmp/ui_scrServices.py:127 .tmp/scrServices.py:31
+#: .tmp/ui_scrServices.py:123 .tmp/scrServices.py:31
 msgid "Services"
 msgstr "Сервисы"
 
-#: .tmp/ui_scrServices.py:128
+#: .tmp/ui_scrServices.py:124
 msgid "cups: The Common Unix Printing Service"
 msgstr "cups: общий сервис печати для Unix"
 
-#: .tmp/ui_scrServices.py:129
+#: .tmp/ui_scrServices.py:125
 msgid "bluetooth: Enable Bluetooth communication"
 msgstr "bluetooth: включить Bluetooth связь"
 
-#: .tmp/ui_scrServices.py:130
+#: .tmp/ui_scrServices.py:126
 msgid ""
 "<html><head/><body><p>By default, new installations of Chakra have only a "
 "bare minimum of required services (also called &quot;daemons&quot;) enabled."
@@ -103,11 +103,11 @@ msgid ""
 "weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
 msgstr "<html><head/><body><p>По-умолчанию после установки Chakra настроена на запуск минимального количества сервисов (так называемых &quot;демонов&quot;) при старте системы. Это не только отражает принцип Chakra не принимать решения за пользователя, но и повышает безопасность системы за счет сокращения запущенных служб, которые могут быть уязвимыми для хакерских атак. </p><p>По желанию можно воспользоваться настройками для автоматического запуска служб при старте системы. Для этого запустите команду <span style=\" font-weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; font-style:italic;\">название демона</span>. Соответственно, запуск<span style=\" font-weight:600;\">sudo systemctl disable </span><span style=\" font-weight:600; font-style:italic;\">название демона</span> отключает его автоматический запуск. Можно запускать демон вручную командой <span style=\" font-weight:600;\">sudo systemctl start </span><span style=\" font-weight:600; font-style:italic;\">название демона</span>. (Например, <span style=\" font-weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
 
-#: .tmp/ui_scrServices.py:131
+#: .tmp/ui_scrServices.py:127
 msgid "Daemons to start at boot time"
 msgstr "Демоны, запускаемые при старте системы"
 
-#: .tmp/scrFolder.py:30 .tmp/ui_scrFolder.py:162
+#: .tmp/scrFolder.py:30 .tmp/ui_scrFolder.py:215
 msgid "Folders"
 msgstr "Папки"
 
@@ -115,7 +115,39 @@ msgstr "Папки"
 msgid "Create folders in the home directory"
 msgstr "Создать папки в домашнем разделе"
 
-#: .tmp/kapudan.desktop.in.h:1 .tmp/ui_kapudan.py:368
+#: .tmp/scrFolder.py:79
+msgid "Selected: "
+msgstr ""
+
+#: .tmp/scrFolder.py:80
+msgid "Downloads"
+msgstr ""
+
+#: .tmp/scrFolder.py:81
+msgid "Documents"
+msgstr ""
+
+#: .tmp/scrFolder.py:82
+msgid "Videos"
+msgstr ""
+
+#: .tmp/scrFolder.py:83
+msgid "Music"
+msgstr ""
+
+#: .tmp/scrFolder.py:84
+msgid "Pictures"
+msgstr ""
+
+#: .tmp/scrFolder.py:108
+msgid "None"
+msgstr ""
+
+#: .tmp/scrFolder.py:142
+msgid "Created folders in home directory"
+msgstr ""
+
+#: .tmp/kapudan.desktop.in.h:1 .tmp/ui_kapudan.py:349
 msgid "Kapudan"
 msgstr "Kapudan"
 
@@ -123,7 +155,7 @@ msgstr "Kapudan"
 msgid "Welcome Wizard"
 msgstr "Мастер приветствия"
 
-#: .tmp/scrPackage.py:33 .tmp/ui_scrPackage.py:142
+#: .tmp/scrPackage.py:33 .tmp/ui_scrPackage.py:166
 msgid "Packages"
 msgstr "Пакеты"
 
@@ -131,79 +163,79 @@ msgstr "Пакеты"
 msgid "Install / Remove Programs"
 msgstr "Установить / Удалить программы"
 
-#: .tmp/ui_scrWallpaper.py:140 .tmp/scrWallpaper.py:37
+#: .tmp/ui_scrWallpaper.py:162 .tmp/scrWallpaper.py:37
 msgid "Wallpaper"
 msgstr "Обои"
 
-#: .tmp/ui_scrWallpaper.py:141
+#: .tmp/ui_scrWallpaper.py:163
 msgid ""
 "<html><head/><body><p>Choose your favorite wallpaper for your Chakra "
 "desktop. Don't forget to check out <span style=\" font-weight:600;\">Desktop"
 " Settings</span> to download cool new wallpapers.</p></body></html>"
 msgstr "<html><head/><body><p>Выбирите предпочтительные обои для рабочего стола Chakra. Не забудьте проверить <span style=\" font-weight:600;\">Настройки рабочего стола</span> чтобы загрузить новые популярные обои.</p></body></html>"
 
-#: .tmp/ui_scrWallpaper.py:142
+#: .tmp/ui_scrWallpaper.py:164
 msgid "Wallpapers"
 msgstr "Обои"
 
-#: .tmp/ui_scrWallpaper.py:144
+#: .tmp/ui_scrWallpaper.py:166
 msgid "Choose wallpaper from file"
 msgstr "Выбрать обои из файла"
 
-#: .tmp/ui_scrWallpaper.py:145
+#: .tmp/ui_scrWallpaper.py:167
 msgid "Don't change wallpaper"
 msgstr "Не изменять обои"
 
-#: .tmp/ui_scrSecurity.py:172 .tmp/scrSecurity.py:33
+#: .tmp/ui_scrSecurity.py:202 .tmp/scrSecurity.py:33
 msgid "Security"
 msgstr "Безопасность"
 
-#: .tmp/ui_scrSecurity.py:173
+#: .tmp/ui_scrSecurity.py:203
 msgid "Enable the firewall (UFW)"
 msgstr "Включить файервол (UFW)"
 
-#: .tmp/ui_scrSecurity.py:174
+#: .tmp/ui_scrSecurity.py:204
 msgid "Enable Clam AntiVirus daemon (must be installed and configured)"
 msgstr "Включить демон Clam AntiVirus (должен быть установлен и настроен)"
 
-#: .tmp/ui_scrSecurity.py:175
+#: .tmp/ui_scrSecurity.py:205
 msgid ""
 "<html><head/><body><p>Other security tools provided by Chakra include "
 "Tomoyo-tools, the KDE Wallet, rkhunter, chkrootkit, tiger, and more. Click "
 "the buttons below to learn more about these tools.</p></body></html>"
 msgstr "<html><head/><body><p>Прочие инструменты безопасности, представленные Chakra, включающие в себя инструментарий Tomoyo, Бумажник KDE, rkhunter, chkrootkit, tiger, и много другое. Нажмите кнопку внизу, чтобы узнать больше об этих инструментах.</p></body></html>"
 
-#: .tmp/ui_scrSecurity.py:176
+#: .tmp/ui_scrSecurity.py:206
 msgid "ClamAV: Detect and remove malware"
 msgstr "ClamAV: находит и уничтожает вредоносное ПО"
 
-#: .tmp/ui_scrSecurity.py:177
+#: .tmp/ui_scrSecurity.py:207
 msgid ""
 "Tomoyo-tools: A Mandatory Access Control (MAC) implementation for Linux"
 msgstr "Tomoyo: контроль доступа (MAC) в системе Linux"
 
-#: .tmp/ui_scrSecurity.py:178
+#: .tmp/ui_scrSecurity.py:208
 msgid ""
 "KDE Wallet Manager: Protect and encrypt passwords and other information"
 msgstr "Бумажник KDE: защита и шифрование паролей и прочей информации"
 
-#: .tmp/ui_scrSecurity.py:179
+#: .tmp/ui_scrSecurity.py:209
 msgid ""
 "chkrootkit and rkhunter: Check for the presence of rootkits on your system"
 msgstr "chkrootkit и rkhunter: тест на наличие руткитов в системе"
 
-#: .tmp/ui_scrSecurity.py:180
+#: .tmp/ui_scrSecurity.py:210
 msgid "Tiger: A host-based intrusion detection and auditing tool"
 msgstr "Tiger: обнаружение вторжений и аудит системы"
 
-#: .tmp/ui_scrSecurity.py:181
+#: .tmp/ui_scrSecurity.py:211
 msgid ""
 "<html><head/><body><p>Finally, Chakra also provides a graphical tool to "
 "configure the system firewall. Just click on &quot;Firewall&quot; in the KDE"
 " System Settings.</p></body></html>"
 msgstr "<html><head/><body><p>Наконец, Chakra предоставляет графический инструмент для настройки файервола. Просто нажмите на &quot;Файервол&quot; в настройках системы KDE.</p></body></html>"
 
-#: .tmp/ui_scrSecurity.py:182
+#: .tmp/ui_scrSecurity.py:212
 msgid ""
 "<html><head/><body><p>Security is a process, not a product, and no operating"
 " system can realistically claim to be perfectly secure. It is up to you to "
@@ -212,11 +244,11 @@ msgid ""
 "system safe.</p></body></html>"
 msgstr "<html><head/><body><p>Безопасность - это процесс, а не продукт, поэтому не существует совершенно безопасных операционных систем. Решение о поддержании системы в обновленном состоянии и следовании современным требованиям безопасности принимает сам пользователь. Chakra со своей стороны предлагает пользователю различные инструменты, обеспечивающие безопасность системы.</p></body></html>"
 
-#: .tmp/ui_scrSecurity.py:183
+#: .tmp/ui_scrSecurity.py:213
 msgid "Security Tools"
 msgstr "Инструменты безопасности"
 
-#: .tmp/scrMouse.py:32 .tmp/ui_scrMouse.py:213
+#: .tmp/scrMouse.py:32 .tmp/ui_scrMouse.py:232
 msgid "Mouse"
 msgstr "Мышь"
 
@@ -240,31 +272,31 @@ msgstr "Один клик"
 msgid "Double Click"
 msgstr "Двойной клик"
 
-#: .tmp/ui_scrFolder.py:155
+#: .tmp/ui_scrFolder.py:203
 msgid "Home Folder"
 msgstr "Домашняя папка"
 
-#: .tmp/ui_scrFolder.py:156
+#: .tmp/ui_scrFolder.py:204
 msgid "  Downloads  "
 msgstr "Загрузки"
 
-#: .tmp/ui_scrFolder.py:157
+#: .tmp/ui_scrFolder.py:205
 msgid "  Documents  "
 msgstr "Документы"
 
-#: .tmp/ui_scrFolder.py:158
+#: .tmp/ui_scrFolder.py:206
 msgid "  Videos  "
 msgstr "Видео"
 
-#: .tmp/ui_scrFolder.py:159
+#: .tmp/ui_scrFolder.py:207
 msgid "  Music  "
 msgstr "Музыка"
 
-#: .tmp/ui_scrFolder.py:160
+#: .tmp/ui_scrFolder.py:208
 msgid "  Pictures  "
 msgstr "Изображения"
 
-#: .tmp/ui_scrFolder.py:161
+#: .tmp/ui_scrFolder.py:214
 msgid ""
 "<html><head/><body><p>Your home directory does not contain folders for "
 "documents, music, pictures and the like by default. Kapudan will create the "
@@ -272,27 +304,27 @@ msgid ""
 "want.</p></body></html>"
 msgstr "<html><head/><body><p>В вашем домашнем разделе папки документов, музыки, изображений и подобные им по умолчанию отсутствуют. Kapudan создаст выбранные ниже папки сейчас. Снимите метки с тех папок, создавать которые вы не хотите.</p></body></html>"
 
-#: .tmp/ui_kapudan.py:369
+#: .tmp/ui_kapudan.py:350
 msgid "Welcome to Chakra"
 msgstr "Добро пожаловать в Chakra"
 
-#: .tmp/ui_kapudan.py:370
+#: .tmp/ui_kapudan.py:351
 msgid "Cancel"
 msgstr "Отмена"
 
-#: .tmp/ui_kapudan.py:371
+#: .tmp/ui_kapudan.py:352
 msgid "Back"
 msgstr "Назад"
 
-#: .tmp/ui_kapudan.py:372
+#: .tmp/ui_kapudan.py:353
 msgid "Next"
 msgstr "Далее"
 
-#: .tmp/ui_kapudan.py:373
+#: .tmp/ui_kapudan.py:354
 msgid "Finish"
 msgstr "Завершить"
 
-#: .tmp/ui_kapudan.py:374
+#: .tmp/ui_kapudan.py:355
 msgid "Apply"
 msgstr "Применить"
 
@@ -315,7 +347,7 @@ msgstr "Разрешить Strigi индексировать мои файлы"
 msgid "Search Options"
 msgstr "Настройка поиска"
 
-#: .tmp/scrMenu.py:28 .tmp/ui_scrMenu.py:134
+#: .tmp/scrMenu.py:28 .tmp/ui_scrMenu.py:163
 msgid "Menu"
 msgstr "Меню"
 
@@ -323,7 +355,7 @@ msgstr "Меню"
 msgid "Choose a Menu Style"
 msgstr "Выберите стиль меню"
 
-#: .tmp/scrMenu.py:43 .tmp/ui_scrMenu.py:136
+#: .tmp/scrMenu.py:43 .tmp/ui_scrMenu.py:165
 msgid "Kick-off Menu"
 msgstr "Стартовое меню"
 
@@ -333,7 +365,7 @@ msgid ""
 "are easy to access and well organized."
 msgstr "Стартовое меню - основное меню в Chakra.<br><br>Ссылки на программы легко доступны и хорошо организованы."
 
-#: .tmp/scrMenu.py:49 .tmp/ui_scrMenu.py:137
+#: .tmp/scrMenu.py:49 .tmp/ui_scrMenu.py:166
 msgid "Simple Menu"
 msgstr "Простое меню"
 
@@ -343,7 +375,7 @@ msgid ""
 " menu thus it is recommended for slower PC's."
 msgstr "Простое меню в стиле KDE 3.<br><br>Очень легковесное, поэтому рекомендуется для слабых компьютеров."
 
-#: .tmp/scrMenu.py:55 .tmp/ui_scrMenu.py:138
+#: .tmp/scrMenu.py:55 .tmp/ui_scrMenu.py:167
 msgid "Lancelot Menu"
 msgstr "Меню Lancelot"
 
@@ -353,7 +385,7 @@ msgid ""
 "program shortcuts are easy to access and well organized."
 msgstr "Lancelot расширенное и гибко настраиваемое меню для Chakra.<br><br>Ссылки на программы легкодоступны и удобно расположены."
 
-#: .tmp/scrMenu.py:61 .tmp/ui_scrMenu.py:139
+#: .tmp/scrMenu.py:61 .tmp/ui_scrMenu.py:168
 msgid "Homerun Menu"
 msgstr "Меню Homerun"
 
@@ -361,7 +393,7 @@ msgstr "Меню Homerun"
 msgid "Homerun is a full screen launcher with content organized in tabs."
 msgstr "Homerun - это полноэкранное меню запуска, содержащее вкладки"
 
-#: .tmp/scrMenu.py:67 .tmp/ui_scrMenu.py:140
+#: .tmp/scrMenu.py:67 .tmp/ui_scrMenu.py:169
 msgid "AppMenu QML"
 msgstr "AppMenu QML"
 
@@ -384,8 +416,8 @@ msgstr "Название обоев"
 msgid "wallpaperDesc"
 msgstr "Описание обоев"
 
-#: .tmp/scrKsuperkey.py:31 .tmp/ui_scrKsuperkey.py:124
-#: .tmp/ui_scrKsuperkey.py:127
+#: .tmp/scrKsuperkey.py:31 .tmp/ui_scrKsuperkey.py:148
+#: .tmp/ui_scrKsuperkey.py:151
 msgid "ksuperkey"
 msgstr "ksuperkey"
 
@@ -408,7 +440,7 @@ msgstr "<html><head/><body><p>Kapudan пытается выбрать лучшу
 msgid "Test area:"
 msgstr "Область проверки:"
 
-#: .tmp/scrSummary.py:46 .tmp/ui_scrSummary.py:94
+#: .tmp/scrSummary.py:46 .tmp/ui_scrSummary.py:113
 msgid "Summary"
 msgstr "Сводка"
 
@@ -562,7 +594,7 @@ msgstr "Сделать снимок"
 msgid "Recapture"
 msgstr "Сделать снимок заново"
 
-#: .tmp/scrGoodbye.py:28 .tmp/ui_scrGoodbye.py:361
+#: .tmp/scrGoodbye.py:28 .tmp/ui_scrGoodbye.py:375
 msgid "More"
 msgstr "Ещё"
 
@@ -570,40 +602,40 @@ msgstr "Ещё"
 msgid "Congratulations!"
 msgstr "Поздравляем!"
 
-#: .tmp/ui_scrPackage.py:143
+#: .tmp/ui_scrPackage.py:167
 msgid "Check for updates automatically every"
 msgstr "Проверять обновления автоматически каждые"
 
-#: .tmp/ui_scrPackage.py:144
+#: .tmp/ui_scrPackage.py:168
 msgid " minutes"
 msgstr "минут"
 
-#: .tmp/ui_scrPackage.py:145
+#: .tmp/ui_scrPackage.py:169
 msgid "Use audio along with the visual notification"
 msgstr "Озвучивать визуальные оповещения о событиях"
 
-#: .tmp/ui_scrPackage.py:146
+#: .tmp/ui_scrPackage.py:170
 msgid ""
 "<html><head/><body><p>To install and remove programs on Chakra, use the "
-"command-line program, <a href=\"http://chakra-"
-"linux.org/wiki/index.php/Pacman\"><span style=\" text-decoration: underline;"
-" color:#0057ae;\">pacman</span></a>. You can run <span style=\" font-"
-"weight:600;\">sudo pacman -Syu</span> to update, <span style=\" font-"
-"weight:600;\">pacman -Ss </span><span style=\" font-weight:600; font-"
-"style:italic;\">keyword</span> to search through the repos, and <span "
-"style=\" font-weight:600;\">sudo pacman -S </span><span style=\" font-"
-"weight:600; font-style:italic;\">package</span> to install "
+"command-line program, <a "
+"href=\"http://chakraos.org/wiki/index.php?title=Pacman\"><span style=\" "
+"text-decoration: underline; color:#0057ae;\">pacman</span></a>. You can run "
+"<span style=\" font-weight:600;\">sudo pacman -Syu</span> to update, <span "
+"style=\" font-weight:600;\">pacman -Ss </span><span style=\" font-"
+"weight:600; font-style:italic;\">keyword</span> to search through the repos,"
+" and <span style=\" font-weight:600;\">sudo pacman -S </span><span style=\" "
+"font-weight:600; font-style:italic;\">package</span> to install "
 "packages.</p><p>Pacman does not have any sort of graphical interface, so "
 "another small app, spun, was created to provide update notifications. When "
 "updates are available, spun will show a notification in your system tray. "
 "</p></body></html>"
-msgstr "<html><head/><body><p>Для установки и удаления приложений в Chakra пользуйтесь командной строкой программы <a href=\"http://chakra-linux.org/wiki/index.php/Pacman\"><span style=\" text-decoration: underline; color:#0057ae;\">pacman</span></a>. Следует запустить <span style=\" font-weight:600;\">sudo pacman -Syu</span> для обновления, <span style=\" font-weight:600;\">pacman -Ss </span><span style=\" font-weight:600; font-style:italic;\">с ключевым словом</span> для поиска в репозитории, и <span style=\" font-weight:600;\">sudo pacman -S </span><span style=\" font-weight:600; font-style:italic;\">package</span> для установки пакетов.</p><p>Pacman не имеет какого-либо графического интерфеса, поэтому еще одно небольшое приложение, spun, было создано для оповещений о наличии обновлений. При появлении обновлений, spun покажет соответствующее оповещение в системном трее. </p></body></html>"
+msgstr ""
 
-#: .tmp/ui_scrPackage.py:147
+#: .tmp/ui_scrPackage.py:171
 msgid "Updates"
 msgstr "Обновления"
 
-#: .tmp/ui_scrMouse.py:214
+#: .tmp/ui_scrMouse.py:233
 msgid ""
 "<html><head/><body><p>The <span style=\" font-weight:600;\">clicking "
 "behavior</span> defines how many times you want to click to open files and "
@@ -612,35 +644,35 @@ msgid ""
 "device.</p></body></html>"
 msgstr "<html><head/><body><p> <span style=\" font-weight:600;\">поведение при щелчке</span> определяет, сколько раз нужно щелкунуть мышью, чтобы открыть файл или папку. Если вы <span style=\" font-weight:600;\">левша</span>, вы можете поменять местами действия правой и левой клавиш мыши.</p></body></html>"
 
-#: .tmp/ui_scrMouse.py:215
+#: .tmp/ui_scrMouse.py:234
 msgid "Clicking Behaviour"
 msgstr "Поведение по щелчку"
 
-#: .tmp/ui_scrMouse.py:216
+#: .tmp/ui_scrMouse.py:235
 msgid "Dou&ble-click to open files and folders"
 msgstr "Открывать файлы и папки двойным щелчком"
 
-#: .tmp/ui_scrMouse.py:217
+#: .tmp/ui_scrMouse.py:236
 msgid "Single-click to open files and folders"
 msgstr "Открывать файлы и папки одним щелчком"
 
-#: .tmp/ui_scrMouse.py:218
+#: .tmp/ui_scrMouse.py:237
 msgid "Button Order"
 msgstr "Соответствие клавиш"
 
-#: .tmp/ui_scrMouse.py:219
+#: .tmp/ui_scrMouse.py:238
 msgid "Right Hand"
 msgstr "Правша"
 
-#: .tmp/ui_scrMouse.py:220
+#: .tmp/ui_scrMouse.py:239
 msgid "Left Hand"
 msgstr "Левша"
 
-#: .tmp/ui_scrMouse.py:221
+#: .tmp/ui_scrMouse.py:240
 msgid "Reverse scrolling"
 msgstr "Обратная прокрутка"
 
-#: .tmp/ui_scrGoodbye.py:362
+#: .tmp/ui_scrGoodbye.py:376
 msgid ""
 "<html><head/><body><p><span style=\" font-weight:600;\">Your settings have "
 "been applied.</span> Now you can start enjoying Chakra, or check out the "
@@ -649,41 +681,41 @@ msgid ""
 "community!</span></p></body></html>"
 msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Ваши настройки были применены.</span> Теперь вы можете начать наслаждаться Chakra, или проверить следующие ссылки и приложения для большего количества настроек, или для получения помощи и поддержки. Не забудьте <span style=\" font-weight:600;\">присоединиться к нашему сообществу!</span></p></body></html>"
 
-#: .tmp/ui_scrGoodbye.py:363 .tmp/ui_scrGoodbye.py:365
+#: .tmp/ui_scrGoodbye.py:377 .tmp/ui_scrGoodbye.py:379
 msgid "System Settings"
 msgstr "Настройки системы"
 
-#: .tmp/ui_scrGoodbye.py:364
+#: .tmp/ui_scrGoodbye.py:378
 msgid ""
 "Configuration tools for Chakra, such as the display settings, firewall, "
 "keyboard layout, user management..."
 msgstr "Инструменты конфигурации Chakra такие, как настройки дисплея, файервол, раскладка клавиатуры, управление пользователями..."
 
-#: .tmp/ui_scrGoodbye.py:366 .tmp/ui_scrGoodbye.py:368
+#: .tmp/ui_scrGoodbye.py:380 .tmp/ui_scrGoodbye.py:382
 msgid "Help and Support"
 msgstr "Помощь и поддержка"
 
-#: .tmp/ui_scrGoodbye.py:367
+#: .tmp/ui_scrGoodbye.py:381
 msgid ""
 "Chakra community: mailing lists, chat rooms, Wiki documents, help and "
 "support pages..."
 msgstr "Сообщество Chakra: списки адресов электронной почты, чаты, документы Wiki, страницы помощи и поддержки..."
 
-#: .tmp/ui_scrGoodbye.py:369
+#: .tmp/ui_scrGoodbye.py:383
 msgid "Using KDE"
 msgstr "Использование KDE"
 
-#: .tmp/ui_scrGoodbye.py:370
+#: .tmp/ui_scrGoodbye.py:384
 msgid ""
 "Learn how to get the most out of KDE, the Plasma desktop, and everything "
 "else Chakra has to offer, in the Chakra Beginner's Guide."
 msgstr "Узнайте, как получить максимум от KDE, рабочего стола Plasma и всего, что предлагает Chakra, в Инструкции для новичков"
 
-#: .tmp/ui_scrGoodbye.py:371
+#: .tmp/ui_scrGoodbye.py:385
 msgid "Beginner's Guide"
 msgstr "Инструкция для новичков"
 
-#: .tmp/ui_scrGoodbye.py:372
+#: .tmp/ui_scrGoodbye.py:386
 msgid "Run Kapudan on system startup?"
 msgstr "Запускать Kapudan при старте системы?"
 
@@ -708,21 +740,21 @@ msgstr "Название стиля"
 msgid "styleDesc"
 msgstr "Описание стиля"
 
-#: .tmp/ui_scrMenu.py:135
+#: .tmp/ui_scrMenu.py:164
 msgid ""
 "You can also customize your <b>KDE menu</b> as you like. Please choose one "
 "from the following styles."
 msgstr "Также можно настроить <b>Меню KDE<b> по своему желанию. Следует просто выбрать один из следующих стилей."
 
-#: .tmp/ui_scrMenu.py:141
+#: .tmp/ui_scrMenu.py:170
 msgid "Sample"
 msgstr "Пример"
 
-#: .tmp/ui_scrKsuperkey.py:125
+#: .tmp/ui_scrKsuperkey.py:149
 msgid "Enable ksuperkey and start it at login."
 msgstr "Активировать ksuperkey и запускать при входе."
 
-#: .tmp/ui_scrKsuperkey.py:126
+#: .tmp/ui_scrKsuperkey.py:150
 msgid ""
 "<html><head/><body><p>By default, you can open the application launcher with"
 " the <span style=\" font-weight:600;\">Alt+F1</span> keyboard shortcut. The "
@@ -732,7 +764,7 @@ msgid ""
 " easier to open the launcher.</p></body></html>"
 msgstr "<html><head/><body><p>По умолчанию открыть панель запуска приложений можно сочетанием клавиш <span style=\" font-weight:600;\">Alt+F1</span>. Программа<span style=\" font-weight:600;\">ksuperkey</span> привяжет данную комбинацию к клавише &quot;Super&quot; (так же известной как the &quot;Meta&quot; или &quot;Windows&quot; key), сделав процесс открытия панели удобней.</p></body></html>"
 
-#: .tmp/ui_scrSummary.py:95
+#: .tmp/ui_scrSummary.py:114
 msgid ""
 "<html><head/><body><p>You have successfully finished all steps. Here's a "
 "summary of the settings you want to apply. Click <span style=\" font-"
@@ -740,6 +772,6 @@ msgid ""
 "changes. </p></body></html>"
 msgstr "<html><head/><body><p>Вы успешно прошли все шаги. Ниже представлен список изменений, готовых к принятию. Нажмите <span style=\" font-weight:600;\">Принять</span> если согласны, или вернитесь и внесите необходимые исправления. </p></body></html>"
 
-#: .tmp/ui_scrSummary.py:96
+#: .tmp/ui_scrSummary.py:115
 msgid "The following settings will be applied"
 msgstr "Следующие изменения будут приняты"
