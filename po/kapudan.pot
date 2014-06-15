@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-10 12:02-0600\n"
+"POT-Creation-Date: 2014-06-15 12:09-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .tmp/ui_scrWelcome.py:87 .tmp/scrWelcome.py:27
+#: .tmp/ui_scrWelcome.py:87 .tmp/scrWelcome.py:28
 msgid "Welcome"
 msgstr ""
 
@@ -36,7 +36,8 @@ msgid ""
 "elegant Plasma Workspaces.<br/><br/><span style=\" font-weight:600;"
 "\">Kapudan</span> will help you personalize your Chakra installation easily "
 "and quickly. Just click <span style=\" font-weight:600;\">next</span> when "
-"you are ready to begin.</p></body></html>"
+"you are ready to begin. If you prefer, you can simply close this window now "
+"and configure your computer yourself.</p></body></html>"
 msgstr ""
 
 #: .tmp/ui_scrStyle.py:202 .tmp/scrStyle.py:40
@@ -714,7 +715,7 @@ msgstr ""
 msgid "Run Kapudan on system startup?"
 msgstr ""
 
-#: .tmp/scrWelcome.py:28
+#: .tmp/scrWelcome.py:29
 #, python-format
 msgid "Welcome to %s"
 msgstr ""
