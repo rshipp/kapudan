@@ -56,7 +56,7 @@ class Widget(QtGui.QWidget, Screen):
             "image": QtGui.QPixmap(':/raw/pixmap/lancelot.png'),
             "description": i18n("Lancelot is an advanced and highly customizable menu for Chakra.<br><br>The program shortcuts are easy to access and well organized.")
         }
-        self.menuNames["homerunlauncher"] = {
+        self.menuNames["homerun_launcher"] = {
             "menuIndex": 3,
             "summaryMessage": i18n("Homerun Menu"),
             "image": QtGui.QPixmap(':/raw/pixmap/homerun.png'),

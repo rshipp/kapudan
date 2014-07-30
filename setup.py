@@ -94,10 +94,11 @@ class Build(build):
         # Copy compiled UIs and RCs
         print "Generating UIs..."
         for filename in glob.glob1("ui", "*.ui"):
-            if not "ui_scrFolder" in filename:
-                os.system("pykdeuic4 -o build/kapudan/screens/%s.py ui/%s" % (filename.split(".")[0], filename))
-            else:
-                shutil.copy("ui/ui_scrFolder.py", "build/kapudan/screens/ui_scrFolder.py")
+#            if not "ui_scrFolder" in filename:
+#                os.system("pykdeuic4 -o build/kapudan/screens/%s.py ui/%s" % (filename.split(".")[0], filename))
+#            else:
+#                shutil.copy("ui/ui_scrFolder.py", "build/kapudan/screens/ui_scrFolder.py")
+            os.system("pykdeuic4 -o build/kapudan/screens/%s.py ui/%s" % (filename.split(".")[0], filename))
         print "Generating RCs..."
         for filename in glob.glob1("data", "*.qrc"):
             os.system("pyrcc4 data/%s -o build/kapudan/%s_rc.py" % (filename, filename.split(".")[0]))

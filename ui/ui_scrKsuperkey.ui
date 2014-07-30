@@ -1,20 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>servicesWidget</class>
- <widget class="QWidget" name="servicesWidget">
+ <class>ksuperkeyWidget</class>
+ <widget class="QWidget" name="ksuperkeyWidget">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>577</width>
-    <height>505</height>
+    <width>684</width>
+    <height>596</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Services</string>
+   <string>ksuperkey</string>
   </property>
   <property name="styleSheet">
-   <string notr="true"/>
+   <string notr="true">QGroupBox {
+	background-color: rgb(170, 170, 170);
+	border: 1px solid rgba(255,255,255,50);;
+}
+
+
+QPushButton{
+	padding: 3px 10px 3px 10px;
+	color: white;
+	border:0px;
+	border-radius:4px;
+	background-color: rgb(68, 69, 70);
+}
+
+QPushButton::flat{
+	border:1px solid  rgb(68, 69, 70);
+	border-radius:4px;
+	background-color: rgb(68, 69, 70);
+}
+
+QPushButton::flat:hover{
+	border:1px solid rgba(0, 0, 0, 100);
+	border-radius:4px;
+	background-color: rgb(0, 172, 255);
+}
+
+QPushButton::flat:pressed{
+	border:1px solid rgba(0, 0, 0, 100);
+	border-radius:4px;
+	background-color: rgb(106, 114, 128);
+}</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
    <property name="margin">
@@ -42,9 +72,7 @@
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">#groupBoxUpdates{
-    background-color: rgb(170, 170, 170);
-}</string>
+        <string notr="true"/>
        </property>
        <property name="title">
         <string/>
@@ -57,7 +85,7 @@
          <number>10</number>
         </property>
         <item>
-         <widget class="QCheckBox" name="enableCups">
+         <widget class="QCheckBox" name="enableKsuperkey">
           <property name="font">
            <font>
             <family>Sans Serif</family>
@@ -68,23 +96,7 @@
            <string notr="true">color: rgb(30, 43, 51)</string>
           </property>
           <property name="text">
-           <string>cups: The Common Unix Printing Service</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QCheckBox" name="enableBluetooth">
-          <property name="font">
-           <font>
-            <family>Sans Serif</family>
-            <pointsize>9</pointsize>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">color: rgb(30, 43, 51)</string>
-          </property>
-          <property name="text">
-           <string>bluetooth: Enable Bluetooth communication</string>
+           <string>Enable ksuperkey and start it at login.</string>
           </property>
          </widget>
         </item>
@@ -122,12 +134,18 @@
         <string/>
        </property>
        <property name="pixmap">
-        <pixmap resource="../data/kapudan.qrc">:/raw/pixmap/preferences-services.png</pixmap>
+        <pixmap resource="../data/kapudan.qrc">:/raw/pixmap/kde.png</pixmap>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QLabel" name="description">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="minimumSize">
         <size>
          <width>300</width>
@@ -147,7 +165,7 @@
         <enum>QFrame::Raised</enum>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, new installations of Chakra have only a bare minimum of required services (also called &amp;quot;daemons&amp;quot;) enabled. Not only does this reflect Chakra's principle of not making decisions for its users, it also adds to a new installation's security, by decreasing the number of active services that might be vulnerable to an attack.&lt;/p&gt;&lt;p&gt;If you wish, you can use the options below to tell some of the more widely used daemons to start automatically at boot time. To enable any service you would like to start on bootup, you can run &lt;span style=&quot; font-weight:600;&quot;&gt;sudo systemctl enable &lt;/span&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;daemon-name&lt;/span&gt;. Respectively, run &lt;span style=&quot; font-weight:600;&quot;&gt;sudo systemctl disable &lt;/span&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;daemon-name&lt;/span&gt; to disable it. Or, if you just want to start daemons manually, try &lt;span style=&quot; font-weight:600;&quot;&gt;sudo systemctl start &lt;/span&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;daemon-name&lt;/span&gt;. (Eg, &lt;span style=&quot; font-weight:600;&quot;&gt;sudo systemctl start cups&lt;/span&gt;).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, you can open the application launcher with the &lt;span style=&quot; font-weight:600;&quot;&gt;Alt+F1&lt;/span&gt; keyboard shortcut. The &lt;span style=&quot; font-weight:600;&quot;&gt;ksuperkey&lt;/span&gt; program will bind your &amp;quot;Super&amp;quot; key (also known as the &amp;quot;Meta&amp;quot; or &amp;quot;Windows&amp;quot; key) to send this key combination when tapped, making it easier to open the launcher.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="wordWrap">
         <bool>true</bool>
@@ -175,7 +193,7 @@
      </property>
     </spacer>
    </item>
-   <item row="4" column="0">
+   <item row="5" column="0">
     <spacer name="verticalSpacer_8">
      <property name="orientation">
       <enum>Qt::Vertical</enum>
@@ -209,7 +227,7 @@ border-top-left-radius: 4px;
 border-top-right-radius: 4px;</string>
      </property>
      <property name="text">
-      <string>Daemons to start at boot time</string>
+      <string>ksuperkey</string>
      </property>
      <property name="margin">
       <number>5</number>
@@ -220,7 +238,6 @@ border-top-right-radius: 4px;</string>
  </widget>
  <resources>
   <include location="../data/kapudan.qrc"/>
-  <include location="../../../../.designer/data/kapudan.qrc"/>
  </resources>
  <connections/>
 </ui>

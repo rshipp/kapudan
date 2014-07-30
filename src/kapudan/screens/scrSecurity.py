@@ -50,8 +50,8 @@ class Widget(QtGui.QWidget, Screen):
 
         self.ui.enableClam.setEnabled(False)
         if self.config.isInstalled("clamd"):
-            if not os.system("grep -q ^Example /etc/clamav/clamd.conf") == 0:
-                if not os.system("grep -q ^Example /etc/clamav/freshclam.conf") == 0:
+            if os.system("grep -q ^Example /etc/clamav/clamd.conf") == 256:  # 256 is 'no match'.
+                if os.system("grep -q ^Example /etc/clamav/freshclam.conf") == 256:
                     self.ui.enableClam.setEnabled(True)
             self.ui.enableClam.setChecked(self.config.isEnabled("clamd"))
         else:
@@ -80,22 +80,22 @@ class Widget(QtGui.QWidget, Screen):
 
     def on_buttonClam_clicked(self):
         self.procSettings = QProcess()
-        command = "xdg-open http://www.chakra-project.org/wiki/index.php?title=Anti-Malware#ClamAV"
+        command = "xdg-open http://www.chakraos.org/wiki/index.php?title=Anti-Malware#ClamAV"
         self.procSettings.start(command)
 
     def on_buttonTomoyo_clicked(self):
         self.procSettings = QProcess()
-        command = "xdg-open http://www.chakra-project.org/wiki/index.php?title=Using_tomoyo-tools_for_system_security"
+        command = "xdg-open http://www.chakraos.org/wiki/index.php?title=Using_tomoyo-tools_for_system_security"
         self.procSettings.start(command)
 
     def on_buttonKwallet_clicked(self):
         self.procSettings = QProcess()
-        command = "xdg-open http://www.chakra-project.org/wiki/index.php?title=KDE_Wallet_Manager"
+        command = "xdg-open http://www.chakraos.org/wiki/index.php?title=KDE_Wallet_Manager"
         self.procSettings.start(command)
 
     def on_buttonRootkit_clicked(self):
         self.procSettings = QProcess()
-        command = "xdg-open http://www.chakra-project.org/wiki/index.php?title=Anti-Malware#chkrootkit_and_rkhunter"
+        command = "xdg-open http://www.chakraos.org/wiki/index.php?title=Anti-Malware#chkrootkit_and_rkhunter"
         self.procSettings.start(command)
 
     def on_buttonTiger_clicked(self):

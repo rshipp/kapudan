@@ -14,6 +14,7 @@ from kapudan.tools import tools
 from kapudan.tools.progress_pie import DrawPie
 from kapudan.tools.kapudan_menu import Menu
 from kapudan.tools.spunrc import SpunRC
+import kapudan.kapudan_rc
 
 
 class Kapudan(QtGui.QWidget):

@@ -13,34 +13,45 @@
 # Please read the COPYING file.
 #
 
-import os
-
 from PyQt4 import QtGui
+#from PyQt4.QtCore import
+
 from PyKDE4.kdecore import i18n
 
+#from PyKDE4 import kdeui
+
 from kapudan.screen import Screen
-from kapudan.screens.ui_scrWelcome import Ui_welcomeWidget
-from kapudan.tools import tools
+from kapudan.screens.ui_scrKsuperkey import Ui_ksuperkeyWidget
+from kapudan.tools.ksuperkey import KSuperKey
+
+isUpdateOn = False
 
 
 class Widget(QtGui.QWidget, Screen):
+    title = i18n("ksuperkey")
+    desc = i18n("Enable / Disable ksuperkey")
 
-    title = i18n("Welcome")
-    desc = i18n("Welcome to %s")
+    screenSettings = {}
+    screenSettings["hasChanged"] = False
 
     def __init__(self, *args):
         QtGui.QWidget.__init__(self, None)
-        self.ui = Ui_welcomeWidget()
+        self.ui = Ui_ksuperkeyWidget()
         self.ui.setupUi(self)
-        Widget.desc = unicode(Widget.desc) % tools.getRelease()
+        self.ksuperkey = KSuperKey()
 
-        self.autofile = os.path.expanduser("~/.config/autostart/kapudan.desktop")
+        # set initial states
+        self.ui.enableKsuperkey.setChecked(self.ksuperkey.isEnabled())
+
+    def applySettings(self):
+        if self.ui.enableKsuperkey.isChecked():
+            self.ksuperkey.enable()
+        else:
+            self.ksuperkey.disable()
 
     def shown(self):
-        try:
-            os.remove(self.autofile)
-        except OSError:
-            pass
+        pass
 
     def execute(self):
+        self.applySettings()
         return True

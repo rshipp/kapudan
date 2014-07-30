@@ -43,10 +43,35 @@
        </property>
        <property name="styleSheet">
         <string notr="true">#groupBoxUpdates{
-background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:0, y2:0, stop:0 rgba(219, 219, 219, 100), stop:1 rgba(255, 255, 255, 100));
+background-color: rgb(170, 170, 170);
 border: 1px solid rgba(255,255,255,50);
-border-bottom-left-radius: 4px;
-border-bottom-right-radius: 4px;
+}
+
+
+QPushButton{
+	padding: 3px 10px 3px 10px;
+	color: white;
+	border:0px;
+	border-radius:4px;
+	background-color: rgb(68, 69, 70);
+}
+
+QPushButton::flat{
+	border:1px solid  rgb(68, 69, 70);
+	border-radius:4px;
+	background-color: rgb(68, 69, 70);
+}
+
+QPushButton::flat:hover{
+	border:1px solid rgba(0, 0, 0, 100);
+	border-radius:4px;
+	background-color: rgb(0, 172, 255);
+}
+
+QPushButton::flat:pressed{
+	border:1px solid rgba(0, 0, 0, 100);
+	border-radius:4px;
+	background-color: rgb(106, 114, 128);
 }</string>
        </property>
        <property name="title">
@@ -122,7 +147,7 @@ border-bottom-right-radius: 4px;
            </font>
           </property>
           <property name="styleSheet">
-           <string notr="true"/>
+           <string notr="true">color: rgb(30, 43, 51)</string>
           </property>
           <property name="frameShadow">
            <enum>QFrame::Raised</enum>
@@ -156,8 +181,14 @@ border-bottom-right-radius: 4px;
         </item>
         <item>
          <widget class="QPushButton" name="buttonClam">
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
           <property name="text">
            <string>ClamAV: Detect and remove malware</string>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
           </property>
          </widget>
         </item>
@@ -166,12 +197,18 @@ border-bottom-right-radius: 4px;
           <property name="text">
            <string>Tomoyo-tools: A Mandatory Access Control (MAC) implementation for Linux</string>
           </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
          </widget>
         </item>
         <item>
          <widget class="QPushButton" name="buttonKwallet">
           <property name="text">
            <string>KDE Wallet Manager: Protect and encrypt passwords and other information</string>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
           </property>
          </widget>
         </item>
@@ -180,12 +217,18 @@ border-bottom-right-radius: 4px;
           <property name="text">
            <string>chkrootkit and rkhunter: Check for the presence of rootkits on your system</string>
           </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
          </widget>
         </item>
         <item>
          <widget class="QPushButton" name="buttonTiger">
           <property name="text">
            <string>Tiger: A host-based intrusion detection and auditing tool</string>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
           </property>
          </widget>
         </item>
@@ -220,7 +263,7 @@ border-bottom-right-radius: 4px;
            </font>
           </property>
           <property name="styleSheet">
-           <string notr="true"/>
+           <string notr="true">color: rgb(30, 43, 51)</string>
           </property>
           <property name="frameShadow">
            <enum>QFrame::Raised</enum>
@@ -240,6 +283,22 @@ border-bottom-right-radius: 4px;
       </widget>
      </item>
     </layout>
+   </item>
+   <item row="5" column="0">
+    <spacer name="verticalSpacer_8">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Expanding</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>0</height>
+      </size>
+     </property>
+    </spacer>
    </item>
    <item row="0" column="0">
     <layout class="QHBoxLayout" name="horizontalLayout_2">
@@ -323,27 +382,11 @@ border-bottom-right-radius: 4px;
      </property>
     </spacer>
    </item>
-   <item row="5" column="0">
-    <spacer name="verticalSpacer_8">
-     <property name="orientation">
-      <enum>Qt::Vertical</enum>
-     </property>
-     <property name="sizeType">
-      <enum>QSizePolicy::Expanding</enum>
-     </property>
-     <property name="sizeHint" stdset="0">
-      <size>
-       <width>20</width>
-       <height>0</height>
-      </size>
-     </property>
-    </spacer>
-   </item>
    <item row="2" column="0">
     <widget class="QLabel" name="label">
      <property name="font">
       <font>
-       <family>URW Gothic L</family>
+       <family>DejaVu Sans</family>
        <pointsize>9</pointsize>
        <weight>75</weight>
        <bold>true</bold>
@@ -351,8 +394,7 @@ border-bottom-right-radius: 4px;
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">    background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 rgba(132, 132, 132, 255), stop:0.501481 rgba(70, 70, 70, 255), stop:0.503057 rgba(62, 62, 62, 255), stop:1 rgba(16, 16, 16, 255));
-border: 1px solid rgba(255,255,255,50);
+      <string notr="true">background-color: rgba(0, 0, 0, 70);
 color:white;
 border-top-left-radius: 4px;
 border-top-right-radius: 4px;</string>
