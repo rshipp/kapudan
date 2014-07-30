@@ -14,7 +14,37 @@
    <string>GTK Integration</string>
   </property>
   <property name="styleSheet">
-   <string notr="true"/>
+   <string notr="true">QGroupBox {
+	background-color: rgb(170, 170, 170);
+	border: 1px solid rgba(255,255,255,50);
+}
+
+
+QPushButton{
+	padding: 3px 10px 3px 10px;
+	color: white;
+	border:0px;
+	border-radius:4px;
+	background-color: rgb(68, 69, 70);
+}
+
+QPushButton::flat{
+	border:1px solid  rgb(68, 69, 70);
+	border-radius:4px;
+	background-color: rgb(68, 69, 70);
+}
+
+QPushButton::flat:hover{
+	border:1px solid rgba(0, 0, 0, 100);
+	border-radius:4px;
+	background-color: rgb(0, 172, 255);
+}
+
+QPushButton::flat:pressed{
+	border:1px solid rgba(0, 0, 0, 100);
+	border-radius:4px;
+	background-color: rgb(106, 114, 128);
+}</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
    <property name="margin">
@@ -42,12 +72,7 @@
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">#groupBoxUpdates{
-background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:0, y2:0, stop:0 rgba(219, 219, 219, 100), stop:1 rgba(255, 255, 255, 100));
-border: 1px solid rgba(255,255,255,50);
-border-bottom-left-radius: 4px;
-border-bottom-right-radius: 4px;
-}</string>
+        <string notr="true"/>
        </property>
        <property name="title">
         <string/>
@@ -72,61 +97,6 @@ border-bottom-right-radius: 4px;
           </property>
           <property name="text">
            <string>Enable the [extra] repository.</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLabel" name="label_5">
-          <property name="enabled">
-           <bool>true</bool>
-          </property>
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="minimumSize">
-           <size>
-            <width>620</width>
-            <height>382</height>
-           </size>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>620</width>
-            <height>382</height>
-           </size>
-          </property>
-          <property name="sizeIncrement">
-           <size>
-            <width>0</width>
-            <height>0</height>
-           </size>
-          </property>
-          <property name="acceptDrops">
-           <bool>false</bool>
-          </property>
-          <property name="frameShape">
-           <enum>QFrame::NoFrame</enum>
-          </property>
-          <property name="frameShadow">
-           <enum>QFrame::Plain</enum>
-          </property>
-          <property name="text">
-           <string/>
-          </property>
-          <property name="pixmap">
-           <pixmap resource="../data/kapudan.qrc">:/raw/pixmap/extra.png</pixmap>
-          </property>
-          <property name="scaledContents">
-           <bool>false</bool>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-          <property name="indent">
-           <number>0</number>
           </property>
          </widget>
         </item>
@@ -195,7 +165,7 @@ border-bottom-right-radius: 4px;
         <enum>QFrame::Raised</enum>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Chakra believes in providing an environment that is as clean as possible, and fully focused on KDE. This means there are no GTK applications in the repositories enabled by default. However, we recognize that there are quite a few &amp;quot;must have&amp;quot; GTK applications; these are provided in the &lt;span style=&quot; font-weight:600;&quot;&gt;[extra] &lt;/span&gt;&lt;a href=&quot;http://chakra-project.org/wiki/index.php?title=Repositories&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;repository&lt;/span&gt;&lt;/a&gt;, which can be enabled by those users that want to use it. For better integration of your GTK apps, please install gtk-integration or the GTK theme of your choice.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Chakra believes in providing an environment that is as clean as possible, and fully focused on KDE. This means there are no GTK applications in the repositories enabled by default. However, we recognize that there are quite a few &amp;quot;must have&amp;quot; GTK applications; these are provided in the &lt;span style=&quot; font-weight:600;&quot;&gt;[extra] &lt;/span&gt;&lt;a href=&quot;http://chakraos.org/wiki/index.php?title=Repositories&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;repository&lt;/span&gt;&lt;/a&gt;, which can be enabled by those users that want to use it. For better integration of your GTK apps, please install gtk-integration or the GTK theme of your choice.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="wordWrap">
         <bool>true</bool>
@@ -243,7 +213,7 @@ border-bottom-right-radius: 4px;
     <widget class="QLabel" name="label">
      <property name="font">
       <font>
-       <family>URW Gothic L</family>
+       <family>DejaVu Sans</family>
        <pointsize>9</pointsize>
        <weight>75</weight>
        <bold>true</bold>
@@ -251,8 +221,7 @@ border-bottom-right-radius: 4px;
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">    background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 rgba(132, 132, 132, 255), stop:0.501481 rgba(70, 70, 70, 255), stop:0.503057 rgba(62, 62, 62, 255), stop:1 rgba(16, 16, 16, 255));
-border: 1px solid rgba(255,255,255,50);
+      <string notr="true">background-color: rgba(0, 0, 0, 70);
 color:white;
 border-top-left-radius: 4px;
 border-top-right-radius: 4px;</string>
