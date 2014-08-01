@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-15 12:09-0600\n"
+"POT-Creation-Date: 2014-08-01 08:09-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -344,7 +344,7 @@ msgstr ""
 msgid "Search Options"
 msgstr ""
 
-#: .tmp/scrMenu.py:28 .tmp/ui_scrMenu.py:163
+#: .tmp/scrMenu.py:28 .tmp/ui_scrMenu.py:164
 msgid "Menu"
 msgstr ""
 
@@ -352,7 +352,7 @@ msgstr ""
 msgid "Choose a Menu Style"
 msgstr ""
 
-#: .tmp/scrMenu.py:43 .tmp/ui_scrMenu.py:165
+#: .tmp/scrMenu.py:43 .tmp/ui_scrMenu.py:166
 msgid "Kick-off Menu"
 msgstr ""
 
@@ -362,7 +362,7 @@ msgid ""
 "are easy to access and well organized."
 msgstr ""
 
-#: .tmp/scrMenu.py:49 .tmp/ui_scrMenu.py:166
+#: .tmp/scrMenu.py:49 .tmp/ui_scrMenu.py:167
 msgid "Simple Menu"
 msgstr ""
 
@@ -372,7 +372,7 @@ msgid ""
 "menu thus it is recommended for slower PC's."
 msgstr ""
 
-#: .tmp/scrMenu.py:55 .tmp/ui_scrMenu.py:167
+#: .tmp/scrMenu.py:55 .tmp/ui_scrMenu.py:168
 msgid "Lancelot Menu"
 msgstr ""
 
@@ -382,7 +382,7 @@ msgid ""
 "program shortcuts are easy to access and well organized."
 msgstr ""
 
-#: .tmp/scrMenu.py:61 .tmp/ui_scrMenu.py:168
+#: .tmp/scrMenu.py:61 .tmp/ui_scrMenu.py:169
 msgid "Homerun Menu"
 msgstr ""
 
@@ -390,7 +390,7 @@ msgstr ""
 msgid "Homerun is a full screen launcher with content organized in tabs."
 msgstr ""
 
-#: .tmp/scrMenu.py:67 .tmp/ui_scrMenu.py:169
+#: .tmp/scrMenu.py:67 .tmp/ui_scrMenu.py:170
 msgid "AppMenu QML"
 msgstr ""
 
@@ -398,6 +398,14 @@ msgstr ""
 msgid ""
 "This plasmoid shows a menu of the installed applications, similar to "
 "Lancelot but much simpler"
+msgstr ""
+
+#: .tmp/scrMenu.py:73 .tmp/ui_scrMenu.py:171
+msgid "Homerun Kicker"
+msgstr ""
+
+#: .tmp/scrMenu.py:75
+msgid "A non-fullscreen version of Homerun."
 msgstr ""
 
 #: .tmp/ui_wallpaperItem.py:82 .tmp/ui_scrAvatar.py:256
@@ -411,6 +419,14 @@ msgstr ""
 
 #: .tmp/ui_wallpaperItem.py:84
 msgid "wallpaperDesc"
+msgstr ""
+
+#: .tmp/scrExtra.py:31
+msgid "GTK"
+msgstr ""
+
+#: .tmp/scrExtra.py:32
+msgid "GTK Integration and [extra]"
 msgstr ""
 
 #: .tmp/scrKsuperkey.py:31 .tmp/ui_scrKsuperkey.py:148
@@ -437,129 +453,151 @@ msgstr ""
 msgid "Test area:"
 msgstr ""
 
-#: .tmp/scrSummary.py:46 .tmp/ui_scrSummary.py:113
+#: .tmp/scrSummary.py:48 .tmp/ui_scrSummary.py:113
 msgid "Summary"
 msgstr ""
 
-#: .tmp/scrSummary.py:47
+#: .tmp/scrSummary.py:49
 msgid "Save Your Settings"
 msgstr ""
 
-#: .tmp/scrSummary.py:71
+#: .tmp/scrSummary.py:73
 msgid "Mouse Settings"
 msgstr ""
 
-#: .tmp/scrSummary.py:73
+#: .tmp/scrSummary.py:75
 #, python-format
 msgid "Selected Mouse configuration: <b>%s</b>"
 msgstr ""
 
-#: .tmp/scrSummary.py:74
+#: .tmp/scrSummary.py:76
 #, python-format
 msgid "Selected clicking behavior: <b>%s</b>"
 msgstr ""
 
-#: .tmp/scrSummary.py:78
+#: .tmp/scrSummary.py:80
 msgid "Menu Settings"
 msgstr ""
 
-#: .tmp/scrSummary.py:79
+#: .tmp/scrSummary.py:81
 #, python-format
 msgid "Selected Menu: <b>%s</b>"
 msgstr ""
 
-#: .tmp/scrSummary.py:83
+#: .tmp/scrSummary.py:85
 msgid "Wallpaper Settings"
 msgstr ""
 
-#: .tmp/scrSummary.py:85
+#: .tmp/scrSummary.py:87
 msgid "You haven't selected any wallpaper."
 msgstr ""
 
-#: .tmp/scrSummary.py:87
+#: .tmp/scrSummary.py:89
 #, python-format
 msgid "Selected Wallpaper: <b>%s</b>"
 msgstr ""
 
-#: .tmp/scrSummary.py:91
+#: .tmp/scrSummary.py:93
 msgid "Style Settings"
 msgstr ""
 
-#: .tmp/scrSummary.py:94
+#: .tmp/scrSummary.py:96
 msgid "You haven't selected any style."
 msgstr ""
 
-#: .tmp/scrSummary.py:96
+#: .tmp/scrSummary.py:98
 #, python-format
 msgid "Selected Style: <b>%s</b>"
 msgstr ""
 
-#: .tmp/scrSummary.py:102
+#: .tmp/scrSummary.py:104
 msgid "Package Management Settings"
 msgstr ""
 
-#: .tmp/scrSummary.py:103
+#: .tmp/scrSummary.py:105
 msgid "You have enabled or disabled spun."
 msgstr ""
 
-#: .tmp/scrSummary.py:110 .tmp/scrSummary.py:139
+#: .tmp/scrSummary.py:112 .tmp/scrSummary.py:141
 msgid "You have: "
 msgstr ""
 
-#: .tmp/scrSummary.py:112
+#: .tmp/scrSummary.py:114
 msgid "Services Settings"
 msgstr ""
 
-#: .tmp/scrSummary.py:115
+#: .tmp/scrSummary.py:117
 msgid "enabled cups; "
 msgstr ""
 
-#: .tmp/scrSummary.py:118
+#: .tmp/scrSummary.py:120
 msgid "disabled cups; "
 msgstr ""
 
-#: .tmp/scrSummary.py:121
+#: .tmp/scrSummary.py:123
 msgid "enabled bluetooth; "
 msgstr ""
 
-#: .tmp/scrSummary.py:124
+#: .tmp/scrSummary.py:126
 msgid "disabled bluetooth; "
 msgstr ""
 
-#: .tmp/scrSummary.py:129 .tmp/scrSummary.py:157
+#: .tmp/scrSummary.py:131 .tmp/scrSummary.py:159
 msgid "You have made no changes."
 msgstr ""
 
-#: .tmp/scrSummary.py:141
+#: .tmp/scrSummary.py:143
 msgid "Security Settings"
 msgstr ""
 
-#: .tmp/scrSummary.py:144
+#: .tmp/scrSummary.py:146
 msgid "enabled ClamAV; "
 msgstr ""
 
-#: .tmp/scrSummary.py:147
+#: .tmp/scrSummary.py:149
 msgid "disabled ClamAV; "
 msgstr ""
 
-#: .tmp/scrSummary.py:150
+#: .tmp/scrSummary.py:152
 msgid "enabled the firewall; "
 msgstr ""
 
-#: .tmp/scrSummary.py:153
+#: .tmp/scrSummary.py:155
 msgid "disabled the firewall; "
 msgstr ""
 
-#: .tmp/scrSummary.py:174
+#: .tmp/scrSummary.py:176
 msgid "Error"
 msgstr ""
 
-#: .tmp/scrSummary.py:174
+#: .tmp/scrSummary.py:176
 msgid "Cannot restart plasma-desktop. Kapudan will now shut down."
 msgstr ""
 
 #: .tmp/scrStyle.py:41
 msgid "Customize Your Desktop"
+msgstr ""
+
+#: .tmp/ui_scrExtra.py:148 .tmp/ui_scrExtra.py:151
+msgid "GTK Integration"
+msgstr ""
+
+#: .tmp/ui_scrExtra.py:149
+msgid "Enable the [extra] repository."
+msgstr ""
+
+#: .tmp/ui_scrExtra.py:150
+msgid ""
+"<html><head/><body><p>Chakra believes in providing an environment that is as "
+"clean as possible, and fully focused on KDE. This means there are no GTK "
+"applications in the repositories enabled by default. However, we recognize "
+"that there are quite a few &quot;must have&quot; GTK applications; these are "
+"provided in the <span style=\" font-weight:600;\">[extra] </span><a href="
+"\"http://chakraos.org/wiki/index.php?title=Repositories\"><span style=\" "
+"text-decoration: underline; color:#0057ae;\">repository</span></a>, which "
+"can be enabled by those users that want to use it. For better integration of "
+"your GTK apps, please install gtk-integration or the GTK theme of your "
+"choice.</p></body></html>"
 msgstr ""
 
 #: .tmp/scrWallpaper.py:38
@@ -736,13 +774,13 @@ msgstr ""
 msgid "styleDesc"
 msgstr ""
 
-#: .tmp/ui_scrMenu.py:164
+#: .tmp/ui_scrMenu.py:165
 msgid ""
 "You can also customize your <b>KDE menu</b> as you like. Please choose one "
 "from the following styles."
 msgstr ""
 
-#: .tmp/ui_scrMenu.py:170
+#: .tmp/ui_scrMenu.py:172
 msgid "Sample"
 msgstr ""
 
