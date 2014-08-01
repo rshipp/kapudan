@@ -157,6 +157,11 @@ QPushButton::flat:pressed{
        <string>AppMenu QML</string>
       </property>
      </item>
+     <item>
+      <property name="text">
+       <string>Homerun Kicker</string>
+      </property>
+     </item>
     </widget>
    </item>
    <item row="3" column="1">

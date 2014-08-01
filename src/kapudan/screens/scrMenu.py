@@ -68,6 +68,12 @@ class Widget(QtGui.QWidget, Screen):
             "image": QtGui.QPixmap(':/raw/pixmap/appmenu-qml.png'),
             "description": i18n("This plasmoid shows a menu of the installed applications, similar to Lancelot but much simpler")
         }
+        self.menuNames["org.kde.homerun-kicker"] = {
+            "menuIndex": 5,
+            "summaryMessage": i18n("Homerun Kicker"),
+            "image": QtGui.QPixmap(':/raw/pixmap/homerun-kicker.png'),
+            "description": i18n("A non-fullscreen version of Homerun.")
+        }
 
         for each in list(group.groupList()):
             subgroup = group.group(each)
@@ -121,6 +127,11 @@ class Widget(QtGui.QWidget, Screen):
 
             self.ui.pictureMenuStyles.setPixmap(self.menuNames["appmenu-qml"]["image"])
             self.ui.labelMenuDescription.setText(self.menuNames["appmenu-qml"]["description"])
+        elif currentIndex == 5:
+            self.__class__.screenSettings["selectedMenu"] = 'org.kde.homerun-kicker'
+
+            self.ui.pictureMenuStyles.setPixmap(self.menuNames["org.kde.homerun-kicker"]["image"])
+            self.ui.labelMenuDescription.setText(self.menuNames["org.kde.homerun-kicker"]["description"])
 
     def shown(self):
         pass
