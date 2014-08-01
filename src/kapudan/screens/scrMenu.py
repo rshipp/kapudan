@@ -56,7 +56,7 @@ class Widget(QtGui.QWidget, Screen):
             "image": QtGui.QPixmap(':/raw/pixmap/lancelot.png'),
             "description": i18n("Lancelot is an advanced and highly customizable menu for Chakra.<br><br>The program shortcuts are easy to access and well organized.")
         }
-        self.menuNames["homerun_launcher"] = {
+        self.menuNames["homerunlauncher"] = {
             "menuIndex": 3,
             "summaryMessage": i18n("Homerun Menu"),
             "image": QtGui.QPixmap(':/raw/pixmap/homerun.png'),
@@ -112,10 +112,10 @@ class Widget(QtGui.QWidget, Screen):
             self.ui.pictureMenuStyles.setPixmap(self.menuNames["lancelot_launcher"]["image"])
             self.ui.labelMenuDescription.setText(self.menuNames["lancelot_launcher"]["description"])
         elif currentIndex == 3:
-            self.__class__.screenSettings["selectedMenu"] = 'homerun_launcher'
+            self.__class__.screenSettings["selectedMenu"] = 'homerunlauncher'
 
-            self.ui.pictureMenuStyles.setPixmap(self.menuNames["homerun_launcher"]["image"])
-            self.ui.labelMenuDescription.setText(self.menuNames["homerun_launcher"]["description"])
+            self.ui.pictureMenuStyles.setPixmap(self.menuNames["homerunlauncher"]["image"])
+            self.ui.labelMenuDescription.setText(self.menuNames["homerunlauncher"]["description"])
         elif currentIndex == 4:
             self.__class__.screenSettings["selectedMenu"] = "appmenu-qml"
 
