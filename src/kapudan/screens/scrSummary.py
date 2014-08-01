@@ -61,6 +61,7 @@ class Widget(QtGui.QWidget, Screen):
         self.packageSettings = packageWidget.Widget.screenSettings
         self.servicesSettings = servicesWidget.Widget.screenSettings
         self.securitySettings = securityWidget.Widget.screenSettings
+        self.extraSettings = extraWidget.Widget.screenSettings
 
         subject = "<p><li><b>%s</b></li><ul>"
         item = "<li>%s</li>"
@@ -160,6 +161,28 @@ class Widget(QtGui.QWidget, Screen):
                 self.securitySettings["hasChanged"] = False
 
             content.append(item % i18n(self.sectext))
+
+            content.append(end)
+
+        # Extra Settings
+        if self.extraSettings["hasChanged"]:
+            self.repos = Repos()
+            self.extratext = i18n("You have: ")
+            self.extraisset = False
+            content.append(subject % i18n("Extra Settings"))
+
+            if self.extraSettings["enableExtra"] and not self.repos.extraIsEnabled():
+                self.extratext += i18n("enabled the [extra] repo; ")
+                self.extraisset = True
+            elif not self.extraSettings["enableExtra"] and self.repos.extraIsEnabled():
+                self.extratext += i18n("disabled the [extra] repo; ")
+                self.extraisset = True
+
+            if not self.extraisset:
+                self.extratext = i18n("You have made no changes.")
+                self.extraSettings["hasChanged"] = False
+
+            content.append(item % i18n(self.extratext))
 
             content.append(end)
 
@@ -394,6 +417,13 @@ class Widget(QtGui.QWidget, Screen):
                 rootActions += "enable_fire "
             elif not self.securitySettings["enableFire"] and self.daemon.isEnabled("ufw"):
                 rootActions += "disable_fire "
+
+        # Extra Settings
+        if self.extraSettings["hasChanged"]:
+            if self.extraSettings["enableExtra"]:
+                rootActions += "enable_extra "
+            else:
+                rootActions += "disable_extra "
 
         if hasChanged:
             self.killPlasma()

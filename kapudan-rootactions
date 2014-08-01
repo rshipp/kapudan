@@ -39,6 +39,16 @@ disable_daemon() {
     systemctl disable $1
 }
 
+enable_repo() {
+    # internal function, $1 is repo to enable
+    sed -i "/^#\[$1\]/,/^#/s/#//" /etc/pacman.conf
+}
+
+disable_repo() {
+    # internal function, $1 is repo to disable
+    sed -i "/^\[$1\]/,/^Include/s/^/#/" /etc/pacman.conf
+}
+
 enable_cups() {
     echo " Enabling the CUPS printing service..."
     enable_daemon cups
@@ -93,6 +103,20 @@ disable_fire() {
     echo "  Done."
 }
 
+enable_extra() {
+    echo " Enabling the [extra] repo..."
+    enable_repo extra
+    pacman -Sy
+    echo "  Done."
+}
+
+disable_extra() {
+    echo " Disabling the [extra] repo..."
+    disable_repo extra
+    pacman -Sy
+    echo "  Done."
+}
+
 if ! [[ $UID == 0 || $EUID == 0 ]]; then
     # not root
     echo "must be root"
@@ -110,6 +134,8 @@ echo "$@" | grep -q "enable_clam"  && enable_clam
 echo "$@" | grep -q "disable_clam" && disable_clam
 echo "$@" | grep -q "enable_fire"  && enable_fire
 echo "$@" | grep -q "disable_fire" && disable_fire
+echo "$@" | grep -q "enable_extra"  && enable_extra
+echo "$@" | grep -q "disable_extra" && disable_extra
 
 # all done
 echo "All done!"

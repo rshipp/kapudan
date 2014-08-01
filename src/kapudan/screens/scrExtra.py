@@ -48,6 +48,7 @@ class Widget(QtGui.QWidget, Screen):
     def applySettings(self):
         # update hasChanged
         if self.ui.enableExtra.isChecked():
+            self.__class__.screenSettings["enableExtra"] = True
             # was [extra] enabled before?
             if self.config.extraIsEnabled():
                 self.__class__.screenSettings["hasChanged"] = False
@@ -55,6 +56,7 @@ class Widget(QtGui.QWidget, Screen):
                 self.__class__.screenSettings["hasChanged"] = True
 
         else:
+            self.__class__.screenSettings["enableExtra"] = False
             # was [extra] enabled before?
             if self.config.extraIsEnabled():
                 self.__class__.screenSettings["hasChanged"] = True
