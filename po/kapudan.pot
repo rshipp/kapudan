@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-01 08:09-0600\n"
+"POT-Creation-Date: 2014-08-01 08:47-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -461,116 +461,128 @@ msgstr ""
 msgid "Save Your Settings"
 msgstr ""
 
-#: .tmp/scrSummary.py:73
+#: .tmp/scrSummary.py:74
 msgid "Mouse Settings"
-msgstr ""
-
-#: .tmp/scrSummary.py:75
-#, python-format
-msgid "Selected Mouse configuration: <b>%s</b>"
 msgstr ""
 
 #: .tmp/scrSummary.py:76
 #, python-format
+msgid "Selected Mouse configuration: <b>%s</b>"
+msgstr ""
+
+#: .tmp/scrSummary.py:77
+#, python-format
 msgid "Selected clicking behavior: <b>%s</b>"
 msgstr ""
 
-#: .tmp/scrSummary.py:80
+#: .tmp/scrSummary.py:81
 msgid "Menu Settings"
 msgstr ""
 
-#: .tmp/scrSummary.py:81
+#: .tmp/scrSummary.py:82
 #, python-format
 msgid "Selected Menu: <b>%s</b>"
 msgstr ""
 
-#: .tmp/scrSummary.py:85
+#: .tmp/scrSummary.py:86
 msgid "Wallpaper Settings"
 msgstr ""
 
-#: .tmp/scrSummary.py:87
+#: .tmp/scrSummary.py:88
 msgid "You haven't selected any wallpaper."
 msgstr ""
 
-#: .tmp/scrSummary.py:89
+#: .tmp/scrSummary.py:90
 #, python-format
 msgid "Selected Wallpaper: <b>%s</b>"
 msgstr ""
 
-#: .tmp/scrSummary.py:93
+#: .tmp/scrSummary.py:94
 msgid "Style Settings"
 msgstr ""
 
-#: .tmp/scrSummary.py:96
+#: .tmp/scrSummary.py:97
 msgid "You haven't selected any style."
 msgstr ""
 
-#: .tmp/scrSummary.py:98
+#: .tmp/scrSummary.py:99
 #, python-format
 msgid "Selected Style: <b>%s</b>"
 msgstr ""
 
-#: .tmp/scrSummary.py:104
+#: .tmp/scrSummary.py:105
 msgid "Package Management Settings"
 msgstr ""
 
-#: .tmp/scrSummary.py:105
+#: .tmp/scrSummary.py:106
 msgid "You have enabled or disabled spun."
 msgstr ""
 
-#: .tmp/scrSummary.py:112 .tmp/scrSummary.py:141
+#: .tmp/scrSummary.py:113 .tmp/scrSummary.py:142 .tmp/scrSummary.py:170
 msgid "You have: "
 msgstr ""
 
-#: .tmp/scrSummary.py:114
+#: .tmp/scrSummary.py:115
 msgid "Services Settings"
 msgstr ""
 
-#: .tmp/scrSummary.py:117
+#: .tmp/scrSummary.py:118
 msgid "enabled cups; "
 msgstr ""
 
-#: .tmp/scrSummary.py:120
+#: .tmp/scrSummary.py:121
 msgid "disabled cups; "
 msgstr ""
 
-#: .tmp/scrSummary.py:123
+#: .tmp/scrSummary.py:124
 msgid "enabled bluetooth; "
 msgstr ""
 
-#: .tmp/scrSummary.py:126
+#: .tmp/scrSummary.py:127
 msgid "disabled bluetooth; "
 msgstr ""
 
-#: .tmp/scrSummary.py:131 .tmp/scrSummary.py:159
+#: .tmp/scrSummary.py:132 .tmp/scrSummary.py:160 .tmp/scrSummary.py:182
 msgid "You have made no changes."
 msgstr ""
 
-#: .tmp/scrSummary.py:143
+#: .tmp/scrSummary.py:144
 msgid "Security Settings"
 msgstr ""
 
-#: .tmp/scrSummary.py:146
+#: .tmp/scrSummary.py:147
 msgid "enabled ClamAV; "
 msgstr ""
 
-#: .tmp/scrSummary.py:149
+#: .tmp/scrSummary.py:150
 msgid "disabled ClamAV; "
 msgstr ""
 
-#: .tmp/scrSummary.py:152
+#: .tmp/scrSummary.py:153
 msgid "enabled the firewall; "
 msgstr ""
 
-#: .tmp/scrSummary.py:155
+#: .tmp/scrSummary.py:156
 msgid "disabled the firewall; "
 msgstr ""
 
-#: .tmp/scrSummary.py:176
+#: .tmp/scrSummary.py:172
+msgid "Extra Settings"
+msgstr ""
+
+#: .tmp/scrSummary.py:175
+msgid "enabled the [extra] repo; "
+msgstr ""
+
+#: .tmp/scrSummary.py:178
+msgid "disabled the [extra] repo; "
+msgstr ""
+
+#: .tmp/scrSummary.py:199
 msgid "Error"
 msgstr ""
 
-#: .tmp/scrSummary.py:176
+#: .tmp/scrSummary.py:199
 msgid "Cannot restart plasma-desktop. Kapudan will now shut down."
 msgstr ""
 
