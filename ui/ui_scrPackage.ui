@@ -44,7 +44,8 @@ QPushButton::flat:pressed{
 	border:1px solid rgba(0, 0, 0, 100);
 	border-radius:4px;
 	background-color: rgb(106, 114, 128);
-}</string>
+}
+</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
    <property name="margin">
@@ -98,55 +99,11 @@ QPushButton::flat:pressed{
              <string notr="true">color: rgb(30, 43, 51)</string>
             </property>
             <property name="text">
-             <string>Check for updates automatically every</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QSpinBox" name="updateInterval">
-            <property name="enabled">
-             <bool>false</bool>
-            </property>
-            <property name="font">
-             <font>
-              <family>Sans Serif</family>
-              <pointsize>10</pointsize>
-             </font>
-            </property>
-            <property name="styleSheet">
-             <string notr="true"/>
-            </property>
-            <property name="suffix">
-             <string> minutes</string>
-            </property>
-            <property name="minimum">
-             <number>5</number>
-            </property>
-            <property name="maximum">
-             <number>10080</number>
-            </property>
-            <property name="value">
-             <number>30</number>
+             <string>Check for updates automatically?</string>
             </property>
            </widget>
           </item>
          </layout>
-        </item>
-        <item>
-         <widget class="QCheckBox" name="playAudio">
-          <property name="font">
-           <font>
-            <family>Sans Serif</family>
-            <pointsize>9</pointsize>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">color: rgb(30, 43, 51)</string>
-          </property>
-          <property name="text">
-           <string>Use audio along with the visual notification</string>
-          </property>
-         </widget>
         </item>
        </layout>
       </widget>
@@ -207,7 +164,7 @@ QPushButton::flat:pressed{
         <enum>QFrame::Raised</enum>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To install and remove programs on Chakra, use the command-line program, &lt;a href=&quot;http://chakraos.org/wiki/index.php?title=Pacman&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;pacman&lt;/span&gt;&lt;/a&gt;. You can run &lt;span style=&quot; font-weight:600;&quot;&gt;sudo pacman -Syu&lt;/span&gt; to update, &lt;span style=&quot; font-weight:600;&quot;&gt;pacman -Ss &lt;/span&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;keyword&lt;/span&gt; to search through the repos, and &lt;span style=&quot; font-weight:600;&quot;&gt;sudo pacman -S &lt;/span&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;package&lt;/span&gt; to install packages.&lt;/p&gt;&lt;p&gt;Pacman does not have any sort of graphical interface, so another small app, spun, was created to provide update notifications. When updates are available, spun will show a notification in your system tray. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To install and remove programs in Chakra, use the command-line program &lt;a href=&quot;http://chakraos.org/wiki/index.php?title=Pacman&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#00acff;&quot;&gt;pacman&lt;/span&gt;&lt;/a&gt;. You can run &lt;span style=&quot; font-weight:600;&quot;&gt;sudo pacman -Syu&lt;/span&gt; to update, &lt;span style=&quot; font-weight:600;&quot;&gt;pacman -Ss &lt;/span&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;keyword&lt;/span&gt; to search through the repos, and &lt;span style=&quot; font-weight:600;&quot;&gt;sudo pacman -S &lt;/span&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;package&lt;/span&gt; to install packages.&lt;/p&gt;&lt;p&gt;Pacman does not have any sort of graphical interface, so Chakra ships with Octopi, a Pacman frontend which can also provide update notifications. When updates are available, Octopi Notifier will show a notification in your system tray. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="wordWrap">
         <bool>true</bool>

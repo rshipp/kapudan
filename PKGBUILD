@@ -16,7 +16,7 @@ depends=('python2'  'kde-baseapps-konsole'  'kde-runtime'
          'kdebindings-python2' 'python2-pyqt4'  'python2-xlib'
          'python2-imaging' 'xdg-user-dirs' 'ksuperkey')
 makedepends=('python2-setuptools' 'git')
-optdepends=('spun: update notifications'
+optdepends=('octopi-notifier: update notifications'
             'clamav: for the security page')
 source=("http://chakra-linux.org/sources/${pkgname}/${pkgname}-${pkgver}.tar.xz")
 md5sums=('ad47fb92a8f863338b97aed0cee1f38d')

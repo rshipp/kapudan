@@ -13,7 +13,6 @@ from kapudan.screens.ui_kapudan import Ui_kapudan
 from kapudan.tools import tools
 from kapudan.tools.progress_pie import DrawPie
 from kapudan.tools.kapudan_menu import Menu
-from kapudan.tools.spunrc import SpunRC
 import kapudan.kapudan_rc
 
 
@@ -87,9 +86,7 @@ class Kapudan(QtGui.QWidget):
         screens.extend(headScreens)
         screens.extend(otherScreens)
 
-        spun = SpunRC()
-        if spun.isInstalled():
-            screens.append(scrPackage)
+        screens.append(scrPackage)
 
         screens.append(scrServices)
         screens.append(scrSecurity)

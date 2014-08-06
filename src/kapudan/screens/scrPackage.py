@@ -21,7 +21,6 @@ from PyKDE4.kdecore import i18n, KConfig
 
 from kapudan.screen import Screen
 from kapudan.screens.ui_scrPackage import Ui_packageWidget
-from kapudan.tools.spunrc import SpunRC
 
 import subprocess
 import os
@@ -41,53 +40,36 @@ class Widget(QtGui.QWidget, Screen):
         self.ui = Ui_packageWidget()
         self.ui.setupUi(self)
 
-        # initialize the config object, set updateTime
-        self.config = SpunRC()
-        self.updateTime = self.config.getWaitTime()
-
-        # set updateInterval
-        self.ui.updateInterval.setValue(self.updateTime)
+        # set up some variables
+        notifier = '/usr/bin/octopi-notifier'
+        desktop = '/usr/share/applications/octopi-notifier.desktop'
+        autostart = '/usr/share/autostart/octopi-notifier.desktop' 
+        self.notifier_enabled = os.path.exists(autostart)
 
         # set initial states
-        self.ui.checkUpdate.setChecked(self.config.isEnabled())
-        self.ui.updateInterval.setEnabled(self.config.isEnabled())
-        self.ui.playAudio.setEnabled(self.config.isEnabled())
-        self.ui.playAudio.setChecked(self.config.getAudio())
-
-        # set signals
-        self.ui.checkUpdate.toggled.connect(self.updateSelected)
-
-    def updateSelected(self):
-        if self.ui.checkUpdate.isChecked():
-            self.ui.updateInterval.setEnabled(True)
-            self.ui.playAudio.setEnabled(True)
-        else:
-            self.ui.updateInterval.setEnabled(False)
-            self.ui.playAudio.setEnabled(False)
+        self.ui.checkUpdate.setEnabled(os.path.exists(notifier))
+        self.ui.checkUpdate.setChecked(self.notifier_enabled)
 
     def applySettings(self):
-        # write selected configurations to spunrc
-        self.config.setWaitTime(self.ui.updateInterval.value())
-        self.config.setAudio(self.ui.playAudio.isChecked())
-
+        self.__class__.screenSettings["enabled"] = self.notifier_enabled
         if self.ui.checkUpdate.isChecked():
-            # checks if spun is not in the output of ps -Af
-            if "spun" not in subprocess.Popen(
+            # checks if octopi-notifier is not in the output of ps -Af
+            if "octopi-notifier" not in subprocess.Popen(
                     "ps -Af", shell=True, stdout=subprocess.PIPE).stdout.read():
-                subprocess.Popen(["spun"], stdout=subprocess.PIPE)
+                subprocess.Popen(["octopi-notifier"], stdout=subprocess.PIPE)
 
-            # was spun disabled before?
-            if not self.config.isEnabled():
+            # was octopi-notifier disabled before?
+            if not self.notifier_enabled:
                 self.__class__.screenSettings["hasChanged"] = True
             else:
                 self.__class__.screenSettings["hasChanged"] = False
 
         else:
             # don't care if this fails
-            os.system("killall spun")
+            os.system("killall octopi-notifier")
 
-            # was spun enabled to begin with?
-            if self.config.isEnabled():
+            # was octopi-notifier enabled to begin with?
+            if self.notifier_enabled:
                 self.__class__.screenSettings["hasChanged"] = True
             else:
                 self.__class__.screenSettings["hasChanged"] = False

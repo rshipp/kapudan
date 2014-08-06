@@ -8,12 +8,9 @@ Legend:
 + Accomplished
 
 TODO:
-- remove usage of sed in spunrc.py
 ? Fix Themes/Style page, add screenshots for Caledonia as well as
         any others included on the livecd by default
 - Add all new screens to scrSummary as we go
-/ Add page for choosing services to add to rc.conf, like cups, bluetooth
-        Still incomplete: systemd support
 - Add page for choosing KDM theme, with whatever the current theme is
 - Add workspace chooser - Desktop, Netbook, Active
 ? Add icon-choosing back, in seperate branch for Caledonia/Oxygen

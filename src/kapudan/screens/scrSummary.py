@@ -39,7 +39,6 @@ import kapudan.screens.scrSecurity as securityWidget
 import kapudan.screens.scrExtra as extraWidget
 
 #from kapudan.tools import tools
-from kapudan.tools.spunrc import SpunRC
 from kapudan.tools.daemon import Daemon
 from kapudan.tools.repos import Repos
 
@@ -100,10 +99,10 @@ class Widget(QtGui.QWidget, Screen):
 
         content.append(end)
 
-        # Spun Settings
+        # Notifier Settings
         if self.packageSettings["hasChanged"]:
             content.append(subject % i18n("Package Management Settings"))
-            content.append(item % i18n("You have enabled or disabled spun."))
+            content.append(item % i18n("You have enabled or disabled octopi-notifier."))
 
             content.append(end)
 
@@ -388,13 +387,12 @@ class Widget(QtGui.QWidget, Screen):
             except dbus.DBusException:
                 pass
 
-        # Spun Settings
+        # Notifier Settings
         if self.packageSettings["hasChanged"]:
-            spun = SpunRC()
-            if spun.isEnabled():
-                rootActions += "disable_spun "
+            if self.packageSettings["enabled"]:
+                rootActions += "disable_notifier "
             else:
-                rootActions += "enable_spun "
+                rootActions += "enable_notifier "
 
         # Services Settings
         if self.servicesSettings["hasChanged"]:

@@ -3,28 +3,16 @@
 echo "==>        KAPUDAN        <=="
 echo "Performing root actions..."
 
-enable_spun() {
-    echo " Adding spun to autostart apps..."
-    cat > /usr/share/autostart/spun.desktop << EOF
-[Desktop Entry]
-Exec=spun
-Icon=system-software-update
-Type=Application
-Terminal=false
-X-KDE-autostart-after=panel
-X-KDE-StartupNotify=false
-X-DBUS-StartupType=Unique
-X-KDE-UniqueApplet=true
-Categories=KDE;System;
-Name=spun
-GenericName=Update Notifier
-EOF
+enable_notifier() {
+    echo " Adding octopi-notifier to autostart apps..."
+    /usr/bin/cp /usr/share/applications/octopi-notifier.desktop \
+        /usr/share/autostart/octopi-notifier.desktop
     echo "  Done."
 }
 
-disable_spun() {
-    echo " Removing spun from autostart apps..."
-        echo 2> /usr/share/autostart/spun.desktop
+disable_notifier() {
+    echo " Removing octopi-notifier from autostart apps..."
+    rm /usr/share/autostart/octopi-notifier.desktop
     echo "  Done."
 }
 
@@ -124,8 +112,8 @@ if ! [[ $UID == 0 || $EUID == 0 ]]; then
 fi
 
 # argument parsing
-echo "$@" | grep -q "enable_spun"  && enable_spun
-echo "$@" | grep -q "disable_spun" && disable_spun
+echo "$@" | grep -q "enable_notifier"  && enable_notifier
+echo "$@" | grep -q "disable_notifier" && disable_notifier
 echo "$@" | grep -q "enable_cups"  && enable_cups
 echo "$@" | grep -q "disable_cups" && disable_cups
 echo "$@" | grep -q "enable_blue"  && enable_blue
