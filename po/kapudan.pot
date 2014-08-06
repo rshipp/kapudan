@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-01 08:47-0600\n"
+"POT-Creation-Date: 2014-08-06 08:20-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -154,11 +154,11 @@ msgstr ""
 msgid "Welcome Wizard"
 msgstr ""
 
-#: .tmp/scrPackage.py:33 .tmp/ui_scrPackage.py:166
+#: .tmp/scrPackage.py:32 .tmp/ui_scrPackage.py:147
 msgid "Packages"
 msgstr ""
 
-#: .tmp/scrPackage.py:34
+#: .tmp/scrPackage.py:33
 msgid "Install / Remove Programs"
 msgstr ""
 
@@ -453,136 +453,136 @@ msgstr ""
 msgid "Test area:"
 msgstr ""
 
-#: .tmp/scrSummary.py:48 .tmp/ui_scrSummary.py:113
+#: .tmp/scrSummary.py:47 .tmp/ui_scrSummary.py:113
 msgid "Summary"
 msgstr ""
 
-#: .tmp/scrSummary.py:49
+#: .tmp/scrSummary.py:48
 msgid "Save Your Settings"
 msgstr ""
 
-#: .tmp/scrSummary.py:74
+#: .tmp/scrSummary.py:73
 msgid "Mouse Settings"
 msgstr ""
 
-#: .tmp/scrSummary.py:76
+#: .tmp/scrSummary.py:75
 #, python-format
 msgid "Selected Mouse configuration: <b>%s</b>"
 msgstr ""
 
-#: .tmp/scrSummary.py:77
+#: .tmp/scrSummary.py:76
 #, python-format
 msgid "Selected clicking behavior: <b>%s</b>"
 msgstr ""
 
-#: .tmp/scrSummary.py:81
+#: .tmp/scrSummary.py:80
 msgid "Menu Settings"
 msgstr ""
 
-#: .tmp/scrSummary.py:82
+#: .tmp/scrSummary.py:81
 #, python-format
 msgid "Selected Menu: <b>%s</b>"
 msgstr ""
 
-#: .tmp/scrSummary.py:86
+#: .tmp/scrSummary.py:85
 msgid "Wallpaper Settings"
 msgstr ""
 
-#: .tmp/scrSummary.py:88
+#: .tmp/scrSummary.py:87
 msgid "You haven't selected any wallpaper."
 msgstr ""
 
-#: .tmp/scrSummary.py:90
+#: .tmp/scrSummary.py:89
 #, python-format
 msgid "Selected Wallpaper: <b>%s</b>"
 msgstr ""
 
-#: .tmp/scrSummary.py:94
+#: .tmp/scrSummary.py:93
 msgid "Style Settings"
 msgstr ""
 
-#: .tmp/scrSummary.py:97
+#: .tmp/scrSummary.py:96
 msgid "You haven't selected any style."
 msgstr ""
 
-#: .tmp/scrSummary.py:99
+#: .tmp/scrSummary.py:98
 #, python-format
 msgid "Selected Style: <b>%s</b>"
 msgstr ""
 
-#: .tmp/scrSummary.py:105
+#: .tmp/scrSummary.py:104
 msgid "Package Management Settings"
 msgstr ""
 
-#: .tmp/scrSummary.py:106
-msgid "You have enabled or disabled spun."
+#: .tmp/scrSummary.py:105
+msgid "You have enabled or disabled octopi-notifier."
 msgstr ""
 
-#: .tmp/scrSummary.py:113 .tmp/scrSummary.py:142 .tmp/scrSummary.py:170
+#: .tmp/scrSummary.py:112 .tmp/scrSummary.py:141 .tmp/scrSummary.py:169
 msgid "You have: "
 msgstr ""
 
-#: .tmp/scrSummary.py:115
+#: .tmp/scrSummary.py:114
 msgid "Services Settings"
 msgstr ""
 
-#: .tmp/scrSummary.py:118
+#: .tmp/scrSummary.py:117
 msgid "enabled cups; "
 msgstr ""
 
-#: .tmp/scrSummary.py:121
+#: .tmp/scrSummary.py:120
 msgid "disabled cups; "
 msgstr ""
 
-#: .tmp/scrSummary.py:124
+#: .tmp/scrSummary.py:123
 msgid "enabled bluetooth; "
 msgstr ""
 
-#: .tmp/scrSummary.py:127
+#: .tmp/scrSummary.py:126
 msgid "disabled bluetooth; "
 msgstr ""
 
-#: .tmp/scrSummary.py:132 .tmp/scrSummary.py:160 .tmp/scrSummary.py:182
+#: .tmp/scrSummary.py:131 .tmp/scrSummary.py:159 .tmp/scrSummary.py:181
 msgid "You have made no changes."
 msgstr ""
 
-#: .tmp/scrSummary.py:144
+#: .tmp/scrSummary.py:143
 msgid "Security Settings"
 msgstr ""
 
-#: .tmp/scrSummary.py:147
+#: .tmp/scrSummary.py:146
 msgid "enabled ClamAV; "
 msgstr ""
 
-#: .tmp/scrSummary.py:150
+#: .tmp/scrSummary.py:149
 msgid "disabled ClamAV; "
 msgstr ""
 
-#: .tmp/scrSummary.py:153
+#: .tmp/scrSummary.py:152
 msgid "enabled the firewall; "
 msgstr ""
 
-#: .tmp/scrSummary.py:156
+#: .tmp/scrSummary.py:155
 msgid "disabled the firewall; "
 msgstr ""
 
-#: .tmp/scrSummary.py:172
+#: .tmp/scrSummary.py:171
 msgid "Extra Settings"
 msgstr ""
 
-#: .tmp/scrSummary.py:175
+#: .tmp/scrSummary.py:174
 msgid "enabled the [extra] repo; "
 msgstr ""
 
-#: .tmp/scrSummary.py:178
+#: .tmp/scrSummary.py:177
 msgid "disabled the [extra] repo; "
 msgstr ""
 
-#: .tmp/scrSummary.py:199
+#: .tmp/scrSummary.py:198
 msgid "Error"
 msgstr ""
 
-#: .tmp/scrSummary.py:199
+#: .tmp/scrSummary.py:198
 msgid "Cannot restart plasma-desktop. Kapudan will now shut down."
 msgstr ""
 
@@ -606,7 +606,7 @@ msgid ""
 "that there are quite a few &quot;must have&quot; GTK applications; these are "
 "provided in the <span style=\" font-weight:600;\">[extra] </span><a href="
 "\"http://chakraos.org/wiki/index.php?title=Repositories\"><span style=\" "
-"text-decoration: underline; color:#0057ae;\">repository</span></a>, which "
+"text-decoration: underline; color:#00acff;\">repository</span></a>, which "
 "can be enabled by those users that want to use it. For better integration of "
 "your GTK apps, please install gtk-integration or the GTK theme of your "
 "choice.</p></body></html>"
@@ -649,35 +649,27 @@ msgstr ""
 msgid "Congratulations!"
 msgstr ""
 
-#: .tmp/ui_scrPackage.py:167
-msgid "Check for updates automatically every"
+#: .tmp/ui_scrPackage.py:148
+msgid "Check for updates automatically?"
 msgstr ""
 
-#: .tmp/ui_scrPackage.py:168
-msgid " minutes"
-msgstr ""
-
-#: .tmp/ui_scrPackage.py:169
-msgid "Use audio along with the visual notification"
-msgstr ""
-
-#: .tmp/ui_scrPackage.py:170
+#: .tmp/ui_scrPackage.py:149
 msgid ""
-"<html><head/><body><p>To install and remove programs on Chakra, use the "
-"command-line program, <a href=\"http://chakraos.org/wiki/index.php?"
-"title=Pacman\"><span style=\" text-decoration: underline; color:#0057ae;"
+"<html><head/><body><p>To install and remove programs in Chakra, use the "
+"command-line program <a href=\"http://chakraos.org/wiki/index.php?"
+"title=Pacman\"><span style=\" text-decoration: underline; color:#00acff;"
 "\">pacman</span></a>. You can run <span style=\" font-weight:600;\">sudo "
 "pacman -Syu</span> to update, <span style=\" font-weight:600;\">pacman -Ss </"
 "span><span style=\" font-weight:600; font-style:italic;\">keyword</span> to "
 "search through the repos, and <span style=\" font-weight:600;\">sudo pacman -"
 "S </span><span style=\" font-weight:600; font-style:italic;\">package</span> "
 "to install packages.</p><p>Pacman does not have any sort of graphical "
-"interface, so another small app, spun, was created to provide update "
-"notifications. When updates are available, spun will show a notification in "
-"your system tray. </p></body></html>"
+"interface, so Chakra ships with Octopi, a Pacman frontend which can also "
+"provide update notifications. When updates are available, Octopi Notifier "
+"will show a notification in your system tray. </p></body></html>"
 msgstr ""
 
-#: .tmp/ui_scrPackage.py:171
+#: .tmp/ui_scrPackage.py:150
 msgid "Updates"
 msgstr ""
 
