@@ -5,7 +5,7 @@ echo "Performing root actions..."
 
 enable_notifier() {
     echo " Adding octopi-notifier to autostart apps..."
-    /usr/bin/cp /usr/share/applications/octopi-notifier.desktop \
+    install -Dm755 /usr/share/applications/octopi-notifier.desktop \
         /usr/share/autostart/octopi-notifier.desktop
     echo "  Done."
 }
