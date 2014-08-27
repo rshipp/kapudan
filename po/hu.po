@@ -12,9 +12,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Chakra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-10 12:02-0600\n"
-"PO-Revision-Date: 2014-06-14 11:46+0000\n"
-"Last-Translator: Mészáros Tamás <tamasm78@invitel.hu>\n"
+"POT-Creation-Date: 2014-08-06 08:20-0600\n"
+"PO-Revision-Date: 2014-08-07 09:42+0000\n"
+"Last-Translator: Adrián Chaves Fernández <adriyetichaves@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/projects/p/chakra/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .tmp/ui_scrWelcome.py:87 .tmp/scrWelcome.py:27
+#: .tmp/ui_scrWelcome.py:87 .tmp/scrWelcome.py:28
 msgid "Welcome"
 msgstr "Üdvözöljük"
 
@@ -41,7 +41,9 @@ msgid ""
 "elegant Plasma Workspaces.<br/><br/><span style=\" font-"
 "weight:600;\">Kapudan</span> will help you personalize your Chakra "
 "installation easily and quickly. Just click <span style=\" font-"
-"weight:600;\">next</span> when you are ready to begin.</p></body></html>"
+"weight:600;\">next</span> when you are ready to begin. If you prefer, you "
+"can simply close this window now and configure your computer "
+"yourself.</p></body></html>"
 msgstr "<html><head/><body><p>A <span style=\" font-weight:600;\">Chakra</span> egy GNU/Linux disztribúció, amely a KDE és a Qt technológiáira helyezi a hangsúlyt, amely az egyszerűségre törekszik, és mindig a legfejlettebb technológiákat jutattja el önhöz.<br/><br/>Az elsődleges célja a projektnek, hogy egy gyors, felhasználóbarát és jól összerakott Live CD-t és operációs rendszert adjon önnek, amely speciálisan a KDE Szoftverösszeállítás és Plasma Munkaasztalon alapul.<br/><br/>A <span style=\" font-weight:600;\">Kapudan</span> majd segít önnek, hogy gyorsan és könnyedén személyre szabja az ön Chakra telepítését. Csak klikkeljen a <span style=\" font-weight:600;\">következő</span> gombra, ha készen áll a kezdéshez.</p></body></html>"
 
 #: .tmp/ui_scrStyle.py:202 .tmp/scrStyle.py:40
@@ -158,11 +160,11 @@ msgstr "Kapudan"
 msgid "Welcome Wizard"
 msgstr "Üdvözlő képernyő"
 
-#: .tmp/scrPackage.py:33 .tmp/ui_scrPackage.py:166
+#: .tmp/scrPackage.py:32 .tmp/ui_scrPackage.py:147
 msgid "Packages"
 msgstr "Csomagok"
 
-#: .tmp/scrPackage.py:34
+#: .tmp/scrPackage.py:33
 msgid "Install / Remove Programs"
 msgstr "Programok telepítése / eltávolítása"
 
@@ -350,7 +352,7 @@ msgstr "Engedélyezem, hogy a Strigi indexelje a fájljaimat"
 msgid "Search Options"
 msgstr "Keresési beállítások"
 
-#: .tmp/scrMenu.py:28 .tmp/ui_scrMenu.py:163
+#: .tmp/scrMenu.py:28 .tmp/ui_scrMenu.py:164
 msgid "Menu"
 msgstr "Menü"
 
@@ -358,7 +360,7 @@ msgstr "Menü"
 msgid "Choose a Menu Style"
 msgstr "Menüstílus kiválasztása"
 
-#: .tmp/scrMenu.py:43 .tmp/ui_scrMenu.py:165
+#: .tmp/scrMenu.py:43 .tmp/ui_scrMenu.py:166
 msgid "Kick-off Menu"
 msgstr "Kick-off menü"
 
@@ -368,7 +370,7 @@ msgid ""
 "are easy to access and well organized."
 msgstr "A Kick-Off menü a Chakra alapértelmezett menüje.<br><br>A programok könnyen elérhetőek és jól rendezettek."
 
-#: .tmp/scrMenu.py:49 .tmp/ui_scrMenu.py:166
+#: .tmp/scrMenu.py:49 .tmp/ui_scrMenu.py:167
 msgid "Simple Menu"
 msgstr "Egyszerű menü"
 
@@ -378,7 +380,7 @@ msgid ""
 " menu thus it is recommended for slower PC's."
 msgstr "Az egyszerű menü hasonlít a KDE3 régi stílusú menüjéhez.<br><br> Kevés erőforrást igényel, ezért lassúbb számítógépekhez ajánljuk."
 
-#: .tmp/scrMenu.py:55 .tmp/ui_scrMenu.py:167
+#: .tmp/scrMenu.py:55 .tmp/ui_scrMenu.py:168
 msgid "Lancelot Menu"
 msgstr "Lancelot menü"
 
@@ -388,7 +390,7 @@ msgid ""
 "program shortcuts are easy to access and well organized."
 msgstr "A Lancelot egy fejlett és jól személyre szabható menü.<br><br>A programok könnyen elérhetőek és jól rendszerezettek."
 
-#: .tmp/scrMenu.py:61 .tmp/ui_scrMenu.py:168
+#: .tmp/scrMenu.py:61 .tmp/ui_scrMenu.py:169
 msgid "Homerun Menu"
 msgstr "Homerun menü"
 
@@ -396,7 +398,7 @@ msgstr "Homerun menü"
 msgid "Homerun is a full screen launcher with content organized in tabs."
 msgstr "A Homerun egy teljes képernyős programindító, amely lapokra rendezi a tartalmat."
 
-#: .tmp/scrMenu.py:67 .tmp/ui_scrMenu.py:169
+#: .tmp/scrMenu.py:67 .tmp/ui_scrMenu.py:170
 msgid "AppMenu QML"
 msgstr "AppMenu QML"
 
@@ -405,6 +407,14 @@ msgid ""
 "This plasmoid shows a menu of the installed applications, similar to "
 "Lancelot but much simpler"
 msgstr "Ez a plasmoid mutatja a telepített alkalmazásokat menürendszerben, hasonlóan a Lancelot-hoz, de egyszerűbben."
+
+#: .tmp/scrMenu.py:73 .tmp/ui_scrMenu.py:171
+msgid "Homerun Kicker"
+msgstr ""
+
+#: .tmp/scrMenu.py:75
+msgid "A non-fullscreen version of Homerun."
+msgstr ""
 
 #: .tmp/ui_wallpaperItem.py:82 .tmp/ui_scrAvatar.py:256
 #: .tmp/ui_scrStyleItem.py:79
@@ -418,6 +428,14 @@ msgstr "wallPaperName"
 #: .tmp/ui_wallpaperItem.py:84
 msgid "wallpaperDesc"
 msgstr "wallpaperDesc"
+
+#: .tmp/scrExtra.py:31
+msgid "GTK"
+msgstr ""
+
+#: .tmp/scrExtra.py:32
+msgid "GTK Integration and [extra]"
+msgstr ""
 
 #: .tmp/scrKsuperkey.py:31 .tmp/ui_scrKsuperkey.py:148
 #: .tmp/ui_scrKsuperkey.py:151
@@ -443,130 +461,164 @@ msgstr "<html><head/><body><p>A Kapudan megpróbálja beállítani a legmegfelel
 msgid "Test area:"
 msgstr "Teszt terület:"
 
-#: .tmp/scrSummary.py:46 .tmp/ui_scrSummary.py:113
+#: .tmp/scrSummary.py:47 .tmp/ui_scrSummary.py:113
 msgid "Summary"
 msgstr "Összefoglaló"
 
-#: .tmp/scrSummary.py:47
+#: .tmp/scrSummary.py:48
 msgid "Save Your Settings"
 msgstr "Beállítások mentése"
 
-#: .tmp/scrSummary.py:71
+#: .tmp/scrSummary.py:73
 msgid "Mouse Settings"
 msgstr "Egér beállítások"
 
-#: .tmp/scrSummary.py:73
+#: .tmp/scrSummary.py:75
 #, python-format
 msgid "Selected Mouse configuration: <b>%s</b>"
 msgstr "Kiválasztott egérbeállítás: <b>%s</b>"
 
-#: .tmp/scrSummary.py:74
+#: .tmp/scrSummary.py:76
 #, python-format
 msgid "Selected clicking behavior: <b>%s</b>"
 msgstr "Kiválasztott egérklikkelési beállítások: <b>%s</b>"
 
-#: .tmp/scrSummary.py:78
+#: .tmp/scrSummary.py:80
 msgid "Menu Settings"
 msgstr "Menü beállítások"
 
-#: .tmp/scrSummary.py:79
+#: .tmp/scrSummary.py:81
 #, python-format
 msgid "Selected Menu: <b>%s</b>"
 msgstr "Kiválasztott menüstílus: <b>%s</b>"
 
-#: .tmp/scrSummary.py:83
+#: .tmp/scrSummary.py:85
 msgid "Wallpaper Settings"
 msgstr "Háttérkép beállítások"
 
-#: .tmp/scrSummary.py:85
+#: .tmp/scrSummary.py:87
 msgid "You haven't selected any wallpaper."
 msgstr "Nem választott ki egy háttérképet sem."
 
-#: .tmp/scrSummary.py:87
+#: .tmp/scrSummary.py:89
 #, python-format
 msgid "Selected Wallpaper: <b>%s</b>"
 msgstr "Kiválasztott háttérkép: <b>%s</b>"
 
-#: .tmp/scrSummary.py:91
+#: .tmp/scrSummary.py:93
 msgid "Style Settings"
 msgstr "Stílus beállítások"
 
-#: .tmp/scrSummary.py:94
+#: .tmp/scrSummary.py:96
 msgid "You haven't selected any style."
 msgstr "Nem választott ki egyetlen stílust sem."
 
-#: .tmp/scrSummary.py:96
+#: .tmp/scrSummary.py:98
 #, python-format
 msgid "Selected Style: <b>%s</b>"
 msgstr "Kiválasztott stílus: <b>%s</b>"
 
-#: .tmp/scrSummary.py:102
+#: .tmp/scrSummary.py:104
 msgid "Package Management Settings"
 msgstr "Csomagkezelési beállítások"
 
-#: .tmp/scrSummary.py:103
-msgid "You have enabled or disabled spun."
-msgstr "Ön engedélyezte vagy letiltotta a spun-t."
+#: .tmp/scrSummary.py:105
+msgid "You have enabled or disabled octopi-notifier."
+msgstr ""
 
-#: .tmp/scrSummary.py:110 .tmp/scrSummary.py:139
+#: .tmp/scrSummary.py:112 .tmp/scrSummary.py:141 .tmp/scrSummary.py:169
 msgid "You have: "
 msgstr "Ezek lettek beállítva:"
 
-#: .tmp/scrSummary.py:112
+#: .tmp/scrSummary.py:114
 msgid "Services Settings"
 msgstr "Szolgáltatások beállítása"
 
-#: .tmp/scrSummary.py:115
+#: .tmp/scrSummary.py:117
 msgid "enabled cups; "
 msgstr "nyomtató támogatás - cups - engedélyezve,"
 
-#: .tmp/scrSummary.py:118
+#: .tmp/scrSummary.py:120
 msgid "disabled cups; "
 msgstr "nyomtató támogatás - cups - letiltva;"
 
-#: .tmp/scrSummary.py:121
+#: .tmp/scrSummary.py:123
 msgid "enabled bluetooth; "
 msgstr "bluetooth engedélyezése; "
 
-#: .tmp/scrSummary.py:124
+#: .tmp/scrSummary.py:126
 msgid "disabled bluetooth; "
 msgstr "bluetooth kikapcsolása; "
 
-#: .tmp/scrSummary.py:129 .tmp/scrSummary.py:157
+#: .tmp/scrSummary.py:131 .tmp/scrSummary.py:159 .tmp/scrSummary.py:181
 msgid "You have made no changes."
 msgstr "Ön nem változtatott semmin."
 
-#: .tmp/scrSummary.py:141
+#: .tmp/scrSummary.py:143
 msgid "Security Settings"
 msgstr "Biztonsági beállítások"
 
-#: .tmp/scrSummary.py:144
+#: .tmp/scrSummary.py:146
 msgid "enabled ClamAV; "
 msgstr "ClamAV engedélyezése; "
 
-#: .tmp/scrSummary.py:147
+#: .tmp/scrSummary.py:149
 msgid "disabled ClamAV; "
 msgstr "ClamAV kikapcsolása; "
 
-#: .tmp/scrSummary.py:150
+#: .tmp/scrSummary.py:152
 msgid "enabled the firewall; "
 msgstr "tűzfal engedélyezése; "
 
-#: .tmp/scrSummary.py:153
+#: .tmp/scrSummary.py:155
 msgid "disabled the firewall; "
 msgstr "tűzfal kikapcsolása; "
 
+#: .tmp/scrSummary.py:171
+msgid "Extra Settings"
+msgstr ""
+
 #: .tmp/scrSummary.py:174
+msgid "enabled the [extra] repo; "
+msgstr ""
+
+#: .tmp/scrSummary.py:177
+msgid "disabled the [extra] repo; "
+msgstr ""
+
+#: .tmp/scrSummary.py:198
 msgid "Error"
 msgstr "Hiba"
 
-#: .tmp/scrSummary.py:174
+#: .tmp/scrSummary.py:198
 msgid "Cannot restart plasma-desktop. Kapudan will now shut down."
 msgstr "Nem tudtuk újraindítani a plasma-desktop programot. A Kapudan most bezáródik."
 
 #: .tmp/scrStyle.py:41
 msgid "Customize Your Desktop"
 msgstr "Munkaasztal testreszabása"
+
+#: .tmp/ui_scrExtra.py:148 .tmp/ui_scrExtra.py:151
+msgid "GTK Integration"
+msgstr ""
+
+#: .tmp/ui_scrExtra.py:149
+msgid "Enable the [extra] repository."
+msgstr ""
+
+#: .tmp/ui_scrExtra.py:150
+msgid ""
+"<html><head/><body><p>Chakra believes in providing an environment that is as"
+" clean as possible, and fully focused on KDE. This means there are no GTK "
+"applications in the repositories enabled by default. However, we recognize "
+"that there are quite a few &quot;must have&quot; GTK applications; these are"
+" provided in the <span style=\" font-weight:600;\">[extra] </span><a "
+"href=\"http://chakraos.org/wiki/index.php?title=Repositories\"><span "
+"style=\" text-decoration: underline; color:#00acff;\">repository</span></a>,"
+" which can be enabled by those users that want to use it. For better "
+"integration of your GTK apps, please install gtk-integration or the GTK "
+"theme of your choice.</p></body></html>"
+msgstr ""
 
 #: .tmp/scrWallpaper.py:38
 msgid "Choose a Wallpaper"
@@ -605,36 +657,28 @@ msgstr "Bővebben"
 msgid "Congratulations!"
 msgstr "Gratulálunk!"
 
-#: .tmp/ui_scrPackage.py:167
-msgid "Check for updates automatically every"
-msgstr "Frissítések keresése automatikusan minden"
+#: .tmp/ui_scrPackage.py:148
+msgid "Check for updates automatically?"
+msgstr ""
 
-#: .tmp/ui_scrPackage.py:168
-msgid " minutes"
-msgstr " percben"
-
-#: .tmp/ui_scrPackage.py:169
-msgid "Use audio along with the visual notification"
-msgstr "Hanglejátszás a vizuális értesítés mellett"
-
-#: .tmp/ui_scrPackage.py:170
+#: .tmp/ui_scrPackage.py:149
 msgid ""
-"<html><head/><body><p>To install and remove programs on Chakra, use the "
-"command-line program, <a "
+"<html><head/><body><p>To install and remove programs in Chakra, use the "
+"command-line program <a "
 "href=\"http://chakraos.org/wiki/index.php?title=Pacman\"><span style=\" "
-"text-decoration: underline; color:#0057ae;\">pacman</span></a>. You can run "
+"text-decoration: underline; color:#00acff;\">pacman</span></a>. You can run "
 "<span style=\" font-weight:600;\">sudo pacman -Syu</span> to update, <span "
 "style=\" font-weight:600;\">pacman -Ss </span><span style=\" font-"
 "weight:600; font-style:italic;\">keyword</span> to search through the repos,"
 " and <span style=\" font-weight:600;\">sudo pacman -S </span><span style=\" "
 "font-weight:600; font-style:italic;\">package</span> to install "
 "packages.</p><p>Pacman does not have any sort of graphical interface, so "
-"another small app, spun, was created to provide update notifications. When "
-"updates are available, spun will show a notification in your system tray. "
-"</p></body></html>"
-msgstr "<html> <head/> <body> <p> telepíteni és eltávolítani programokat Chakra, használja a parancssori program <a href = \"http://chakraos.org/wiki/index.php?title=Pacman \"> <span style=\" text-decoration: underline; color:#0057ae;\"> pacman </ span> </ a>. Futtathat <span style=\" font-weight:600;\"> sudo pacman-Syu </ span> frissítse <span style=\" font-weight:600;\"> pacman-Ss </ span> <span style = \"font-weight: 600, font-style: italic;\"> kulcsszó </ span> keresni a repók és <span style=\" font-weight:600;\"> sudo pacman-S </ span> <span style = \"font-weight: 600, font-style: italic;\"> csomag </ span> csomagok telepítésére. </ p> Pacman nincs semmiféle grafikus felület, így egy másik kis app, megpördült hozták létre, hogy a frissítési értesítéseket. Ha vannak elérhető frissítések, megpördült megjelenik egy értesítés a tálcán. </ p> </ body> </ html> "
+"Chakra ships with Octopi, a Pacman frontend which can also provide update "
+"notifications. When updates are available, Octopi Notifier will show a "
+"notification in your system tray. </p></body></html>"
+msgstr ""
 
-#: .tmp/ui_scrPackage.py:171
+#: .tmp/ui_scrPackage.py:150
 msgid "Updates"
 msgstr "Frissítések"
 
@@ -722,7 +766,7 @@ msgstr "Segítség kezdőknek"
 msgid "Run Kapudan on system startup?"
 msgstr "Kapudan futattása rendszerindításkor?"
 
-#: .tmp/scrWelcome.py:28
+#: .tmp/scrWelcome.py:29
 #, python-format
 msgid "Welcome to %s"
 msgstr "Köszönti önt a %s"
@@ -743,13 +787,13 @@ msgstr "styleName"
 msgid "styleDesc"
 msgstr "styleDesc"
 
-#: .tmp/ui_scrMenu.py:164
+#: .tmp/ui_scrMenu.py:165
 msgid ""
 "You can also customize your <b>KDE menu</b> as you like. Please choose one "
 "from the following styles."
 msgstr "Itt beállíthatja az ön által használni kívánt KDE menü típusát. Kérjük válasszon ki egyet az alábbi stílusok közül."
 
-#: .tmp/ui_scrMenu.py:170
+#: .tmp/ui_scrMenu.py:172
 msgid "Sample"
 msgstr "Példa"
 

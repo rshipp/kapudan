@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Chakra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-10 12:02-0600\n"
-"PO-Revision-Date: 2014-06-11 14:09+0000\n"
+"POT-Creation-Date: 2014-08-06 08:20-0600\n"
+"PO-Revision-Date: 2014-08-13 13:57+0000\n"
 "Last-Translator: zhangmin <zm1990s@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/chakra/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: .tmp/ui_scrWelcome.py:87 .tmp/scrWelcome.py:27
+#: .tmp/ui_scrWelcome.py:87 .tmp/scrWelcome.py:28
 msgid "Welcome"
 msgstr "欢迎"
 
@@ -41,8 +41,10 @@ msgid ""
 "elegant Plasma Workspaces.<br/><br/><span style=\" font-"
 "weight:600;\">Kapudan</span> will help you personalize your Chakra "
 "installation easily and quickly. Just click <span style=\" font-"
-"weight:600;\">next</span> when you are ready to begin.</p></body></html>"
-msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span> 是一个专注于 KDE 与 Qt 的GNU/Linux发行版 ，其提供了简单易用，并走在科技尖端的软件，实施提供最新的科技给您。<br/><br/>Chakra 项目的主要目标是提供一个快速，易用且强大的 Live CD 及操作系统，采用了获奖无数的 KDE 软件集和精致的 Plasma 工作空间。<br/><br/><span style=\" font-weight:600;\">Kapudan</span> 将会帮助您简单、快速的个性化您安装在电脑上的 Chakra。当您准备好，只要点击<span style=\" font-weight:600;\">下一步</span> 就可以马上开始。</p></body></html>"
+"weight:600;\">next</span> when you are ready to begin. If you prefer, you "
+"can simply close this window now and configure your computer "
+"yourself.</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span> 是一个专注于 KDE 与 Qt 的GNU/Linux发行版 ，注重简单易用，尽可能提供最新的软件，带给您最新的技术。<br/><br/>Chakra 项目的主要目标是提供一个快速，易用且强大的 Live CD 及操作系统，采用了获奖无数的 KDE 软件集和精致的 Plasma 工作空间。<br/><br/><span style=\" font-weight:600;\">Kapudan</span> 将会帮助您简单、快速的个性化 Chakra 系统。当您准备好，只要点击<span style=\" font-weight:600;\">下一步</span> 就可以马上开始。你也可以直接关闭此窗口，自己手动配置您的系统。</p></body></html>"
 
 #: .tmp/ui_scrStyle.py:202 .tmp/scrStyle.py:40
 msgid "Themes"
@@ -158,11 +160,11 @@ msgstr "Kapudan"
 msgid "Welcome Wizard"
 msgstr "欢迎向导"
 
-#: .tmp/scrPackage.py:33 .tmp/ui_scrPackage.py:166
+#: .tmp/scrPackage.py:32 .tmp/ui_scrPackage.py:147
 msgid "Packages"
 msgstr "软件包"
 
-#: .tmp/scrPackage.py:34
+#: .tmp/scrPackage.py:33
 msgid "Install / Remove Programs"
 msgstr "安装/移除程序"
 
@@ -350,7 +352,7 @@ msgstr "允许 Strigi 检索我的文件"
 msgid "Search Options"
 msgstr "搜索选项"
 
-#: .tmp/scrMenu.py:28 .tmp/ui_scrMenu.py:163
+#: .tmp/scrMenu.py:28 .tmp/ui_scrMenu.py:164
 msgid "Menu"
 msgstr "菜单"
 
@@ -358,7 +360,7 @@ msgstr "菜单"
 msgid "Choose a Menu Style"
 msgstr "选择菜单风格"
 
-#: .tmp/scrMenu.py:43 .tmp/ui_scrMenu.py:165
+#: .tmp/scrMenu.py:43 .tmp/ui_scrMenu.py:166
 msgid "Kick-off Menu"
 msgstr "Kick-off启动菜单"
 
@@ -368,7 +370,7 @@ msgid ""
 "are easy to access and well organized."
 msgstr "Kick-off 启动菜单是Chakra的默认菜单，<br><br>这个程序的快捷方式易用访问，组织良好"
 
-#: .tmp/scrMenu.py:49 .tmp/ui_scrMenu.py:166
+#: .tmp/scrMenu.py:49 .tmp/ui_scrMenu.py:167
 msgid "Simple Menu"
 msgstr "精简菜单"
 
@@ -378,7 +380,7 @@ msgid ""
 " menu thus it is recommended for slower PC's."
 msgstr "精简菜单是 KDE 3 旧式风格的菜单.<br><br>这是非常轻量的菜单,适合速度较慢的电脑."
 
-#: .tmp/scrMenu.py:55 .tmp/ui_scrMenu.py:167
+#: .tmp/scrMenu.py:55 .tmp/ui_scrMenu.py:168
 msgid "Lancelot Menu"
 msgstr "Lancelot 菜单"
 
@@ -388,7 +390,7 @@ msgid ""
 "program shortcuts are easy to access and well organized."
 msgstr "Lancelot 是一个高度可定制的菜单，Chakra 可用。<br><br>程序的快捷方式易于访问，组织良好。"
 
-#: .tmp/scrMenu.py:61 .tmp/ui_scrMenu.py:168
+#: .tmp/scrMenu.py:61 .tmp/ui_scrMenu.py:169
 msgid "Homerun Menu"
 msgstr "Homerun菜单"
 
@@ -396,7 +398,7 @@ msgstr "Homerun菜单"
 msgid "Homerun is a full screen launcher with content organized in tabs."
 msgstr "Homerun是一个用标签来组织内容的全屏启动器。"
 
-#: .tmp/scrMenu.py:67 .tmp/ui_scrMenu.py:169
+#: .tmp/scrMenu.py:67 .tmp/ui_scrMenu.py:170
 msgid "AppMenu QML"
 msgstr "AppMenu QML"
 
@@ -405,6 +407,14 @@ msgid ""
 "This plasmoid shows a menu of the installed applications, similar to "
 "Lancelot but much simpler"
 msgstr "这个 plasmoid 会显示一个已安装程序的菜单，类似 Lancelot 但更简洁"
+
+#: .tmp/scrMenu.py:73 .tmp/ui_scrMenu.py:171
+msgid "Homerun Kicker"
+msgstr "Homerun Kicker"
+
+#: .tmp/scrMenu.py:75
+msgid "A non-fullscreen version of Homerun."
+msgstr "Homerun 的全屏版"
 
 #: .tmp/ui_wallpaperItem.py:82 .tmp/ui_scrAvatar.py:256
 #: .tmp/ui_scrStyleItem.py:79
@@ -418,6 +428,14 @@ msgstr "壁纸名称"
 #: .tmp/ui_wallpaperItem.py:84
 msgid "wallpaperDesc"
 msgstr "壁纸顺序"
+
+#: .tmp/scrExtra.py:31
+msgid "GTK"
+msgstr "GTK"
+
+#: .tmp/scrExtra.py:32
+msgid "GTK Integration and [extra]"
+msgstr "GTK 整合及 [extra]"
 
 #: .tmp/scrKsuperkey.py:31 .tmp/ui_scrKsuperkey.py:148
 #: .tmp/ui_scrKsuperkey.py:151
@@ -443,130 +461,164 @@ msgstr "<html><head/><body><p>kapudan 试图根据您的系统语言自动选择
 msgid "Test area:"
 msgstr "测试区:"
 
-#: .tmp/scrSummary.py:46 .tmp/ui_scrSummary.py:113
+#: .tmp/scrSummary.py:47 .tmp/ui_scrSummary.py:113
 msgid "Summary"
 msgstr "摘要"
 
-#: .tmp/scrSummary.py:47
+#: .tmp/scrSummary.py:48
 msgid "Save Your Settings"
 msgstr "保存您的设置"
 
-#: .tmp/scrSummary.py:71
+#: .tmp/scrSummary.py:73
 msgid "Mouse Settings"
 msgstr "鼠标设置"
 
-#: .tmp/scrSummary.py:73
+#: .tmp/scrSummary.py:75
 #, python-format
 msgid "Selected Mouse configuration: <b>%s</b>"
 msgstr "选定的鼠标配置：<b>%s</b>"
 
-#: .tmp/scrSummary.py:74
+#: .tmp/scrSummary.py:76
 #, python-format
 msgid "Selected clicking behavior: <b>%s</b>"
 msgstr "选定的点击行为：<b>%s</b>"
 
-#: .tmp/scrSummary.py:78
+#: .tmp/scrSummary.py:80
 msgid "Menu Settings"
 msgstr "菜单设置"
 
-#: .tmp/scrSummary.py:79
+#: .tmp/scrSummary.py:81
 #, python-format
 msgid "Selected Menu: <b>%s</b>"
 msgstr "选定的菜单：<b>%s</b>"
 
-#: .tmp/scrSummary.py:83
+#: .tmp/scrSummary.py:85
 msgid "Wallpaper Settings"
 msgstr "壁纸设置"
 
-#: .tmp/scrSummary.py:85
+#: .tmp/scrSummary.py:87
 msgid "You haven't selected any wallpaper."
 msgstr "您尚未选取任何壁纸。"
 
-#: .tmp/scrSummary.py:87
+#: .tmp/scrSummary.py:89
 #, python-format
 msgid "Selected Wallpaper: <b>%s</b>"
 msgstr "选定的壁纸：<b>%s</b>"
 
-#: .tmp/scrSummary.py:91
+#: .tmp/scrSummary.py:93
 msgid "Style Settings"
 msgstr "风格设置"
 
-#: .tmp/scrSummary.py:94
+#: .tmp/scrSummary.py:96
 msgid "You haven't selected any style."
 msgstr "您尚未选取任何风格。"
 
-#: .tmp/scrSummary.py:96
+#: .tmp/scrSummary.py:98
 #, python-format
 msgid "Selected Style: <b>%s</b>"
 msgstr "选定的风格：<b>%s</b>"
 
-#: .tmp/scrSummary.py:102
+#: .tmp/scrSummary.py:104
 msgid "Package Management Settings"
 msgstr "包管理器设置"
 
-#: .tmp/scrSummary.py:103
-msgid "You have enabled or disabled spun."
-msgstr "你已经启用或停用 spun."
+#: .tmp/scrSummary.py:105
+msgid "You have enabled or disabled octopi-notifier."
+msgstr "你已经启用或禁用 octopi-notifier。"
 
-#: .tmp/scrSummary.py:110 .tmp/scrSummary.py:139
+#: .tmp/scrSummary.py:112 .tmp/scrSummary.py:141 .tmp/scrSummary.py:169
 msgid "You have: "
 msgstr "您有"
 
-#: .tmp/scrSummary.py:112
+#: .tmp/scrSummary.py:114
 msgid "Services Settings"
 msgstr "服务设置"
 
-#: .tmp/scrSummary.py:115
+#: .tmp/scrSummary.py:117
 msgid "enabled cups; "
 msgstr "启用 cups；"
 
-#: .tmp/scrSummary.py:118
+#: .tmp/scrSummary.py:120
 msgid "disabled cups; "
 msgstr "停用 cups；"
 
-#: .tmp/scrSummary.py:121
+#: .tmp/scrSummary.py:123
 msgid "enabled bluetooth; "
 msgstr "启用蓝牙"
 
-#: .tmp/scrSummary.py:124
+#: .tmp/scrSummary.py:126
 msgid "disabled bluetooth; "
 msgstr "停用蓝牙"
 
-#: .tmp/scrSummary.py:129 .tmp/scrSummary.py:157
+#: .tmp/scrSummary.py:131 .tmp/scrSummary.py:159 .tmp/scrSummary.py:181
 msgid "You have made no changes."
 msgstr "您没有做出任何变动。"
 
-#: .tmp/scrSummary.py:141
+#: .tmp/scrSummary.py:143
 msgid "Security Settings"
 msgstr "安全设置"
 
-#: .tmp/scrSummary.py:144
+#: .tmp/scrSummary.py:146
 msgid "enabled ClamAV; "
 msgstr "启用 ClamAV（杀毒软件）；"
 
-#: .tmp/scrSummary.py:147
+#: .tmp/scrSummary.py:149
 msgid "disabled ClamAV; "
 msgstr "停用 ClamAV（杀毒软件）；"
 
-#: .tmp/scrSummary.py:150
+#: .tmp/scrSummary.py:152
 msgid "enabled the firewall; "
 msgstr "启用防火墙；"
 
-#: .tmp/scrSummary.py:153
+#: .tmp/scrSummary.py:155
 msgid "disabled the firewall; "
 msgstr "停用防火墙；"
 
+#: .tmp/scrSummary.py:171
+msgid "Extra Settings"
+msgstr "Extra 设置"
+
 #: .tmp/scrSummary.py:174
+msgid "enabled the [extra] repo; "
+msgstr "启用 [extra] 资源库；"
+
+#: .tmp/scrSummary.py:177
+msgid "disabled the [extra] repo; "
+msgstr "启用 [extra] 资源库；"
+
+#: .tmp/scrSummary.py:198
 msgid "Error"
 msgstr "错误"
 
-#: .tmp/scrSummary.py:174
+#: .tmp/scrSummary.py:198
 msgid "Cannot restart plasma-desktop. Kapudan will now shut down."
 msgstr "无法重启 plasma-desktop。Kapudan 现在将关闭。"
 
 #: .tmp/scrStyle.py:41
 msgid "Customize Your Desktop"
 msgstr "自定义桌面"
+
+#: .tmp/ui_scrExtra.py:148 .tmp/ui_scrExtra.py:151
+msgid "GTK Integration"
+msgstr "GTK 整合"
+
+#: .tmp/ui_scrExtra.py:149
+msgid "Enable the [extra] repository."
+msgstr "启用 [extra] 资源库。"
+
+#: .tmp/ui_scrExtra.py:150
+msgid ""
+"<html><head/><body><p>Chakra believes in providing an environment that is as"
+" clean as possible, and fully focused on KDE. This means there are no GTK "
+"applications in the repositories enabled by default. However, we recognize "
+"that there are quite a few &quot;must have&quot; GTK applications; these are"
+" provided in the <span style=\" font-weight:600;\">[extra] </span><a "
+"href=\"http://chakraos.org/wiki/index.php?title=Repositories\"><span "
+"style=\" text-decoration: underline; color:#00acff;\">repository</span></a>,"
+" which can be enabled by those users that want to use it. For better "
+"integration of your GTK apps, please install gtk-integration or the GTK "
+"theme of your choice.</p></body></html>"
+msgstr "<html><head/><body><p>Chakra 坚持尽可能地提供纯净，专注于 KDE 的系统。这意味着默认不会启用 GTK 应用软件库。但是却有些 &quot;必需&quot; 的 GTK 软件；这些软件在<span style=\" font-weight:600;\">[extra] </span><a href=\"http://chakraos.org/wiki/index.php?title=Repositories\"><span style=\" text-decoration: underline; color:#00acff;\">资源库</span></a>中提供，有需要的用户可以自行启用。要想更好地将系统和 GTK 软件进行整合，请安装 gtk-integration 或者 GTK 主题。</p></body></html>"
 
 #: .tmp/scrWallpaper.py:38
 msgid "Choose a Wallpaper"
@@ -605,36 +657,28 @@ msgstr "更多"
 msgid "Congratulations!"
 msgstr "恭喜！"
 
-#: .tmp/ui_scrPackage.py:167
-msgid "Check for updates automatically every"
-msgstr "每天自动检查更新"
+#: .tmp/ui_scrPackage.py:148
+msgid "Check for updates automatically?"
+msgstr "自动检测更新？"
 
-#: .tmp/ui_scrPackage.py:168
-msgid " minutes"
-msgstr "分钟"
-
-#: .tmp/ui_scrPackage.py:169
-msgid "Use audio along with the visual notification"
-msgstr "显示通知时播放声音"
-
-#: .tmp/ui_scrPackage.py:170
+#: .tmp/ui_scrPackage.py:149
 msgid ""
-"<html><head/><body><p>To install and remove programs on Chakra, use the "
-"command-line program, <a "
+"<html><head/><body><p>To install and remove programs in Chakra, use the "
+"command-line program <a "
 "href=\"http://chakraos.org/wiki/index.php?title=Pacman\"><span style=\" "
-"text-decoration: underline; color:#0057ae;\">pacman</span></a>. You can run "
+"text-decoration: underline; color:#00acff;\">pacman</span></a>. You can run "
 "<span style=\" font-weight:600;\">sudo pacman -Syu</span> to update, <span "
 "style=\" font-weight:600;\">pacman -Ss </span><span style=\" font-"
 "weight:600; font-style:italic;\">keyword</span> to search through the repos,"
 " and <span style=\" font-weight:600;\">sudo pacman -S </span><span style=\" "
 "font-weight:600; font-style:italic;\">package</span> to install "
 "packages.</p><p>Pacman does not have any sort of graphical interface, so "
-"another small app, spun, was created to provide update notifications. When "
-"updates are available, spun will show a notification in your system tray. "
-"</p></body></html>"
-msgstr "<html><head/><body><p>在Chakra中要安装或移除程序，请使用命令行程序- <a href=\"http://chakraos.org/wiki/index.php?title=Pacman\"><span style=\" text-decoration: underline; color:#0057ae;\">pacman</span></a>。你可以使用 <span style=\" font-weight:600;\">sudo pacman -Syu</span> 来更新系统， 使用<span style=\" font-weight:600;\">pacman -Ss </span><span style=\" font-weight:600; font-style:italic;\">+关键字</span> 在软件库搜软件，使用<span style=\" font-weight:600;\">sudo pacman -S </span><span style=\" font-weight:600; font-style:italic;\">+ 包名</span> 安装软件包。</p><p>Pacman 没有任何图形界面，所以通过另外一个小程序 spun 来通知更新，当有软件包更新时，spun 会在你的系统托盘弹出提醒。 </p></body></html>"
+"Chakra ships with Octopi, a Pacman frontend which can also provide update "
+"notifications. When updates are available, Octopi Notifier will show a "
+"notification in your system tray. </p></body></html>"
+msgstr "<html><head/><body><p>要想在 Chakra 上安装程序，请使用命令行程序<a href=\"http://chakraos.org/wiki/index.php?title=Pacman\"><span style=\" text-decoration: underline; color:#00acff;\">pacman</span></a>。你可以运行 <span style=\" font-weight:600;\">sudo pacman -Syu</span>更新系统，<span style=\" font-weight:600;\">pacman -Ss </span><span style=\" font-weight:600; font-style:italic;\">关键词</span> 来搜索软件，使用 <span style=\" font-weight:600;\">sudo pacman -S </span><span style=\" font-weight:600; font-style:italic;\">软件包名</span> 来安装软件。</p><p>Pacman 没有图形界面，因此 Chakra 搭载了 Octopi，一个 Pacman 前段，同时提供更新通知。当有更新时，Octopi Notifier 会在系统托盘弹出提示。</p></body></html>"
 
-#: .tmp/ui_scrPackage.py:171
+#: .tmp/ui_scrPackage.py:150
 msgid "Updates"
 msgstr "更新内容"
 
@@ -722,7 +766,7 @@ msgstr "初学者指南"
 msgid "Run Kapudan on system startup?"
 msgstr "在系统启动时运行 Kapudan？"
 
-#: .tmp/scrWelcome.py:28
+#: .tmp/scrWelcome.py:29
 #, python-format
 msgid "Welcome to %s"
 msgstr "欢迎来到 %s"
@@ -743,13 +787,13 @@ msgstr "风格名称"
 msgid "styleDesc"
 msgstr "风格顺序"
 
-#: .tmp/ui_scrMenu.py:164
+#: .tmp/ui_scrMenu.py:165
 msgid ""
 "You can also customize your <b>KDE menu</b> as you like. Please choose one "
 "from the following styles."
 msgstr "您也可以依照您的喜好自定义 <b>KDE 菜单</b>。请在下列风格中选择一个。"
 
-#: .tmp/ui_scrMenu.py:170
+#: .tmp/ui_scrMenu.py:172
 msgid "Sample"
 msgstr "范例"
 
