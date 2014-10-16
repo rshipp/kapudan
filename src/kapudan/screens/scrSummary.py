@@ -113,10 +113,10 @@ class Widget(QtGui.QWidget, Screen):
             self.svcissset = False
             content.append(subject % i18n("Services Settings"))
 
-            if self.servicesSettings["enableCups"] and not self.daemon.isEnabled("cups"):
+            if self.servicesSettings["enableCups"] and not self.daemon.isEnabled("org.cups.cupsd"):
                 self.svctext += i18n("enabled cups; ")
                 self.svcisset = True
-            elif not self.servicesSettings["enableCups"] and self.daemon.isEnabled("cups"):
+            elif not self.servicesSettings["enableCups"] and self.daemon.isEnabled("org.cups.cupsd"):
                 self.svctext += i18n("disabled cups; ")
                 self.svcisset = True
             if self.servicesSettings["enableBluetooth"] and not self.daemon.isEnabled("bluetooth"):
@@ -396,9 +396,9 @@ class Widget(QtGui.QWidget, Screen):
 
         # Services Settings
         if self.servicesSettings["hasChanged"]:
-            if self.servicesSettings["enableCups"] and not self.daemon.isEnabled("cups"):
+            if self.servicesSettings["enableCups"] and not self.daemon.isEnabled("org.cups.cupsd"):
                 rootActions += "enable_cups "
-            elif not self.servicesSettings["enableCups"] and self.daemon.isEnabled("cups"):
+            elif not self.servicesSettings["enableCups"] and self.daemon.isEnabled("org.cups.cupsd"):
                 rootActions += "disable_cups "
             if self.servicesSettings["enableBluetooth"] and not self.daemon.isEnabled("bluetooth"):
                 rootActions += "enable_blue "

@@ -40,6 +40,7 @@ disable_repo() {
 enable_cups() {
     echo " Enabling the CUPS printing service..."
     enable_daemon cups
+    enable_daemon org.cups.cupsd
     enable_daemon cups-browsed
     echo "  Done."
 }
@@ -47,6 +48,7 @@ enable_cups() {
 disable_cups() {
     echo " Disabling the CUPS printing service..."
     disable_daemon cups
+    disable_daemon org.cups.cupsd
     disable_daemon cups-browsed
     echo "  Done."
 }
