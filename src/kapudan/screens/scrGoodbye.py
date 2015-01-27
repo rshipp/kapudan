@@ -37,11 +37,11 @@ class Widget(QtGui.QWidget, Screen):
 
         lang = KGlobal.locale().language()
         if lang in ["de", "el", "es", "it", "uz"]:
-            self.helpPageUrl = "http://chakraos.org/wiki/index.php?title=Help" + lang
+            self.helpPageUrl = "http://chakraos.org/wiki/index.php?title=Help/" + lang
         else:
             self.helpPageUrl = "http://chakraos.org/wiki/index.php?title=Help"
         if lang in ["de", "es", "eu", "fr", "it", "pl", "pt-br", "sv", "ru", "uz", "zh-hant"]:
-            self.beginnersGuideUrl = "http://chakraos.org/wiki/index.php?title=Beginner's_Guide" + lang
+            self.beginnersGuideUrl = "http://chakraos.org/wiki/index.php?title=Beginner's_Guide/" + lang
         else:
             self.beginnersGuideUrl = "http://chakraos.org/wiki/index.php?title=Beginner's_Guide"
 
