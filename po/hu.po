@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: Chakra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-06 08:20-0600\n"
-"PO-Revision-Date: 2014-08-07 09:42+0000\n"
-"Last-Translator: Adrián Chaves Fernández <adriyetichaves@gmail.com>\n"
+"PO-Revision-Date: 2014-10-12 13:11+0000\n"
+"Last-Translator: Mészáros Tamás <tamasm78@invitel.hu>\n"
 "Language-Team: Hungarian (http://www.transifex.com/projects/p/chakra/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -410,11 +410,11 @@ msgstr "Ez a plasmoid mutatja a telepített alkalmazásokat menürendszerben, ha
 
 #: .tmp/scrMenu.py:73 .tmp/ui_scrMenu.py:171
 msgid "Homerun Kicker"
-msgstr ""
+msgstr "Homerun ütő"
 
 #: .tmp/scrMenu.py:75
 msgid "A non-fullscreen version of Homerun."
-msgstr ""
+msgstr "A nem teljes képernyős változat Homerun."
 
 #: .tmp/ui_wallpaperItem.py:82 .tmp/ui_scrAvatar.py:256
 #: .tmp/ui_scrStyleItem.py:79
@@ -431,11 +431,11 @@ msgstr "wallpaperDesc"
 
 #: .tmp/scrExtra.py:31
 msgid "GTK"
-msgstr ""
+msgstr "GTK"
 
 #: .tmp/scrExtra.py:32
 msgid "GTK Integration and [extra]"
-msgstr ""
+msgstr "GTK Integráció és [extra]"
 
 #: .tmp/scrKsuperkey.py:31 .tmp/ui_scrKsuperkey.py:148
 #: .tmp/ui_scrKsuperkey.py:151
@@ -524,7 +524,7 @@ msgstr "Csomagkezelési beállítások"
 
 #: .tmp/scrSummary.py:105
 msgid "You have enabled or disabled octopi-notifier."
-msgstr ""
+msgstr "Ön engedélyezte vagy tiltotta octopi-bejelentőt"
 
 #: .tmp/scrSummary.py:112 .tmp/scrSummary.py:141 .tmp/scrSummary.py:169
 msgid "You have: "
@@ -576,15 +576,15 @@ msgstr "tűzfal kikapcsolása; "
 
 #: .tmp/scrSummary.py:171
 msgid "Extra Settings"
-msgstr ""
+msgstr "Extra beállítások"
 
 #: .tmp/scrSummary.py:174
 msgid "enabled the [extra] repo; "
-msgstr ""
+msgstr "Az [extra] repo bekapcsolása;"
 
 #: .tmp/scrSummary.py:177
 msgid "disabled the [extra] repo; "
-msgstr ""
+msgstr "Az [extra] repo kikapcsolása;"
 
 #: .tmp/scrSummary.py:198
 msgid "Error"
@@ -600,11 +600,11 @@ msgstr "Munkaasztal testreszabása"
 
 #: .tmp/ui_scrExtra.py:148 .tmp/ui_scrExtra.py:151
 msgid "GTK Integration"
-msgstr ""
+msgstr "GTK integráció"
 
 #: .tmp/ui_scrExtra.py:149
 msgid "Enable the [extra] repository."
-msgstr ""
+msgstr "Az [extra] repo bekapcsolása;"
 
 #: .tmp/ui_scrExtra.py:150
 msgid ""
@@ -618,7 +618,7 @@ msgid ""
 " which can be enabled by those users that want to use it. For better "
 "integration of your GTK apps, please install gtk-integration or the GTK "
 "theme of your choice.</p></body></html>"
-msgstr ""
+msgstr "<html> <head /> <body> <p> csakra hisz abban, hogy egy olyan környezetben, amely a lehető legtisztább legyen, és teljes mértékben összpontosít KDE. Ez azt jelenti, nincs GTK alkalmazásokat a tárolókban alapértelmezés szerint engedélyezve van. Ugyanakkor tisztában vagyunk vele, hogy van jó néhány & quot; kell & quot; GTK alkalmazások; ezek megtalálhatók a <span style = \"font-weight: 600;\"> [extra] </ span> <a href=\"http://chakraos.org/wiki/index.php?title=Repositories\"> <span style = \"text-decoration: aláhúzott, color: # 00acff;\"> repository </ span> </a>, amely lehetővé azok a felhasználók, amelyek szeretnék használni. A jobb integrálása a GTK apps, kérjük telepítse gtk-integráció, illetve a GTK témát választott. </ P> </ body> </ html>"
 
 #: .tmp/scrWallpaper.py:38
 msgid "Choose a Wallpaper"
@@ -659,7 +659,7 @@ msgstr "Gratulálunk!"
 
 #: .tmp/ui_scrPackage.py:148
 msgid "Check for updates automatically?"
-msgstr ""
+msgstr "Frissítések automatikusan beállítása?"
 
 #: .tmp/ui_scrPackage.py:149
 msgid ""
@@ -676,7 +676,7 @@ msgid ""
 "Chakra ships with Octopi, a Pacman frontend which can also provide update "
 "notifications. When updates are available, Octopi Notifier will show a "
 "notification in your system tray. </p></body></html>"
-msgstr ""
+msgstr "<html> <head /> <body> <p> telepítéséhez és eltávolításához programok csakra, használja a parancssori programmal <a href = \"http://chakraos.org/wiki/index.php?title=Pacman\" > <span style = \"text-decoration: aláhúzott, color: # 00acff;\"> pacman </ span> </a>. Akkor fuss <span style = \"font-weight: 600;\"> sudo pacman -Syu </ span> frissíteni, <span style = \"font-weight: 600;\"> pacman -Ss </ span> <span style = \"font-weight: 600, font-style: italic;\"> kulcsszó </ span> keresgélni a repó, és <span style = \"font-weight: 600;\"> sudo pacman-S </ span> <span style = \"font-weight: 600, font-style: italic;\"> csomag </ span> csomagok telepítésére. </ p> <p> Pacman-hez nincs semmiféle grafikus felület, így Chakra hajók octopi, a Pacman frontend, amely szintén biztosítani értesítéseket. Ha vannak elérhető frissítések, octopi Notifier megjelenik egy értesítés a tálcán. </ p> </ body> </ html>"
 
 #: .tmp/ui_scrPackage.py:150
 msgid "Updates"

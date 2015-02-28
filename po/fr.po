@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Chakra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-06 08:20-0600\n"
-"PO-Revision-Date: 2014-08-07 12:41+0000\n"
+"PO-Revision-Date: 2014-10-12 10:19+0000\n"
 "Last-Translator: Tubuntu <tubuntu@testimonium.be>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/chakra/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -410,11 +410,11 @@ msgstr "Ce plasmoid montre, comme le fait Lancelot, un menu des applications ins
 
 #: .tmp/scrMenu.py:73 .tmp/ui_scrMenu.py:171
 msgid "Homerun Kicker"
-msgstr ""
+msgstr "Homerun Kicker"
 
 #: .tmp/scrMenu.py:75
 msgid "A non-fullscreen version of Homerun."
-msgstr ""
+msgstr "Une version sans mode plein écran de Homerun."
 
 #: .tmp/ui_wallpaperItem.py:82 .tmp/ui_scrAvatar.py:256
 #: .tmp/ui_scrStyleItem.py:79
@@ -618,7 +618,7 @@ msgid ""
 " which can be enabled by those users that want to use it. For better "
 "integration of your GTK apps, please install gtk-integration or the GTK "
 "theme of your choice.</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Chakra tient à offrir un environnement aussi propre que possible, et totalement axé sur KDE. Cela signifie qu'il n'y a aucune application GTK dans les dépôts activés par défaut. Cependant nous sommes conscient qu'il y a un bon nombre d'applications GTK &quot;indispensables&quot; ; celles-ci sont disponibles dans le <a href=\"http://chakraos.org/wiki/index.php?title=Dépôts\"><span style=\" text-decoration: underline; color:#00acff;\">dépôt</span></a> <span style=\" font-weight:600;\">[extra]</span>, qui peut être activé par les utilisateurs désirant les utiliser. Pour une meilleure intégration de vos apps GTK, veuillez installer gtk-integration ou un thème GTK de votre choix.</p></body></html>"
 
 #: .tmp/scrWallpaper.py:38
 msgid "Choose a Wallpaper"
@@ -676,7 +676,7 @@ msgid ""
 "Chakra ships with Octopi, a Pacman frontend which can also provide update "
 "notifications. When updates are available, Octopi Notifier will show a "
 "notification in your system tray. </p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Pour installer et supprimer des programmes dans Chakra, utilisez le programme en ligne de commande <a href=\"http://chakraos.org/wiki/index.php?title=Pacman\"><span style=\" text-decoration: underline; color:#00acff;\">pacman</span></a>. Vous pouvez exécuter <span style=\" font-weight:600;\">sudo pacman -Syu</span> pour mettre à jour, <span style=\" font-weight:600;\">pacman -Ss </span><span style=\" font-weight:600; font-style:italic;\">motclef</span> pour effectuer une recherche dans les dépôts, et <span style=\" font-weight:600;\">sudo pacman -S </span><span style=\" font-weight:600; font-style:italic;\">nom-paquet</span> pour installer des paquets.</p><p>Pacman n'ayant aucune interface graphique, Chakra embarque donc  Octopi, un frontend Pacman qui propose également des notification de mise à jour. Lorsque des mises à jour sont disponibles, Octopi Notifier affichera une notification dans votre barre d'état système.</p></body></html>"
 
 #: .tmp/ui_scrPackage.py:150
 msgid "Updates"

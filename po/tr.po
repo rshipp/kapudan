@@ -4,14 +4,15 @@
 # 
 # Translators:
 # Atilla Öntaş <tarakbumba@gmail.com>, 2013-2014
-# Emre FIRAT <emrefirat93@gmail.com>, 2013
+# Demiray Muhterem <mdemiray@msn.com>, 2014
+# Emre FIRAT <emrefirat93@gmail.com>, 2013-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: Chakra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-06 08:20-0600\n"
-"PO-Revision-Date: 2014-08-07 09:42+0000\n"
-"Last-Translator: Adrián Chaves Fernández <adriyetichaves@gmail.com>\n"
+"PO-Revision-Date: 2014-10-08 19:40+0000\n"
+"Last-Translator: Demiray Muhterem <mdemiray@msn.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/chakra/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -407,11 +408,11 @@ msgstr "Bu plasmoid, Lancelot gibi ama daha basit olarak, kurulu uygulamalar men
 
 #: .tmp/scrMenu.py:73 .tmp/ui_scrMenu.py:171
 msgid "Homerun Kicker"
-msgstr ""
+msgstr "Homerun Kicker Menü"
 
 #: .tmp/scrMenu.py:75
 msgid "A non-fullscreen version of Homerun."
-msgstr ""
+msgstr "Tam ekran olmayan Homerun versiyonu."
 
 #: .tmp/ui_wallpaperItem.py:82 .tmp/ui_scrAvatar.py:256
 #: .tmp/ui_scrStyleItem.py:79
@@ -428,11 +429,11 @@ msgstr "wallpaperDesc"
 
 #: .tmp/scrExtra.py:31
 msgid "GTK"
-msgstr ""
+msgstr "GTK"
 
 #: .tmp/scrExtra.py:32
 msgid "GTK Integration and [extra]"
-msgstr ""
+msgstr "GTK Entegrasyonu ve [extra]"
 
 #: .tmp/scrKsuperkey.py:31 .tmp/ui_scrKsuperkey.py:148
 #: .tmp/ui_scrKsuperkey.py:151
@@ -521,7 +522,7 @@ msgstr "Paket Yönetim Ayarları"
 
 #: .tmp/scrSummary.py:105
 msgid "You have enabled or disabled octopi-notifier."
-msgstr ""
+msgstr "Octopi-bildirmlerini etkin veya devredışı bırak."
 
 #: .tmp/scrSummary.py:112 .tmp/scrSummary.py:141 .tmp/scrSummary.py:169
 msgid "You have: "
@@ -573,15 +574,15 @@ msgstr "Güvenlik Duvarı devre dışı;"
 
 #: .tmp/scrSummary.py:171
 msgid "Extra Settings"
-msgstr ""
+msgstr "Ekstra Ayarlar"
 
 #: .tmp/scrSummary.py:174
 msgid "enabled the [extra] repo; "
-msgstr ""
+msgstr "[extra] depoyu etkinleştir;"
 
 #: .tmp/scrSummary.py:177
 msgid "disabled the [extra] repo; "
-msgstr ""
+msgstr "[extra] depoyu pasifleştir;"
 
 #: .tmp/scrSummary.py:198
 msgid "Error"
@@ -597,11 +598,11 @@ msgstr "Masaüstünü Özelleştirin"
 
 #: .tmp/ui_scrExtra.py:148 .tmp/ui_scrExtra.py:151
 msgid "GTK Integration"
-msgstr ""
+msgstr "GTK Entegrasyonu"
 
 #: .tmp/ui_scrExtra.py:149
 msgid "Enable the [extra] repository."
-msgstr ""
+msgstr "[extra] depoyu aktifleştirin."
 
 #: .tmp/ui_scrExtra.py:150
 msgid ""
@@ -615,7 +616,7 @@ msgid ""
 " which can be enabled by those users that want to use it. For better "
 "integration of your GTK apps, please install gtk-integration or the GTK "
 "theme of your choice.</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Chakra mümkün olduğunca temiz ve sorunsuz bir KDE ortamına odaklanmaktadır. Varsayılan olarak etkin depolarda GTK uygulamalar bulunmaz. GTK uygulamalara ihtiyaç duyuyorsanız tercihen <span style=\" font-weight:600;\">[extra] </span><a href=\"http://chakraos.org/wiki/index.php?title=Repositories\"><span style=\" text-decoration: underline; color:#00acff;\">depoları</span></a>, etkinleştirmeniz gerekmektedir. Daha uyumlu bir görünüm ve sorunsuz gtk-temalar için bu depolar gereklidir.</p></body></html>"
 
 #: .tmp/scrWallpaper.py:38
 msgid "Choose a Wallpaper"
@@ -656,7 +657,7 @@ msgstr "Tebrikler!"
 
 #: .tmp/ui_scrPackage.py:148
 msgid "Check for updates automatically?"
-msgstr ""
+msgstr "Güncellemeler otomatik kontrol edilsin mi?"
 
 #: .tmp/ui_scrPackage.py:149
 msgid ""
@@ -673,7 +674,7 @@ msgid ""
 "Chakra ships with Octopi, a Pacman frontend which can also provide update "
 "notifications. When updates are available, Octopi Notifier will show a "
 "notification in your system tray. </p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Chakra Linuxta paket yükleme ve kaldırma işleri için konsol-uçbirimde <a href=\"http://chakraos.org/wiki/index.php?title=Pacman\"><span style=\" text-decoration: underline; color:#00acff;\"> kullanabilirsiniz. <span style=\" font-weight:600;\">sudo pacman -Syu</span> komutunu kullanarak sistemi güncellemeye başlayabilirsin, <span style=\" font-weight:600;\">pacman -Ss </span><span style=\" font-weight:600; font-style:italic;\">anahtar kelime</span> komutu ile depolarda paketlerde arama yapabilirsin. <span style=\" font-weight:600;\">sudo pacman -S </span><span style=\" font-weight:600; font-style:italic;\">paket-adı</span> ile istediğin paketleri yükleyebilirsin.</p><p>Konsoldan pacman kullanmak istemiyorsanız Octopi kullanabilirsiniz. Octopi qt tabanlı bir pacman arayüzüdür. Paket yükleme işlemlerini yapmasının yanısıra sistem çubuğuna hatırlatma-uygulaması yerleşerek sistem güncellemelerini haber verir ve dilerseniz sistemi günceller, yükseltir. </p></body></html>"
 
 #: .tmp/ui_scrPackage.py:150
 msgid "Updates"

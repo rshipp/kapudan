@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# andjeng, 2013
+# Gregori, 2014
+# Gregori, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: Chakra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-26 14:27-0700\n"
-"PO-Revision-Date: 2014-01-27 09:03+0000\n"
-"Last-Translator: Manuel Tortosa <manutortosa@chakra-project.org>\n"
+"POT-Creation-Date: 2014-08-06 08:20-0600\n"
+"PO-Revision-Date: 2014-12-09 06:34+0000\n"
+"Last-Translator: Gregori\n"
 "Language-Team: Indonesian (http://www.transifex.com/projects/p/chakra/language/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: .tmp/ui_scrWelcome.py:87 .tmp/scrWelcome.py:27
+#: .tmp/ui_scrWelcome.py:87 .tmp/scrWelcome.py:28
 msgid "Welcome"
 msgstr "Selamat Datang"
 
@@ -37,52 +38,54 @@ msgid ""
 "elegant Plasma Workspaces.<br/><br/><span style=\" font-"
 "weight:600;\">Kapudan</span> will help you personalize your Chakra "
 "installation easily and quickly. Just click <span style=\" font-"
-"weight:600;\">next</span> when you are ready to begin.</p></body></html>"
+"weight:600;\">next</span> when you are ready to begin. If you prefer, you "
+"can simply close this window now and configure your computer "
+"yourself.</p></body></html>"
 msgstr ""
 
-#: .tmp/ui_scrStyle.py:180 .tmp/scrStyle.py:40
+#: .tmp/ui_scrStyle.py:202 .tmp/scrStyle.py:40
 msgid "Themes"
 msgstr "Tema"
 
-#: .tmp/ui_scrStyle.py:181
+#: .tmp/ui_scrStyle.py:203
 msgid ""
 "Choose your favorite theme and desktop type. Customize Chakra with colorful "
 "styles and themes."
 msgstr "Pilih tema dan gaya desktop favorit anda. Sesuaikan Chakra dengan gaya dan tema yang berwarna warni."
 
-#: .tmp/ui_scrStyle.py:182
+#: .tmp/ui_scrStyle.py:204
 msgid "KDE Themes"
 msgstr "Tema KDE"
 
-#: .tmp/ui_scrStyle.py:183
+#: .tmp/ui_scrStyle.py:205
 msgid "Desktop Type"
 msgstr "Tipe Desktop"
 
-#: .tmp/ui_scrStyle.py:184
+#: .tmp/ui_scrStyle.py:206
 msgid "Desktop view (KDE4 Style)"
 msgstr "Tampilan Desktop (Gaya KDE4)"
 
-#: .tmp/ui_scrStyle.py:185
+#: .tmp/ui_scrStyle.py:207
 msgid "Folder view (KDE3 Style)"
 msgstr "Tampilan Folder (Gaya KDE3)"
 
-#: .tmp/ui_scrStyle.py:186
+#: .tmp/ui_scrStyle.py:208
 msgid "Number of Desktops"
 msgstr "Jumlah Desktop"
 
-#: .tmp/ui_scrServices.py:127 .tmp/scrServices.py:31
+#: .tmp/ui_scrServices.py:123 .tmp/scrServices.py:31
 msgid "Services"
 msgstr "Service"
 
-#: .tmp/ui_scrServices.py:128
+#: .tmp/ui_scrServices.py:124
 msgid "cups: The Common Unix Printing Service"
 msgstr "cups:The Common Unix Printing Service"
 
-#: .tmp/ui_scrServices.py:129
+#: .tmp/ui_scrServices.py:125
 msgid "bluetooth: Enable Bluetooth communication"
 msgstr "bluetooth:Fungsikan komunikasi Bluetooth"
 
-#: .tmp/ui_scrServices.py:130
+#: .tmp/ui_scrServices.py:126
 msgid ""
 "<html><head/><body><p>By default, new installations of Chakra have only a "
 "bare minimum of required services (also called &quot;daemons&quot;) enabled."
@@ -102,11 +105,11 @@ msgid ""
 "weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
 msgstr "<html><head/><body><p>Secara default, instalasi baru Chakra hanya mempunyai service minimum yang dibutuhkan (juga disebut &quot;jurig&quot;) yang diaktifkan. Hal ini tidak hanya menunjukkan prinsip Chakra untuk tidak membuat keputusan untuk pengguna, tapi juga menambahkan keamanan dalam pemasangan, dengan mengurangi jumlah service yang aktif yang mungkin rentan pada serangan.</p><p>Jika anda mau, anda dapat menggunakan opsi dibawah untuk membuat beberapa jurig umum yang biasa digunakan untuk dimulai secara otomatis pada waktu boot. Untuk mengaktifkan service apapun pada waktu bootup, anda dapat menjalankan <span style=\" font-weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; font-style:italic;\">nama-daemon</span>. Respectively, jalankan <span style=\" font-weight:600;\">sudo systemctl disable </span><span style=\" font-weight:600; font-style:italic;\">nama-daemon</span>. Atau, jika anda ingin menjalankan jurig secara manual, coba <span style=\" font-weight:600;\">sudo systemctl start </span><span style=\" font-weight:600; font-style:italic;\">nama-daemon</span>. (Mis, <span style=\" font-weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
 
-#: .tmp/ui_scrServices.py:131
+#: .tmp/ui_scrServices.py:127
 msgid "Daemons to start at boot time"
 msgstr "Jurig dimulai saat waktu boot"
 
-#: .tmp/scrFolder.py:30 .tmp/ui_scrFolder.py:162
+#: .tmp/scrFolder.py:30 .tmp/ui_scrFolder.py:215
 msgid "Folders"
 msgstr "Folder"
 
@@ -114,7 +117,39 @@ msgstr "Folder"
 msgid "Create folders in the home directory"
 msgstr "Buat folder di direktori home"
 
-#: .tmp/kapudan.desktop.in.h:1 .tmp/ui_kapudan.py:368
+#: .tmp/scrFolder.py:79
+msgid "Selected: "
+msgstr "Terpilih:"
+
+#: .tmp/scrFolder.py:80
+msgid "Downloads"
+msgstr "Unduhan"
+
+#: .tmp/scrFolder.py:81
+msgid "Documents"
+msgstr "Dokumen"
+
+#: .tmp/scrFolder.py:82
+msgid "Videos"
+msgstr "Video"
+
+#: .tmp/scrFolder.py:83
+msgid "Music"
+msgstr "Musik"
+
+#: .tmp/scrFolder.py:84
+msgid "Pictures"
+msgstr "Gambar"
+
+#: .tmp/scrFolder.py:108
+msgid "None"
+msgstr "Kosong"
+
+#: .tmp/scrFolder.py:142
+msgid "Created folders in home directory"
+msgstr "Buat folder pada direktori"
+
+#: .tmp/kapudan.desktop.in.h:1 .tmp/ui_kapudan.py:349
 msgid "Kapudan"
 msgstr "Kapudan"
 
@@ -122,87 +157,87 @@ msgstr "Kapudan"
 msgid "Welcome Wizard"
 msgstr "Wizard Selamat Datang"
 
-#: .tmp/scrPackage.py:33 .tmp/ui_scrPackage.py:142
+#: .tmp/scrPackage.py:32 .tmp/ui_scrPackage.py:147
 msgid "Packages"
 msgstr "Paket"
 
-#: .tmp/scrPackage.py:34
+#: .tmp/scrPackage.py:33
 msgid "Install / Remove Programs"
 msgstr "Pasang / Hapus Program"
 
-#: .tmp/ui_scrWallpaper.py:140 .tmp/scrWallpaper.py:37
+#: .tmp/ui_scrWallpaper.py:162 .tmp/scrWallpaper.py:37
 msgid "Wallpaper"
 msgstr "Wallpaper"
 
-#: .tmp/ui_scrWallpaper.py:141
+#: .tmp/ui_scrWallpaper.py:163
 msgid ""
 "<html><head/><body><p>Choose your favorite wallpaper for your Chakra "
 "desktop. Don't forget to check out <span style=\" font-weight:600;\">Desktop"
 " Settings</span> to download cool new wallpapers.</p></body></html>"
 msgstr "<html><head/><body><p>Pilih wallpaper favorit untuk destop Chakra anda. Jangan lupa untuk mengeceknya<span style=\"font-weight:600;'>Pengaturan Desktop</span>untuk mendownload wallpaper baru.</p></body></html>"
 
-#: .tmp/ui_scrWallpaper.py:142
+#: .tmp/ui_scrWallpaper.py:164
 msgid "Wallpapers"
 msgstr "Wallpaper"
 
-#: .tmp/ui_scrWallpaper.py:144
+#: .tmp/ui_scrWallpaper.py:166
 msgid "Choose wallpaper from file"
 msgstr "Pilih wallpaper dari berkas"
 
-#: .tmp/ui_scrWallpaper.py:145
+#: .tmp/ui_scrWallpaper.py:167
 msgid "Don't change wallpaper"
 msgstr "Jangan ubah wallpaper"
 
-#: .tmp/ui_scrSecurity.py:172 .tmp/scrSecurity.py:33
+#: .tmp/ui_scrSecurity.py:202 .tmp/scrSecurity.py:33
 msgid "Security"
 msgstr "Keamanan"
 
-#: .tmp/ui_scrSecurity.py:173
+#: .tmp/ui_scrSecurity.py:203
 msgid "Enable the firewall (UFW)"
 msgstr "Aktifkan firewall (UFW)"
 
-#: .tmp/ui_scrSecurity.py:174
+#: .tmp/ui_scrSecurity.py:204
 msgid "Enable Clam AntiVirus daemon (must be installed and configured)"
 msgstr "Aktifkan jurig Clam AntiVirus (harus diinstal dan dikonfigurasi)"
 
-#: .tmp/ui_scrSecurity.py:175
+#: .tmp/ui_scrSecurity.py:205
 msgid ""
 "<html><head/><body><p>Other security tools provided by Chakra include "
 "Tomoyo-tools, the KDE Wallet, rkhunter, chkrootkit, tiger, and more. Click "
 "the buttons below to learn more about these tools.</p></body></html>"
 msgstr "<html><head/><body><p>Peralatan keamanan lain yang disediakan oleh Chakra seperti peralatan Tomoyo, KDE Wallet, rkhunter, chkrootkit, tiger, dan lainnya. Klik tombol dibawah untuk mempelajari lebih lanjut peralatan ini.</p></body></html>"
 
-#: .tmp/ui_scrSecurity.py:176
+#: .tmp/ui_scrSecurity.py:206
 msgid "ClamAV: Detect and remove malware"
 msgstr "ClamAV: Deteksi dan hapus malware"
 
-#: .tmp/ui_scrSecurity.py:177
+#: .tmp/ui_scrSecurity.py:207
 msgid ""
 "Tomoyo-tools: A Mandatory Access Control (MAC) implementation for Linux"
 msgstr "Peralatan Tomoyo: implementasi Mandatory Access Control (MAC) untuk Linux"
 
-#: .tmp/ui_scrSecurity.py:178
+#: .tmp/ui_scrSecurity.py:208
 msgid ""
 "KDE Wallet Manager: Protect and encrypt passwords and other information"
 msgstr "KDE Wallet Manager: Melindungi dan meng-enkripsi sandi dan informasi lain"
 
-#: .tmp/ui_scrSecurity.py:179
+#: .tmp/ui_scrSecurity.py:209
 msgid ""
 "chkrootkit and rkhunter: Check for the presence of rootkits on your system"
 msgstr "chkrootkit dan rkhunter: Memeriksa keberadaan rootkit pada sistem anda"
 
-#: .tmp/ui_scrSecurity.py:180
+#: .tmp/ui_scrSecurity.py:210
 msgid "Tiger: A host-based intrusion detection and auditing tool"
 msgstr "Tiger: Peralatan untuk mengaudit dan mendeteksi gangguan yang berdasarkan pada host"
 
-#: .tmp/ui_scrSecurity.py:181
+#: .tmp/ui_scrSecurity.py:211
 msgid ""
 "<html><head/><body><p>Finally, Chakra also provides a graphical tool to "
 "configure the system firewall. Just click on &quot;Firewall&quot; in the KDE"
 " System Settings.</p></body></html>"
 msgstr "<html><head/><body><p>Akhirnya, Chakra juga menyediakan peralatan grafis untuk mengonfigurasi firewall sistem. Tinggal klik pada &quot;Firewall&quot; pada Pengaturan Sistem KDE.</p></body></html>"
 
-#: .tmp/ui_scrSecurity.py:182
+#: .tmp/ui_scrSecurity.py:212
 msgid ""
 "<html><head/><body><p>Security is a process, not a product, and no operating"
 " system can realistically claim to be perfectly secure. It is up to you to "
@@ -211,11 +246,11 @@ msgid ""
 "system safe.</p></body></html>"
 msgstr "<html><head/><body><p>Keamanan merupakan proses, bukan produk, dan tidak ada sistem operasi yang secara realistis dikatakan benar benar aman. Hal ini terserah kepada anda untuk memastikan sistem anda tetap up to date, dan menerapkan praktek keamanan terbaik. Bagaimanapun juga, Chakra menyediakan beberapa peralatan untuk menjaga sistem anda tetap aman. </p></body></html>"
 
-#: .tmp/ui_scrSecurity.py:183
+#: .tmp/ui_scrSecurity.py:213
 msgid "Security Tools"
 msgstr "Peralatan Keamanan"
 
-#: .tmp/scrMouse.py:32 .tmp/ui_scrMouse.py:213
+#: .tmp/scrMouse.py:32 .tmp/ui_scrMouse.py:232
 msgid "Mouse"
 msgstr "Tetikus"
 
@@ -239,59 +274,59 @@ msgstr "Klik Sekali"
 msgid "Double Click"
 msgstr "Klik Dua Kali"
 
-#: .tmp/ui_scrFolder.py:155
+#: .tmp/ui_scrFolder.py:203
 msgid "Home Folder"
 msgstr "Folder Home"
 
-#: .tmp/ui_scrFolder.py:156
+#: .tmp/ui_scrFolder.py:204
 msgid "  Downloads  "
 msgstr "Unduhan"
 
-#: .tmp/ui_scrFolder.py:157
+#: .tmp/ui_scrFolder.py:205
 msgid "  Documents  "
 msgstr "Dokumen"
 
-#: .tmp/ui_scrFolder.py:158
+#: .tmp/ui_scrFolder.py:206
 msgid "  Videos  "
 msgstr "Video"
 
-#: .tmp/ui_scrFolder.py:159
+#: .tmp/ui_scrFolder.py:207
 msgid "  Music  "
 msgstr "Music"
 
-#: .tmp/ui_scrFolder.py:160
+#: .tmp/ui_scrFolder.py:208
 msgid "  Pictures  "
-msgstr ""
+msgstr "Gambar"
 
-#: .tmp/ui_scrFolder.py:161
+#: .tmp/ui_scrFolder.py:214
 msgid ""
 "<html><head/><body><p>Your home directory does not contain folders for "
 "documents, music, pictures and the like by default. Kapudan will create the "
 "folders selected below for you now; unselect the ones you don't "
 "want.</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Direktori home kamu tidak berisi folder untuk dokumen, musik, gambar dan sejenisnya secara bawaan. Kapudan akan membuat folder terpilih dibawah untukmu sekarang; jangan pilih yang tidak kamu inginkan.</p></body></html>"
 
-#: .tmp/ui_kapudan.py:369
+#: .tmp/ui_kapudan.py:350
 msgid "Welcome to Chakra"
 msgstr "Selamat Datang di Chakra"
 
-#: .tmp/ui_kapudan.py:370
+#: .tmp/ui_kapudan.py:351
 msgid "Cancel"
 msgstr "Batal"
 
-#: .tmp/ui_kapudan.py:371
+#: .tmp/ui_kapudan.py:352
 msgid "Back"
 msgstr "Kembali"
 
-#: .tmp/ui_kapudan.py:372
+#: .tmp/ui_kapudan.py:353
 msgid "Next"
 msgstr "Lanjut"
 
-#: .tmp/ui_kapudan.py:373
+#: .tmp/ui_kapudan.py:354
 msgid "Finish"
 msgstr "Selesai"
 
-#: .tmp/ui_kapudan.py:374
+#: .tmp/ui_kapudan.py:355
 msgid "Apply"
 msgstr "Terapkan"
 
@@ -314,7 +349,7 @@ msgstr "Perbolehkan Strigi untuk mengindeks berkas saya"
 msgid "Search Options"
 msgstr "Opsi Pencarian"
 
-#: .tmp/scrMenu.py:28 .tmp/ui_scrMenu.py:134
+#: .tmp/scrMenu.py:28 .tmp/ui_scrMenu.py:164
 msgid "Menu"
 msgstr "Menu"
 
@@ -322,7 +357,7 @@ msgstr "Menu"
 msgid "Choose a Menu Style"
 msgstr "Pilih Gaya Menu"
 
-#: .tmp/scrMenu.py:43 .tmp/ui_scrMenu.py:136
+#: .tmp/scrMenu.py:43 .tmp/ui_scrMenu.py:166
 msgid "Kick-off Menu"
 msgstr "Menu Kick-off"
 
@@ -332,7 +367,7 @@ msgid ""
 "are easy to access and well organized."
 msgstr "Menu Kick-off merupakan menu bawaan Chakra.<br><br>Program pintasan yang mudah diakses dan dikelompokkan dengan baik."
 
-#: .tmp/scrMenu.py:49 .tmp/ui_scrMenu.py:137
+#: .tmp/scrMenu.py:49 .tmp/ui_scrMenu.py:167
 msgid "Simple Menu"
 msgstr "Menu Sederhana"
 
@@ -342,7 +377,7 @@ msgid ""
 " menu thus it is recommended for slower PC's."
 msgstr "Menu Sederhana merupakan menu gaya klasik dari KDE 3.<br><br>Merupakan menu yang ringan, sehingga direkomendasikan untuk PC yang agak lamban."
 
-#: .tmp/scrMenu.py:55 .tmp/ui_scrMenu.py:138
+#: .tmp/scrMenu.py:55 .tmp/ui_scrMenu.py:168
 msgid "Lancelot Menu"
 msgstr "Menu Lancelot"
 
@@ -352,7 +387,7 @@ msgid ""
 "program shortcuts are easy to access and well organized."
 msgstr "Lancelot merupakan menu yang bisa diubah dengan leluasa untuk Chakra.<br><br>Program pintasan yang mudah diakses dan dikelola dengan baik."
 
-#: .tmp/scrMenu.py:61 .tmp/ui_scrMenu.py:139
+#: .tmp/scrMenu.py:61 .tmp/ui_scrMenu.py:169
 msgid "Homerun Menu"
 msgstr "Menu Homerun"
 
@@ -360,15 +395,23 @@ msgstr "Menu Homerun"
 msgid "Homerun is a full screen launcher with content organized in tabs."
 msgstr "Homerun merupakan peluncur layar penuh dengan isi yang dikelompokkan pada tab."
 
-#: .tmp/scrMenu.py:67 .tmp/ui_scrMenu.py:140
+#: .tmp/scrMenu.py:67 .tmp/ui_scrMenu.py:170
 msgid "AppMenu QML"
-msgstr ""
+msgstr "AppMenu QML"
 
 #: .tmp/scrMenu.py:69
 msgid ""
 "This plasmoid shows a menu of the installed applications, similar to "
 "Lancelot but much simpler"
-msgstr ""
+msgstr "Plasmoid ini memperlihatkan menu dari aplikasi yang terpasang, seperti Lancelot tapi lebih sederhana"
+
+#: .tmp/scrMenu.py:73 .tmp/ui_scrMenu.py:171
+msgid "Homerun Kicker"
+msgstr "Homerun Kicker"
+
+#: .tmp/scrMenu.py:75
+msgid "A non-fullscreen version of Homerun."
+msgstr "Versi non-layar-penuh dari Homerun."
 
 #: .tmp/ui_wallpaperItem.py:82 .tmp/ui_scrAvatar.py:256
 #: .tmp/ui_scrStyleItem.py:79
@@ -383,14 +426,22 @@ msgstr "wallPaperName"
 msgid "wallpaperDesc"
 msgstr "wallpaperDesc"
 
-#: .tmp/scrKsuperkey.py:31 .tmp/ui_scrKsuperkey.py:124
-#: .tmp/ui_scrKsuperkey.py:127
+#: .tmp/scrExtra.py:31
+msgid "GTK"
+msgstr "GTK"
+
+#: .tmp/scrExtra.py:32
+msgid "GTK Integration and [extra]"
+msgstr "Integrasi GTK dan [extra]"
+
+#: .tmp/scrKsuperkey.py:31 .tmp/ui_scrKsuperkey.py:148
+#: .tmp/ui_scrKsuperkey.py:151
 msgid "ksuperkey"
-msgstr ""
+msgstr "ksuperkey"
 
 #: .tmp/scrKsuperkey.py:32
 msgid "Enable / Disable ksuperkey"
-msgstr ""
+msgstr "Hidupkan / Matikan ksuperkey"
 
 #: .tmp/ui_scrKeyboard.py:102
 msgid "Keyboard"
@@ -407,130 +458,164 @@ msgstr "<html><head/><body><p>Kapudan berusaha untuk memilih layout keyboard ter
 msgid "Test area:"
 msgstr "Area Test:"
 
-#: .tmp/scrSummary.py:46 .tmp/ui_scrSummary.py:94
+#: .tmp/scrSummary.py:47 .tmp/ui_scrSummary.py:113
 msgid "Summary"
 msgstr "Ringkasan"
 
-#: .tmp/scrSummary.py:47
+#: .tmp/scrSummary.py:48
 msgid "Save Your Settings"
 msgstr "Simpan Pengaturan Anda"
 
-#: .tmp/scrSummary.py:71
+#: .tmp/scrSummary.py:73
 msgid "Mouse Settings"
 msgstr "Pengaturan Tetikus"
 
-#: .tmp/scrSummary.py:73
+#: .tmp/scrSummary.py:75
 #, python-format
 msgid "Selected Mouse configuration: <b>%s</b>"
 msgstr "Konfigurasi Tetikus yang dipilih: <b>%s</b>"
 
-#: .tmp/scrSummary.py:74
+#: .tmp/scrSummary.py:76
 #, python-format
 msgid "Selected clicking behavior: <b>%s</b>"
 msgstr "Perilaku klik yang dipilih: <b>%s</b>"
 
-#: .tmp/scrSummary.py:78
+#: .tmp/scrSummary.py:80
 msgid "Menu Settings"
 msgstr "Menu Pengaturan"
 
-#: .tmp/scrSummary.py:79
+#: .tmp/scrSummary.py:81
 #, python-format
 msgid "Selected Menu: <b>%s</b>"
 msgstr "Menu Pilihan: <b>%s</b>"
 
-#: .tmp/scrSummary.py:83
+#: .tmp/scrSummary.py:85
 msgid "Wallpaper Settings"
 msgstr "Pengaturan Wallpaper"
 
-#: .tmp/scrSummary.py:85
+#: .tmp/scrSummary.py:87
 msgid "You haven't selected any wallpaper."
 msgstr "Anda tidak memilih wallpaper."
 
-#: .tmp/scrSummary.py:87
+#: .tmp/scrSummary.py:89
 #, python-format
 msgid "Selected Wallpaper: <b>%s</b>"
 msgstr "Wallpaper pilihan: <b>%s</b>"
 
-#: .tmp/scrSummary.py:91
+#: .tmp/scrSummary.py:93
 msgid "Style Settings"
 msgstr "Pengaturan Gaya"
 
-#: .tmp/scrSummary.py:94
+#: .tmp/scrSummary.py:96
 msgid "You haven't selected any style."
 msgstr "Anda tidak memilih gaya satupun."
 
-#: .tmp/scrSummary.py:96
+#: .tmp/scrSummary.py:98
 #, python-format
 msgid "Selected Style: <b>%s</b>"
 msgstr "Gaya yang dipilih: <b>%s</b>"
 
-#: .tmp/scrSummary.py:102
+#: .tmp/scrSummary.py:104
 msgid "Package Management Settings"
 msgstr "Pengaturan Pengelola Paket"
 
-#: .tmp/scrSummary.py:103
-msgid "You have enabled or disabled spun."
-msgstr "Anda telah mengaktifkan atau menon-aktifkan pemintalan."
+#: .tmp/scrSummary.py:105
+msgid "You have enabled or disabled octopi-notifier."
+msgstr "Kamu telah menghidupkan atau mematikan octopi-notifier."
 
-#: .tmp/scrSummary.py:110 .tmp/scrSummary.py:139
+#: .tmp/scrSummary.py:112 .tmp/scrSummary.py:141 .tmp/scrSummary.py:169
 msgid "You have: "
 msgstr "Anda mempunyai:"
 
-#: .tmp/scrSummary.py:112
+#: .tmp/scrSummary.py:114
 msgid "Services Settings"
 msgstr "Pengaturan Service"
 
-#: .tmp/scrSummary.py:115
+#: .tmp/scrSummary.py:117
 msgid "enabled cups; "
 msgstr "mengaktifkan cups;"
 
-#: .tmp/scrSummary.py:118
+#: .tmp/scrSummary.py:120
 msgid "disabled cups; "
 msgstr "menon-aktifkan cups;"
 
-#: .tmp/scrSummary.py:121
+#: .tmp/scrSummary.py:123
 msgid "enabled bluetooth; "
 msgstr "mengaktifkan bluetooth;"
 
-#: .tmp/scrSummary.py:124
+#: .tmp/scrSummary.py:126
 msgid "disabled bluetooth; "
 msgstr "menon-aktifkan bluetooth;"
 
-#: .tmp/scrSummary.py:129 .tmp/scrSummary.py:157
+#: .tmp/scrSummary.py:131 .tmp/scrSummary.py:159 .tmp/scrSummary.py:181
 msgid "You have made no changes."
 msgstr "Anda tidak mengubah apapun."
 
-#: .tmp/scrSummary.py:141
+#: .tmp/scrSummary.py:143
 msgid "Security Settings"
 msgstr "Pengaturan Keamanan"
 
-#: .tmp/scrSummary.py:144
+#: .tmp/scrSummary.py:146
 msgid "enabled ClamAV; "
 msgstr "mengaktifkan ClamAV;"
 
-#: .tmp/scrSummary.py:147
+#: .tmp/scrSummary.py:149
 msgid "disabled ClamAV; "
 msgstr "menon-aktifkan ClamAV;"
 
-#: .tmp/scrSummary.py:150
+#: .tmp/scrSummary.py:152
 msgid "enabled the firewall; "
 msgstr "mengaktifkan firewall;"
 
-#: .tmp/scrSummary.py:153
+#: .tmp/scrSummary.py:155
 msgid "disabled the firewall; "
 msgstr "menon-aktifkan firewall;"
 
+#: .tmp/scrSummary.py:171
+msgid "Extra Settings"
+msgstr "Pengaturan Tambahan"
+
 #: .tmp/scrSummary.py:174
+msgid "enabled the [extra] repo; "
+msgstr "repo [extra] difungsikan;"
+
+#: .tmp/scrSummary.py:177
+msgid "disabled the [extra] repo; "
+msgstr "repo [extra] dimatikan;"
+
+#: .tmp/scrSummary.py:198
 msgid "Error"
 msgstr "Galat"
 
-#: .tmp/scrSummary.py:174
+#: .tmp/scrSummary.py:198
 msgid "Cannot restart plasma-desktop. Kapudan will now shut down."
 msgstr "Tidak dapat menjalankan ulang plasma-desktop. Kapundan akan mati sekarang."
 
 #: .tmp/scrStyle.py:41
 msgid "Customize Your Desktop"
 msgstr "Sesuaikan Desktop Anda"
+
+#: .tmp/ui_scrExtra.py:148 .tmp/ui_scrExtra.py:151
+msgid "GTK Integration"
+msgstr "Integrasi GTK"
+
+#: .tmp/ui_scrExtra.py:149
+msgid "Enable the [extra] repository."
+msgstr "Fungsikan repositori [extra]."
+
+#: .tmp/ui_scrExtra.py:150
+msgid ""
+"<html><head/><body><p>Chakra believes in providing an environment that is as"
+" clean as possible, and fully focused on KDE. This means there are no GTK "
+"applications in the repositories enabled by default. However, we recognize "
+"that there are quite a few &quot;must have&quot; GTK applications; these are"
+" provided in the <span style=\" font-weight:600;\">[extra] </span><a "
+"href=\"http://chakraos.org/wiki/index.php?title=Repositories\"><span "
+"style=\" text-decoration: underline; color:#00acff;\">repository</span></a>,"
+" which can be enabled by those users that want to use it. For better "
+"integration of your GTK apps, please install gtk-integration or the GTK "
+"theme of your choice.</p></body></html>"
+msgstr ""
 
 #: .tmp/scrWallpaper.py:38
 msgid "Choose a Wallpaper"
@@ -561,7 +646,7 @@ msgstr "Tangkap"
 msgid "Recapture"
 msgstr "Tangkap ulang"
 
-#: .tmp/scrGoodbye.py:28 .tmp/ui_scrGoodbye.py:361
+#: .tmp/scrGoodbye.py:28 .tmp/ui_scrGoodbye.py:375
 msgid "More"
 msgstr "Lebih Banyak"
 
@@ -569,40 +654,32 @@ msgstr "Lebih Banyak"
 msgid "Congratulations!"
 msgstr "Selamat!"
 
-#: .tmp/ui_scrPackage.py:143
-msgid "Check for updates automatically every"
-msgstr "Periksa update secara otomatis setiap"
+#: .tmp/ui_scrPackage.py:148
+msgid "Check for updates automatically?"
+msgstr ""
 
-#: .tmp/ui_scrPackage.py:144
-msgid " minutes"
-msgstr "menit"
-
-#: .tmp/ui_scrPackage.py:145
-msgid "Use audio along with the visual notification"
-msgstr "Gunakan suara bersamaan dengan notifikasi visual"
-
-#: .tmp/ui_scrPackage.py:146
+#: .tmp/ui_scrPackage.py:149
 msgid ""
-"<html><head/><body><p>To install and remove programs on Chakra, use the "
-"command-line program, <a href=\"http://chakra-"
-"linux.org/wiki/index.php/Pacman\"><span style=\" text-decoration: underline;"
-" color:#0057ae;\">pacman</span></a>. You can run <span style=\" font-"
-"weight:600;\">sudo pacman -Syu</span> to update, <span style=\" font-"
-"weight:600;\">pacman -Ss </span><span style=\" font-weight:600; font-"
-"style:italic;\">keyword</span> to search through the repos, and <span "
-"style=\" font-weight:600;\">sudo pacman -S </span><span style=\" font-"
-"weight:600; font-style:italic;\">package</span> to install "
+"<html><head/><body><p>To install and remove programs in Chakra, use the "
+"command-line program <a "
+"href=\"http://chakraos.org/wiki/index.php?title=Pacman\"><span style=\" "
+"text-decoration: underline; color:#00acff;\">pacman</span></a>. You can run "
+"<span style=\" font-weight:600;\">sudo pacman -Syu</span> to update, <span "
+"style=\" font-weight:600;\">pacman -Ss </span><span style=\" font-"
+"weight:600; font-style:italic;\">keyword</span> to search through the repos,"
+" and <span style=\" font-weight:600;\">sudo pacman -S </span><span style=\" "
+"font-weight:600; font-style:italic;\">package</span> to install "
 "packages.</p><p>Pacman does not have any sort of graphical interface, so "
-"another small app, spun, was created to provide update notifications. When "
-"updates are available, spun will show a notification in your system tray. "
-"</p></body></html>"
-msgstr "<html><head/><body><p>Untuk menginstal dan menghapus program pada Chakra, gunakan program command-line, <a href=\"http://chakra-linux.org/wiki/index.php/Pacman\"><span style=\"text-decoration:underline;color:$0057ae;\">pacman</span></a>. Anda dapat menjalankan ,<span style=\" font-weight:600;\">sudo pacman -Syu</span> untuk mengupdate, <span style=\" font-weight:600;\">pacman -Ss </span><span style=\" font-weight:600; font-style:italic;\">kata kunci</span> untuk mencari pada repositori, <span style=\" font-weight:600;\">sudo pacman -S </span><span style=\" font-weight:600; font-style:italic;\">paket</span> untuk menginstall paket.</p><p>Pacman tidak mempunyai antarmuka grafis apapun, jadi aplikasi kecil lain, spun, dibuat untuk menyediakan notifikasi update. Ketika update tersedia, spun akan menampilkan notifikasi pada tray sistem anda. </p></body></html>"
+"Chakra ships with Octopi, a Pacman frontend which can also provide update "
+"notifications. When updates are available, Octopi Notifier will show a "
+"notification in your system tray. </p></body></html>"
+msgstr ""
 
-#: .tmp/ui_scrPackage.py:147
+#: .tmp/ui_scrPackage.py:150
 msgid "Updates"
 msgstr "Update"
 
-#: .tmp/ui_scrMouse.py:214
+#: .tmp/ui_scrMouse.py:233
 msgid ""
 "<html><head/><body><p>The <span style=\" font-weight:600;\">clicking "
 "behavior</span> defines how many times you want to click to open files and "
@@ -611,35 +688,35 @@ msgid ""
 "device.</p></body></html>"
 msgstr "<html><head/><body><p>The <span style=\" font-weight:600;\">clicking behavior</span> Menentukan berapa kali klik untuk membuka berkas atau folder. Jika anda <span style=\" font-weight:600;\">kidal </span>, mungkin anda ingin untuk menukar tombol kanan dan kiri dari perangkat penunjuk anda.</p></body></html>"
 
-#: .tmp/ui_scrMouse.py:215
+#: .tmp/ui_scrMouse.py:234
 msgid "Clicking Behaviour"
 msgstr "Perilaku Klik"
 
-#: .tmp/ui_scrMouse.py:216
+#: .tmp/ui_scrMouse.py:235
 msgid "Dou&ble-click to open files and folders"
 msgstr "Klik Dou&ble untuk membuka berkas dan folder"
 
-#: .tmp/ui_scrMouse.py:217
+#: .tmp/ui_scrMouse.py:236
 msgid "Single-click to open files and folders"
 msgstr "Klik Sekali untuk membuka berkas dan folder"
 
-#: .tmp/ui_scrMouse.py:218
+#: .tmp/ui_scrMouse.py:237
 msgid "Button Order"
 msgstr "Urutan Tombol"
 
-#: .tmp/ui_scrMouse.py:219
+#: .tmp/ui_scrMouse.py:238
 msgid "Right Hand"
 msgstr "Normal"
 
-#: .tmp/ui_scrMouse.py:220
+#: .tmp/ui_scrMouse.py:239
 msgid "Left Hand"
 msgstr "Kidal"
 
-#: .tmp/ui_scrMouse.py:221
+#: .tmp/ui_scrMouse.py:240
 msgid "Reverse scrolling"
 msgstr "Menggulung terbalik"
 
-#: .tmp/ui_scrGoodbye.py:362
+#: .tmp/ui_scrGoodbye.py:376
 msgid ""
 "<html><head/><body><p><span style=\" font-weight:600;\">Your settings have "
 "been applied.</span> Now you can start enjoying Chakra, or check out the "
@@ -648,45 +725,45 @@ msgid ""
 "community!</span></p></body></html>"
 msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Pengaturan anda sudah diterapkan .</span> Sekarang anda bisa mulai menikmati Chakra, atau periksa link berikut dan aplikasi untuk pengaturan lebih lanjut, atau untuk bantuan dan dukungan. Jangan lupa untuk  <span style=\" font-weight:600;\">Gabung dengan komunitas kami!</span></p></body></html>"
 
-#: .tmp/ui_scrGoodbye.py:363 .tmp/ui_scrGoodbye.py:365
+#: .tmp/ui_scrGoodbye.py:377 .tmp/ui_scrGoodbye.py:379
 msgid "System Settings"
 msgstr "Pengaturan Sistem"
 
-#: .tmp/ui_scrGoodbye.py:364
+#: .tmp/ui_scrGoodbye.py:378
 msgid ""
 "Configuration tools for Chakra, such as the display settings, firewall, "
 "keyboard layout, user management..."
 msgstr "Peralatan konfigurasi untuk Chakra, seperti pengaturan diplay, firewall, layout keyboard, pengelola pengguna..."
 
-#: .tmp/ui_scrGoodbye.py:366 .tmp/ui_scrGoodbye.py:368
+#: .tmp/ui_scrGoodbye.py:380 .tmp/ui_scrGoodbye.py:382
 msgid "Help and Support"
 msgstr "Bantuan dan Dukungan"
 
-#: .tmp/ui_scrGoodbye.py:367
+#: .tmp/ui_scrGoodbye.py:381
 msgid ""
 "Chakra community: mailing lists, chat rooms, Wiki documents, help and "
 "support pages..."
 msgstr "Komunitas Chakra: milis, ruang chat, dokumentasi Wiki, laman bantuan dan dukungan..."
 
-#: .tmp/ui_scrGoodbye.py:369
+#: .tmp/ui_scrGoodbye.py:383
 msgid "Using KDE"
 msgstr "Menggunakan KDE"
 
-#: .tmp/ui_scrGoodbye.py:370
+#: .tmp/ui_scrGoodbye.py:384
 msgid ""
 "Learn how to get the most out of KDE, the Plasma desktop, and everything "
 "else Chakra has to offer, in the Chakra Beginner's Guide."
 msgstr "Pelajari bagaimana KDE, desktop Plasma, dan apapun yang Chakra tawarkan, pada Chakra Beginner's Guide."
 
-#: .tmp/ui_scrGoodbye.py:371
+#: .tmp/ui_scrGoodbye.py:385
 msgid "Beginner's Guide"
 msgstr "Beginner's Guide"
 
-#: .tmp/ui_scrGoodbye.py:372
+#: .tmp/ui_scrGoodbye.py:386
 msgid "Run Kapudan on system startup?"
 msgstr "Jalankan Kapudan pada startup sistem?"
 
-#: .tmp/scrWelcome.py:28
+#: .tmp/scrWelcome.py:29
 #, python-format
 msgid "Welcome to %s"
 msgstr "Selamat Datang di %s"
@@ -707,21 +784,21 @@ msgstr "styleName"
 msgid "styleDesc"
 msgstr "styleDesc"
 
-#: .tmp/ui_scrMenu.py:135
+#: .tmp/ui_scrMenu.py:165
 msgid ""
 "You can also customize your <b>KDE menu</b> as you like. Please choose one "
 "from the following styles."
 msgstr "Anda juga dapat mengkustomisasi <b>menu KDE</b> anda sebagaimana anda suka. Silakan pilih dari salah satu gaya berikut."
 
-#: .tmp/ui_scrMenu.py:141
+#: .tmp/ui_scrMenu.py:172
 msgid "Sample"
 msgstr "Contoh"
 
-#: .tmp/ui_scrKsuperkey.py:125
+#: .tmp/ui_scrKsuperkey.py:149
 msgid "Enable ksuperkey and start it at login."
 msgstr ""
 
-#: .tmp/ui_scrKsuperkey.py:126
+#: .tmp/ui_scrKsuperkey.py:150
 msgid ""
 "<html><head/><body><p>By default, you can open the application launcher with"
 " the <span style=\" font-weight:600;\">Alt+F1</span> keyboard shortcut. The "
@@ -731,7 +808,7 @@ msgid ""
 " easier to open the launcher.</p></body></html>"
 msgstr ""
 
-#: .tmp/ui_scrSummary.py:95
+#: .tmp/ui_scrSummary.py:114
 msgid ""
 "<html><head/><body><p>You have successfully finished all steps. Here's a "
 "summary of the settings you want to apply. Click <span style=\" font-"
@@ -739,6 +816,6 @@ msgid ""
 "changes. </p></body></html>"
 msgstr "<html><head/><body><p>Anda sudah berhasil menyelesaikan semua langkah. Berikut adalah ringkasan dari pengaturan yang ingin anda terapkan. Klik <span style=\" font-weight:600;\">Terapkan</span> jika anda sudah puas, atau kembali dan lakukan perubahan lagi. </p></body></html>"
 
-#: .tmp/ui_scrSummary.py:96
+#: .tmp/ui_scrSummary.py:115
 msgid "The following settings will be applied"
 msgstr "Perubahan pengaturan berikut yang akan diterapkan"

@@ -3,33 +3,27 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Enrique Bravo <bravogon@gmail.com>, 2013
-# Juan Carlos, 2014
-# Juan Carlos, 2014
-# tiemay <nual@countermail.com>, 2014
-# Pablo <beticuchomalo@gmail.com>, 2012
-# Enrique Bravo <bravogon@gmail.com>, 2012-2013
 msgid ""
 msgstr ""
 "Project-Id-Version: Chakra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-06 08:20-0600\n"
-"PO-Revision-Date: 2014-08-07 09:42+0000\n"
-"Last-Translator: Adrián Chaves Fernández <adriyetichaves@gmail.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/chakra/language/es/)\n"
+"PO-Revision-Date: 2015-02-03 10:12+0000\n"
+"Last-Translator: titus <titus0818@gmail.com>\n"
+"Language-Team: Romanian (http://www.transifex.com/projects/p/chakra/language/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
 
 #: .tmp/ui_scrWelcome.py:87 .tmp/scrWelcome.py:28
 msgid "Welcome"
-msgstr "Bienvenido"
+msgstr "Bine ați venit"
 
 #: .tmp/ui_scrWelcome.py:88
 msgid "What is Chakra?"
-msgstr "¿Qué es Chakra?"
+msgstr "Ce este Chakra?"
 
 #: .tmp/ui_scrWelcome.py:89
 msgid ""
@@ -45,49 +39,49 @@ msgid ""
 "weight:600;\">next</span> when you are ready to begin. If you prefer, you "
 "can simply close this window now and configure your computer "
 "yourself.</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span> este o distribuție GNU/Linux cu un accent pus pe KDE și Qt care se focalizează pe simplicitate din punct de vedere tehnic și aplicații de ultimă oră, Aducând ultimele tehnologii la dumneavoastră.<br/><br/>Scopul principal al proiectului este să asigure un sistem de operare rapid, un Live CD puternic și prietenos, creat special pentru Compilația de Aplicații KDE premiată și de elegantul spați de lucru Plasma.<br/><br/><span style=\" font-weight:600;\">Kapudan</span>vă ajută să personalizați instalarea Chakra ușor și rapid. Apăsați doar <span style=\" font-weight:600;\">următor</span> când sunteți gata să începeți. Dacă preferați, puteți închide acum această fereastră și configurați computerul fără asistență.</p></body></html>"
 
 #: .tmp/ui_scrStyle.py:202 .tmp/scrStyle.py:40
 msgid "Themes"
-msgstr "Temas"
+msgstr "Tematici"
 
 #: .tmp/ui_scrStyle.py:203
 msgid ""
 "Choose your favorite theme and desktop type. Customize Chakra with colorful "
 "styles and themes."
-msgstr "Escoja su tema favorito y su tipo de escritorio. Personalice Chakra con estilos y temas coloridos."
+msgstr "Alegeți tema favorită și tipul biroului. Personalizați Chakra cu stiluri colorate și teme."
 
 #: .tmp/ui_scrStyle.py:204
 msgid "KDE Themes"
-msgstr "Temas KDE."
+msgstr "Tematici KDE"
 
 #: .tmp/ui_scrStyle.py:205
 msgid "Desktop Type"
-msgstr "Tipo de escritorio"
+msgstr "Tip birou"
 
 #: .tmp/ui_scrStyle.py:206
 msgid "Desktop view (KDE4 Style)"
-msgstr "Vista de escritorio (Estilo KDE4)"
+msgstr "Vizualizare birou (Stil KDE4)"
 
 #: .tmp/ui_scrStyle.py:207
 msgid "Folder view (KDE3 Style)"
-msgstr "Vista de carpeta (Estilo KDE3)"
+msgstr "Vizualizare dosar (Stil KDE3)"
 
 #: .tmp/ui_scrStyle.py:208
 msgid "Number of Desktops"
-msgstr "Número de escritorios"
+msgstr "Număr de birouri"
 
 #: .tmp/ui_scrServices.py:123 .tmp/scrServices.py:31
 msgid "Services"
-msgstr "Servicios"
+msgstr "Servicii"
 
 #: .tmp/ui_scrServices.py:124
 msgid "cups: The Common Unix Printing Service"
-msgstr "cups: El servicio de impresión Unix"
+msgstr "cups: Serviciul Unix comun de tipărire"
 
 #: .tmp/ui_scrServices.py:125
 msgid "bluetooth: Enable Bluetooth communication"
-msgstr "bluetooth: Habilita la comunicación Bluetooth"
+msgstr "bluetooth: Activează comunicația bluetooth"
 
 #: .tmp/ui_scrServices.py:126
 msgid ""
@@ -107,51 +101,51 @@ msgid ""
 "weight:600;\">sudo systemctl start </span><span style=\" font-weight:600; "
 "font-style:italic;\">daemon-name</span>. (Eg, <span style=\" font-"
 "weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
-msgstr "<html><head/><body><p>Las nuevas instalaciones de Chakra traen, por defecto, solo un mínimo de servicios necesarios (también llamados &quot;demonios&quot;) activados. Esto no solo refleja el principio por el que Chakra se rige de no tomar decisiones por sus usuarios, también contribuye a la seguridad de la nueva instalación, al disminuir el número de servicios activos que puedan ser vulnerables ante un ataque.</p><p>Si lo desea puede usar las opciones de debajo para indicarle a algunos de los demonios más comunes que se ejecuten automáticamente con cada inicio del sistema. Para activar cualquier servicio que desee que se inicie al arrancar, puede ejecutar <span style=\" font-weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; font-style:italic;\">nombre-del-demonio</span>. Igualmente, ejecute <span style=\" font-weight:600;\">sudo systemctl disable </span><span style=\" font-weight:600; font-style:italic;\">nombre-del-demonio</span> para desactivarlo. O, si solamente desea iniciar los demonios manualmente, use <span style=\" font-weight:600;\">sudo systemctl start </span><span style=\" font-weight:600; font-style:italic;\">nombre-del-demonio</span>. (P.ej., <span style=\" font-weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
+msgstr "<html><head/><body><p>Implicit, noua instalare Chakra are numai un minim necesar de servicii necesare (denumiți &quot;demoni&quot;) activați. Nu numai asta reflectă principiul Chakra de a nu lua decizii pentru utilizatorii săi, se adaugă de asemenea o nouă securitate a instalării, prin scăderea numărului de servicii active care pot fi vulnerabile la un atac.</p><p>Dacă doriți, puteți utiliza opțiunile de mai jos să adreseze unii dintre cei mai utilizați demoni pe scară largă să pornească automat la pornirea sistemului. Pentru activarea oricărui serviciu care vreți să pornească odată cu sistemul, puteți rula <span style=\" font-weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; font-style:italic;\">nume-demon</span>. Respectiv, rulați <span style=\" font-weight:600;\">sudo systemctl disable </span><span style=\" font-weight:600; font-style:italic;\">nume-demon</span> pentru a-l dezactiva. Sau , dacă doar doriți să porniți demonii manual, încercați <span style=\" font-weight:600;\">sudo systemctl start </span><span style=\" font-weight:600; font-style:italic;\">nume-demon</span>. (Ex: <span style=\" font-weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
 
 #: .tmp/ui_scrServices.py:127
 msgid "Daemons to start at boot time"
-msgstr "Demonios que se inician con el sistema"
+msgstr "Demoni de pornit în timpul pornirii"
 
 #: .tmp/scrFolder.py:30 .tmp/ui_scrFolder.py:215
 msgid "Folders"
-msgstr "Carpetas"
+msgstr "Dosare"
 
 #: .tmp/scrFolder.py:31
 msgid "Create folders in the home directory"
-msgstr "Crear carpetas en el directorio home"
+msgstr "Crează dosar în directorul acasă"
 
 #: .tmp/scrFolder.py:79
 msgid "Selected: "
-msgstr ""
+msgstr "Selectate:"
 
 #: .tmp/scrFolder.py:80
 msgid "Downloads"
-msgstr "Descargas"
+msgstr "Descărcări"
 
 #: .tmp/scrFolder.py:81
 msgid "Documents"
-msgstr "Documentos"
+msgstr "Documente"
 
 #: .tmp/scrFolder.py:82
 msgid "Videos"
-msgstr "Vídeos"
+msgstr "Video"
 
 #: .tmp/scrFolder.py:83
 msgid "Music"
-msgstr "Música"
+msgstr "Muzică"
 
 #: .tmp/scrFolder.py:84
 msgid "Pictures"
-msgstr "Imágenes"
+msgstr "Poze"
 
 #: .tmp/scrFolder.py:108
 msgid "None"
-msgstr ""
+msgstr "Nimic"
 
 #: .tmp/scrFolder.py:142
 msgid "Created folders in home directory"
-msgstr ""
+msgstr "S-au creat dosare în directorul acasă"
 
 #: .tmp/kapudan.desktop.in.h:1 .tmp/ui_kapudan.py:349
 msgid "Kapudan"
@@ -159,87 +153,87 @@ msgstr "Kapudan"
 
 #: .tmp/kapudan.desktop.in.h:2
 msgid "Welcome Wizard"
-msgstr "Ayudante de Bienvenida"
+msgstr "Bine ați venit la asistent"
 
 #: .tmp/scrPackage.py:32 .tmp/ui_scrPackage.py:147
 msgid "Packages"
-msgstr "Paquetes"
+msgstr "Pachete"
 
 #: .tmp/scrPackage.py:33
 msgid "Install / Remove Programs"
-msgstr "Instalar / Desinstalar programas"
+msgstr "Instalare / Eliminare programe"
 
 #: .tmp/ui_scrWallpaper.py:162 .tmp/scrWallpaper.py:37
 msgid "Wallpaper"
-msgstr "Fondo de escritorio"
+msgstr "Fundal"
 
 #: .tmp/ui_scrWallpaper.py:163
 msgid ""
 "<html><head/><body><p>Choose your favorite wallpaper for your Chakra "
 "desktop. Don't forget to check out <span style=\" font-weight:600;\">Desktop"
 " Settings</span> to download cool new wallpapers.</p></body></html>"
-msgstr "<html><head/><body><p>Elija su fondo de pantalla favorito para su escritorio Chakra. No olvide entrar en <span style=\" font-weight:600;\">Configuración de escritorio</span> para descargar fantásticos nuevos fondos de pantalla.</p></body></html>"
+msgstr "<html><head/><body><p>Alegeți fundalul de birou favorit pentru biroul Chakra. Nu uitați să consultați <span style=\" font-weight:600;\">Configurări birou</span> pentru a descărca fundaluri de birou noi și frumoase.</p></body></html>"
 
 #: .tmp/ui_scrWallpaper.py:164
 msgid "Wallpapers"
-msgstr "Fondos de escritorio"
+msgstr "Fundale"
 
 #: .tmp/ui_scrWallpaper.py:166
 msgid "Choose wallpaper from file"
-msgstr "Elegir un fondo de escritorio desde un archivo"
+msgstr "Alegeți fundalul din fișier"
 
 #: .tmp/ui_scrWallpaper.py:167
 msgid "Don't change wallpaper"
-msgstr "No cambiar el fondo de escritorio"
+msgstr "Nu schimba fundalul"
 
 #: .tmp/ui_scrSecurity.py:202 .tmp/scrSecurity.py:33
 msgid "Security"
-msgstr "Seguridad"
+msgstr "Securitate"
 
 #: .tmp/ui_scrSecurity.py:203
 msgid "Enable the firewall (UFW)"
-msgstr "Activar el cortafuegos (UFW)"
+msgstr "Activează firewall-ul (UFW)"
 
 #: .tmp/ui_scrSecurity.py:204
 msgid "Enable Clam AntiVirus daemon (must be installed and configured)"
-msgstr "Activar el daemon de Clam AntiVirus (debe ser instalado y configurado)"
+msgstr "Activare demon Clam AntiVirus (trebuie instalat și configurat)"
 
 #: .tmp/ui_scrSecurity.py:205
 msgid ""
 "<html><head/><body><p>Other security tools provided by Chakra include "
 "Tomoyo-tools, the KDE Wallet, rkhunter, chkrootkit, tiger, and more. Click "
 "the buttons below to learn more about these tools.</p></body></html>"
-msgstr "<html><head/><body><p>Otras herramientas de seguridad proporcionadas por Chakra incluyen Tomoyo-tools, la cartera de KDE, rkhunter, chkrootkit, tiger, y más. Haga clic en los botones de debajo para aprender más sobre estas herramientas.</p></body></html>"
+msgstr "<html><head/><body><p>Alte unelte de securitate furnizate de Chakra includ uneltele Tomoyo, portofelul KDE, rkhunter, chkrootkit, tiger și altele. Apăsați butoanele de mai jos pentru a învăța mai multe despre aceste unelte.</p></body></html>"
 
 #: .tmp/ui_scrSecurity.py:206
 msgid "ClamAV: Detect and remove malware"
-msgstr "ClamAV: Detecta y elimina malware"
+msgstr "ClamAV: Detectare și eliminare malware"
 
 #: .tmp/ui_scrSecurity.py:207
 msgid ""
 "Tomoyo-tools: A Mandatory Access Control (MAC) implementation for Linux"
-msgstr "Tomoyo-tools: una implementación del Control de Acceso Obligatorio (MAC) para Linux"
+msgstr "Unelte Tomoyo: Un control de acces obligatoriu (MAC) implementat pentru Linux"
 
 #: .tmp/ui_scrSecurity.py:208
 msgid ""
 "KDE Wallet Manager: Protect and encrypt passwords and other information"
-msgstr "Cartera de KDE: Protege y encripta contraseñas y otra información"
+msgstr "Administrator portofel KDE: Protejează și codifică parolele și alte informații"
 
 #: .tmp/ui_scrSecurity.py:209
 msgid ""
 "chkrootkit and rkhunter: Check for the presence of rootkits on your system"
-msgstr "chkrootkit and rkhunter: Comprueba la presencia de rootkits en su sistema"
+msgstr "chkrootkit și rkhunter: Verifică pentru prezența rootkit-urilor în sistem"
 
 #: .tmp/ui_scrSecurity.py:210
 msgid "Tiger: A host-based intrusion detection and auditing tool"
-msgstr "Tiger: una herramienta de auditoría y detección de intrusiones en host."
+msgstr "Tiger: O detectare a intruziunilor în gazda de bază și unealtă de audit "
 
 #: .tmp/ui_scrSecurity.py:211
 msgid ""
 "<html><head/><body><p>Finally, Chakra also provides a graphical tool to "
 "configure the system firewall. Just click on &quot;Firewall&quot; in the KDE"
 " System Settings.</p></body></html>"
-msgstr "<html><head/><body><p>Por último, Chakra también cuenta con una herramienta gráfica para configurar el cortafuegos del sistema. Tan solo haga clic en &quot;Cortafuegos&quot; en las Preferencias del Sistema de KDE.</p></body></html>"
+msgstr "<html><head/><body><p>În cele din urmă, Chakra asigură de asemenea o unealtă grafică pentru configurat firewall-ul sistemului. Doar apăsați pe &quot;Firewall&quot; în Configurări de sistem KDE.</p></body></html>"
 
 #: .tmp/ui_scrSecurity.py:212
 msgid ""
@@ -248,59 +242,59 @@ msgid ""
 "make sure you keep your system up to date, and follow best security "
 "practices. However, Chakra does provide a few tools to help you keep your "
 "system safe.</p></body></html>"
-msgstr "<html><head/><body><p>La seguridad es un proceso, no un producto, y no hay sistema operativo que pueda asegurar, de un modo realista, que es perfectamente seguro. Le corresponde a usted asegurarse de mantener su sistema al día y seguir buenas prácticas en materia de seguridad. Aun así, Chakra proporciona algunas utilidades para ayudarle a mantener su sistema seguro.</p></body></html>"
+msgstr "<html><head/><body><p>Securitatea nu este un proces și nici un produs, nici un sistem de operare nu poate susține realist că este perfect sigur. Ține de dumneavoastră să vă asigurați că păstrați sistemul actualizat și că urmați cele mai bune practici de securitate. Oricum, Chakra furnizează câteva unelte care vă ajută să păstrați sistemul în siguranță.</p></body></html>"
 
 #: .tmp/ui_scrSecurity.py:213
 msgid "Security Tools"
-msgstr "Herramientas de Seguridad"
+msgstr "Unelte de securitate"
 
 #: .tmp/scrMouse.py:32 .tmp/ui_scrMouse.py:232
 msgid "Mouse"
-msgstr "Ratón"
+msgstr "Maus"
 
 #: .tmp/scrMouse.py:33
 msgid "Setup Mouse Behavior"
-msgstr "Configurar comportamiento del ratón"
+msgstr "Configurare comportament maus"
 
 #: .tmp/scrMouse.py:145
 msgid "Left Handed"
-msgstr "Mano Izquierda"
+msgstr "Stângaci"
 
 #: .tmp/scrMouse.py:145
 msgid "Right Handed"
-msgstr "Mano Derecha"
+msgstr "Dreptaci"
 
 #: .tmp/scrMouse.py:146
 msgid "Single Click "
-msgstr "Click único"
+msgstr "Click singur"
 
 #: .tmp/scrMouse.py:146
 msgid "Double Click"
-msgstr "Doble click"
+msgstr "Click dublu"
 
 #: .tmp/ui_scrFolder.py:203
 msgid "Home Folder"
-msgstr "Inicio"
+msgstr "Dosar acasă"
 
 #: .tmp/ui_scrFolder.py:204
 msgid "  Downloads  "
-msgstr "Descargas"
+msgstr "  Descărcări"
 
 #: .tmp/ui_scrFolder.py:205
 msgid "  Documents  "
-msgstr "Documentos"
+msgstr "  Documente"
 
 #: .tmp/ui_scrFolder.py:206
 msgid "  Videos  "
-msgstr "Vídeos"
+msgstr "  Video"
 
 #: .tmp/ui_scrFolder.py:207
 msgid "  Music  "
-msgstr "Música"
+msgstr "  Muzică"
 
 #: .tmp/ui_scrFolder.py:208
 msgid "  Pictures  "
-msgstr "Imágenes"
+msgstr "  Poze"
 
 #: .tmp/ui_scrFolder.py:214
 msgid ""
@@ -308,96 +302,96 @@ msgid ""
 "documents, music, pictures and the like by default. Kapudan will create the "
 "folders selected below for you now; unselect the ones you don't "
 "want.</p></body></html>"
-msgstr "<html><head/><body><p>Su directorio personal no contiene carpetas para documentos, música, imágenes y similares de forma predeterminada. Kapudan creará las carpetas que seleccione a continuación; deseleccione aquellas que no desee.</p></body></html>"
+msgstr "<html><head/><body><p>Directorul dumneavoastră acasă nu conține dosare implicite pentru documente, muzică, poze și altele. Kapudan va creea dosarele selectate mai jos; deselectați pe acelea pe care nu le doriți.</p></body></html>"
 
 #: .tmp/ui_kapudan.py:350
 msgid "Welcome to Chakra"
-msgstr "Bienvenido a Chakra"
+msgstr "Bine ați venit la Chakra"
 
 #: .tmp/ui_kapudan.py:351
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Anulare"
 
 #: .tmp/ui_kapudan.py:352
 msgid "Back"
-msgstr "Atrás"
+msgstr "Înapoi"
 
 #: .tmp/ui_kapudan.py:353
 msgid "Next"
-msgstr "Siguiente"
+msgstr "Următor"
 
 #: .tmp/ui_kapudan.py:354
 msgid "Finish"
-msgstr "Terminar"
+msgstr "Final"
 
 #: .tmp/ui_kapudan.py:355
 msgid "Apply"
-msgstr "Aplicar"
+msgstr "Aplică"
 
 #: .tmp/ui_scrSearch.py:109
 msgid "Search"
-msgstr "Buscar"
+msgstr "Căutare"
 
 #: .tmp/ui_scrSearch.py:110
 msgid ""
 "Strigi Desktop Search indexes your frequently used files. This gives you "
 "very fast file search results. Strigi also can search for files based on "
 "their contents. On older computers, this can use a lot of resources."
-msgstr "La Búsqueda de Escritorio de Strigi crea un índice con sus archivos más utilizados. Esto le proporciona una búsqueda de resultados muy rápida. Strigi también puede buscar archivos basándose en el contenido de estos. En ordenadores antiguos, esta operación puede utilizar un montón de recursos."
+msgstr "Căutarea de birou Strigi indexează fișierele dumneavostră frecvent utilizate. Această vă oferă foarte rapid rezultate de căutare. Strigi poate de asemenea să caute după fișiere bazat pe conținutul acestora. Pe computerele vechi, aceasta poate utiliza multe resurse."
 
 #: .tmp/ui_scrSearch.py:111
 msgid "Allow Strigi to index my files"
-msgstr "Permitir a Strigi indexar mis archivos"
+msgstr "Permite Strigi să îmi indexeze fișierele"
 
 #: .tmp/ui_scrSearch.py:112
 msgid "Search Options"
-msgstr "Opciones de búsqueda"
+msgstr "Opțiuni căutare"
 
 #: .tmp/scrMenu.py:28 .tmp/ui_scrMenu.py:164
 msgid "Menu"
-msgstr "Menú"
+msgstr "Meniu"
 
 #: .tmp/scrMenu.py:29
 msgid "Choose a Menu Style"
-msgstr "Elija un estilo de menú"
+msgstr "Alegeți un stil meniu"
 
 #: .tmp/scrMenu.py:43 .tmp/ui_scrMenu.py:166
 msgid "Kick-off Menu"
-msgstr "Menú Kick-off"
+msgstr "Meniu Kick-off"
 
 #: .tmp/scrMenu.py:45
 msgid ""
 "Kick-off menu is the default menu of Chakra.<br><br>The program shortcuts "
 "are easy to access and well organized."
-msgstr "El menú Kick-off  es el menú por defecto de Chakra <br><br> Los atajos son fáciles de acceder y están bien organizados."
+msgstr "Meniul Kick-off este meniul implicit pentru Chakra.<br><br>Scurtăturile programelor sunt ușor de accesat și bine organizate."
 
 #: .tmp/scrMenu.py:49 .tmp/ui_scrMenu.py:167
 msgid "Simple Menu"
-msgstr "Menú simple"
+msgstr "Meniu simplu"
 
 #: .tmp/scrMenu.py:51
 msgid ""
 "Simple menu is an old style menu from KDE 3.<br><br>It is a very lightweight"
 " menu thus it is recommended for slower PC's."
-msgstr "El menú simple es un estilo antiguo de menú de KDE 3,<br><br> Es un menú muy ligero, por lo que se recomienda para los PC más lentos."
+msgstr "Meniul simplu este un meniu în stil vechi pentru KDE 3.<br><br>Este un meniu foarte ușor fiind recomandat pentru PC-urile lente."
 
 #: .tmp/scrMenu.py:55 .tmp/ui_scrMenu.py:168
 msgid "Lancelot Menu"
-msgstr "Menú Lancelot"
+msgstr "Meniu Lancelot"
 
 #: .tmp/scrMenu.py:57
 msgid ""
 "Lancelot is an advanced and highly customizable menu for Chakra.<br><br>The "
 "program shortcuts are easy to access and well organized."
-msgstr "Lancelot es un menú avanzado y altamente configurable para Chakra.<br><br>Los atajos son fáciles de acceder y están bien organizados."
+msgstr "Lancelot este un meniu avansat și foarte personalizabil pentru Chakra.<br><br>Scurtăturile programelor sunt ușor de accesat și bine organizate."
 
 #: .tmp/scrMenu.py:61 .tmp/ui_scrMenu.py:169
 msgid "Homerun Menu"
-msgstr "Menú Homerun"
+msgstr "Meniu Homerun"
 
 #: .tmp/scrMenu.py:63
 msgid "Homerun is a full screen launcher with content organized in tabs."
-msgstr "Homerun es un lanzador a pantalla completa con el contenido organizado en pestañas."
+msgstr "Homerun este un lansator în ecran complet cu conținutul organizat în file."
 
 #: .tmp/scrMenu.py:67 .tmp/ui_scrMenu.py:170
 msgid "AppMenu QML"
@@ -407,36 +401,36 @@ msgstr "AppMenu QML"
 msgid ""
 "This plasmoid shows a menu of the installed applications, similar to "
 "Lancelot but much simpler"
-msgstr "Este plasmoide muestra un menú con las aplicaciones instaladas, similar a Lancelot pero más simple"
+msgstr "Acest plasmoid arată un meniu al aplicațiilor instalate, similar Lancelot dar mult mai simplu"
 
 #: .tmp/scrMenu.py:73 .tmp/ui_scrMenu.py:171
 msgid "Homerun Kicker"
-msgstr ""
+msgstr "Homerun Kicker"
 
 #: .tmp/scrMenu.py:75
 msgid "A non-fullscreen version of Homerun."
-msgstr ""
+msgstr "O versiune fără ecran complet a Homerun."
 
 #: .tmp/ui_wallpaperItem.py:82 .tmp/ui_scrAvatar.py:256
 #: .tmp/ui_scrStyleItem.py:79
 msgid "Form"
-msgstr "Form"
+msgstr "Formular"
 
 #: .tmp/ui_wallpaperItem.py:83
 msgid "wallPaperName"
-msgstr "N.delwallpaper"
+msgstr "Nume fundal"
 
 #: .tmp/ui_wallpaperItem.py:84
 msgid "wallpaperDesc"
-msgstr "Desc.delwallpaper"
+msgstr "wallpaperDesc"
 
 #: .tmp/scrExtra.py:31
 msgid "GTK"
-msgstr ""
+msgstr "GTK"
 
 #: .tmp/scrExtra.py:32
 msgid "GTK Integration and [extra]"
-msgstr ""
+msgstr "Integrare GTK și [extra]"
 
 #: .tmp/scrKsuperkey.py:31 .tmp/ui_scrKsuperkey.py:148
 #: .tmp/ui_scrKsuperkey.py:151
@@ -445,167 +439,167 @@ msgstr "ksuperkey"
 
 #: .tmp/scrKsuperkey.py:32
 msgid "Enable / Disable ksuperkey"
-msgstr "Activar / Desactivar ksuperkey"
+msgstr "Activare / Dezactivare ksuperkey"
 
 #: .tmp/ui_scrKeyboard.py:102
 msgid "Keyboard"
-msgstr "Teclado"
+msgstr "Tastatură"
 
 #: .tmp/ui_scrKeyboard.py:103
 msgid ""
 "<html><head/><body><p>Kapudan tries to automatically select the best "
 "keyboard layout according to your system language. If you want to use "
 "another layout, just make a selection below.</p></body></html>"
-msgstr "<html><head/><body><p>Kapudan intenta seleccionar automáticamente la mejor distribución de teclado de acuerdo al lenguaje de su sistema. Si desea utilizar otra, selecciónela debajo.</p></body></html>"
+msgstr "<html><head/><body><p>Kapudan încearcă să selecteze automat cel mai bun aspect al tastaturii în funcție de limba sistemului dumneavoastră. Dacă doriți să utilizați un alt aspect, doar selectați de mai jos.</p></body></html>"
 
 #: .tmp/ui_scrKeyboard.py:104
 msgid "Test area:"
-msgstr "Área de pruebas:"
+msgstr "Zonă de test:"
 
 #: .tmp/scrSummary.py:47 .tmp/ui_scrSummary.py:113
 msgid "Summary"
-msgstr "Resumen"
+msgstr "Rezumat"
 
 #: .tmp/scrSummary.py:48
 msgid "Save Your Settings"
-msgstr "Guarde su configuración"
+msgstr "Salvați configurările"
 
 #: .tmp/scrSummary.py:73
 msgid "Mouse Settings"
-msgstr "Configuración del ratón"
+msgstr "Configurări maus"
 
 #: .tmp/scrSummary.py:75
 #, python-format
 msgid "Selected Mouse configuration: <b>%s</b>"
-msgstr "Selección de la configuración del ratón: <b>%s</b>"
+msgstr "Configurări maus selectate: <b>%s</b>"
 
 #: .tmp/scrSummary.py:76
 #, python-format
 msgid "Selected clicking behavior: <b>%s</b>"
-msgstr "Selección del comportamiento al hacer click: <b>%s</b>"
+msgstr "Comportament apăsare selectat: <b>%s</b>"
 
 #: .tmp/scrSummary.py:80
 msgid "Menu Settings"
-msgstr "Configuración del menú"
+msgstr "Configurări meniu"
 
 #: .tmp/scrSummary.py:81
 #, python-format
 msgid "Selected Menu: <b>%s</b>"
-msgstr "Selección del menú:<b>%s</b>"
+msgstr "Meniu selectat: <b>%s</b>"
 
 #: .tmp/scrSummary.py:85
 msgid "Wallpaper Settings"
-msgstr "Configuración de fondo de pantalla"
+msgstr "Configurări fundal"
 
 #: .tmp/scrSummary.py:87
 msgid "You haven't selected any wallpaper."
-msgstr "No ha seleccionado ningún fondo de pantalla"
+msgstr "Nu ați selectat nici un fundal."
 
 #: .tmp/scrSummary.py:89
 #, python-format
 msgid "Selected Wallpaper: <b>%s</b>"
-msgstr "Selección de fondo de pantalla:<b>%s</b>"
+msgstr "Fundaluri selectate: <b>%s</b>"
 
 #: .tmp/scrSummary.py:93
 msgid "Style Settings"
-msgstr "Configuración de estilo"
+msgstr "Configurări stil"
 
 #: .tmp/scrSummary.py:96
 msgid "You haven't selected any style."
-msgstr "No ha seleccionado ningun estilo"
+msgstr "Nu ați selectat nici un stil."
 
 #: .tmp/scrSummary.py:98
 #, python-format
 msgid "Selected Style: <b>%s</b>"
-msgstr "Estilo seleccionado: <b>%s</b>"
+msgstr "Stil selectat: <b>%s</b>"
 
 #: .tmp/scrSummary.py:104
 msgid "Package Management Settings"
-msgstr "Configuración del gestor de paquetes"
+msgstr "Configurări administrare pachet"
 
 #: .tmp/scrSummary.py:105
 msgid "You have enabled or disabled octopi-notifier."
-msgstr ""
+msgstr "Ați activat sau dezactivat notificatorul octopi."
 
 #: .tmp/scrSummary.py:112 .tmp/scrSummary.py:141 .tmp/scrSummary.py:169
 msgid "You have: "
-msgstr "Tiene:"
+msgstr "Aveți:"
 
 #: .tmp/scrSummary.py:114
 msgid "Services Settings"
-msgstr "Configuración de servicios"
+msgstr "Configurări servicii"
 
 #: .tmp/scrSummary.py:117
 msgid "enabled cups; "
-msgstr "cups habilitado ;"
+msgstr "cups activat;"
 
 #: .tmp/scrSummary.py:120
 msgid "disabled cups; "
-msgstr "cups deshabilitado ;"
+msgstr "cups dezactivat;"
 
 #: .tmp/scrSummary.py:123
 msgid "enabled bluetooth; "
-msgstr "bluetooth habilitado"
+msgstr "bluetooth activat;"
 
 #: .tmp/scrSummary.py:126
 msgid "disabled bluetooth; "
-msgstr "bluetooth deshabilitado"
+msgstr "bluetooth dezactivat;"
 
 #: .tmp/scrSummary.py:131 .tmp/scrSummary.py:159 .tmp/scrSummary.py:181
 msgid "You have made no changes."
-msgstr "No ha hecho cambios."
+msgstr "Nu ați făcut modificări."
 
 #: .tmp/scrSummary.py:143
 msgid "Security Settings"
-msgstr "Configuración de la seguridad"
+msgstr "Configurări de securitate"
 
 #: .tmp/scrSummary.py:146
 msgid "enabled ClamAV; "
-msgstr "habilitado ClamAV"
+msgstr "ClamAV activat;"
 
 #: .tmp/scrSummary.py:149
 msgid "disabled ClamAV; "
-msgstr "deshabilitado ClamAV;"
+msgstr "ClamAV dezactivat;"
 
 #: .tmp/scrSummary.py:152
 msgid "enabled the firewall; "
-msgstr "habilitado el cortafuegos;"
+msgstr "firewall-ul este activat;"
 
 #: .tmp/scrSummary.py:155
 msgid "disabled the firewall; "
-msgstr "desactivado el cortafuegos;"
+msgstr "firewall-ul este dezactivat;"
 
 #: .tmp/scrSummary.py:171
 msgid "Extra Settings"
-msgstr ""
+msgstr "Configurări suplimentare"
 
 #: .tmp/scrSummary.py:174
 msgid "enabled the [extra] repo; "
-msgstr ""
+msgstr "depozitul [extra] este activat;"
 
 #: .tmp/scrSummary.py:177
 msgid "disabled the [extra] repo; "
-msgstr ""
+msgstr "depozitul [extra] este dezactivat;"
 
 #: .tmp/scrSummary.py:198
 msgid "Error"
-msgstr "Error"
+msgstr "Eroare"
 
 #: .tmp/scrSummary.py:198
 msgid "Cannot restart plasma-desktop. Kapudan will now shut down."
-msgstr "No se puede reiniciar el escritorio Plasma. Kapudan se cerrará ahora."
+msgstr "Nu se poate reporni biroul-plasma. Kapudan se va închide acum."
 
 #: .tmp/scrStyle.py:41
 msgid "Customize Your Desktop"
-msgstr "Configure Su Escritorio"
+msgstr "Personalizați biroul"
 
 #: .tmp/ui_scrExtra.py:148 .tmp/ui_scrExtra.py:151
 msgid "GTK Integration"
-msgstr ""
+msgstr "Integrare GTK"
 
 #: .tmp/ui_scrExtra.py:149
 msgid "Enable the [extra] repository."
-msgstr ""
+msgstr "Activați depozitul [extra]."
 
 #: .tmp/ui_scrExtra.py:150
 msgid ""
@@ -619,11 +613,11 @@ msgid ""
 " which can be enabled by those users that want to use it. For better "
 "integration of your GTK apps, please install gtk-integration or the GTK "
 "theme of your choice.</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Chakra crede în asigurarea unui mediu care este cât de curat posibil și focalizat întreg pe KDE. Aceasta înseamnă că nu sunt aplicații GTK în depozitele activate implicit. Oricum, recunoaștem că sunt câteva &quot;trebuie avute&quot; aplicații GTK; acestea sunt furnizate în <span style=\" font-weight:600;\">[extra] </span><a href=\"http://chakraos.org/wiki/index.php?title=Repositories\"><span style=\" text-decoration: underline; color:#00acff;\">repository</span></a>, care pot fi activate de acei utilizatori care doresc să le utilizeze. Pentru o mai bună integrare a aplicațiilor dumneavoastră GTK, instalați integrarea gtk sau tematica GTK la alegere.</p></body></html>"
 
 #: .tmp/scrWallpaper.py:38
 msgid "Choose a Wallpaper"
-msgstr "Elija un Fondo de escritorio"
+msgstr "Alegeți un fundal"
 
 #: .tmp/ui_scrAvatar.py:257
 msgid ""
@@ -632,35 +626,35 @@ msgid ""
 "file, or you can capture an image from your camera, if you have one. Select "
 "an option from the <span style=\" font-weight:600;\">options</span> "
 "menu.</p></body></html>"
-msgstr "<html><head/><body><p>Esta pantalla le ayuda a elegir su <span style=\" font-weight:600;\">imagen de usuario</span>. Puede elegir una imagen desde un archivo o puede capturar una con su cámara, si la tiene. Elija una opción del menú de <span style=\" font-weight:600;\">opciones</span>.</p></body></html>"
+msgstr "<html><head/><body><p>Acest ecran vă ajută să configurați <span style=\" font-weight:600;\">poză utilizator</span>. Puteți fie să alegeți o imagine din fișier sau puteți să capturați o imagine cu camera, dacă aveți una. Selectați o opțiune din <span style=\" font-weight:600;\">opțiuni</span> meniu.</p></body></html>"
 
 #: .tmp/ui_scrAvatar.py:258
 msgid "Options"
-msgstr "Opciones"
+msgstr "Opțiuni"
 
 #: .tmp/ui_scrAvatar.py:259
 msgid "Choose an image"
-msgstr "Escoja una imagen"
+msgstr "Alegeți o imagine"
 
 #: .tmp/ui_scrAvatar.py:260
 msgid "Capture"
-msgstr "Capturar"
+msgstr "Captură"
 
 #: .tmp/ui_scrAvatar.py:261
 msgid "Recapture"
-msgstr "Recapturar"
+msgstr "Recapturare"
 
 #: .tmp/scrGoodbye.py:28 .tmp/ui_scrGoodbye.py:375
 msgid "More"
-msgstr "Más"
+msgstr "Mai mult"
 
 #: .tmp/scrGoodbye.py:29
 msgid "Congratulations!"
-msgstr "¡Felicidades!"
+msgstr "Felicitări!"
 
 #: .tmp/ui_scrPackage.py:148
 msgid "Check for updates automatically?"
-msgstr ""
+msgstr "Se verifică automat după actualizări?"
 
 #: .tmp/ui_scrPackage.py:149
 msgid ""
@@ -677,11 +671,11 @@ msgid ""
 "Chakra ships with Octopi, a Pacman frontend which can also provide update "
 "notifications. When updates are available, Octopi Notifier will show a "
 "notification in your system tray. </p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Pentru a instala sau elimina aplicații în Chakra, utilizați aplicația în linie de comandă <a href=\"http://chakraos.org/wiki/index.php?title=Pacman\"><span style=\" text-decoration: underline; color:#00acff;\">pacman</span></a>. Puteți rula <span style=\" font-weight:600;\">sudo pacman -Syu</span> pentru actualizare, <span style=\" font-weight:600;\">pacman -Ss </span><span style=\" font-weight:600; font-style:italic;\">cuvânt cheie</span> pentru a căuta prin depozite și <span style=\" font-weight:600;\">sudo pacman -S </span><span style=\" font-weight:600; font-style:italic;\">package</span> pentru a instala pachete.</p><p>Pacman nu are nici un fel de interfață grafică, astfel Chakra vine cu Octopi, o interfață Pacman care asigură de asemenea notificări de actualizare. Când este disponibilă o actualizare, Notificatorul Octopi va arăta o notificare în bara de sistem. </p></body></html>"
 
 #: .tmp/ui_scrPackage.py:150
 msgid "Updates"
-msgstr "Actualizaciones"
+msgstr "Actualizări"
 
 #: .tmp/ui_scrMouse.py:233
 msgid ""
@@ -690,35 +684,35 @@ msgid ""
 "folders. If you are <span style=\" font-weight:600;\">left handed</span>, "
 "you may prefer to swap the left and right buttons of your pointing "
 "device.</p></body></html>"
-msgstr "<html><head/><body><p>El <span style=\" font-weight:600;\">comportamiento del ratón</span> determina cuántos clics se necesitan para abrir archivos y carpetas. Si usted es <span style=\" font-weight:600;\">zurdo</span>, puede que prefiera intercambiar los botones izquierdo y derecho de su dispositivo.</p></body></html>"
+msgstr "<html><head/><body><p>  Un <span style=\" font-weight:600;\">comportament apăsare</span> definește de câte ori doriți să apăsați pentru a deschide fișiere și dosare. Dacă sunteți <span style=\" font-weight:600;\">stângaci</span>, poate preferați să inversați butoanele stâng și drept al dispozitivului de indicare.</p></body></html>"
 
 #: .tmp/ui_scrMouse.py:234
 msgid "Clicking Behaviour"
-msgstr "Comportamiento del ratón"
+msgstr "Comportament apăsare"
 
 #: .tmp/ui_scrMouse.py:235
 msgid "Dou&ble-click to open files and folders"
-msgstr "Do&ble clic para abrir archivos y carpetas"
+msgstr "Clic dub&lu pentru deschiderea fișierelor și dosarelor"
 
 #: .tmp/ui_scrMouse.py:236
 msgid "Single-click to open files and folders"
-msgstr "Clic sencillo para abrir archivos y carpetas"
+msgstr "Un singur clic pentru deschiderea fișierelor și dosarelor"
 
 #: .tmp/ui_scrMouse.py:237
 msgid "Button Order"
-msgstr "Orden de los Botones"
+msgstr "Ordine buton"
 
 #: .tmp/ui_scrMouse.py:238
 msgid "Right Hand"
-msgstr "Mano Derecha"
+msgstr "Mâna dreaptă"
 
 #: .tmp/ui_scrMouse.py:239
 msgid "Left Hand"
-msgstr "Mano Izquierda"
+msgstr "Mâna stângă"
 
 #: .tmp/ui_scrMouse.py:240
 msgid "Reverse scrolling"
-msgstr "Desplazamiento inverso"
+msgstr "Derulare inversată"
 
 #: .tmp/ui_scrGoodbye.py:376
 msgid ""
@@ -727,80 +721,80 @@ msgid ""
 "following links and applications for more settings, or for help and support."
 " Don't forget to <span style=\" font-weight:600;\">join our "
 "community!</span></p></body></html>"
-msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Se han aplicado sus configuraciones.</span> Ahora ya puede empezar a disfrutar de Chakra o echar un vistazo a los siguientes enlaces y utilidades para realizar más configuraciones, o buscar ayuda y soporte. ¡No olvide <span style=\" font-weight:600;\">unirse a nuestra comunidad!</span></p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:600;\">Configurările dumneavoastră au fost aplicate.</span> Acum puteți începe să vă bucurați de Chakra, sau să consultați următoarele link-uri și aplicații pentru mai multe configurări, sau pentru ajutor și suport. Nu uitați să vă <span style=\" font-weight:600;\">alăturați-vă comunității noastre!</span></p></body></html>"
 
 #: .tmp/ui_scrGoodbye.py:377 .tmp/ui_scrGoodbye.py:379
 msgid "System Settings"
-msgstr "Configuración del Sistema"
+msgstr "Configurări sistem"
 
 #: .tmp/ui_scrGoodbye.py:378
 msgid ""
 "Configuration tools for Chakra, such as the display settings, firewall, "
 "keyboard layout, user management..."
-msgstr "Herramientas de configuración de Chakra, como el configurador de pantalla, cortafuegos, distribución de teclado, opciones de usuario..."
+msgstr "Unelte de configurare pentru Chakra, precum configurări afișaj, firewall, aspect tastatură, administrare utilizator..."
 
 #: .tmp/ui_scrGoodbye.py:380 .tmp/ui_scrGoodbye.py:382
 msgid "Help and Support"
-msgstr "Ayuda y Soporte"
+msgstr "Ajutor și suport"
 
 #: .tmp/ui_scrGoodbye.py:381
 msgid ""
 "Chakra community: mailing lists, chat rooms, Wiki documents, help and "
 "support pages..."
-msgstr "Comunidad Chakra: listas de correo, chats, documentos de la Wiki, páginas de ayuda y soporte"
+msgstr "Comunitatea Chakra: liste de corespondență, camere de discuții, documente Wiki, ajutor și pagini de suport..."
 
 #: .tmp/ui_scrGoodbye.py:383
 msgid "Using KDE"
-msgstr "Usando KDE"
+msgstr "Utilizând KDE"
 
 #: .tmp/ui_scrGoodbye.py:384
 msgid ""
 "Learn how to get the most out of KDE, the Plasma desktop, and everything "
 "else Chakra has to offer, in the Chakra Beginner's Guide."
-msgstr "Aprenda cómo obtener lo máximo de KDE, el escritorio Plasma, y todo lo demás que Chakra le puede ofrecer, en la Guía del Principiante de Chakra."
+msgstr "Învățați cum să obțineți cel mai mult din KDE, biroul Plasma și orice altceva are Chakra de oferit, din Ghidul Începătorului Chakra."
 
 #: .tmp/ui_scrGoodbye.py:385
 msgid "Beginner's Guide"
-msgstr "Guía del Principiante"
+msgstr "Ghidul începătorului"
 
 #: .tmp/ui_scrGoodbye.py:386
 msgid "Run Kapudan on system startup?"
-msgstr "¿Iniciar Kapudan al arrancar el sistema?"
+msgstr "Se rulează Kapudan la pornirea sistemului?"
 
 #: .tmp/scrWelcome.py:29
 #, python-format
 msgid "Welcome to %s"
-msgstr "Bienvenido a %s"
+msgstr "Bine ați venit la %s"
 
 #: .tmp/scrSecurity.py:34
 msgid "Keep your system secure"
-msgstr "Mantenga su sistema seguro"
+msgstr "Păstrați sistemul sigur"
 
 #: .tmp/scrServices.py:32
 msgid "Enable / Disable Services (Daemons)"
-msgstr "Habilitar / Deshabilitar servicios (demonios)"
+msgstr "Activare / dezactivare servicii (Demoni)"
 
 #: .tmp/ui_scrStyleItem.py:80
 msgid "styleName"
-msgstr "N. de estilo"
+msgstr "Nume stil"
 
 #: .tmp/ui_scrStyleItem.py:81
 msgid "styleDesc"
-msgstr "Desc. de estilo"
+msgstr "styleDesc"
 
 #: .tmp/ui_scrMenu.py:165
 msgid ""
 "You can also customize your <b>KDE menu</b> as you like. Please choose one "
 "from the following styles."
-msgstr "También puede personalizar su <b>menú KDE</b> como quiera. Por favor, elija uno de los estilos siguientes."
+msgstr "Puteți de asemenea să personalizați <b>meniul KDE</b> cum vă place. Alegeți unul dintre următoarele stiluri."
 
 #: .tmp/ui_scrMenu.py:172
 msgid "Sample"
-msgstr "Ejemplo"
+msgstr "Eșanțion"
 
 #: .tmp/ui_scrKsuperkey.py:149
 msgid "Enable ksuperkey and start it at login."
-msgstr "Activar ksuperkey y arrancarlo al inicio."
+msgstr "Activează ksuperkey și pornește-l la autentificare."
 
 #: .tmp/ui_scrKsuperkey.py:150
 msgid ""
@@ -810,7 +804,7 @@ msgid ""
 "&quot;Super&quot; key (also known as the &quot;Meta&quot; or "
 "&quot;Windows&quot; key) to send this key combination when tapped, making it"
 " easier to open the launcher.</p></body></html>"
-msgstr "<html><head/><body><p>Por defecto, puede abrir el lanzador de aplicaciones con el atajo de teclado <span style=\" font-weight:600;\">Alt+F1</span> . El programa <span style=\" font-weight:600;\">ksuperkey</span> vinculará la tecla &quot;Super&quot; (también conocida como la tecla &quot;Meta&quot; o &quot;Windows&quot) para enviar esta combinación de teclas cuando sean pulsadas, haciendo más fácil de abrir el lanzador.</p></body></html>"
+msgstr "<html><head/><body><p>Implicit, puteți deschide lansatorul de aplicații cu scurtătura de taste <span style=\" font-weight:600;\">Alt+F1</span> . Aplicația <span style=\" font-weight:600;\">ksuperkey</span> va conecta tasta &quot;Super&quot; (cunoscută și ca tasta &quot;Meta&quot; sau &quot;Windows&quot;) pentru a trimite această combinație de tastă când este tastată, ușurând deschiderea lansatorului.</p></body></html>"
 
 #: .tmp/ui_scrSummary.py:114
 msgid ""
@@ -818,8 +812,8 @@ msgid ""
 "summary of the settings you want to apply. Click <span style=\" font-"
 "weight:600;\">Apply</span> if they look good, or go back and make more "
 "changes. </p></body></html>"
-msgstr "<html><head/><body><p>Ha finalizado con éxito todos los pasos. Aquí tiene un resumen de la configuración que desea aplicar. Haga clic en <span style=\" font-weight:600;\">Aplicar</span> si le parece bien o vuelva y haga más cambios. </p></body></html>"
+msgstr "<html><head/><body><p>Ați terminat cu succes toți pașii. Aici aveți un rezumat al configurărilor pe care doriți să le aplicați. Apăsați <span style=\" font-weight:600;\">Aplică</span> dacă arată bine, sau mergeți înapoi și efectuați mai multe modificări. </p></body></html>"
 
 #: .tmp/ui_scrSummary.py:115
 msgid "The following settings will be applied"
-msgstr "Se aplicará la siguiente configuración"
+msgstr "Următoarele configurări vor fi aplicate"
