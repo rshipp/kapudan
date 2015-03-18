@@ -20,11 +20,13 @@ disable_notifier() {
 enable_daemon() {
     # internal function, $1 is daemon to enable
     systemctl enable $1
+    systemctl start $1
 }
 
 disable_daemon() {
     # internal function, $1 is daemon to disable
     systemctl disable $1
+    systemctl stop $1
 }
 
 enable_repo() {
