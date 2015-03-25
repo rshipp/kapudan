@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Copyright (C) 2012, The Chakra Developers
+# Copyright (C) 2012-2015, The Chakra Developers
 #
 # This is a fork of Pardus's Kaptan, which is
 # Copyright (C) 2005-2009, TUBITAK/UEKAE
@@ -13,9 +13,8 @@
 # Please read the COPYING file.
 #
 
-from PyQt4 import QtGui
-from PyQt4.QtCore import QString  # remove usage of QString
-from PyQt4.QtGui import QMessageBox
+from PyQt5 import QtWidgets
+from PyQt5.QtWidgets import QMessageBox
 from PyKDE4.kdecore import i18n, KConfig
 
 import subprocess
@@ -43,12 +42,12 @@ from kapudan.tools.daemon import Daemon
 from kapudan.tools.repos import Repos
 
 
-class Widget(QtGui.QWidget, Screen):
+class Widget(QtWidgets.QWidget, Screen):
     title = i18n("Summary")
     desc = i18n("Save Your Settings")
 
     def __init__(self, *args):
-        QtGui.QWidget.__init__(self, None)
+        QtWidgets.QWidget.__init__(self, None)
         self.ui = Ui_summaryWidget()
         self.ui.setupUi(self)
 
@@ -65,53 +64,53 @@ class Widget(QtGui.QWidget, Screen):
         subject = "<p><li><b>%s</b></li><ul>"
         item = "<li>%s</li>"
         end = "</ul></p>"
-        content = QString("")
+        content = ""
 
-        content.append("""<html><body><ul>""")
+        content += """<html><body><ul>"""
 
         # Mouse Settings
-        content.append(subject % i18n("Mouse Settings"))
+        content += subject % i18n("Mouse Settings")
 
-        content.append(item % i18n("Selected Mouse configuration: <b>%s</b>") % self.mouseSettings["summaryMessage"]["selectedMouse"])
-        content.append(item % i18n("Selected clicking behavior: <b>%s</b>") % self.mouseSettings["summaryMessage"]["clickBehavior"])
-        content.append(end)
+        content += (item % i18n("Selected Mouse configuration: <b>%s</b>") % self.mouseSettings["summaryMessage"]["selectedMouse"])
+        content += (item % i18n("Selected clicking behavior: <b>%s</b>") % self.mouseSettings["summaryMessage"]["clickBehavior"])
+        content += end
 
         # Menu Settings
-        content.append(subject % i18n("Menu Settings"))
-        content.append(item % i18n("Selected Menu: <b>%s</b>") % self.menuSettings["summaryMessage"])
-        content.append(end)
+        content += (subject % i18n("Menu Settings"))
+        content += (item % i18n("Selected Menu: <b>%s</b>") % self.menuSettings["summaryMessage"])
+        content += end
 
         # Wallpaper Settings
-        content.append(subject % i18n("Wallpaper Settings"))
+        content += (subject % i18n("Wallpaper Settings"))
         if not self.wallpaperSettings["hasChanged"]:
-            content.append(item % i18n("You haven't selected any wallpaper."))
+            content += (item % i18n("You haven't selected any wallpaper."))
         else:
-            content.append(item % i18n("Selected Wallpaper: <b>%s</b>") % os.path.basename(str(self.wallpaperSettings["selectedWallpaper"])))
-        content.append(end)
+            content += (item % i18n("Selected Wallpaper: <b>%s</b>") % os.path.basename(str(self.wallpaperSettings["selectedWallpaper"])))
+        content += end
 
         # Style Settings
-        content.append(subject % i18n("Style Settings"))
+        content += (subject % i18n("Style Settings"))
 
         if not self.styleSettings["hasChanged"]:
-            content.append(item % i18n("You haven't selected any style."))
+            content += (item % i18n("You haven't selected any style."))
         else:
-            content.append(item % i18n("Selected Style: <b>%s</b>") % unicode(self.styleSettings["summaryMessage"]))
+            content += (item % i18n("Selected Style: <b>%s</b>") % unicode(self.styleSettings["summaryMessage"]))
 
-        content.append(end)
+        content += end
 
         # Notifier Settings
         if self.packageSettings["hasChanged"]:
-            content.append(subject % i18n("Package Management Settings"))
-            content.append(item % i18n("You have enabled or disabled octopi-notifier."))
+            content += (subject % i18n("Package Management Settings"))
+            content += (item % i18n("You have enabled or disabled octopi-notifier."))
 
-            content.append(end)
+            content += end
 
         # Services Settings
         if self.servicesSettings["hasChanged"]:
             self.daemon = Daemon()
             self.svctext = i18n("You have: ")
             self.svcissset = False
-            content.append(subject % i18n("Services Settings"))
+            content += (subject % i18n("Services Settings"))
 
             if self.servicesSettings["enableCups"] and not self.daemon.isEnabled("org.cups.cupsd"):
                 self.svctext += i18n("enabled cups; ")
@@ -131,16 +130,16 @@ class Widget(QtGui.QWidget, Screen):
                 self.svctext = i18n("You have made no changes.")
                 self.servicesSettings["hasChanged"] = False
 
-            content.append(item % i18n(self.svctext))
+            content += (item % i18n(self.svctext))
 
-            content.append(end)
+            content += end
 
         # Security Settings
         if self.securitySettings["hasChanged"]:
             self.daemon = Daemon()
             self.sectext = i18n("You have: ")
             self.secisset = False
-            content.append(subject % i18n("Security Settings"))
+            content += (subject % i18n("Security Settings"))
 
             if self.securitySettings["enableClam"] and not self.daemon.isEnabled("clamd"):
                 self.sectext += i18n("enabled ClamAV; ")
@@ -159,16 +158,16 @@ class Widget(QtGui.QWidget, Screen):
                 self.sectext = i18n("You have made no changes.")
                 self.securitySettings["hasChanged"] = False
 
-            content.append(item % i18n(self.sectext))
+            content += (item % i18n(self.sectext))
 
-            content.append(end)
+            content += end
 
         # Extra Settings
         if self.extraSettings["hasChanged"]:
             self.repos = Repos()
             self.extratext = i18n("You have: ")
             self.extraisset = False
-            content.append(subject % i18n("Extra Settings"))
+            content += (subject % i18n("Extra Settings"))
 
             if self.extraSettings["enableExtra"] and not self.repos.extraIsEnabled():
                 self.extratext += i18n("enabled the [extra] repo; ")
@@ -181,9 +180,9 @@ class Widget(QtGui.QWidget, Screen):
                 self.extratext = i18n("You have made no changes.")
                 self.extraSettings["hasChanged"] = False
 
-            content.append(item % i18n(self.extratext))
+            content += (item % i18n(self.extratext))
 
-            content.append(end)
+            content += end
 
         self.ui.textSummary.setText(content)
 

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Copyright (C) 2012, The Chakra Developers
+# Copyright (C) 2012-2015, The Chakra Developers
 #
 # This is a fork of Pardus's Kaptan, which is
 # Copyright (C) 2005-2009, TUBITAK/UEKAE
@@ -13,8 +13,8 @@
 # Please read the COPYING file.
 #
 
-from PyQt4 import QtGui
-from PyQt4.QtCore import QSize
+from PyQt5 import QtWidgets
+from PyQt5.QtCore import QSize
 from PyKDE4.kdecore import i18n, KGlobal, KConfig
 #from PyKDE4 import kdeui
 
@@ -29,7 +29,7 @@ from kapudan.tools.desktop_parser import DesktopParser
 from ConfigParser import ConfigParser
 
 
-class Widget(QtGui.QWidget, Screen):
+class Widget(QtWidgets.QWidget, Screen):
     screenSettings = {}
     screenSettings["hasChanged"] = False
     screenSettings["styleChanged"] = False
@@ -41,7 +41,7 @@ class Widget(QtGui.QWidget, Screen):
     desc = i18n("Customize Your Desktop")
 
     def __init__(self, *args):
-        QtGui.QWidget.__init__(self, None)
+        QtWidgets.QWidget.__init__(self, None)
         self.ui = Ui_styleWidget()
         self.ui.setupUi(self)
 
@@ -110,13 +110,13 @@ class Widget(QtGui.QWidget, Screen):
                     "panelPosition": panelPosition
                 }
 
-                item = QtGui.QListWidgetItem(self.ui.listStyles)
+                item = QtWidgets.QListWidgetItem(self.ui.listStyles)
                 widget = StyleItemWidget(unicode(styleName), unicode(styleDesc), styleThumb, self.ui.listStyles)
                 self.ui.listStyles.setItemWidget(item, widget)
                 item.setSizeHint(QSize(120, 170))
                 item.setStatusTip(styleName)
             except:
-                print "Warning! Invalid syntax in ", desktopFiles
+                print("Warning! Invalid syntax in ", desktopFiles)
 
         self.ui.listStyles.itemSelectionChanged.connect(self.setStyle)
         self.ui.comboBoxDesktopType.activated.connect(self.setDesktopType)

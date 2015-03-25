@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Copyright (C) 2012, The Chakra Developers
+# Copyright (C) 2012-2015, The Chakra Developers
 #
 # This is a fork of Pardus's Kaptan, which is
 # Copyright (C) 2005-2009, TUBITAK/UEKAE
@@ -13,14 +13,14 @@
 # Please read the COPYING file.
 #
 
-from PyQt4 import QtGui
+from PyQt5 import QtWidgets
 from PyKDE4.kdecore import i18n, KConfig
 
 from kapudan.screen import Screen
 from kapudan.screens.ui_scrMenu import Ui_menuWidget
 
 
-class Widget(QtGui.QWidget, Screen):
+class Widget(QtWidgets.QWidget, Screen):
     screenSettings = {}
     screenSettings["hasChanged"] = False
 
@@ -29,7 +29,7 @@ class Widget(QtGui.QWidget, Screen):
     desc = i18n("Choose a Menu Style")
 
     def __init__(self, *args):
-        QtGui.QWidget.__init__(self, None)
+        QtWidgets.QWidget.__init__(self, None)
         self.ui = Ui_menuWidget()
         self.ui.setupUi(self)
 
@@ -41,37 +41,37 @@ class Widget(QtGui.QWidget, Screen):
         self.menuNames["launcher"] = {
             "menuIndex": 0,
             "summaryMessage": i18n("Kick-off Menu"),
-            "image": QtGui.QPixmap(':/raw/pixmap/kickoff.png'),
+            "image": QtWidgets.QPixmap(':/raw/pixmap/kickoff.png'),
             "description": i18n("Kick-off menu is the default menu of Chakra.<br><br>The program shortcuts are easy to access and well organized.")
         }
         self.menuNames["simplelauncher"] = {
             "menuIndex": 1,
             "summaryMessage": i18n("Simple Menu"),
-            "image": QtGui.QPixmap(':/raw/pixmap/simple.png'),
+            "image": QtWidgets.QPixmap(':/raw/pixmap/simple.png'),
             "description": i18n("Simple menu is an old style menu from KDE 3.<br><br>It is a very lightweight menu thus it is recommended for slower PC's.")
         }
         self.menuNames["lancelot_launcher"] = {
             "menuIndex": 2,
             "summaryMessage": i18n("Lancelot Menu"),
-            "image": QtGui.QPixmap(':/raw/pixmap/lancelot.png'),
+            "image": QtWidgets.QPixmap(':/raw/pixmap/lancelot.png'),
             "description": i18n("Lancelot is an advanced and highly customizable menu for Chakra.<br><br>The program shortcuts are easy to access and well organized.")
         }
         self.menuNames["homerunlauncher"] = {
             "menuIndex": 3,
             "summaryMessage": i18n("Homerun Menu"),
-            "image": QtGui.QPixmap(':/raw/pixmap/homerun.png'),
+            "image": QtWidgets.QPixmap(':/raw/pixmap/homerun.png'),
             "description": i18n("Homerun is a full screen launcher with content organized in tabs.")
         }
         self.menuNames["appmenu-qml"] = {
             "menuIndex": 4,
             "summaryMessage": i18n("AppMenu QML"),
-            "image": QtGui.QPixmap(':/raw/pixmap/appmenu-qml.png'),
+            "image": QtWidgets.QPixmap(':/raw/pixmap/appmenu-qml.png'),
             "description": i18n("This plasmoid shows a menu of the installed applications, similar to Lancelot but much simpler")
         }
         self.menuNames["org.kde.homerun-kicker"] = {
             "menuIndex": 5,
             "summaryMessage": i18n("Homerun Kicker"),
-            "image": QtGui.QPixmap(':/raw/pixmap/homerun-kicker.png'),
+            "image": QtWidgets.QPixmap(':/raw/pixmap/homerun-kicker.png'),
             "description": i18n("A non-fullscreen version of Homerun.")
         }
 

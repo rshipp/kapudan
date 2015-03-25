@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Copyright (C) 2012, The Chakra Developers
+# Copyright (C) 2012-2015, The Chakra Developers
 #
 # This is a fork of Pardus's Kaptan, which is
 # Copyright (C) 2005-2009, TUBITAK/UEKAE
@@ -13,7 +13,7 @@
 # Please read the COPYING file.
 #
 
-from PyQt4 import QtGui
+from PyQt5 import QtWidgets
 
 from PyKDE4.kdecore import i18n, KConfig
 
@@ -28,7 +28,7 @@ import os
 isUpdateOn = False
 
 
-class Widget(QtGui.QWidget, Screen):
+class Widget(QtWidgets.QWidget, Screen):
     title = i18n("Packages")
     desc = i18n("Install / Remove Programs")
 
@@ -36,7 +36,7 @@ class Widget(QtGui.QWidget, Screen):
     screenSettings["hasChanged"] = False
 
     def __init__(self, *args):
-        QtGui.QWidget.__init__(self, None)
+        QtWidgets.QWidget.__init__(self, None)
         self.ui = Ui_packageWidget()
         self.ui.setupUi(self)
 

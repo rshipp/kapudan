@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Copyright (C) 2012, The Chakra Developers
+# Copyright (C) 2012-2015, The Chakra Developers
 #
 # This is a fork of Pardus's Kaptan, which is
 # Copyright (C) 2005-2009, TUBITAK/UEKAE
@@ -14,9 +14,9 @@
 #
 
 
-from PyQt4 import QtGui
-from PyQt4.QtCore import QSize
-from PyQt4.QtGui import QFileDialog
+from PyQt5 import QtGui, QtWidgets
+from PyQt5.QtCore import QSize, QTranslator
+from PyQt5.QtGui import QFileDialog
 
 #from PyQt4.QtCore import *
 from PyKDE4.kdecore import i18n, KStandardDirs, KGlobal
@@ -38,7 +38,7 @@ class Widget(QtGui.QWidget, Screen):
     desc = i18n("Choose a Wallpaper")
 
     def __init__(self, *args):
-        QtGui.QWidget.__init__(self, None)
+        QtWidgets.QWidget.__init__(self, None)
         self.ui = Ui_wallpaperWidget()
         self.ui.setupUi(self)
         # Get system locale
@@ -89,7 +89,7 @@ class Widget(QtGui.QWidget, Screen):
             wallpaperFile = os.path.split(str(desktopFiles))[0]
 
             # Insert wallpapers to listWidget.
-            item = QtGui.QListWidgetItem(self.ui.listWallpaper)
+            item = QtWidgets.QListWidgetItem(self.ui.listWallpaper)
             # Each wallpaper item is a widget. Look at widgets.py for more information.
             widget = WallpaperItemWidget(unicode(wallpaperTitle, "utf8", "replace"), unicode(wallpaperDesc, "utf8", "replace"), wallpaperThumb, self.ui.listWallpaper)
             item.setSizeHint(QSize(120, 170))
@@ -121,7 +121,7 @@ class Widget(QtGui.QWidget, Screen):
         if selectedFile.isNull():
             return
         else:
-            item = QtGui.QListWidgetItem(self.ui.listWallpaper)
+            item = QtWidgets.QListWidgetItem(self.ui.listWallpaper)
             wallpaperName = os.path.splitext(os.path.split(str(selectedFile))[1])[0]
             widget = WallpaperItemWidget(unicode(wallpaperName, "utf8", "replace"), unicode("Unknown"), selectedFile, self.ui.listWallpaper)
             item.setSizeHint(QSize(120, 170))

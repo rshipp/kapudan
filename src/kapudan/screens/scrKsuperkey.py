@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Copyright (C) 2012, The Chakra Developers
+# Copyright (C) 2012-2015, The Chakra Developers
 #
 # This is a fork of Pardus's Kaptan, which is
 # Copyright (C) 2005-2009, TUBITAK/UEKAE
@@ -13,7 +13,7 @@
 # Please read the COPYING file.
 #
 
-from PyQt4 import QtGui
+from PyQt5 import QtWidgets
 #from PyQt4.QtCore import
 
 from PyKDE4.kdecore import i18n
@@ -27,7 +27,7 @@ from kapudan.tools.ksuperkey import KSuperKey
 isUpdateOn = False
 
 
-class Widget(QtGui.QWidget, Screen):
+class Widget(QtWidgets.QWidget, Screen):
     title = i18n("ksuperkey")
     desc = i18n("Enable / Disable ksuperkey")
 
@@ -35,7 +35,7 @@ class Widget(QtGui.QWidget, Screen):
     screenSettings["hasChanged"] = False
 
     def __init__(self, *args):
-        QtGui.QWidget.__init__(self, None)
+        QtWidgets.QWidget.__init__(self, None)
         self.ui = Ui_ksuperkeyWidget()
         self.ui.setupUi(self)
         self.ksuperkey = KSuperKey()

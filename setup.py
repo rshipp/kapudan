@@ -82,24 +82,24 @@ class Build(build):
         # Clear all
         os.system("rm -rf build")
         # Copy codes
-        print "Copying PYs..."
+        print("Copying PYs...")
         os.system("cp -R src build/")
 
         # Copy kde-themes
-        print "Copying kde-themes..."
+        print("Copying kde-themes...")
         os.system("cp -R data/kde-themes build/kapudan/")
 
         #update_messages()
 
         # Copy compiled UIs and RCs
-        print "Generating UIs..."
+        print("Generating UIs...")
         for filename in glob.glob1("ui", "*.ui"):
 #            if not "ui_scrFolder" in filename:
 #                os.system("pykdeuic4 -o build/kapudan/screens/%s.py ui/%s" % (filename.split(".")[0], filename))
 #            else:
 #                shutil.copy("ui/ui_scrFolder.py", "build/kapudan/screens/ui_scrFolder.py")
             os.system("pykdeuic4 -o build/kapudan/screens/%s.py ui/%s" % (filename.split(".")[0], filename))
-        print "Generating RCs..."
+        print("Generating RCs...")
         for filename in glob.glob1("data", "*.qrc"):
             os.system("pyrcc4 data/%s -o build/kapudan/%s_rc.py" % (filename, filename.split(".")[0]))
 
@@ -117,24 +117,24 @@ class Install(install):
         project_dir = os.path.join(kde_dir, "share/kde4/apps", about.appName)
 
         # Make directories
-        print "Making directories..."
+        print("Making directories...")
         makeDirs(bin_dir)
 
         #makeDirs(locale_dir)
         makeDirs(project_dir)
 
         # Install desktop files
-        print "Installing desktop files..."
+        print("Installing desktop files...")
 
         for filename in glob.glob("data/*.desktop.in"):
             os.system("intltool-merge -d po %s %s" % (filename, filename[:-3]))
 
         # Install codes
-        print "Installing codes..."
+        print("Installing codes...")
         os.system("cp -R build/* %s/" % project_dir)
 
         # Install locales
-        print "Installing locales..."
+        print("Installing locales...")
         for filename in glob.glob1("po", "*.po"):
             lang = filename.rsplit(".", 1)[0]
             os.system("msgfmt po/%s.po -o po/%s.mo" % (lang, lang))
@@ -144,10 +144,10 @@ class Install(install):
                 pass
             shutil.copy("po/%s.mo" % lang, os.path.join(locale_dir, "%s/LC_MESSAGES" % lang, "%s.mo" % about.catalog))
         # Rename
-        print "Renaming application.py..."
+        print("Renaming application.py...")
         #shutil.move(os.path.join(project_dir, "application.py"), os.path.join(project_dir, "%s.py" % about.appName))
         # Modes
-        print "Changing file modes..."
+        print( "Changing file modes...")
         os.chmod(os.path.join(project_dir, "%s.py" % about.appName), 0755)
         # Symlink
         try:

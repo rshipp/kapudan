@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Copyright (C) 2012, The Chakra Developers
+# Copyright (C) 2012-2015, The Chakra Developers
 #
 # This is a fork of Pardus's Kaptan, which is
 # Copyright (C) 2005-2009, TUBITAK/UEKAE
@@ -13,8 +13,8 @@
 # Please read the COPYING file.
 #
 
-from PyQt4 import QtGui
-from PyQt4.QtCore import QProcess  # remove QProcess dependency
+from PyQt5 import QtWidgets
+from PyQt5.QtCore import QProcess  # remove QProcess dependency
 
 from PyKDE4.kdecore import i18n
 
@@ -29,7 +29,7 @@ import os
 isUpdateOn = False
 
 
-class Widget(QtGui.QWidget, Screen):
+class Widget(QtWidgets.QWidget, Screen):
     title = i18n("Security")
     desc = i18n("Keep your system secure")
 
@@ -37,7 +37,7 @@ class Widget(QtGui.QWidget, Screen):
     screenSettings["hasChanged"] = False
 
     def __init__(self, *args):
-        QtGui.QWidget.__init__(self, None)
+        QtWidgets.QWidget.__init__(self, None)
         self.ui = Ui_securityWidget()
         self.ui.setupUi(self)
 

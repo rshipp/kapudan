@@ -4,9 +4,8 @@
 import sys
 import os
 
-from PyQt4 import QtCore, QtGui
-from PyKDE4 import kdeui
-from PyKDE4.kdecore import ki18n, KAboutData, KCmdLineArgs, KConfig
+from PyQt5 import QtCore, QtGui, QtWidgets
+from PyKDE5.kdecore import KAboutData, KConfig
 
 from kapudan.screens.ui_kapudan import Ui_kapudan
 
@@ -222,20 +221,21 @@ class Kapudan(QtGui.QWidget):
 if __name__ == "__main__":
     appName = "kapudan"
     catalog = ""
-    programName = ki18n("kapudan")
+    programName = QtCore.tr("kapudan")
     version = "2013.02"
-    description = ki18n("Kapudan lets you configure your Chakra installation at first boot.")
+    description = QtCore.tr("Kapudan lets you configure your Chakra installation at first boot.")
     license = KAboutData.License_GPL
-    copyright = ki18n("(c) 2013 The Chakra Developers")
-    text = ki18n("none")
+    copyright = QtCore.tr("(c) 2013 The Chakra Developers")
+    text = QtCore.tr("none")
     homePage = "http://gitorious.org/chakra/kapudan"
     bugEmail = "george@chakra-project.org"
 
     aboutData = KAboutData(appName, catalog, programName, version, description,
                            license, copyright, text, homePage, bugEmail)
 
-    KCmdLineArgs.init(sys.argv, aboutData)
-    app = kdeui.KApplication()
+    app = QtWidgets.QApplication()
+
+    QtCore.QCommandLineParser.init(sys.argv, aboutData)
 
     # attach dbus to main loop
     tools.DBus()

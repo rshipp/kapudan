@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Copyright (C) 2012, The Chakra Developers
+# Copyright (C) 2012-2015, The Chakra Developers
 #
 # This is a fork of Pardus's Kaptan, which is
 # Copyright (C) 2005-2009, TUBITAK/UEKAE
@@ -13,8 +13,8 @@
 # Please read the COPYING file.
 #
 
-from PyQt4 import QtGui
-from PyQt4.QtCore import QProcess  # get rid of QProcess
+from PyQt5 import QtWidgets
+from PyQt5.QtCore import QProcess  # get rid of QProcess
 from PyKDE4.kdecore import i18n, KGlobal
 
 import os
@@ -24,12 +24,12 @@ from kapudan.screen import Screen
 from kapudan.screens.ui_scrGoodbye import Ui_goodbyeWidget
 
 
-class Widget(QtGui.QWidget, Screen):
+class Widget(QtWidgets.QWidget, Screen):
     title = i18n("More")
     desc = i18n("Congratulations!")
 
     def __init__(self, *args):
-        QtGui.QWidget.__init__(self, None)
+        QtWidgets.QWidget.__init__(self, None)
         self.ui = Ui_goodbyeWidget()
         self.ui.setupUi(self)
 
