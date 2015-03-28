@@ -5,7 +5,7 @@ import os
 import dbus
 import glob
 import subprocess
-from PyQt4.QtGui import QDesktopWidget
+from PyQt5.QtWidgets import QDesktopWidget
 
 
 def DBus():
@@ -48,9 +48,9 @@ def killPlasma(self):
     try:
         os.kill(pidOfPlasma, 15)
         self.startPlasma()
-    except OSError, e:
-        print 'WARNING: failed os.kill: %s' % e
-        print "Trying SIGKILL"
+    except OSError as e:
+        print("WARNING: failed os.kill: ", e)
+        print("Trying SIGKILL")
         os.kill(pidOfPlasma, 9)
         startPlasma()
 
