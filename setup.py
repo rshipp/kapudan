@@ -1,6 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 #
+# Copyright (C) 2012-2015 The Chakra Project
+#
+# This is a fork of Pardus's Kaptan, which is
 # Copyright (C) 2006-2009 TUBITAK/UEKAE
 #
 # This program is free software; you can redistribute it and/or modify it under
@@ -22,21 +25,20 @@ from distutils.cmd import Command
 from distutils.command.build import build
 from distutils.command.install import install
 
-import about
 
 def update_messages():
     # Create empty directory
-    shutil.rmtree(".tmp", "true")
+    shutil.rmtree(".tmp", True)
     os.makedirs(".tmp")
 
     # Collect UI files
     for filename in glob.glob1("ui", "*.ui"):
-        os.system("pykdeuic4 -o .tmp/%s.py ui/%s" % (filename.split(".")[0], filename))
+        os.system("pyuic5 -o .tmp/%s.py ui/%s" % (filename.split(".")[0], filename))
 
     # Collect Python files
-    directories = [ "src/kapudan",
-                    "src/kapudan/screens",
-                    "src/kapudan/tools"]
+    directories = ["src/kapudan",
+                   "src/kapudan/screens",
+                   "src/kapudan/tools"]
 
     for d in directories:
         for filename in glob.glob1(d, "*.py"):
@@ -60,22 +62,24 @@ def update_messages():
                         --keyword=N_ \
                         --keyword=i18n \
                         --keyword=ki18n \
-                        -o po/%s.pot" % (about.catalog, about.catalog))
+                        -o po/%s.pot" % ("kapudan", "kapudan"))
 
     ## Update PO files
-    #for item in os.listdir("po"):
-        #if item.endswith(".po"):
-            #os.system("msgmerge --no-wrap --sort-by-file -q -o .tmp/temp.po po/%s po/%s.pot" % (item, about.catalog))
-            #os.system("cp .tmp/temp.po po/%s" % item)
+    # for item in os.listdir("po"):
+    #if item.endswith(".po"):
+    #os.system("msgmerge --no-wrap --sort-by-file -q -o .tmp/temp.po po/%s po/%s.pot" % (item, "kapudan"))
+    #os.system("cp .tmp/temp.po po/%s" % item)
 
     # Remove temporary directory
     shutil.rmtree(".tmp")
+
 
 def makeDirs(dir):
     try:
         os.makedirs(dir)
     except OSError:
         pass
+
 
 class Build(build):
     def run(self):
@@ -89,21 +93,24 @@ class Build(build):
         print("Copying kde-themes...")
         os.system("cp -R data/kde-themes build/kapudan/")
 
-        #update_messages()
+        # update_messages()
 
         # Copy compiled UIs and RCs
         print("Generating UIs...")
         for filename in glob.glob1("ui", "*.ui"):
-#            if not "ui_scrFolder" in filename:
-#                os.system("pykdeuic4 -o build/kapudan/screens/%s.py ui/%s" % (filename.split(".")[0], filename))
-#            else:
-#                shutil.copy("ui/ui_scrFolder.py", "build/kapudan/screens/ui_scrFolder.py")
-            os.system("pykdeuic4 -o build/kapudan/screens/%s.py ui/%s" % (filename.split(".")[0], filename))
+            #            if not "ui_scrFolder" in filename:
+            #                os.system("pykdeuic4 -o build/kapudan/screens/%s.py ui/%s" % (filename.split(".")[0], filename))
+            #            else:
+            #                shutil.copy("ui/ui_scrFolder.py", "build/kapudan/screens/ui_scrFolder.py")
+            os.system("pyuic5 -o build/kapudan/screens/%s.py ui/%s" % (filename.split(".")[0], filename))
+            # ToDo: implement pylupdate5 function to extract translation to .ui files
+            #os.system("pylupdate5 --noobsolete ui/%s build/kapudan/screens/%s.py ui/%s" % (filename.split(".")[0], filename))
         print("Generating RCs...")
         for filename in glob.glob1("data", "*.qrc"):
-            os.system("pyrcc4 data/%s -o build/kapudan/%s_rc.py" % (filename, filename.split(".")[0]))
+            os.system("pyrcc5 data/%s -o build/kapudan/%s_rc.py" % (filename, filename.split(".")[0]))
 
         os.system("sed -i 's/kapudan_rc/kapudan.\kapudan_rc/g' build/kapudan/screens/ui_*")
+
 
 class Install(install):
     def run(self):
@@ -114,13 +121,13 @@ class Install(install):
             kde_dir = "/usr"
         bin_dir = os.path.join(kde_dir, "bin")
         locale_dir = os.path.join(kde_dir, "share/locale")
-        project_dir = os.path.join(kde_dir, "share/kde4/apps", about.appName)
+        project_dir = os.path.join(kde_dir, "share/kde4/apps", "kapudan")
 
         # Make directories
         print("Making directories...")
         makeDirs(bin_dir)
 
-        #makeDirs(locale_dir)
+        # makeDirs(locale_dir)
         makeDirs(project_dir)
 
         # Install desktop files
@@ -142,19 +149,20 @@ class Install(install):
                 os.makedirs(os.path.join(locale_dir, "%s/LC_MESSAGES" % lang))
             except OSError:
                 pass
-            shutil.copy("po/%s.mo" % lang, os.path.join(locale_dir, "%s/LC_MESSAGES" % lang, "%s.mo" % about.catalog))
+            shutil.copy("po/%s.mo" % lang, os.path.join(locale_dir, "%s/LC_MESSAGES" % lang, "%s.mo" % "kapudan"))
         # Rename
         print("Renaming application.py...")
-        #shutil.move(os.path.join(project_dir, "application.py"), os.path.join(project_dir, "%s.py" % about.appName))
+        #shutil.move(os.path.join(project_dir, "application.py"), os.path.join(project_dir, "%s.py" % "kapudan"))
         # Modes
-        print( "Changing file modes...")
-        os.chmod(os.path.join(project_dir, "%s.py" % about.appName), 0755)
+        print("Changing file modes...")
+        os.chmod(os.path.join(project_dir, "%s.py" % "kapaudan"), 0o0755)
         # Symlink
         try:
             if self.root:
-                os.symlink(os.path.join(project_dir.replace(self.root, ""), "%s.py" % about.appName), os.path.join(bin_dir, about.appName))
+                os.symlink(os.path.join(project_dir.replace(self.root, ""), "%s.py" % "kapudan"),
+                           os.path.join(bin_dir, "kapudan"))
             else:
-                os.symlink(os.path.join(project_dir, "%s.py" % about.appName), os.path.join(bin_dir, about.appName))
+                os.symlink(os.path.join(project_dir, "%s.py" % "kapudan"), os.path.join(bin_dir, "kapudan"))
         except OSError:
             pass
 
@@ -164,18 +172,18 @@ if "update_messages" in sys.argv:
     sys.exit(0)
 
 setup(
-      name              = about.appName,
-      version           = about.version,
-      description       = unicode(about.description),
-      license           = unicode(about.license),
-      author            = "",
-      author_email      = about.bugEmail,
-      url               = about.homePage,
-      packages          = [''],
-      package_dir       = {'': ''},
-      data_files        = [],
-      cmdclass          = {
-                            'build': Build,
-                            'install': Install,
-                          }
+    name="Kapudan",
+    version="2015.04",
+    description="Chakra's desktop greeter, a fork of Pardus's Kaptan.",
+    license="GPL",
+    author="(c) 2015 The Chakra Developers",
+    author_email="chakra-devel@googlegroups.com",
+    url="http://gitorious.org/chakra/kapudan",
+    packages=[''],
+    package_dir={'': ''},
+    data_files=[],
+    cmdclass={
+        'build': Build,
+        'install': Install,
+    }
 )
