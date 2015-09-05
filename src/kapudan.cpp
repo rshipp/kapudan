@@ -1,7 +1,9 @@
 #include <experimental/optional>
 
 #include <QtCore>
+#include <QObject>
 #include <QApplication>
+#include <QStackedWidget>
 #include <QString>
 #include <QMainWindow>
 #include <QDesktopWidget>
@@ -9,6 +11,9 @@
 #include <KSharedConfig>
 
 #include "kapudan.h"
+#include "progress_pie.h"
+
+#include "screens.h"
 
 struct GlobalState {
   std::experimental::optional<void*> screenData;
@@ -20,8 +25,7 @@ struct GlobalState {
   KSharedConfigPtr plasmaConfig;
 };
 
-
-void centerWindow(QMainWindow* window)
+void centerWindow(QWidget* window)
 {
     // center window
     auto rect = QDesktopWidget().screenGeometry();
@@ -51,9 +55,31 @@ void centerWindow(QMainWindow* window)
 
 
 KapudanMainWindow::KapudanMainWindow(QWidget* parent)
-   : QMainWindow(parent)
+   : QWidget(parent)
 {
     ui.setupUi(this);
+
+    // add screens
+    ui.mainStack->removeWidget(ui.page);
+    ui.mainStack->addWidget(new WelcomeScreen {});
+    ui.mainStack->addWidget(new FolderScreen {});
+
+    // draw progress pie
+    // TODO: there's a terrible inversion of control here...
+    auto pie = new ProgressPie(ui.mainStack->count(), this->ui.labelProgress);
+    (void) pie;
+
+    // connect signals
+    QObject::connect(ui.buttonNext, &QPushButton::clicked, this, &KapudanMainWindow::forward);
+    QObject::connect(ui.buttonBack, &QPushButton::clicked, this, &KapudanMainWindow::back);
+}
+
+void KapudanMainWindow::forward() {
+  ui.mainStack->setCurrentIndex(ui.mainStack->currentIndex()+1);
+}
+
+void KapudanMainWindow::back() {
+  ui.mainStack->setCurrentIndex(ui.mainStack->currentIndex()-1);
 }
 
 
@@ -61,10 +87,11 @@ int main(int argc, char *argv[])
 {
   QApplication app(argc, argv);
   app.setAttribute(Qt::AA_UseHighDpiPixmaps, true);
+  app.setApplicationName("kapudan");
 
   KapudanMainWindow *mw = new KapudanMainWindow();
   centerWindow(mw);
-  
+
   mw->show();
 
   return app.exec();

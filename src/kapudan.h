@@ -1,7 +1,11 @@
 #include <QMainWindow>
 #include "ui_ui_kapudan.h"
 
-class KapudanMainWindow : public QMainWindow
+#include "screens.h"
+
+#include <vector>
+
+class KapudanMainWindow : public QWidget
 {
       Q_OBJECT
       public:
@@ -10,4 +14,5 @@ class KapudanMainWindow : public QMainWindow
 
       private:
          Ui_kapudan ui;
+         void forward();
 };
