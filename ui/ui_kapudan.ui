@@ -470,26 +470,11 @@ QPushButton::flat:pressed{
         <property name="flat">
          <bool>true</bool>
         </property>
-        <layout class="QGridLayout" name="gridLayout_2">
-         <property name="leftMargin">
-          <number>5</number>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <property name="sizeConstraint">
+          <enum>QLayout::SetMinAndMaxSize</enum>
          </property>
-         <property name="topMargin">
-          <number>0</number>
-         </property>
-         <property name="rightMargin">
-          <number>5</number>
-         </property>
-         <property name="bottomMargin">
-          <number>0</number>
-         </property>
-         <property name="horizontalSpacing">
-          <number>5</number>
-         </property>
-         <property name="verticalSpacing">
-          <number>0</number>
-         </property>
-         <item row="0" column="0">
+         <item>
           <widget class="QPushButton" name="buttonCancel">
            <property name="text">
             <string>Cancel</string>
@@ -503,7 +488,20 @@ QPushButton::flat:pressed{
            </property>
           </widget>
          </item>
-         <item row="0" column="2">
+         <item>
+          <spacer name="horizontalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
           <widget class="QPushButton" name="buttonBack">
            <property name="text">
             <string>Back</string>
@@ -526,20 +524,7 @@ QPushButton::flat:pressed{
            </property>
           </widget>
          </item>
-         <item row="0" column="1">
-          <spacer name="horizontalSpacer_3">
-           <property name="orientation">
-            <enum>Qt::Horizontal</enum>
-           </property>
-           <property name="sizeHint" stdset="0">
-            <size>
-             <width>40</width>
-             <height>20</height>
-            </size>
-           </property>
-          </spacer>
-         </item>
-         <item row="0" column="4">
+         <item>
           <widget class="QPushButton" name="buttonNext">
            <property name="layoutDirection">
             <enum>Qt::RightToLeft</enum>
@@ -574,14 +559,17 @@ QPushButton::flat:pressed{
            </property>
           </widget>
          </item>
-         <item row="0" column="6">
-          <widget class="QPushButton" name="buttonFinish">
+         <item>
+          <widget class="QPushButton" name="buttonApply">
+           <property name="layoutDirection">
+            <enum>Qt::RightToLeft</enum>
+           </property>
            <property name="text">
-            <string>Finish</string>
+            <string>Apply</string>
            </property>
            <property name="icon">
             <iconset resource="../data/kapudan.qrc">
-             <normaloff>:/raw/pixmap/tick.png</normaloff>:/raw/pixmap/tick.png</iconset>
+             <normaloff>:/raw/pixmap/arrow-right.png</normaloff>:/raw/pixmap/arrow-right.png</iconset>
            </property>
            <property name="checkable">
             <bool>false</bool>
@@ -603,17 +591,14 @@ QPushButton::flat:pressed{
            </property>
           </widget>
          </item>
-         <item row="0" column="5">
-          <widget class="QPushButton" name="buttonApply">
-           <property name="layoutDirection">
-            <enum>Qt::RightToLeft</enum>
-           </property>
+         <item>
+          <widget class="QPushButton" name="buttonFinish">
            <property name="text">
-            <string>Apply</string>
+            <string>Finish</string>
            </property>
            <property name="icon">
             <iconset resource="../data/kapudan.qrc">
-             <normaloff>:/raw/pixmap/arrow-right.png</normaloff>:/raw/pixmap/arrow-right.png</iconset>
+             <normaloff>:/raw/pixmap/tick.png</normaloff>:/raw/pixmap/tick.png</iconset>
            </property>
            <property name="checkable">
             <bool>false</bool>
