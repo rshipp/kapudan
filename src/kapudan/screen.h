@@ -17,11 +17,11 @@ class  Screen {
       this->help = help;
       this->icon = icon;
     }
-    virtual void shown(){};
-    virtual void execute(){};
-    virtual void backCheck(){};
+    virtual void shown(){}
+    virtual void execute(){}
+    virtual void backCheck(){}
 
-    virtual ~Screen() {};
+    virtual ~Screen() {}
 };
 
 

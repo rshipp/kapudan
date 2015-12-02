@@ -10,9 +10,10 @@ class KapudanMainWindow : public QWidget
       Q_OBJECT
       public:
          explicit KapudanMainWindow(QWidget *parent = 0);
-         ~KapudanMainWindow() {};
+         ~KapudanMainWindow() {}
 
       private:
          Ui_kapudan ui;
          void forward();
+         void back();
 };
