@@ -15,22 +15,22 @@ GPLv2 (please read the COPYING file)
 
 ## Building & Installation
 
-* Build Kapudan without installing to your system:
+Build Kapudan without installing to your system:
 
     python3 setup.py build
 
-* Running Kapudan after building:
+Running Kapudan after building:
 
     python3 build/kapudan.py
 
-* Build and install Kapudan to your system:
+Build and install Kapudan to your system:
 
     python3 setup.py install
 
 
 ## Testing (for Developers)
 
-* Build and run the source in a seperate dir:
+Build and run the source in a seperate dir:
 
     ./go
 
