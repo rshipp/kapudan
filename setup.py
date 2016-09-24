@@ -107,7 +107,7 @@ class Build(build):
             #os.system("pylupdate5 --noobsolete ui/%s build/kapudan/screens/%s.py ui/%s" % (filename.split(".")[0], filename))
         print("Generating RCs...")
         for filename in glob.glob1("data", "*.qrc"):
-            os.system("pyrcc5 data/%s -o build/kapudan/%s_rc.py" % (filename, filename.split(".")[0]))
+            os.system("python3 -m PyQt5.pyrcc_main data/%s -o build/kapudan/%s_rc.py" % (filename, filename.split(".")[0]))
 
         os.system("sed -i 's/kapudan_rc/kapudan.\kapudan_rc/g' build/kapudan/screens/ui_*")
 
