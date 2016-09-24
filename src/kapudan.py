@@ -5,7 +5,6 @@ import sys
 import os
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-from PyKDE5.kdecore import KAboutData, KConfig
 
 from kapudan.screens.ui_kapudan import Ui_kapudan
 
@@ -31,8 +30,8 @@ class Kapudan(QtGui.QWidget):
         self.descriptions = []
         self.currentDir = os.path.dirname(os.path.realpath(__file__))
         self.screensPath = self.currentDir + "/kapudan/screens/scr*py"
-        self.kapudanConfig = KConfig("kapudanrc")
-        self.plasmaConfig = KConfig("plasma-desktop-appletsrc")
+        #self.kapudanConfig = KConfig("kapudanrc")
+        #self.plasmaConfig = KConfig("plasma-desktop-appletsrc")
 
     def signalHandler(self):
         ''' connects signals to slots '''
@@ -224,18 +223,18 @@ if __name__ == "__main__":
     programName = QtCore.tr("kapudan")
     version = "2013.02"
     description = QtCore.tr("Kapudan lets you configure your Chakra installation at first boot.")
-    license = KAboutData.License_GPL
+    #license = KAboutData.License_GPL
     copyright = QtCore.tr("(c) 2013 The Chakra Developers")
     text = QtCore.tr("none")
     homePage = "http://gitorious.org/chakra/kapudan"
     bugEmail = "george@chakra-project.org"
 
-    aboutData = KAboutData(appName, catalog, programName, version, description,
-                           license, copyright, text, homePage, bugEmail)
+    #aboutData = KAboutData(appName, catalog, programName, version, description,
+    #                       license, copyright, text, homePage, bugEmail)
 
     app = QtWidgets.QApplication()
 
-    QtCore.QCommandLineParser.init(sys.argv, aboutData)
+    QtCore.QCommandLineParser.init(sys.argv) #, aboutData)
 
     # attach dbus to main loop
     tools.DBus()
