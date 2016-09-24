@@ -213,9 +213,10 @@ class Kapudan(QtWidgets.QWidget):
         if _w.execute():
             self.close()
 
-    def __del__(self):
-        group = self.kapudanConfig.group("General")
-        group.writeEntry("RunOnStart", "False")
+    #def __del__(self):
+        # FIXME: remove autostart on exit
+        #group = self.kapudanConfig.group("General")
+        #group.writeEntry("RunOnStart", "False")
 
 if __name__ == "__main__":
     appName = "kapudan"
