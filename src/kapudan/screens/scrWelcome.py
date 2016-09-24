@@ -15,7 +15,7 @@
 
 import os
 
-from PyQt4 import QtCore, QtGui
+from PyQt5 import QtCore, QtGui
 from kapudan.screen import Screen
 from kapudan.screens.ui_scrWelcome import Ui_welcomeWidget
 from kapudan.tools import tools
@@ -23,8 +23,8 @@ from kapudan.tools import tools
 
 class Widget(QtGui.QWidget, Screen):
 
-    title = QtCore.tr("Welcome")
-    desc = QtCore.tr("Welcome to %s")
+    title = QtCore.QCoreApplication.translate("kapudan", "Welcome")
+    desc = QtCore.QCoreApplication.translate("kapudan", "Welcome to %s")
 
     def __init__(self, *args):
         QtGui.QWidget.__init__(self, None)

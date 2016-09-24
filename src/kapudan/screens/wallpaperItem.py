@@ -14,7 +14,7 @@
 # Please read the COPYING file.
 #
 
-from PyQt4 import QtGui
+from PyQt5 import QtGui
 
 from kapudan.screens.ui_wallpaperItem import Ui_ServiceItemWidget
 

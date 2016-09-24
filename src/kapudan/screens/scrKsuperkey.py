@@ -14,7 +14,7 @@
 #
 
 from PyQt5 import QtWidgets
-#from PyQt4.QtCore import
+#from PyQt5.QtCore import
 
 from PyKDE4.kdecore import i18n
 

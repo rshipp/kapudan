@@ -14,9 +14,9 @@ from kapudan.tools.kapudan_menu import Menu
 import kapudan.kapudan_rc
 
 
-class Kapudan(QtGui.QWidget):
+class Kapudan(QtWidgets.QWidget):
     def __init__(self, parent=None):
-        QtGui.QWidget.__init__(self, parent)
+        QtWidgets.QWidget.__init__(self, parent)
         self.initializeGlobals()
         self.initializeUI()
         self.signalHandler()
@@ -220,21 +220,21 @@ class Kapudan(QtGui.QWidget):
 if __name__ == "__main__":
     appName = "kapudan"
     catalog = ""
-    programName = QtCore.tr("kapudan")
+    programName = QtCore.QCoreApplication.translate("kapudan", "kapudan")
     version = "2013.02"
-    description = QtCore.tr("Kapudan lets you configure your Chakra installation at first boot.")
+    description = QtCore.QCoreApplication.translate("kapudan", "Kapudan lets you configure your Chakra installation at first boot.")
     #license = KAboutData.License_GPL
-    copyright = QtCore.tr("(c) 2013 The Chakra Developers")
-    text = QtCore.tr("none")
+    copyright = QtCore.QCoreApplication.translate("kapudan", "(c) 2013 The Chakra Developers")
+    text = QtCore.QCoreApplication.translate("kapudan", "none")
     homePage = "http://gitorious.org/chakra/kapudan"
     bugEmail = "george@chakra-project.org"
 
     #aboutData = KAboutData(appName, catalog, programName, version, description,
     #                       license, copyright, text, homePage, bugEmail)
 
-    app = QtWidgets.QApplication()
+    app = QtWidgets.QApplication(sys.argv)
 
-    QtCore.QCommandLineParser.init(sys.argv) #, aboutData)
+    #QtCore.QCommandLineParser.init(sys.argv) #, aboutData)
 
     # attach dbus to main loop
     tools.DBus()

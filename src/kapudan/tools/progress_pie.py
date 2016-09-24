@@ -1,8 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-from PyQt4.QtCore import QRect
-from PyQt4.QtGui import QWidget, QPainter, QColor, QBrush
+from PyQt5.QtCore import QRect
+from PyQt5.QtGui import QPainter, QColor, QBrush
+from PyQt5.QtWidgets import QWidget
 
 
 class DrawPie(QWidget):

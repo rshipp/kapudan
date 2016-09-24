@@ -18,7 +18,7 @@ from PyQt5 import QtGui, QtWidgets
 from PyQt5.QtCore import QSize, QTranslator
 from PyQt5.QtGui import QFileDialog
 
-#from PyQt4.QtCore import *
+#from PyQt5.QtCore import *
 from PyKDE4.kdecore import i18n, KStandardDirs, KGlobal
 import os
 
