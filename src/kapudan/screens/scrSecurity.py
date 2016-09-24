@@ -18,7 +18,6 @@ from PyQt5.QtCore import QProcess  # remove QProcess dependency
 
 from PyKDE4.kdecore import i18n
 
-#from PyKDE4 import kdeui
 
 from kapudan.screen import Screen
 from kapudan.screens.ui_scrSecurity import Ui_securityWidget

@@ -18,7 +18,6 @@ from PyQt5 import QtWidgets
 
 from PyKDE4.kdecore import i18n
 
-#from PyKDE4 import kdeui
 
 from kapudan.screen import Screen
 from kapudan.screens.ui_scrServices import Ui_servicesWidget

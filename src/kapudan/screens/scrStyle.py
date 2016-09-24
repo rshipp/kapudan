@@ -16,7 +16,6 @@
 from PyQt5 import QtWidgets
 from PyQt5.QtCore import QSize
 from PyKDE4.kdecore import i18n, KGlobal, KConfig
-#from PyKDE4 import kdeui
 
 import os
 import glob
