@@ -60,7 +60,7 @@ class Widget(QtWidgets.QWidget, Screen):
         self.folder["picture"] = os.path.isdir(self.folder_attributes["picture"][0])
         # this tells Kapudan to create all folders by default, as
         # discussed here: https://www.loomio.org/discussions/8411
-        for key, value in self.folder.iteritems():
+        for key, value in self.folder.items():
             self.folder[key] = True
 
         self.folder2button = dict()
@@ -88,7 +88,7 @@ class Widget(QtWidgets.QWidget, Screen):
         for key in self.folder2button:
             self.folder2button[key].setStyleSheet("QToolButton:checked {background-color: rgb(120, 120, 120);}")
 
-        for key, value in self.folder.iteritems():
+        for key, value in self.folder.items():
             if value:
                 self.folder2button[key].setChecked(True)
 
@@ -120,7 +120,7 @@ class Widget(QtWidgets.QWidget, Screen):
         pass
 
     def execute(self):
-        for key, value in self.folder.iteritems():
+        for key, value in self.folder.items():
             try:
                 if value:
                     os.mkdir(self.folder_attributes[key][0])

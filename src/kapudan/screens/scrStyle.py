@@ -63,26 +63,26 @@ class Widget(QtWidgets.QWidget, Screen):
 # Uncomment for local testing
 #            parser.read("data/kde-themes/" +str(desktopFiles))
             try:
-                styleName = unicode(parser.get_locale('Style', 'name[%s]' % self.catLang, ''))
+                styleName = str(parser.get_locale('Style', 'name[%s]' % self.catLang, ''))
             except:
-                styleName = unicode(parser.get_locale('Style', 'name', ''))
+                styleName = str(parser.get_locale('Style', 'name', ''))
             try:
-                styleDesc = unicode(parser.get_locale('Style', 'description[%s]' % self.catLang, ''))
+                styleDesc = str(parser.get_locale('Style', 'description[%s]' % self.catLang, ''))
             except:
-                styleDesc = unicode(parser.get_locale('Style', 'description', ''))
+                styleDesc = str(parser.get_locale('Style', 'description', ''))
             try:
                 # TODO find a fallback values for these & handle exceptions seperately.
                 #styleApplet = parser.get_locale('Style', 'applets', '')
                 panelPosition = parser.get_locale('Style', 'panelPosition', '')
                 #styleColorScheme = parser.get_locale('Style', 'colorScheme', '')
-                widgetStyle = unicode(parser.get_locale('Style', 'widgetStyle', ''))
-                desktopTheme = unicode(parser.get_locale('Style', 'desktopTheme', ''))
-                colorScheme = unicode(parser.get_locale('Style', 'colorScheme', ''))
+                widgetStyle = str(parser.get_locale('Style', 'widgetStyle', ''))
+                desktopTheme = str(parser.get_locale('Style', 'desktopTheme', ''))
+                colorScheme = str(parser.get_locale('Style', 'colorScheme', ''))
 
-                windowDecoration = unicode(parser.get_locale('Style', 'windowDecoration', ''))
-                styleThumb = unicode(os.path.join("/usr/share/kde4/apps/kapudan/kapudan/kde-themes/",  parser.get_locale('Style', 'thumbnail', '')))
+                windowDecoration = str(parser.get_locale('Style', 'windowDecoration', ''))
+                styleThumb = str(os.path.join("/usr/share/kde4/apps/kapudan/kapudan/kde-themes/",  parser.get_locale('Style', 'thumbnail', '')))
 # Uncomment for local testing
-#                styleThumb = unicode(os.path.join("data/kde-themes/",  parser.get_locale('Style', 'thumbnail','')))
+#                styleThumb = str(os.path.join("data/kde-themes/",  parser.get_locale('Style', 'thumbnail','')))
 
                 colorDict = {}
                 colorDir = "/usr/share/apps/color-schemes/"
@@ -111,7 +111,7 @@ class Widget(QtWidgets.QWidget, Screen):
                 }
 
                 item = QtWidgets.QListWidgetItem(self.ui.listStyles)
-                widget = StyleItemWidget(unicode(styleName), unicode(styleDesc), styleThumb, self.ui.listStyles)
+                widget = StyleItemWidget(str(styleName), str(styleDesc), styleThumb, self.ui.listStyles)
                 self.ui.listStyles.setItemWidget(item, widget)
                 item.setSizeHint(QSize(120, 170))
                 item.setStatusTip(styleName)
@@ -154,7 +154,7 @@ class Widget(QtWidgets.QWidget, Screen):
 
     def setStyle(self):
         styleName = str(self.ui.listStyles.currentItem().statusTip())
-        self.__class__.screenSettings["summaryMessage"] = unicode(styleName)
+        self.__class__.screenSettings["summaryMessage"] = str(styleName)
         self.__class__.screenSettings["hasChanged"] = True
         self.__class__.screenSettings["styleChanged"] = True
 

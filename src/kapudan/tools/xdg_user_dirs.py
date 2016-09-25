@@ -37,5 +37,5 @@ class UserDirs():
         """directory must be one of the XDG directory names, all
            caps.
         """
-        return subprocess.check_output(['xdg-user-dir',
-                directory]).replace('\n', '')
+        return str(subprocess.check_output(['xdg-user-dir',
+                directory])).replace('\n', '')
