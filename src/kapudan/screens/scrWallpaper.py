@@ -15,12 +15,13 @@
 
 
 from PyQt5 import QtGui, QtWidgets
-from PyQt5.QtCore import QSize, QTranslator
+from PyQt5.QtCore import QSize, QTranslator, QLocale, QStandardPaths
 from PyQt5.QtWidgets import QFileDialog
 
 #from PyQt5.QtCore import *
 from PyQt5.QtCore import QCoreApplication
 import os
+import glob
 
 from kapudan.screen import Screen
 from kapudan.screens.ui_scrWallpaper import Ui_wallpaperWidget
@@ -43,18 +44,17 @@ class Widget(QtWidgets.QWidget, Screen):
         self.ui.setupUi(self)
         # Get system locale
         # FIXME:
-        self.catLang = 'en_US' #KGlobal.locale().language()
+        self.catLang = QLocale.system().name()
+        #'en_US' #KGlobal.locale().language()
 
         # Get screen resolution
         # rect = QtGui.QDesktopWidget().screenGeometry() FIXME: where could
         # this be needed?
 
         # Get metadata.desktop files from shared wallpaper directory
-        # FIXME
-        #lst = KStandardDirs().findAllResources("wallpaper", "*metadata.desktop", KStandardDirs.Recursive)
-        lst = []
+        # FIXME use QStandardPaths.GenericConfigLocation + "wallpapers"
 
-        for desktopFiles in lst:
+        for desktopFiles in glob.glob('/usr/share/wallpapers/**/*metadata.desktop', recursive=True):
             parser = DesktopParser()
             parser.read(str(desktopFiles))
 
@@ -94,7 +94,8 @@ class Widget(QtWidgets.QWidget, Screen):
             # Insert wallpapers to listWidget.
             item = QtWidgets.QListWidgetItem(self.ui.listWallpaper)
             # Each wallpaper item is a widget. Look at widgets.py for more information.
-            widget = WallpaperItemWidget(str(wallpaperTitle, "utf8", "replace"), str(wallpaperDesc, "utf8", "replace"), wallpaperThumb, self.ui.listWallpaper)
+            #ToDo make the Title and Desc utf8 compilant
+            # widget = WallpaperItemWidget(str(wallpaperTitle), str(wallpaperDesc), wallpaperThumb, self.ui.listWallpaper)
             item.setSizeHint(QSize(120, 170))
             self.ui.listWallpaper.setItemWidget(item, widget)
             # Add a hidden value to each item for detecting selected wallpaper's path.
