@@ -95,7 +95,7 @@ class Widget(QtWidgets.QWidget, Screen):
             item = QtWidgets.QListWidgetItem(self.ui.listWallpaper)
             # Each wallpaper item is a widget. Look at widgets.py for more information.
             #ToDo make the Title and Desc utf8 compilant
-            # widget = WallpaperItemWidget(str(wallpaperTitle), str(wallpaperDesc), wallpaperThumb, self.ui.listWallpaper)
+            widget = WallpaperItemWidget(str(wallpaperTitle), str(wallpaperDesc), wallpaperThumb, self.ui.listWallpaper)
             item.setSizeHint(QSize(120, 170))
             self.ui.listWallpaper.setItemWidget(item, widget)
             # Add a hidden value to each item for detecting selected wallpaper's path.
