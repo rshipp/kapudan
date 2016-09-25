@@ -25,7 +25,7 @@ from kapudan.screens.ui_scrStyle import Ui_styleWidget
 from kapudan.screens.styleItem import StyleItemWidget
 
 from kapudan.tools.desktop_parser import DesktopParser
-from ConfigParser import ConfigParser
+from configparser import ConfigParser
 
 
 class Widget(QtWidgets.QWidget, Screen):

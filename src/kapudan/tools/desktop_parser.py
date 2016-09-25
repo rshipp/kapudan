@@ -26,7 +26,7 @@
 #   Matthias Clasen <mclasen@redhat.com>
 #
 
-from ConfigParser import ConfigParser
+from configparser import ConfigParser
 
 # Private
 

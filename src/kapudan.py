@@ -74,7 +74,7 @@ class Kapudan(QtWidgets.QWidget):
         ''' appends unsorted screens to the list '''
         screens = []
 
-        allScreens = [value for key, value in globals().iteritems() if key.startswith("scr")]
+        allScreens = [value for key, value in globals().items() if key.startswith("scr")]
 
         otherScreens = list((set(allScreens) - set(headScreens)) - set(tailScreens))
         otherScreens.remove(scrPackage)
