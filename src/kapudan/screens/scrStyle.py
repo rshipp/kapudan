@@ -15,7 +15,7 @@
 
 from PyQt5 import QtWidgets
 from PyQt5.QtCore import QSize
-from PyKDE4.kdecore import i18n, KGlobal, KConfig
+from PyQt5.QtCore import QCoreApplication, QSettings
 
 import os
 import glob
@@ -36,8 +36,8 @@ class Widget(QtWidgets.QWidget, Screen):
     screenSettings["hasChangedDesktopNumber"] = False
 
     # Set title and description for the information widget
-    title = i18n("Themes")
-    desc = i18n("Customize Your Desktop")
+    title = QCoreApplication.translate("kapudan", "Themes")
+    desc = QCoreApplication.translate("kapudan", "Customize Your Desktop")
 
     def __init__(self, *args):
         QtWidgets.QWidget.__init__(self, None)
@@ -45,9 +45,10 @@ class Widget(QtWidgets.QWidget, Screen):
         self.ui.setupUi(self)
 
         self.styleDetails = {}
-        self.catLang = KGlobal.locale().language()
+        # FIXME:
+        self.catLang = 'en_US' #KGlobal.locale().language()
 
-        config = KConfig("kwinrc")
+        config = QSettings("kwinrc")
         group = config.group("Desktops")
         defaultDesktopNumber = int(group.readEntry('Number'))
 
@@ -92,7 +93,7 @@ class Widget(QtWidgets.QWidget, Screen):
                     color = colorDir + "Oxygen.colors"
 
                 self.Config.read(color)
-                #colorConfig= KConfig("kdeglobals")
+                #colorConfig= QSettings("kdeglobals")
                 for i in self.Config.sections():
                     #colorGroup = colorConfig.group(str(i))
                     colorDict[i] = {}

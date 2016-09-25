@@ -16,7 +16,7 @@
 from PyQt5 import QtWidgets
 from PyQt5.QtCore import QProcess  # remove QProcess dependency
 
-from PyKDE4.kdecore import i18n
+from PyQt5.QtCore import QCoreApplication
 
 
 from kapudan.screen import Screen
@@ -29,8 +29,8 @@ isUpdateOn = False
 
 
 class Widget(QtWidgets.QWidget, Screen):
-    title = i18n("Security")
-    desc = i18n("Keep your system secure")
+    title = QCoreApplication.translate("kapudan", "Security")
+    desc = QCoreApplication.translate("kapudan", "Keep your system secure")
 
     screenSettings = {}
     screenSettings["hasChanged"] = False

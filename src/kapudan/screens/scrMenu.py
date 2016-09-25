@@ -14,7 +14,7 @@
 #
 
 from PyQt5 import QtWidgets
-from PyKDE4.kdecore import i18n, KConfig
+from PyQt5.QtCore import QCoreApplication, QSettings
 
 from kapudan.screen import Screen
 from kapudan.screens.ui_scrMenu import Ui_menuWidget
@@ -25,8 +25,8 @@ class Widget(QtWidgets.QWidget, Screen):
     screenSettings["hasChanged"] = False
 
     # Set title and description for the information widget
-    title = i18n("Menu")
-    desc = i18n("Choose a Menu Style")
+    title = QCoreApplication.translate("kapudan", "Menu")
+    desc = QCoreApplication.translate("kapudan", "Choose a Menu Style")
 
     def __init__(self, *args):
         QtWidgets.QWidget.__init__(self, None)
@@ -34,45 +34,45 @@ class Widget(QtWidgets.QWidget, Screen):
         self.ui.setupUi(self)
 
         # read default menu style first
-        config = KConfig("plasma-desktop-appletsrc")
+        config = QSettings("plasma-desktop-appletsrc")
         group = config.group("Containments")
 
         self.menuNames = {}
         self.menuNames["launcher"] = {
             "menuIndex": 0,
-            "summaryMessage": i18n("Kick-off Menu"),
+            "summaryMessage": QCoreApplication.translate("kapudan", "Kick-off Menu"),
             "image": QtWidgets.QPixmap(':/raw/pixmap/kickoff.png'),
-            "description": i18n("Kick-off menu is the default menu of Chakra.<br><br>The program shortcuts are easy to access and well organized.")
+            "description": QCoreApplication.translate("kapudan", "Kick-off menu is the default menu of Chakra.<br><br>The program shortcuts are easy to access and well organized.")
         }
         self.menuNames["simplelauncher"] = {
             "menuIndex": 1,
-            "summaryMessage": i18n("Simple Menu"),
+            "summaryMessage": QCoreApplication.translate("kapudan", "Simple Menu"),
             "image": QtWidgets.QPixmap(':/raw/pixmap/simple.png'),
-            "description": i18n("Simple menu is an old style menu from KDE 3.<br><br>It is a very lightweight menu thus it is recommended for slower PC's.")
+            "description": QCoreApplication.translate("kapudan", "Simple menu is an old style menu from KDE 3.<br><br>It is a very lightweight menu thus it is recommended for slower PC's.")
         }
         self.menuNames["lancelot_launcher"] = {
             "menuIndex": 2,
-            "summaryMessage": i18n("Lancelot Menu"),
+            "summaryMessage": QCoreApplication.translate("kapudan", "Lancelot Menu"),
             "image": QtWidgets.QPixmap(':/raw/pixmap/lancelot.png'),
-            "description": i18n("Lancelot is an advanced and highly customizable menu for Chakra.<br><br>The program shortcuts are easy to access and well organized.")
+            "description": QCoreApplication.translate("kapudan", "Lancelot is an advanced and highly customizable menu for Chakra.<br><br>The program shortcuts are easy to access and well organized.")
         }
         self.menuNames["homerunlauncher"] = {
             "menuIndex": 3,
-            "summaryMessage": i18n("Homerun Menu"),
+            "summaryMessage": QCoreApplication.translate("kapudan", "Homerun Menu"),
             "image": QtWidgets.QPixmap(':/raw/pixmap/homerun.png'),
-            "description": i18n("Homerun is a full screen launcher with content organized in tabs.")
+            "description": QCoreApplication.translate("kapudan", "Homerun is a full screen launcher with content organized in tabs.")
         }
         self.menuNames["appmenu-qml"] = {
             "menuIndex": 4,
-            "summaryMessage": i18n("AppMenu QML"),
+            "summaryMessage": QCoreApplication.translate("kapudan", "AppMenu QML"),
             "image": QtWidgets.QPixmap(':/raw/pixmap/appmenu-qml.png'),
-            "description": i18n("This plasmoid shows a menu of the installed applications, similar to Lancelot but much simpler")
+            "description": QCoreApplication.translate("kapudan", "This plasmoid shows a menu of the installed applications, similar to Lancelot but much simpler")
         }
         self.menuNames["org.kde.homerun-kicker"] = {
             "menuIndex": 5,
-            "summaryMessage": i18n("Homerun Kicker"),
+            "summaryMessage": QCoreApplication.translate("kapudan", "Homerun Kicker"),
             "image": QtWidgets.QPixmap(':/raw/pixmap/homerun-kicker.png'),
-            "description": i18n("A non-fullscreen version of Homerun.")
+            "description": QCoreApplication.translate("kapudan", "A non-fullscreen version of Homerun.")
         }
 
         for each in list(group.groupList()):

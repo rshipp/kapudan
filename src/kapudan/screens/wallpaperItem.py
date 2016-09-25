@@ -14,15 +14,15 @@
 # Please read the COPYING file.
 #
 
-from PyQt5 import QtGui
+from PyQt5 import QtWidgets
 
 from kapudan.screens.ui_wallpaperItem import Ui_ServiceItemWidget
 
 
-class WallpaperItemWidget(QtGui.QWidget):
+class WallpaperItemWidget(QtWidgets.QWidget):
 
     def __init__(self, title, desc, pic, parent):
-        QtGui.QWidget.__init__(self, parent)
+        QtWidgets.QWidget.__init__(self, parent)
 
         self.ui = Ui_ServiceItemWidget()
         self.ui.setupUi(self)

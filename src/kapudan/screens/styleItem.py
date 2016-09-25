@@ -15,16 +15,16 @@
 #
 
 # Qt Stuff
-from PyQt5 import QtGui
+from PyQt5 import QtGui, QtWidgets
 from PyQt5.QtCore import *
 
 # Application Stuff
 from kapudan.screens.ui_scrStyleItem import Ui_StyleItemWidget
 
-class StyleItemWidget(QtGui.QWidget):
+class StyleItemWidget(QtWidgets.QWidget):
 
     def __init__(self, title, desc, pic, parent):
-        QtGui.QWidget.__init__(self, parent)
+        QtWidgets.QWidget.__init__(self, parent)
 
         self.ui = Ui_StyleItemWidget()
         self.ui.setupUi(self)

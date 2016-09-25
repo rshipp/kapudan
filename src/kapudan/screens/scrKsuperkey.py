@@ -16,7 +16,7 @@
 from PyQt5 import QtWidgets
 #from PyQt5.QtCore import
 
-from PyKDE4.kdecore import i18n
+from PyQt5.QtCore import QCoreApplication
 
 
 from kapudan.screen import Screen
@@ -27,8 +27,8 @@ isUpdateOn = False
 
 
 class Widget(QtWidgets.QWidget, Screen):
-    title = i18n("ksuperkey")
-    desc = i18n("Enable / Disable ksuperkey")
+    title = QCoreApplication.translate("kapudan", "ksuperkey")
+    desc = QCoreApplication.translate("kapudan", "Enable / Disable ksuperkey")
 
     screenSettings = {}
     screenSettings["hasChanged"] = False

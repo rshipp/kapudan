@@ -15,7 +15,7 @@
 
 from PyQt5 import QtWidgets
 from PyQt5.QtCore import QProcess  # get rid of QProcess
-from PyKDE4.kdecore import i18n, KGlobal
+from PyQt5.QtCore import QCoreApplication
 
 import os
 import shutil
@@ -25,8 +25,8 @@ from kapudan.screens.ui_scrGoodbye import Ui_goodbyeWidget
 
 
 class Widget(QtWidgets.QWidget, Screen):
-    title = i18n("More")
-    desc = i18n("Congratulations!")
+    title = QCoreApplication.translate("kapudan", "More")
+    desc = QCoreApplication.translate("kapudan", "Congratulations!")
 
     def __init__(self, *args):
         QtWidgets.QWidget.__init__(self, None)
@@ -35,7 +35,7 @@ class Widget(QtWidgets.QWidget, Screen):
 
         self.remove_autostart = True
 
-        lang = KGlobal.locale().language()
+        lang = 'en_US' #KGlobal.locale().language()
         if lang in ["de", "el", "es", "it", "uz"]:
             self.helpPageUrl = "http://chakraos.org/wiki/index.php?title=Help/" + lang
         else:

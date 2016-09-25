@@ -15,7 +15,7 @@
 
 import os
 from PyQt5 import QtWidgets
-from PyKDE4.kdecore import i18n
+from PyQt5.QtCore import QCoreApplication
 
 from kapudan.screen import Screen
 from kapudan.screens.ui_scrFolder import Ui_folderWidget
@@ -27,8 +27,8 @@ class Widget(QtWidgets.QWidget, Screen):
     screenSettings["hasChanged"] = False
 
     # title and description at the top of the dialog window
-    title = i18n("Folders")
-    desc = i18n("Create folders in the home directory")
+    title = QCoreApplication.translate("kapudan", "Folders")
+    desc = QCoreApplication.translate("kapudan", "Create folders in the home directory")
 
     def __init__(self, *args):
         QtWidgets.QWidget.__init__(self, None)
@@ -76,12 +76,12 @@ class Widget(QtWidgets.QWidget, Screen):
             <body style=" font-family:'DejaVu Sans'; font-size:9pt; font-weight:400; font-style:normal;"><p
             align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;
             -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">"""
-        self.foldertext["intro"] = i18n("Selected: ")
-        self.foldertext["download"] = i18n("Downloads")
-        self.foldertext["documents"] = i18n("Documents")
-        self.foldertext["video"] = i18n("Videos")
-        self.foldertext["music"] = i18n("Music")
-        self.foldertext["picture"] = i18n("Pictures")
+        self.foldertext["intro"] = QCoreApplication.translate("kapudan", "Selected: ")
+        self.foldertext["download"] = QCoreApplication.translate("kapudan", "Downloads")
+        self.foldertext["documents"] = QCoreApplication.translate("kapudan", "Documents")
+        self.foldertext["video"] = QCoreApplication.translate("kapudan", "Videos")
+        self.foldertext["music"] = QCoreApplication.translate("kapudan", "Music")
+        self.foldertext["picture"] = QCoreApplication.translate("kapudan", "Pictures")
         self.foldertext["footer"] = "</span></p></body></html>"
 
 
@@ -105,7 +105,7 @@ class Widget(QtWidgets.QWidget, Screen):
         for key in self.folder:
             text += self.foldertext[key]+', ' if self.folder2button[key].isChecked() else ""
         if text == self.foldertext["header"] + self.foldertext["intro"]:
-            text += i18n("None")
+            text += QCoreApplication.translate("kapudan", "None")
         else:
             text = text.mid(0, text.length() - 2)
         text += self.foldertext["footer"]
@@ -139,6 +139,6 @@ class Widget(QtWidgets.QWidget, Screen):
                 # or it is not empty when we try to delete it
                 pass
 
-        self.__class__.screenSettings["summaryMessage"] = i18n("Created folders in home directory")
+        self.__class__.screenSettings["summaryMessage"] = QCoreApplication.translate("kapudan", "Created folders in home directory")
 
         return True

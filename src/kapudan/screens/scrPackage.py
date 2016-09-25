@@ -15,7 +15,7 @@
 
 from PyQt5 import QtWidgets
 
-from PyKDE4.kdecore import i18n, KConfig
+from PyQt5.QtCore import QCoreApplication, QSettings
 
 
 from kapudan.screen import Screen
@@ -28,8 +28,8 @@ isUpdateOn = False
 
 
 class Widget(QtWidgets.QWidget, Screen):
-    title = i18n("Packages")
-    desc = i18n("Install / Remove Programs")
+    title = QCoreApplication.translate("kapudan", "Packages")
+    desc = QCoreApplication.translate("kapudan", "Install / Remove Programs")
 
     screenSettings = {}
     screenSettings["hasChanged"] = False
@@ -83,7 +83,7 @@ class Widget(QtWidgets.QWidget, Screen):
 
 class Config:
     def __init__(self, config):
-        self.config = KConfig(config)
+        self.config = QSettings(config)
         self.group = None
 
     def setValue(self, option, value):

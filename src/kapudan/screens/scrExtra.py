@@ -15,7 +15,7 @@
 
 from PyQt5 import QtWidgets
 
-from PyKDE4.kdecore import i18n, KConfig
+from PyQt5.QtCore import QCoreApplication, QSettings
 
 
 from kapudan.screen import Screen
@@ -27,8 +27,8 @@ isUpdateOn = False
 
 
 class Widget(QtWidgets.QWidget, Screen):
-    title = i18n("GTK")
-    desc = i18n("GTK Integration and [extra]")
+    title = QCoreApplication.translate("kapudan", "GTK")
+    desc = QCoreApplication.translate("kapudan", "GTK Integration and [extra]")
 
     screenSettings = {}
     screenSettings["hasChanged"] = False

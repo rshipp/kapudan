@@ -15,7 +15,7 @@
 
 from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QMessageBox
-from PyKDE4.kdecore import i18n, KConfig
+from PyQt5.QtCore import QCoreApplication, QSettings
 
 import subprocess
 import os
@@ -24,7 +24,6 @@ import time
 
 from kapudan.screen import Screen
 from kapudan.screens.ui_scrSummary import Ui_summaryWidget
-from PyKDE4 import kdeui
 
 # import other widgets to get the latest configuration
 #import kapudan.screens.scrFolder as folderWidget
@@ -43,8 +42,8 @@ from kapudan.tools.repos import Repos
 
 
 class Widget(QtWidgets.QWidget, Screen):
-    title = i18n("Summary")
-    desc = i18n("Save Your Settings")
+    title = QCoreApplication.translate("kapudan", "Summary")
+    desc = QCoreApplication.translate("kapudan", "Save Your Settings")
 
     def __init__(self, *args):
         QtWidgets.QWidget.__init__(self, None)
@@ -69,118 +68,118 @@ class Widget(QtWidgets.QWidget, Screen):
         content += """<html><body><ul>"""
 
         # Mouse Settings
-        content += subject % i18n("Mouse Settings")
+        content += subject % QCoreApplication.translate("kapudan", "Mouse Settings")
 
-        content += (item % i18n("Selected Mouse configuration: <b>%s</b>") % self.mouseSettings["summaryMessage"]["selectedMouse"])
-        content += (item % i18n("Selected clicking behavior: <b>%s</b>") % self.mouseSettings["summaryMessage"]["clickBehavior"])
+        content += (item % QCoreApplication.translate("kapudan", "Selected Mouse configuration: <b>%s</b>") % self.mouseSettings["summaryMessage"]["selectedMouse"])
+        content += (item % QCoreApplication.translate("kapudan", "Selected clicking behavior: <b>%s</b>") % self.mouseSettings["summaryMessage"]["clickBehavior"])
         content += end
 
         # Menu Settings
-        content += (subject % i18n("Menu Settings"))
-        content += (item % i18n("Selected Menu: <b>%s</b>") % self.menuSettings["summaryMessage"])
+        content += (subject % QCoreApplication.translate("kapudan", "Menu Settings"))
+        content += (item % QCoreApplication.translate("kapudan", "Selected Menu: <b>%s</b>") % self.menuSettings["summaryMessage"])
         content += end
 
         # Wallpaper Settings
-        content += (subject % i18n("Wallpaper Settings"))
+        content += (subject % QCoreApplication.translate("kapudan", "Wallpaper Settings"))
         if not self.wallpaperSettings["hasChanged"]:
-            content += (item % i18n("You haven't selected any wallpaper."))
+            content += (item % QCoreApplication.translate("kapudan", "You haven't selected any wallpaper."))
         else:
-            content += (item % i18n("Selected Wallpaper: <b>%s</b>") % os.path.basename(str(self.wallpaperSettings["selectedWallpaper"])))
+            content += (item % QCoreApplication.translate("kapudan", "Selected Wallpaper: <b>%s</b>") % os.path.basename(str(self.wallpaperSettings["selectedWallpaper"])))
         content += end
 
         # Style Settings
-        content += (subject % i18n("Style Settings"))
+        content += (subject % QCoreApplication.translate("kapudan", "Style Settings"))
 
         if not self.styleSettings["hasChanged"]:
-            content += (item % i18n("You haven't selected any style."))
+            content += (item % QCoreApplication.translate("kapudan", "You haven't selected any style."))
         else:
-            content += (item % i18n("Selected Style: <b>%s</b>") % unicode(self.styleSettings["summaryMessage"]))
+            content += (item % QCoreApplication.translate("kapudan", "Selected Style: <b>%s</b>") % str(self.styleSettings["summaryMessage"]))
 
         content += end
 
         # Notifier Settings
         if self.packageSettings["hasChanged"]:
-            content += (subject % i18n("Package Management Settings"))
-            content += (item % i18n("You have enabled or disabled octopi-notifier."))
+            content += (subject % QCoreApplication.translate("kapudan", "Package Management Settings"))
+            content += (item % QCoreApplication.translate("kapudan", "You have enabled or disabled octopi-notifier."))
 
             content += end
 
         # Services Settings
         if self.servicesSettings["hasChanged"]:
             self.daemon = Daemon()
-            self.svctext = i18n("You have: ")
+            self.svctext = QCoreApplication.translate("kapudan", "You have: ")
             self.svcissset = False
-            content += (subject % i18n("Services Settings"))
+            content += (subject % QCoreApplication.translate("kapudan", "Services Settings"))
 
             if self.servicesSettings["enableCups"] and not self.daemon.isEnabled("org.cups.cupsd"):
-                self.svctext += i18n("enabled cups; ")
+                self.svctext += QCoreApplication.translate("kapudan", "enabled cups; ")
                 self.svcisset = True
             elif not self.servicesSettings["enableCups"] and self.daemon.isEnabled("org.cups.cupsd"):
-                self.svctext += i18n("disabled cups; ")
+                self.svctext += QCoreApplication.translate("kapudan", "disabled cups; ")
                 self.svcisset = True
             if self.servicesSettings["enableBluetooth"] and not self.daemon.isEnabled("bluetooth"):
-                self.svctext += i18n("enabled bluetooth; ")
+                self.svctext += QCoreApplication.translate("kapudan", "enabled bluetooth; ")
                 self.svcisset = True
             elif not self.servicesSettings["enableBluetooth"] and self.daemon.isEnabled("bluetooth"):
-                self.svctext += i18n("disabled bluetooth; ")
+                self.svctext += QCoreApplication.translate("kapudan", "disabled bluetooth; ")
                 self.svcisset = True
 
             #FIXME: when can this ever happen?
             if not self.svcisset:
-                self.svctext = i18n("You have made no changes.")
+                self.svctext = QCoreApplication.translate("kapudan", "You have made no changes.")
                 self.servicesSettings["hasChanged"] = False
 
-            content += (item % i18n(self.svctext))
+            content += (item % QCoreApplication.translate("kapudan", self.svctext))
 
             content += end
 
         # Security Settings
         if self.securitySettings["hasChanged"]:
             self.daemon = Daemon()
-            self.sectext = i18n("You have: ")
+            self.sectext = QCoreApplication.translate("kapudan", "You have: ")
             self.secisset = False
-            content += (subject % i18n("Security Settings"))
+            content += (subject % QCoreApplication.translate("kapudan", "Security Settings"))
 
             if self.securitySettings["enableClam"] and not self.daemon.isEnabled("clamd"):
-                self.sectext += i18n("enabled ClamAV; ")
+                self.sectext += QCoreApplication.translate("kapudan", "enabled ClamAV; ")
                 self.secisset = True
             elif not self.securitySettings["enableClam"] and self.daemon.isEnabled("clamd"):
-                self.sectext += i18n("disabled ClamAV; ")
+                self.sectext += QCoreApplication.translate("kapudan", "disabled ClamAV; ")
                 self.secisset = True
             if self.securitySettings["enableFire"] and not self.daemon.isEnabled("ufw"):
-                self.sectext += i18n("enabled the firewall; ")
+                self.sectext += QCoreApplication.translate("kapudan", "enabled the firewall; ")
                 self.secisset = True
             elif not self.securitySettings["enableFire"] and self.daemon.isEnabled("ufw"):
-                self.sectext += i18n("disabled the firewall; ")
+                self.sectext += QCoreApplication.translate("kapudan", "disabled the firewall; ")
                 self.secisset = True
 
             if not self.secisset:
-                self.sectext = i18n("You have made no changes.")
+                self.sectext = QCoreApplication.translate("kapudan", "You have made no changes.")
                 self.securitySettings["hasChanged"] = False
 
-            content += (item % i18n(self.sectext))
+            content += (item % QCoreApplication.translate("kapudan", self.sectext))
 
             content += end
 
         # Extra Settings
         if self.extraSettings["hasChanged"]:
             self.repos = Repos()
-            self.extratext = i18n("You have: ")
+            self.extratext = QCoreApplication.translate("kapudan", "You have: ")
             self.extraisset = False
-            content += (subject % i18n("Extra Settings"))
+            content += (subject % QCoreApplication.translate("kapudan", "Extra Settings"))
 
             if self.extraSettings["enableExtra"] and not self.repos.extraIsEnabled():
-                self.extratext += i18n("enabled the [extra] repo; ")
+                self.extratext += QCoreApplication.translate("kapudan", "enabled the [extra] repo; ")
                 self.extraisset = True
             elif not self.extraSettings["enableExtra"] and self.repos.extraIsEnabled():
-                self.extratext += i18n("disabled the [extra] repo; ")
+                self.extratext += QCoreApplication.translate("kapudan", "disabled the [extra] repo; ")
                 self.extraisset = True
 
             if not self.extraisset:
-                self.extratext = i18n("You have made no changes.")
+                self.extratext = QCoreApplication.translate("kapudan", "You have made no changes.")
                 self.extraSettings["hasChanged"] = False
 
-            content += (item % i18n(self.extratext))
+            content += (item % QCoreApplication.translate("kapudan", self.extratext))
 
             content += end
 
@@ -194,8 +193,9 @@ class Widget(QtWidgets.QWidget, Screen):
             self.startPlasma()
 
         except:
-            QMessageBox.critical(self, i18n("Error"), i18n("Cannot restart plasma-desktop. Kapudan will now shut down."))
-            kdeui.KApplication.kApplication().quit()
+            QMessageBox.critical(self, QCoreApplication.translate("kapudan", "Error"), QCoreApplication.translate("kapudan", "Cannot restart plasma-desktop. Kapudan will now shut down."))
+            #kdeui.KApplication.kApplication().quit()
+            exit()
 
     def startPlasma(self):
         subprocess.Popen(["plasma-desktop"], stdout=subprocess.PIPE)
@@ -208,7 +208,7 @@ class Widget(QtWidgets.QWidget, Screen):
         if self.wallpaperSettings["hasChanged"]:
             hasChanged = True
             if self.wallpaperSettings["selectedWallpaper"]:
-                config = KConfig("plasma-desktop-appletsrc")
+                config = QSettings("plasma-desktop-appletsrc")
                 group = config.group("Containments")
                 for each in list(group.groupList()):
                     subgroup = group.group(each)
@@ -221,7 +221,7 @@ class Widget(QtWidgets.QWidget, Screen):
         # Menu Settings
         if self.menuSettings["hasChanged"]:
             hasChanged = True
-            config = KConfig("plasma-desktop-appletsrc")
+            config = QSettings("plasma-desktop-appletsrc")
             group = config.group("Containments")
 
             for each in list(group.groupList()):
@@ -236,7 +236,7 @@ class Widget(QtWidgets.QWidget, Screen):
                             subg2.writeEntry('plugin', self.menuSettings["selectedMenu"])
 
         def removeFolderViewWidget():
-            config = KConfig("plasma-desktop-appletsrc")
+            config = QSettings("plasma-desktop-appletsrc")
 
             sub_lvl_0 = config.group("Containments")
 
@@ -256,7 +256,7 @@ class Widget(QtWidgets.QWidget, Screen):
         # Desktop Type
         if self.styleSettings["hasChangedDesktopType"]:
             hasChanged = True
-            config = KConfig("plasma-desktop-appletsrc")
+            config = QSettings("plasma-desktop-appletsrc")
             group = config.group("Containments")
 
             for each in list(group.groupList()):
@@ -283,14 +283,15 @@ class Widget(QtWidgets.QWidget, Screen):
         # Number of Desktops
         if self.styleSettings["hasChangedDesktopNumber"]:
             hasChanged = True
-            config = KConfig("kwinrc")
+            config = QSettings("kwinrc")
             group = config.group("Desktops")
             group.writeEntry('Number', self.styleSettings["desktopNumber"])
             group.sync()
 
-            info = kdeui.NETRootInfo(QtGui.QX11Info.display(), kdeui.NET.NumberOfDesktops | kdeui.NET.DesktopNames)
-            info.setNumberOfDesktops(int(self.styleSettings["desktopNumber"]))
-            info.activate()
+            # FIXME: 
+            #info = kdeui.NETRootInfo(QtGui.QX11Info.display(), kdeui.NET.NumberOfDesktops | kdeui.NET.DesktopNames)
+            #info.setNumberOfDesktops(int(self.styleSettings["desktopNumber"]))
+            #info.activate()
 
             session = dbus.SessionBus()
 
@@ -308,14 +309,15 @@ class Widget(QtWidgets.QWidget, Screen):
             except:
                 pass
 
-            for i in range(kdeui.KIconLoader.LastGroup):
-                kdeui.KGlobalSettings.self().emitChange(kdeui.KGlobalSettings.IconChanged, i)
+            # FIXME:
+            #for i in range(kdeui.KIconLoader.LastGroup):
+            #    kdeui.KGlobalSettings.self().emitChange(kdeui.KGlobalSettings.IconChanged, i)
 
         # Theme Settings
         if self.styleSettings["hasChanged"]:
 #            if self.styleSettings["iconChanged"]:
 #                hasChanged = True
-#                configKdeGlobals = KConfig("kdeglobals")
+#                configKdeGlobals = QSettings("kdeglobals")
 #                group = configKdeGlobals.group("General")
 #
 #                groupIconTheme = configKdeGlobals.group("Icons")
@@ -330,7 +332,7 @@ class Widget(QtWidgets.QWidget, Screen):
 
             if self.styleSettings["styleChanged"]:
                 hasChanged = True
-                configKdeGlobals = KConfig("kdeglobals")
+                configKdeGlobals = QSettings("kdeglobals")
                 group = configKdeGlobals.group("General")
                 group.writeEntry("widgetStyle", self.styleSettings["styleDetails"][unicode(self.styleSettings["styleName"])]["widgetStyle"])
 
@@ -340,13 +342,14 @@ class Widget(QtWidgets.QWidget, Screen):
 
                 configKdeGlobals.sync()
 
+                # FIXME:
                 # Change Icon theme
-                kdeui.KIconTheme.reconfigure()
-                kdeui.KIconCache.deleteCache()
+                #kdeui.KIconTheme.reconfigure()
+                #kdeui.KIconCache.deleteCache()
                 deleteIconCache()
 
-                for i in range(kdeui.KIconLoader.LastGroup):
-                    kdeui.KGlobalSettings.self().emitChange(kdeui.KGlobalSettings.IconChanged, i)
+                #for i in range(kdeui.KIconLoader.LastGroup):
+                #    kdeui.KGlobalSettings.self().emitChange(kdeui.KGlobalSettings.IconChanged, i)
 
                 # Change widget style & color
                 for key, value in self.styleSettings["styleDetails"][unicode(self.styleSettings["styleName"])]["colorScheme"].items():
@@ -355,14 +358,14 @@ class Widget(QtWidgets.QWidget, Screen):
                             colorGroup.writeEntry(str(key2), str(value2))
 
                 configKdeGlobals.sync()
-                kdeui.KGlobalSettings.self().emitChange(kdeui.KGlobalSettings.StyleChanged)
+                #kdeui.KGlobalSettings.self().emitChange(kdeui.KGlobalSettings.StyleChanged)
 
-                configPlasmaRc = KConfig("plasmarc")
+                configPlasmaRc = QSettings("plasmarc")
                 groupDesktopTheme = configPlasmaRc.group("Theme")
                 groupDesktopTheme.writeEntry("name", self.styleSettings["styleDetails"][unicode(self.styleSettings["styleName"])]["desktopTheme"])
                 configPlasmaRc.sync()
 
-                configPlasmaApplet = KConfig("plasma-desktop-appletsrc")
+                configPlasmaApplet = QSettings("plasma-desktop-appletsrc")
                 group = configPlasmaApplet.group("Containments")
                 for each in list(group.groupList()):
                     subgroup = group.group(each)
@@ -373,7 +376,7 @@ class Widget(QtWidgets.QWidget, Screen):
 
                 configPlasmaApplet.sync()
 
-                configKwinRc = KConfig("kwinrc")
+                configKwinRc = QSettings("kwinrc")
                 groupWindowDecoration = configKwinRc.group("Style")
                 groupWindowDecoration.writeEntry("PluginLib", self.styleSettings["styleDetails"][unicode(self.styleSettings["styleName"])]["windowDecoration"])
                 configKwinRc.sync()

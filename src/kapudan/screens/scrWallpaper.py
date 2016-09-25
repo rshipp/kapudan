@@ -16,10 +16,10 @@
 
 from PyQt5 import QtGui, QtWidgets
 from PyQt5.QtCore import QSize, QTranslator
-from PyQt5.QtGui import QFileDialog
+from PyQt5.QtWidgets import QFileDialog
 
 #from PyQt5.QtCore import *
-from PyKDE4.kdecore import i18n, KStandardDirs, KGlobal
+from PyQt5.QtCore import QCoreApplication
 import os
 
 from kapudan.screen import Screen
@@ -29,27 +29,30 @@ from kapudan.screens.wallpaperItem import WallpaperItemWidget
 from kapudan.tools.desktop_parser import DesktopParser
 
 
-class Widget(QtGui.QWidget, Screen):
+class Widget(QtWidgets.QWidget, Screen):
     screenSettings = {}
     screenSettings["hasChanged"] = False
 
     # title and description at the top of the dialog window
-    title = i18n("Wallpaper")
-    desc = i18n("Choose a Wallpaper")
+    title = QCoreApplication.translate("kapudan", "Wallpaper")
+    desc = QCoreApplication.translate("kapudan", "Choose a Wallpaper")
 
     def __init__(self, *args):
         QtWidgets.QWidget.__init__(self, None)
         self.ui = Ui_wallpaperWidget()
         self.ui.setupUi(self)
         # Get system locale
-        self.catLang = KGlobal.locale().language()
+        # FIXME:
+        self.catLang = 'en_US' #KGlobal.locale().language()
 
         # Get screen resolution
         # rect = QtGui.QDesktopWidget().screenGeometry() FIXME: where could
         # this be needed?
 
         # Get metadata.desktop files from shared wallpaper directory
-        lst = KStandardDirs().findAllResources("wallpaper", "*metadata.desktop", KStandardDirs.Recursive)
+        # FIXME
+        #lst = KStandardDirs().findAllResources("wallpaper", "*metadata.desktop", KStandardDirs.Recursive)
+        lst = []
 
         for desktopFiles in lst:
             parser = DesktopParser()
