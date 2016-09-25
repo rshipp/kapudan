@@ -13,7 +13,7 @@
 # Please read the COPYING file.
 #
 
-from PyQt5 import QtWidgets
+from PyQt5 import QtGui, QtWidgets
 from PyQt5.QtCore import QCoreApplication, QSettings
 
 from kapudan.screen import Screen
@@ -42,37 +42,37 @@ class Widget(QtWidgets.QWidget, Screen):
         self.menuNames["launcher"] = {
             "menuIndex": 0,
             "summaryMessage": QCoreApplication.translate("kapudan", "Kick-off Menu"),
-            "image": QtWidgets.QPixmap(':/raw/pixmap/kickoff.png'),
+            "image": QtGui.QPixmap(':/raw/pixmap/kickoff.png'),
             "description": QCoreApplication.translate("kapudan", "Kick-off menu is the default menu of Chakra.<br><br>The program shortcuts are easy to access and well organized.")
         }
         self.menuNames["simplelauncher"] = {
             "menuIndex": 1,
             "summaryMessage": QCoreApplication.translate("kapudan", "Simple Menu"),
-            "image": QtWidgets.QPixmap(':/raw/pixmap/simple.png'),
+            "image": QtGui.QPixmap(':/raw/pixmap/simple.png'),
             "description": QCoreApplication.translate("kapudan", "Simple menu is an old style menu from KDE 3.<br><br>It is a very lightweight menu thus it is recommended for slower PC's.")
         }
         self.menuNames["lancelot_launcher"] = {
             "menuIndex": 2,
             "summaryMessage": QCoreApplication.translate("kapudan", "Lancelot Menu"),
-            "image": QtWidgets.QPixmap(':/raw/pixmap/lancelot.png'),
+            "image": QtGui.QPixmap(':/raw/pixmap/lancelot.png'),
             "description": QCoreApplication.translate("kapudan", "Lancelot is an advanced and highly customizable menu for Chakra.<br><br>The program shortcuts are easy to access and well organized.")
         }
         self.menuNames["homerunlauncher"] = {
             "menuIndex": 3,
             "summaryMessage": QCoreApplication.translate("kapudan", "Homerun Menu"),
-            "image": QtWidgets.QPixmap(':/raw/pixmap/homerun.png'),
+            "image": QtGui.QPixmap(':/raw/pixmap/homerun.png'),
             "description": QCoreApplication.translate("kapudan", "Homerun is a full screen launcher with content organized in tabs.")
         }
         self.menuNames["appmenu-qml"] = {
             "menuIndex": 4,
             "summaryMessage": QCoreApplication.translate("kapudan", "AppMenu QML"),
-            "image": QtWidgets.QPixmap(':/raw/pixmap/appmenu-qml.png'),
+            "image": QtGui.QPixmap(':/raw/pixmap/appmenu-qml.png'),
             "description": QCoreApplication.translate("kapudan", "This plasmoid shows a menu of the installed applications, similar to Lancelot but much simpler")
         }
         self.menuNames["org.kde.homerun-kicker"] = {
             "menuIndex": 5,
             "summaryMessage": QCoreApplication.translate("kapudan", "Homerun Kicker"),
-            "image": QtWidgets.QPixmap(':/raw/pixmap/homerun-kicker.png'),
+            "image": QtGui.QPixmap(':/raw/pixmap/homerun-kicker.png'),
             "description": QCoreApplication.translate("kapudan", "A non-fullscreen version of Homerun.")
         }
 
