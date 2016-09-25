@@ -64,16 +64,16 @@ def centerWindow(window):
     width = 0
     height = 0
 
-    if rect.width <= 640:
+    if rect.width() <= 640:
         width = 620
-    elif rect.width <= 800:
+    elif rect.width() <= 800:
         width = 720
     else:
         width = 960
 
-    if rect.height <= 480:
+    if rect.height() <= 480:
         height = 450
-    elif rect.height <= 600:
+    elif rect.height() <= 600:
         height = 520
     else:
         height = 680
