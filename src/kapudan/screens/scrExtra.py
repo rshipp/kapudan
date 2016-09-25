@@ -28,7 +28,7 @@ isUpdateOn = False
 
 class Widget(QtWidgets.QWidget, Screen):
     title = QCoreApplication.translate("kapudan", "GTK")
-    desc = QCoreApplication.translate("kapudan", "GTK Integration and [extra]")
+    desc = QCoreApplication.translate("kapudan", "GTK Integration and [gtk]")
 
     screenSettings = {}
     screenSettings["hasChanged"] = False
