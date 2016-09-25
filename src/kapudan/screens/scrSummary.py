@@ -209,63 +209,67 @@ class Widget(QtWidgets.QWidget, Screen):
             hasChanged = True
             if self.wallpaperSettings["selectedWallpaper"]:
                 config = QSettings("plasma-desktop-appletsrc")
-                group = config.group("Containments")
-                for each in list(group.groupList()):
-                    subgroup = group.group(each)
-                    subcomponent = subgroup.readEntry('plugin')
-                    if subcomponent == 'desktop' or subcomponent == 'folderview':
-                        subg = subgroup.group('Wallpaper')
-                        subg_2 = subg.group('image')
-                        subg_2.writeEntry("wallpaper", self.wallpaperSettings["selectedWallpaper"])
+                # FIXME:
+                #group = config.group("Containments")
+                #for each in list(group.groupList()):
+                #    subgroup = group.group(each)
+                #    subcomponent = subgroup.readEntry('plugin')
+                #    if subcomponent == 'desktop' or subcomponent == 'folderview':
+                #        subg = subgroup.group('Wallpaper')
+                #        subg_2 = subg.group('image')
+                #        subg_2.writeEntry("wallpaper", self.wallpaperSettings["selectedWallpaper"])
 
         # Menu Settings
         if self.menuSettings["hasChanged"]:
             hasChanged = True
             config = QSettings("plasma-desktop-appletsrc")
-            group = config.group("Containments")
+            # FIXME
+            #group = config.group("Containments")
 
-            for each in list(group.groupList()):
-                subgroup = group.group(each)
-                subcomponent = subgroup.readEntry('plugin')
-                if subcomponent == 'panel':
-                    subg = subgroup.group('Applets')
-                    for i in list(subg.groupList()):
-                        subg2 = subg.group(i)
-                        launcher = subg2.readEntry('plugin')
-                        if str(launcher).find('launcher') >= 0:
-                            subg2.writeEntry('plugin', self.menuSettings["selectedMenu"])
+            #for each in list(group.groupList()):
+            #    subgroup = group.group(each)
+            #    subcomponent = subgroup.readEntry('plugin')
+            #    if subcomponent == 'panel':
+            #        subg = subgroup.group('Applets')
+            #        for i in list(subg.groupList()):
+            #            subg2 = subg.group(i)
+            #            launcher = subg2.readEntry('plugin')
+            #            if str(launcher).find('launcher') >= 0:
+            #                subg2.writeEntry('plugin', self.menuSettings["selectedMenu"])
 
         def removeFolderViewWidget():
             config = QSettings("plasma-desktop-appletsrc")
 
-            sub_lvl_0 = config.group("Containments")
+            # FIXME
+            #sub_lvl_0 = config.group("Containments")
 
-            for sub in list(sub_lvl_0.groupList()):
-                sub_lvl_1 = sub_lvl_0.group(sub)
+            #for sub in list(sub_lvl_0.groupList()):
+            #    sub_lvl_1 = sub_lvl_0.group(sub)
 
-                if sub_lvl_1.hasGroup("Applets"):
-                    sub_lvl_2 = sub_lvl_1.group("Applets")
+            #    if sub_lvl_1.hasGroup("Applets"):
+            #        sub_lvl_2 = sub_lvl_1.group("Applets")
 
-                    for sub2 in list(sub_lvl_2.groupList()):
-                        sub_lvl_3 = sub_lvl_2.group(sub2)
-                        plugin = sub_lvl_3.readEntry('plugin')
+            #        for sub2 in list(sub_lvl_2.groupList()):
+            #            sub_lvl_3 = sub_lvl_2.group(sub2)
+            #            plugin = sub_lvl_3.readEntry('plugin')
 
-                        if plugin == 'folderview':
-                            sub_lvl_3.deleteGroup()
+            #            if plugin == 'folderview':
+            #                sub_lvl_3.deleteGroup()
 
         # Desktop Type
         if self.styleSettings["hasChangedDesktopType"]:
             hasChanged = True
             config = QSettings("plasma-desktop-appletsrc")
-            group = config.group("Containments")
+            # FIXME
+            #group = config.group("Containments")
 
-            for each in list(group.groupList()):
-                subgroup = group.group(each)
-                subcomponent = subgroup.readEntry('plugin')
-                subcomponent2 = subgroup.readEntry('screen')
-                if subcomponent == 'desktop' or subcomponent == 'folderview':
-                    if int(subcomponent2) == 0:
-                        subgroup.writeEntry('plugin', self.styleSettings["desktopType"])
+            #for each in list(group.groupList()):
+            #    subgroup = group.group(each)
+            #    subcomponent = subgroup.readEntry('plugin')
+            #    subcomponent2 = subgroup.readEntry('screen')
+            #    if subcomponent == 'desktop' or subcomponent == 'folderview':
+            #        if int(subcomponent2) == 0:
+            #            subgroup.writeEntry('plugin', self.styleSettings["desktopType"])
 
             # Remove folder widget - normally this would be done over dbus but thanks to improper naming of the plasma interface
             # this is not possible
@@ -284,9 +288,10 @@ class Widget(QtWidgets.QWidget, Screen):
         if self.styleSettings["hasChangedDesktopNumber"]:
             hasChanged = True
             config = QSettings("kwinrc")
-            group = config.group("Desktops")
-            group.writeEntry('Number', self.styleSettings["desktopNumber"])
-            group.sync()
+            # FIXME
+            #group = config.group("Desktops")
+            #group.writeEntry('Number', self.styleSettings["desktopNumber"])
+            #group.sync()
 
             # FIXME: 
             #info = kdeui.NETRootInfo(QtGui.QX11Info.display(), kdeui.NET.NumberOfDesktops | kdeui.NET.DesktopNames)
@@ -333,8 +338,9 @@ class Widget(QtWidgets.QWidget, Screen):
             if self.styleSettings["styleChanged"]:
                 hasChanged = True
                 configKdeGlobals = QSettings("kdeglobals")
-                group = configKdeGlobals.group("General")
-                group.writeEntry("widgetStyle", self.styleSettings["styleDetails"][str(self.styleSettings["styleName"])]["widgetStyle"])
+                # FIXME
+                #group = configKdeGlobals.group("General")
+                #group.writeEntry("widgetStyle", self.styleSettings["styleDetails"][str(self.styleSettings["styleName"])]["widgetStyle"])
 
                 #groupIconTheme = configKdeGlobals.group("Icons")
                 #groupIconTheme.writeEntry("Theme", self.styleSettings["iconTheme"])
@@ -361,24 +367,27 @@ class Widget(QtWidgets.QWidget, Screen):
                 #kdeui.KGlobalSettings.self().emitChange(kdeui.KGlobalSettings.StyleChanged)
 
                 configPlasmaRc = QSettings("plasmarc")
-                groupDesktopTheme = configPlasmaRc.group("Theme")
-                groupDesktopTheme.writeEntry("name", self.styleSettings["styleDetails"][str(self.styleSettings["styleName"])]["desktopTheme"])
+                # FIXME
+                #groupDesktopTheme = configPlasmaRc.group("Theme")
+                #groupDesktopTheme.writeEntry("name", self.styleSettings["styleDetails"][str(self.styleSettings["styleName"])]["desktopTheme"])
                 configPlasmaRc.sync()
 
                 configPlasmaApplet = QSettings("plasma-desktop-appletsrc")
-                group = configPlasmaApplet.group("Containments")
-                for each in list(group.groupList()):
-                    subgroup = group.group(each)
-                    subcomponent = subgroup.readEntry('plugin')
-                    if subcomponent == 'panel':
-                        #print subcomponent
-                        subgroup.writeEntry('location', self.styleSettings["styleDetails"][str(self.styleSettings["styleName"])]["panelPosition"])
+                # FIXME
+                #group = configPlasmaApplet.group("Containments")
+                #for each in list(group.groupList()):
+                #    subgroup = group.group(each)
+                #    subcomponent = subgroup.readEntry('plugin')
+                #    if subcomponent == 'panel':
+                #        #print subcomponent
+                #        subgroup.writeEntry('location', self.styleSettings["styleDetails"][str(self.styleSettings["styleName"])]["panelPosition"])
 
                 configPlasmaApplet.sync()
 
                 configKwinRc = QSettings("kwinrc")
-                groupWindowDecoration = configKwinRc.group("Style")
-                groupWindowDecoration.writeEntry("PluginLib", self.styleSettings["styleDetails"][str(self.styleSettings["styleName"])]["windowDecoration"])
+                # FIXME
+                #groupWindowDecoration = configKwinRc.group("Style")
+                #groupWindowDecoration.writeEntry("PluginLib", self.styleSettings["styleDetails"][str(self.styleSettings["styleName"])]["windowDecoration"])
                 configKwinRc.sync()
 
             session = dbus.SessionBus()

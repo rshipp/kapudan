@@ -35,7 +35,8 @@ class Widget(QtWidgets.QWidget, Screen):
 
         # read default menu style first
         config = QSettings("plasma-desktop-appletsrc")
-        group = config.group("Containments")
+        # FIXME
+        #group = config.group("Containments")
 
         self.menuNames = {}
         self.menuNames["launcher"] = {
@@ -75,16 +76,17 @@ class Widget(QtWidgets.QWidget, Screen):
             "description": QCoreApplication.translate("kapudan", "A non-fullscreen version of Homerun.")
         }
 
-        for each in list(group.groupList()):
-            subgroup = group.group(each)
-            subcomponent = subgroup.readEntry('plugin')
-            if subcomponent == 'panel':
-                subg = subgroup.group('Applets')
-                for i in list(subg.groupList()):
-                    subg2 = subg.group(i)
-                    launcher = subg2.readEntry('plugin')
-                    if str(launcher).find('launcher') >= 0:
-                        self.__class__.screenSettings["selectedMenu"] = subg2.readEntry('plugin')
+        # FIXME:
+        #for each in list(group.groupList()):
+        #    subgroup = group.group(each)
+        #    subcomponent = subgroup.readEntry('plugin')
+        #    if subcomponent == 'panel':
+        #        subg = subgroup.group('Applets')
+        #        for i in list(subg.groupList()):
+        #            subg2 = subg.group(i)
+        #            launcher = subg2.readEntry('plugin')
+        #            if str(launcher).find('launcher') >= 0:
+        #                self.__class__.screenSettings["selectedMenu"] = subg2.readEntry('plugin')
 
         # set menu preview to default menu
         # if default menu could not found, default to kickoff

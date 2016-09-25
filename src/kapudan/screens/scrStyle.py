@@ -49,10 +49,11 @@ class Widget(QtWidgets.QWidget, Screen):
         self.catLang = 'en_US' #KGlobal.locale().language()
 
         config = QSettings("kwinrc")
-        group = config.group("Desktops")
-        defaultDesktopNumber = int(group.readEntry('Number'))
+        # FIXME:
+        #group = config.group("Desktops")
+        #defaultDesktopNumber = int(group.readEntry('Number'))
 
-        self.ui.spinBoxDesktopNumbers.setValue(defaultDesktopNumber)
+        #self.ui.spinBoxDesktopNumbers.setValue(defaultDesktopNumber)
         lst2 = glob.glob1("/usr/share/kde4/apps/kapudan/kapudan/kde-themes", "*.style")
 # Uncomment for local testing
 #        lst2 = glob.glob1("data/kde-themes", "*.style")

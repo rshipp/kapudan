@@ -87,8 +87,9 @@ class Config:
         self.group = None
 
     def setValue(self, option, value):
-        self.group = self.config.group("General")
-        self.group.writeEntry(option, value)
+        # FIXME:
+        #self.group = self.config.group("General")
+        #self.group.writeEntry(option, value)
         self.config.sync()
 
 
