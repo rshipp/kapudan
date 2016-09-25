@@ -15,7 +15,7 @@
 
 from PyQt5 import QtWidgets
 from PyQt5.QtCore import QSize
-from PyQt5.QtCore import QCoreApplication, QSettings
+from PyQt5.QtCore import QCoreApplication, QSettings, QLocale
 
 import os
 import glob
@@ -45,8 +45,8 @@ class Widget(QtWidgets.QWidget, Screen):
         self.ui.setupUi(self)
 
         self.styleDetails = {}
-        # FIXME:
-        self.catLang = 'en_US' #KGlobal.locale().language()
+        # Get system locale
+        self.catLang = QLocale.system().name()
 
         config = QSettings("kwinrc")
         # FIXME:

@@ -43,9 +43,7 @@ class Widget(QtWidgets.QWidget, Screen):
         self.ui = Ui_wallpaperWidget()
         self.ui.setupUi(self)
         # Get system locale
-        # FIXME:
         self.catLang = QLocale.system().name()
-        #'en_US' #KGlobal.locale().language()
 
         # Get screen resolution
         # rect = QtGui.QDesktopWidget().screenGeometry() FIXME: where could
