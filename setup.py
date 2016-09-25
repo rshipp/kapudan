@@ -25,7 +25,6 @@ from distutils.cmd import Command
 from distutils.command.build import build
 from distutils.command.install import install
 
-
 def update_messages():
     # Create empty directory
     shutil.rmtree(".tmp", True)
@@ -173,12 +172,12 @@ if "update_messages" in sys.argv:
 
 setup(
     name="Kapudan",
-    version="2015.04",
+    version="2016.09.01",
     description="Chakra's desktop greeter, a fork of Pardus's Kaptan.",
     license="GPL",
-    author="(c) 2015 The Chakra Developers",
+    author="(c) 2016 The Chakra Developers",
     author_email="chakra-devel@googlegroups.com",
-    url="http://gitorious.org/chakra/kapudan",
+    url="https://chakralinux.org/code/kapudan.git/",
     packages=[''],
     package_dir={'': ''},
     data_files=[],
