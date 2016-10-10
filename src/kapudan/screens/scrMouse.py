@@ -79,10 +79,12 @@ class Widget(QtWidgets.QWidget, Screen):
     def updateClickBehavior(self):
         """True is Single Click, False is Double Click"""
         self.singleClick = self.ui.singleClick.isChecked()
+        self.__class__.screenSettings["hasChanged"] = True
 
     def updateHandedness(self):
         self.handedness = RIGHT_HANDED if self.ui.radioButtonRightHand.isChecked() else LEFT_HANDED
         self.reverseScroll = self.ui.checkReverse.isChecked()
+        self.__class__.screenSettings["hasChanged"] = True
 
     # Screen methods
     def shown(self):
