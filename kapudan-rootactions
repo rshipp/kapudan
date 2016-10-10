@@ -93,20 +93,6 @@ disable_fire() {
     echo "  Done."
 }
 
-enable_extra() {
-    echo " Enabling the [extra] repo..."
-    enable_repo extra
-    pacman -Sy
-    echo "  Done."
-}
-
-disable_extra() {
-    echo " Disabling the [extra] repo..."
-    disable_repo extra
-    pacman -Sy
-    echo "  Done."
-}
-
 if ! [[ $UID == 0 || $EUID == 0 ]]; then
     # not root
     echo "must be root"
@@ -124,8 +110,6 @@ echo "$@" | grep -q "enable_clam"  && enable_clam
 echo "$@" | grep -q "disable_clam" && disable_clam
 echo "$@" | grep -q "enable_fire"  && enable_fire
 echo "$@" | grep -q "disable_fire" && disable_fire
-echo "$@" | grep -q "enable_extra"  && enable_extra
-echo "$@" | grep -q "disable_extra" && disable_extra
 
 # all done
 echo "All done!"

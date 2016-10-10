@@ -34,7 +34,6 @@ import kapudan.screens.scrMenu as menuWidget
 import kapudan.screens.scrPackage as packageWidget
 import kapudan.screens.scrServices as servicesWidget
 import kapudan.screens.scrSecurity as securityWidget
-import kapudan.screens.scrExtra as extraWidget
 
 #from kapudan.tools import tools
 from kapudan.tools.daemon import Daemon
@@ -58,7 +57,6 @@ class Widget(QtWidgets.QWidget, Screen):
         self.packageSettings = packageWidget.Widget.screenSettings
         self.servicesSettings = servicesWidget.Widget.screenSettings
         self.securitySettings = securityWidget.Widget.screenSettings
-        self.extraSettings = extraWidget.Widget.screenSettings
 
         subject = "<p><li><b>%s</b></li><ul>"
         item = "<li>%s</li>"
@@ -158,28 +156,6 @@ class Widget(QtWidgets.QWidget, Screen):
                 self.securitySettings["hasChanged"] = False
 
             content += (item % QCoreApplication.translate("kapudan", self.sectext))
-
-            content += end
-
-        # Extra Settings
-        if self.extraSettings["hasChanged"]:
-            self.repos = Repos()
-            self.extratext = QCoreApplication.translate("kapudan", "You have: ")
-            self.extraisset = False
-            content += (subject % QCoreApplication.translate("kapudan", "Extra Settings"))
-
-            if self.extraSettings["enableExtra"] and not self.repos.extraIsEnabled():
-                self.extratext += QCoreApplication.translate("kapudan", "enabled the [extra] repo; ")
-                self.extraisset = True
-            elif not self.extraSettings["enableExtra"] and self.repos.extraIsEnabled():
-                self.extratext += QCoreApplication.translate("kapudan", "disabled the [extra] repo; ")
-                self.extraisset = True
-
-            if not self.extraisset:
-                self.extratext = QCoreApplication.translate("kapudan", "You have made no changes.")
-                self.extraSettings["hasChanged"] = False
-
-            content += (item % QCoreApplication.translate("kapudan", self.extratext))
 
             content += end
 
@@ -426,13 +402,6 @@ class Widget(QtWidgets.QWidget, Screen):
                 rootActions += "enable_fire "
             elif not self.securitySettings["enableFire"] and self.daemon.isEnabled("ufw"):
                 rootActions += "disable_fire "
-
-        # Extra Settings
-        if self.extraSettings["hasChanged"]:
-            if self.extraSettings["enableExtra"]:
-                rootActions += "enable_extra "
-            else:
-                rootActions += "disable_extra "
 
         if hasChanged:
             self.killPlasma()
