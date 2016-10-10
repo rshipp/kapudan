@@ -37,7 +37,6 @@ import kapudan.screens.scrSecurity as securityWidget
 
 #from kapudan.tools import tools
 from kapudan.tools.daemon import Daemon
-from kapudan.tools.repos import Repos
 
 
 class Widget(QtWidgets.QWidget, Screen):
