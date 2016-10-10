@@ -244,7 +244,7 @@ border-top-right-radius: 4px;</string>
              </spacer>
             </item>
             <item row="3" column="0">
-             <widget class="QRadioButton" name="DoubleClick">
+             <widget class="QRadioButton" name="doubleClick">
               <property name="sizePolicy">
                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                 <horstretch>0</horstretch>
