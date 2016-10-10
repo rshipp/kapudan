@@ -226,10 +226,10 @@ if __name__ == "__main__":
     version = "2013.02"
     description = QtCore.QCoreApplication.translate("kapudan", "Kapudan lets you configure your Chakra installation at first boot.")
     #license = KAboutData.License_GPL
-    copyright = QtCore.QCoreApplication.translate("kapudan", "(c) 2013 The Chakra Developers")
+    copyright = QtCore.QCoreApplication.translate("kapudan", "(c) 2013-2016 The Chakra Developers")
     text = QtCore.QCoreApplication.translate("kapudan", "none")
-    homePage = "http://gitorious.org/chakra/kapudan"
-    bugEmail = "george@chakra-project.org"
+    homePage = "https://chakralinux.org/code/kapudan.git"
+    bugEmail = "george@chakralinux.org"
 
     #aboutData = KAboutData(appName, catalog, programName, version, description,
     #                       license, copyright, text, homePage, bugEmail)

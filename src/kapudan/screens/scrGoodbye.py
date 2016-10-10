@@ -37,13 +37,13 @@ class Widget(QtWidgets.QWidget, Screen):
 
         lang = 'en_US' #KGlobal.locale().language()
         if lang in ["de", "el", "es", "it", "uz"]:
-            self.helpPageUrl = "http://chakraos.org/wiki/index.php?title=Help/" + lang
+            self.helpPageUrl = "https://chakralinux.org/wiki/index.php?title=Help/" + lang
         else:
-            self.helpPageUrl = "http://chakraos.org/wiki/index.php?title=Help"
+            self.helpPageUrl = "https://chakralinux.org/wiki/index.php?title=Help"
         if lang in ["de", "es", "eu", "fr", "it", "pl", "pt-br", "sv", "ru", "uz", "zh-hant"]:
-            self.beginnersGuideUrl = "http://chakraos.org/wiki/index.php?title=Beginner's_Guide/" + lang
+            self.beginnersGuideUrl = "https://chakralinux.org/wiki/index.php?title=Beginner's_Guide/" + lang
         else:
-            self.beginnersGuideUrl = "http://chakraos.org/wiki/index.php?title=Beginner's_Guide"
+            self.beginnersGuideUrl = "https://chakralinux.org/wiki/index.php?title=Beginner's_Guide"
 
         self.autofile = os.path.expanduser("~/.config/autostart/kapudan.desktop")
         self.gautofile = "/usr/share/kde4/apps/kapudan/kapudan/kapudan-autostart.desktop"
