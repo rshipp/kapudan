@@ -4,7 +4,7 @@ A fork of Pardus's "Kaptan", for Chakra.
 
 ## License
 
-GPLv2 (please read the COPYING file)
+GPLv3 (please read the LICENSE file)
 
 ## Dependencies
 
