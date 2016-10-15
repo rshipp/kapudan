@@ -28,21 +28,21 @@ class Widget(QtWidgets.QWidget, Screen):
         self.menuNames = {}
         self.menuNames[MENU_KICKOFF] = {
             "menuIndex": 0,
-            "summaryMessage": QCoreApplication.translate("kapudan", "Kick-off Menu"),
+            "summaryMessage": QCoreApplication.translate("kapudan", "Application Launcher"),
             "image": QtGui.QPixmap(':/raw/pixmap/kickoff.png'),
-            "description": QCoreApplication.translate("kapudan", "Kick-off menu is the default menu of Chakra.<br><br>The program shortcuts are easy to access and well organized.")
+            "description": QCoreApplication.translate("kapudan", "Application Launcher is the default menu in Chakra.<br><br>The program shortcuts are easy to access and well organized.")
         }
         self.menuNames[MENU_KICKER] = {
             "menuIndex": 1,
-            "summaryMessage": QCoreApplication.translate("kapudan", "Simple Menu"),
+            "summaryMessage": QCoreApplication.translate("kapudan", "Application Menu"),
             "image": QtGui.QPixmap(':/raw/pixmap/simple.png'),
-            "description": QCoreApplication.translate("kapudan", "Simple menu is an old style menu from KDE 3.<br><br>It is a very lightweight menu thus it is recommended for slower PC's.")
+            "description": QCoreApplication.translate("kapudan", "Application Menu is an old style menu from KDE 3.<br><br>It is a very lightweight menu thus it is recommended for slower PC's.")
         }
         self.menuNames[MENU_KICKERDASH] = {
             "menuIndex": 2,
-            "summaryMessage": QCoreApplication.translate("kapudan", "Application menu"),
+            "summaryMessage": QCoreApplication.translate("kapudan", "Application Dashboard"),
             "image": QtGui.QPixmap(':/raw/pixmap/homerun-kicker.png'),
-            "description": QCoreApplication.translate("kapudan", "A fullscreen menu.")
+            "description": QCoreApplication.translate("kapudan", "Application Dashboard is a fullscreen menu.<br><br>The program shortcuts are easy to access and well organized.")
         }
 
         self.ui.pictureMenuStyles.setPixmap(self.menuNames[self.selectedMenu]["image"])

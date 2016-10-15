@@ -134,17 +134,17 @@ QPushButton::flat:pressed{
      </property>
      <item>
       <property name="text">
-       <string>Kick-off Menu</string>
+       <string>Application Launcher</string>
       </property>
      </item>
      <item>
       <property name="text">
-       <string>Kicker Menu</string>
+       <string>Application Menu</string>
       </property>
      </item>
      <item>
       <property name="text">
-       <string>Kicker dash Menu</string>
+       <string>Application Dashboard</string>
       </property>
      </item>
     </widget>
