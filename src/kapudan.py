@@ -39,8 +39,7 @@ class Kapudan(QtWidgets.QWidget):
         self.ui.buttonApply.clicked.connect(self.slotNext)
         self.ui.buttonBack.clicked.connect(self.slotBack)
         self.ui.buttonFinish.clicked.connect(self.slotCleanup)
-        # FIXME:
-        self.ui.buttonCancel.clicked.connect(exit)
+        self.ui.buttonCancel.clicked.connect(QtCore.QCoreApplication.exit)
 
     def initializeUI(self):
         ''' initializes the human interface '''

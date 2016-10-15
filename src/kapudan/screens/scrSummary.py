@@ -144,8 +144,7 @@ class Widget(QtWidgets.QWidget, Screen):
 
         except:
             QMessageBox.critical(self, QCoreApplication.translate("kapudan", "Error"), QCoreApplication.translate("kapudan", "Cannot restart plasma-desktop. Kapudan will now shut down."))
-            #kdeui.KApplication.kApplication().quit()
-            exit()
+            QCoreApplication.exit()
 
     def startPlasma(self):
         subprocess.Popen(["plasma-desktop"], stdout=subprocess.PIPE)
