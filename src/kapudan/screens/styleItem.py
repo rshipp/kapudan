@@ -1,24 +1,8 @@
 #!/usr/bin/python
-# -*- coding: utf-8 -*-
-#
-# Copyright (C) 2012, The Chakra Developers
-#
-# This is a fork of Pardus's Kaptan, which is
-# Copyright (C) 2009, TUBITAK/UEKAE
-#
-# This program is free software; you can redistribute it and/or modify it under
-# the terms of the GNU General Public License as published by the Free
-# Software Foundation; either version 2 of the License, or (at your option)
-# any later version.
-#
-# Please read the COPYING file.
-#
 
-# Qt Stuff
 from PyQt5 import QtGui, QtWidgets
 from PyQt5.QtCore import *
 
-# Application Stuff
 from kapudan.screens.ui_scrStyleItem import Ui_StyleItemWidget
 
 class StyleItemWidget(QtWidgets.QWidget):

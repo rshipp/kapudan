@@ -29,8 +29,6 @@
 from configparser import ConfigParser
 
 # Private
-
-
 def _localize(option, locale):
     if locale:
         option = option + '[%s]' % locale
