@@ -139,27 +139,12 @@ QPushButton::flat:pressed{
      </item>
      <item>
       <property name="text">
-       <string>Simple Menu</string>
+       <string>Kicker Menu</string>
       </property>
      </item>
      <item>
       <property name="text">
-       <string>Lancelot Menu</string>
-      </property>
-     </item>
-     <item>
-      <property name="text">
-       <string>Homerun Menu</string>
-      </property>
-     </item>
-     <item>
-      <property name="text">
-       <string>AppMenu QML</string>
-      </property>
-     </item>
-     <item>
-      <property name="text">
-       <string>Homerun Kicker</string>
+       <string>Kicker dash Menu</string>
       </property>
      </item>
     </widget>
