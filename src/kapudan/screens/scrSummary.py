@@ -53,7 +53,7 @@ class Widget(QtWidgets.QWidget, Screen):
         content += subject % QCoreApplication.translate("kapudan", "Mouse Settings")
 
         content += (item % QCoreApplication.translate("kapudan", "Selected Mouse configuration: <b>%s</b>") % self.mouseSettings["summaryMessage"]["selectedMouse"])
-        content += (item % QCoreApplication.translate("kapudan", "Selected clicking behavior: <b>%s</b>") % self.mouseSettings["summaryMessage"]["clickBehavior"])
+        content += (item % QCoreApplication.translate("kapudan", "Selected clicking behavior: <b>%s</b>") % self.mouseSettings["summaryMessage"]["singleClick"])
         content += end
 
         # Menu Settings
