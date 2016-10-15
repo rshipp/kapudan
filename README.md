@@ -1,6 +1,7 @@
 # Kapudan
 
-A fork of Pardus's "Kaptan", for Chakra.
+Graphical first-boot configuration tool. A fork of Pardus's "Kaptan", for
+Chakra.
 
 ## License
 
