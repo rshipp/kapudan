@@ -51,7 +51,7 @@ class Kapudan(QtWidgets.QWidget):
         tools.loadScreens(self.screensPath, globals())
 
         # kapudan screen settings
-        self.headScreens = [scrWelcome, scrFolder, scrMouse, scrStyle, scrMenu, scrWallpaper]
+        self.headScreens = [scrWelcome, scrFolder, scrMouse, scrMenu, scrWallpaper]
         self.tailScreens = [scrSummary, scrGoodbye]
         self.screens = self.screenOrganizer(self.headScreens, self.tailScreens)
 

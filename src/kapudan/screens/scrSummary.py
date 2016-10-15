@@ -16,7 +16,6 @@ from kapudan.screens.ui_scrSummary import Ui_summaryWidget
 #import kapudan.screens.scrFolder as folderWidget
 import kapudan.screens.scrWallpaper as wallpaperWidget
 import kapudan.screens.scrMouse as mouseWidget
-import kapudan.screens.scrStyle as styleWidget
 import kapudan.screens.scrMenu as menuWidget
 import kapudan.screens.scrPackage as packageWidget
 import kapudan.screens.scrServices as servicesWidget
@@ -39,7 +38,6 @@ class Widget(QtWidgets.QWidget, Screen):
         self.wallpaperSettings = wallpaperWidget.Widget.screenSettings
         self.mouseSettings = mouseWidget.Widget.screenSettings
         self.menuSettings = menuWidget.Widget.screenSettings
-        self.styleSettings = styleWidget.Widget.screenSettings
         self.packageSettings = packageWidget.Widget.screenSettings
         self.servicesSettings = servicesWidget.Widget.screenSettings
         self.securitySettings = securityWidget.Widget.screenSettings
@@ -69,16 +67,6 @@ class Widget(QtWidgets.QWidget, Screen):
             content += (item % QCoreApplication.translate("kapudan", "You haven't selected any wallpaper."))
         else:
             content += (item % QCoreApplication.translate("kapudan", "Selected Wallpaper: <b>%s</b>") % os.path.basename(str(self.wallpaperSettings["selectedWallpaper"])))
-        content += end
-
-        # Style Settings
-        content += (subject % QCoreApplication.translate("kapudan", "Style Settings"))
-
-        if not self.styleSettings["hasChanged"]:
-            content += (item % QCoreApplication.translate("kapudan", "You haven't selected any style."))
-        else:
-            content += (item % QCoreApplication.translate("kapudan", "Selected Style: <b>%s</b>") % str(self.styleSettings["summaryMessage"]))
-
         content += end
 
         # Notifier Settings
@@ -169,196 +157,10 @@ class Widget(QtWidgets.QWidget, Screen):
         # Wallpaper Settings
         if self.wallpaperSettings["hasChanged"]:
             hasChanged = True
-            if self.wallpaperSettings["selectedWallpaper"]:
-                config = QSettings("plasma-desktop-appletsrc")
-                # FIXME:
-                #group = config.group("Containments")
-                #for each in list(group.groupList()):
-                #    subgroup = group.group(each)
-                #    subcomponent = subgroup.readEntry('plugin')
-                #    if subcomponent == 'desktop' or subcomponent == 'folderview':
-                #        subg = subgroup.group('Wallpaper')
-                #        subg_2 = subg.group('image')
-                #        subg_2.writeEntry("wallpaper", self.wallpaperSettings["selectedWallpaper"])
 
         # Menu Settings
         if self.menuSettings["hasChanged"]:
             hasChanged = True
-            config = QSettings("plasma-desktop-appletsrc")
-            # FIXME
-            #group = config.group("Containments")
-
-            #for each in list(group.groupList()):
-            #    subgroup = group.group(each)
-            #    subcomponent = subgroup.readEntry('plugin')
-            #    if subcomponent == 'panel':
-            #        subg = subgroup.group('Applets')
-            #        for i in list(subg.groupList()):
-            #            subg2 = subg.group(i)
-            #            launcher = subg2.readEntry('plugin')
-            #            if str(launcher).find('launcher') >= 0:
-            #                subg2.writeEntry('plugin', self.menuSettings["selectedMenu"])
-
-        def removeFolderViewWidget():
-            config = QSettings("plasma-desktop-appletsrc")
-
-            # FIXME
-            #sub_lvl_0 = config.group("Containments")
-
-            #for sub in list(sub_lvl_0.groupList()):
-            #    sub_lvl_1 = sub_lvl_0.group(sub)
-
-            #    if sub_lvl_1.hasGroup("Applets"):
-            #        sub_lvl_2 = sub_lvl_1.group("Applets")
-
-            #        for sub2 in list(sub_lvl_2.groupList()):
-            #            sub_lvl_3 = sub_lvl_2.group(sub2)
-            #            plugin = sub_lvl_3.readEntry('plugin')
-
-            #            if plugin == 'folderview':
-            #                sub_lvl_3.deleteGroup()
-
-        # Desktop Type
-        if self.styleSettings["hasChangedDesktopType"]:
-            hasChanged = True
-            config = QSettings("plasma-desktop-appletsrc")
-            # FIXME
-            #group = config.group("Containments")
-
-            #for each in list(group.groupList()):
-            #    subgroup = group.group(each)
-            #    subcomponent = subgroup.readEntry('plugin')
-            #    subcomponent2 = subgroup.readEntry('screen')
-            #    if subcomponent == 'desktop' or subcomponent == 'folderview':
-            #        if int(subcomponent2) == 0:
-            #            subgroup.writeEntry('plugin', self.styleSettings["desktopType"])
-
-            # Remove folder widget - normally this would be done over dbus but thanks to improper naming of the plasma interface
-            # this is not possible
-            # ValueError: Invalid interface or error name 'org.kde.plasma-desktop': contains invalid character '-'
-            #
-            # Related Bug:
-            # Bug 240358 - Invalid D-BUS interface name 'org.kde.plasma-desktop.PlasmaApp' found while parsing introspection
-            # https://bugs.kde.org/show_bug.cgi?id=240358
-
-            if self.styleSettings["desktopType"] == "folderview":
-                removeFolderViewWidget()
-
-            config.sync()
-
-        # Number of Desktops
-        if self.styleSettings["hasChangedDesktopNumber"]:
-            hasChanged = True
-            config = QSettings("kwinrc")
-            # FIXME
-            #group = config.group("Desktops")
-            #group.writeEntry('Number', self.styleSettings["desktopNumber"])
-            #group.sync()
-
-            # FIXME: 
-            #info = kdeui.NETRootInfo(QtGui.QX11Info.display(), kdeui.NET.NumberOfDesktops | kdeui.NET.DesktopNames)
-            #info.setNumberOfDesktops(int(self.styleSettings["desktopNumber"]))
-            #info.activate()
-
-            session = dbus.SessionBus()
-
-            try:
-                proxy = session.get_object('org.kde.kwin', '/KWin')
-                proxy.reconfigure()
-            except dbus.DBusException:
-                pass
-
-            config.sync()
-
-        def deleteIconCache():
-            try:
-                os.remove("/var/tmp/kdecache-%s/icon-cache.kcache" % os.environ.get("USER"))
-            except:
-                pass
-
-            # FIXME:
-            #for i in range(kdeui.KIconLoader.LastGroup):
-            #    kdeui.KGlobalSettings.self().emitChange(kdeui.KGlobalSettings.IconChanged, i)
-
-        # Theme Settings
-        if self.styleSettings["hasChanged"]:
-#            if self.styleSettings["iconChanged"]:
-#                hasChanged = True
-#                configKdeGlobals = QSettings("kdeglobals")
-#                group = configKdeGlobals.group("General")
-#
-#                groupIconTheme = configKdeGlobals.group("Icons")
-#                groupIconTheme.writeEntry("Theme", self.styleSettings["iconTheme"])
-#
-#                configKdeGlobals.sync()
-#
-#                # Change Icon theme
-#                kdeui.KIconTheme.reconfigure()
-#                kdeui.KIconCache.deleteCache()
-#                deleteIconCache()
-
-            if self.styleSettings["styleChanged"]:
-                hasChanged = True
-                configKdeGlobals = QSettings("kdeglobals")
-                # FIXME
-                #group = configKdeGlobals.group("General")
-                #group.writeEntry("widgetStyle", self.styleSettings["styleDetails"][str(self.styleSettings["styleName"])]["widgetStyle"])
-
-                #groupIconTheme = configKdeGlobals.group("Icons")
-                #groupIconTheme.writeEntry("Theme", self.styleSettings["iconTheme"])
-                #groupIconTheme.writeEntry("Theme", self.styleSettings["styleDetails"][str(self.styleSettings["styleName"])]["iconTheme"])
-
-                configKdeGlobals.sync()
-
-                # FIXME:
-                # Change Icon theme
-                #kdeui.KIconTheme.reconfigure()
-                #kdeui.KIconCache.deleteCache()
-                deleteIconCache()
-
-                #for i in range(kdeui.KIconLoader.LastGroup):
-                #    kdeui.KGlobalSettings.self().emitChange(kdeui.KGlobalSettings.IconChanged, i)
-
-                # Change widget style & color
-                for key, value in self.styleSettings["styleDetails"][str(self.styleSettings["styleName"])]["colorScheme"].items():
-                    colorGroup = configKdeGlobals.group(key)
-                    for key2, value2 in value.items():
-                            colorGroup.writeEntry(str(key2), str(value2))
-
-                configKdeGlobals.sync()
-                #kdeui.KGlobalSettings.self().emitChange(kdeui.KGlobalSettings.StyleChanged)
-
-                configPlasmaRc = QSettings("plasmarc")
-                # FIXME
-                #groupDesktopTheme = configPlasmaRc.group("Theme")
-                #groupDesktopTheme.writeEntry("name", self.styleSettings["styleDetails"][str(self.styleSettings["styleName"])]["desktopTheme"])
-                configPlasmaRc.sync()
-
-                configPlasmaApplet = QSettings("plasma-desktop-appletsrc")
-                # FIXME
-                #group = configPlasmaApplet.group("Containments")
-                #for each in list(group.groupList()):
-                #    subgroup = group.group(each)
-                #    subcomponent = subgroup.readEntry('plugin')
-                #    if subcomponent == 'panel':
-                #        #print subcomponent
-                #        subgroup.writeEntry('location', self.styleSettings["styleDetails"][str(self.styleSettings["styleName"])]["panelPosition"])
-
-                configPlasmaApplet.sync()
-
-                configKwinRc = QSettings("kwinrc")
-                # FIXME
-                #groupWindowDecoration = configKwinRc.group("Style")
-                #groupWindowDecoration.writeEntry("PluginLib", self.styleSettings["styleDetails"][str(self.styleSettings["styleName"])]["windowDecoration"])
-                configKwinRc.sync()
-
-            session = dbus.SessionBus()
-
-            try:
-                proxy = session.get_object('org.kde.kwin', '/KWin')
-                proxy.reconfigure()
-            except dbus.DBusException:
-                pass
 
         # Notifier Settings
         if self.packageSettings["hasChanged"]:
