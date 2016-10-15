@@ -50,7 +50,7 @@ class Widget(QtWidgets.QWidget, Screen):
     # Class properties
     @property
     def handedness(self):
-        """defaultL right handed"""
+        """default: right handed"""
         return self.__class__.screenSettings.get("handedness", RIGHT_HANDED)
 
     @handedness.setter
