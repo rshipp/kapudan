@@ -22,7 +22,7 @@ class Kapudan(QtWidgets.QWidget):
         self.signalHandler()
 
     def initializeGlobals(self):
-        ''' initializes global variables '''
+        """Initialize global variables"""
         self.screenData = None
         self.moveInc = 1
         self.menuText = ""
@@ -30,11 +30,9 @@ class Kapudan(QtWidgets.QWidget):
         self.descriptions = []
         self.currentDir = os.path.dirname(os.path.realpath(__file__))
         self.screensPath = self.currentDir + "/kapudan/screens/scr*py"
-        #self.kapudanConfig = KConfig("kapudanrc")
-        #self.plasmaConfig = KConfig("plasma-desktop-appletsrc")
 
     def signalHandler(self):
-        ''' connects signals to slots '''
+        """Connect signals to slots"""
         self.ui.buttonNext.clicked.connect(self.slotNext)
         self.ui.buttonApply.clicked.connect(self.slotNext)
         self.ui.buttonBack.clicked.connect(self.slotBack)
@@ -42,7 +40,7 @@ class Kapudan(QtWidgets.QWidget):
         self.ui.buttonCancel.clicked.connect(QtCore.QCoreApplication.exit)
 
     def initializeUI(self):
-        ''' initializes the human interface '''
+        """Initialize the human interface"""
         self.ui = Ui_kapudan()
         self.ui.setupUi(self)
 
@@ -71,7 +69,7 @@ class Kapudan(QtWidgets.QWidget):
         self.menu.start()
 
     def screenOrganizer(self, headScreens, tailScreens):
-        ''' appends unsorted screens to the list '''
+        """Append unsorted screens to the list"""
         screens = []
 
         allScreens = [value for key, value in globals().items() if key.startswith("scr")]
@@ -94,7 +92,7 @@ class Kapudan(QtWidgets.QWidget):
         return screens
 
     def getCur(self, d):
-        ''' returns the id of current stack '''
+        """Return the id of current stack"""
         new = self.ui.mainStack.currentIndex() + d
         total = self.ui.mainStack.count()
         if new < 0:
@@ -104,12 +102,12 @@ class Kapudan(QtWidgets.QWidget):
         return new
 
     def setCurrent(self, id=None):
-        ''' move to id numbered step '''
+        """Move to the given step"""
         if id:
             self.stackMove(id)
 
     def slotNext(self, dryRun=False):
-        ''' execute next step '''
+        """Execute the next step"""
         self.menuText = ""
         curIndex = self.ui.mainStack.currentIndex() + 1
 
@@ -127,7 +125,7 @@ class Kapudan(QtWidgets.QWidget):
             self.moveInc = 1
 
     def slotBack(self):
-        ''' execute previous step '''
+        """Execute the previous step"""
         self.menuText = ""
         curIndex = self.ui.mainStack.currentIndex()
 
@@ -144,7 +142,7 @@ class Kapudan(QtWidgets.QWidget):
         self.moveInc = 1
 
     def stackMove(self, id):
-        ''' move to id numbered stack '''
+        """Move to the given stack"""
         if not id == self.ui.mainStack.currentIndex() or id == 0:
             self.ui.mainStack.setCurrentIndex(id)
 
@@ -177,7 +175,7 @@ class Kapudan(QtWidgets.QWidget):
             self.ui.buttonBack.show()
 
     def createWidgets(self, screens=[]):
-        ''' create all widgets and add inside stack '''
+        """Create all widgets and add them to the stack"""
         self.ui.mainStack.removeWidget(self.ui.page)
         for screen in screens:
             _scr = screen.Widget()
@@ -213,29 +211,8 @@ class Kapudan(QtWidgets.QWidget):
         if _w.execute():
             self.close()
 
-    #def __del__(self):
-        # FIXME: remove autostart on exit
-        #group = self.kapudanConfig.group("General")
-        #group.writeEntry("RunOnStart", "False")
-
 if __name__ == "__main__":
-    appName = "kapudan"
-    catalog = ""
-    programName = QtCore.QCoreApplication.translate("kapudan", "kapudan")
-    version = "2013.02"
-    description = QtCore.QCoreApplication.translate("kapudan", "Kapudan lets you configure your Chakra installation at first boot.")
-    #license = KAboutData.License_GPL
-    copyright = QtCore.QCoreApplication.translate("kapudan", "(c) 2013-2016 The Chakra Developers")
-    text = QtCore.QCoreApplication.translate("kapudan", "none")
-    homePage = "https://chakralinux.org/code/kapudan.git"
-    bugEmail = "george@chakralinux.org"
-
-    #aboutData = KAboutData(appName, catalog, programName, version, description,
-    #                       license, copyright, text, homePage, bugEmail)
-
     app = QtWidgets.QApplication(sys.argv)
-
-    #QtCore.QCommandLineParser.init(sys.argv) #, aboutData)
 
     # attach dbus to main loop
     tools.DBus()
