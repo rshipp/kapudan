@@ -30,7 +30,6 @@ class Widget(QtWidgets.QWidget, Screen):
         self.handedness = self.kcminputrc.value("Mouse/MouseButtonMapping", RIGHT_HANDED)
         self.reverseScroll = False if self.kcminputrc.value("Mouse/ReverseScrollPolarity", "false").lower() == "false" else True
         self.singleClick = True if self.kdeglobals.value("KDE/SingleClick", "true").lower() == "true" else False
-        print(self.kdeglobals.value("KDE/SingleClick", "true").lower())
 
         if self.handedness == LEFT_HANDED:
             self.ui.radioButtonLeftHand.setChecked(True)
