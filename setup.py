@@ -40,17 +40,16 @@ def update_messages():
     # Generate POT file
     os.system("find .tmp -name '*.py' -o -name '*.h' | "
               "xargs xgettext --default-domain=%s \
-                        --keyword=_ \
-                        --keyword=N_ \
-                        --keyword=i18n \
-                        --keyword=ki18n \
+                        -k_ -kN_ -ki18n \
+                        -ktranslate:1c,2 \
+                        -k_translate:1c,2 \
                         -o po/%s.pot" % ("kapudan", "kapudan"))
 
     ## Update PO files
-    # for item in os.listdir("po"):
-    #if item.endswith(".po"):
-    #os.system("msgmerge --no-wrap --sort-by-file -q -o .tmp/temp.po po/%s po/%s.pot" % (item, "kapudan"))
-    #os.system("cp .tmp/temp.po po/%s" % item)
+    for item in os.listdir("po"):
+        if item.endswith(".po"):
+            os.system("msgmerge --no-wrap --sort-by-file -q -o .tmp/temp.po po/%s po/%s.pot" % (item, "kapudan"))
+            os.system("cp .tmp/temp.po po/%s" % item)
 
     # Remove temporary directory
     shutil.rmtree(".tmp")
