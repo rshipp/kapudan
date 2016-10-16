@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 
+import os
+import glob
+import codecs
+
 from PyQt5 import QtGui, QtWidgets
 from PyQt5.QtCore import QSize, QTranslator, QLocale, QStandardPaths
 from PyQt5.QtWidgets import QFileDialog
-
-#from PyQt5.QtCore import *
 from PyQt5.QtCore import QCoreApplication
-import os
-import glob
 
 from kapudan.screen import Screen
 from kapudan.screens.ui_scrWallpaper import Ui_wallpaperWidget
@@ -38,9 +38,9 @@ class Widget(QtWidgets.QWidget, Screen):
         # Get metadata.desktop files from shared wallpaper directory
         # FIXME use QStandardPaths.GenericConfigLocation + "wallpapers"
 
-        for desktopFiles in glob.glob('/usr/share/wallpapers/**/*metadata.desktop', recursive=True):
+        for desktopFile in glob.glob('/usr/share/wallpapers/**/*metadata.desktop', recursive=True):
             parser = DesktopParser()
-            parser.read(str(desktopFiles))
+            parser.read_file(codecs.open(desktopFile, 'rb', 'utf-8'))
 
             try:
                 wallpaperTitle = parser.get_locale('Desktop Entry', 'Name[%s]' % self.catLang, '')
@@ -54,9 +54,9 @@ class Widget(QtWidgets.QWidget, Screen):
 
             # Get all files in the wallpaper's directory
             try:
-                thumbFolder = os.listdir(os.path.join(os.path.split(str(desktopFiles))[0], "contents"))
+                thumbFolder = os.listdir(os.path.join(os.path.split(desktopFile)[0], "contents"))
             except OSError:
-                thumbFolder = os.listdir(os.path.join(os.path.split(str(desktopFiles))[0], "content"))
+                thumbFolder = os.listdir(os.path.join(os.path.split(desktopFile)[0], "content"))
 
             """
             Appearantly the thumbnail names doesn't have a standard.
@@ -71,9 +71,9 @@ class Widget(QtWidgets.QWidget, Screen):
 
             for thumb in thumbFolder:
                 if thumb.startswith('scre'):
-                    wallpaperThumb = os.path.join(os.path.split(str(desktopFiles))[0], "contents/" + thumb)
+                    wallpaperThumb = os.path.join(os.path.split(desktopFile)[0], "contents/" + thumb)
 
-            wallpaperFile = os.path.split(str(desktopFiles))[0]
+            wallpaperFile = os.path.split(desktopFile)[0]
 
             # Insert wallpapers to listWidget.
             item = QtWidgets.QListWidgetItem(self.ui.listWallpaper)
