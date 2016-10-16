@@ -130,7 +130,7 @@ class Install(install):
         #shutil.move(os.path.join(project_dir, "application.py"), os.path.join(project_dir, "%s.py" % "kapudan"))
         # Modes
         print("Changing file modes...")
-        os.chmod(os.path.join(project_dir, "%s.py" % "kapaudan"), 0o0755)
+        os.chmod(os.path.join(project_dir, "%s.py" % "kapudan"), 0o0755)
         # Symlink
         try:
             if self.root:

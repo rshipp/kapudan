@@ -37,7 +37,7 @@ def isLiveCD():
 def getRelease():
     p = subprocess.Popen(["lsb_release", "-ircs"], stdout=subprocess.PIPE)
     release, err = p.communicate()
-    return str(release).replace("\n", "")
+    return release.decode('utf-8').replace("\n", "")
 
 
 def killPlasma(self):
