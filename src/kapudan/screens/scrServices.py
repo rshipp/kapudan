@@ -14,8 +14,8 @@ isUpdateOn = False
 
 
 class Widget(QtWidgets.QWidget, Screen):
-    title = QCoreApplication.translate("kapudan", "Services")
-    desc = QCoreApplication.translate("kapudan", "Enable / Disable Services (Daemons)")
+    title = QCoreApplication.translate("Widget", "Services")
+    desc = QCoreApplication.translate("Widget", "Enable / Disable Services (Daemons)")
 
     screenSettings = {}
     screenSettings["hasChanged"] = False

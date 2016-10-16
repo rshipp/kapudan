@@ -17,8 +17,8 @@ class Widget(QtWidgets.QWidget, Screen):
     screenSettings["hasChanged"] = False
 
     # Set title and description for the information widget
-    title = QCoreApplication.translate("kapudan", "Menu")
-    desc = QCoreApplication.translate("kapudan", "Choose a Menu Style")
+    title = QCoreApplication.translate("Widget", "Menu")
+    desc = QCoreApplication.translate("Widget", "Choose a Menu Style")
 
     def __init__(self, *args):
         QtWidgets.QWidget.__init__(self, None)
@@ -28,21 +28,21 @@ class Widget(QtWidgets.QWidget, Screen):
         self.menuNames = {}
         self.menuNames[MENU_KICKOFF] = {
             "menuIndex": 0,
-            "summaryMessage": QCoreApplication.translate("kapudan", "Application Launcher"),
+            "summaryMessage": QCoreApplication.translate("Widget", "Application Launcher"),
             "image": QtGui.QPixmap(':/raw/pixmap/kickoff.png'),
-            "description": QCoreApplication.translate("kapudan", "Application Launcher is the default menu in Chakra.<br><br>The program shortcuts are easy to access and well organized.")
+            "description": QCoreApplication.translate("Widget", "Application Launcher is the default menu in Chakra.<br><br>The program shortcuts are easy to access and well organized.")
         }
         self.menuNames[MENU_KICKER] = {
             "menuIndex": 1,
-            "summaryMessage": QCoreApplication.translate("kapudan", "Application Menu"),
+            "summaryMessage": QCoreApplication.translate("Widget", "Application Menu"),
             "image": QtGui.QPixmap(':/raw/pixmap/simple.png'),
-            "description": QCoreApplication.translate("kapudan", "Application Menu is an old style menu from KDE 3.<br><br>It is a very lightweight menu thus it is recommended for slower PC's.")
+            "description": QCoreApplication.translate("Widget", "Application Menu is an old style menu from KDE 3.<br><br>It is a very lightweight menu thus it is recommended for slower PC's.")
         }
         self.menuNames[MENU_KICKERDASH] = {
             "menuIndex": 2,
-            "summaryMessage": QCoreApplication.translate("kapudan", "Application Dashboard"),
+            "summaryMessage": QCoreApplication.translate("Widget", "Application Dashboard"),
             "image": QtGui.QPixmap(':/raw/pixmap/homerun-kicker.png'),
-            "description": QCoreApplication.translate("kapudan", "Application Dashboard is a fullscreen menu.<br><br>The program shortcuts are easy to access and well organized.")
+            "description": QCoreApplication.translate("Widget", "Application Dashboard is a fullscreen menu.<br><br>The program shortcuts are easy to access and well organized.")
         }
 
         self.ui.pictureMenuStyles.setPixmap(self.menuNames[self.selectedMenu]["image"])

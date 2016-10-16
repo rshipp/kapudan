@@ -26,8 +26,8 @@ from kapudan.tools.daemon import Daemon
 
 
 class Widget(QtWidgets.QWidget, Screen):
-    title = QCoreApplication.translate("kapudan", "Summary")
-    desc = QCoreApplication.translate("kapudan", "Save Your Settings")
+    title = QCoreApplication.translate("Widget", "Summary")
+    desc = QCoreApplication.translate("Widget", "Save Your Settings")
 
     def __init__(self, *args):
         QtWidgets.QWidget.__init__(self, None)
@@ -50,86 +50,86 @@ class Widget(QtWidgets.QWidget, Screen):
         content += """<html><body><ul>"""
 
         # Mouse Settings
-        content += subject % QCoreApplication.translate("kapudan", "Mouse Settings")
+        content += subject % QCoreApplication.translate("Widget", "Mouse Settings")
 
-        content += (item % QCoreApplication.translate("kapudan", "Selected Mouse configuration: <b>%s</b>") % self.mouseSettings["summaryMessage"]["selectedMouse"])
-        content += (item % QCoreApplication.translate("kapudan", "Selected clicking behavior: <b>%s</b>") % self.mouseSettings["summaryMessage"]["singleClick"])
+        content += (item % QCoreApplication.translate("Widget", "Selected Mouse configuration: <b>%s</b>") % self.mouseSettings["summaryMessage"]["selectedMouse"])
+        content += (item % QCoreApplication.translate("Widget", "Selected clicking behavior: <b>%s</b>") % self.mouseSettings["summaryMessage"]["singleClick"])
         content += end
 
         # Menu Settings
-        content += (subject % QCoreApplication.translate("kapudan", "Menu Settings"))
-        content += (item % QCoreApplication.translate("kapudan", "Selected Menu: <b>%s</b>") % self.menuSettings["summaryMessage"])
+        content += (subject % QCoreApplication.translate("Widget", "Menu Settings"))
+        content += (item % QCoreApplication.translate("Widget", "Selected Menu: <b>%s</b>") % self.menuSettings["summaryMessage"])
         content += end
 
         # Wallpaper Settings
-        content += (subject % QCoreApplication.translate("kapudan", "Wallpaper Settings"))
+        content += (subject % QCoreApplication.translate("Widget", "Wallpaper Settings"))
         if not self.wallpaperSettings["hasChanged"]:
-            content += (item % QCoreApplication.translate("kapudan", "You haven't selected any wallpaper."))
+            content += (item % QCoreApplication.translate("Widget", "You haven't selected any wallpaper."))
         else:
-            content += (item % QCoreApplication.translate("kapudan", "Selected Wallpaper: <b>%s</b>") % os.path.basename(str(self.wallpaperSettings["selectedWallpaper"])))
+            content += (item % QCoreApplication.translate("Widget", "Selected Wallpaper: <b>%s</b>") % os.path.basename(str(self.wallpaperSettings["selectedWallpaper"])))
         content += end
 
         # Notifier Settings
         if self.packageSettings["hasChanged"]:
-            content += (subject % QCoreApplication.translate("kapudan", "Package Management Settings"))
-            content += (item % QCoreApplication.translate("kapudan", "You have enabled or disabled octopi-notifier."))
+            content += (subject % QCoreApplication.translate("Widget", "Package Management Settings"))
+            content += (item % QCoreApplication.translate("Widget", "You have enabled or disabled octopi-notifier."))
 
             content += end
 
         # Services Settings
         if self.servicesSettings["hasChanged"]:
             self.daemon = Daemon()
-            self.svctext = QCoreApplication.translate("kapudan", "You have: ")
+            self.svctext = QCoreApplication.translate("Widget", "You have: ")
             self.svcissset = False
-            content += (subject % QCoreApplication.translate("kapudan", "Services Settings"))
+            content += (subject % QCoreApplication.translate("Widget", "Services Settings"))
 
             if self.servicesSettings["enableCups"] and not self.daemon.isEnabled("org.cups.cupsd"):
-                self.svctext += QCoreApplication.translate("kapudan", "enabled cups; ")
+                self.svctext += QCoreApplication.translate("Widget", "enabled cups; ")
                 self.svcisset = True
             elif not self.servicesSettings["enableCups"] and self.daemon.isEnabled("org.cups.cupsd"):
-                self.svctext += QCoreApplication.translate("kapudan", "disabled cups; ")
+                self.svctext += QCoreApplication.translate("Widget", "disabled cups; ")
                 self.svcisset = True
             if self.servicesSettings["enableBluetooth"] and not self.daemon.isEnabled("bluetooth"):
-                self.svctext += QCoreApplication.translate("kapudan", "enabled bluetooth; ")
+                self.svctext += QCoreApplication.translate("Widget", "enabled bluetooth; ")
                 self.svcisset = True
             elif not self.servicesSettings["enableBluetooth"] and self.daemon.isEnabled("bluetooth"):
-                self.svctext += QCoreApplication.translate("kapudan", "disabled bluetooth; ")
+                self.svctext += QCoreApplication.translate("Widget", "disabled bluetooth; ")
                 self.svcisset = True
 
             #FIXME: when can this ever happen?
             if not self.svcisset:
-                self.svctext = QCoreApplication.translate("kapudan", "You have made no changes.")
+                self.svctext = QCoreApplication.translate("Widget", "You have made no changes.")
                 self.servicesSettings["hasChanged"] = False
 
-            content += (item % QCoreApplication.translate("kapudan", self.svctext))
+            content += (item % QCoreApplication.translate("Widget", self.svctext))
 
             content += end
 
         # Security Settings
         if self.securitySettings["hasChanged"]:
             self.daemon = Daemon()
-            self.sectext = QCoreApplication.translate("kapudan", "You have: ")
+            self.sectext = QCoreApplication.translate("Widget", "You have: ")
             self.secisset = False
-            content += (subject % QCoreApplication.translate("kapudan", "Security Settings"))
+            content += (subject % QCoreApplication.translate("Widget", "Security Settings"))
 
             if self.securitySettings["enableClam"] and not self.daemon.isEnabled("clamd"):
-                self.sectext += QCoreApplication.translate("kapudan", "enabled ClamAV; ")
+                self.sectext += QCoreApplication.translate("Widget", "enabled ClamAV; ")
                 self.secisset = True
             elif not self.securitySettings["enableClam"] and self.daemon.isEnabled("clamd"):
-                self.sectext += QCoreApplication.translate("kapudan", "disabled ClamAV; ")
+                self.sectext += QCoreApplication.translate("Widget", "disabled ClamAV; ")
                 self.secisset = True
             if self.securitySettings["enableFire"] and not self.daemon.isEnabled("ufw"):
-                self.sectext += QCoreApplication.translate("kapudan", "enabled the firewall; ")
+                self.sectext += QCoreApplication.translate("Widget", "enabled the firewall; ")
                 self.secisset = True
             elif not self.securitySettings["enableFire"] and self.daemon.isEnabled("ufw"):
-                self.sectext += QCoreApplication.translate("kapudan", "disabled the firewall; ")
+                self.sectext += QCoreApplication.translate("Widget", "disabled the firewall; ")
                 self.secisset = True
 
             if not self.secisset:
-                self.sectext = QCoreApplication.translate("kapudan", "You have made no changes.")
+                self.sectext = QCoreApplication.translate("Widget", "You have made no changes.")
                 self.securitySettings["hasChanged"] = False
 
-            content += (item % QCoreApplication.translate("kapudan", self.sectext))
+            content += (item % QCoreApplication.translate("Widget", self.sectext))
 
             content += end
 
@@ -143,7 +143,7 @@ class Widget(QtWidgets.QWidget, Screen):
             self.startPlasma()
 
         except:
-            QMessageBox.critical(self, QCoreApplication.translate("kapudan", "Error"), QCoreApplication.translate("kapudan", "Cannot restart plasma-desktop. Kapudan will now shut down."))
+            QMessageBox.critical(self, QCoreApplication.translate("Widget", "Error"), QCoreApplication.translate("Widget", "Cannot restart plasma-desktop. Kapudan will now shut down."))
             QCoreApplication.exit()
 
     def startPlasma(self):

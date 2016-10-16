@@ -12,8 +12,8 @@ from kapudan.screens.ui_scrGoodbye import Ui_goodbyeWidget
 
 
 class Widget(QtWidgets.QWidget, Screen):
-    title = QCoreApplication.translate("kapudan", "More")
-    desc = QCoreApplication.translate("kapudan", "Congratulations!")
+    title = QCoreApplication.translate("Widget", "More")
+    desc = QCoreApplication.translate("Widget", "Congratulations!")
 
     def __init__(self, *args):
         QtWidgets.QWidget.__init__(self, None)

@@ -15,8 +15,8 @@ class Widget(QtWidgets.QWidget, Screen):
     screenSettings["hasChanged"] = False
 
     # title and description at the top of the dialog window
-    title = QCoreApplication.translate("kapudan", "Mouse")
-    desc = QCoreApplication.translate("kapudan", "Setup Mouse Behavior")
+    title = QCoreApplication.translate("Widget", "Mouse")
+    desc = QCoreApplication.translate("Widget", "Setup Mouse Behavior")
 
     def __init__(self, *args):
         QtWidgets.QWidget.__init__(self, None)
@@ -102,10 +102,10 @@ class Widget(QtWidgets.QWidget, Screen):
         self.__class__.screenSettings["summaryMessage"] = {}
 
         self.__class__.screenSettings["summaryMessage"].update({
-            "selectedMouse": QCoreApplication.translate("kapudan", "Left Handed") if self.handedness == LEFT_HANDED else QCoreApplication.translate("kapudan", "Right Handed")
+            "selectedMouse": QCoreApplication.translate("Widget", "Left Handed") if self.handedness == LEFT_HANDED else QCoreApplication.translate("Widget", "Right Handed")
         })
         self.__class__.screenSettings["summaryMessage"].update({
-            "singleClick": QCoreApplication.translate("kapudan", "Single Click") if self.singleClick else QCoreApplication.translate("kapudan", "Double Click")
+            "singleClick": QCoreApplication.translate("Widget", "Single Click") if self.singleClick else QCoreApplication.translate("Widget", "Double Click")
         })
 
         return True

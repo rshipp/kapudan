@@ -10,8 +10,8 @@ from kapudan.tools import tools
 
 class Widget(QtWidgets.QWidget, Screen):
 
-    title = QtCore.QCoreApplication.translate("kapudan", "Welcome")
-    desc = QtCore.QCoreApplication.translate("kapudan", "Welcome to %s")
+    title = QtCore.QCoreApplication.translate("Widget", "Welcome")
+    desc = QtCore.QCoreApplication.translate("Widget", "Welcome to %s")
 
     def __init__(self, *args):
         QtWidgets.QWidget.__init__(self, None)

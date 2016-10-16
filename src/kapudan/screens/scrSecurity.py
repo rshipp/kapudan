@@ -16,8 +16,8 @@ isUpdateOn = False
 
 
 class Widget(QtWidgets.QWidget, Screen):
-    title = QCoreApplication.translate("kapudan", "Security")
-    desc = QCoreApplication.translate("kapudan", "Keep your system secure")
+    title = QCoreApplication.translate("Widget", "Security")
+    desc = QCoreApplication.translate("Widget", "Keep your system secure")
 
     screenSettings = {}
     screenSettings["hasChanged"] = False

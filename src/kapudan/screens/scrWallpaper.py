@@ -21,8 +21,8 @@ class Widget(QtWidgets.QWidget, Screen):
     screenSettings["hasChanged"] = False
 
     # title and description at the top of the dialog window
-    title = QCoreApplication.translate("kapudan", "Wallpaper")
-    desc = QCoreApplication.translate("kapudan", "Choose a Wallpaper")
+    title = QCoreApplication.translate("Widget", "Wallpaper")
+    desc = QCoreApplication.translate("Widget", "Choose a Wallpaper")
 
     def __init__(self, *args):
         QtWidgets.QWidget.__init__(self, None)
