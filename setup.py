@@ -75,12 +75,6 @@ class Build(build):
         print("Copying PYs...")
         os.system("cp -R src build/")
 
-        # Copy kde-themes
-        print("Copying kde-themes...")
-        os.system("cp -R data/kde-themes build/kapudan/")
-
-        # update_messages()
-
         # Copy compiled UIs and RCs
         print("Generating UIs...")
         for filename in glob.glob1("ui", "*.ui"):
