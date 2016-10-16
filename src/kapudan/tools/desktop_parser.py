@@ -97,7 +97,11 @@ class DesktopParser(ConfigParser):
         @param option: an option
         @param locale: a locale
         """
-        return self.get(section, _localize(option, locale))
+        value = self.get(section, _localize(option, locale))
+        if not value:
+            # try short locale
+            value = self.get(section, _localize(option, locale.split('_')[0]))
+        return value
 
     def get_string_list(self, section, option):
         """
