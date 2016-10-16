@@ -1,120 +1,24 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Umidjon Almasov <u.almasov@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: Chakra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-26 14:27-0700\n"
+"POT-Creation-Date: 2016-10-16 14:30-0500\n"
 "PO-Revision-Date: 2014-01-27 09:03+0000\n"
 "Last-Translator: Manuel Tortosa <manutortosa@chakra-project.org>\n"
 "Language-Team: Uzbek (http://www.transifex.com/projects/p/chakra/language/uz/)\n"
+"Language: uz\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: uz\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: .tmp/ui_scrWelcome.py:87 .tmp/scrWelcome.py:27
-msgid "Welcome"
-msgstr "Xush kelibsiz"
-
-#: .tmp/ui_scrWelcome.py:88
-msgid "What is Chakra?"
-msgstr "Chakra bu nima?"
-
-#: .tmp/ui_scrWelcome.py:89
-msgid ""
-"<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span> is a "
-"GNU/Linux distribution with an emphasis on KDE and Qt that focuses on "
-"simplicity from a technical standpoint and cutting-edge software, bringing "
-"the latest technologies to you.<br/><br/>The primary goal of the project is "
-"to provide a fast, user-friendly and powerful Live CD and operating system, "
-"specifically crafted for the award winning KDE Software Compilation and the "
-"elegant Plasma Workspaces.<br/><br/><span style=\" font-"
-"weight:600;\">Kapudan</span> will help you personalize your Chakra "
-"installation easily and quickly. Just click <span style=\" font-"
-"weight:600;\">next</span> when you are ready to begin.</p></body></html>"
-msgstr ""
-
-#: .tmp/ui_scrStyle.py:180 .tmp/scrStyle.py:40
-msgid "Themes"
-msgstr "Mavzular"
-
-#: .tmp/ui_scrStyle.py:181
-msgid ""
-"Choose your favorite theme and desktop type. Customize Chakra with colorful "
-"styles and themes."
-msgstr ""
-
-#: .tmp/ui_scrStyle.py:182
-msgid "KDE Themes"
-msgstr "KDE Mavzulari"
-
-#: .tmp/ui_scrStyle.py:183
-msgid "Desktop Type"
-msgstr "Ishchi stolning turi"
-
-#: .tmp/ui_scrStyle.py:184
-msgid "Desktop view (KDE4 Style)"
-msgstr ""
-
-#: .tmp/ui_scrStyle.py:185
-msgid "Folder view (KDE3 Style)"
-msgstr ""
-
-#: .tmp/ui_scrStyle.py:186
-msgid "Number of Desktops"
-msgstr "Ishchi stollar soni"
-
-#: .tmp/ui_scrServices.py:127 .tmp/scrServices.py:31
-msgid "Services"
-msgstr "Xizmatlar"
-
-#: .tmp/ui_scrServices.py:128
-msgid "cups: The Common Unix Printing Service"
-msgstr ""
-
-#: .tmp/ui_scrServices.py:129
-msgid "bluetooth: Enable Bluetooth communication"
-msgstr ""
-
-#: .tmp/ui_scrServices.py:130
-msgid ""
-"<html><head/><body><p>By default, new installations of Chakra have only a "
-"bare minimum of required services (also called &quot;daemons&quot;) enabled."
-" Not only does this reflect Chakra's principle of not making decisions for "
-"its users, it also adds to a new installation's security, by decreasing the "
-"number of active services that might be vulnerable to an attack.</p><p>If "
-"you wish, you can use the options below to tell some of the more widely used"
-" daemons to start automatically at boot time. To enable any service you "
-"would like to start on bootup, you can run <span style=\" font-"
-"weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; "
-"font-style:italic;\">daemon-name</span>. Respectively, run <span style=\" "
-"font-weight:600;\">sudo systemctl disable </span><span style=\" font-"
-"weight:600; font-style:italic;\">daemon-name</span> to disable it. Or, if "
-"you just want to start daemons manually, try <span style=\" font-"
-"weight:600;\">sudo systemctl start </span><span style=\" font-weight:600; "
-"font-style:italic;\">daemon-name</span>. (Eg, <span style=\" font-"
-"weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
-msgstr ""
-
-#: .tmp/ui_scrServices.py:131
-msgid "Daemons to start at boot time"
-msgstr ""
-
-#: .tmp/scrFolder.py:30 .tmp/ui_scrFolder.py:162
-msgid "Folders"
-msgstr "Jildlar"
-
-#: .tmp/scrFolder.py:31
-msgid "Create folders in the home directory"
-msgstr "Uy katalogida jildlarni yaratish"
-
-#: .tmp/kapudan.desktop.in.h:1 .tmp/ui_kapudan.py:368
+#: .tmp/kapudan.desktop.in.h:1
 msgid "Kapudan"
 msgstr "Kapudan"
 
@@ -122,623 +26,890 @@ msgstr "Kapudan"
 msgid "Welcome Wizard"
 msgstr ""
 
-#: .tmp/scrPackage.py:33 .tmp/ui_scrPackage.py:142
-msgid "Packages"
-msgstr "Paketlar"
+#: .tmp/scrFolder.py:17
+#, fuzzy
+msgctxt "Widget"
+msgid "Folders"
+msgstr "Jildlar"
 
-#: .tmp/scrPackage.py:34
-msgid "Install / Remove Programs"
-msgstr "Dasturlarni o'rnatish/o'chirish"
+#: .tmp/scrFolder.py:18
+#, fuzzy
+msgctxt "Widget"
+msgid "Create folders in the home directory"
+msgstr "Uy katalogida jildlarni yaratish"
 
-#: .tmp/ui_scrWallpaper.py:140 .tmp/scrWallpaper.py:37
-msgid "Wallpaper"
-msgstr "Fon rasmi"
-
-#: .tmp/ui_scrWallpaper.py:141
-msgid ""
-"<html><head/><body><p>Choose your favorite wallpaper for your Chakra "
-"desktop. Don't forget to check out <span style=\" font-weight:600;\">Desktop"
-" Settings</span> to download cool new wallpapers.</p></body></html>"
+#: .tmp/scrFolder.py:66
+msgctxt "Widget"
+msgid "Selected: "
 msgstr ""
 
-#: .tmp/ui_scrWallpaper.py:142
-msgid "Wallpapers"
-msgstr "Fon rasmlari"
-
-#: .tmp/ui_scrWallpaper.py:144
-msgid "Choose wallpaper from file"
-msgstr "Fon rasmini fayldan tanlash"
-
-#: .tmp/ui_scrWallpaper.py:145
-msgid "Don't change wallpaper"
-msgstr "Fon rasmi o'zgarmasin"
-
-#: .tmp/ui_scrSecurity.py:172 .tmp/scrSecurity.py:33
-msgid "Security"
-msgstr "Xavfsizlik"
-
-#: .tmp/ui_scrSecurity.py:173
-msgid "Enable the firewall (UFW)"
-msgstr "Brandmauerni yoqish (UFW)"
-
-#: .tmp/ui_scrSecurity.py:174
-msgid "Enable Clam AntiVirus daemon (must be installed and configured)"
-msgstr ""
-
-#: .tmp/ui_scrSecurity.py:175
-msgid ""
-"<html><head/><body><p>Other security tools provided by Chakra include "
-"Tomoyo-tools, the KDE Wallet, rkhunter, chkrootkit, tiger, and more. Click "
-"the buttons below to learn more about these tools.</p></body></html>"
-msgstr ""
-
-#: .tmp/ui_scrSecurity.py:176
-msgid "ClamAV: Detect and remove malware"
-msgstr ""
-
-#: .tmp/ui_scrSecurity.py:177
-msgid ""
-"Tomoyo-tools: A Mandatory Access Control (MAC) implementation for Linux"
-msgstr ""
-
-#: .tmp/ui_scrSecurity.py:178
-msgid ""
-"KDE Wallet Manager: Protect and encrypt passwords and other information"
-msgstr ""
-
-#: .tmp/ui_scrSecurity.py:179
-msgid ""
-"chkrootkit and rkhunter: Check for the presence of rootkits on your system"
-msgstr ""
-
-#: .tmp/ui_scrSecurity.py:180
-msgid "Tiger: A host-based intrusion detection and auditing tool"
-msgstr ""
-
-#: .tmp/ui_scrSecurity.py:181
-msgid ""
-"<html><head/><body><p>Finally, Chakra also provides a graphical tool to "
-"configure the system firewall. Just click on &quot;Firewall&quot; in the KDE"
-" System Settings.</p></body></html>"
-msgstr ""
-
-#: .tmp/ui_scrSecurity.py:182
-msgid ""
-"<html><head/><body><p>Security is a process, not a product, and no operating"
-" system can realistically claim to be perfectly secure. It is up to you to "
-"make sure you keep your system up to date, and follow best security "
-"practices. However, Chakra does provide a few tools to help you keep your "
-"system safe.</p></body></html>"
-msgstr ""
-
-#: .tmp/ui_scrSecurity.py:183
-msgid "Security Tools"
-msgstr "Xavfsizlik vositalari"
-
-#: .tmp/scrMouse.py:32 .tmp/ui_scrMouse.py:213
-msgid "Mouse"
-msgstr "Sichqoncha"
-
-#: .tmp/scrMouse.py:33
-msgid "Setup Mouse Behavior"
-msgstr "Sichqoncha xulqini sozlash"
-
-#: .tmp/scrMouse.py:145
-msgid "Left Handed"
-msgstr "Chapaqaylar uchun"
-
-#: .tmp/scrMouse.py:145
-msgid "Right Handed"
-msgstr "O‘naqaylar uchun"
-
-#: .tmp/scrMouse.py:146
-msgid "Single Click "
-msgstr "Bir marta chertish"
-
-#: .tmp/scrMouse.py:146
-msgid "Double Click"
-msgstr "Ikki marta chertish"
-
-#: .tmp/ui_scrFolder.py:155
-msgid "Home Folder"
-msgstr "Yu jildi"
-
-#: .tmp/ui_scrFolder.py:156
-msgid "  Downloads  "
+#: .tmp/scrFolder.py:67
+#, fuzzy
+msgctxt "Widget"
+msgid "Downloads"
 msgstr "Yuklanishlar"
 
-#: .tmp/ui_scrFolder.py:157
-msgid "  Documents  "
+#: .tmp/scrFolder.py:68
+#, fuzzy
+msgctxt "Widget"
+msgid "Documents"
 msgstr "Hujjatlar"
 
-#: .tmp/ui_scrFolder.py:158
-msgid "  Videos  "
+#: .tmp/scrFolder.py:69
+#, fuzzy
+msgctxt "Widget"
+msgid "Videos"
 msgstr "  Video"
 
-#: .tmp/ui_scrFolder.py:159
-msgid "  Music  "
+#: .tmp/scrFolder.py:70
+#, fuzzy
+msgctxt "Widget"
+msgid "Music"
 msgstr "Musiqa"
 
-#: .tmp/ui_scrFolder.py:160
-msgid "  Pictures  "
+#: .tmp/scrFolder.py:71
+msgctxt "Widget"
+msgid "Pictures"
 msgstr ""
 
-#: .tmp/ui_scrFolder.py:161
-msgid ""
-"<html><head/><body><p>Your home directory does not contain folders for "
-"documents, music, pictures and the like by default. Kapudan will create the "
-"folders selected below for you now; unselect the ones you don't "
-"want.</p></body></html>"
+#: .tmp/scrFolder.py:95
+msgctxt "Widget"
+msgid "None"
 msgstr ""
 
-#: .tmp/ui_kapudan.py:369
-msgid "Welcome to Chakra"
-msgstr "Chakraga xush kelibsiz"
-
-#: .tmp/ui_kapudan.py:370
-msgid "Cancel"
-msgstr "Bekor qilish"
-
-#: .tmp/ui_kapudan.py:371
-msgid "Back"
-msgstr "Orqaga"
-
-#: .tmp/ui_kapudan.py:372
-msgid "Next"
-msgstr "Keyingi"
-
-#: .tmp/ui_kapudan.py:373
-msgid "Finish"
-msgstr "Tamom"
-
-#: .tmp/ui_kapudan.py:374
-msgid "Apply"
-msgstr "Qo'llash"
-
-#: .tmp/ui_scrSearch.py:109
-msgid "Search"
-msgstr "Qidirish"
-
-#: .tmp/ui_scrSearch.py:110
-msgid ""
-"Strigi Desktop Search indexes your frequently used files. This gives you "
-"very fast file search results. Strigi also can search for files based on "
-"their contents. On older computers, this can use a lot of resources."
-msgstr ""
-
-#: .tmp/ui_scrSearch.py:111
-msgid "Allow Strigi to index my files"
-msgstr ""
-
-#: .tmp/ui_scrSearch.py:112
-msgid "Search Options"
-msgstr "Qidirish parametrlari"
-
-#: .tmp/scrMenu.py:28 .tmp/ui_scrMenu.py:134
-msgid "Menu"
-msgstr "Menyu"
-
-#: .tmp/scrMenu.py:29
-msgid "Choose a Menu Style"
-msgstr "Menyu uslubini tanlash"
-
-#: .tmp/scrMenu.py:43 .tmp/ui_scrMenu.py:136
-msgid "Kick-off Menu"
-msgstr "Kick-off menyusi"
-
-#: .tmp/scrMenu.py:45
-msgid ""
-"Kick-off menu is the default menu of Chakra.<br><br>The program shortcuts "
-"are easy to access and well organized."
-msgstr "Kick-off Chakra'ning sukut menyusi.<br><br>Dastur yorliqlari foydalanish uchun qulay va yaxshi tashkil qilingan."
-
-#: .tmp/scrMenu.py:49 .tmp/ui_scrMenu.py:137
-msgid "Simple Menu"
-msgstr "Oddiy menyu"
-
-#: .tmp/scrMenu.py:51
-msgid ""
-"Simple menu is an old style menu from KDE 3.<br><br>It is a very lightweight"
-" menu thus it is recommended for slower PC's."
-msgstr ""
-
-#: .tmp/scrMenu.py:55 .tmp/ui_scrMenu.py:138
-msgid "Lancelot Menu"
-msgstr "Lancelot menyusi"
-
-#: .tmp/scrMenu.py:57
-msgid ""
-"Lancelot is an advanced and highly customizable menu for Chakra.<br><br>The "
-"program shortcuts are easy to access and well organized."
-msgstr ""
-
-#: .tmp/scrMenu.py:61 .tmp/ui_scrMenu.py:139
-msgid "Homerun Menu"
-msgstr "Homerun menyusi"
-
-#: .tmp/scrMenu.py:63
-msgid "Homerun is a full screen launcher with content organized in tabs."
-msgstr ""
-
-#: .tmp/scrMenu.py:67 .tmp/ui_scrMenu.py:140
-msgid "AppMenu QML"
-msgstr ""
-
-#: .tmp/scrMenu.py:69
-msgid ""
-"This plasmoid shows a menu of the installed applications, similar to "
-"Lancelot but much simpler"
-msgstr ""
-
-#: .tmp/ui_wallpaperItem.py:82 .tmp/ui_scrAvatar.py:256
-#: .tmp/ui_scrStyleItem.py:79
-msgid "Form"
-msgstr ""
-
-#: .tmp/ui_wallpaperItem.py:83
-msgid "wallPaperName"
-msgstr ""
-
-#: .tmp/ui_wallpaperItem.py:84
-msgid "wallpaperDesc"
-msgstr ""
-
-#: .tmp/scrKsuperkey.py:31 .tmp/ui_scrKsuperkey.py:124
-#: .tmp/ui_scrKsuperkey.py:127
-msgid "ksuperkey"
-msgstr ""
-
-#: .tmp/scrKsuperkey.py:32
-msgid "Enable / Disable ksuperkey"
-msgstr ""
-
-#: .tmp/ui_scrKeyboard.py:102
-msgid "Keyboard"
-msgstr "Klaviatura"
-
-#: .tmp/ui_scrKeyboard.py:103
-msgid ""
-"<html><head/><body><p>Kapudan tries to automatically select the best "
-"keyboard layout according to your system language. If you want to use "
-"another layout, just make a selection below.</p></body></html>"
-msgstr ""
-
-#: .tmp/ui_scrKeyboard.py:104
-msgid "Test area:"
-msgstr ""
-
-#: .tmp/scrSummary.py:46 .tmp/ui_scrSummary.py:94
-msgid "Summary"
-msgstr "Jamlangan ma'lumot"
-
-#: .tmp/scrSummary.py:47
-msgid "Save Your Settings"
-msgstr "Sozlamalarni saqlash"
-
-#: .tmp/scrSummary.py:71
-msgid "Mouse Settings"
-msgstr "Sichqoncha sozlamalari"
-
-#: .tmp/scrSummary.py:73
-#, python-format
-msgid "Selected Mouse configuration: <b>%s</b>"
-msgstr "Tanlangan sichqoncha sozlamasi: <b>%s</b>"
-
-#: .tmp/scrSummary.py:74
-#, python-format
-msgid "Selected clicking behavior: <b>%s</b>"
-msgstr "Tanlangan chertish xulqi: <b>%s</b>"
-
-#: .tmp/scrSummary.py:78
-msgid "Menu Settings"
-msgstr "Menyu sozlamalari"
-
-#: .tmp/scrSummary.py:79
-#, python-format
-msgid "Selected Menu: <b>%s</b>"
-msgstr "Tanlangan menyu: <b>%s</b>"
-
-#: .tmp/scrSummary.py:83
-msgid "Wallpaper Settings"
-msgstr "Fon rasmi sozlamalari"
-
-#: .tmp/scrSummary.py:85
-msgid "You haven't selected any wallpaper."
-msgstr "Siz birorta fon rasm tanlamadingiz."
-
-#: .tmp/scrSummary.py:87
-#, python-format
-msgid "Selected Wallpaper: <b>%s</b>"
-msgstr "Tanlangan fon rasmi: <b>%s</b>"
-
-#: .tmp/scrSummary.py:91
-msgid "Style Settings"
-msgstr "Uslub sozlamalari"
-
-#: .tmp/scrSummary.py:94
-msgid "You haven't selected any style."
-msgstr "Siz birorta uslub tanlamadingiz."
-
-#: .tmp/scrSummary.py:96
-#, python-format
-msgid "Selected Style: <b>%s</b>"
-msgstr "Tanlangan uslub: <b>%s</b>"
-
-#: .tmp/scrSummary.py:102
-msgid "Package Management Settings"
-msgstr "Paket boshqarish sozlamalari"
-
-#: .tmp/scrSummary.py:103
-msgid "You have enabled or disabled spun."
-msgstr ""
-
-#: .tmp/scrSummary.py:110 .tmp/scrSummary.py:139
-msgid "You have: "
-msgstr "Sizda mavjud: "
-
-#: .tmp/scrSummary.py:112
-msgid "Services Settings"
-msgstr "Xizmatlar sozlamalari"
-
-#: .tmp/scrSummary.py:115
-msgid "enabled cups; "
-msgstr "CUPS yoqilgan; "
-
-#: .tmp/scrSummary.py:118
-msgid "disabled cups; "
-msgstr "CUPS o'chirilgan; "
-
-#: .tmp/scrSummary.py:121
-msgid "enabled bluetooth; "
-msgstr "Bluetooth yoqilgan; "
-
-#: .tmp/scrSummary.py:124
-msgid "disabled bluetooth; "
-msgstr "Bluetooth o'chirilgan; "
-
-#: .tmp/scrSummary.py:129 .tmp/scrSummary.py:157
-msgid "You have made no changes."
-msgstr "Siz o'zgartirish kiritmadingiz."
-
-#: .tmp/scrSummary.py:141
-msgid "Security Settings"
-msgstr "Xavfsizlik sozlamalari"
-
-#: .tmp/scrSummary.py:144
-msgid "enabled ClamAV; "
-msgstr "ClamAV yoqilgan; "
-
-#: .tmp/scrSummary.py:147
-msgid "disabled ClamAV; "
-msgstr "ClamAV o'chirilgan; "
-
-#: .tmp/scrSummary.py:150
-msgid "enabled the firewall; "
-msgstr "brandmauer yoqilgan; "
-
-#: .tmp/scrSummary.py:153
-msgid "disabled the firewall; "
-msgstr "brandmauer o'chirilgan; "
-
-#: .tmp/scrSummary.py:174
-msgid "Error"
-msgstr "Xato"
-
-#: .tmp/scrSummary.py:174
-msgid "Cannot restart plasma-desktop. Kapudan will now shut down."
-msgstr "Plasma ishchi stolini qayta ishga tushirib bo'lmadi. Kapudan yopiladi."
-
-#: .tmp/scrStyle.py:41
-msgid "Customize Your Desktop"
-msgstr "Ishchi stolni moslashtirish"
-
-#: .tmp/scrWallpaper.py:38
-msgid "Choose a Wallpaper"
-msgstr "Fon rasmini tanlash"
-
-#: .tmp/ui_scrAvatar.py:257
-msgid ""
-"<html><head/><body><p>This screen helps you set your <span style=\" font-"
-"weight:600;\">user picture</span>. You can either choose an image from a "
-"file, or you can capture an image from your camera, if you have one. Select "
-"an option from the <span style=\" font-weight:600;\">options</span> "
-"menu.</p></body></html>"
-msgstr ""
-
-#: .tmp/ui_scrAvatar.py:258
-msgid "Options"
-msgstr "Parametrlar"
-
-#: .tmp/ui_scrAvatar.py:259
-msgid "Choose an image"
-msgstr "Rasmni tanlash"
-
-#: .tmp/ui_scrAvatar.py:260
-msgid "Capture"
-msgstr ""
-
-#: .tmp/ui_scrAvatar.py:261
-msgid "Recapture"
-msgstr ""
-
-#: .tmp/scrGoodbye.py:28 .tmp/ui_scrGoodbye.py:361
+#: .tmp/scrFolder.py:129
+#, fuzzy
+msgctxt "Widget"
+msgid "Created folders in home directory"
+msgstr "Uy katalogida jildlarni yaratish"
+
+#: .tmp/scrGoodbye.py:15
+#, fuzzy
+msgctxt "Widget"
 msgid "More"
 msgstr "Qo'shimcha"
 
-#: .tmp/scrGoodbye.py:29
+#: .tmp/scrGoodbye.py:16
+#, fuzzy
+msgctxt "Widget"
 msgid "Congratulations!"
 msgstr "Tabriklaymiz!"
 
-#: .tmp/ui_scrPackage.py:143
-msgid "Check for updates automatically every"
+#: .tmp/scrMenu.py:20
+#, fuzzy
+msgctxt "Widget"
+msgid "Menu"
+msgstr "Menyu"
+
+#: .tmp/scrMenu.py:21
+#, fuzzy
+msgctxt "Widget"
+msgid "Choose a Menu Style"
+msgstr "Menyu uslubini tanlash"
+
+#: .tmp/scrMenu.py:31
+msgctxt "Widget"
+msgid "Application Launcher"
 msgstr ""
 
-#: .tmp/ui_scrPackage.py:144
-msgid " minutes"
-msgstr "daqiqa"
+#: .tmp/scrMenu.py:33
+#, fuzzy
+msgctxt "Widget"
+msgid "Application Launcher is the default menu in Chakra.<br><br>The program shortcuts are easy to access and well organized."
+msgstr "Kick-off Chakra'ning sukut menyusi.<br><br>Dastur yorliqlari foydalanish uchun qulay va yaxshi tashkil qilingan."
 
-#: .tmp/ui_scrPackage.py:145
-msgid "Use audio along with the visual notification"
+#: .tmp/scrMenu.py:37
+msgctxt "Widget"
+msgid "Application Menu"
 msgstr ""
 
-#: .tmp/ui_scrPackage.py:146
-msgid ""
-"<html><head/><body><p>To install and remove programs on Chakra, use the "
-"command-line program, <a href=\"http://chakra-"
-"linux.org/wiki/index.php/Pacman\"><span style=\" text-decoration: underline;"
-" color:#0057ae;\">pacman</span></a>. You can run <span style=\" font-"
-"weight:600;\">sudo pacman -Syu</span> to update, <span style=\" font-"
-"weight:600;\">pacman -Ss </span><span style=\" font-weight:600; font-"
-"style:italic;\">keyword</span> to search through the repos, and <span "
-"style=\" font-weight:600;\">sudo pacman -S </span><span style=\" font-"
-"weight:600; font-style:italic;\">package</span> to install "
-"packages.</p><p>Pacman does not have any sort of graphical interface, so "
-"another small app, spun, was created to provide update notifications. When "
-"updates are available, spun will show a notification in your system tray. "
-"</p></body></html>"
+#: .tmp/scrMenu.py:39
+msgctxt "Widget"
+msgid "Application Menu is an old style menu from KDE 3.<br><br>It is a very lightweight menu thus it is recommended for slower PC's."
 msgstr ""
 
-#: .tmp/ui_scrPackage.py:147
-msgid "Updates"
+#: .tmp/scrMenu.py:43
+msgctxt "Widget"
+msgid "Application Dashboard"
 msgstr ""
 
-#: .tmp/ui_scrMouse.py:214
-msgid ""
-"<html><head/><body><p>The <span style=\" font-weight:600;\">clicking "
-"behavior</span> defines how many times you want to click to open files and "
-"folders. If you are <span style=\" font-weight:600;\">left handed</span>, "
-"you may prefer to swap the left and right buttons of your pointing "
-"device.</p></body></html>"
-msgstr ""
+#: .tmp/scrMenu.py:45
+#, fuzzy
+msgctxt "Widget"
+msgid "Application Dashboard is a fullscreen menu.<br><br>The program shortcuts are easy to access and well organized."
+msgstr "Kick-off Chakra'ning sukut menyusi.<br><br>Dastur yorliqlari foydalanish uchun qulay va yaxshi tashkil qilingan."
 
-#: .tmp/ui_scrMouse.py:215
-msgid "Clicking Behaviour"
-msgstr ""
+#: .tmp/scrMouse.py:18
+#, fuzzy
+msgctxt "Widget"
+msgid "Mouse"
+msgstr "Sichqoncha"
 
-#: .tmp/ui_scrMouse.py:216
-msgid "Dou&ble-click to open files and folders"
-msgstr ""
+#: .tmp/scrMouse.py:19
+#, fuzzy
+msgctxt "Widget"
+msgid "Setup Mouse Behavior"
+msgstr "Sichqoncha xulqini sozlash"
 
-#: .tmp/ui_scrMouse.py:217
-msgid "Single-click to open files and folders"
-msgstr ""
+#: .tmp/scrMouse.py:105
+#, fuzzy
+msgctxt "Widget"
+msgid "Left Handed"
+msgstr "Chapaqaylar uchun"
 
-#: .tmp/ui_scrMouse.py:218
-msgid "Button Order"
-msgstr ""
+#: .tmp/scrMouse.py:105
+#, fuzzy
+msgctxt "Widget"
+msgid "Right Handed"
+msgstr "O‘naqaylar uchun"
 
-#: .tmp/ui_scrMouse.py:219
-msgid "Right Hand"
-msgstr ""
+#: .tmp/scrMouse.py:108
+#, fuzzy
+msgctxt "Widget"
+msgid "Double Click"
+msgstr "Ikki marta chertish"
 
-#: .tmp/ui_scrMouse.py:220
-msgid "Left Hand"
-msgstr ""
+#: .tmp/scrMouse.py:108
+#, fuzzy
+msgctxt "Widget"
+msgid "Single Click"
+msgstr "Bir marta chertish"
 
-#: .tmp/ui_scrMouse.py:221
-msgid "Reverse scrolling"
-msgstr ""
+#: .tmp/scrPackage.py:18
+#, fuzzy
+msgctxt "Widget"
+msgid "Packages"
+msgstr "Paketlar"
 
-#: .tmp/ui_scrGoodbye.py:362
-msgid ""
-"<html><head/><body><p><span style=\" font-weight:600;\">Your settings have "
-"been applied.</span> Now you can start enjoying Chakra, or check out the "
-"following links and applications for more settings, or for help and support."
-" Don't forget to <span style=\" font-weight:600;\">join our "
-"community!</span></p></body></html>"
-msgstr ""
+#: .tmp/scrPackage.py:19
+#, fuzzy
+msgctxt "Widget"
+msgid "Install / Remove Programs"
+msgstr "Dasturlarni o'rnatish/o'chirish"
 
-#: .tmp/ui_scrGoodbye.py:363 .tmp/ui_scrGoodbye.py:365
-msgid "System Settings"
-msgstr ""
+#: .tmp/scrSecurity.py:19
+#, fuzzy
+msgctxt "Widget"
+msgid "Security"
+msgstr "Xavfsizlik"
 
-#: .tmp/ui_scrGoodbye.py:364
-msgid ""
-"Configuration tools for Chakra, such as the display settings, firewall, "
-"keyboard layout, user management..."
-msgstr ""
-
-#: .tmp/ui_scrGoodbye.py:366 .tmp/ui_scrGoodbye.py:368
-msgid "Help and Support"
-msgstr ""
-
-#: .tmp/ui_scrGoodbye.py:367
-msgid ""
-"Chakra community: mailing lists, chat rooms, Wiki documents, help and "
-"support pages..."
-msgstr ""
-
-#: .tmp/ui_scrGoodbye.py:369
-msgid "Using KDE"
-msgstr ""
-
-#: .tmp/ui_scrGoodbye.py:370
-msgid ""
-"Learn how to get the most out of KDE, the Plasma desktop, and everything "
-"else Chakra has to offer, in the Chakra Beginner's Guide."
-msgstr ""
-
-#: .tmp/ui_scrGoodbye.py:371
-msgid "Beginner's Guide"
-msgstr ""
-
-#: .tmp/ui_scrGoodbye.py:372
-msgid "Run Kapudan on system startup?"
-msgstr ""
-
-#: .tmp/scrWelcome.py:28
-#, python-format
-msgid "Welcome to %s"
-msgstr "%s'ga xush kelibsiz"
-
-#: .tmp/scrSecurity.py:34
+#: .tmp/scrSecurity.py:20
+#, fuzzy
+msgctxt "Widget"
 msgid "Keep your system secure"
 msgstr "Tizimni xavfsiz tuting"
 
-#: .tmp/scrServices.py:32
+#: .tmp/scrServices.py:17
+#, fuzzy
+msgctxt "Widget"
+msgid "Services"
+msgstr "Xizmatlar"
+
+#: .tmp/scrServices.py:18
+#, fuzzy
+msgctxt "Widget"
 msgid "Enable / Disable Services (Daemons)"
 msgstr "Xizmatlarni (demonlarni) yoqish/o'chirish"
 
-#: .tmp/ui_scrStyleItem.py:80
-msgid "styleName"
+#: .tmp/scrSummary.py:29
+#, fuzzy
+msgctxt "Widget"
+msgid "Summary"
+msgstr "Jamlangan ma'lumot"
+
+#: .tmp/scrSummary.py:30
+#, fuzzy
+msgctxt "Widget"
+msgid "Save Your Settings"
+msgstr "Sozlamalarni saqlash"
+
+#: .tmp/scrSummary.py:53
+#, fuzzy
+msgctxt "Widget"
+msgid "Mouse Settings"
+msgstr "Sichqoncha sozlamalari"
+
+#: .tmp/scrSummary.py:55
+#, fuzzy, python-format
+msgctxt "Widget"
+msgid "Selected Mouse configuration: <b>%s</b>"
+msgstr "Tanlangan sichqoncha sozlamasi: <b>%s</b>"
+
+#: .tmp/scrSummary.py:56
+#, fuzzy, python-format
+msgctxt "Widget"
+msgid "Selected clicking behavior: <b>%s</b>"
+msgstr "Tanlangan chertish xulqi: <b>%s</b>"
+
+#: .tmp/scrSummary.py:60
+#, fuzzy
+msgctxt "Widget"
+msgid "Menu Settings"
+msgstr "Menyu sozlamalari"
+
+#: .tmp/scrSummary.py:61
+#, fuzzy, python-format
+msgctxt "Widget"
+msgid "Selected Menu: <b>%s</b>"
+msgstr "Tanlangan menyu: <b>%s</b>"
+
+#: .tmp/scrSummary.py:65
+#, fuzzy
+msgctxt "Widget"
+msgid "Wallpaper Settings"
+msgstr "Fon rasmi sozlamalari"
+
+#: .tmp/scrSummary.py:67
+#, fuzzy
+msgctxt "Widget"
+msgid "You haven't selected any wallpaper."
+msgstr "Siz birorta fon rasm tanlamadingiz."
+
+#: .tmp/scrSummary.py:69
+#, fuzzy, python-format
+msgctxt "Widget"
+msgid "Selected Wallpaper: <b>%s</b>"
+msgstr "Tanlangan fon rasmi: <b>%s</b>"
+
+#: .tmp/scrSummary.py:74
+#, fuzzy
+msgctxt "Widget"
+msgid "Package Management Settings"
+msgstr "Paket boshqarish sozlamalari"
+
+#: .tmp/scrSummary.py:75
+msgctxt "Widget"
+msgid "You have enabled or disabled octopi-notifier."
 msgstr ""
 
-#: .tmp/ui_scrStyleItem.py:81
-msgid "styleDesc"
+#: .tmp/scrSummary.py:82 .tmp/scrSummary.py:111
+#, fuzzy
+msgctxt "Widget"
+msgid "You have: "
+msgstr "Sizda mavjud: "
+
+#: .tmp/scrSummary.py:84
+#, fuzzy
+msgctxt "Widget"
+msgid "Services Settings"
+msgstr "Xizmatlar sozlamalari"
+
+#: .tmp/scrSummary.py:87
+#, fuzzy
+msgctxt "Widget"
+msgid "enabled cups; "
+msgstr "CUPS yoqilgan; "
+
+#: .tmp/scrSummary.py:90
+#, fuzzy
+msgctxt "Widget"
+msgid "disabled cups; "
+msgstr "CUPS o'chirilgan; "
+
+#: .tmp/scrSummary.py:93
+#, fuzzy
+msgctxt "Widget"
+msgid "enabled bluetooth; "
+msgstr "Bluetooth yoqilgan; "
+
+#: .tmp/scrSummary.py:96
+#, fuzzy
+msgctxt "Widget"
+msgid "disabled bluetooth; "
+msgstr "Bluetooth o'chirilgan; "
+
+#: .tmp/scrSummary.py:101 .tmp/scrSummary.py:129
+#, fuzzy
+msgctxt "Widget"
+msgid "You have made no changes."
+msgstr "Siz o'zgartirish kiritmadingiz."
+
+#: .tmp/scrSummary.py:113
+#, fuzzy
+msgctxt "Widget"
+msgid "Security Settings"
+msgstr "Xavfsizlik sozlamalari"
+
+#: .tmp/scrSummary.py:116
+#, fuzzy
+msgctxt "Widget"
+msgid "enabled ClamAV; "
+msgstr "ClamAV yoqilgan; "
+
+#: .tmp/scrSummary.py:119
+#, fuzzy
+msgctxt "Widget"
+msgid "disabled ClamAV; "
+msgstr "ClamAV o'chirilgan; "
+
+#: .tmp/scrSummary.py:122
+#, fuzzy
+msgctxt "Widget"
+msgid "enabled the firewall; "
+msgstr "brandmauer yoqilgan; "
+
+#: .tmp/scrSummary.py:125
+#, fuzzy
+msgctxt "Widget"
+msgid "disabled the firewall; "
+msgstr "brandmauer o'chirilgan; "
+
+#: .tmp/scrSummary.py:146
+#, fuzzy
+msgctxt "Widget"
+msgid "Cannot restart plasma-desktop. Kapudan will now shut down."
+msgstr "Plasma ishchi stolini qayta ishga tushirib bo'lmadi. Kapudan yopiladi."
+
+#: .tmp/scrSummary.py:146
+#, fuzzy
+msgctxt "Widget"
+msgid "Error"
+msgstr "Xato"
+
+#: .tmp/scrWallpaper.py:24
+#, fuzzy
+msgctxt "Widget"
+msgid "Wallpaper"
+msgstr "Fon rasmi"
+
+#: .tmp/scrWallpaper.py:25
+#, fuzzy
+msgctxt "Widget"
+msgid "Choose a Wallpaper"
+msgstr "Fon rasmini tanlash"
+
+#: .tmp/scrWelcome.py:13
+#, fuzzy
+msgctxt "Widget"
+msgid "Welcome"
+msgstr "Xush kelibsiz"
+
+#: .tmp/scrWelcome.py:14
+#, fuzzy, python-format
+msgctxt "Widget"
+msgid "Welcome to %s"
+msgstr "%s'ga xush kelibsiz"
+
+#: .tmp/ui_kapudan.py:334
+#, fuzzy
+msgctxt "kapudan"
+msgid "Kapudan"
+msgstr "Kapudan"
+
+#: .tmp/ui_kapudan.py:335
+#, fuzzy
+msgctxt "kapudan"
+msgid "Welcome to Chakra"
+msgstr "Chakraga xush kelibsiz"
+
+#: .tmp/ui_kapudan.py:336
+#, fuzzy
+msgctxt "kapudan"
+msgid "Cancel"
+msgstr "Bekor qilish"
+
+#: .tmp/ui_kapudan.py:337
+#, fuzzy
+msgctxt "kapudan"
+msgid "Back"
+msgstr "Orqaga"
+
+#: .tmp/ui_kapudan.py:338
+#, fuzzy
+msgctxt "kapudan"
+msgid "Next"
+msgstr "Keyingi"
+
+#: .tmp/ui_kapudan.py:339
+#, fuzzy
+msgctxt "kapudan"
+msgid "Finish"
+msgstr "Tamom"
+
+#: .tmp/ui_kapudan.py:340
+#, fuzzy
+msgctxt "kapudan"
+msgid "Apply"
+msgstr "Qo'llash"
+
+#: .tmp/ui_scrAvatar.py:244
+msgctxt "Form"
+msgid "Form"
 msgstr ""
 
-#: .tmp/ui_scrMenu.py:135
+#: .tmp/ui_scrAvatar.py:245
+msgctxt "Form"
+msgid "<html><head/><body><p>This screen helps you set your <span style=\" font-weight:600;\">user picture</span>. You can either choose an image from a file, or you can capture an image from your camera, if you have one. Select an option from the <span style=\" font-weight:600;\">options</span> menu.</p></body></html>"
+msgstr ""
+
+#: .tmp/ui_scrAvatar.py:246
+#, fuzzy
+msgctxt "Form"
+msgid "Options"
+msgstr "Parametrlar"
+
+#: .tmp/ui_scrAvatar.py:247
+#, fuzzy
+msgctxt "Form"
+msgid "Choose an image"
+msgstr "Rasmni tanlash"
+
+#: .tmp/ui_scrAvatar.py:248
+msgctxt "Form"
+msgid "Capture"
+msgstr ""
+
+#: .tmp/ui_scrAvatar.py:249
+msgctxt "Form"
+msgid "Recapture"
+msgstr ""
+
+#: .tmp/ui_scrFolder.py:189
+#, fuzzy
+msgctxt "folderWidget"
+msgid "Home Folder"
+msgstr "Yu jildi"
+
+#: .tmp/ui_scrFolder.py:190
+#, fuzzy
+msgctxt "folderWidget"
+msgid "  Downloads  "
+msgstr "Yuklanishlar"
+
+#: .tmp/ui_scrFolder.py:191
+#, fuzzy
+msgctxt "folderWidget"
+msgid "  Documents  "
+msgstr "Hujjatlar"
+
+#: .tmp/ui_scrFolder.py:192
+#, fuzzy
+msgctxt "folderWidget"
+msgid "  Videos  "
+msgstr "  Video"
+
+#: .tmp/ui_scrFolder.py:193
+#, fuzzy
+msgctxt "folderWidget"
+msgid "  Music  "
+msgstr "Musiqa"
+
+#: .tmp/ui_scrFolder.py:194
+msgctxt "folderWidget"
+msgid "  Pictures  "
+msgstr ""
+
+#: .tmp/ui_scrFolder.py:195
+msgctxt "folderWidget"
 msgid ""
-"You can also customize your <b>KDE menu</b> as you like. Please choose one "
-"from the following styles."
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'DejaVu Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Selected: Downloads, Documents, Videos, Music, Pictures</span></p></body></html>"
 msgstr ""
 
-#: .tmp/ui_scrMenu.py:141
+#: .tmp/ui_scrFolder.py:200
+msgctxt "folderWidget"
+msgid "<html><head/><body><p>Your home directory does not contain folders for documents, music, pictures and the like by default. Kapudan will create the folders selected below for you now; unselect the ones you don't want.</p></body></html>"
+msgstr ""
+
+#: .tmp/ui_scrFolder.py:201
+#, fuzzy
+msgctxt "folderWidget"
+msgid "Folders"
+msgstr "Jildlar"
+
+#: .tmp/ui_scrGoodbye.py:356
+#, fuzzy
+msgctxt "goodbyeWidget"
+msgid "More"
+msgstr "Qo'shimcha"
+
+#: .tmp/ui_scrGoodbye.py:357
+msgctxt "goodbyeWidget"
+msgid "<html><head/><body><p><span style=\" font-weight:600;\">Your settings have been applied.</span> Now you can start enjoying Chakra, or check out the following links and applications for more settings, or for help and support. Don't forget to <span style=\" font-weight:600;\">join our community!</span></p></body></html>"
+msgstr ""
+
+#: .tmp/ui_scrGoodbye.py:358 .tmp/ui_scrGoodbye.py:360
+#, fuzzy
+msgctxt "goodbyeWidget"
+msgid "System Settings"
+msgstr "Uslub sozlamalari"
+
+#: .tmp/ui_scrGoodbye.py:359
+msgctxt "goodbyeWidget"
+msgid "Configuration tools for Chakra, such as the display settings, firewall, keyboard layout, user management..."
+msgstr ""
+
+#: .tmp/ui_scrGoodbye.py:361 .tmp/ui_scrGoodbye.py:363
+msgctxt "goodbyeWidget"
+msgid "Help and Support"
+msgstr ""
+
+#: .tmp/ui_scrGoodbye.py:362
+msgctxt "goodbyeWidget"
+msgid "Chakra community: mailing lists, chat rooms, Wiki documents, help and support pages..."
+msgstr ""
+
+#: .tmp/ui_scrGoodbye.py:364
+msgctxt "goodbyeWidget"
+msgid "Using KDE"
+msgstr ""
+
+#: .tmp/ui_scrGoodbye.py:365
+msgctxt "goodbyeWidget"
+msgid "Learn how to get the most out of KDE, the Plasma desktop, and everything else Chakra has to offer, in the Chakra Beginner's Guide."
+msgstr ""
+
+#: .tmp/ui_scrGoodbye.py:366
+msgctxt "goodbyeWidget"
+msgid "Beginner's Guide"
+msgstr ""
+
+#: .tmp/ui_scrGoodbye.py:367
+msgctxt "goodbyeWidget"
+msgid "Run Kapudan on system startup?"
+msgstr ""
+
+#: .tmp/ui_scrKeyboard.py:89
+#, fuzzy
+msgctxt "keyboardWidget"
+msgid "Keyboard"
+msgstr "Klaviatura"
+
+#: .tmp/ui_scrKeyboard.py:90
+msgctxt "keyboardWidget"
+msgid "<html><head/><body><p>Kapudan tries to automatically select the best keyboard layout according to your system language. If you want to use another layout, just make a selection below.</p></body></html>"
+msgstr ""
+
+#: .tmp/ui_scrKeyboard.py:91
+msgctxt "keyboardWidget"
+msgid "Test area:"
+msgstr ""
+
+#: .tmp/ui_scrMenu.py:147
+#, fuzzy
+msgctxt "menuWidget"
+msgid "Menu"
+msgstr "Menyu"
+
+#: .tmp/ui_scrMenu.py:148
+msgctxt "menuWidget"
+msgid "You can also customize your <b>KDE menu</b> as you like. Please choose one from the following styles."
+msgstr ""
+
+#: .tmp/ui_scrMenu.py:149
+msgctxt "menuWidget"
+msgid "Application Launcher"
+msgstr ""
+
+#: .tmp/ui_scrMenu.py:150
+msgctxt "menuWidget"
+msgid "Application Menu"
+msgstr ""
+
+#: .tmp/ui_scrMenu.py:151
+msgctxt "menuWidget"
+msgid "Application Dashboard"
+msgstr ""
+
+#: .tmp/ui_scrMenu.py:152
+msgctxt "menuWidget"
 msgid "Sample"
 msgstr ""
 
-#: .tmp/ui_scrKsuperkey.py:125
-msgid "Enable ksuperkey and start it at login."
+#: .tmp/ui_scrMouse.py:217
+#, fuzzy
+msgctxt "mouseWidget"
+msgid "Mouse"
+msgstr "Sichqoncha"
+
+#: .tmp/ui_scrMouse.py:218
+msgctxt "mouseWidget"
+msgid "<html><head/><body><p>The <span style=\" font-weight:600;\">clicking behavior</span> defines how many times you want to click to open files and folders. If you are <span style=\" font-weight:600;\">left handed</span>, you may prefer to swap the left and right buttons of your pointing device.</p></body></html>"
 msgstr ""
 
-#: .tmp/ui_scrKsuperkey.py:126
-msgid ""
-"<html><head/><body><p>By default, you can open the application launcher with"
-" the <span style=\" font-weight:600;\">Alt+F1</span> keyboard shortcut. The "
-"<span style=\" font-weight:600;\">ksuperkey</span> program will bind your "
-"&quot;Super&quot; key (also known as the &quot;Meta&quot; or "
-"&quot;Windows&quot; key) to send this key combination when tapped, making it"
-" easier to open the launcher.</p></body></html>"
+#: .tmp/ui_scrMouse.py:219
+msgctxt "mouseWidget"
+msgid "Clicking Behaviour"
 msgstr ""
 
-#: .tmp/ui_scrSummary.py:95
-msgid ""
-"<html><head/><body><p>You have successfully finished all steps. Here's a "
-"summary of the settings you want to apply. Click <span style=\" font-"
-"weight:600;\">Apply</span> if they look good, or go back and make more "
-"changes. </p></body></html>"
+#: .tmp/ui_scrMouse.py:220
+msgctxt "mouseWidget"
+msgid "Dou&ble-click to open files and folders"
 msgstr ""
 
-#: .tmp/ui_scrSummary.py:96
+#: .tmp/ui_scrMouse.py:221
+msgctxt "mouseWidget"
+msgid "Single-click to open files and folders"
+msgstr ""
+
+#: .tmp/ui_scrMouse.py:222
+msgctxt "mouseWidget"
+msgid "Button Order"
+msgstr ""
+
+#: .tmp/ui_scrMouse.py:223
+#, fuzzy
+msgctxt "mouseWidget"
+msgid "Right Hand"
+msgstr "O‘naqaylar uchun"
+
+#: .tmp/ui_scrMouse.py:224
+#, fuzzy
+msgctxt "mouseWidget"
+msgid "Left Hand"
+msgstr "Chapaqaylar uchun"
+
+#: .tmp/ui_scrMouse.py:225
+msgctxt "mouseWidget"
+msgid "Reverse scrolling"
+msgstr ""
+
+#: .tmp/ui_scrPackage.py:133
+#, fuzzy
+msgctxt "packageWidget"
+msgid "Packages"
+msgstr "Paketlar"
+
+#: .tmp/ui_scrPackage.py:134
+msgctxt "packageWidget"
+msgid "Check for updates automatically?"
+msgstr ""
+
+#: .tmp/ui_scrPackage.py:135
+msgctxt "packageWidget"
+msgid "<html><head/><body><p>To install and remove programs in Chakra, use the command-line program <a href=\"http://chakraos.org/wiki/index.php?title=Pacman\"><span style=\" text-decoration: underline; color:#00acff;\">pacman</span></a>. You can run <span style=\" font-weight:600;\">sudo pacman -Syu</span> to update, <span style=\" font-weight:600;\">pacman -Ss </span><span style=\" font-weight:600; font-style:italic;\">keyword</span> to search through the repos, and <span style=\" font-weight:600;\">sudo pacman -S </span><span style=\" font-weight:600; font-style:italic;\">package</span> to install packages.</p><p>Pacman does not have any sort of graphical interface, so Chakra ships with Octopi, a Pacman frontend which can also provide update notifications. When updates are available, Octopi Notifier will show a notification in your system tray. </p></body></html>"
+msgstr ""
+
+#: .tmp/ui_scrPackage.py:136
+msgctxt "packageWidget"
+msgid "Updates"
+msgstr ""
+
+#: .tmp/ui_scrSearch.py:95
+#, fuzzy
+msgctxt "searchWidget"
+msgid "Search"
+msgstr "Qidirish"
+
+#: .tmp/ui_scrSearch.py:96
+msgctxt "searchWidget"
+msgid "Strigi Desktop Search indexes your frequently used files. This gives you very fast file search results. Strigi also can search for files based on their contents. On older computers, this can use a lot of resources."
+msgstr ""
+
+#: .tmp/ui_scrSearch.py:97
+msgctxt "searchWidget"
+msgid "Allow Strigi to index my files"
+msgstr ""
+
+#: .tmp/ui_scrSearch.py:98
+#, fuzzy
+msgctxt "searchWidget"
+msgid "Search Options"
+msgstr "Qidirish parametrlari"
+
+#: .tmp/ui_scrSecurity.py:188
+#, fuzzy
+msgctxt "securityWidget"
+msgid "Security"
+msgstr "Xavfsizlik"
+
+#: .tmp/ui_scrSecurity.py:189
+#, fuzzy
+msgctxt "securityWidget"
+msgid "Enable the firewall (UFW)"
+msgstr "Brandmauerni yoqish (UFW)"
+
+#: .tmp/ui_scrSecurity.py:190
+msgctxt "securityWidget"
+msgid "Enable Clam AntiVirus daemon (must be installed and configured)"
+msgstr ""
+
+#: .tmp/ui_scrSecurity.py:191
+msgctxt "securityWidget"
+msgid "<html><head/><body><p>Other security tools provided by Chakra include Tomoyo-tools, the KDE Wallet, rkhunter, chkrootkit, tiger, and more. Click the buttons below to learn more about these tools.</p></body></html>"
+msgstr ""
+
+#: .tmp/ui_scrSecurity.py:192
+msgctxt "securityWidget"
+msgid "ClamAV: Detect and remove malware"
+msgstr ""
+
+#: .tmp/ui_scrSecurity.py:193
+msgctxt "securityWidget"
+msgid "Tomoyo-tools: A Mandatory Access Control (MAC) implementation for Linux"
+msgstr ""
+
+#: .tmp/ui_scrSecurity.py:194
+msgctxt "securityWidget"
+msgid "KDE Wallet Manager: Protect and encrypt passwords and other information"
+msgstr ""
+
+#: .tmp/ui_scrSecurity.py:195
+msgctxt "securityWidget"
+msgid "chkrootkit and rkhunter: Check for the presence of rootkits on your system"
+msgstr ""
+
+#: .tmp/ui_scrSecurity.py:196
+msgctxt "securityWidget"
+msgid "Tiger: A host-based intrusion detection and auditing tool"
+msgstr ""
+
+#: .tmp/ui_scrSecurity.py:197
+msgctxt "securityWidget"
+msgid "<html><head/><body><p>Finally, Chakra also provides a graphical tool to configure the system firewall. Just click on &quot;Firewall&quot; in the KDE System Settings.</p></body></html>"
+msgstr ""
+
+#: .tmp/ui_scrSecurity.py:198
+msgctxt "securityWidget"
+msgid "<html><head/><body><p>Security is a process, not a product, and no operating system can realistically claim to be perfectly secure. It is up to you to make sure you keep your system up to date, and follow best security practices. However, Chakra does provide a few tools to help you keep your system safe.</p></body></html>"
+msgstr ""
+
+#: .tmp/ui_scrSecurity.py:199
+#, fuzzy
+msgctxt "securityWidget"
+msgid "Security Tools"
+msgstr "Xavfsizlik vositalari"
+
+#: .tmp/ui_scrServices.py:109
+#, fuzzy
+msgctxt "servicesWidget"
+msgid "Services"
+msgstr "Xizmatlar"
+
+#: .tmp/ui_scrServices.py:110
+msgctxt "servicesWidget"
+msgid "cups: The Common Unix Printing Service"
+msgstr ""
+
+#: .tmp/ui_scrServices.py:111
+msgctxt "servicesWidget"
+msgid "bluetooth: Enable Bluetooth communication"
+msgstr ""
+
+#: .tmp/ui_scrServices.py:112
+msgctxt "servicesWidget"
+msgid "<html><head/><body><p>By default, new installations of Chakra have only a bare minimum of required services (also called &quot;daemons&quot;) enabled. Not only does this reflect Chakra's principle of not making decisions for its users, it also adds to a new installation's security, by decreasing the number of active services that might be vulnerable to an attack.</p><p>If you wish, you can use the options below to tell some of the more widely used daemons to start automatically at boot time. To enable any service you would like to start on bootup, you can run <span style=\" font-weight:600;\">sudo systemctl enable </span><span style=\" font-weight:600; font-style:italic;\">daemon-name</span>. Respectively, run <span style=\" font-weight:600;\">sudo systemctl disable </span><span style=\" font-weight:600; font-style:italic;\">daemon-name</span> to disable it. Or, if you just want to start daemons manually, try <span style=\" font-weight:600;\">sudo systemctl start </span><span style=\" font-weight:600; font-style:italic;\">daemon-name</span>. (Eg, <span style=\" font-weight:600;\">sudo systemctl start cups</span>).</p></body></html>"
+msgstr ""
+
+#: .tmp/ui_scrServices.py:113
+msgctxt "servicesWidget"
+msgid "Daemons to start at boot time"
+msgstr ""
+
+#: .tmp/ui_scrSummary.py:99
+#, fuzzy
+msgctxt "summaryWidget"
+msgid "Summary"
+msgstr "Jamlangan ma'lumot"
+
+#: .tmp/ui_scrSummary.py:100
+msgctxt "summaryWidget"
+msgid "<html><head/><body><p>You have successfully finished all steps. Here's a summary of the settings you want to apply. Click <span style=\" font-weight:600;\">Apply</span> if they look good, or go back and make more changes. </p></body></html>"
+msgstr ""
+
+#: .tmp/ui_scrSummary.py:101
+msgctxt "summaryWidget"
 msgid "The following settings will be applied"
 msgstr ""
+
+#: .tmp/ui_scrWallpaper.py:147
+#, fuzzy
+msgctxt "wallpaperWidget"
+msgid "Wallpaper"
+msgstr "Fon rasmi"
+
+#: .tmp/ui_scrWallpaper.py:148
+msgctxt "wallpaperWidget"
+msgid "<html><head/><body><p>Choose your favorite wallpaper for your Chakra desktop. Don't forget to check out <span style=\" font-weight:600;\">Desktop Settings</span> to download cool new wallpapers.</p></body></html>"
+msgstr ""
+
+#: .tmp/ui_scrWallpaper.py:149
+#, fuzzy
+msgctxt "wallpaperWidget"
+msgid "Wallpapers"
+msgstr "Fon rasmlari"
+
+#: .tmp/ui_scrWallpaper.py:151
+#, fuzzy
+msgctxt "wallpaperWidget"
+msgid "Choose wallpaper from file"
+msgstr "Fon rasmini fayldan tanlash"
+
+#: .tmp/ui_scrWallpaper.py:152
+#, fuzzy
+msgctxt "wallpaperWidget"
+msgid "Don't change wallpaper"
+msgstr "Fon rasmi o'zgarmasin"
+
+#: .tmp/ui_scrWelcome.py:74
+#, fuzzy
+msgctxt "welcomeWidget"
+msgid "Welcome"
+msgstr "Xush kelibsiz"
+
+#: .tmp/ui_scrWelcome.py:75
+#, fuzzy
+msgctxt "welcomeWidget"
+msgid "What is Chakra?"
+msgstr "Chakra bu nima?"
+
+#: .tmp/ui_scrWelcome.py:76
+msgctxt "welcomeWidget"
+msgid "<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span> is a GNU/Linux distribution with an emphasis on KDE and Qt that focuses on simplicity from a technical standpoint and cutting-edge software, bringing the latest technologies to you.<br/><br/>The primary goal of the project is to provide a fast, user-friendly and powerful Live CD and operating system, specifically crafted for the award winning KDE Software Compilation and the elegant Plasma Workspaces.<br/><br/><span style=\" font-weight:600;\">Kapudan</span> will help you personalize your Chakra installation easily and quickly. Just click <span style=\" font-weight:600;\">next</span> when you are ready to begin. If you prefer, you can simply close this window now and configure your computer yourself.</p></body></html>"
+msgstr ""
+
+#: .tmp/ui_wallpaperItem.py:69
+msgctxt "ServiceItemWidget"
+msgid "Form"
+msgstr ""
+
+#: .tmp/ui_wallpaperItem.py:70
+#, fuzzy
+msgctxt "ServiceItemWidget"
+msgid "wallPaperName"
+msgstr "Fon rasmi"
+
+#: .tmp/ui_wallpaperItem.py:71
+#, fuzzy
+msgctxt "ServiceItemWidget"
+msgid "wallpaperDesc"
+msgstr "Fon rasmlari"
+
+#~ msgid "Themes"
+#~ msgstr "Mavzular"
+
+#~ msgid "KDE Themes"
+#~ msgstr "KDE Mavzulari"
+
+#~ msgid "Desktop Type"
+#~ msgstr "Ishchi stolning turi"
+
+#~ msgid "Number of Desktops"
+#~ msgstr "Ishchi stollar soni"
+
+#~ msgid "Kick-off Menu"
+#~ msgstr "Kick-off menyusi"
+
+#~ msgid "Simple Menu"
+#~ msgstr "Oddiy menyu"
+
+#~ msgid "Lancelot Menu"
+#~ msgstr "Lancelot menyusi"
+
+#~ msgid "Homerun Menu"
+#~ msgstr "Homerun menyusi"
+
+#~ msgid "You haven't selected any style."
+#~ msgstr "Siz birorta uslub tanlamadingiz."
+
+#~ msgid "Selected Style: <b>%s</b>"
+#~ msgstr "Tanlangan uslub: <b>%s</b>"
+
+#~ msgid "Customize Your Desktop"
+#~ msgstr "Ishchi stolni moslashtirish"
+
+#~ msgid " minutes"
+#~ msgstr "daqiqa"

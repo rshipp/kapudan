@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-06 08:20-0600\n"
+"POT-Creation-Date: 2016-10-16 14:30-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,15 +17,18 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .tmp/ui_scrWelcome.py:87 .tmp/scrWelcome.py:28
+#: .tmp/ui_scrWelcome.py:74
+msgctxt "welcomeWidget"
 msgid "Welcome"
 msgstr ""
 
-#: .tmp/ui_scrWelcome.py:88
+#: .tmp/ui_scrWelcome.py:75
+msgctxt "welcomeWidget"
 msgid "What is Chakra?"
 msgstr ""
 
-#: .tmp/ui_scrWelcome.py:89
+#: .tmp/ui_scrWelcome.py:76
+msgctxt "welcomeWidget"
 msgid ""
 "<html><head/><body><p><span style=\" font-weight:600;\">Chakra</span> is a "
 "GNU/Linux distribution with an emphasis on KDE and Qt that focuses on "
@@ -40,49 +43,23 @@ msgid ""
 "and configure your computer yourself.</p></body></html>"
 msgstr ""
 
-#: .tmp/ui_scrStyle.py:202 .tmp/scrStyle.py:40
-msgid "Themes"
-msgstr ""
-
-#: .tmp/ui_scrStyle.py:203
-msgid ""
-"Choose your favorite theme and desktop type. Customize Chakra with colorful "
-"styles and themes."
-msgstr ""
-
-#: .tmp/ui_scrStyle.py:204
-msgid "KDE Themes"
-msgstr ""
-
-#: .tmp/ui_scrStyle.py:205
-msgid "Desktop Type"
-msgstr ""
-
-#: .tmp/ui_scrStyle.py:206
-msgid "Desktop view (KDE4 Style)"
-msgstr ""
-
-#: .tmp/ui_scrStyle.py:207
-msgid "Folder view (KDE3 Style)"
-msgstr ""
-
-#: .tmp/ui_scrStyle.py:208
-msgid "Number of Desktops"
-msgstr ""
-
-#: .tmp/ui_scrServices.py:123 .tmp/scrServices.py:31
+#: .tmp/ui_scrServices.py:109
+msgctxt "servicesWidget"
 msgid "Services"
 msgstr ""
 
-#: .tmp/ui_scrServices.py:124
+#: .tmp/ui_scrServices.py:110
+msgctxt "servicesWidget"
 msgid "cups: The Common Unix Printing Service"
 msgstr ""
 
-#: .tmp/ui_scrServices.py:125
+#: .tmp/ui_scrServices.py:111
+msgctxt "servicesWidget"
 msgid "bluetooth: Enable Bluetooth communication"
 msgstr ""
 
-#: .tmp/ui_scrServices.py:126
+#: .tmp/ui_scrServices.py:112
+msgctxt "servicesWidget"
 msgid ""
 "<html><head/><body><p>By default, new installations of Chakra have only a "
 "bare minimum of required services (also called &quot;daemons&quot;) enabled. "
@@ -102,51 +79,62 @@ msgid ""
 "span>).</p></body></html>"
 msgstr ""
 
-#: .tmp/ui_scrServices.py:127
+#: .tmp/ui_scrServices.py:113
+msgctxt "servicesWidget"
 msgid "Daemons to start at boot time"
 msgstr ""
 
-#: .tmp/scrFolder.py:30 .tmp/ui_scrFolder.py:215
+#: .tmp/scrFolder.py:17
+msgctxt "Widget"
 msgid "Folders"
 msgstr ""
 
-#: .tmp/scrFolder.py:31
+#: .tmp/scrFolder.py:18
+msgctxt "Widget"
 msgid "Create folders in the home directory"
 msgstr ""
 
-#: .tmp/scrFolder.py:79
+#: .tmp/scrFolder.py:66
+msgctxt "Widget"
 msgid "Selected: "
 msgstr ""
 
-#: .tmp/scrFolder.py:80
+#: .tmp/scrFolder.py:67
+msgctxt "Widget"
 msgid "Downloads"
 msgstr ""
 
-#: .tmp/scrFolder.py:81
+#: .tmp/scrFolder.py:68
+msgctxt "Widget"
 msgid "Documents"
 msgstr ""
 
-#: .tmp/scrFolder.py:82
+#: .tmp/scrFolder.py:69
+msgctxt "Widget"
 msgid "Videos"
 msgstr ""
 
-#: .tmp/scrFolder.py:83
+#: .tmp/scrFolder.py:70
+msgctxt "Widget"
 msgid "Music"
 msgstr ""
 
-#: .tmp/scrFolder.py:84
+#: .tmp/scrFolder.py:71
+msgctxt "Widget"
 msgid "Pictures"
 msgstr ""
 
-#: .tmp/scrFolder.py:108
+#: .tmp/scrFolder.py:95
+msgctxt "Widget"
 msgid "None"
 msgstr ""
 
-#: .tmp/scrFolder.py:142
+#: .tmp/scrFolder.py:129
+msgctxt "Widget"
 msgid "Created folders in home directory"
 msgstr ""
 
-#: .tmp/kapudan.desktop.in.h:1 .tmp/ui_kapudan.py:349
+#: .tmp/kapudan.desktop.in.h:1
 msgid "Kapudan"
 msgstr ""
 
@@ -154,85 +142,103 @@ msgstr ""
 msgid "Welcome Wizard"
 msgstr ""
 
-#: .tmp/scrPackage.py:32 .tmp/ui_scrPackage.py:147
+#: .tmp/scrPackage.py:18
+msgctxt "Widget"
 msgid "Packages"
 msgstr ""
 
-#: .tmp/scrPackage.py:33
+#: .tmp/scrPackage.py:19
+msgctxt "Widget"
 msgid "Install / Remove Programs"
 msgstr ""
 
-#: .tmp/ui_scrWallpaper.py:162 .tmp/scrWallpaper.py:37
+#: .tmp/ui_scrWallpaper.py:147
+msgctxt "wallpaperWidget"
 msgid "Wallpaper"
 msgstr ""
 
-#: .tmp/ui_scrWallpaper.py:163
+#: .tmp/ui_scrWallpaper.py:148
+msgctxt "wallpaperWidget"
 msgid ""
 "<html><head/><body><p>Choose your favorite wallpaper for your Chakra "
 "desktop. Don't forget to check out <span style=\" font-weight:600;\">Desktop "
 "Settings</span> to download cool new wallpapers.</p></body></html>"
 msgstr ""
 
-#: .tmp/ui_scrWallpaper.py:164
+#: .tmp/ui_scrWallpaper.py:149
+msgctxt "wallpaperWidget"
 msgid "Wallpapers"
 msgstr ""
 
-#: .tmp/ui_scrWallpaper.py:166
+#: .tmp/ui_scrWallpaper.py:151
+msgctxt "wallpaperWidget"
 msgid "Choose wallpaper from file"
 msgstr ""
 
-#: .tmp/ui_scrWallpaper.py:167
+#: .tmp/ui_scrWallpaper.py:152
+msgctxt "wallpaperWidget"
 msgid "Don't change wallpaper"
 msgstr ""
 
-#: .tmp/ui_scrSecurity.py:202 .tmp/scrSecurity.py:33
+#: .tmp/ui_scrSecurity.py:188
+msgctxt "securityWidget"
 msgid "Security"
 msgstr ""
 
-#: .tmp/ui_scrSecurity.py:203
+#: .tmp/ui_scrSecurity.py:189
+msgctxt "securityWidget"
 msgid "Enable the firewall (UFW)"
 msgstr ""
 
-#: .tmp/ui_scrSecurity.py:204
+#: .tmp/ui_scrSecurity.py:190
+msgctxt "securityWidget"
 msgid "Enable Clam AntiVirus daemon (must be installed and configured)"
 msgstr ""
 
-#: .tmp/ui_scrSecurity.py:205
+#: .tmp/ui_scrSecurity.py:191
+msgctxt "securityWidget"
 msgid ""
 "<html><head/><body><p>Other security tools provided by Chakra include Tomoyo-"
 "tools, the KDE Wallet, rkhunter, chkrootkit, tiger, and more. Click the "
 "buttons below to learn more about these tools.</p></body></html>"
 msgstr ""
 
-#: .tmp/ui_scrSecurity.py:206
+#: .tmp/ui_scrSecurity.py:192
+msgctxt "securityWidget"
 msgid "ClamAV: Detect and remove malware"
 msgstr ""
 
-#: .tmp/ui_scrSecurity.py:207
+#: .tmp/ui_scrSecurity.py:193
+msgctxt "securityWidget"
 msgid "Tomoyo-tools: A Mandatory Access Control (MAC) implementation for Linux"
 msgstr ""
 
-#: .tmp/ui_scrSecurity.py:208
+#: .tmp/ui_scrSecurity.py:194
+msgctxt "securityWidget"
 msgid "KDE Wallet Manager: Protect and encrypt passwords and other information"
 msgstr ""
 
-#: .tmp/ui_scrSecurity.py:209
+#: .tmp/ui_scrSecurity.py:195
+msgctxt "securityWidget"
 msgid ""
 "chkrootkit and rkhunter: Check for the presence of rootkits on your system"
 msgstr ""
 
-#: .tmp/ui_scrSecurity.py:210
+#: .tmp/ui_scrSecurity.py:196
+msgctxt "securityWidget"
 msgid "Tiger: A host-based intrusion detection and auditing tool"
 msgstr ""
 
-#: .tmp/ui_scrSecurity.py:211
+#: .tmp/ui_scrSecurity.py:197
+msgctxt "securityWidget"
 msgid ""
 "<html><head/><body><p>Finally, Chakra also provides a graphical tool to "
 "configure the system firewall. Just click on &quot;Firewall&quot; in the KDE "
 "System Settings.</p></body></html>"
 msgstr ""
 
-#: .tmp/ui_scrSecurity.py:212
+#: .tmp/ui_scrSecurity.py:198
+msgctxt "securityWidget"
 msgid ""
 "<html><head/><body><p>Security is a process, not a product, and no operating "
 "system can realistically claim to be perfectly secure. It is up to you to "
@@ -241,59 +247,89 @@ msgid ""
 "system safe.</p></body></html>"
 msgstr ""
 
-#: .tmp/ui_scrSecurity.py:213
+#: .tmp/ui_scrSecurity.py:199
+msgctxt "securityWidget"
 msgid "Security Tools"
 msgstr ""
 
-#: .tmp/scrMouse.py:32 .tmp/ui_scrMouse.py:232
+#: .tmp/scrMouse.py:18
+msgctxt "Widget"
 msgid "Mouse"
 msgstr ""
 
-#: .tmp/scrMouse.py:33
+#: .tmp/scrMouse.py:19
+msgctxt "Widget"
 msgid "Setup Mouse Behavior"
 msgstr ""
 
-#: .tmp/scrMouse.py:145
+#: .tmp/scrMouse.py:105
+msgctxt "Widget"
 msgid "Left Handed"
 msgstr ""
 
-#: .tmp/scrMouse.py:145
+#: .tmp/scrMouse.py:105
+msgctxt "Widget"
 msgid "Right Handed"
 msgstr ""
 
-#: .tmp/scrMouse.py:146
-msgid "Single Click "
+#: .tmp/scrMouse.py:108
+msgctxt "Widget"
+msgid "Single Click"
 msgstr ""
 
-#: .tmp/scrMouse.py:146
+#: .tmp/scrMouse.py:108
+msgctxt "Widget"
 msgid "Double Click"
 msgstr ""
 
-#: .tmp/ui_scrFolder.py:203
+#: .tmp/ui_scrFolder.py:189
+msgctxt "folderWidget"
 msgid "Home Folder"
 msgstr ""
 
-#: .tmp/ui_scrFolder.py:204
+#: .tmp/ui_scrFolder.py:190
+msgctxt "folderWidget"
 msgid "  Downloads  "
 msgstr ""
 
-#: .tmp/ui_scrFolder.py:205
+#: .tmp/ui_scrFolder.py:191
+msgctxt "folderWidget"
 msgid "  Documents  "
 msgstr ""
 
-#: .tmp/ui_scrFolder.py:206
+#: .tmp/ui_scrFolder.py:192
+msgctxt "folderWidget"
 msgid "  Videos  "
 msgstr ""
 
-#: .tmp/ui_scrFolder.py:207
+#: .tmp/ui_scrFolder.py:193
+msgctxt "folderWidget"
 msgid "  Music  "
 msgstr ""
 
-#: .tmp/ui_scrFolder.py:208
+#: .tmp/ui_scrFolder.py:194
+msgctxt "folderWidget"
 msgid "  Pictures  "
 msgstr ""
 
-#: .tmp/ui_scrFolder.py:214
+#: .tmp/ui_scrFolder.py:195
+msgctxt "folderWidget"
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'DejaVu Sans'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-"
+"left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span "
+"style=\" font-weight:600;\">Selected: Downloads, Documents, Videos, Music, "
+"Pictures</span></p></body></html>"
+msgstr ""
+
+#: .tmp/ui_scrFolder.py:200
+msgctxt "folderWidget"
 msgid ""
 "<html><head/><body><p>Your home directory does not contain folders for "
 "documents, music, pictures and the like by default. Kapudan will create the "
@@ -301,322 +337,299 @@ msgid ""
 "body></html>"
 msgstr ""
 
-#: .tmp/ui_kapudan.py:350
+#: .tmp/ui_scrFolder.py:201
+msgctxt "folderWidget"
+msgid "Folders"
+msgstr ""
+
+#: .tmp/ui_kapudan.py:334
+msgctxt "kapudan"
+msgid "Kapudan"
+msgstr ""
+
+#: .tmp/ui_kapudan.py:335
+msgctxt "kapudan"
 msgid "Welcome to Chakra"
 msgstr ""
 
-#: .tmp/ui_kapudan.py:351
+#: .tmp/ui_kapudan.py:336
+msgctxt "kapudan"
 msgid "Cancel"
 msgstr ""
 
-#: .tmp/ui_kapudan.py:352
+#: .tmp/ui_kapudan.py:337
+msgctxt "kapudan"
 msgid "Back"
 msgstr ""
 
-#: .tmp/ui_kapudan.py:353
+#: .tmp/ui_kapudan.py:338
+msgctxt "kapudan"
 msgid "Next"
 msgstr ""
 
-#: .tmp/ui_kapudan.py:354
+#: .tmp/ui_kapudan.py:339
+msgctxt "kapudan"
 msgid "Finish"
 msgstr ""
 
-#: .tmp/ui_kapudan.py:355
+#: .tmp/ui_kapudan.py:340
+msgctxt "kapudan"
 msgid "Apply"
 msgstr ""
 
-#: .tmp/ui_scrSearch.py:109
+#: .tmp/ui_scrSearch.py:95
+msgctxt "searchWidget"
 msgid "Search"
 msgstr ""
 
-#: .tmp/ui_scrSearch.py:110
+#: .tmp/ui_scrSearch.py:96
+msgctxt "searchWidget"
 msgid ""
 "Strigi Desktop Search indexes your frequently used files. This gives you "
 "very fast file search results. Strigi also can search for files based on "
 "their contents. On older computers, this can use a lot of resources."
 msgstr ""
 
-#: .tmp/ui_scrSearch.py:111
+#: .tmp/ui_scrSearch.py:97
+msgctxt "searchWidget"
 msgid "Allow Strigi to index my files"
 msgstr ""
 
-#: .tmp/ui_scrSearch.py:112
+#: .tmp/ui_scrSearch.py:98
+msgctxt "searchWidget"
 msgid "Search Options"
 msgstr ""
 
-#: .tmp/scrMenu.py:28 .tmp/ui_scrMenu.py:164
+#: .tmp/scrMenu.py:20
+msgctxt "Widget"
 msgid "Menu"
 msgstr ""
 
-#: .tmp/scrMenu.py:29
+#: .tmp/scrMenu.py:21
+msgctxt "Widget"
 msgid "Choose a Menu Style"
 msgstr ""
 
-#: .tmp/scrMenu.py:43 .tmp/ui_scrMenu.py:166
-msgid "Kick-off Menu"
+#: .tmp/scrMenu.py:31
+msgctxt "Widget"
+msgid "Application Launcher"
+msgstr ""
+
+#: .tmp/scrMenu.py:33
+msgctxt "Widget"
+msgid ""
+"Application Launcher is the default menu in Chakra.<br><br>The program "
+"shortcuts are easy to access and well organized."
+msgstr ""
+
+#: .tmp/scrMenu.py:37
+msgctxt "Widget"
+msgid "Application Menu"
+msgstr ""
+
+#: .tmp/scrMenu.py:39
+msgctxt "Widget"
+msgid ""
+"Application Menu is an old style menu from KDE 3.<br><br>It is a very "
+"lightweight menu thus it is recommended for slower PC's."
+msgstr ""
+
+#: .tmp/scrMenu.py:43
+msgctxt "Widget"
+msgid "Application Dashboard"
 msgstr ""
 
 #: .tmp/scrMenu.py:45
+msgctxt "Widget"
 msgid ""
-"Kick-off menu is the default menu of Chakra.<br><br>The program shortcuts "
-"are easy to access and well organized."
+"Application Dashboard is a fullscreen menu.<br><br>The program shortcuts are "
+"easy to access and well organized."
 msgstr ""
 
-#: .tmp/scrMenu.py:49 .tmp/ui_scrMenu.py:167
-msgid "Simple Menu"
-msgstr ""
-
-#: .tmp/scrMenu.py:51
-msgid ""
-"Simple menu is an old style menu from KDE 3.<br><br>It is a very lightweight "
-"menu thus it is recommended for slower PC's."
-msgstr ""
-
-#: .tmp/scrMenu.py:55 .tmp/ui_scrMenu.py:168
-msgid "Lancelot Menu"
-msgstr ""
-
-#: .tmp/scrMenu.py:57
-msgid ""
-"Lancelot is an advanced and highly customizable menu for Chakra.<br><br>The "
-"program shortcuts are easy to access and well organized."
-msgstr ""
-
-#: .tmp/scrMenu.py:61 .tmp/ui_scrMenu.py:169
-msgid "Homerun Menu"
-msgstr ""
-
-#: .tmp/scrMenu.py:63
-msgid "Homerun is a full screen launcher with content organized in tabs."
-msgstr ""
-
-#: .tmp/scrMenu.py:67 .tmp/ui_scrMenu.py:170
-msgid "AppMenu QML"
-msgstr ""
-
-#: .tmp/scrMenu.py:69
-msgid ""
-"This plasmoid shows a menu of the installed applications, similar to "
-"Lancelot but much simpler"
-msgstr ""
-
-#: .tmp/scrMenu.py:73 .tmp/ui_scrMenu.py:171
-msgid "Homerun Kicker"
-msgstr ""
-
-#: .tmp/scrMenu.py:75
-msgid "A non-fullscreen version of Homerun."
-msgstr ""
-
-#: .tmp/ui_wallpaperItem.py:82 .tmp/ui_scrAvatar.py:256
-#: .tmp/ui_scrStyleItem.py:79
+#: .tmp/ui_wallpaperItem.py:69
+msgctxt "ServiceItemWidget"
 msgid "Form"
 msgstr ""
 
-#: .tmp/ui_wallpaperItem.py:83
+#: .tmp/ui_wallpaperItem.py:70
+msgctxt "ServiceItemWidget"
 msgid "wallPaperName"
 msgstr ""
 
-#: .tmp/ui_wallpaperItem.py:84
+#: .tmp/ui_wallpaperItem.py:71
+msgctxt "ServiceItemWidget"
 msgid "wallpaperDesc"
 msgstr ""
 
-#: .tmp/scrExtra.py:31
-msgid "GTK"
-msgstr ""
-
-#: .tmp/scrExtra.py:32
-msgid "GTK Integration and [extra]"
-msgstr ""
-
-#: .tmp/scrKsuperkey.py:31 .tmp/ui_scrKsuperkey.py:148
-#: .tmp/ui_scrKsuperkey.py:151
-msgid "ksuperkey"
-msgstr ""
-
-#: .tmp/scrKsuperkey.py:32
-msgid "Enable / Disable ksuperkey"
-msgstr ""
-
-#: .tmp/ui_scrKeyboard.py:102
+#: .tmp/ui_scrKeyboard.py:89
+msgctxt "keyboardWidget"
 msgid "Keyboard"
 msgstr ""
 
-#: .tmp/ui_scrKeyboard.py:103
+#: .tmp/ui_scrKeyboard.py:90
+msgctxt "keyboardWidget"
 msgid ""
 "<html><head/><body><p>Kapudan tries to automatically select the best "
 "keyboard layout according to your system language. If you want to use "
 "another layout, just make a selection below.</p></body></html>"
 msgstr ""
 
-#: .tmp/ui_scrKeyboard.py:104
+#: .tmp/ui_scrKeyboard.py:91
+msgctxt "keyboardWidget"
 msgid "Test area:"
 msgstr ""
 
-#: .tmp/scrSummary.py:47 .tmp/ui_scrSummary.py:113
+#: .tmp/scrSummary.py:29
+msgctxt "Widget"
 msgid "Summary"
 msgstr ""
 
-#: .tmp/scrSummary.py:48
+#: .tmp/scrSummary.py:30
+msgctxt "Widget"
 msgid "Save Your Settings"
 msgstr ""
 
-#: .tmp/scrSummary.py:73
+#: .tmp/scrSummary.py:53
+msgctxt "Widget"
 msgid "Mouse Settings"
 msgstr ""
 
-#: .tmp/scrSummary.py:75
+#: .tmp/scrSummary.py:55
 #, python-format
+msgctxt "Widget"
 msgid "Selected Mouse configuration: <b>%s</b>"
 msgstr ""
 
-#: .tmp/scrSummary.py:76
+#: .tmp/scrSummary.py:56
 #, python-format
+msgctxt "Widget"
 msgid "Selected clicking behavior: <b>%s</b>"
 msgstr ""
 
-#: .tmp/scrSummary.py:80
+#: .tmp/scrSummary.py:60
+msgctxt "Widget"
 msgid "Menu Settings"
 msgstr ""
 
-#: .tmp/scrSummary.py:81
+#: .tmp/scrSummary.py:61
 #, python-format
+msgctxt "Widget"
 msgid "Selected Menu: <b>%s</b>"
 msgstr ""
 
-#: .tmp/scrSummary.py:85
+#: .tmp/scrSummary.py:65
+msgctxt "Widget"
 msgid "Wallpaper Settings"
 msgstr ""
 
-#: .tmp/scrSummary.py:87
+#: .tmp/scrSummary.py:67
+msgctxt "Widget"
 msgid "You haven't selected any wallpaper."
 msgstr ""
 
-#: .tmp/scrSummary.py:89
+#: .tmp/scrSummary.py:69
 #, python-format
+msgctxt "Widget"
 msgid "Selected Wallpaper: <b>%s</b>"
 msgstr ""
 
-#: .tmp/scrSummary.py:93
-msgid "Style Settings"
-msgstr ""
-
-#: .tmp/scrSummary.py:96
-msgid "You haven't selected any style."
-msgstr ""
-
-#: .tmp/scrSummary.py:98
-#, python-format
-msgid "Selected Style: <b>%s</b>"
-msgstr ""
-
-#: .tmp/scrSummary.py:104
+#: .tmp/scrSummary.py:74
+msgctxt "Widget"
 msgid "Package Management Settings"
 msgstr ""
 
-#: .tmp/scrSummary.py:105
+#: .tmp/scrSummary.py:75
+msgctxt "Widget"
 msgid "You have enabled or disabled octopi-notifier."
 msgstr ""
 
-#: .tmp/scrSummary.py:112 .tmp/scrSummary.py:141 .tmp/scrSummary.py:169
+#: .tmp/scrSummary.py:82 .tmp/scrSummary.py:111
+msgctxt "Widget"
 msgid "You have: "
 msgstr ""
 
-#: .tmp/scrSummary.py:114
+#: .tmp/scrSummary.py:84
+msgctxt "Widget"
 msgid "Services Settings"
 msgstr ""
 
-#: .tmp/scrSummary.py:117
+#: .tmp/scrSummary.py:87
+msgctxt "Widget"
 msgid "enabled cups; "
 msgstr ""
 
-#: .tmp/scrSummary.py:120
+#: .tmp/scrSummary.py:90
+msgctxt "Widget"
 msgid "disabled cups; "
 msgstr ""
 
-#: .tmp/scrSummary.py:123
+#: .tmp/scrSummary.py:93
+msgctxt "Widget"
 msgid "enabled bluetooth; "
 msgstr ""
 
-#: .tmp/scrSummary.py:126
+#: .tmp/scrSummary.py:96
+msgctxt "Widget"
 msgid "disabled bluetooth; "
 msgstr ""
 
-#: .tmp/scrSummary.py:131 .tmp/scrSummary.py:159 .tmp/scrSummary.py:181
+#: .tmp/scrSummary.py:101 .tmp/scrSummary.py:129
+msgctxt "Widget"
 msgid "You have made no changes."
 msgstr ""
 
-#: .tmp/scrSummary.py:143
+#: .tmp/scrSummary.py:113
+msgctxt "Widget"
 msgid "Security Settings"
 msgstr ""
 
-#: .tmp/scrSummary.py:146
+#: .tmp/scrSummary.py:116
+msgctxt "Widget"
 msgid "enabled ClamAV; "
 msgstr ""
 
-#: .tmp/scrSummary.py:149
+#: .tmp/scrSummary.py:119
+msgctxt "Widget"
 msgid "disabled ClamAV; "
 msgstr ""
 
-#: .tmp/scrSummary.py:152
+#: .tmp/scrSummary.py:122
+msgctxt "Widget"
 msgid "enabled the firewall; "
 msgstr ""
 
-#: .tmp/scrSummary.py:155
+#: .tmp/scrSummary.py:125
+msgctxt "Widget"
 msgid "disabled the firewall; "
 msgstr ""
 
-#: .tmp/scrSummary.py:171
-msgid "Extra Settings"
-msgstr ""
-
-#: .tmp/scrSummary.py:174
-msgid "enabled the [extra] repo; "
-msgstr ""
-
-#: .tmp/scrSummary.py:177
-msgid "disabled the [extra] repo; "
-msgstr ""
-
-#: .tmp/scrSummary.py:198
+#: .tmp/scrSummary.py:146
+msgctxt "Widget"
 msgid "Error"
 msgstr ""
 
-#: .tmp/scrSummary.py:198
+#: .tmp/scrSummary.py:146
+msgctxt "Widget"
 msgid "Cannot restart plasma-desktop. Kapudan will now shut down."
 msgstr ""
 
-#: .tmp/scrStyle.py:41
-msgid "Customize Your Desktop"
+#: .tmp/scrWallpaper.py:24
+msgctxt "Widget"
+msgid "Wallpaper"
 msgstr ""
 
-#: .tmp/ui_scrExtra.py:148 .tmp/ui_scrExtra.py:151
-msgid "GTK Integration"
-msgstr ""
-
-#: .tmp/ui_scrExtra.py:149
-msgid "Enable the [extra] repository."
-msgstr ""
-
-#: .tmp/ui_scrExtra.py:150
-msgid ""
-"<html><head/><body><p>Chakra believes in providing an environment that is as "
-"clean as possible, and fully focused on KDE. This means there are no GTK "
-"applications in the repositories enabled by default. However, we recognize "
-"that there are quite a few &quot;must have&quot; GTK applications; these are "
-"provided in the <span style=\" font-weight:600;\">[extra] </span><a href="
-"\"http://chakraos.org/wiki/index.php?title=Repositories\"><span style=\" "
-"text-decoration: underline; color:#00acff;\">repository</span></a>, which "
-"can be enabled by those users that want to use it. For better integration of "
-"your GTK apps, please install gtk-integration or the GTK theme of your "
-"choice.</p></body></html>"
-msgstr ""
-
-#: .tmp/scrWallpaper.py:38
+#: .tmp/scrWallpaper.py:25
+msgctxt "Widget"
 msgid "Choose a Wallpaper"
 msgstr ""
 
-#: .tmp/ui_scrAvatar.py:257
+#: .tmp/ui_scrAvatar.py:244
+msgctxt "Form"
+msgid "Form"
+msgstr ""
+
+#: .tmp/ui_scrAvatar.py:245
+msgctxt "Form"
 msgid ""
 "<html><head/><body><p>This screen helps you set your <span style=\" font-"
 "weight:600;\">user picture</span>. You can either choose an image from a "
@@ -625,35 +638,48 @@ msgid ""
 "p></body></html>"
 msgstr ""
 
-#: .tmp/ui_scrAvatar.py:258
+#: .tmp/ui_scrAvatar.py:246
+msgctxt "Form"
 msgid "Options"
 msgstr ""
 
-#: .tmp/ui_scrAvatar.py:259
+#: .tmp/ui_scrAvatar.py:247
+msgctxt "Form"
 msgid "Choose an image"
 msgstr ""
 
-#: .tmp/ui_scrAvatar.py:260
+#: .tmp/ui_scrAvatar.py:248
+msgctxt "Form"
 msgid "Capture"
 msgstr ""
 
-#: .tmp/ui_scrAvatar.py:261
+#: .tmp/ui_scrAvatar.py:249
+msgctxt "Form"
 msgid "Recapture"
 msgstr ""
 
-#: .tmp/scrGoodbye.py:28 .tmp/ui_scrGoodbye.py:375
+#: .tmp/scrGoodbye.py:15
+msgctxt "Widget"
 msgid "More"
 msgstr ""
 
-#: .tmp/scrGoodbye.py:29
+#: .tmp/scrGoodbye.py:16
+msgctxt "Widget"
 msgid "Congratulations!"
 msgstr ""
 
-#: .tmp/ui_scrPackage.py:148
+#: .tmp/ui_scrPackage.py:133
+msgctxt "packageWidget"
+msgid "Packages"
+msgstr ""
+
+#: .tmp/ui_scrPackage.py:134
+msgctxt "packageWidget"
 msgid "Check for updates automatically?"
 msgstr ""
 
-#: .tmp/ui_scrPackage.py:149
+#: .tmp/ui_scrPackage.py:135
+msgctxt "packageWidget"
 msgid ""
 "<html><head/><body><p>To install and remove programs in Chakra, use the "
 "command-line program <a href=\"http://chakraos.org/wiki/index.php?"
@@ -669,11 +695,18 @@ msgid ""
 "will show a notification in your system tray. </p></body></html>"
 msgstr ""
 
-#: .tmp/ui_scrPackage.py:150
+#: .tmp/ui_scrPackage.py:136
+msgctxt "packageWidget"
 msgid "Updates"
 msgstr ""
 
-#: .tmp/ui_scrMouse.py:233
+#: .tmp/ui_scrMouse.py:217
+msgctxt "mouseWidget"
+msgid "Mouse"
+msgstr ""
+
+#: .tmp/ui_scrMouse.py:218
+msgctxt "mouseWidget"
 msgid ""
 "<html><head/><body><p>The <span style=\" font-weight:600;\">clicking "
 "behavior</span> defines how many times you want to click to open files and "
@@ -682,35 +715,48 @@ msgid ""
 "p></body></html>"
 msgstr ""
 
-#: .tmp/ui_scrMouse.py:234
+#: .tmp/ui_scrMouse.py:219
+msgctxt "mouseWidget"
 msgid "Clicking Behaviour"
 msgstr ""
 
-#: .tmp/ui_scrMouse.py:235
+#: .tmp/ui_scrMouse.py:220
+msgctxt "mouseWidget"
 msgid "Dou&ble-click to open files and folders"
 msgstr ""
 
-#: .tmp/ui_scrMouse.py:236
+#: .tmp/ui_scrMouse.py:221
+msgctxt "mouseWidget"
 msgid "Single-click to open files and folders"
 msgstr ""
 
-#: .tmp/ui_scrMouse.py:237
+#: .tmp/ui_scrMouse.py:222
+msgctxt "mouseWidget"
 msgid "Button Order"
 msgstr ""
 
-#: .tmp/ui_scrMouse.py:238
+#: .tmp/ui_scrMouse.py:223
+msgctxt "mouseWidget"
 msgid "Right Hand"
 msgstr ""
 
-#: .tmp/ui_scrMouse.py:239
+#: .tmp/ui_scrMouse.py:224
+msgctxt "mouseWidget"
 msgid "Left Hand"
 msgstr ""
 
-#: .tmp/ui_scrMouse.py:240
+#: .tmp/ui_scrMouse.py:225
+msgctxt "mouseWidget"
 msgid "Reverse scrolling"
 msgstr ""
 
-#: .tmp/ui_scrGoodbye.py:376
+#: .tmp/ui_scrGoodbye.py:356
+msgctxt "goodbyeWidget"
+msgid "More"
+msgstr ""
+
+#: .tmp/ui_scrGoodbye.py:357
+msgctxt "goodbyeWidget"
 msgid ""
 "<html><head/><body><p><span style=\" font-weight:600;\">Your settings have "
 "been applied.</span> Now you can start enjoying Chakra, or check out the "
@@ -719,90 +765,122 @@ msgid ""
 "span></p></body></html>"
 msgstr ""
 
-#: .tmp/ui_scrGoodbye.py:377 .tmp/ui_scrGoodbye.py:379
+#: .tmp/ui_scrGoodbye.py:358 .tmp/ui_scrGoodbye.py:360
+msgctxt "goodbyeWidget"
 msgid "System Settings"
 msgstr ""
 
-#: .tmp/ui_scrGoodbye.py:378
+#: .tmp/ui_scrGoodbye.py:359
+msgctxt "goodbyeWidget"
 msgid ""
 "Configuration tools for Chakra, such as the display settings, firewall, "
 "keyboard layout, user management..."
 msgstr ""
 
-#: .tmp/ui_scrGoodbye.py:380 .tmp/ui_scrGoodbye.py:382
+#: .tmp/ui_scrGoodbye.py:361 .tmp/ui_scrGoodbye.py:363
+msgctxt "goodbyeWidget"
 msgid "Help and Support"
 msgstr ""
 
-#: .tmp/ui_scrGoodbye.py:381
+#: .tmp/ui_scrGoodbye.py:362
+msgctxt "goodbyeWidget"
 msgid ""
 "Chakra community: mailing lists, chat rooms, Wiki documents, help and "
 "support pages..."
 msgstr ""
 
-#: .tmp/ui_scrGoodbye.py:383
+#: .tmp/ui_scrGoodbye.py:364
+msgctxt "goodbyeWidget"
 msgid "Using KDE"
 msgstr ""
 
-#: .tmp/ui_scrGoodbye.py:384
+#: .tmp/ui_scrGoodbye.py:365
+msgctxt "goodbyeWidget"
 msgid ""
 "Learn how to get the most out of KDE, the Plasma desktop, and everything "
 "else Chakra has to offer, in the Chakra Beginner's Guide."
 msgstr ""
 
-#: .tmp/ui_scrGoodbye.py:385
+#: .tmp/ui_scrGoodbye.py:366
+msgctxt "goodbyeWidget"
 msgid "Beginner's Guide"
 msgstr ""
 
-#: .tmp/ui_scrGoodbye.py:386
+#: .tmp/ui_scrGoodbye.py:367
+msgctxt "goodbyeWidget"
 msgid "Run Kapudan on system startup?"
 msgstr ""
 
-#: .tmp/scrWelcome.py:29
+#: .tmp/scrWelcome.py:13
+msgctxt "Widget"
+msgid "Welcome"
+msgstr ""
+
+#: .tmp/scrWelcome.py:14
 #, python-format
+msgctxt "Widget"
 msgid "Welcome to %s"
 msgstr ""
 
-#: .tmp/scrSecurity.py:34
+#: .tmp/scrSecurity.py:19
+msgctxt "Widget"
+msgid "Security"
+msgstr ""
+
+#: .tmp/scrSecurity.py:20
+msgctxt "Widget"
 msgid "Keep your system secure"
 msgstr ""
 
-#: .tmp/scrServices.py:32
+#: .tmp/scrServices.py:17
+msgctxt "Widget"
+msgid "Services"
+msgstr ""
+
+#: .tmp/scrServices.py:18
+msgctxt "Widget"
 msgid "Enable / Disable Services (Daemons)"
 msgstr ""
 
-#: .tmp/ui_scrStyleItem.py:80
-msgid "styleName"
+#: .tmp/ui_scrMenu.py:147
+msgctxt "menuWidget"
+msgid "Menu"
 msgstr ""
 
-#: .tmp/ui_scrStyleItem.py:81
-msgid "styleDesc"
-msgstr ""
-
-#: .tmp/ui_scrMenu.py:165
+#: .tmp/ui_scrMenu.py:148
+msgctxt "menuWidget"
 msgid ""
 "You can also customize your <b>KDE menu</b> as you like. Please choose one "
 "from the following styles."
 msgstr ""
 
-#: .tmp/ui_scrMenu.py:172
+#: .tmp/ui_scrMenu.py:149
+msgctxt "menuWidget"
+msgid "Application Launcher"
+msgstr ""
+
+#: .tmp/ui_scrMenu.py:150
+msgctxt "menuWidget"
+msgid "Application Menu"
+msgstr ""
+
+#: .tmp/ui_scrMenu.py:151
+msgctxt "menuWidget"
+msgid "Application Dashboard"
+msgstr ""
+
+#: .tmp/ui_scrMenu.py:152
+msgctxt "menuWidget"
 msgid "Sample"
 msgstr ""
 
-#: .tmp/ui_scrKsuperkey.py:149
-msgid "Enable ksuperkey and start it at login."
+#: .tmp/ui_scrSummary.py:99
+msgctxt "summaryWidget"
+msgid "Summary"
 msgstr ""
 
-#: .tmp/ui_scrKsuperkey.py:150
-msgid ""
-"<html><head/><body><p>By default, you can open the application launcher with "
-"the <span style=\" font-weight:600;\">Alt+F1</span> keyboard shortcut. The "
-"<span style=\" font-weight:600;\">ksuperkey</span> program will bind your "
-"&quot;Super&quot; key (also known as the &quot;Meta&quot; or &quot;"
-"Windows&quot; key) to send this key combination when tapped, making it "
-"easier to open the launcher.</p></body></html>"
-msgstr ""
-
-#: .tmp/ui_scrSummary.py:114
+#: .tmp/ui_scrSummary.py:100
+msgctxt "summaryWidget"
 msgid ""
 "<html><head/><body><p>You have successfully finished all steps. Here's a "
 "summary of the settings you want to apply. Click <span style=\" font-"
@@ -810,6 +888,7 @@ msgid ""
 "changes. </p></body></html>"
 msgstr ""
 
-#: .tmp/ui_scrSummary.py:115
+#: .tmp/ui_scrSummary.py:101
+msgctxt "summaryWidget"
 msgid "The following settings will be applied"
 msgstr ""
