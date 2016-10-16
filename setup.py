@@ -96,7 +96,7 @@ class Install(install):
             kde_dir = "/usr"
         bin_dir = os.path.join(kde_dir, "bin")
         locale_dir = os.path.join(kde_dir, "share/locale")
-        project_dir = os.path.join(kde_dir, "share/kde4/apps", "kapudan")
+        project_dir = os.path.join(kde_dir, "share/apps", "kapudan")
 
         # Make directories
         print("Making directories...")
