@@ -37,10 +37,6 @@ def update_messages():
     for filename in glob.glob(".tmp/*.desktop.in"):
         os.system("intltool-extract --type=gettext/ini %s" % filename)
 
-    # Fix a pesky problem
-    os.system("find .tmp -name '*.py' | "
-              "xargs sed -i 's/kdecore\.i18n(_fromUtf8(\(.*\))/kdecore.i18n(\\1/g'")
-
     # Generate POT file
     os.system("find .tmp -name '*.py' -o -name '*.h' | "
               "xargs xgettext --default-domain=%s \
